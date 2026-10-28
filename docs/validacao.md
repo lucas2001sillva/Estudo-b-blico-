@@ -35,6 +35,10 @@ Essas consultas públicas não comprovam cadastro, login, sincronização entre 
 
 ## Apresentação e acessibilidade
 
+Atualização visual de 28/10/2026: `npm test` passou com **32 testes** e a suíte completa de navegador passou com **14 testes**. Após ajustar somente a espera de decodificação na captura, os três testes novos de navegador foram repetidos com sucesso. A conferência das fontes, transcrições e dos 228 assets de 171 seções passou por `import-study-visuals.py --verify-only`; a validação das 28 evidências dos quizzes também passou. Gráfico 39/27, associações dos sete autores, alternância de imagens por tema, ampliação/teclado/foco, leitura em voz por texto verificado e layout de 390 pixels foram exercitados. As fontes e o conteúdo original dos quizzes não mudaram.
+
+As novas figuras foram verificadas localmente. A publicação dessa atualização e sua conferência no endereço público precisam ocorrer depois do envio da versão. A política de áudio e as limitações das transcrições visuais estão em [figuras-estudos.md](figuras-estudos.md).
+
 Layout conferido em larguras de 390, 768 e 1.440 pixels, sem rolagem horizontal indevida nos fluxos examinados. Temas, ajuste de fonte, navegação por teclado e link para pular ao conteúdo foram exercitados. As capturas estão em `/workspace/artifacts/` na máquina de desenvolvimento.
 
 A saída de áudio não foi validada auditivamente. As vozes disponíveis dependem do navegador e do dispositivo. Uma avaliação com leitores de tela reais e pessoas com dificuldade de leitura continua sendo uma etapa própria de validação.

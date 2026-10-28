@@ -31,6 +31,7 @@ O servidor entrega a interface e a API na porta 3001. `GET /api/health` verifica
 - Conclusão manual e reversível de capítulos; progresso geral, por livro e por assunto de estudo.
 - Trilhas livres e uma recomendação para iniciantes, sem bloqueio por sequência.
 - Estudos organizados por assunto, com indicação do PDF e da página de origem.
+- Gráficos, quadros e diagramas em imagens, com ampliação e descrições verificadas; os dois quadros introdutórios possuem versões redesenhadas nos temas claro e escuro.
 - Quizzes por assunto, sem cronômetro, com explicação, pontuação, novas tentativas e histórico.
 - Cinquenta passagens extraídas dos arquivos da Bíblia, com destaque diário e navegação manual entre elas.
 - Temas claro e escuro; ajuste de fonte; navegação por teclado; leitura em voz alta com pausa e velocidade ajustável.
@@ -97,6 +98,8 @@ Os testes da API usam bancos temporários; os testes de conteúdo verificam refe
 O escopo e as decisões do produto estão em [docs/escopo-inicial.md](docs/escopo-inicial.md).
 
 Os resultados executados e as limitações conhecidas estão em [docs/validacao.md](docs/validacao.md).
+
+A origem das figuras, a reprodução dos arquivos e as regras de leitura acessível estão em [docs/figuras-estudos.md](docs/figuras-estudos.md).
 
 A hospedagem no Render e o armazenamento persistente estão descritos em [docs/publicacao.md](docs/publicacao.md). O Dockerfile também está disponível para implantação em contêiner.
 

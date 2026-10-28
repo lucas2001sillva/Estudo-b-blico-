@@ -4,7 +4,8 @@ import {
   CircleHelp, FileText, Headphones, RotateCcw, Route, Search, Sparkles,
   Trophy, Volume2,
 } from 'lucide-react';
-import type { Lesson, ProgressState, Quiz, QuizAttempt, StatePatch, Studies } from '../types';
+import type { Lesson, ProgressState, Quiz, QuizAttempt, StatePatch, Studies, StudySection } from '../types';
+import { StudyVisual } from './StudyVisual';
 import '../styles/studies.css';
 
 interface SharedProps {
@@ -49,9 +50,23 @@ function SourceLink({ id, page, title, compact = false }: { id: string; page: nu
   );
 }
 
+function sectionReadingText(section: StudySection) {
+  // A supplied reading is complete and already includes any verified figure descriptions.
+  // Never append extracted body text to it, especially when an empty reading was deliberate.
+  if (section.readingText !== undefined) return section.readingText.trim();
+  if (section.reviewStatus === 'needs-review') return '';
+  if (section.visuals?.length) {
+    return [section.displayBody ?? '', ...section.visuals.map(visual => visual.accessibleText ?? ''), section.bodyAfterVisuals ?? ''].filter(Boolean).join('\n\n');
+  }
+  return section.displayBody ?? section.body;
+}
+
 function lessonSpeech(lesson: Lesson) {
   const description = lesson.summary && normalize(lesson.description) === normalize(lesson.summary) ? '' : lesson.description;
-  return [lesson.title, description, ...(lesson.summary ? [`Em palavras simples. ${lesson.summary}`, 'Texto do material.'] : []), ...lesson.sections.filter(section => section.reviewStatus !== 'needs-review').map(section => `${section.title}. ${section.body}`)].filter(Boolean).join('\n\n');
+  return [lesson.title, description, ...(lesson.summary ? [`Em palavras simples. ${lesson.summary}`, 'Texto do material.'] : []), ...lesson.sections.map(section => {
+    const text = sectionReadingText(section);
+    return text ? `${section.title}. ${text}` : '';
+  })].filter(Boolean).join('\n\n');
 }
 
 function AnswerReview({ quiz, answers }: { quiz: Quiz; answers: number[] }) {
@@ -130,8 +145,8 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
           <article className="card study-article">
             <header className="study-article-header">
               <span className="eyebrow">{trail?.title ?? 'Estudo bíblico'}</span>
-              <h1 ref={headingRef} tabIndex={-1}>{selectedLesson.title}</h1>
-              {(!selectedLesson.summary || normalize(selectedLesson.description) !== normalize(selectedLesson.summary)) && <p className="muted study-lesson-description">{selectedLesson.description}</p>}
+              <h1 ref={headingRef} tabIndex={-1} data-readable>{selectedLesson.title}</h1>
+              {(!selectedLesson.summary || normalize(selectedLesson.description) !== normalize(selectedLesson.summary)) && <p className="muted study-lesson-description" data-readable>{selectedLesson.description}</p>}
               <div className="study-article-actions">
                 <button className="button button-secondary" onClick={() => onSpeak(lessonSpeech(selectedLesson))}>
                   <Volume2 size={17} aria-hidden="true" /> Ouvir este estudo
@@ -142,7 +157,7 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
 
             <div className="study-reader-note">
               <BookOpen size={18} aria-hidden="true" />
-              <p>Conteúdo organizado a partir dos arquivos enviados. Consulte o PDF de consulta para conferir textos, imagens e diagramas.</p>
+              <p>Conteúdo organizado a partir dos arquivos enviados, com os quadros e diagramas preservados em imagens. Amplie para ver os detalhes e consulte o PDF para conferir a fonte.</p>
             </div>
 
             {hasReviewNotice && <div className="study-review-notice" role="note">
@@ -152,35 +167,50 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
             {selectedLesson.summary && <section className="study-summary" aria-labelledby="study-summary-heading">
               <span className="eyebrow">Em palavras simples</span>
               <h2 id="study-summary-heading">Para entender este assunto</h2>
-              <div className="study-summary-body">{selectedLesson.summary.split(/\n\s*\n/).filter(Boolean).map((paragraph, index) => <p key={index}>{paragraph}</p>)}</div>
+              <div className="study-summary-body" data-readable>{selectedLesson.summary.split(/\n\s*\n/).filter(Boolean).map((paragraph, index) => <p key={index}>{paragraph}</p>)}</div>
               <div className="study-summary-citations"><p>Baseado em {source?.title ?? 'material enviado'}:</p><div>{[...new Set(selectedLesson.summarySourcePages?.length ? selectedLesson.summarySourcePages : [selectedLesson.startPage])].map(page => <SourceLink key={page} id={selectedLesson.sourceId} page={page} compact />)}</div></div>
             </section>}
 
             <div className="study-reading-content">
-              {selectedLesson.summary && <div className="study-transcription-heading"><span className="eyebrow">Para aprofundar</span><h2>Texto do material</h2><p className="muted">Acompanhe o conteúdo das páginas e consulte o PDF para conferir imagens e diagramas.</p></div>}
+              {selectedLesson.summary && <div className="study-transcription-heading"><span className="eyebrow">Para aprofundar</span><h2>Texto e imagens do material</h2><p className="muted">Acompanhe a leitura e amplie os gráficos, quadros e diagramas para ver as relações do material.</p></div>}
               {selectedLesson.sections.length === 0 && <p className="muted">O texto acessível deste assunto ainda não está disponível. Consulte o PDF acima.</p>}
-              {selectedLesson.sections.map((section, index) => (
+              {selectedLesson.sections.map((section, index) => {
+                const reading = sectionReadingText(section);
+                const body = section.displayBody ?? (section.visuals?.length ? '' : section.body);
+                return (
                 <section className="study-text-section" key={`${section.sourcePage}-${index}`} aria-labelledby={`study-section-${index}`}>
                   <div className="study-section-topline"><span>Página {section.sourcePage}</span></div>
                   <h2 id={`study-section-${index}`}>{section.reviewStatus === 'needs-review' ? 'Página em conferência' : section.title}</h2>
+                  {reading && <span hidden aria-hidden="true" data-readable>{section.title}. {reading}</span>}
                   {section.reviewStatus === 'needs-review' ? (
                     <div className="study-review-notice">
-                      <p>Este trecho contém texto ilegível ou informações que precisam de revisão. Para evitar apresentar uma informação incorreta, consulte a página no PDF.</p>
+                      <p>A transcrição desta página ainda precisa de conferência. {section.visuals?.length ? 'A imagem preserva a organização do material original; amplie para consultar os detalhes.' : 'Consulte a página no PDF para conferir as informações.'}</p>
                     </div>
                   ) : (
                     <>
                       {(section.reviewStatus === 'ocr-reviewed' || section.reviewStatus === 'ocr-extracted') && <p className="study-transcription-note">Texto convertido de imagem; consulte a fonte em caso de dúvida. Esta conversão não substitui o PDF de consulta.</p>}
-                      <div className="study-section-body">
-                        {section.body.split(/\n\s*\n/).filter(Boolean).map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
-                      </div>
+                      {body.trim() && <div className="study-section-body">
+                        {body.split(/\n\s*\n/).filter(Boolean).map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
+                      </div>}
                     </>
                   )}
+                  {section.visuals?.map(visual => <StudyVisual key={visual.id} visual={visual} theme={progress.preferences.theme} onSpeak={onSpeak} />)}
+                  {section.reviewStatus !== 'needs-review' && section.bodyAfterVisuals?.trim() && <div className="study-section-body">
+                    {section.bodyAfterVisuals.split(/\n\s*\n/).filter(Boolean).map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
+                  </div>}
+                  {section.sourceTranscript !== undefined && <details className="study-source-transcript">
+                    <summary>Texto extraído — em conferência</summary>
+                    <div className="study-source-transcript-body">
+                      <p className="study-source-transcript-warning">A ordem das frases pode não preservar as relações da imagem. Consulte a figura para conferir.</p>
+                      {section.sourceTranscript.split(/\n\s*\n/).filter(Boolean).map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
+                    </div>
+                  </details>}
                   <div className="study-page-actions">
                     <SourceLink id={selectedLesson.sourceId} page={section.sourcePage} />
-                    {section.reviewStatus !== 'needs-review' && <button className="button button-ghost" onClick={() => onSpeak(`${section.title}. ${section.body}`)} aria-label={`Ouvir texto da página ${section.sourcePage}`}><Volume2 size={15} aria-hidden="true" /> Ouvir página</button>}
+                    {reading && <button className="button button-ghost" onClick={() => onSpeak(`${section.title}. ${reading}`)} aria-label={`Ouvir texto da página ${section.sourcePage}`}><Volume2 size={15} aria-hidden="true" /> Ouvir página</button>}
                   </div>
                 </section>
-              ))}
+              ); })}
             </div>
 
             <footer className="study-article-footer">

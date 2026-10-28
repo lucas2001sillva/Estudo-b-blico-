@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1136" viewBox="0 0 760 1136" role="img" aria-labelledby="title description">
+<title id="title">Destaques sobre os autores da Bíblia</title>
+<desc id="description">Destaques sobre os autores da Bíblia. Autores e contextos da inspiração divina. Moisés: Legislador e libertador do povo hebreu. Davi: Poeta e rei de Israel, autor de diversos salmos. Isaías: Profeta que anunciou a vinda do Messias. Mateus: Cobrador de impostos transformado em discípulo. Lucas: Médico e historiador detalhista. Paulo: Apóstolo e missionário, autor de grande parte das cartas cristãs. João: Discípulo amado de Cristo, escreveu sobre o amor e a esperança eterna. Cada um, em seu contexto, foi movido pelo Espírito Santo para registrar verdades espirituais que continuam relevantes até hoje.</desc>
+<metadata>Fonte: Jornada da Bíblia — Parte 1, arquivo study-1.pdf, página 4. Redesenho vetorial; dados e relações preservados.</metadata>
+<rect width="760" height="1136" rx="20" fill="#ffffff"/>
+<text x="38" y="37" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11" font-weight="600" text-anchor="start" fill="#69736b">JORNADA DA BÍBLIA · PARTE 1</text>
+<text x="38" y="83" font-family="Georgia,serif" font-size="31" font-weight="400" text-anchor="start" fill="#29332d">Destaques sobre os autores da Bíblia</text>
+<text x="54" y="128" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#69736b">Autores</text>
+<text x="210" y="128" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#69736b">Contextos da Inspiração Divina</text>
+<g data-author="Moisés">
+<rect x="38" y="154" width="684" height="96" rx="12" fill="#ffffff" stroke="#e5e7df" stroke-width="1.5"/>
+<rect x="38" y="154" width="147" height="96" rx="12" fill="#245341"/>
+<text x="111.5" y="211" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="25" font-weight="650" text-anchor="middle" fill="#ffffff">Moisés</text>
+<text x="208" y="211" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#29332d">Legislador e libertador do povo hebreu.</text>
+</g>
+<g data-author="Davi">
+<rect x="38" y="262" width="684" height="96" rx="12" fill="#ffffff" stroke="#e5e7df" stroke-width="1.5"/>
+<rect x="38" y="262" width="147" height="96" rx="12" fill="#245341"/>
+<text x="111.5" y="319" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="25" font-weight="650" text-anchor="middle" fill="#ffffff">Davi</text>
+<text x="208" y="302" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#29332d">Poeta e rei de Israel, autor de diversos</text>
+<text x="208" y="331" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#29332d">salmos.</text>
+</g>
+<g data-author="Isaías">
+<rect x="38" y="370" width="684" height="96" rx="12" fill="#ffffff" stroke="#e5e7df" stroke-width="1.5"/>
+<rect x="38" y="370" width="147" height="96" rx="12" fill="#245341"/>
+<text x="111.5" y="427" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="25" font-weight="650" text-anchor="middle" fill="#ffffff">Isaías</text>
+<text x="208" y="427" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#29332d">Profeta que anunciou a vinda do Messias.</text>
+</g>
+<g data-author="Mateus">
+<rect x="38" y="478" width="684" height="96" rx="12" fill="#ffffff" stroke="#e5e7df" stroke-width="1.5"/>
+<rect x="38" y="478" width="147" height="96" rx="12" fill="#245341"/>
+<text x="111.5" y="535" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="25" font-weight="650" text-anchor="middle" fill="#ffffff">Mateus</text>
+<text x="208" y="518" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#29332d">Cobrador de impostos transformado em</text>
+<text x="208" y="547" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#29332d">discípulo.</text>
+</g>
+<g data-author="Lucas">
+<rect x="38" y="586" width="684" height="96" rx="12" fill="#ffffff" stroke="#e5e7df" stroke-width="1.5"/>
+<rect x="38" y="586" width="147" height="96" rx="12" fill="#245341"/>
+<text x="111.5" y="643" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="25" font-weight="650" text-anchor="middle" fill="#ffffff">Lucas</text>
+<text x="208" y="643" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#29332d">Médico e historiador detalhista.</text>
+</g>
+<g data-author="Paulo">
+<rect x="38" y="694" width="684" height="96" rx="12" fill="#ffffff" stroke="#e5e7df" stroke-width="1.5"/>
+<rect x="38" y="694" width="147" height="96" rx="12" fill="#245341"/>
+<text x="111.5" y="751" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="25" font-weight="650" text-anchor="middle" fill="#ffffff">Paulo</text>
+<text x="208" y="734" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#29332d">Apóstolo e missionário, autor de grande</text>
+<text x="208" y="763" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#29332d">parte das cartas cristãs.</text>
+</g>
+<g data-author="João">
+<rect x="38" y="802" width="684" height="96" rx="12" fill="#ffffff" stroke="#e5e7df" stroke-width="1.5"/>
+<rect x="38" y="802" width="147" height="96" rx="12" fill="#245341"/>
+<text x="111.5" y="859" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="25" font-weight="650" text-anchor="middle" fill="#ffffff">João</text>
+<text x="208" y="842" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#29332d">Discípulo amado de Cristo, escreveu sobre o</text>
+<text x="208" y="871" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#29332d">amor e a esperança eterna.</text>
+</g>
+<rect x="38" y="926" width="684" height="140" rx="12" fill="#eaf1e9"/>
+<text x="58" y="963" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#29332d">Cada um, em seu contexto, foi movido pelo Espírito Santo</text>
+<text x="58" y="992" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#29332d">para registrar verdades espirituais que continuam</text>
+<text x="58" y="1021" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#29332d">relevantes até hoje.</text>
+<line x1="38" y1="1085" x2="722" y2="1085" stroke="#e5e7df"/>
+<text x="38" y="1111" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#69736b">Fonte: Jornada da Bíblia — Parte 1 · p. 4</text>
+</svg>

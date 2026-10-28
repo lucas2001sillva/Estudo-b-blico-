@@ -2,7 +2,31 @@ export interface Verse { number: number; text: string }
 export interface Book { id: string; name: string; abbreviation: string; testament: 'AT' | 'NT'; chapterCount: number }
 export interface Chapter { number: number; verses: Verse[]; sourcePages: number[] }
 export interface Source { id: string; title: string; file: string; totalPages: number }
-export interface StudySection { title: string; body: string; sourcePage: number; reviewStatus: 'extracted' | 'ocr-extracted' | 'ocr-reviewed' | 'needs-review' }
+export interface StudyVisual {
+  id: string;
+  title: string;
+  lightSrc: string;
+  darkSrc?: string;
+  width: number;
+  height: number;
+  description: string;
+  accessibleText?: string;
+  kind: 'chart' | 'table' | 'diagram' | 'illustration' | 'page';
+  redrawn: boolean;
+}
+export interface StudySection {
+  title: string;
+  body: string;
+  sourcePage: number;
+  reviewStatus: 'extracted' | 'ocr-extracted' | 'ocr-reviewed' | 'needs-review';
+  displayBody?: string;
+  bodyAfterVisuals?: string;
+  /** Unverified extraction, available for consultation but excluded from narration. */
+  sourceTranscript?: string;
+  /** Complete verified reading, including figure descriptions; an empty value suppresses narration. */
+  readingText?: string;
+  visuals?: StudyVisual[];
+}
 export interface Lesson { id: string; title: string; trailId: string; description: string; summary?: string; summarySourcePages?: number[]; sourceId: string; startPage: number; endPage: number; sections: StudySection[] }
 export interface Trail { id: string; title: string; description: string; lessonIds: string[]; recommended: boolean }
 export interface Question { id: string; prompt: string; choices: string[]; answerIndex: number; explanation: string; source: { sourceId: string; page: number } }

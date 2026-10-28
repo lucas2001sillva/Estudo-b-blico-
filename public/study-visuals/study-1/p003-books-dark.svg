@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="460" viewBox="0 0 700 460" role="img" aria-labelledby="title description">
+<title id="title">Total de livros por testamento</title>
+<desc id="description">Total de livros por testamento. Antigo Testamento: 39 livros. Novo Testamento: 27 livros. O eixo do gráfico vai de zero a 40 livros, com marcações em zero, 10, 20, 30 e 40.</desc>
+<metadata>Fonte: Jornada da Bíblia — Parte 1, arquivo study-1.pdf, página 3. Redesenho vetorial; dados e relações preservados.</metadata>
+<rect width="700" height="460" rx="20" fill="#1e2520"/>
+<text x="38" y="37" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11" font-weight="600" text-anchor="start" fill="#b4bdb3">JORNADA DA BÍBLIA · PARTE 1</text>
+<text x="38" y="82" font-family="Georgia,serif" font-size="29" font-weight="400" text-anchor="start" fill="#edf1e9">Total de livros por testamento</text>
+<line x1="38" y1="153" x2="38" y2="354" stroke="#364138" stroke-width="1.5"/>
+<text x="38" y="387" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#b4bdb3">0</text>
+<line x1="194" y1="153" x2="194" y2="354" stroke="#364138" stroke-width="1.5"/>
+<text x="194" y="387" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#b4bdb3">10</text>
+<line x1="350" y1="153" x2="350" y2="354" stroke="#364138" stroke-width="1.5"/>
+<text x="350" y="387" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#b4bdb3">20</text>
+<line x1="506" y1="153" x2="506" y2="354" stroke="#364138" stroke-width="1.5"/>
+<text x="506" y="387" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#b4bdb3">30</text>
+<line x1="662" y1="153" x2="662" y2="354" stroke="#364138" stroke-width="1.5"/>
+<text x="662" y="387" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#b4bdb3">40</text>
+<text x="38" y="138" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22" font-weight="600" text-anchor="start" fill="#edf1e9">Antigo Testamento</text>
+<rect x="38" y="156" width="608.4" height="62" rx="8" fill="#bad6b8" data-category="Antigo Testamento" data-value="39"/>
+<text x="629.4" y="197" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="28" font-weight="650" text-anchor="end" fill="#151a17">39</text>
+<text x="38" y="266" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22" font-weight="600" text-anchor="start" fill="#edf1e9">Novo Testamento</text>
+<rect x="38" y="284" width="421.2" height="62" rx="8" fill="#bad6b8" data-category="Novo Testamento" data-value="27"/>
+<text x="442.2" y="325" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="28" font-weight="650" text-anchor="end" fill="#151a17">27</text>
+<line x1="38" y1="413" x2="662" y2="413" stroke="#364138"/>
+<text x="38" y="437" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#b4bdb3">Fonte: Jornada da Bíblia — Parte 1 · p. 3</text>
+</svg>

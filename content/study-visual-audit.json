@@ -1,0 +1,3752 @@
+{
+  "version": 1,
+  "method": "Visual audit of all 251 supplied study pages; preserve compositions instead of interpreting linear OCR.",
+  "scope": {
+    "study-1": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11
+    ],
+    "study-2": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "study-3": [
+      3,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      17,
+      19,
+      21,
+      23,
+      25,
+      26,
+      28,
+      30,
+      31,
+      33,
+      35,
+      37,
+      39,
+      40,
+      41,
+      43,
+      45,
+      47,
+      49,
+      50,
+      51,
+      53,
+      55,
+      57,
+      59,
+      61,
+      63,
+      67
+    ],
+    "study-4": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      9,
+      10,
+      12,
+      22,
+      23,
+      26,
+      27,
+      29,
+      31,
+      33,
+      35,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      55,
+      57,
+      59,
+      61,
+      62,
+      63,
+      65,
+      67,
+      69,
+      72,
+      74
+    ],
+    "gospels": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "sources": [
+    {
+      "id": "study-1",
+      "sha256": "0d8e3ddd6dea6dfc0adcc6e96798b6da924991b92e26867ac104879a28c526e8"
+    },
+    {
+      "id": "study-2",
+      "sha256": "0cf39673ab9bd3551fab03a629d89fca70fe4b07ab37dc4c1e3d70a40dffd072"
+    },
+    {
+      "id": "study-3",
+      "sha256": "06786a9fdbb5ff794ad3f8807ddda7d36edff8549ad2b51ca5f7ea5004215e60"
+    },
+    {
+      "id": "study-4",
+      "sha256": "56836b86b447a58645fc886430267c7963d165652ed4ec53dbaec456037ed59b"
+    },
+    {
+      "id": "gospels",
+      "sha256": "c0ef2c1ce510de28f10e241e928b7d51dda2cbb72bd87f2c6fbd09140bfb65b8"
+    }
+  ],
+  "visualSections": 171,
+  "reviewedRedrawings": 2,
+  "entries": [
+    {
+      "sourceId": "study-1",
+      "sourcePage": 3,
+      "mode": "reviewed-redrawing",
+      "crop": [
+        132.0,
+        640.0,
+        456.0,
+        780.0
+      ],
+      "bodySha256": "4d6b60abb62d75d77c9584aab8b7c1f4054816854088b3f555e4aa0fe5e82f72",
+      "assets": [
+        {
+          "url": "/study-visuals/study-1/p003-books-light.svg",
+          "sha256": "c6cd447d37609e21dbc5029da0dbb931e716c28120c765743a5917577dc961db",
+          "bytes": 3495
+        },
+        {
+          "url": "/study-visuals/study-1/p003-books-dark.svg",
+          "sha256": "f5deb4c714ce088ba7d22cab325b73e5ac99dac14c3f85834bb9f6fcc889c0ce",
+          "bytes": 3495
+        }
+      ]
+    },
+    {
+      "sourceId": "study-1",
+      "sourcePage": 4,
+      "mode": "reviewed-redrawing",
+      "crop": [
+        58.0,
+        205.0,
+        536.0,
+        633.0
+      ],
+      "bodySha256": "ab9cabf8b536682ea9c84c9c8fed95c5ef94ffb384953c29371e176adc6c4cf9",
+      "assets": [
+        {
+          "url": "/study-visuals/study-1/p004-authors-light.svg",
+          "sha256": "846fd8ec7713585a01fe48d493429cb1627ecf5d9ac481bbe15e1934b0c6d863",
+          "bytes": 7746
+        },
+        {
+          "url": "/study-visuals/study-1/p004-authors-dark.svg",
+          "sha256": "b1b6cf11f1ebcca036d1e347cbf267b2a50fa4ca14eb11210cf02609f96ac026",
+          "bytes": 7746
+        }
+      ]
+    },
+    {
+      "sourceId": "study-1",
+      "sourcePage": 5,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "60641fd938c92359a494163e0c0a1adee78e23d034cbcdf0e5666c58da923940",
+      "assets": [
+        {
+          "url": "/study-visuals/study-1/p005.webp",
+          "sha256": "b1af5412d556829f71ad6fde32c34ae22cd901c6181afcff849672c76adfaf0c",
+          "bytes": 159514
+        }
+      ]
+    },
+    {
+      "sourceId": "study-1",
+      "sourcePage": 6,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "999afe89af79b406a54ceea69d3dc30ef238f121488caafe8bfff2d96ffe5648",
+      "assets": [
+        {
+          "url": "/study-visuals/study-1/p006.webp",
+          "sha256": "9775e748a24bef86ed4fce5a12df1218977fc1dea2d92ec0de50e4cd53083a47",
+          "bytes": 223598
+        }
+      ]
+    },
+    {
+      "sourceId": "study-1",
+      "sourcePage": 7,
+      "mode": "faithful-illustration",
+      "crop": [
+        190.0,
+        94.0,
+        405.0,
+        183.0
+      ],
+      "bodySha256": "afa6e2dd7cb662ec6c6ee61903cd1a30bc876de096c04134069c26f9cc4304b2",
+      "assets": [
+        {
+          "url": "/study-visuals/study-1/p007.webp",
+          "sha256": "0f3c38e4004a47627fe2117fcbd1cdb58d456b120967f3805e39e354127dfd63",
+          "bytes": 106620
+        }
+      ]
+    },
+    {
+      "sourceId": "study-1",
+      "sourcePage": 8,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "4d26a75efeebd9014e9777972e5c3af0616bd654cc111b2335e8dd51b8833b86",
+      "assets": [
+        {
+          "url": "/study-visuals/study-1/p008.webp",
+          "sha256": "0a810e85cd8b9a716318b86848824ab8e413516095ddb644c38a5d13e49e729f",
+          "bytes": 156824
+        }
+      ]
+    },
+    {
+      "sourceId": "study-1",
+      "sourcePage": 11,
+      "mode": "faithful-illustration",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        632.0
+      ],
+      "bodySha256": "0c8de2a696aa31bcc04d40b68b12986320bbf396ce514cd40349a8c99a473318",
+      "assets": [
+        {
+          "url": "/study-visuals/study-1/p011.webp",
+          "sha256": "00f4aa840dcaf5c3100536ed7c0b6276165e65a2a057a4fdb3dbc5f797a17f13",
+          "bytes": 130674
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 2,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "8db910d33b4ab11c32458257e354dc8461334551ed1ce95ef2176c89b84b18c2",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p002.webp",
+          "sha256": "06ff711f3eade1420ea27ed936ac0f4ffd1aa5500077b99421ee03c22f572bf0",
+          "bytes": 526350
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 3,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "1fdbdf549b73c03605ab7b9b0024a6f3795d58ddab2f95b9e4ccbd41b31ff0b3",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p003.webp",
+          "sha256": "da66a363a2002334b69896a728603f64f3ef0e730401c40dbf4e6965664d44e2",
+          "bytes": 509350
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 4,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "5de2a451fb703439e092d277043c9353a6a55514bd9c5f92a3429e3bea2e7c15",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p004.webp",
+          "sha256": "0cbd1f5459422642305f69703b613a85a3c297cd5ca97b457606b39c478860b3",
+          "bytes": 407014
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 5,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "941d621cbe653b7add9346f8fb7c7caf428c80a5f98223155a7ad649e9c6562f",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p005.webp",
+          "sha256": "e04ca54328a88f4dc9a309800eab10805c31f4a2d63abadfa499bd48ffb4a3ea",
+          "bytes": 320132
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 6,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "750f9fbbaebca8ec052c32bc6317695dbe29642235aaaefb97813994948cce38",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p006.webp",
+          "sha256": "4f58246e84f394c55c53efd9d5d58e1e745d990af98428fc09469afd5ac5fa84",
+          "bytes": 414712
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 7,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "631138dd6cd01ea49d76dfe58831f69faf0ae54d3fcf55769bf633bad8e99b8a",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p007.webp",
+          "sha256": "ffd18a26f1a56ce5894b6077b781ce18eb8bb51c241a16e6b210379d61e76018",
+          "bytes": 643890
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 8,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "1d07b3553dd95b754e789513b255737f89b039bb913d62345d6320ce0a0d06ea",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p008.webp",
+          "sha256": "bb0ce00bdbd0000017f2bceb81fa759e8485680a4f563772e2cd8c379de84063",
+          "bytes": 345270
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 9,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "e80a0b2786f9f9926337481f32c7e1a64ac7ef992ac7eebe9c49fef905f9c955",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p009.webp",
+          "sha256": "7c2a1dd156ded82e6e726ed8de87556963c5586ac0cf04ab897f805e1045d088",
+          "bytes": 183124
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 10,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "d073c0e9f500caf84bdad525f0c24aa5d1b30ab9235897dd3494f5af4865a810",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p010.webp",
+          "sha256": "1ccd0fe0d7ccc05e18fb643f718f16495f7835690c504e76b51104b70d6afab7",
+          "bytes": 474938
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 11,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "fc1f707a7e3a7651d89d77eccf8486d6ecdd2e77b890b1af50f48c0d05b6625b",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p011.webp",
+          "sha256": "f46b519f481736673365c952cf9a978fab4229d0a0fcf41ffd38f35d10865894",
+          "bytes": 569484
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 12,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "5338a3a77be123a863f5de3cc5b7f9e47a012ab89398f5fc82310e3878369e5f",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p012.webp",
+          "sha256": "7b8f7899e268ee4837da3f0ea81dccda031b3035c539878f8c51a86560d90173",
+          "bytes": 565144
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 13,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "eae77814af4082059b5c3c9c85cc64fed7d8452e58c8530ef6a6df54532eab78",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p013.webp",
+          "sha256": "39a94e66a9e7aac9beff342c117dd36a01effe7cb4b96ff3d4fe64cc99ed4b0f",
+          "bytes": 568598
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 14,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "d10b78991c4afd8b56fb99a9a954dbd0f5b6013347eb1acdd5598ad017f5f3db",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p014.webp",
+          "sha256": "6aac76461cb4fbcddef30704f9d15e65ca3aed943f7d1a784f2b8ccc192c2609",
+          "bytes": 536738
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 15,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "7d08599086f47ab88d75062896b27c8001e3a3df9585f321e2f14a428b682e0b",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p015.webp",
+          "sha256": "e049eea174f0374facac4a64005ec5c8f4bd46ea35b263084f40354ae67faf63",
+          "bytes": 433298
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 16,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "2d5ea8f761e50cae211cd695e832293818ba73c0cb23cc42a9546785dcf6cbae",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p016.webp",
+          "sha256": "1931159a718d15aa096c86bb6c89f79b6cc67dc6bfda0285eed2877d9ee4c6b0",
+          "bytes": 393658
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 17,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "5cba9bbfc62a4e79b1ab8e34b6d7fba51409653f3f9c7a70e3399d29de0977d6",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p017.webp",
+          "sha256": "29d606207d332721618176c79eb485300e3312e0c84f5e53596b2717a577565d",
+          "bytes": 479450
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 18,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "66f9c2741f02f3c7e5eda98bfacd2c95fbd082ad69fb04c1f0bbb573003989fe",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p018.webp",
+          "sha256": "98d83285284085500ce3b6c46a9926ee497a8f5e6d882e3edec3a029fd3a58f4",
+          "bytes": 509482
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 19,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "90b49a738cb222cf448713650599d8083bd0339c9f76c4539fed790eab0aac5b",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p019.webp",
+          "sha256": "649000862033728581df23a7183eeb7e84cb263d9168529f66a703bd17882c29",
+          "bytes": 374252
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 20,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "db4ce414d29b067e04a4299dda9b6e99f6c9436e68fda9f6305829dd2c310175",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p020.webp",
+          "sha256": "eaaf30fe0b34c9c4070eb52949595a198d0d3bc63c2229d4d656ccc2d7fe7fc1",
+          "bytes": 546196
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 21,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "7fdb748f2e87081c8d5b12c2268faba84fff4b5de77392eb4076136c8cf3b685",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p021.webp",
+          "sha256": "1f575a42dc777f6020c9c766df232597b552ae08074c875a77363b3e0040ea13",
+          "bytes": 393254
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 22,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "37a00f3dee57c0c97f62168b365a43596b970ffbed255eb22f5a91cf4bf9ed8e",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p022.webp",
+          "sha256": "82df0d7335ae0ef1f33850f5b46c22338db06952d5e6863eadfa48f34e1fed34",
+          "bytes": 277270
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 23,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "4781f1ad0fb359e0c5b6972c3b031a0b46ff186e3f59585705131c763d50d510",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p023.webp",
+          "sha256": "7213311486d3e61dd3dcaead54c5e59e77642573f13d0a65afb0b7cc1b98af78",
+          "bytes": 440424
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 24,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "4681efd467a4292a38fc39e9752d0674df32dc95945bfcda4b8e6bb44d1e77bd",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p024.webp",
+          "sha256": "9acbf336db52bd5b619f2ef62bac1cd8cbe76017e9342a7e45ab000495a93f0d",
+          "bytes": 439254
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 25,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "0bd4041140510e925cd6883f492c7bd88dec997e86ab26c767cf8db9f1940d21",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p025.webp",
+          "sha256": "be065064013fbb68fb5bde8cd018219742b763fbd1037d200eeb216fd7ae9127",
+          "bytes": 469586
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 26,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "6eeac952976161d9fe1b098c7294169345b3d67d156da0ef67618e3815060894",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p026.webp",
+          "sha256": "c314e078359cb1942ad38b87753143e0e5aa74e419447810d8e092aecb6e7737",
+          "bytes": 322042
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 27,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "be60ca8aac1f6e5c9dca53f747ed947c35a85669a0cdaa2069a73122d3a9174a",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p027.webp",
+          "sha256": "136fc7d941a29da710292d314121c160689f138b4486bb4e0e1fc21bc45e5a30",
+          "bytes": 370730
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 28,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "462f3f5ed99750ccdd3a06c75502a9e1d72914cb4da0beab0dddf4eca436a5ad",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p028.webp",
+          "sha256": "1955092ab050b78f707080805ac682758be008c06f5411ace96a876e153b8158",
+          "bytes": 266208
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 29,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "8af6f626f0fa6aac273269c6fd16dadff9f92931a3ba4bf91ad78522344ba78a",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p029.webp",
+          "sha256": "2c0ce177da57c32db0aff42fa347e633e66b9de89c17c8949cae3ad6cb1b4de5",
+          "bytes": 513536
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 30,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "33e97f5e04292690a29b4dcb8e131127408e8b45ef4702d326209ca1704bd011",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p030.webp",
+          "sha256": "e390d4ab35d78f8d16166dee4719eb6f95ab0ba9a1d762a99ae3675f29c22cd8",
+          "bytes": 417264
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 31,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "709d4a1e5524bf89de0956e055ce0a2055a4d6d72274407316c9ab800b1b0b66",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p031.webp",
+          "sha256": "658782ece8e11666e863a465e957fb52dd2bfbfc5330d51de2bb55e5a224ff94",
+          "bytes": 483972
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 32,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "310c4c455acde06b46326afe5313318d384ffa50ab050b38691faa46a1caee42",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p032.webp",
+          "sha256": "9c06c5ffddbf99f5ce90667fd9287c21c6b7d4de2692a2f0b02feca1597471ca",
+          "bytes": 330656
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 33,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "87fea7adfb19eb6d92419ddfb5ce9f39c7e8876144680642cc018b6705e674c4",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p033.webp",
+          "sha256": "272d407bd4bca75e31bda362d0ad7b31f76db3b079d450acc9ca18fff7d2f2ba",
+          "bytes": 392464
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 34,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "e12cac5bf409a9873589ce13c0d3a86e9089e477fba9d36ab6ba2c8e00961784",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p034.webp",
+          "sha256": "713c9e485134f70d12ac440baf9195b6067efedb8fdee58a02145073c067ecfe",
+          "bytes": 251924
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 35,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "0412eb983c90942431bbe2cb710cfddaf3e86c803bb3c138c40aa4174a9299d6",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p035.webp",
+          "sha256": "18140694720047063c5c4443a05a49f37ada260729f8304c172e407979496f25",
+          "bytes": 495740
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 36,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "499e7c56d791e1459924786676addca2029e07630e1990d9524bef81891c02e0",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p036.webp",
+          "sha256": "d7e47167481b3ad92dd5f73d542caae3f5a2575a7fa2be407820f5948dee0e5b",
+          "bytes": 525612
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 37,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "9c07b769347261a8929331afcf03b8f834c648c28778832b7bc33401086c0e58",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p037.webp",
+          "sha256": "11cd2e2e49dd5077ca84398e115fcfed38bdfc07ed34010e9cc0737b09eec606",
+          "bytes": 489528
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 38,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "653bca7f5e4fb0d3a472f3892ee70a434f012a3dfd84a60097143e5d2ca6412b",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p038.webp",
+          "sha256": "0d3db64e8a10ffcb570656a9297da60542a0812ed5f508006a18567ce8a57a2f",
+          "bytes": 437126
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 39,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "5429af7a1988189e66fe12376b8c001782cc6a92e1bfbae4a928292bc199843a",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p039.webp",
+          "sha256": "778e79431d068e0b0446077477e044ca0faf049bd5b78b79bff4eb9803a0570e",
+          "bytes": 371320
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 40,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "f248f3931c3151808d0248cf6be06a91195cf0d0901b3f7db4fa8c4319290c51",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p040.webp",
+          "sha256": "3d8860065664d2206ab18b6741f493a725cf9f88e2901db8b2ec4562838d9ba8",
+          "bytes": 391346
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 41,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "2fb755a3a2092d3c141bdc3840504061070e05a2fe4e4c44df3be81e212e428b",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p041.webp",
+          "sha256": "f8fc2af74f2c2058136c128c3641bf502a452162f04b811ed387c66979e781f0",
+          "bytes": 423520
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 42,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "cfb0422b4b3838dbe2febdb9d0d7564ac876f90eef490f66a9363c39a198c6f4",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p042.webp",
+          "sha256": "4de11b2abc56477fbe38f3a14df4c28ce082afc909258896ddae268a794b5d7d",
+          "bytes": 548112
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 43,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "1f1c6f231487db526dd3c1a44c0099e0317fad7a7ae00a0d13c10b80eb21f6a1",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p043.webp",
+          "sha256": "3f67e26b1953ca929ae3d14f4baff02455ef6e6f333d011bdd4086f1773ed2d8",
+          "bytes": 483680
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 44,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "3da4780daa3228b3c4907b20c46920f8dd483411f8c029eea4931ce953e8f08a",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p044.webp",
+          "sha256": "5986db41b2017fb42d69b679c9bec8c4268623e099a58cc217c01829797b0b79",
+          "bytes": 377964
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 45,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "eff903b38a2522a8d302674751242eced733dd9d93b0c15554d2665098a10444",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p045.webp",
+          "sha256": "2e2d164cdaaa42d0315b07fe3480fed6dec197bf15b6f1056d83198eb014307f",
+          "bytes": 487790
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 46,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "16554e1fde4d22b82e5a2def2229d4c714bf98e028943d8247300021c6d5e037",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p046.webp",
+          "sha256": "7c795fa24e6771842706e3e7f463c29e842e1cd25029cb9a299d14b023b65a13",
+          "bytes": 391580
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 47,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "a0652f07e476d31127f922823ab4a09e23b56e1d0304215d08edf5d2af06bc4b",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p047.webp",
+          "sha256": "6a4d55e6d03f8742023b665fad50403b738eff450aae7c0f9c945ef2965b91fc",
+          "bytes": 500032
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 48,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "58184228b4a03f49ce6b821695a976c89a33f7b5a0717f8ddd23cc47e46b86e2",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p048.webp",
+          "sha256": "8b8264a3bad2f26c9c6f405d2e7a2815e123f1b42e26ed0ce3f5400bcf1f55f7",
+          "bytes": 438076
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 49,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "a66ac819b31244e2870bca30bc3adba5fb11234ca2ff57511b9abb9e9c802081",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p049.webp",
+          "sha256": "1215480d5f2840268cc4e4c7e7f8f17736218eed3774851367a199b7e5083d53",
+          "bytes": 477768
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 50,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "b83169d1dd4f41094aa7ef75c132ee38243416565ad976eec1e419a861c86dfb",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p050.webp",
+          "sha256": "2f71dbdcdd7819180945cf61c8190440c5466ee042fd4ba2a22f85a227f3aa92",
+          "bytes": 535928
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 51,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "0d59a6ec5d1b85003f8a3afb2f50a15aee5ce53325108ece8d7ca2ed1912e9b1",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p051.webp",
+          "sha256": "3e274995d3aa915287e29966b8b8372117b3059e25c9e25f70a269574bb53499",
+          "bytes": 488978
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 52,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "c13d25424ae1a34919f9958fb9e6e30af024d75ebe2e3ec1dbb9943a6580b0b9",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p052.webp",
+          "sha256": "dde7f6f1743d7d89fab364277c24ff630f1b9049f50db6e9299778bcbf4d63a2",
+          "bytes": 607114
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 53,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "dfa4e73ef1bb006d4a6e4df9af14a40d4f5ed2e233370bc85305362d013b25b5",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p053.webp",
+          "sha256": "f8983e1e3efe76ba7d94784c988517518a8a3e9cc33b5a5241576a58b4828c1c",
+          "bytes": 534412
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 54,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "05afa1bba9f0d094d033bf5d40ba3f0cf2e48dacddf768625d042dc5520f1a3b",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p054.webp",
+          "sha256": "01636f2acf0fe7a9cb041ab4bc383325419a1dde764677498a99d833a3745a10",
+          "bytes": 480292
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 55,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "1ae4842c0ef355f7ce21ad8c8c9075f1d91d563f906e658d6122c2b9a0a66da0",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p055.webp",
+          "sha256": "a68989be791e56653488a508afe14b5e58c617f74ccc7980b849d46e3a90a899",
+          "bytes": 337350
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 56,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "510af6cf7c1b341d45510d0912710ba3ea74d711c2d0566481039a2dd9e61da6",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p056.webp",
+          "sha256": "9696044572aacb121c28b7c9e4ceb67ea005ba53696182d8e69752bf8a083478",
+          "bytes": 462658
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 57,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "9b2ed14f40a50b3d8b85437db248e6d46f0a9e01f88fd66c97d5089f6c812c73",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p057.webp",
+          "sha256": "f51f2697e7aba8cd2fe5852273457300f99656334d301a89bcffdbb4019895da",
+          "bytes": 495256
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 58,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "1b01f7b4251bc2b7abb66603ddf22c62d3998e76ff820f2318dfe3a748b2cbae",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p058.webp",
+          "sha256": "f4031f6592840872a7f5935c2d765fca595e04636bc6d826a1f6944a7063456d",
+          "bytes": 524396
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 59,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "065578e5fa97446896dee0b3ab4bc254072c7ca4f8972d3b130b4810bdb782fd",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p059.webp",
+          "sha256": "ed9e6ae30afbdacce73f464b85bfb1459c185ebe1ae7456ad785c5e621c0fc03",
+          "bytes": 232112
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 60,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "e1a43eec3df407db591b597a151941ffb3513414e5e44f16085428117a9733b5",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p060.webp",
+          "sha256": "0cd6c3fbc8d329a54d7ea54321020d6f4fe1e3be3d513ae5afc0128385ff6b5b",
+          "bytes": 522772
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 61,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "d06ac92a93a2d4ba441971c2debad9a6fb2b59b84b700a21aae1282e05bfa365",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p061.webp",
+          "sha256": "a453367df99af70526d887f85a75481cef7ec8fb6d468f97b36440fc1a4c2e8d",
+          "bytes": 333120
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 62,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "93c64f2c73bbdb03185478038addd486c2955c6be64a96e83c4978ef949ac7c3",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p062.webp",
+          "sha256": "881e1efb4ea35c25fa03cc61b865b163dfa0b9bd382396eb3cb3502f6f198731",
+          "bytes": 375684
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 63,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "fce60ff3dcf743f36c818b1259bcfe4a3df6a30173bc21f1617a0b90accb3a8d",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p063.webp",
+          "sha256": "f661c89e9d32302ce79f3fe5ec94e63e92619d0180b5a412586558cf8ab1a8d3",
+          "bytes": 552868
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 64,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "05630ecd4d07d7f7db94c85c0f0832e04d17082a8b8c9aba456e86ec7f59e417",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p064.webp",
+          "sha256": "37002addf5ecab5990e38644f7a0d9ba959a674607cc0ac564407a56eb2f62a3",
+          "bytes": 542380
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 65,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "b80324a8f314608616775115a7c0e86f9139fe9b32d58a23d7a7df98205f38a9",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p065.webp",
+          "sha256": "9bafb1b5a3d3c2af7e2c1e427716e1ac15477d7743b1001a5b03529edbc4f13d",
+          "bytes": 412608
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 66,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "21f2a30fccead736978977864c4e2ae98acb2609117a7c3813827ddc2a306ae2",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p066.webp",
+          "sha256": "dedef399ce220b4231e2665a111a4e1082e562afa513d52b6def8b8715354b74",
+          "bytes": 481860
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 67,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "c49daf49f3ecf8c33c0fc531aeba6b01ac075203f4ffab79e166649e447a70f9",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p067.webp",
+          "sha256": "3a2fa1ee72b8960d79d5de54181b3964e4ad4434cdf8f67ebe8976bcd0d1ae01",
+          "bytes": 624584
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 68,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "34f25895c927d269260fa1c1f613b8df1313421e6b8923955a5ab74a71aad5fd",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p068.webp",
+          "sha256": "3b8aa9a81ba0cf35da1e3cfac0f595d3e84d8857da2338009b16fe45942629db",
+          "bytes": 624700
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 69,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "9967baa9ed8f4b413bfd11ff9718558971ff198b6f9490f028a935a02b59b327",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p069.webp",
+          "sha256": "c9a820ec9f48928799ba6df091ae136083917d5714ee0904514eb1927b97c458",
+          "bytes": 612326
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 70,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "6daa9b8ea199e0daa91b01c2b2d5f6f6425baf555f253a85efaa6d21ade6d14f",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p070.webp",
+          "sha256": "b1aebc8e6f06cbb3078b711ce49085d5c7ad77ccef947102348e50f87dcb1cb1",
+          "bytes": 392026
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 71,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "8bdeda1020ada14dd89a2832ba1cd9bd3c57080553794789273b9c35bf0db974",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p071.webp",
+          "sha256": "a2370a09f86e0fb46a37eb1c6480a8ce5627189768ecb04bc653f2a18593400f",
+          "bytes": 466846
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 72,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "9808d4ad36d36c5ba9911252ec87ddf1eb40225f37932e2621f1e8027f08217c",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p072.webp",
+          "sha256": "f1d2b8c4cb29a9618228e0000ea4ff40e5f7cd69c4c78f57152158939c04372b",
+          "bytes": 344694
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 73,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "fbc8b48482dd4c39e2da8a2162db55ca7b6ac3ff8e52f1f9022a241dd27bb3d3",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p073.webp",
+          "sha256": "47d8b17978370d3ffec337ea3e370b7d481bfe0de09a69a7c377fe385b7dcc87",
+          "bytes": 428016
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 74,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "6908efa3f3a18aaf25b4dd23b63117f0be198663f4c8b9b56ea57a0dc563abba",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p074.webp",
+          "sha256": "dcd83feadad7ca83035a51dbeda0b4b3575853e384f6efe6f24f0167385b7a03",
+          "bytes": 577832
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 75,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "ca8a1fc4d81ecf996848569ab65749b1fd325d5351be77196a682bec129dc5a5",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p075.webp",
+          "sha256": "c4929732e105e3edc8dd876da23b226b9d46fcecee390c846306256ac1a084f1",
+          "bytes": 424694
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 76,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "0870eefbe151090789e0534a302c097077f1b4809d49c106d02bf6ad31898dd1",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p076.webp",
+          "sha256": "7800d17eb4698ce753177869f56ad5ac70fa785cdad336274c217e200c0d99c7",
+          "bytes": 344328
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 77,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "df9bf2b04837a3356e67bbc664705d1c98cbf70980afee086cc03807ed60f1e2",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p077.webp",
+          "sha256": "643b68710ca71b65a81c255be4e3e16878d1d2fb27a6700a6a92c4341aa3950d",
+          "bytes": 432414
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 78,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "20e48b5090040cbdfccff175bb8fc3638129d98e08a82e63bb78ade361d1a0a0",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p078.webp",
+          "sha256": "e03ea9e291eabadff219334475abd1f8954decf07c8cd4ccacac7a3875da0911",
+          "bytes": 481450
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 79,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "c2d1461a823269df8dd0b3e1c3803a3902b676b977f4716666b9986e8678f8ce",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p079.webp",
+          "sha256": "fc2403eb546c1c6a7682d0a78e30661e4058bf50b31845e917b5e26f5428e9e8",
+          "bytes": 173362
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 80,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "cd42e691e3701c376241fa96cf26a2044e8eff7053e6d03f05c1df9b3a5636a0",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p080.webp",
+          "sha256": "afc10e1e212910e4ae766406b2c03ddce31bcb0743b51e9c87842c136e8a2cf7",
+          "bytes": 439354
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 81,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "c0633270cb7f96f7f718d67b12626aa47288bbebf4687a363e0e1ddf5bd63c69",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p081.webp",
+          "sha256": "f5c5e8977a7957ca7869ee9c60d8ec8de8972033a8f91fab868e79f00c45a408",
+          "bytes": 527516
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 82,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "6405c1ca9e9be00704d93a6b531aa039b94d305b1ecd4f40a8074e927983c436",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p082.webp",
+          "sha256": "f4cec11dae43efac0d34182b3b78d27a72619cfa9901a94e8d1093b2a325fb41",
+          "bytes": 548782
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 83,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "5195963a1b1fb6a5af68ca185081678856662fe8e607676ba2d7fb9592cffd9d",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p083.webp",
+          "sha256": "286860059eff480df5c407e22e99e66f7a80e2acb1eaf02c865d2ca839f693b6",
+          "bytes": 408576
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 84,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "28b60601dae7a32a4736fb9be0c777cb5fddfa47ad17c7d1da0026aa55f6b1b3",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p084.webp",
+          "sha256": "2e2eabc64e04ef8b518c54024958043ba668a9e2c14adada807169446d618d55",
+          "bytes": 461074
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 85,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "ad943dcefd3ba75eda5eee6565259ff20878f88dd774edde82648787c75207ca",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p085.webp",
+          "sha256": "099c54d6a571e942a6b95039147d1b87c270954fa8ddbcf867ef0c92d3eb216a",
+          "bytes": 487180
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 86,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "017ebcb29adac17708185bd80bbcfbeba281058eb36527ba4546a1566ef2bd22",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p086.webp",
+          "sha256": "1221c39c9f3f57904a44e06fc9dc1d25de82d3a8de863c1dae2b0fe56c17abd4",
+          "bytes": 462754
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 87,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "cf3d8c13286c36114fe4dde7184df415d9854822094396f8d517ed6dd4f438bc",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p087.webp",
+          "sha256": "005bc0d55264b4c2294784f99bd6a9bc42b23b31ea9de5de8964f41dfcbb6ebb",
+          "bytes": 403840
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 88,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "3136fbce055a8e419c13cf9f85acc62c9fb0aebe2a224aa9e9170e1fa60df36e",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p088.webp",
+          "sha256": "818dbb7b494ff5460b300b8d9da508da252df5e320029795b13ac8c65191b93c",
+          "bytes": 355946
+        }
+      ]
+    },
+    {
+      "sourceId": "study-2",
+      "sourcePage": 89,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "f989daaa5eba3d18f35f9640091dae2960477c6406e0f520663c542c4231abb0",
+      "assets": [
+        {
+          "url": "/study-visuals/study-2/p089.webp",
+          "sha256": "f2451be20de7f65dcc14d78c6d3fda773f812f24b849cbf22a9804682d7fdf1e",
+          "bytes": 391154
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 3,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        204.6377410888672
+      ],
+      "bodySha256": "995b7917089af15e5f9d04b0098e2d7684af5fbe1320affabbce44411260f77f",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p003-light.svg",
+          "sha256": "1d3c32b2aedd6672f6add3af3fb7ee696d40dfaceb2ed98a4c2e204b5730a642",
+          "bytes": 191703
+        },
+        {
+          "url": "/study-visuals/study-3/p003-dark.svg",
+          "sha256": "6305273f224ff749e919c4d78280b0bdb1f4fa33fe64869748e9b94d1b41e50c",
+          "bytes": 191703
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 6,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        177.794189453125
+      ],
+      "bodySha256": "664505f8dc3762bae08274519c8d4b9d5ae656955281075b4d4c63e5da72323a",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p006-light.svg",
+          "sha256": "a15e68552c0954c9db2b2a0f50e4f1248c1b0513f4378d1c4f88cb2275c10c2d",
+          "bytes": 186941
+        },
+        {
+          "url": "/study-visuals/study-3/p006-dark.svg",
+          "sha256": "e053bc02416fd9ef23276e951f97c56b33ba7bb962b6e187b4bdea96535561c6",
+          "bytes": 186941
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 8,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        163.5609588623047
+      ],
+      "bodySha256": "ef31dcba236533950258072838bb4a8ec41f6163f72a539e1a97d68c7d02912e",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p008-light.svg",
+          "sha256": "08dfad8000ec54bfb88f18abc3cb53621c231670091db73a6ba854c10c4cb12a",
+          "bytes": 189460
+        },
+        {
+          "url": "/study-visuals/study-3/p008-dark.svg",
+          "sha256": "b03d8ddc2af5de1f7fd3aca4285abcf37e5eb75b2c4854295a051e511d49f59d",
+          "bytes": 189460
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 10,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        179.91360473632812
+      ],
+      "bodySha256": "478af5af1f5baf802ffbb0d8e4492736c9e5c2d6d9ca6581af7971d6dd2536e0",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p010-light.svg",
+          "sha256": "977f817dfd87ab18d1e9d647bb7355afc05198d67bf0bd84a210eca6cf3e83ff",
+          "bytes": 174756
+        },
+        {
+          "url": "/study-visuals/study-3/p010-dark.svg",
+          "sha256": "a5de128bee0980ffe5829492f62c8ebad3ff52ba25c067ea1b32c7566a3d22ea",
+          "bytes": 174756
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 12,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        167.7030792236328
+      ],
+      "bodySha256": "259d346ee70666bc1b6f7df986bb09c73946acb7dee0c757c0600148d8aa661e",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p012-light.svg",
+          "sha256": "33889905fe04ee7eb1112dd91239949f769b5e005871fc51fa48d883351151d2",
+          "bytes": 163879
+        },
+        {
+          "url": "/study-visuals/study-3/p012-dark.svg",
+          "sha256": "f2003745207192048659dabfb9d03806c0c523f091d5db38c0d56536f269f353",
+          "bytes": 163879
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 14,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        179.91360473632812
+      ],
+      "bodySha256": "a36f73663f9220cb61285436c32b73bbc38c486a5096945e85e71e4a9f9cb1e4",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p014-light.svg",
+          "sha256": "f0c5a976e367dfcf3aacf8e5ed2172f1c508a8d48a0d88bcad4999a89e73632c",
+          "bytes": 164139
+        },
+        {
+          "url": "/study-visuals/study-3/p014-dark.svg",
+          "sha256": "2ec02777e4946f5c63a9992934a43ba2663585bd72dd220e21773e2c2ca982a9",
+          "bytes": 164139
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 16,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "ebe0127a43042d0aa1dd3d76b205204f61f27ca15f4f86ee4a58a95438802c1a",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p016.webp",
+          "sha256": "c0d10011242d2de6f547206a70f6fea3b1727a8c76cf39d2021b5a88fe7013dc",
+          "bytes": 481516
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 17,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        168.47752380371094
+      ],
+      "bodySha256": "04cfcd9cccb123ec5a4023750e3d3508d15318fd56990c6b4430a04a0e7ce82f",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p017-light.svg",
+          "sha256": "6d6903d2a73426dfa6f7d9fd62322a1ba6abfcac0abe1db2bb6c5d226f1288b3",
+          "bytes": 144701
+        },
+        {
+          "url": "/study-visuals/study-3/p017-dark.svg",
+          "sha256": "63fe1bcbfa3d2e1d5ba8f4ab695fbca7902b04ab2c1df7e5eb5f14f2e7f4420c",
+          "bytes": 144701
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 19,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        179.91067504882812
+      ],
+      "bodySha256": "1160c8b3462d2680af551aa83497228ff4b0679710a3b507bec7e9884c9647de",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p019-light.svg",
+          "sha256": "3f62a881ac0952d1fd58defd597e5ed5991b1b23f88e2a319d4a18e7734e86cd",
+          "bytes": 175278
+        },
+        {
+          "url": "/study-visuals/study-3/p019-dark.svg",
+          "sha256": "9e52f6bfd61992cafda34de3a8cea936303618d30e3643f8886f543ebdd51fc2",
+          "bytes": 175278
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 21,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        179.91067504882812
+      ],
+      "bodySha256": "176470d6863c8d4f5620a91a6c5f3fbd5fee057f813954db544bebb372e8e78f",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p021-light.svg",
+          "sha256": "4772f328f07eebe596847aae2abd14459275fbeb92952d0ac8f5da7b930e7717",
+          "bytes": 176310
+        },
+        {
+          "url": "/study-visuals/study-3/p021-dark.svg",
+          "sha256": "c8845a0655fec7a7adde6ccb1f821680b99d7ddd6da6773e7984727a936351da",
+          "bytes": 176310
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 23,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        179.91067504882812
+      ],
+      "bodySha256": "a88b94a64617d0b75cd2e3776b719c6ce5d46e275ed81a67337215f3a7e13594",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p023-light.svg",
+          "sha256": "fb1a5c43aef303e55c05858f7a512442c5a6196e28144dea13a9325c992a5bde",
+          "bytes": 159017
+        },
+        {
+          "url": "/study-visuals/study-3/p023-dark.svg",
+          "sha256": "6ba424d2897f464ec593ebef692784659f17b160992dc0e16dc4bd87684c340e",
+          "bytes": 159017
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 25,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        179.91067504882812
+      ],
+      "bodySha256": "9862f7e8261ce266c94c858647ca2cf88a6da2ad0ca4f49752633514b5911f17",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p025-light.svg",
+          "sha256": "34015e5decfc604eb6ab7272bb5c2532bd54102e5ef44c3a7a0a90f20c246ac0",
+          "bytes": 158509
+        },
+        {
+          "url": "/study-visuals/study-3/p025-dark.svg",
+          "sha256": "0dc194757c4ba6f5a998d08fd4844ca912a0fe53f18a5c0f9b11bea2375c035d",
+          "bytes": 158509
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 26,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "276cc78e2e43999527b495410a09a49693a73d0891117cac72b841e13cf87847",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p026.webp",
+          "sha256": "3703ae51211fc2fa5075d9325cb06280e8f4959569981c37bad8bd9438dc8b9b",
+          "bytes": 529532
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 28,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        165.58445739746094
+      ],
+      "bodySha256": "e1c6ca42543c14ff0913e201f69025f78c6c530f974ef8e0ab40f982c6e7d0e5",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p028-light.svg",
+          "sha256": "ca1212a3871371e4b3c34d30ef41c521b21a3644195fa15341bd8320639027ff",
+          "bytes": 166690
+        },
+        {
+          "url": "/study-visuals/study-3/p028-dark.svg",
+          "sha256": "50d56822d7ea44b30dc65533007d85855c70c1194de7ce1e0d7a2591d0cab2e5",
+          "bytes": 166690
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 30,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "b0962366eaaca58692861f58f48740be0b4db50132c2b78303888ca585fbcad6",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p030.webp",
+          "sha256": "a9830232f6ebe2f3ae6fd228a5c49ff904ab020b120177b297ffe40ae28622e8",
+          "bytes": 233256
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 31,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        165.58445739746094
+      ],
+      "bodySha256": "1c884b0e744663e84cefdd0944679da7fb56e68b9c3c8b7d66f2f24752be67ff",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p031-light.svg",
+          "sha256": "1ec3e2e518c68b852218d76ae0c2d69661cbefb96b6d82f341e3a30d60d71d32",
+          "bytes": 184915
+        },
+        {
+          "url": "/study-visuals/study-3/p031-dark.svg",
+          "sha256": "88fcddda85acda156c1155eaca8c7d762c59e065a58283e653e370ab9ab3cf76",
+          "bytes": 184915
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 33,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        183.28497314453125
+      ],
+      "bodySha256": "db004d1ea5c09e5d9c8d815b35905fb04f2924ac9e6371cf5574415b48831525",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p033-light.svg",
+          "sha256": "350a5aa740e5991191b78cf7d289bae77050745901e944d49368a06ced0aae1f",
+          "bytes": 199126
+        },
+        {
+          "url": "/study-visuals/study-3/p033-dark.svg",
+          "sha256": "93d42dee2b7394281192ac046d2ddb810d6e171c258b34a26dc95b94912cd6c4",
+          "bytes": 199126
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 35,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        172.44180297851562
+      ],
+      "bodySha256": "916227d85dc7e7cb5d8ec7f966155221f0f6ee4dd05b5a81d409001b3029bcda",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p035-light.svg",
+          "sha256": "10b7b84037488eca62320880d7978514b0b71c6f7a5e0dd619464eba9576326a",
+          "bytes": 151693
+        },
+        {
+          "url": "/study-visuals/study-3/p035-dark.svg",
+          "sha256": "764928b2da0935859b8424983513b6a28858e4fe9b72fc43b42de6dcdf0eca86",
+          "bytes": 151693
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 37,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        179.52703857421875
+      ],
+      "bodySha256": "a66e0359ff8d171c9f2fc6ad61d6822009923b0e8db9cb5b11ab3ac0aafdcec9",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p037-light.svg",
+          "sha256": "7428455e946bad7bc0390956d97625e90c2629974b22afb1db73deba810b7c2d",
+          "bytes": 192554
+        },
+        {
+          "url": "/study-visuals/study-3/p037-dark.svg",
+          "sha256": "91ca6e9a058bd45357b9d209bcfc9888c9e66a82131ba0b74819f4149231db8c",
+          "bytes": 192554
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 39,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "ca5625006ec25ebdad5d061b146bcbd57f4da3709249dcaa973c419c5266cc17",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p039.webp",
+          "sha256": "e7a7373340940da0ade8da60678d56787a7ab28868dbba7993e8979d11cd102a",
+          "bytes": 264410
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 40,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "7ec1bcc7bd148c7219a14cdb29ac5ced303dc4bed3c25b24c16d03afb9350f26",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p040.webp",
+          "sha256": "a4dc5315201161240441606a78942cf8081f48a3ca9b9bb152ee70b8fc275825",
+          "bytes": 426588
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 41,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        179.52703857421875
+      ],
+      "bodySha256": "5da7228b1cefde596f1f7ee3aa8dd3e3920f46936337777b77f8a3c1f78795dd",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p041-light.svg",
+          "sha256": "173f9a1576945a7cbaaacfb98670de275c8ccc8df75a8f24123ee73d369303bb",
+          "bytes": 162927
+        },
+        {
+          "url": "/study-visuals/study-3/p041-dark.svg",
+          "sha256": "649aa2cc97438251bd6450ff8673f0a48c89979049e001874cef6643e4af4208",
+          "bytes": 162927
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 43,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        179.52703857421875
+      ],
+      "bodySha256": "e7be720fe261ed0379f1ce5032f9aa9707f3aecf023d60ec1a740ea1495eb6a9",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p043-light.svg",
+          "sha256": "6f505ad2577c350147f5b60b18d9379395ef64bbb635c9f99c76c7782344e167",
+          "bytes": 173296
+        },
+        {
+          "url": "/study-visuals/study-3/p043-dark.svg",
+          "sha256": "b5be563166f9849b5e715b9f4b6d9ed6cd56a2c44bf2cca29bd6b692eea2c4aa",
+          "bytes": 173296
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 45,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        173.50465393066406
+      ],
+      "bodySha256": "d9b12b9c18ff637af2fe6d0d4c5dae399ba000fbe6b8975084222a78f73e7aec",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p045-light.svg",
+          "sha256": "acb52a301e3e1a81c36a4d592b2cafa7000c4dee7bbcbd785783821041dcc71e",
+          "bytes": 192197
+        },
+        {
+          "url": "/study-visuals/study-3/p045-dark.svg",
+          "sha256": "0eea7290789f85190a70d79f5314bc8fb59c55463f4818e7118cd5323a460bc5",
+          "bytes": 192197
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 47,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        175.02532958984375
+      ],
+      "bodySha256": "0c658f98d4725829dfc342da6355c3422f8e864f2ff33ba31e6fcbfb188b0cb0",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p047-light.svg",
+          "sha256": "3694a564b212f363376623e4880c75d4ea9b36b7a15bf8e4f5ede2f67261e0e2",
+          "bytes": 143364
+        },
+        {
+          "url": "/study-visuals/study-3/p047-dark.svg",
+          "sha256": "0da13b1febbd9ec34e1bb158ff36ab7c0c6ad14d292fe8a9e985851d1f7547c6",
+          "bytes": 143364
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 49,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        186.09457397460938
+      ],
+      "bodySha256": "f3223fd5a6eaffe01b0893607b41aee4f0bdd7b62f374eed4e488b001f1c4392",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p049-light.svg",
+          "sha256": "e5e54dc87a092db7722886a18d927139e64426f6a9af42504c5b8acfe928283f",
+          "bytes": 169982
+        },
+        {
+          "url": "/study-visuals/study-3/p049-dark.svg",
+          "sha256": "b95404511f0106f3060234ac97d866f5aec72754e44110f8204b36abc3823e93",
+          "bytes": 169982
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 50,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "a3660a65664a3a13353fe5b2e8cd1f3995b5223a2885946ce6798cdf246e0e58",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p050.webp",
+          "sha256": "d9d6ccc7c9b52e90f197b1bf0237e9448f5415045cce2132700408bb6d6feaa7",
+          "bytes": 182996
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 51,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        186.09457397460938
+      ],
+      "bodySha256": "af1498a90cd182278c7ef22facb661e6fe41b862eacbb47bc92c82b172ca9b54",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p051-light.svg",
+          "sha256": "1b497580239049735469b4b508509a36fd03fec4261a8a3c7bd85f5095f61909",
+          "bytes": 216426
+        },
+        {
+          "url": "/study-visuals/study-3/p051-dark.svg",
+          "sha256": "d3f6c1ff9389aceca4e23a58d070ea5e8ba27e893e7dc68b6fdaf00d8b7c268c",
+          "bytes": 216426
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 53,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        186.09457397460938
+      ],
+      "bodySha256": "5383a067cbcbcd6fc83e864a23c7942b13fa83d356b20d5f90d3f901ac4acfb8",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p053-light.svg",
+          "sha256": "3e6c6c31e3b89e222e15f77c32800e060dc212c5529aa34a36fcb8ec434b332d",
+          "bytes": 175356
+        },
+        {
+          "url": "/study-visuals/study-3/p053-dark.svg",
+          "sha256": "082983ab6936b782c683b3ac0a62b7a51ab54067ac8080328e863f686af7edfe",
+          "bytes": 175356
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 55,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        191.51611328125
+      ],
+      "bodySha256": "4727d335da709e3553c88d289937150e05eed28fc4ca040de966f1228c10bcd0",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p055-light.svg",
+          "sha256": "40cec3adc143d0fd6021dd5b30d77be45eec1c6a5c02ad15389156373e5e6e56",
+          "bytes": 213321
+        },
+        {
+          "url": "/study-visuals/study-3/p055-dark.svg",
+          "sha256": "6d7d5fcef3db8be3557b81accb245cdf6c6fa63cf1e4b419511b087e1f2a0ca3",
+          "bytes": 213321
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 57,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        202.0796661376953
+      ],
+      "bodySha256": "ada054316d0a3a3c75e8dbe8f09ee6a60508c57e7ccd4734b3545b58b43534fd",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p057-light.svg",
+          "sha256": "febc63a34ed37d1c1d794b58db78afb3f55504fa7949c21871dab53c88f5ce3d",
+          "bytes": 208988
+        },
+        {
+          "url": "/study-visuals/study-3/p057-dark.svg",
+          "sha256": "1b121cef8c163b4f47af141ce2b6dcd53b017a021ee39d711767fd384683f094",
+          "bytes": 208988
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 59,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        190.99951171875
+      ],
+      "bodySha256": "2f0d57509cde6633411777e656d7a889b89d73dd157c9e26277f54a6ab798c73",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p059-light.svg",
+          "sha256": "02d466829865ee6a25a3483ab779e16a8e67cc38fcb95eb6c17d9f929b0721c0",
+          "bytes": 184235
+        },
+        {
+          "url": "/study-visuals/study-3/p059-dark.svg",
+          "sha256": "bac8814f5aa6d4bf9dba2d0cb27cd6a486210721cccda9f0c53df1225737cf2b",
+          "bytes": 184235
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 61,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        190.99951171875
+      ],
+      "bodySha256": "131f76c955574a7b099e5bed21b29e7dbfac8eb26fd5908939fbaae0207b5989",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p061-light.svg",
+          "sha256": "0080bc195762736c3bfc486ba8307118974e9754fbef0a2d28ae200d3029eda4",
+          "bytes": 216018
+        },
+        {
+          "url": "/study-visuals/study-3/p061-dark.svg",
+          "sha256": "bce430ea2eb7a61f25a87bee50f1d861bd6626d9f30b3f75ea0d8ebe5ae005ed",
+          "bytes": 216018
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 63,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        183.756591796875
+      ],
+      "bodySha256": "60108bae2ad216be301f9d3aa40fbc79ad16e189294ee546c399c5051c6fba29",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p063-light.svg",
+          "sha256": "a7be5d1117675237127caf46ecf3ea6fdd649da1453bb7f317d6ff8c0cfc5cf3",
+          "bytes": 195719
+        },
+        {
+          "url": "/study-visuals/study-3/p063-dark.svg",
+          "sha256": "66f1bf65d1b7becdb43c447f379bd20f6791a0363740fdab696459a2515eff02",
+          "bytes": 195719
+        }
+      ]
+    },
+    {
+      "sourceId": "study-3",
+      "sourcePage": 67,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "3caa88554fe8a913679ffe3edc969378b629320df868d67449baf44c01ec8ec0",
+      "assets": [
+        {
+          "url": "/study-visuals/study-3/p067.webp",
+          "sha256": "5e433db5046b50364dd54f4a7ea45f7086fdfa9740cbfe0a87a2010784feb8e7",
+          "bytes": 537004
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 2,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "9391a6657fc4d1dd8fdfaea63be676484d03a8c2bba78838b148190ec3d895a2",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p002.webp",
+          "sha256": "8b889ee9a0203088fcae57f4fdb3a9a17b0cce95f924a8da03d510f3e3258e1f",
+          "bytes": 404080
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 3,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        184.75872802734375
+      ],
+      "bodySha256": "eea1a357eddf31a15013c7193babc84daa09a10de6f2e12e273e66c027bb394f",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p003-light.svg",
+          "sha256": "a97bce0c17687a82a4fa43ababe4e0abe2edd0d12f48c7f2fea0282c7e316c58",
+          "bytes": 206570
+        },
+        {
+          "url": "/study-visuals/study-4/p003-dark.svg",
+          "sha256": "de6f03b606a3363e90aa3fd0602d9bf909a662079aebcbb0c9de3f72cd626ce1",
+          "bytes": 206570
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 4,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "beb5784bfeebde65deef193f12be1481a92f9b2661d87124b9190f329917e8f4",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p004.webp",
+          "sha256": "eb04acc5fa1f02ecf10da32e03b9186f2a07cad02d35b490e6cd88d374a4772e",
+          "bytes": 418610
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 5,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "8568b1175cd1e95b7215ececdb98e0078b5382ba7925b8bc9cca6e2e26726b4d",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p005.webp",
+          "sha256": "53de0167b6e82cc871db461b7d2798b0b43f705b329736b95f3aeb471c7ad715",
+          "bytes": 403384
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 7,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        184.75872802734375
+      ],
+      "bodySha256": "f5afbcdef6d7aaf8fbbca82d5ff24077929698c0dc1d757093866c0b546e7987",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p007-light.svg",
+          "sha256": "be27da75f552546d06a028871a7e699fb515d3f4b6e434a20e30eea91a627129",
+          "bytes": 202258
+        },
+        {
+          "url": "/study-visuals/study-4/p007-dark.svg",
+          "sha256": "83915e1e0b6ff2d77d8f818d855e9e71c68172e64ea4be80b6f365bb7dc9ad12",
+          "bytes": 202258
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 9,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        178.06800842285156
+      ],
+      "bodySha256": "cce49bc50d017382f1062b82948b35fc169fa6373d20e8300167d6cfa3c3cfd9",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p009-light.svg",
+          "sha256": "e8a1d2a9474e13d0d15582363c8ac87b271476116b589eeeae6a0e04fa92cff1",
+          "bytes": 205318
+        },
+        {
+          "url": "/study-visuals/study-4/p009-dark.svg",
+          "sha256": "6f5c364f39b8d997605537de977a859d3a42c2f0a3d4ada8558845532d058b31",
+          "bytes": 205318
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 10,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "abedd580281f8eb46cc71bdc647dec2bd6591d61e00b52ad21cb3a7289293221",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p010.webp",
+          "sha256": "f32d2ef26654046fda22f33556ec75a9ddb29042c603a59a6b5db8ac5647d00c",
+          "bytes": 486032
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 12,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        163.59864807128906
+      ],
+      "bodySha256": "dc0c93fa1aee107a4ac92fd43ec6f1413f85bf427f6dc0f0d3e25db41a076a2c",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p012-light.svg",
+          "sha256": "0e725c3256a53a7f75d4a55d394cae0a4aa33fc92b56a57a8a2b50990033b1fc",
+          "bytes": 167492
+        },
+        {
+          "url": "/study-visuals/study-4/p012-dark.svg",
+          "sha256": "72b2aec08560ba2149bcbca4178762601bc93ee9c74e6cff9850fd45fb65d351",
+          "bytes": 167492
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 22,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "f3af03f4cfdf1a0e07a74d4cc5b519e940024b849210035c229c6fa6b9a9005a",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p022.webp",
+          "sha256": "a326f81ca50a18b56a199e9f16ec6f03b77f85aa9de3b8cf811ae72e530d97f1",
+          "bytes": 315792
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 23,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        170.40432739257812
+      ],
+      "bodySha256": "6e3443e707e32822299f8aac58e2519d20ff86bd584f96388238f018cbe895f2",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p023-light.svg",
+          "sha256": "7a6562b7f3010ef2088512c32ae368196f8211f825a8331415cc038fd21d4d8a",
+          "bytes": 188653
+        },
+        {
+          "url": "/study-visuals/study-4/p023-dark.svg",
+          "sha256": "c3383b695b61bd43bb4e11350953f26fc9d8776092df7e852083c3cbd7cf4acb",
+          "bytes": 188653
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 26,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "111c6662cfa80be64d0b053dca7e1fcc92ba49876a257c17cfd26b97bf5026ec",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p026.webp",
+          "sha256": "71e5f275357486375473391722d486c5623f8d24dd16716b8195ed8d3a8717de",
+          "bytes": 480968
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 27,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        170.40432739257812
+      ],
+      "bodySha256": "5e871c114c1d0fb05736b3e9b283b83216d01b048cc6375965b5a6b1e6477350",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p027-light.svg",
+          "sha256": "53205fb40da466b3b6eae8d64aea9285fb004c46455cbd6c5e2d45fab035de87",
+          "bytes": 183168
+        },
+        {
+          "url": "/study-visuals/study-4/p027-dark.svg",
+          "sha256": "3be09837641fdc5d605aede9c75bfd3c1c10c85ab33d591a13161605ab5beab2",
+          "bytes": 183168
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 29,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        184.0236053466797
+      ],
+      "bodySha256": "8714f78e6e5b8b76e0965a1a0f54613e8f77b52406c9e2a0bcb29478e76d3509",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p029-light.svg",
+          "sha256": "4e7145ce31a7f688a38397567e6e199c0ef3b43ea4556740fc62a36acaa98624",
+          "bytes": 189110
+        },
+        {
+          "url": "/study-visuals/study-4/p029-dark.svg",
+          "sha256": "2af4a5a82707873d35526189f11be91cf13c27204c77ba07b0bc6f5362f09ba0",
+          "bytes": 189110
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 31,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        175.36032104492188
+      ],
+      "bodySha256": "cfc153893b236522ea9ebc750f86ef615ae6b271aee2cf956c72ab432f64c082",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p031-light.svg",
+          "sha256": "d299ee29c0e301ff2811d52c89fbdb2b3efc5319ffaff2da5361229c4eb42f94",
+          "bytes": 192251
+        },
+        {
+          "url": "/study-visuals/study-4/p031-dark.svg",
+          "sha256": "800b838b45f0525cfe460aac5c31c591cd6942ad78dfae114355171a2e3d1f96",
+          "bytes": 192251
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 33,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        184.36367797851562
+      ],
+      "bodySha256": "565236a292d8f06eef357be3615eb7d9f38069d9ef707110657b4374abb9bd52",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p033-light.svg",
+          "sha256": "09b96b6d19917464f1f438f23d7a68e60fb52c7b59c7ad781afa051ef2657c13",
+          "bytes": 181471
+        },
+        {
+          "url": "/study-visuals/study-4/p033-dark.svg",
+          "sha256": "a30cbb4e4bd6fa30941cc1f7cc0461da897b1c12ec6d3a9ed3f8cd650899a8f5",
+          "bytes": 181471
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 35,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        187.3989715576172
+      ],
+      "bodySha256": "e913cc7655b9c60282855b56603bfe6beffa89fc4c1b4803665273d3a55e6de6",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p035-light.svg",
+          "sha256": "87ccb72363a847625373f22221f6e202181807a0773f8a41e6824b08301a0169",
+          "bytes": 209574
+        },
+        {
+          "url": "/study-visuals/study-4/p035-dark.svg",
+          "sha256": "8a7d04faa8b0855a8fd309186ea1c55f5d622c30f15c8359205aa52c7a32de8b",
+          "bytes": 209574
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 36,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "e5db0c808aa78de2e203e912ad65930c416dbb32892a177e3765b8d35f138977",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p036.webp",
+          "sha256": "8590f40c6abb67880ca3a87ae893558ffa3d5113f93885402f9c96afa92405e9",
+          "bytes": 278770
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 38,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        179.5305633544922
+      ],
+      "bodySha256": "fd6271c916291fee382e5e81119e0e22686aa54a1183bbb6774c3d1aa9bd7844",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p038-light.svg",
+          "sha256": "547644dabeb1cd4382ecd66c919e792620b845b670e5fbcd602db74f1021fc9d",
+          "bytes": 205784
+        },
+        {
+          "url": "/study-visuals/study-4/p038-dark.svg",
+          "sha256": "a9d38fc31288a9d7bdc60085dd9f47a246dee6f9cc889c97aa6a5e94eaa7977a",
+          "bytes": 205784
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 40,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        179.5305633544922
+      ],
+      "bodySha256": "b0b358b59689b1d78d9accf76b52377cd05e6befbf263776d15619750d291ccf",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p040-light.svg",
+          "sha256": "ea49cbcec6bc0d42fb6bc58c6be5318e363fcad635df209cb31fcccbb6ba3cbd",
+          "bytes": 194136
+        },
+        {
+          "url": "/study-visuals/study-4/p040-dark.svg",
+          "sha256": "a4fd563d99aac3144e8a9f8c87328da4571f96894735ce751376d5236ff5aad1",
+          "bytes": 194136
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 42,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        168.66720581054688
+      ],
+      "bodySha256": "a6af2836866cd02a978cb6358bc99fce6e5c1e665b0f0b48d7ae4cf34bbf06bf",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p042-light.svg",
+          "sha256": "cf3ff51f35ab4452be921417264bcef485df94f8d9f37aa8954126ce233e6828",
+          "bytes": 201322
+        },
+        {
+          "url": "/study-visuals/study-4/p042-dark.svg",
+          "sha256": "c749ea52e7a1238896467288e82d3f36b76d9b26cfb45cdef4add2aede0e813d",
+          "bytes": 201322
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 44,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        170.1912078857422
+      ],
+      "bodySha256": "08cc00ed894520b20e55fca7b1fa4e8b3a8d572f6913ddb92b5d6612b7b8d0d4",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p044-light.svg",
+          "sha256": "03a0b9cee14fae0a81342fbd107f8a45898da349a32eaab997b8f9004ac0f75a",
+          "bytes": 193616
+        },
+        {
+          "url": "/study-visuals/study-4/p044-dark.svg",
+          "sha256": "32eea28718a356f2a683b75457af5cfef8c2d838e498442c4020605005401662",
+          "bytes": 193616
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 46,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        170.1912078857422
+      ],
+      "bodySha256": "37e48c100916647168807ded903089b14e002f9b05e417bd28c5ba124db36d52",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p046-light.svg",
+          "sha256": "2cd9ce5bdebb3e317597e81ad2305794369214311da31da51a45ee1318549df5",
+          "bytes": 186492
+        },
+        {
+          "url": "/study-visuals/study-4/p046-dark.svg",
+          "sha256": "533ac35b0275dbcd01241fceed05575cea41a02b6226de822a09a25d85b18516",
+          "bytes": 186492
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 48,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        173.8612823486328
+      ],
+      "bodySha256": "d83a5401073c111d4b4c15812ece351d126940e4acc99a2e95c51fa96acf014d",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p048-light.svg",
+          "sha256": "7cc2ebcf41fbeb644d705db912c3a5ca7b4a1e51b15cd3fd41090d695b4c9b20",
+          "bytes": 176927
+        },
+        {
+          "url": "/study-visuals/study-4/p048-dark.svg",
+          "sha256": "81e251fc3bf0d6659890ad5fbf7b536e44fc44add11105bb029fb3e3533dad1e",
+          "bytes": 176927
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 50,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        170.1912078857422
+      ],
+      "bodySha256": "8cf1b0e2820c24bd318347c8f88274f16fc0c028221bd261011e5e10481ad3c2",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p050-light.svg",
+          "sha256": "1827933c8dfb996ae43aa421262cae58595fc8bff1588d888f18a62d008611bc",
+          "bytes": 180869
+        },
+        {
+          "url": "/study-visuals/study-4/p050-dark.svg",
+          "sha256": "680978efc2ffbd68cb3e0ce4f9523af0d9c661c2ca3479d1df7fd52a4faa4360",
+          "bytes": 180869
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 52,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        170.1912078857422
+      ],
+      "bodySha256": "4a4ca47b4f9faac7996fbb834daa902b65cdc7a42a23ec8fcb7c00d9499602aa",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p052-light.svg",
+          "sha256": "21d715513b1f26c81fbc5091e1179576e4b850ab0ee9e088cbf7e63302859f6a",
+          "bytes": 189067
+        },
+        {
+          "url": "/study-visuals/study-4/p052-dark.svg",
+          "sha256": "86d69b90ca6d2305485513fb8ea406a39bb0aa45d6b29fa25f655ef0d88c7b92",
+          "bytes": 189067
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 54,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "e4b3b5dece056fd8c233c2dd0abaf9753d14fce4cfca217ae1680ff237d18dd3",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p054.webp",
+          "sha256": "8beeeff27ec7777f6964fb62a32e90e0b05e15ea738a06c38bd76e362e972658",
+          "bytes": 439268
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 55,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        170.1912078857422
+      ],
+      "bodySha256": "cc7d9ed5dc4190bb1fa089badf5c9684563d72b522016596f7767f31874f6d62",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p055-light.svg",
+          "sha256": "d1357327ae61238b3db18115aad86beff5590be3dc18546960fbf08c0703907a",
+          "bytes": 189077
+        },
+        {
+          "url": "/study-visuals/study-4/p055-dark.svg",
+          "sha256": "1e3e3eda222888435f1bf74910463b18af384acb7d826c81023d4a38a44a7842",
+          "bytes": 189077
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 57,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        175.31472778320312
+      ],
+      "bodySha256": "2dfb76c4583a65a0b11a1775bf98ca3a14c7f4e81eeddc0e90adb653a2eae619",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p057-light.svg",
+          "sha256": "3a9a5803bc2d4c96ab63fef047a368f771c87fb3a1ffb32b0f9272b772fa46f3",
+          "bytes": 172280
+        },
+        {
+          "url": "/study-visuals/study-4/p057-dark.svg",
+          "sha256": "df069b9597c1d87adabd3db74b2b0c7c9c5cff19eaa00c56e10fd56cd27cf4e2",
+          "bytes": 172280
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 59,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        175.31472778320312
+      ],
+      "bodySha256": "cf0e140e7c831db0936a7658d788bdbbd2218731984e69f4d73baf35c94af9ea",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p059-light.svg",
+          "sha256": "bf383a1355be5c25b0da7922da05cbbd3e3d2221fd930e2c2ad9bbbbeabc7fd6",
+          "bytes": 177484
+        },
+        {
+          "url": "/study-visuals/study-4/p059-dark.svg",
+          "sha256": "100e7d3de9db178160c21181cb4cee339a01e7e3db107afeb5e5889d41d6b812",
+          "bytes": 177484
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 61,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        175.31472778320312
+      ],
+      "bodySha256": "8289faf530fe960b807a3cf002609c7ff5d88ebfef9758ab41e17c63e4ff906c",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p061-light.svg",
+          "sha256": "338cc611eca843334013f2b682eb7db6de6b3a53840d003cee49e8524c94ccae",
+          "bytes": 165689
+        },
+        {
+          "url": "/study-visuals/study-4/p061-dark.svg",
+          "sha256": "1cab088bc82b1f12721b20abfa7fa4614e53cd43c94b354d4f076777fe320c58",
+          "bytes": 165689
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 62,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "9c4a239ab4dff505704d197e9554cd24786a59998f4b72e7e7a41c7399c24d81",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p062.webp",
+          "sha256": "1039041b27aac9756cefbe7fa580d6f5ba9fe4285e6d248682f3b639aff003bd",
+          "bytes": 435424
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 63,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        175.31472778320312
+      ],
+      "bodySha256": "fcac8e5d41b44d1577b28c351aef20d7d6f8fecce439dbc17a23362b653de8ad",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p063-light.svg",
+          "sha256": "e5e8cb8ddd6842b351fce20e69b76c4614b379678f28c69b16f13f8fa6d10484",
+          "bytes": 179510
+        },
+        {
+          "url": "/study-visuals/study-4/p063-dark.svg",
+          "sha256": "e4f46b03fadb057b02fe511e6646262ba354f3df4d5ce038d5a9d9848c7b2d74",
+          "bytes": 179510
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 65,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        175.31472778320312
+      ],
+      "bodySha256": "c699e4270499b91088b8c10f9edd2c32e1dbbbfc174bc1eb8fdffa20a2f39df6",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p065-light.svg",
+          "sha256": "940499cca701ad61d9e429672992d475c4892796cee246afe7c54ed7bac51b8a",
+          "bytes": 161931
+        },
+        {
+          "url": "/study-visuals/study-4/p065-dark.svg",
+          "sha256": "0eb12024371dd8cce2f0265c2cba9a9c0b6334859e9865e87b420813ea3d6b43",
+          "bytes": 161931
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 67,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        175.31472778320312
+      ],
+      "bodySha256": "fb42ed25fde6c7b64b64095221e703855b01c9f14dfa5a42002b45741966ffda",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p067-light.svg",
+          "sha256": "abc37bf3d277dddacf660c0773df3931845ac6c4c92c776615d2f9e50b02eec2",
+          "bytes": 164362
+        },
+        {
+          "url": "/study-visuals/study-4/p067-dark.svg",
+          "sha256": "58118611711a01759b4d43f568c4e7e298306ca89e08c258af0cc6cd01d2bc06",
+          "bytes": 164362
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 69,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        175.31472778320312
+      ],
+      "bodySha256": "2b80d04e6c5b191b12a6f9db9b04ea5081fa61919a0d156b88296ac4bb602803",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p069-light.svg",
+          "sha256": "939fef50d49645712a3eb15afe483aa91b6a6d1b4b33fb1b812caf5667bad95f",
+          "bytes": 160851
+        },
+        {
+          "url": "/study-visuals/study-4/p069-dark.svg",
+          "sha256": "40f0c9ae36ee06b99cd28985e7d1b6e6269ac9593a2dd0f6184cd2c78f7b2bc2",
+          "bytes": 160851
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 72,
+      "mode": "faithful-themed-header",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        183.2241668701172
+      ],
+      "bodySha256": "7b352b0a5569a02137a2d030f0996eeb992506582e1d999cc4c247568f5be280",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p072-light.svg",
+          "sha256": "30e4dcbca422682d0aa2dc6a894f8ab996795c6c7082dc4080c9970055e5a80e",
+          "bytes": 208515
+        },
+        {
+          "url": "/study-visuals/study-4/p072-dark.svg",
+          "sha256": "266de2d74c6ef458a0e76129f1d7cc12d87b847dcf3e622e81456451d28e3935",
+          "bytes": 208515
+        }
+      ]
+    },
+    {
+      "sourceId": "study-4",
+      "sourcePage": 74,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        595.5,
+        842.2500610351562
+      ],
+      "bodySha256": "fd010e6fbbdd88d609611629b31fd1dbe1e090205be226471f9b7844523eb10f",
+      "assets": [
+        {
+          "url": "/study-visuals/study-4/p074.webp",
+          "sha256": "7fc30051782e73951f1ce53d86dfee59b809b47d983073184f58d2f9d5524319",
+          "bytes": 363820
+        }
+      ]
+    },
+    {
+      "sourceId": "gospels",
+      "sourcePage": 1,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        1152.0,
+        2064.0
+      ],
+      "bodySha256": "f41f1fffa29ef17105812d23bfb4f1c8df6d5ae2197605c7201927d0a3aff5ac",
+      "assets": [
+        {
+          "url": "/study-visuals/gospels/p001.webp",
+          "sha256": "be90b9a1793208710f7dea029468c6c95ab19e2b5e1ec97572e995225f91b40b",
+          "bytes": 1048128
+        }
+      ]
+    },
+    {
+      "sourceId": "gospels",
+      "sourcePage": 2,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        1152.0,
+        2064.0
+      ],
+      "bodySha256": "900a9c37543fe4364eda8e135826096d283dc1600c442cec91864e3375d0052f",
+      "assets": [
+        {
+          "url": "/study-visuals/gospels/p002.webp",
+          "sha256": "11d3e2bea1e2174cf3fd4e30e191f014fd3a27086054de01c02d0d00b90dae6e",
+          "bytes": 1232428
+        }
+      ]
+    },
+    {
+      "sourceId": "gospels",
+      "sourcePage": 3,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        1152.0,
+        2064.0
+      ],
+      "bodySha256": "5ad824dc77d0c09adfe1c3d4a35b8725c1b1178523afcfc6a9d9937de2519ac4",
+      "assets": [
+        {
+          "url": "/study-visuals/gospels/p003.webp",
+          "sha256": "30c3794efaa972c380fdc5918bb5b17866c09efd37f06662828888d966612585",
+          "bytes": 911518
+        }
+      ]
+    },
+    {
+      "sourceId": "gospels",
+      "sourcePage": 4,
+      "mode": "faithful-composite",
+      "crop": [
+        0.0,
+        0.0,
+        1152.0,
+        2064.0
+      ],
+      "bodySha256": "aa64530047b861640a288898124fb5a86cec44d1424a32fe32abf43ee009ed76",
+      "assets": [
+        {
+          "url": "/study-visuals/gospels/p004.webp",
+          "sha256": "fa58e46b1c26a4d9497eeb11ca0bf7ca486b5151e9fec0f4f090f584b2334745",
+          "bytes": 1207444
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Complex composites remain faithful images, not fully redrawn illustrations.",
+    "Unconfirmed transcriptions are kept separately and are not narrated as verified relations.",
+    "Source numbers and source editorial claims have not been corrected from external information."
+  ]
+}

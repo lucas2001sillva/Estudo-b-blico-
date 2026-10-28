@@ -13,6 +13,7 @@ import concurrent.futures
 import csv
 import hashlib
 import io
+import importlib.util
 import json
 import os
 from pathlib import Path
@@ -989,6 +990,12 @@ def main() -> None:
     (content / "studies.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (content / "study-audit.json").write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     validate(data)
+    # Preserve visual relationships after a text reimport. This uses only the
+    # retained sanitized PDFs; OCR order must not stand in for a figure.
+    spec = importlib.util.spec_from_file_location("study_visuals", ROOT / "scripts" / "import-study-visuals.py")
+    visuals = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(visuals)
+    visuals.generate(content, args.root / "public" / "study-visuals")
     print(json.dumps(audit["counts"], ensure_ascii=False))
 
 
