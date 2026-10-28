@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="900" viewBox="0 0 1000 900" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">O ciclo apresentado no livro de Juízes</title>
+<desc id="figure-description">O ciclo apresentado no livro de Juízes, conforme a página 57 da Jornada da Bíblia — Parte 2.</desc>
+<metadata>Fonte: Jornada da Bíblia — Parte 2, página 57. Figura vetorial recriada; não contém captura de página.</metadata>
+<rect width="1000" height="900" rx="20" fill="#1e2520"/>
+<text x="40" y="34" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="11" font-weight="650" fill="#b4bdb3">JORNADA DA BÍBLIA — PARTE 2</text>
+<text x="40" y="78" font-family="Georgia,serif" font-size="30" font-weight="400" fill="#edf1e9">O ciclo apresentado no livro de Juízes</text>
+<defs><marker id="sequence-arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#bad6b8"/></marker></defs>
+<g data-step="0"><rect x="96" y="106" width="864" height="122" rx="13" fill="#293f30" stroke="#364138" stroke-width="1.5"/>
+<text x="118" y="140" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#bad6b8">1. Pecado</text>
+<text x="118" y="172" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">O povo se afasta de Deus e adota os costumes e deuses das nações</text>
+<text x="118" y="200" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">vizinhas.</text>
+</g>
+<path d="M528 232V257" fill="none" stroke="#bad6b8" stroke-width="2.5" marker-end="url(#sequence-arrow)" data-link="next"/>
+<g data-step="1"><rect x="96" y="270" width="864" height="122" rx="13" fill="#1e2520" stroke="#364138" stroke-width="1.5"/>
+<text x="118" y="304" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#bad6b8">2. Opressão</text>
+<text x="118" y="336" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Deus permite que inimigos estrangeiros dominem Israel como forma</text>
+<text x="118" y="364" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">de disciplina.</text>
+</g>
+<path d="M528 396V421" fill="none" stroke="#bad6b8" stroke-width="2.5" marker-end="url(#sequence-arrow)" data-link="next"/>
+<g data-step="2"><rect x="96" y="434" width="864" height="94" rx="13" fill="#293f30" stroke="#364138" stroke-width="1.5"/>
+<text x="118" y="468" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#bad6b8">3. Clamor</text>
+<text x="118" y="500" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Em meio ao sofrimento, o povo clama a Deus por libertação.</text>
+</g>
+<path d="M528 532V557" fill="none" stroke="#bad6b8" stroke-width="2.5" marker-end="url(#sequence-arrow)" data-link="next"/>
+<g data-step="3"><rect x="96" y="570" width="864" height="122" rx="13" fill="#1e2520" stroke="#364138" stroke-width="1.5"/>
+<text x="118" y="604" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#bad6b8">4. Libertação</text>
+<text x="118" y="636" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Deus levanta um juiz, um líder carismático e espiritual, que</text>
+<text x="118" y="664" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">conduz o povo à vitória.</text>
+</g>
+<path d="M528 696V721" fill="none" stroke="#bad6b8" stroke-width="2.5" marker-end="url(#sequence-arrow)" data-link="next"/>
+<g data-step="4"><rect x="96" y="734" width="864" height="94" rx="13" fill="#293f30" stroke="#364138" stroke-width="1.5"/>
+<text x="118" y="768" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#bad6b8">5. Paz</text>
+<text x="118" y="800" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Segue-se um tempo de tranquilidade... até que o ciclo recomece.</text>
+</g>
+<path d="M92 781H62Q50 781 50 769V179Q50 167 62 167H90" fill="none" stroke="#bad6b8" stroke-width="2.5" marker-end="url(#sequence-arrow)" data-link="return"/>
+<line x1="40" x2="960" y1="850" y2="850" stroke="#364138"/>
+<text x="40" y="877" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#b4bdb3">Fonte: Jornada da Bíblia — Parte 2 · p. 57</text>
+</svg>

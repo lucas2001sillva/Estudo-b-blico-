@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1112" viewBox="0 0 1000 1112" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">Os dois censos de Israel</title>
+<desc id="figure-description">Tabela comparativa dos dois censos por tribo e do total; a fotografia lateral e a prosa não pertencem à figura.</desc>
+<metadata>Fonte: Jornada da Bíblia — Parte 2, página 37. Figura vetorial recriada; não contém captura de página.</metadata>
+<rect width="1000" height="1112" rx="20" fill="#1e2520"/>
+<text x="40" y="34" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="11" font-weight="650" fill="#b4bdb3">JORNADA DA BÍBLIA — PARTE 2</text>
+<text x="40" y="78" font-family="Georgia,serif" font-size="30" font-weight="400" fill="#edf1e9">Os dois censos de Israel</text>
+<rect x="40" y="106" width="920" height="54" rx="10" fill="#bad6b8"/>
+<text x="56" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#151a17">Tribo</text>
+<text x="362.667" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#151a17">1º Censo</text>
+<text x="669.333" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#151a17">2º Censo</text>
+<g data-row="0"><rect x="40" y="170" width="920" height="58" rx="10" fill="#293f30" stroke="#364138"/>
+<text x="56" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Rúben</text>
+<text x="362.667" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">46.500</text>
+<text x="669.333" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">43.730</text>
+</g>
+<g data-row="1"><rect x="40" y="238" width="920" height="58" rx="10" fill="#1e2520" stroke="#364138"/>
+<text x="56" y="269" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Simeão</text>
+<text x="362.667" y="269" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">59.300</text>
+<text x="669.333" y="269" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">22.200</text>
+</g>
+<g data-row="2"><rect x="40" y="306" width="920" height="58" rx="10" fill="#293f30" stroke="#364138"/>
+<text x="56" y="337" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Gade</text>
+<text x="362.667" y="337" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">45.650</text>
+<text x="669.333" y="337" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">40.500</text>
+</g>
+<g data-row="3"><rect x="40" y="374" width="920" height="58" rx="10" fill="#1e2520" stroke="#364138"/>
+<text x="56" y="405" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Judá</text>
+<text x="362.667" y="405" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">74.600</text>
+<text x="669.333" y="405" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">76.500</text>
+</g>
+<g data-row="4"><rect x="40" y="442" width="920" height="58" rx="10" fill="#293f30" stroke="#364138"/>
+<text x="56" y="473" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Issacar</text>
+<text x="362.667" y="473" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">54.400</text>
+<text x="669.333" y="473" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">64.300</text>
+</g>
+<g data-row="5"><rect x="40" y="510" width="920" height="58" rx="10" fill="#1e2520" stroke="#364138"/>
+<text x="56" y="541" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Zebulom</text>
+<text x="362.667" y="541" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">57.400</text>
+<text x="669.333" y="541" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">60.500</text>
+</g>
+<g data-row="6"><rect x="40" y="578" width="920" height="58" rx="10" fill="#293f30" stroke="#364138"/>
+<text x="56" y="609" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Efraim</text>
+<text x="362.667" y="609" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">40.500</text>
+<text x="669.333" y="609" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">32.500</text>
+</g>
+<g data-row="7"><rect x="40" y="646" width="920" height="58" rx="10" fill="#1e2520" stroke="#364138"/>
+<text x="56" y="677" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Manassés</text>
+<text x="362.667" y="677" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">32.200</text>
+<text x="669.333" y="677" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">52.700</text>
+</g>
+<g data-row="8"><rect x="40" y="714" width="920" height="58" rx="10" fill="#293f30" stroke="#364138"/>
+<text x="56" y="745" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Benjamim</text>
+<text x="362.667" y="745" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">35.400</text>
+<text x="669.333" y="745" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">45.600</text>
+</g>
+<g data-row="9"><rect x="40" y="782" width="920" height="58" rx="10" fill="#1e2520" stroke="#364138"/>
+<text x="56" y="813" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Dã</text>
+<text x="362.667" y="813" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">62.700</text>
+<text x="669.333" y="813" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">64.400</text>
+</g>
+<g data-row="10"><rect x="40" y="850" width="920" height="58" rx="10" fill="#293f30" stroke="#364138"/>
+<text x="56" y="881" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Aser</text>
+<text x="362.667" y="881" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">41.500</text>
+<text x="669.333" y="881" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">53.400</text>
+</g>
+<g data-row="11"><rect x="40" y="918" width="920" height="58" rx="10" fill="#1e2520" stroke="#364138"/>
+<text x="56" y="949" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Naftali</text>
+<text x="362.667" y="949" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">53.400</text>
+<text x="669.333" y="949" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">45.400</text>
+</g>
+<g data-row="12"><rect x="40" y="986" width="920" height="58" rx="10" fill="#293f30" stroke="#364138"/>
+<text x="56" y="1017" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Total</text>
+<text x="362.667" y="1017" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">603.550</text>
+<text x="669.333" y="1017" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">601.730</text>
+</g>
+<line x1="40" x2="960" y1="1062" y2="1062" stroke="#364138"/>
+<text x="40" y="1089" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#b4bdb3">Fonte: Jornada da Bíblia — Parte 2 · p. 37</text>
+</svg>

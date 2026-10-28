@@ -1,29 +1,30 @@
-# Figuras e quadros dos estudos
+# Figuras e texto dos estudos
 
-Atualização de 28/10/2026. A apresentação linear do texto de um PDF não preserva, por si, relações entre barras, colunas, cartões ou pontos de uma cronologia. Esses trechos agora são apresentados como imagens, com referência à página e ampliação por teclado ou toque.
+Atualização de 28/10/2026. Os parágrafos dos estudos permanecem como texto do site. Somente gráficos, tabelas, quadros de dados e diagramas são recriados como imagens separadas, inseridas na ordem da leitura.
 
-## Origem e apresentação
+## Conteúdo e apresentação
 
-- Foram examinadas as 251 páginas dos cinco PDFs de estudo; 171 seções receberam figuras. As capas continuam fora das lições.
-- O gráfico da Parte 1, página 3, foi redesenhado como SVG: Antigo Testamento com 39 livros e Novo Testamento com 27, mantendo escala de 0 a 40 e proporções corretas.
-- O quadro da Parte 1, página 4, foi redesenhado como SVG: cada um dos sete autores permanece junto de sua descrição; a nota lateral também foi preservada.
-- Cabeçalhos com dados e cronologias nas Partes 3 e 4 mantêm os vetores, coordenadas e rótulos da fonte, com a paleta clara/escura do site.
-- Composições complexas e páginas em imagem preservam a composição original dentro do leitor visual do site. Não são novos desenhos gerados a partir de OCR. Cores de categorias e legendas das composições originais são mantidas.
-- Todas as exportações usam as cópias de consulta já sanitizadas em `content/source-pdfs/`, com o clipping aplicado pelo mecanismo PDF. Os anexos brutos não são republicados.
+- As 248 páginas de conteúdo possuem um plano explícito: regiões de figuras ou nenhuma figura. Capas não entram nas lições.
+- Os arquivos `content/visual-regions-*.json` delimitam as figuras e registram linhas, colunas, relações e notas transcritas da fonte.
+- O gráfico de 39/27 livros e o quadro dos sete autores mantêm dados e associações conferidos.
+- Tabelas são imagens SVG novas, com células/cartões, tipografia e paleta clara/escura do Vereda. Sequências e ciclos mantêm suas setas e retorno quando presentes na fonte.
+- Diagramas vetoriais são reconstruídos somente dentro da região selecionada, preservando rótulos e conexões e usando a tipografia e as cores do site. Não contêm bitmaps de páginas.
+- A planta central do tabernáculo foi gerada como uma imagem própria nos dois temas; seus objetos, rótulos e medidas foram conferidos no PDF. As fotografias ao redor não fazem parte da imagem nova.
+- Rótulos ilegíveis ou relações ambíguas continuam sinalizados para revisão, com acesso ao PDF. Não são completados por memória ou tratados como dados confirmados.
 
-Os 228 arquivos resultantes ficam em `public/study-visuals/`. O navegador carrega as imagens sob demanda. O modal permite ampliação de 100% a 400%, rolagem interna e fechamento por Esc; também há acesso direto à imagem e ao PDF.
+Não existe imagem de página inteira como alternativa automática. Uma figura que ocupa quase uma página, como uma genealogia, continua limitada ao conteúdo dessa figura; títulos externos, parágrafos, fotos e rodapés não são incorporados.
 
-## Texto, leitura e áudio
+## Texto e acessibilidade
 
-O campo original `body` continua preservado para auditoria e não é usado automaticamente como interpretação de uma figura. `displayBody` e `bodyAfterVisuals` mantêm a prosa comum antes e depois das imagens quando essa separação é confiável.
+`StudySection.blocks` intercala parágrafos (`text`) e referências de figuras (`visual`) na ordem do material. Os parágrafos usam HTML e o tamanho de letra escolhido pelo leitor, incluindo nas páginas originalmente digitalizadas.
 
-`readingText` define a leitura acessível confirmada da seção, incluindo descrições verificadas. As sete associações do quadro dos autores são narradas corretamente. Uma imagem legível não transforma automaticamente OCR em transcrição revisada.
+O OCR da prosa mascara somente as figuras e usa regiões de leitura conferidas para não misturar colunas. A introdução e a prosa de Gênesis na Parte 2 possuem transcrição manual conferida. Os onze cabeçalhos dessa parte têm descrições de dados e cronologia conferidas no original. Outras conversões automáticas preservam seus avisos e podem exigir revisão editorial.
 
-Quando ainda não há transcrição semântica confiável, o texto extraído fica no detalhe **Texto extraído — em conferência**, sem áudio automático. Os avisos de páginas em revisão permanecem. A descrição detalhada acessível de todas as composições complexas continua exigindo revisão humana; não se inventam rótulos ilegíveis.
+`readingText` reúne a prosa e as descrições acessíveis disponíveis, respeitando os avisos de revisão. Os campos originais `body`, as fontes e os quizzes ficam preservados para auditoria. Imagens têm descrições, ampliação, teclado e acesso ao PDF. As seções ainda em conferência não são narradas como conteúdo confirmado.
 
-## Reproduzir e conferir
+## Reprodução e verificação
 
-As dependências opcionais Python estão em `scripts/requirements.txt`.
+As dependências opcionais estão em `scripts/requirements.txt`; a reimportação também requer Tesseract e o modelo de português, obtido da fonte oficial com checksum verificado. Não é necessário OCR para executar o site: o conteúdo e as figuras preparados ficam versionados.
 
 ```sh
 python3 scripts/import-study-visuals.py
@@ -34,6 +35,6 @@ npm test
 npm run test:e2e
 ```
 
-O importador geral de estudos também refaz a apresentação visual ao concluir uma importação. Exportações raster existentes só são reutilizadas quando a fonte, o recorte e o hash do arquivo coincidem com a auditoria anterior.
+A auditoria `content/study-visual-audit.json` registra 248 seções, as regiões selecionadas, as figuras recriadas, as pendências e hashes das fontes, transcrições e assets. O campo `fullPageImages` deve permanecer zero. As antigas capturas integrais são removidas quando deixam de ser referenciadas.
 
-`content/study-visual-audit.json` registra fontes, recortes, modo de apresentação, hash da transcrição original e integridade de cada imagem. Os números e afirmações editoriais dos PDFs não são corrigidos por informações externas.
+A regeneração reutiliza o OCR somente quando fonte, regiões e parâmetros coincidem. Os PNGs gerados e revisados da planta devem ser preservados no repositório; não se exige uma nova geração de imagem para instalar ou publicar o site.

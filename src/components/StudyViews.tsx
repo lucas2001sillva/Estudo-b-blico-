@@ -51,10 +51,13 @@ function SourceLink({ id, page, title, compact = false }: { id: string; page: nu
 }
 
 function sectionReadingText(section: StudySection) {
+  if (section.reviewStatus === 'needs-review') return '';
   // A supplied reading is complete and already includes any verified figure descriptions.
   // Never append extracted body text to it, especially when an empty reading was deliberate.
   if (section.readingText !== undefined) return section.readingText.trim();
-  if (section.reviewStatus === 'needs-review') return '';
+  if (section.blocks !== undefined) {
+    return section.blocks.map(block => block.kind === 'text' ? block.text : section.visuals?.find(visual => visual.id === block.visualId)?.accessibleText ?? '').filter(Boolean).join('\n\n');
+  }
   if (section.visuals?.length) {
     return [section.displayBody ?? '', ...section.visuals.map(visual => visual.accessibleText ?? ''), section.bodyAfterVisuals ?? ''].filter(Boolean).join('\n\n');
   }
@@ -157,7 +160,7 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
 
             <div className="study-reader-note">
               <BookOpen size={18} aria-hidden="true" />
-              <p>Conteúdo organizado a partir dos arquivos enviados, com os quadros e diagramas preservados em imagens. Amplie para ver os detalhes e consulte o PDF para conferir a fonte.</p>
+              <p>Texto para leitura, com gráficos, quadros e diagramas recriados a partir do material. Amplie as figuras e consulte o PDF para conferir a fonte.</p>
             </div>
 
             {hasReviewNotice && <div className="study-review-notice" role="note">
@@ -184,20 +187,28 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
                   {reading && <span hidden aria-hidden="true" data-readable>{section.title}. {reading}</span>}
                   {section.reviewStatus === 'needs-review' ? (
                     <div className="study-review-notice">
-                      <p>A transcrição desta página ainda precisa de conferência. {section.visuals?.length ? 'A imagem preserva a organização do material original; amplie para consultar os detalhes.' : 'Consulte a página no PDF para conferir as informações.'}</p>
+                      <p>A transcrição desta página ainda precisa de conferência. {section.visuals?.length ? 'Amplie as figuras e consulte o PDF para conferir as informações.' : 'Consulte a página no PDF para conferir as informações.'}</p>
                     </div>
                   ) : (
                     <>
                       {(section.reviewStatus === 'ocr-reviewed' || section.reviewStatus === 'ocr-extracted') && <p className="study-transcription-note">Texto convertido de imagem; consulte a fonte em caso de dúvida. Esta conversão não substitui o PDF de consulta.</p>}
-                      {body.trim() && <div className="study-section-body">
+                      {section.blocks === undefined && body.trim() && <div className="study-section-body">
                         {body.split(/\n\s*\n/).filter(Boolean).map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
                       </div>}
                     </>
                   )}
-                  {section.visuals?.map(visual => <StudyVisual key={visual.id} visual={visual} theme={progress.preferences.theme} onSpeak={onSpeak} />)}
-                  {section.reviewStatus !== 'needs-review' && section.bodyAfterVisuals?.trim() && <div className="study-section-body">
-                    {section.bodyAfterVisuals.split(/\n\s*\n/).filter(Boolean).map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
-                  </div>}
+                  {section.blocks !== undefined ? section.blocks.map((block, blockIndex) => {
+                    if (block.kind === 'text') return block.text.trim() ? <div className="study-section-body" key={`text-${blockIndex}`}>
+                      {block.text.split(/\n\s*\n/).filter(Boolean).map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
+                    </div> : null;
+                    const visual = section.visuals?.find(item => item.id === block.visualId);
+                    return visual ? <StudyVisual key={`visual-${block.visualId}-${blockIndex}`} visual={visual} theme={progress.preferences.theme} onSpeak={onSpeak} /> : <p className="muted" role="status" key={`missing-${blockIndex}`}>Esta figura não está disponível. Consulte o PDF da página.</p>;
+                  }) : <>
+                    {section.visuals?.map(visual => <StudyVisual key={visual.id} visual={visual} theme={progress.preferences.theme} onSpeak={onSpeak} />)}
+                    {section.reviewStatus !== 'needs-review' && section.bodyAfterVisuals?.trim() && <div className="study-section-body">
+                      {section.bodyAfterVisuals.split(/\n\s*\n/).filter(Boolean).map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
+                    </div>}
+                  </>}
                   {section.sourceTranscript !== undefined && <details className="study-source-transcript">
                     <summary>Texto extraído — em conferência</summary>
                     <div className="study-source-transcript-body">

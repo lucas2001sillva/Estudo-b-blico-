@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="556" viewBox="0 0 1000 556" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">Elementos do Tabernáculo</title>
+<desc id="figure-description">Quatro elementos do Tabernáculo ligados aos significados indicados no PDF; a fotografia e a prosa ficam fora.</desc>
+<metadata>Fonte: Jornada da Bíblia — Parte 2, página 27. Figura vetorial recriada; não contém captura de página.</metadata>
+<rect width="1000" height="556" rx="20" fill="#ffffff"/>
+<text x="40" y="34" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="11" font-weight="650" fill="#69736b">JORNADA DA BÍBLIA — PARTE 2</text>
+<text x="40" y="78" font-family="Georgia,serif" font-size="30" font-weight="400" fill="#29332d">Elementos do Tabernáculo</text>
+<rect x="40" y="106" width="920" height="54" rx="10" fill="#245341"/>
+<text x="56" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">Elemento</text>
+<text x="306" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">Significado apresentado</text>
+<g data-row="0"><rect x="40" y="170" width="920" height="86" rx="10" fill="#eaf1e9" stroke="#e5e7df"/>
+<text x="56" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Altar do</text>
+<text x="56" y="229" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Holocausto</text>
+<text x="306" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Representava o sacrifício e a purificação.</text>
+</g>
+<g data-row="1"><rect x="40" y="266" width="920" height="86" rx="10" fill="#ffffff" stroke="#e5e7df"/>
+<text x="56" y="297" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Candelabro de</text>
+<text x="56" y="325" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Ouro</text>
+<text x="306" y="297" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Luz divina guiando o povo.</text>
+</g>
+<g data-row="2"><rect x="40" y="362" width="920" height="58" rx="10" fill="#eaf1e9" stroke="#e5e7df"/>
+<text x="56" y="393" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Mesa dos Pães</text>
+<text x="306" y="393" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Sustento e comunhão.</text>
+</g>
+<g data-row="3"><rect x="40" y="430" width="920" height="58" rx="10" fill="#ffffff" stroke="#e5e7df"/>
+<text x="56" y="461" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Arca da Aliança</text>
+<text x="306" y="461" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Presença de Deus e Sua fidelidade.</text>
+</g>
+<line x1="40" x2="960" y1="506" y2="506" stroke="#e5e7df"/>
+<text x="40" y="533" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#69736b">Fonte: Jornada da Bíblia — Parte 2 · p. 27</text>
+</svg>

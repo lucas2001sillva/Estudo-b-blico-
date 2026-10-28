@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="568" viewBox="0 0 1000 568" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">Informações de Lucas no quadro</title>
+<desc id="figure-description">Somente os cartões superiores de informações, separados do título e do texto.</desc>
+<metadata>Fonte: Os 4 Evangelhos, página 3. Figura vetorial recriada; não contém captura de página.</metadata>
+<rect width="1000" height="568" rx="20" fill="#ffffff"/>
+<text x="40" y="34" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="11" font-weight="650" fill="#69736b">OS 4 EVANGELHOS</text>
+<text x="40" y="78" font-family="Georgia,serif" font-size="30" font-weight="400" fill="#29332d">Informações de Lucas no quadro</text>
+<rect x="40" y="106" width="920" height="54" rx="10" fill="#245341"/>
+<text x="56" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">Rótulo da fonte</text>
+<text x="306" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">Valor</text>
+<g data-row="0"><rect x="40" y="170" width="920" height="58" rx="10" fill="#eaf1e9" stroke="#e5e7df"/>
+<text x="56" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Capítulos</text>
+<text x="306" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">24</text>
+</g>
+<g data-row="1"><rect x="40" y="238" width="920" height="58" rx="10" fill="#ffffff" stroke="#e5e7df"/>
+<text x="56" y="269" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Versículos</text>
+<text x="306" y="269" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">1.151</text>
+</g>
+<g data-row="2"><rect x="40" y="306" width="920" height="58" rx="10" fill="#eaf1e9" stroke="#e5e7df"/>
+<text x="56" y="337" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Autor</text>
+<text x="306" y="337" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Lucas</text>
+</g>
+<g data-row="3"><rect x="40" y="374" width="920" height="58" rx="10" fill="#ffffff" stroke="#e5e7df"/>
+<text x="56" y="405" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Data</text>
+<text x="306" y="405" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">62 d.C.</text>
+</g>
+<g data-row="4"><rect x="40" y="442" width="920" height="58" rx="10" fill="#eaf1e9" stroke="#e5e7df"/>
+<text x="56" y="473" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Estilo</text>
+<text x="306" y="473" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Evangelho</text>
+</g>
+<line x1="40" x2="960" y1="518" y2="518" stroke="#e5e7df"/>
+<text x="40" y="545" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#69736b">Fonte: Os 4 Evangelhos · p. 3</text>
+</svg>

@@ -19,6 +19,23 @@ async function expectLoaded(image: ReturnType<Page['locator']>) {
   });
 }
 
+async function captureSpeech(page: Page) {
+  await page.addInitScript(() => {
+    const spoken: string[] = [];
+    Object.defineProperty(window, '__studySpoken', { value: spoken });
+    Object.defineProperty(window, 'speechSynthesis', {
+      configurable: true,
+      value: {
+        cancel() {}, pause() {}, resume() {}, getVoices() { return []; }, paused: false,
+        speak(utterance: SpeechSynthesisUtterance) {
+          spoken.push(utterance.text);
+          window.setTimeout(() => utterance.onend?.({} as SpeechSynthesisEvent), 0);
+        },
+      },
+    });
+  });
+}
+
 test('gráfico e autores aparecem como imagens fiéis, com tema, descrição e ampliação por teclado', async ({ page }, testInfo) => {
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
@@ -61,20 +78,7 @@ test('gráfico e autores aparecem como imagens fiéis, com tema, descrição e a
 });
 
 test('o áudio usa as relações verificadas do quadro, sem narrar o texto fragmentado antigo', async ({ page }) => {
-  await page.addInitScript(() => {
-    const spoken: string[] = [];
-    Object.defineProperty(window, '__studySpoken', { value: spoken });
-    Object.defineProperty(window, 'speechSynthesis', {
-      configurable: true,
-      value: {
-        cancel() {}, pause() {}, resume() {}, getVoices() { return []; }, paused: false,
-        speak(utterance: SpeechSynthesisUtterance) {
-          spoken.push(utterance.text);
-          window.setTimeout(() => utterance.onend?.({} as SpeechSynthesisEvent), 0);
-        },
-      },
-    });
-  });
+  await captureSpeech(page);
   await page.goto('/');
   await studies(page);
   await openLesson(page, 'Conhecendo a Bíblia');
@@ -91,24 +95,71 @@ test('o áudio usa as relações verificadas do quadro, sem narrar o texto fragm
   expect(await speech()).not.toMatch(/Antigo Testamento\s+39\s+Novo Testamento\s+27/);
 });
 
-test('imagens de páginas compostas e em conferência abrem no celular sem romper o layout', async ({ page }, testInfo) => {
+test('texto comum e figuras pontuais permanecem separados no celular', async ({ page }, testInfo) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('/');
   await studies(page);
   await openLesson(page, 'Gênesis: o começo da jornada');
-  const firstComposite = page.locator('figure.study-visual').first();
-  await expectLoaded(firstComposite.locator('.study-visual-preview img'));
+  const introduction = page.locator('.study-text-section').filter({ has: page.getByRole('heading', { name: 'Página 2', exact: true }) });
+  await expect(introduction.locator('figure.study-visual')).toHaveCount(0);
+  const prose = introduction.locator('.study-section-body p').filter({ hasText: 'O Antigo Testamento constitui a primeira grande parte' }).first();
+  await expect(prose).toBeVisible();
+  const fontBefore = await prose.evaluate(element => Number.parseFloat(getComputedStyle(element).fontSize));
+  await page.getByRole('button', { name: 'Acessibilidade', exact: true }).click();
+  await page.getByRole('button', { name: 'Aumentar letra', exact: true }).click();
+  await expect.poll(() => prose.evaluate(element => Number.parseFloat(getComputedStyle(element).fontSize))).toBe(fontBefore + 2);
+  await page.getByRole('button', { name: 'Fechar preferências', exact: true }).click();
+  await introduction.screenshot({ path: testInfo.outputPath('native-prose-mobile.png') });
+  const firstFigure = page.locator('figure.study-visual').first();
+  await expectLoaded(firstFigure.locator('.study-visual-preview img'));
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
   await page.screenshot({ path: testInfo.outputPath('mobile-study-page.png') });
-  await firstComposite.getByRole('button', { name: /^Ampliar imagem:/ }).click();
+  await firstFigure.locator('xpath=ancestor::section[contains(@class, "study-text-section")][1]').screenshot({ path: testInfo.outputPath('mobile-native-text-and-figure.png') });
+  await firstFigure.getByRole('button', { name: /^Ampliar imagem:/ }).click();
   await expect(page.getByRole('dialog')).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
   await page.keyboard.press('Escape');
   await page.getByRole('button', { name: 'Voltar aos estudos', exact: true }).click();
   await openLesson(page, 'Mateus em um quadro');
   await expect(page.getByRole('heading', { name: 'Página em conferência', exact: true })).toBeVisible();
-  await expectLoaded(page.locator('figure.study-visual .study-visual-preview img').first());
+  const reviewedFigures = page.locator('figure.study-visual .study-visual-preview img');
+  if (await reviewedFigures.count()) await expectLoaded(reviewedFigures.first());
   await expect(page.getByText(/A transcrição desta página ainda precisa de conferência/)).toBeVisible();
   await expect(page.getByRole('button', { name: 'Ouvir texto da página 1', exact: true })).toHaveCount(0);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
+});
+
+
+test('os parágrafos ao redor dos quadros continuam selecionáveis e disponíveis em áudio', async ({ page }, testInfo) => {
+  await captureSpeech(page);
+  await page.goto('/');
+  await studies(page);
+  await openLesson(page, 'Gênesis: o começo da jornada');
+  const genesis = page.locator('.study-text-section').filter({ has: page.getByRole('heading', { name: 'Página 3', exact: true }) });
+  await expect(genesis.locator('figure.study-visual')).not.toHaveCount(0);
+  const genesisText = genesis.locator('.study-section-body');
+  await expect(genesisText.filter({ hasText: /autoria de Gênesis/ }).first()).toBeVisible();
+  expect(await genesisText.allTextContents()).not.toEqual([]);
+  const header = genesis.locator('figure.study-visual');
+  await header.getByText('Ler descrição da imagem', { exact: true }).click();
+  await header.getByRole('button', { name: 'Ouvir descrição: Informações e cronologia do livro', exact: true }).click();
+  await expect.poll(() => page.evaluate(() => (window as unknown as { __studySpoken: string[] }).__studySpoken.join(' '))).toContain('Capítulos: 50');
+  await expect.poll(() => page.evaluate(() => (window as unknown as { __studySpoken: string[] }).__studySpoken.join(' '))).toContain('Versículos: 1533');
+  await genesis.screenshot({ path: testInfo.outputPath('native-text-and-header.png') });
+  await page.getByRole('button', { name: 'Voltar aos estudos', exact: true }).click();
+  await openLesson(page, 'Êxodo');
+  const exodus = page.locator('.study-text-section').filter({ has: page.getByRole('heading', { name: 'Página 14', exact: true }) });
+  await expect(exodus.locator('figure.study-visual')).not.toHaveCount(0);
+  await expect(exodus.locator('.study-section-body').filter({ hasText: /tradição judaico-cristã/ }).first()).toBeVisible();
+  await page.getByRole('button', { name: 'Ouvir texto da página 14', exact: true }).click();
+  await expect.poll(() => page.evaluate(() => (window as unknown as { __studySpoken: string[] }).__studySpoken.join(' '))).toContain('tradição judaico-cristã');
+  const images = await exodus.locator('figure.study-visual img').evaluateAll(elements => elements.map(element => (element as HTMLImageElement).getAttribute('src')));
+  expect(images.every(source => !/\/p\d{3}\.webp$/.test(source || ''))).toBe(true);
+  const recreatedTable = exodus.locator('figure.study-visual-table').first();
+  await expectLoaded(recreatedTable.locator('.study-visual-preview img'));
+  await recreatedTable.screenshot({ path: testInfo.outputPath('recreated-table.png') });
+  const tabernacle = page.locator('figure.study-visual').filter({ has: page.getByRole('heading', { name: 'Planta do Tabernáculo', exact: true }) });
+  await expectLoaded(tabernacle.locator('.study-visual-preview img'));
+  await expect(tabernacle.locator('.study-visual-preview img')).toHaveAttribute('src', /p020-tabernacle-light\.png$/);
+  await tabernacle.screenshot({ path: testInfo.outputPath('generated-tabernacle.png') });
 });

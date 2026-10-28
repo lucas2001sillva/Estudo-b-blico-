@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1206" viewBox="0 0 1000 1206" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">Moedas citadas nos Evangelhos</title>
+<desc id="figure-description">Quadro comparativo das sete moedas com valores e referências exatamente como no PDF.</desc>
+<metadata>Fonte: Jornada da Bíblia — Parte 4, página 22. Figura vetorial recriada; não contém captura de página.</metadata>
+<rect width="1000" height="1206" rx="20" fill="#ffffff"/>
+<text x="40" y="34" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="11" font-weight="650" fill="#69736b">JORNADA DA BÍBLIA — PARTE 4</text>
+<text x="40" y="78" font-family="Georgia,serif" font-size="30" font-weight="400" fill="#29332d">Moedas citadas nos Evangelhos</text>
+<rect x="40" y="106" width="920" height="80" rx="10" fill="#245341"/>
+<text x="56" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">Moeda</text>
+<text x="240" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">Texto bíblico</text>
+<text x="424" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">Tipo</text>
+<text x="608" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">Quanto valia</text>
+<text x="792" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">Em reais na</text>
+<text x="792" y="161" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">fonte</text>
+<g data-row="0"><rect x="40" y="196" width="920" height="142" rx="10" fill="#eaf1e9" stroke="#e5e7df"/>
+<text x="56" y="227" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Talento</text>
+<text x="240" y="227" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Mateus 25:15</text>
+<text x="240" y="255" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">(Parábola</text>
+<text x="240" y="283" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">dos</text>
+<text x="240" y="311" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">talentos)</text>
+<text x="424" y="227" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Moeda grega</text>
+<text x="424" y="255" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">de prata</text>
+<text x="608" y="227" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">6.000 dias</text>
+<text x="608" y="255" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">de trabalho</text>
+<text x="608" y="283" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">ou 20 anos</text>
+<text x="608" y="311" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">de salário</text>
+<text x="792" y="227" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">R$300.000,00</text>
+</g>
+<g data-row="1"><rect x="40" y="348" width="920" height="86" rx="10" fill="#ffffff" stroke="#e5e7df"/>
+<text x="56" y="379" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Denário</text>
+<text x="240" y="379" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Mateus 25:15</text>
+<text x="424" y="379" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Moeda romana</text>
+<text x="608" y="379" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">1 dia de</text>
+<text x="608" y="407" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">trabalho</text>
+<text x="792" y="379" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">R$50,00</text>
+</g>
+<g data-row="2"><rect x="40" y="444" width="920" height="170" rx="10" fill="#eaf1e9" stroke="#e5e7df"/>
+<text x="56" y="475" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Dracma</text>
+<text x="240" y="475" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Lucas 15:8</text>
+<text x="240" y="503" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">(Parábola da</text>
+<text x="240" y="531" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">moeda</text>
+<text x="240" y="559" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">perdida)</text>
+<text x="424" y="475" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Moeda grega</text>
+<text x="424" y="503" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">de prata</text>
+<text x="608" y="475" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">O</text>
+<text x="608" y="503" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">equivalente</text>
+<text x="608" y="531" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">a 1 denário</text>
+<text x="608" y="559" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">(1 dia de</text>
+<text x="608" y="587" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">trabalho)</text>
+<text x="792" y="475" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">R$50,00</text>
+</g>
+<g data-row="3"><rect x="40" y="624" width="920" height="114" rx="10" fill="#ffffff" stroke="#e5e7df"/>
+<text x="56" y="655" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Didracma</text>
+<text x="240" y="655" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Mateus 17:24</text>
+<text x="424" y="655" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Moeda grega</text>
+<text x="424" y="683" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">de prata</text>
+<text x="608" y="655" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">2 dracmas,</text>
+<text x="608" y="683" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">ou 2</text>
+<text x="608" y="711" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">denários</text>
+<text x="792" y="655" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">R$100,00</text>
+</g>
+<g data-row="4"><rect x="40" y="748" width="920" height="114" rx="10" fill="#eaf1e9" stroke="#e5e7df"/>
+<text x="56" y="779" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Tetradracma</text>
+<text x="240" y="779" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Mateus 26:15</text>
+<text x="424" y="779" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Moeda grega</text>
+<text x="424" y="807" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">de prata</text>
+<text x="608" y="779" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">4 dracmas,</text>
+<text x="608" y="807" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">ou 4</text>
+<text x="608" y="835" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">denários</text>
+<text x="792" y="779" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">R$200,00</text>
+</g>
+<g data-row="5"><rect x="40" y="872" width="920" height="170" rx="10" fill="#ffffff" stroke="#e5e7df"/>
+<text x="56" y="903" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Estáter</text>
+<text x="240" y="903" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Mateus 17:27</text>
+<text x="240" y="931" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">(Pedro tirou</text>
+<text x="240" y="959" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">a moeda da</text>
+<text x="240" y="987" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">boca do</text>
+<text x="240" y="1015" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">peixe)</text>
+<text x="424" y="903" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Moeda grega</text>
+<text x="424" y="931" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">de ouro</text>
+<text x="608" y="903" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">2 didracmas,</text>
+<text x="608" y="931" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">ou 4</text>
+<text x="608" y="959" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">denários</text>
+<text x="792" y="903" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">R$200,00</text>
+</g>
+<g data-row="6"><rect x="40" y="1052" width="920" height="86" rx="10" fill="#eaf1e9" stroke="#e5e7df"/>
+<text x="56" y="1083" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Quadrante</text>
+<text x="240" y="1083" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Marcos 12:42</text>
+<text x="240" y="1111" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">(cinco réis)</text>
+<text x="424" y="1083" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Moeda romana</text>
+<text x="424" y="1111" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">de cobre</text>
+<text x="608" y="1083" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">1/64 do</text>
+<text x="608" y="1111" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">denário</text>
+<text x="792" y="1083" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">cerca de</text>
+<text x="792" y="1111" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">R$0,80</text>
+</g>
+<line x1="40" x2="960" y1="1156" y2="1156" stroke="#e5e7df"/>
+<text x="40" y="1183" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#69736b">Fonte: Jornada da Bíblia — Parte 4 · p. 22</text>
+</svg>

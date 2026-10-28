@@ -1,0 +1,2250 @@
+[
+  {
+    "sourceId": "study-2",
+    "sourcePage": 46,
+    "figures": [
+      {
+        "id": "conteudo-tematico",
+        "title": "Conteúdo temático de Deuteronômio",
+        "kind": "table",
+        "rect": [
+          45,
+          102,
+          560,
+          748
+        ],
+        "description": "Conteúdo temático de Deuteronômio, conforme a página 46 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Tema",
+          "Capítulos",
+          "Descrição"
+        ],
+        "rows": [
+          [
+            "A Jornada e as Lições do Deserto",
+            "1–4",
+            "Recordação das peregrinações e das intervenções divinas."
+          ],
+          [
+            "Reafirmação dos Dez Mandamentos",
+            "5",
+            "Moisés relembra as palavras dadas no Sinai."
+          ],
+          [
+            "O Grande Mandamento e a Lealdade a Deus",
+            "6–11",
+            "O amor a Deus é a base da obediência."
+          ],
+          [
+            "Lugar de Adoração e Santidade",
+            "12",
+            "Deus define onde e como deve ser o culto."
+          ],
+          [
+            "Advertências contra a Idolatria",
+            "13–14",
+            "Proibição de falsos profetas e leis alimentares."
+          ],
+          [
+            "Festas e Justiça Social",
+            "16",
+            "Páscoa, Pentecostes e Tabernáculos são instituídos."
+          ],
+          [
+            "Leis sobre Autoridade e Governo",
+            "17–18",
+            "Diretrizes sobre juízes, reis e profetas."
+          ],
+          [
+            "Leis de Guerra e Justiça",
+            "20–21",
+            "Regras para conflitos e julgamento de crimes."
+          ],
+          [
+            "Pureza e Vida Comunitária",
+            "22–25",
+            "Ética, casamento e cuidado com o próximo."
+          ],
+          [
+            "Ofertas e Renovação da Aliança",
+            "26",
+            "O povo reafirma seu pacto com o Senhor."
+          ],
+          [
+            "Bênçãos e Maldições",
+            "27–28",
+            "A obediência traz prosperidade; a desobediência, destruição."
+          ],
+          [
+            "Convite à Obediência e Esperança",
+            "29–30",
+            "Chamado final à fidelidade e promessa de restauração."
+          ],
+          [
+            "Transição de Liderança",
+            "31",
+            "Moisés nomeia Josué e entoa um cântico profético."
+          ],
+          [
+            "Morte de Moisés",
+            "34",
+            "Moisés vê Canaã do Monte Nebo e parte em paz."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 47,
+    "figures": [
+      {
+        "id": "personagens",
+        "title": "Personagens principais de Deuteronômio",
+        "kind": "table",
+        "rect": [
+          45,
+          90,
+          550,
+          320
+        ],
+        "description": "Personagens principais de Deuteronômio, conforme a página 47 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Personagem",
+          "Descrição"
+        ],
+        "rows": [
+          [
+            "Moisés",
+            "Líder e profeta, mediador entre Deus e o povo. Faz seus últimos discursos e morre no Monte Nebo."
+          ],
+          [
+            "Josué",
+            "Discípulo e sucessor de Moisés, escolhido para liderar Israel na conquista de Canaã."
+          ],
+          [
+            "O Povo de Israel",
+            "A nova geração nascida no deserto. É instruída a permanecer fiel e transmitir os mandamentos às gerações futuras."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 48,
+    "figures": [
+      {
+        "id": "historicos-inicio",
+        "title": "Visão geral dos livros históricos — início",
+        "kind": "table",
+        "rect": [
+          45,
+          640,
+          555,
+          768
+        ],
+        "description": "Visão geral dos livros históricos — início, conforme a página 48 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Livro",
+          "Tema Principal",
+          "Propósito Espiritual"
+        ],
+        "rows": [
+          [
+            "Josué",
+            "Conquista e posse da Terra Prometida",
+            "Deus cumpre Suas promessas através da obediência."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 49,
+    "figures": [
+      {
+        "id": "historicos-continuacao",
+        "title": "Visão geral dos livros históricos — continuação",
+        "kind": "table",
+        "rect": [
+          45,
+          55,
+          555,
+          684
+        ],
+        "description": "Visão geral dos livros históricos — continuação, conforme a página 49 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Livro",
+          "Tema Principal",
+          "Propósito Espiritual"
+        ],
+        "rows": [
+          [
+            "Juízes",
+            "Ciclo de pecado e libertação",
+            "Mostra a misericórdia divina diante da infidelidade."
+          ],
+          [
+            "Rute",
+            "Lealdade e redenção",
+            "Retrata o amor redentor de Deus através da história humana."
+          ],
+          [
+            "1 Samuel",
+            "Transição dos juízes para a monarquia",
+            "Introduz o reinado de Saul e a escolha de Davi."
+          ],
+          [
+            "2 Samuel",
+            "O reinado de Davi",
+            "Fala sobre o poder da graça e do arrependimento."
+          ],
+          [
+            "1 Reis",
+            "Salomão e a divisão do reino",
+            "Ensina sobre sabedoria e idolatria."
+          ],
+          [
+            "2 Reis",
+            "Queda de Israel e Judá",
+            "Mostra as consequências da infidelidade."
+          ],
+          [
+            "1 Crônicas",
+            "Foco no reinado de Davi",
+            "Reconta a história com ênfase no templo e no louvor."
+          ],
+          [
+            "2 Crônicas",
+            "Reis de Judá e a esperança do retorno",
+            "Enfatiza o arrependimento e a restauração."
+          ],
+          [
+            "Esdras",
+            "Retorno do exílio e reconstrução do templo",
+            "Restauração espiritual do povo."
+          ],
+          [
+            "Neemias",
+            "Reconstrução dos muros e da fé",
+            "Um exemplo de liderança e perseverança."
+          ],
+          [
+            "Ester",
+            "A providência divina no silêncio",
+            "Deus age mesmo quando não é mencionado."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 50,
+    "figures": [
+      {
+        "id": "header",
+        "title": "Dados e cronologia de Josué",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.5,
+          121
+        ],
+        "description": "Dados e cronologia de Josué, conforme a página 50 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Campo",
+          "Informação"
+        ],
+        "rows": [
+          [
+            "Livro",
+            "Josué"
+          ],
+          [
+            "Capítulos",
+            "24"
+          ],
+          [
+            "Versículos",
+            "658"
+          ],
+          [
+            "Autor",
+            "Josué"
+          ],
+          [
+            "Data",
+            "1.405 a.C"
+          ],
+          [
+            "Estilo",
+            "Histórico"
+          ],
+          [
+            "Ordem apresentada",
+            "6º Livro — Antigo Testamento"
+          ]
+        ],
+        "header": true,
+        "timeline": [
+          [
+            "Israelitas entram em Canaã",
+            "1.406 a.C"
+          ],
+          [
+            "Queda de Jericó e início das conquistas",
+            "1.406 a.C"
+          ],
+          [
+            "Fim da campanha militar principal",
+            "1.399 a.C"
+          ],
+          [
+            "Tabernáculo em Siló",
+            "1.398 a.C"
+          ],
+          [
+            "Tribos além do Jordão — Construção do memorial",
+            ""
+          ],
+          [
+            "Discurso de despedida de Josué",
+            "1.391 a.C"
+          ],
+          [
+            "Morte de Josué",
+            "1.390 a.C"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 51,
+    "figures": [
+      {
+        "id": "estrutura-livro",
+        "title": "Estrutura geral do livro de Josué",
+        "kind": "table",
+        "rect": [
+          45,
+          345,
+          555,
+          643
+        ],
+        "description": "Estrutura geral do livro de Josué, conforme a página 51 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Seção",
+          "Capítulos",
+          "Tema Central"
+        ],
+        "rows": [
+          [
+            "1. Preparação para a Conquista",
+            "1–5",
+            "A nomeação de Josué, a travessia do Jordão e a renovação da aliança."
+          ],
+          [
+            "2. Conquista de Canaã",
+            "6–12",
+            "As campanhas militares no sul e no norte."
+          ],
+          [
+            "3. Divisão da Terra",
+            "13–21",
+            "A distribuição da herança entre as tribos."
+          ],
+          [
+            "4. Renovação da Aliança e Despedida de Josué",
+            "22–24",
+            "Exortações finais e o legado espiritual do líder."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 52,
+    "figures": [],
+    "notes": "Página composta por prosa, listas, reflexões ou fotografias; nenhum gráfico, tabela ou diagrama a converter em imagem."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 53,
+    "figures": [],
+    "notes": "Página composta por prosa, listas, reflexões ou fotografias; nenhum gráfico, tabela ou diagrama a converter em imagem."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 54,
+    "figures": [
+      {
+        "id": "personagens",
+        "title": "Personagens principais de Josué",
+        "kind": "table",
+        "rect": [
+          45,
+          351,
+          550,
+          782
+        ],
+        "description": "Personagens principais de Josué, conforme a página 54 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Personagem",
+          "Descrição"
+        ],
+        "rows": [
+          [
+            "Josué",
+            "Sucessor de Moisés e comandante das campanhas em Canaã. Símbolo de fé, coragem e obediência."
+          ],
+          [
+            "Raabe",
+            "Mulher de Jericó que ajudou os espiões israelitas e foi salva por sua fé. Tornou-se ancestral de Jesus."
+          ],
+          [
+            "Calebe",
+            "Companheiro fiel de Josué desde o tempo dos espias. Conquista Hebrom e representa a perseverança."
+          ],
+          [
+            "Acã",
+            "Homem que desobedeceu a Deus tomando o proibido, causando derrota a Israel."
+          ],
+          [
+            "Adonizedeque",
+            "Rei de Jerusalém que se opôs a Israel e foi derrotado por Josué."
+          ],
+          [
+            "Os Gibeonitas",
+            "Povo que enganou Israel, mas foi poupado e se tornou servo dos levitas."
+          ],
+          [
+            "Eleazar",
+            "Sumo sacerdote, filho de Arão, auxiliou Josué na distribuição das terras e nas cerimônias da aliança."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 55,
+    "figures": [
+      {
+        "id": "eventos-licoes",
+        "title": "Principais eventos e lições espirituais de Josué",
+        "kind": "table",
+        "rect": [
+          45,
+          88,
+          555,
+          596
+        ],
+        "description": "Principais eventos e lições espirituais de Josué, conforme a página 55 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Evento",
+          "Referência",
+          "Lição"
+        ],
+        "rows": [
+          [
+            "Josué é comissionado",
+            "Josué 1",
+            "O sucesso espiritual vem da obediência à Palavra de Deus."
+          ],
+          [
+            "Travessia do Jordão",
+            "Josué 3–4",
+            "Deus abre caminhos onde parece impossível."
+          ],
+          [
+            "Queda de Jericó",
+            "Josué 6",
+            "A fé e a obediência produzem milagres."
+          ],
+          [
+            "Pecado de Acã",
+            "Josué 7",
+            "O pecado escondido afeta toda a comunidade."
+          ],
+          [
+            "Sol parado em Gibeão",
+            "Josué 10",
+            "Deus responde à oração de quem luta em Seu nome."
+          ],
+          [
+            "Divisão da Terra",
+            "Josué 13–21",
+            "Deus é fiel para cumprir cada promessa feita."
+          ],
+          [
+            "“Eu e minha casa serviremos ao Senhor”",
+            "Josué 24:15",
+            "A fé verdadeira começa dentro de casa."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 56,
+    "figures": [],
+    "notes": "Página composta por prosa, listas, reflexões ou fotografias; nenhum gráfico, tabela ou diagrama a converter em imagem."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 57,
+    "figures": [
+      {
+        "id": "header",
+        "title": "Dados e cronologia de Samuel",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.5,
+          121
+        ],
+        "description": "Dados e cronologia de Samuel, conforme a página 57 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Campo",
+          "Informação"
+        ],
+        "rows": [
+          [
+            "Livro",
+            "Samuel"
+          ],
+          [
+            "Capítulos",
+            "21"
+          ],
+          [
+            "Versículos",
+            "618"
+          ],
+          [
+            "Autor",
+            "Samuel"
+          ],
+          [
+            "Data",
+            "1.050 a.C"
+          ],
+          [
+            "Estilo",
+            "Histórico"
+          ],
+          [
+            "Ordem apresentada",
+            "7º Livro — Antigo Testamento"
+          ]
+        ],
+        "header": true,
+        "timeline": [
+          [
+            "Otoniel",
+            "40 anos"
+          ],
+          [
+            "Eúde",
+            "80 anos"
+          ],
+          [
+            "Sangar",
+            ""
+          ],
+          [
+            "Débora",
+            "40 anos"
+          ],
+          [
+            "Gideão",
+            "40 anos"
+          ],
+          [
+            "Tolá",
+            "23 anos"
+          ],
+          [
+            "Jair",
+            "22 anos"
+          ],
+          [
+            "Jefté",
+            "6 anos"
+          ],
+          [
+            "Ibsã",
+            "7 anos"
+          ],
+          [
+            "Elom",
+            "10 anos"
+          ],
+          [
+            "Abdom",
+            "8 anos"
+          ],
+          [
+            "Samuel",
+            "12 anos"
+          ],
+          [
+            "Sansão",
+            "20 anos"
+          ],
+          [
+            "Rei Saul",
+            "1.050 a.C"
+          ]
+        ],
+        "notes": "O título do quadro original é Samuel, mas o texto da página apresenta Juízes. A inconsistência é da fonte e não foi corrigida por informação externa."
+      },
+      {
+        "id": "ciclo-juizes",
+        "title": "O ciclo apresentado no livro de Juízes",
+        "kind": "diagram",
+        "rect": [
+          62,
+          581,
+          550,
+          815
+        ],
+        "description": "O ciclo apresentado no livro de Juízes, conforme a página 57 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Etapa",
+          "Descrição"
+        ],
+        "rows": [
+          [
+            "1. Pecado",
+            "O povo se afasta de Deus e adota os costumes e deuses das nações vizinhas."
+          ],
+          [
+            "2. Opressão",
+            "Deus permite que inimigos estrangeiros dominem Israel como forma de disciplina."
+          ],
+          [
+            "3. Clamor",
+            "Em meio ao sofrimento, o povo clama a Deus por libertação."
+          ],
+          [
+            "4. Libertação",
+            "Deus levanta um juiz, um líder carismático e espiritual, que conduz o povo à vitória."
+          ],
+          [
+            "5. Paz",
+            "Segue-se um tempo de tranquilidade... até que o ciclo recomece."
+          ]
+        ],
+        "cycle": true
+      }
+    ],
+    "notes": "O número de página impresso está próximo ou sobre a borda inferior direita; não faz parte dos dados e não deve ser reproduzido nas novas imagens."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 58,
+    "figures": [],
+    "notes": "Página composta por prosa, listas, reflexões ou fotografias; nenhum gráfico, tabela ou diagrama a converter em imagem."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 59,
+    "figures": [
+      {
+        "id": "juizes-conquistas",
+        "title": "Lista dos juízes e suas conquistas",
+        "kind": "table",
+        "rect": [
+          45,
+          108,
+          551,
+          729
+        ],
+        "description": "Lista dos juízes e suas conquistas, conforme a página 59 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Juiz",
+          "Tribo",
+          "Duração do Governo",
+          "Inimigo Opressor",
+          "Período de Opressão",
+          "Referência Bíblica"
+        ],
+        "rows": [
+          [
+            "Otoniel",
+            "Judá",
+            "40 anos",
+            "Arameus",
+            "8 anos",
+            "Juízes 3:7–11"
+          ],
+          [
+            "Eúde",
+            "Benjamim",
+            "80 anos",
+            "Moabitas",
+            "18 anos",
+            "Juízes 3:12–30"
+          ],
+          [
+            "Sangar",
+            "—",
+            "—",
+            "Filisteus",
+            "—",
+            "Juízes 3:31"
+          ],
+          [
+            "Débora",
+            "Efraim",
+            "40 anos",
+            "Cananeus",
+            "20 anos",
+            "Juízes 4–5"
+          ],
+          [
+            "Gideão",
+            "Manassés",
+            "40 anos",
+            "Midianitas",
+            "7 anos",
+            "Juízes 6–8"
+          ],
+          [
+            "Tolá",
+            "Issacar",
+            "23 anos",
+            "—",
+            "—",
+            "Juízes 10:1–2"
+          ],
+          [
+            "Jair",
+            "Manassés",
+            "22 anos",
+            "—",
+            "—",
+            "Juízes 10:3–5"
+          ],
+          [
+            "Jefté",
+            "Manassés",
+            "6 anos",
+            "Amonitas",
+            "18 anos",
+            "Juízes 10:6–12:7"
+          ],
+          [
+            "Ibsã",
+            "Judá",
+            "7 anos",
+            "—",
+            "—",
+            "Juízes 12:8–10"
+          ],
+          [
+            "Elom",
+            "Zebulom",
+            "10 anos",
+            "—",
+            "—",
+            "Juízes 12:11–12"
+          ],
+          [
+            "Abdom",
+            "Efraim",
+            "8 anos",
+            "—",
+            "—",
+            "Juízes 12:13–15"
+          ],
+          [
+            "Sansão",
+            "Dã",
+            "20 anos",
+            "Filisteus",
+            "40 anos",
+            "Juízes 13–16"
+          ],
+          [
+            "Samuel",
+            "Levi",
+            "12 anos",
+            "—",
+            "—",
+            "1 Samuel 1–7"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 60,
+    "figures": [
+      {
+        "id": "juizes-marcantes",
+        "title": "Os juízes mais marcantes",
+        "kind": "table",
+        "rect": [
+          45,
+          93,
+          550,
+          583
+        ],
+        "description": "Os juízes mais marcantes, conforme a página 60 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Juiz",
+          "Descrição"
+        ],
+        "rows": [
+          [
+            "Otoniel — O Primeiro Libertador",
+            "Sobrinho de Calebe, liderou Israel contra o rei da Mesopotâmia. Sua coragem marca o início do padrão de libertação divina."
+          ],
+          [
+            "Eúde — O Libertador Canhoto",
+            "Um homem de Benjamim que matou o rei Eglom de Moabe com uma adaga escondida. Sua ousadia trouxe 80 anos de paz a Israel."
+          ],
+          [
+            "Débora — A Profetisa e Juíza de Israel",
+            "Única mulher entre os juízes, Débora exerceu liderança espiritual e militar ao lado de Baraque. Sua vitória sobre Sísera inspirou um dos cânticos mais antigos da Bíblia — o Cântico de Débora (Juízes 5)."
+          ],
+          [
+            "Gideão — O Guerreiro Relutante",
+            "Chamado por Deus enquanto escondia trigo dos midianitas, Gideão venceu um exército de 135 mil homens com apenas 300 soldados, mostrando que a vitória pertence ao Senhor, não aos números."
+          ],
+          [
+            "Jefté — O Homem do Voto Imprudente",
+            "Filho de uma prostituta, foi rejeitado por seus irmãos, mas Deus o usou para vencer os amonitas. Sua história é lembrada pelo voto precipitado que lhe custou a filha."
+          ],
+          [
+            "Sansão — O Juiz de Força Sobrenatural",
+            "Dotado de força incomum, Sansão foi levantado para confrontar os filisteus. Apesar de suas falhas e paixões, Deus o usou até o fim. Sua morte, derrubando o templo filisteu, simboliza vitória pela entrega total."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 61,
+    "figures": [],
+    "notes": "Página composta por prosa, listas, reflexões ou fotografias; nenhum gráfico, tabela ou diagrama a converter em imagem."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 62,
+    "figures": [
+      {
+        "id": "personagens",
+        "title": "Principais personagens de Juízes",
+        "kind": "table",
+        "rect": [
+          45,
+          95,
+          551,
+          408
+        ],
+        "description": "Principais personagens de Juízes, conforme a página 62 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Personagem",
+          "Papel / Destaque"
+        ],
+        "rows": [
+          [
+            "Otoniel",
+            "Primeiro juiz; libertou Israel da opressão dos arameus."
+          ],
+          [
+            "Eúde",
+            "Matou Eglom, rei de Moabe, e trouxe paz duradoura."
+          ],
+          [
+            "Sangar",
+            "Venceu 600 filisteus com uma simples aguilhada de bois."
+          ],
+          [
+            "Débora",
+            "Juíza e profetisa; símbolo de coragem e fé."
+          ],
+          [
+            "Gideão",
+            "Conquistou a vitória com 300 homens; símbolo de confiança em Deus."
+          ],
+          [
+            "Jefté",
+            "Guerreiro que derrotou os amonitas, mas fez um voto precipitado."
+          ],
+          [
+            "Sansão",
+            "Herói de força sobrenatural; seu fim trágico também é sua redenção."
+          ],
+          [
+            "Samuel",
+            "Último juiz e primeiro profeta, transição para a era dos reis."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 63,
+    "figures": [
+      {
+        "id": "header",
+        "title": "Dados e cronologia de Rute",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.5,
+          121
+        ],
+        "description": "Dados e cronologia de Rute, conforme a página 63 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Campo",
+          "Informação"
+        ],
+        "rows": [
+          [
+            "Livro",
+            "Rute"
+          ],
+          [
+            "Capítulos",
+            "4"
+          ],
+          [
+            "Versículos",
+            "85"
+          ],
+          [
+            "Autor",
+            "Samuel"
+          ],
+          [
+            "Data",
+            "1.100 a.C"
+          ],
+          [
+            "Estilo",
+            "Histórico"
+          ],
+          [
+            "Ordem apresentada",
+            "9º Livro — Antigo Testamento"
+          ]
+        ],
+        "header": true,
+        "timeline": [
+          [
+            "Viagem a Moabe",
+            "1.150 a.C"
+          ],
+          [
+            "Morre Abimeleque",
+            ""
+          ],
+          [
+            "Os filhos de casam com Rute e Orfa",
+            ""
+          ],
+          [
+            "Os filhos de Noemi morrem",
+            ""
+          ],
+          [
+            "Noemi e Rute retornam a Belém",
+            ""
+          ],
+          [
+            "Rute encontra Boaz",
+            ""
+          ],
+          [
+            "Boaz e Rute se casam",
+            ""
+          ],
+          [
+            "Nascimento de Obede",
+            ""
+          ]
+        ],
+        "notes": "O cabeçalho nomeia Abimeleque; o corpo da página nomeia Elimeleque. A frase “Os filhos de casam com Rute e Orfa” foi preservada como aparece na fonte. A nota da faixa diz que a história acontece em aproximadamente 15 anos na época dos Juízes."
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 64,
+    "figures": [],
+    "notes": "Há parágrafos comuns em colunas (alguns numerados) e fotografias, não tabela nem gráfico com eixos, linhas ou setas. Manter a prosa como texto do site."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 65,
+    "figures": [
+      {
+        "id": "conexao-messianica",
+        "title": "Conexão Messiânica",
+        "kind": "diagram",
+        "rect": [
+          363,
+          179,
+          551,
+          306
+        ],
+        "description": "Conexão Messiânica, conforme a página 65 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Ordem",
+          "Nome"
+        ],
+        "rows": [
+          [
+            "1",
+            "Rute"
+          ],
+          [
+            "2",
+            "Obede"
+          ],
+          [
+            "3",
+            "Jessé"
+          ],
+          [
+            "4",
+            "Davi"
+          ],
+          [
+            "5",
+            "Jesus Cristo"
+          ]
+        ],
+        "sequence": true
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 66,
+    "figures": [
+      {
+        "id": "eventos-rute",
+        "title": "Principais eventos de Rute",
+        "kind": "diagram",
+        "rect": [
+          45,
+          72,
+          550,
+          678
+        ],
+        "description": "Principais eventos de Rute, conforme a página 66 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Passo",
+          "Referência",
+          "Evento e descrição"
+        ],
+        "rows": [
+          [
+            "1",
+            "Rute 1:1–5",
+            "Fome e partida para Moabe. Devido à escassez em Belém, Elimeleque leva sua família a Moabe. Lá, ele e seus filhos morrem, deixando Noemi e suas noras viúvas."
+          ],
+          [
+            "2",
+            "Rute 1:6–22",
+            "Retorno a Belém. Noemi decide voltar à sua terra. Orfa fica em Moabe, mas Rute insiste em acompanhá-la, pronunciando sua famosa declaração de fidelidade."
+          ],
+          [
+            "3",
+            "Rute 2",
+            "O sustento providencial. Rute respiga espigas no campo de Boaz, que a trata com bondade e a protege."
+          ],
+          [
+            "4",
+            "Rute 3",
+            "O pedido de redenção. Seguindo o conselho de Noemi, Rute busca Boaz como seu resgatador, conforme a lei do levirato."
+          ],
+          [
+            "5",
+            "Rute 4:1–12",
+            "Casamento e redenção. Boaz resolve tudo publicamente, casa-se com Rute e redime a herança da família de Elimeleque."
+          ],
+          [
+            "6",
+            "Rute 4:13–17",
+            "Nascimento de Obede. Rute dá à luz Obede, trazendo alegria e restauração à vida de Noemi."
+          ],
+          [
+            "7",
+            "Rute 4:18–22",
+            "Genealogia de Davi. A linhagem de Perez até Davi é apresentada, revelando a importância de Rute na história da salvação."
+          ]
+        ],
+        "sequence": true
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 67,
+    "figures": [
+      {
+        "id": "header",
+        "title": "Dados e cronologia de 1 Samuel",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.5,
+          121
+        ],
+        "description": "Dados e cronologia de 1 Samuel, conforme a página 67 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Campo",
+          "Informação"
+        ],
+        "rows": [
+          [
+            "Livro",
+            "1 Samuel"
+          ],
+          [
+            "Capítulos",
+            "31"
+          ],
+          [
+            "Versículos",
+            "810"
+          ],
+          [
+            "Autor",
+            "Não Declarado"
+          ],
+          [
+            "Data",
+            "930 a.C"
+          ],
+          [
+            "Estilo",
+            "Histórico"
+          ],
+          [
+            "Ordem apresentada",
+            "10º Livro — Antigo Testamento"
+          ]
+        ],
+        "header": true,
+        "timeline": [
+          [
+            "Nascimento de Samuel",
+            "1.110 a.C"
+          ],
+          [
+            "Saul é ungido a Rei de Israel",
+            "1.050 a.C"
+          ],
+          [
+            "Saul vai a guerra contra os filisteus",
+            "1.048 a.C"
+          ],
+          [
+            "Saul vai a guerra contra os Amalequitas",
+            "1.030 a.C"
+          ],
+          [
+            "Noemi e Rute / Samuel unge Davi a Rei de Israel",
+            "1.025 a.C"
+          ],
+          [
+            "Morre Samuel",
+            "1.020 a.C"
+          ],
+          [
+            "Saul morre na guerra contra os filisteus",
+            "1.010 a.C"
+          ]
+        ],
+        "notes": "O rótulo Noemi e Rute aparece no próprio ponto que também diz Samuel unge Davi a Rei de Israel. Preservado sem correção externa. O cabeçalho aparece repetido nas páginas 67 e 68."
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 68,
+    "figures": [
+      {
+        "id": "header",
+        "title": "Dados e cronologia de 1 Samuel",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.5,
+          121
+        ],
+        "description": "Dados e cronologia de 1 Samuel, conforme a página 68 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Campo",
+          "Informação"
+        ],
+        "rows": [
+          [
+            "Livro",
+            "1 Samuel"
+          ],
+          [
+            "Capítulos",
+            "31"
+          ],
+          [
+            "Versículos",
+            "810"
+          ],
+          [
+            "Autor",
+            "Não Declarado"
+          ],
+          [
+            "Data",
+            "930 a.C"
+          ],
+          [
+            "Estilo",
+            "Histórico"
+          ],
+          [
+            "Ordem apresentada",
+            "10º Livro — Antigo Testamento"
+          ]
+        ],
+        "header": true,
+        "timeline": [
+          [
+            "Nascimento de Samuel",
+            "1.110 a.C"
+          ],
+          [
+            "Saul é ungido a Rei de Israel",
+            "1.050 a.C"
+          ],
+          [
+            "Saul vai a guerra contra os filisteus",
+            "1.048 a.C"
+          ],
+          [
+            "Saul vai a guerra contra os Amalequitas",
+            "1.030 a.C"
+          ],
+          [
+            "Noemi e Rute / Samuel unge Davi a Rei de Israel",
+            "1.025 a.C"
+          ],
+          [
+            "Morre Samuel",
+            "1.020 a.C"
+          ],
+          [
+            "Saul morre na guerra contra os filisteus",
+            "1.010 a.C"
+          ]
+        ],
+        "notes": "O rótulo Noemi e Rute aparece no próprio ponto que também diz Samuel unge Davi a Rei de Israel. Preservado sem correção externa. O cabeçalho aparece repetido nas páginas 67 e 68."
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 69,
+    "figures": [
+      {
+        "id": "escolha-rei",
+        "title": "A escolha de um rei",
+        "kind": "diagram",
+        "rect": [
+          45,
+          296,
+          551,
+          440
+        ],
+        "description": "A escolha de um rei, conforme a página 69 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Etapa",
+          "Descrição"
+        ],
+        "rows": [
+          [
+            "Saul é ungido",
+            "Escolhido por Deus como o primeiro rei de Israel."
+          ],
+          [
+            "Desobediência",
+            "Saul ignora ordens divinas e perde o favor de Deus."
+          ],
+          [
+            "Davi é ungido",
+            "Jovem pastor escolhido como futuro rei."
+          ]
+        ],
+        "sequence": true
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 70,
+    "figures": [
+      {
+        "id": "personagens",
+        "title": "Personagens principais de 1 Samuel",
+        "kind": "table",
+        "rect": [
+          45,
+          303,
+          550,
+          761
+        ],
+        "description": "Personagens principais de 1 Samuel, conforme a página 70 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Personagem",
+          "Descrição"
+        ],
+        "rows": [
+          [
+            "Samuel",
+            "Último dos juízes e profeta fiel, responsável por ungir Saul e Davi como reis."
+          ],
+          [
+            "Saul",
+            "Primeiro rei de Israel, escolhido por Deus, mas rejeitado por sua desobediência."
+          ],
+          [
+            "Davi",
+            "Jovem pastor ungido por Deus, que se tornará o maior rei de Israel."
+          ],
+          [
+            "Jônatas",
+            "Filho de Saul e amigo leal de Davi, símbolo de uma amizade pura e fiel."
+          ],
+          [
+            "Jessé",
+            "Pai de Davi, pertencente à tribo de Judá."
+          ],
+          [
+            "Golias",
+            "Guerreiro filisteu derrotado por Davi, representando a vitória da fé sobre a força humana."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 71,
+    "figures": [
+      {
+        "id": "acontecimentos",
+        "title": "Principais acontecimentos de 1 Samuel",
+        "kind": "diagram",
+        "rect": [
+          45,
+          104,
+          550,
+          782
+        ],
+        "description": "Principais acontecimentos de 1 Samuel, conforme a página 71 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Passo",
+          "Referência",
+          "Evento e descrição"
+        ],
+        "rows": [
+          [
+            "1",
+            "1 Samuel 1–2",
+            "O nascimento de Samuel. Ana, uma mulher estéril, ora com fervor e é agraciada com um filho. Em gratidão, entrega Samuel ao serviço do Senhor."
+          ],
+          [
+            "2",
+            "1 Samuel 3",
+            "O chamado de Samuel. Ainda jovem, Samuel ouve a voz de Deus e recebe o chamado para ser profeta em Israel."
+          ],
+          [
+            "3",
+            "1 Samuel 4",
+            "A captura da Arca da Aliança. Durante uma batalha, os filisteus tomam a Arca da Aliança, o que traz juízo sobre Israel e provoca a morte do sacerdote Eli."
+          ],
+          [
+            "4",
+            "1 Samuel 5–7",
+            "O retorno da Arca e a liderança de Samuel. A presença da Arca causa desastres entre os filisteus, forçando-os a devolvê-la. Samuel emerge como líder e guia o povo ao arrependimento."
+          ],
+          [
+            "5",
+            "1 Samuel 8–15",
+            "A rejeição de Saul. O povo exige um rei. Deus concede Saul, mas sua desobediência o leva à rejeição divina."
+          ],
+          [
+            "6",
+            "1 Samuel 16",
+            "A unção de Davi. Samuel unge Davi em segredo como o futuro rei de Israel."
+          ],
+          [
+            "7",
+            "1 Samuel 17",
+            "Davi e Golias. Davi derrota o gigante Golias, provando que a fé é mais poderosa que a espada."
+          ],
+          [
+            "8",
+            "1 Samuel 18–20",
+            "A amizade de Davi e Jônatas. Mesmo sendo filho do rei, Jônatas apoia Davi e arrisca a vida para protegê-lo."
+          ],
+          [
+            "9",
+            "1 Samuel 21–30",
+            "A perseguição de Saul. Tomado pela inveja, Saul persegue Davi implacavelmente. Davi, porém, mantém-se íntegro e confia na justiça de Deus."
+          ],
+          [
+            "10",
+            "1 Samuel 31",
+            "A morte de Saul. Saul e seus filhos morrem em batalha. Davi lamenta profundamente a perda do rei e de seu amigo Jônatas."
+          ]
+        ],
+        "sequence": true
+      }
+    ],
+    "notes": "O número de página impresso está próximo ou sobre a borda inferior direita; não faz parte dos dados e não deve ser reproduzido nas novas imagens."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 72,
+    "figures": [],
+    "notes": "Página composta por prosa, listas, reflexões ou fotografias; nenhum gráfico, tabela ou diagrama a converter em imagem."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 73,
+    "figures": [
+      {
+        "id": "header",
+        "title": "Dados e cronologia de 2 Samuel",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.5,
+          121
+        ],
+        "description": "Dados e cronologia de 2 Samuel, conforme a página 73 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Campo",
+          "Informação"
+        ],
+        "rows": [
+          [
+            "Livro",
+            "2 Samuel"
+          ],
+          [
+            "Capítulos",
+            "24"
+          ],
+          [
+            "Versículos",
+            "695"
+          ],
+          [
+            "Autor",
+            "Não Declarado"
+          ],
+          [
+            "Data",
+            "930 a.C"
+          ],
+          [
+            "Estilo",
+            "Histórico"
+          ],
+          [
+            "Ordem apresentada",
+            "11º Livro — Antigo Testamento"
+          ]
+        ],
+        "header": true,
+        "timeline": [
+          [
+            "Davi se torna Rei em Judá",
+            "1.010 a.C"
+          ],
+          [
+            "Davi é o rei sobre as 12 tribos",
+            "1.003 a.C"
+          ],
+          [
+            "Davi traz a arca para Jerusalém",
+            "1.000 a.C"
+          ],
+          [
+            "Reino de Israel é consolidado",
+            "995 a.C"
+          ],
+          [
+            "Nascimento de Salomão",
+            "990 a.C"
+          ],
+          [
+            "Morre Davi",
+            "970 a.C"
+          ]
+        ],
+        "notes": "A data 930 a.C do cabeçalho difere do período 1010–970 a.C descrito no corpo da página. Ambos pertencem à fonte; não houve correção externa."
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 74,
+    "figures": [],
+    "notes": "Página composta por prosa, listas, reflexões ou fotografias; nenhum gráfico, tabela ou diagrama a converter em imagem."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 75,
+    "figures": [],
+    "notes": "Há parágrafos comuns em colunas (alguns numerados) e fotografias, não tabela nem gráfico com eixos, linhas ou setas. Manter a prosa como texto do site."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 76,
+    "figures": [],
+    "notes": "Página composta por prosa, listas, reflexões ou fotografias; nenhum gráfico, tabela ou diagrama a converter em imagem."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 77,
+    "figures": [
+      {
+        "id": "personagens",
+        "title": "Personagens principais de 2 Samuel",
+        "kind": "table",
+        "rect": [
+          45,
+          307,
+          550,
+          790
+        ],
+        "description": "Personagens principais de 2 Samuel, conforme a página 77 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Personagem",
+          "Descrição"
+        ],
+        "rows": [
+          [
+            "Davi",
+            "Rei de Israel, homem segundo o coração de Deus, cuja vida mistura fé, falhas e arrependimento."
+          ],
+          [
+            "Bate-Seba",
+            "Mulher de Urias, com quem Davi comete adultério; mais tarde, mãe do rei Salomão."
+          ],
+          [
+            "Natã",
+            "Profeta usado por Deus para confrontar Davi e reafirmar Sua aliança."
+          ],
+          [
+            "Absalão",
+            "Filho rebelde de Davi, símbolo da dor familiar causada pelo pecado."
+          ],
+          [
+            "Joabe",
+            "Comandante do exército de Davi, fiel mas muitas vezes impulsivo e violento."
+          ],
+          [
+            "Urias",
+            "Guerreiro leal traído por Davi, cuja morte marca o ponto mais sombrio do reinado."
+          ]
+        ]
+      }
+    ],
+    "notes": "O número de página impresso está próximo ou sobre a borda inferior direita; não faz parte dos dados e não deve ser reproduzido nas novas imagens."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 78,
+    "figures": [
+      {
+        "id": "acontecimentos",
+        "title": "Principais acontecimentos de 2 Samuel",
+        "kind": "diagram",
+        "rect": [
+          45,
+          94,
+          550,
+          750
+        ],
+        "description": "Principais acontecimentos de 2 Samuel, conforme a página 78 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Passo",
+          "Referência",
+          "Evento e descrição"
+        ],
+        "rows": [
+          [
+            "1",
+            "2 Samuel 2",
+            "Davi é Ungido Rei sobre Judá. Após a morte de Saul, Davi é reconhecido como rei de Judá, iniciando seu reinado no sul de Israel."
+          ],
+          [
+            "2",
+            "2 Samuel 5",
+            "Davi é Reconhecido Rei sobre Todo Israel. As tribos do norte finalmente aceitam sua liderança, unificando o país sob um único trono."
+          ],
+          [
+            "3",
+            "2 Samuel 5",
+            "Conquista de Jerusalém. Davi toma a fortaleza jebuseia e a transforma na Cidade de Davi, tornando Jerusalém o centro político e religioso da nação."
+          ],
+          [
+            "4",
+            "2 Samuel 7",
+            "A Aliança de Deus com Davi. Deus promete estabelecer para sempre o trono da casa de Davi — uma promessa que se cumpre plenamente em Cristo."
+          ],
+          [
+            "5",
+            "2 Samuel 11",
+            "O Pecado com Bate-Seba. Davi comete adultério e manda matar Urias. O profeta Natã o confronta, e ele se arrepende com sinceridade."
+          ],
+          [
+            "6",
+            "2 Samuel 12",
+            "O Nascimento de Salomão. Depois da morte do primeiro filho com Bate-Seba, nasce Salomão, que será o futuro rei e símbolo da restauração."
+          ],
+          [
+            "7",
+            "2 Samuel 15–18",
+            "Rebelião de Absalão. Absalão se revolta contra o pai, tentando usurpar o trono. Sua morte em batalha causa profunda tristeza a Davi."
+          ],
+          [
+            "8",
+            "2 Samuel 19",
+            "Retorno de Davi a Jerusalém. Davi é restaurado ao trono após a derrota da rebelião e busca reconstruir a unidade nacional."
+          ],
+          [
+            "9",
+            "2 Samuel 20",
+            "Nova Rebelião: Seba. Outro insurgente, Seba, tenta dividir o reino, mas a revolta é rapidamente sufocada."
+          ],
+          [
+            "10",
+            "2 Samuel 23",
+            "Os Valentes de Davi. O livro encerra exaltando os guerreiros leais que lutaram ao lado de Davi, exemplos de coragem e fidelidade."
+          ]
+        ],
+        "sequence": true
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 79,
+    "figures": [],
+    "notes": "Página composta por prosa, listas, reflexões ou fotografias; nenhum gráfico, tabela ou diagrama a converter em imagem."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 80,
+    "figures": [
+      {
+        "id": "header",
+        "title": "Dados e cronologia de 1 Reis",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.5,
+          121
+        ],
+        "description": "Dados e cronologia de 1 Reis, conforme a página 80 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Campo",
+          "Informação"
+        ],
+        "rows": [
+          [
+            "Livro",
+            "1 Reis"
+          ],
+          [
+            "Capítulos",
+            "22"
+          ],
+          [
+            "Versículos",
+            "817"
+          ],
+          [
+            "Autor",
+            "Não Declarado"
+          ],
+          [
+            "Data",
+            "560 a.C"
+          ],
+          [
+            "Estilo",
+            "Histórico"
+          ],
+          [
+            "Ordem apresentada",
+            "11º Livro — Antigo Testamento"
+          ]
+        ],
+        "header": true,
+        "timeline": [
+          [
+            "Salomão pede sabedoria",
+            "970 a.C"
+          ],
+          [
+            "Início da construção do Templo",
+            "966 a.C"
+          ],
+          [
+            "Consagração do Templo",
+            "959 a.C"
+          ],
+          [
+            "A visita da rainha de Sabá",
+            "939 a.C"
+          ],
+          [
+            "Morte de Salomão",
+            "930 a.C"
+          ],
+          [
+            "Reino dividido",
+            ""
+          ],
+          [
+            "Jeroboão / Roboão",
+            ""
+          ],
+          [
+            "Nadabe",
+            "910 a.C"
+          ],
+          [
+            "Asa",
+            "911 a.C"
+          ],
+          [
+            "Josafá — Judá - Reino do Sul",
+            "911 a.C"
+          ],
+          [
+            "Israel - Reino do Norte — acabe",
+            "875 a.C"
+          ],
+          [
+            "Jezabel",
+            ""
+          ]
+        ],
+        "notes": "Títulos/datas e ordinal preservados como impressos, inclusive 11º Livro e o rótulo acabe em minúscula na ramificação do Norte.",
+        "timelineBranches": {
+          "splitAt": "Reino dividido",
+          "branches": [
+            {
+              "title": "Israel - Reino do Norte",
+              "events": [
+                [
+                  "Jeroboão",
+                  ""
+                ],
+                [
+                  "Nadabe",
+                  "910 a.C"
+                ],
+                [
+                  "acabe",
+                  "875 a.C"
+                ],
+                [
+                  "Jezabel",
+                  ""
+                ]
+              ]
+            },
+            {
+              "title": "Judá - Reino do Sul",
+              "events": [
+                [
+                  "Roboão",
+                  ""
+                ],
+                [
+                  "Asa",
+                  "911 a.C"
+                ],
+                [
+                  "Josafá",
+                  "911 a.C"
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 81,
+    "figures": [
+      {
+        "id": "personagens",
+        "title": "Personagens principais de 1 Reis",
+        "kind": "table",
+        "rect": [
+          45,
+          427,
+          552,
+          775
+        ],
+        "description": "Personagens principais de 1 Reis, conforme a página 81 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Personagem",
+          "Descrição"
+        ],
+        "rows": [
+          [
+            "Salomão",
+            "Famoso por sua sabedoria e por construir o Templo do Senhor, mas que termina o reinado em decadência espiritual."
+          ],
+          [
+            "Elias",
+            "Profeta poderoso que desafia reis idólatras e demonstra o poder de Deus em milagres, como o fogo no Monte Carmelo."
+          ],
+          [
+            "Acabe e Jezabel",
+            "Acabe foi o Rei de Israel que se casa com Jezabel e lidera o povo à idolatria. Jezabel foi a rainha cruel e perseguidora dos profetas de Deus."
+          ],
+          [
+            "Jeroboão e Roboão",
+            "Jeroboão foi o primeiro rei do Reino do Norte, que institui o culto aos bezerros de ouro. Roboão, filho de Salomão, cujo orgulho contribui para a divisão do reino."
+          ],
+          [
+            "Natã e Bate-Seba",
+            "Natã foi o profeta que apoiou a ascensão de Salomão e serviu como conselheiro espiritual da casa real. Bate-Seba foi a mãe de Salomão, que intercede para garantir o trono ao filho."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 82,
+    "figures": [],
+    "notes": "Os seis acontecimentos numerados e as quatro lições são blocos de prosa em colunas, sem eixos, linhas de relação ou tabela; manter como texto."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 83,
+    "figures": [],
+    "notes": "Há parágrafos comuns em colunas (alguns numerados) e fotografias, não tabela nem gráfico com eixos, linhas ou setas. Manter a prosa como texto do site."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 84,
+    "figures": [
+      {
+        "id": "cronologia-real",
+        "title": "Cronologia real de Israel e Judá",
+        "kind": "diagram",
+        "rect": [
+          26,
+          43,
+          565,
+          686
+        ],
+        "description": "Cronologia real de Israel e Judá, conforme a página 84 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Norte de Israel (10 tribos)",
+          "Período",
+          "Sul de Israel (02 tribos)",
+          "Período"
+        ],
+        "rows": [
+          [
+            "Jeroboão",
+            "931–910 a.C",
+            "Roboão",
+            "931–910 a.C"
+          ],
+          [
+            "Nadabe",
+            "910–909 a.C",
+            "Abias",
+            "910–909 a.C"
+          ],
+          [
+            "Baasa",
+            "909–886 a.C",
+            "Asa",
+            "909–886 a.C"
+          ],
+          [
+            "Elá",
+            "886–885 a.C",
+            "Josafá",
+            "886–885 a.C"
+          ],
+          [
+            "Zinri",
+            "885 a.C",
+            "Jeorão",
+            "885 a.C"
+          ],
+          [
+            "Onri",
+            "885–874 a.C",
+            "Acazias",
+            "841 a.C"
+          ],
+          [
+            "Acabe",
+            "874–853 a.C",
+            "Atalia",
+            "841–835 a.C"
+          ],
+          [
+            "Acazias",
+            "853–852 a.C",
+            "Joás",
+            "835–796 a.C"
+          ],
+          [
+            "Jorão",
+            "852–841 a.C",
+            "Amazias",
+            "796–767 a.C"
+          ],
+          [
+            "Jeú",
+            "841–814 a.C",
+            "Uzias",
+            "767–740 a.C"
+          ],
+          [
+            "Jeoás",
+            "814–798 a.C",
+            "Jotão",
+            "740–732 a.C"
+          ],
+          [
+            "Jeoacaz",
+            "798–782 a.C",
+            "Acaz",
+            "732–716 a.C"
+          ],
+          [
+            "Jeroboão II",
+            "782–753 a.C",
+            "Ezequias",
+            "716–687 a.C"
+          ],
+          [
+            "Zacarias",
+            "753–752 a.C",
+            "Manassés",
+            "687–642 a.C"
+          ],
+          [
+            "Salum",
+            "752 a.C",
+            "Amom",
+            "642–640 a.C"
+          ],
+          [
+            "Menaém",
+            "752–742 a.C",
+            "Josias",
+            "640–609 a.C"
+          ],
+          [
+            "Pecaías",
+            "742–740 a.C",
+            "Jeoacaz",
+            "609 a.C"
+          ],
+          [
+            "Peca",
+            "740–732 a.C",
+            "Jeoaquim",
+            "609–598 a.C"
+          ],
+          [
+            "Oseias",
+            "732–722 a.C",
+            "Zedequias",
+            "597–567 a.C"
+          ]
+        ],
+        "united": [
+          [
+            "Saul",
+            "1.050–1.010 a.C"
+          ],
+          [
+            "Davi",
+            "1.010–970 a.C"
+          ],
+          [
+            "Salomão",
+            "970–931 a.C"
+          ]
+        ],
+        "division": "Reinos são divididos (931 a.C)",
+        "notes": "A transcrição foi conferida visualmente no PDF. Há datas e grafias problemáticas no próprio original; preservar literalmente, sem substituir por cronologias externas. As caixas de resumo Israel/Judá no rodapé ficam fora do recorte e devem continuar texto."
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 85,
+    "figures": [
+      {
+        "id": "profetas-pre-exilio",
+        "title": "Profetas do período Pré-Exílio — Parte 1",
+        "kind": "table",
+        "rect": [
+          50,
+          553,
+          550,
+          795
+        ],
+        "description": "Profetas do período Pré-Exílio — Parte 1, conforme a página 85 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Profeta e período",
+          "Ministério apresentado"
+        ],
+        "rows": [
+          [
+            "Joel (c. 837–800 a.C.)",
+            "Ministério em Judá (Reino do Sul), durante o reinado de Joás. Foco em juízo e no Dia do Senhor."
+          ],
+          [
+            "Jonas (c. 825–782 a.C.)",
+            "Profecia recebida pela Assíria (Nínive), sob os reis Anazias e Jeroboão II. Famoso por sua relutância e a misericórdia de Deus."
+          ],
+          [
+            "Amós (c. 810–785 a.C.)",
+            "Ministério em Israel (Reino do Norte), durante o reinado de Jeroboão II. Enfatizou a justiça social e a condenação das nações vizinhas."
+          ]
+        ],
+        "notes": "A fonte escreve Anazias no registro de Jonas; não foi corrigido com informação externa."
+      }
+    ],
+    "notes": "O número de página impresso está próximo ou sobre a borda inferior direita; não faz parte dos dados e não deve ser reproduzido nas novas imagens."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 86,
+    "figures": [
+      {
+        "id": "profetas-pre-exilio",
+        "title": "Profetas do período Pré-Exílio — Parte 3",
+        "kind": "table",
+        "rect": [
+          58,
+          590,
+          555,
+          814
+        ],
+        "description": "Profetas do período Pré-Exílio — Parte 3, conforme a página 86 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Profeta e período",
+          "Ministério apresentado"
+        ],
+        "rows": [
+          [
+            "Naum (c. 640–630 a.C.)",
+            "Profetizou a queda de Nínive, a capital da Assíria, durante o reinado de Josias."
+          ],
+          [
+            "Sofonias (c. 640–610 a.C.)",
+            "Ministério em Judá (Reino do Sul), sob Josias. Enfatizou o “Dia do Senhor” como um dia de ira e restauração."
+          ],
+          [
+            "Jeremias (c. 627–586 a.C.)",
+            "Ministério em Judá, sob Josias, Joacaz, Jeoaquim e Zedequias. Conhecido como o “Profeta Chorão”, testemunhou a queda de Jerusalém."
+          ],
+          [
+            "Habacuque (c. 609–598 a.C.)",
+            "Ministério em Judá (Reino do Sul), sob Josias. Questionou a Deus sobre a injustiça e a ascensão dos babilônios."
+          ]
+        ],
+        "notes": "Os três registros da Parte 2, na metade superior da página, são lista/prosa e permanecem texto. As pequenas fotografias no topo das quatro colunas não precisam ser recriadas."
+      }
+    ],
+    "notes": "O número de página impresso está próximo ou sobre a borda inferior direita; não faz parte dos dados e não deve ser reproduzido nas novas imagens."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 87,
+    "figures": [
+      {
+        "id": "profetas-exilio",
+        "title": "Profetas durante o Exílio",
+        "kind": "diagram",
+        "rect": [
+          45,
+          108,
+          550,
+          390
+        ],
+        "description": "Profetas durante o Exílio, conforme a página 87 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Passo",
+          "Profeta e período",
+          "Ministério apresentado"
+        ],
+        "rows": [
+          [
+            "1",
+            "Daniel (c. 606–534 a.C.)",
+            "Ministério na Babilônia, durante o exílio com Nabucodonosor e Ciro. Famoso por suas visões apocalípticas e fidelidade sob pressão."
+          ],
+          [
+            "2",
+            "Ezequiel (c. 592–572 a.C.)",
+            "Ministério na Babilônia, durante o exílio com Nabucodonosor. Suas visões incluíam o vale de ossos secos e a glória de Deus deixando e retornando ao templo."
+          ],
+          [
+            "3",
+            "Obadias (c. 586–583 a.C.)",
+            "Profetizou contra Edom por sua hostilidade a Judá durante a queda de Jerusalém."
+          ]
+        ],
+        "sequence": true
+      },
+      {
+        "id": "profetas-pos-exilio",
+        "title": "Profetas do período Pós-Exílio",
+        "kind": "table",
+        "rect": [
+          45,
+          506,
+          550,
+          754
+        ],
+        "description": "Profetas do período Pós-Exílio, conforme a página 87 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Profeta e período",
+          "Ministério apresentado"
+        ],
+        "rows": [
+          [
+            "Ageu (c. 520 a.C.)",
+            "Ministério em Jerusalém, após o exílio com Dario. Encorajou a reconstrução imediata do Templo."
+          ],
+          [
+            "Zacarias (c. 520–518 a.C.)",
+            "Ministério em Jerusalém, após o exílio com Dario. Ofereceu visões de esperança e profecias messiânicas detalhadas."
+          ],
+          [
+            "Malaquias (c. 433–425 a.C.)",
+            "Ministério em Jerusalém, após o exílio com Artaxerxes. Confrontou o povo e os sacerdotes por sua apatia e falta de dízimos."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 88,
+    "figures": [
+      {
+        "id": "contexto-profecias",
+        "title": "Contexto histórico das profecias — diagrama",
+        "kind": "diagram",
+        "rect": [
+          125,
+          123,
+          497,
+          312
+        ],
+        "description": "Contexto histórico das profecias — diagrama, conforme a página 88 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Período da figura",
+          "Ênfases ligadas na figura"
+        ],
+        "rows": [
+          [
+            "Pre-Exile",
+            "Aviso; Judgment"
+          ],
+          [
+            "Exile & Post-Exile",
+            "Consolação; Sovereignty"
+          ]
+        ],
+        "notes": "O diagrama mistura rótulos em português e inglês no original. Não traduzi os rótulos ingleses nem alterei as ligações."
+      },
+      {
+        "id": "profetas-epoca",
+        "title": "Profetas por época de ministério",
+        "kind": "table",
+        "rect": [
+          45,
+          460,
+          550,
+          737
+        ],
+        "description": "Profetas por época de ministério, conforme a página 88 da Jornada da Bíblia — Parte 2.",
+        "columns": [
+          "Época",
+          "Profetas",
+          "Contexto apresentado"
+        ],
+        "rows": [
+          [
+            "Pré-Exílio",
+            "Joel, Jonas, Amós, Oséias, Isaías, Miquéias, Naum, Sofonias, Jeremias, Habacuque, Obadias",
+            "Joás, Jeroboão II, Uzias, Ezequias, Josias, Zedequias. Foco principal em Judá e Israel antes da queda."
+          ],
+          [
+            "Durante o Exílio",
+            "Daniel, Ezequiel",
+            "Exílio na Babilônia sob Nabucodonosor e Ciro. Mensagens de esperança e visões futuras."
+          ],
+          [
+            "Pós-Exílio",
+            "Ageu, Zacarias, Malaquias",
+            "Retorno a Jerusalém sob Dario e Artaxerxes. Encorajamento para a reconstrução e reforma espiritual."
+          ]
+        ]
+      }
+    ],
+    "notes": "O quadro inclui Obadias no Pré-Exílio, enquanto a página 87 o apresenta durante o Exílio. Preservar a divergência da fonte, sem unificar por informação externa."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 89,
+    "figures": [],
+    "notes": "Página composta por prosa, listas, reflexões ou fotografias; nenhum gráfico, tabela ou diagrama a converter em imagem."
+  }
+]

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="724" viewBox="0 0 1000 724" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">Estrutura geral do livro de Josué</title>
+<desc id="figure-description">Estrutura geral do livro de Josué, conforme a página 51 da Jornada da Bíblia — Parte 2.</desc>
+<metadata>Fonte: Jornada da Bíblia — Parte 2, página 51. Figura vetorial recriada; não contém captura de página.</metadata>
+<rect width="1000" height="724" rx="20" fill="#ffffff"/>
+<text x="40" y="34" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="11" font-weight="650" fill="#69736b">JORNADA DA BÍBLIA — PARTE 2</text>
+<text x="40" y="78" font-family="Georgia,serif" font-size="30" font-weight="400" fill="#29332d">Estrutura geral do livro de Josué</text>
+<rect x="40" y="106" width="920" height="54" rx="10" fill="#245341"/>
+<text x="56" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">Seção</text>
+<text x="362.667" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">Capítulos</text>
+<text x="669.333" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">Tema Central</text>
+<g data-row="0"><rect x="40" y="170" width="920" height="142" rx="10" fill="#eaf1e9" stroke="#e5e7df"/>
+<text x="56" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">1. Preparação para a</text>
+<text x="56" y="229" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Conquista</text>
+<text x="362.667" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">1–5</text>
+<text x="669.333" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">A nomeação de Josué, a</text>
+<text x="669.333" y="229" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">travessia do Jordão e</text>
+<text x="669.333" y="257" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">a renovação da</text>
+<text x="669.333" y="285" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">aliança.</text>
+</g>
+<g data-row="1"><rect x="40" y="322" width="920" height="86" rx="10" fill="#ffffff" stroke="#e5e7df"/>
+<text x="56" y="353" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">2. Conquista de Canaã</text>
+<text x="362.667" y="353" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">6–12</text>
+<text x="669.333" y="353" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">As campanhas militares</text>
+<text x="669.333" y="381" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">no sul e no norte.</text>
+</g>
+<g data-row="2"><rect x="40" y="418" width="920" height="114" rx="10" fill="#eaf1e9" stroke="#e5e7df"/>
+<text x="56" y="449" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">3. Divisão da Terra</text>
+<text x="362.667" y="449" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">13–21</text>
+<text x="669.333" y="449" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">A distribuição da</text>
+<text x="669.333" y="477" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">herança entre as</text>
+<text x="669.333" y="505" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">tribos.</text>
+</g>
+<g data-row="3"><rect x="40" y="542" width="920" height="114" rx="10" fill="#ffffff" stroke="#e5e7df"/>
+<text x="56" y="573" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">4. Renovação da</text>
+<text x="56" y="601" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Aliança e Despedida de</text>
+<text x="56" y="629" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Josué</text>
+<text x="362.667" y="573" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">22–24</text>
+<text x="669.333" y="573" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Exortações finais e o</text>
+<text x="669.333" y="601" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">legado espiritual do</text>
+<text x="669.333" y="629" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">líder.</text>
+</g>
+<line x1="40" x2="960" y1="674" y2="674" stroke="#e5e7df"/>
+<text x="40" y="701" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#69736b">Fonte: Jornada da Bíblia — Parte 2 · p. 51</text>
+</svg>

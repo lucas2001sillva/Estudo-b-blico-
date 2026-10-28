@@ -1,0 +1,2676 @@
+[
+  {
+    "sourceId": "study-2",
+    "sourcePage": 2,
+    "figures": [],
+    "notes": "Página conferida integralmente na imagem do PDF. Títulos, parágrafos e três callouts permanecem como texto nativo; o rodapé 20 não é conteúdo de leitura. Não gerar imagem de página inteira.",
+    "textOverrides": [
+      {
+        "rect": [
+          0,
+          38,
+          595.276,
+          112
+        ],
+        "text": "O Antigo Testamento: A Fundação da História da Redenção"
+      },
+      {
+        "rect": [
+          49,
+          133,
+          552,
+          258
+        ],
+        "text": "O Antigo Testamento constitui a primeira grande parte das Escrituras Sagradas. Composto por trinta e nove livros, ele traça a trajetória da humanidade desde a criação do mundo até a preparação para a vinda do Salvador. Nessa longa narrativa, que atravessa séculos de revelação divina, encontramos um fio condutor coerente: o Deus Criador age na história humana, conduzindo todas as coisas para o cumprimento de Seu propósito redentor."
+      },
+      {
+        "rect": [
+          49,
+          275,
+          552,
+          302
+        ],
+        "text": "A Promessa a Abraão e o Nascimento de Israel"
+      },
+      {
+        "rect": [
+          49,
+          316,
+          552,
+          377
+        ],
+        "text": "É nesse contexto que Ele chama Abraão, prometendo-lhe uma descendência numerosa e uma terra que seria o palco de Sua aliança com o povo escolhido — Israel."
+      },
+      {
+        "rect": [
+          49,
+          389,
+          214,
+          565
+        ],
+        "text": "01\n\nO Chamado de Abraão\n\nDeus estabelece uma aliança com Abraão, prometendo bênçãos para todas as nações através de sua descendência."
+      },
+      {
+        "rect": [
+          218,
+          389,
+          384,
+          565
+        ],
+        "text": "02\n\nA Formação do Povo\n\nAtravés de Isaque e Jacó, a promessa se desenvolve, formando as doze tribos de Israel."
+      },
+      {
+        "rect": [
+          386,
+          389,
+          552,
+          565
+        ],
+        "text": "03\n\nA Terra Prometida\n\nDeus designa Canaã como o lugar onde Sua aliança com Israel seria estabelecida e vivida."
+      },
+      {
+        "rect": [
+          49,
+          589,
+          552,
+          627
+        ],
+        "text": "A Libertação do Egito e a Lei Divina"
+      },
+      {
+        "rect": [
+          49,
+          639,
+          552,
+          703
+        ],
+        "text": "Ao longo dos livros seguintes, vemos essa promessa sendo desenvolvida. O povo de Israel é libertado da escravidão no Egito sob a liderança de Moisés, recebe a Lei divina no Sinai e inicia a caminhada rumo à Terra Prometida."
+      },
+      {
+        "rect": [
+          48,
+          716,
+          552,
+          762
+        ],
+        "text": "A história avança entre conquistas e fracassos, fidelidade e rebeldia."
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 3,
+    "figures": [
+      {
+        "id": "book-header",
+        "title": "Informações e cronologia do livro",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.276,
+          122
+        ],
+        "description": "Cartões de capítulos, versículos, autor, data e estilo, acompanhados da cronologia apresentada no cabeçalho do PDF.",
+        "header": true,
+        "rows": [
+          [
+            "Livro",
+            "Gênesis"
+          ],
+          [
+            "Capítulos",
+            "50"
+          ],
+          [
+            "Versículos",
+            "1533"
+          ],
+          [
+            "Autor",
+            "Moíses"
+          ],
+          [
+            "Data",
+            "1500 a.C"
+          ],
+          [
+            "Estilo",
+            "Pentateuco"
+          ],
+          [
+            "Cronologia",
+            "Sequência visual da esquerda para a direita, conforme o quadro."
+          ],
+          [
+            "Criação",
+            "Gn 1:1; Adão e Eva"
+          ],
+          [
+            "Dilúvio",
+            "~2.300 a.C"
+          ],
+          [
+            "Torre de Babel"
+          ],
+          [
+            "Abraão",
+            "~2.116 a.C"
+          ],
+          [
+            "Isaque",
+            "~2.066 a.C"
+          ],
+          [
+            "Jacó e Esaú",
+            "~2.006 a.C"
+          ],
+          [
+            "Morte de Abraão",
+            "1.991 a.C"
+          ],
+          [
+            "José",
+            "1.916 a.C"
+          ],
+          [
+            "Morte de Isaque",
+            "1.886 a.C"
+          ],
+          [
+            "Morte de Jacó",
+            "1.859 a.C"
+          ],
+          [
+            "Morte de José",
+            "1.806 a.C"
+          ]
+        ],
+        "notes": "Leitura acessível dos rótulos e datas do cabeçalho, conferida na imagem do PDF. Datas mantidas como na fonte, sem correção histórica externa. A cronologia continua com sua geometria nativa na figura."
+      }
+    ],
+    "textOverrides": [
+      {
+        "rect": [
+          68,
+          129,
+          295,
+          257
+        ],
+        "text": "Autor\n\nA autoria de Gênesis não é oficialmente declarada, mas a tradição judaico-cristã atribui sua escrita a Moisés, o grande líder de Israel e mediador da Lei divina."
+      },
+      {
+        "rect": [
+          310,
+          129,
+          548,
+          257
+        ],
+        "text": "Período Histórico\n\nDe: a Criação do mundo\n\nAté: a morte de José no Egito\n\nTempo aproximado: de 4000 a.C. a 1806 a.C."
+      },
+      {
+        "rect": [
+          68,
+          276,
+          548,
+          304
+        ],
+        "text": "Resumo Geral"
+      },
+      {
+        "rect": [
+          68,
+          313,
+          548,
+          370
+        ],
+        "text": "O livro de Gênesis inaugura a narrativa bíblica e revela o início de todas as coisas. Ele descreve a criação do universo, a formação do ser humano, a entrada do pecado no mundo e os primeiros passos da história da humanidade."
+      },
+      {
+        "rect": [
+          68,
+          380,
+          548,
+          461
+        ],
+        "text": "Deus cria o mundo com ordem e propósito, mas a desobediência de Adão e Eva rompe a comunhão com o Criador. A partir daí, o mal se espalha — Caim mata Abel, a corrupção cresce, e Deus envia o dilúvio, preservando apenas Noé e sua família."
+      },
+      {
+        "rect": [
+          68,
+          469,
+          548,
+          550
+        ],
+        "text": "Após o dilúvio, a humanidade tenta se exaltar construindo a Torre de Babel, mas Deus confunde as línguas e dispersa os povos. A narrativa então se volta para os patriarcas, começando com Abraão, o homem chamado por Deus para ser pai de uma grande nação."
+      },
+      {
+        "rect": [
+          68,
+          557,
+          548,
+          638
+        ],
+        "text": "A história segue com Isaque, Jacó e José, cujas experiências demonstram a fidelidade e a providência divina. O livro termina com a morte de José no Egito, preparando o cenário para a escravidão do povo hebreu e o início do livro de Êxodo."
+      }
+    ],
+    "notes": "Prosa conferida visualmente na página original do PDF. Autor, Período Histórico e Resumo Geral são texto nativo; somente o cabeçalho com cartões e cronologia é uma figura. Fotografia inferior e rodapé não são conteúdo de leitura nem figuras didáticas."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 4,
+    "figures": [
+      {
+        "id": "book-header",
+        "title": "Informações e cronologia do livro",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.276,
+          122
+        ],
+        "description": "Cartões de capítulos, versículos, autor, data e estilo, acompanhados da cronologia apresentada no cabeçalho do PDF.",
+        "header": true,
+        "rows": [
+          [
+            "Livro",
+            "Gênesis"
+          ],
+          [
+            "Capítulos",
+            "50"
+          ],
+          [
+            "Versículos",
+            "1533"
+          ],
+          [
+            "Autor",
+            "Moíses"
+          ],
+          [
+            "Data",
+            "1500 a.C"
+          ],
+          [
+            "Estilo",
+            "Pentateuco"
+          ],
+          [
+            "Cronologia",
+            "Sequência visual da esquerda para a direita, conforme o quadro."
+          ],
+          [
+            "Criação",
+            "Gn 1:1; Adão e Eva"
+          ],
+          [
+            "Dilúvio",
+            "~2.300 a.C"
+          ],
+          [
+            "Torre de Babel"
+          ],
+          [
+            "Abraão",
+            "~2.116 a.C"
+          ],
+          [
+            "Isaque",
+            "~2.066 a.C"
+          ],
+          [
+            "Jacó e Esaú",
+            "~2.006 a.C"
+          ],
+          [
+            "Morte de Abraão",
+            "1.991 a.C"
+          ],
+          [
+            "José",
+            "1.916 a.C"
+          ],
+          [
+            "Morte de Isaque",
+            "1.886 a.C"
+          ],
+          [
+            "Morte de Jacó",
+            "1.859 a.C"
+          ],
+          [
+            "Morte de José",
+            "1.806 a.C"
+          ]
+        ],
+        "notes": "Leitura acessível dos rótulos e datas do cabeçalho, conferida na imagem do PDF. Datas mantidas como na fonte, sem correção histórica externa. A cronologia continua com sua geometria nativa na figura."
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 5,
+    "figures": [
+      {
+        "id": "book-header",
+        "title": "Informações e cronologia do livro",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.276,
+          122
+        ],
+        "description": "Cartões de capítulos, versículos, autor, data e estilo, acompanhados da cronologia apresentada no cabeçalho do PDF.",
+        "header": true,
+        "rows": [
+          [
+            "Livro",
+            "Gênesis"
+          ],
+          [
+            "Capítulos",
+            "50"
+          ],
+          [
+            "Versículos",
+            "1533"
+          ],
+          [
+            "Autor",
+            "Moíses"
+          ],
+          [
+            "Data",
+            "1500 a.C"
+          ],
+          [
+            "Estilo",
+            "Pentateuco"
+          ],
+          [
+            "Cronologia",
+            "Sequência visual da esquerda para a direita, conforme o quadro."
+          ],
+          [
+            "Criação",
+            "Gn 1:1; Adão e Eva"
+          ],
+          [
+            "Dilúvio",
+            "~2.300 a.C"
+          ],
+          [
+            "Torre de Babel"
+          ],
+          [
+            "Abraão",
+            "~2.116 a.C"
+          ],
+          [
+            "Isaque",
+            "~2.066 a.C"
+          ],
+          [
+            "Jacó e Esaú",
+            "~2.006 a.C"
+          ],
+          [
+            "Morte de Abraão",
+            "1.991 a.C"
+          ],
+          [
+            "José",
+            "1.916 a.C"
+          ],
+          [
+            "Morte de Isaque",
+            "1.886 a.C"
+          ],
+          [
+            "Morte de Jacó",
+            "1.859 a.C"
+          ],
+          [
+            "Morte de José",
+            "1.806 a.C"
+          ]
+        ],
+        "notes": "Leitura acessível dos rótulos e datas do cabeçalho, conferida na imagem do PDF. Datas mantidas como na fonte, sem correção histórica externa. A cronologia continua com sua geometria nativa na figura."
+      },
+      {
+        "id": "creation-days",
+        "title": "Os sete dias da criação",
+        "kind": "table",
+        "rect": [
+          70,
+          366,
+          533,
+          819
+        ],
+        "description": "Tabela relacionando cada dia da criação, o que Deus fez e a referência indicada pelo material.",
+        "columns": [
+          "Dia",
+          "O que Deus fez",
+          "Referência"
+        ],
+        "rows": [
+          [
+            "1º",
+            "Separou a luz das trevas",
+            "Gênesis 1:3–5"
+          ],
+          [
+            "2º",
+            "Separou as águas, formando o céu",
+            "Gênesis 1:6–8"
+          ],
+          [
+            "3º",
+            "Reuniu as águas e fez surgir a terra e as plantas",
+            "Gênesis 1:9–13"
+          ],
+          [
+            "4º",
+            "Criou o sol, a lua e as estrelas",
+            "Gênesis 1:14–19"
+          ],
+          [
+            "5º",
+            "Formou os peixes e as aves",
+            "Gênesis 1:20–23"
+          ],
+          [
+            "6º",
+            "Criou os animais terrestres e o ser humano",
+            "Gênesis 1:24–28"
+          ],
+          [
+            "7º",
+            "Descansou, abençoando o sétimo dia",
+            "Gênesis 2:1–3"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 6,
+    "figures": [
+      {
+        "id": "book-header",
+        "title": "Informações e cronologia do livro",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.276,
+          122
+        ],
+        "description": "Cartões de capítulos, versículos, autor, data e estilo, acompanhados da cronologia apresentada no cabeçalho do PDF.",
+        "header": true,
+        "rows": [
+          [
+            "Livro",
+            "Gênesis"
+          ],
+          [
+            "Capítulos",
+            "50"
+          ],
+          [
+            "Versículos",
+            "1533"
+          ],
+          [
+            "Autor",
+            "Moíses"
+          ],
+          [
+            "Data",
+            "1500 a.C"
+          ],
+          [
+            "Estilo",
+            "Pentateuco"
+          ],
+          [
+            "Cronologia",
+            "Sequência visual da esquerda para a direita, conforme o quadro."
+          ],
+          [
+            "Criação",
+            "Gn 1:1; Adão e Eva"
+          ],
+          [
+            "Dilúvio",
+            "~2.300 a.C"
+          ],
+          [
+            "Torre de Babel"
+          ],
+          [
+            "Abraão",
+            "~2.116 a.C"
+          ],
+          [
+            "Isaque",
+            "~2.066 a.C"
+          ],
+          [
+            "Jacó e Esaú",
+            "~2.006 a.C"
+          ],
+          [
+            "Morte de Abraão",
+            "1.991 a.C"
+          ],
+          [
+            "José",
+            "1.916 a.C"
+          ],
+          [
+            "Morte de Isaque",
+            "1.886 a.C"
+          ],
+          [
+            "Morte de Jacó",
+            "1.859 a.C"
+          ],
+          [
+            "Morte de José",
+            "1.806 a.C"
+          ]
+        ],
+        "notes": "Leitura acessível dos rótulos e datas do cabeçalho, conferida na imagem do PDF. Datas mantidas como na fonte, sem correção histórica externa. A cronologia continua com sua geometria nativa na figura."
+      },
+      {
+        "id": "genesis-characters",
+        "title": "Principais personagens de Gênesis",
+        "kind": "table",
+        "rect": [
+          56,
+          197,
+          530,
+          509
+        ],
+        "description": "Nove personagens ou pares apresentados junto de suas descrições.",
+        "columns": [
+          "Personagem",
+          "Descrição"
+        ],
+        "rows": [
+          [
+            "Adão e Eva",
+            "Os primeiros seres humanos, criados à imagem de Deus."
+          ],
+          [
+            "Caim e Abel",
+            "Filhos de Adão e Eva; o primeiro homicídio ocorre por inveja."
+          ],
+          [
+            "Noé",
+            "Constrói a arca e sobrevive ao dilúvio, símbolo da graça e da aliança divina."
+          ],
+          [
+            "Abraão",
+            "Patriarca da fé, chamado por Deus para fundar um novo povo."
+          ],
+          [
+            "Sara",
+            "Esposa de Abraão, mãe de Isaque, exemplo de fé e promessa cumprida."
+          ],
+          [
+            "Isaque",
+            "Filho da promessa e pai de Jacó."
+          ],
+          [
+            "Rebeca",
+            "Esposa de Isaque, mãe dos gêmeos Esaú e Jacó."
+          ],
+          [
+            "Jacó (Israel)",
+            "Neto de Abraão, pai das doze tribos de Israel."
+          ],
+          [
+            "José",
+            "Filho de Jacó e Raquel, vendido como escravo e exaltado no Egito, onde salva sua família da fome."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 7,
+    "figures": [
+      {
+        "id": "book-header",
+        "title": "Informações e cronologia do livro",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.276,
+          122
+        ],
+        "description": "Cartões de capítulos, versículos, autor, data e estilo, acompanhados da cronologia apresentada no cabeçalho do PDF.",
+        "header": true,
+        "rows": [
+          [
+            "Livro",
+            "Gênesis"
+          ],
+          [
+            "Capítulos",
+            "50"
+          ],
+          [
+            "Versículos",
+            "1533"
+          ],
+          [
+            "Autor",
+            "Moíses"
+          ],
+          [
+            "Data",
+            "1500 a.C"
+          ],
+          [
+            "Estilo",
+            "Pentateuco"
+          ],
+          [
+            "Cronologia",
+            "Sequência visual da esquerda para a direita, conforme o quadro."
+          ],
+          [
+            "Criação",
+            "Gn 1:1; Adão e Eva"
+          ],
+          [
+            "Dilúvio",
+            "~2.300 a.C"
+          ],
+          [
+            "Torre de Babel"
+          ],
+          [
+            "Abraão",
+            "~2.116 a.C"
+          ],
+          [
+            "Isaque",
+            "~2.066 a.C"
+          ],
+          [
+            "Jacó e Esaú",
+            "~2.006 a.C"
+          ],
+          [
+            "Morte de Abraão",
+            "1.991 a.C"
+          ],
+          [
+            "José",
+            "1.916 a.C"
+          ],
+          [
+            "Morte de Isaque",
+            "1.886 a.C"
+          ],
+          [
+            "Morte de Jacó",
+            "1.859 a.C"
+          ],
+          [
+            "Morte de José",
+            "1.806 a.C"
+          ]
+        ],
+        "notes": "Leitura acessível dos rótulos e datas do cabeçalho, conferida na imagem do PDF. Datas mantidas como na fonte, sem correção histórica externa. A cronologia continua com sua geometria nativa na figura."
+      },
+      {
+        "id": "post-flood-peoples",
+        "title": "O repovoamento da Terra (pós-dilúvio)",
+        "kind": "table",
+        "rect": [
+          51,
+          183,
+          534,
+          800
+        ],
+        "description": "Três colunas relacionam Jafé, Sem e Cam aos povos, regiões e descendentes indicados pelo PDF.",
+        "columns": [
+          "Categoria",
+          "Jafé",
+          "Sem",
+          "Cam"
+        ],
+        "rows": [
+          [
+            "Apresentação",
+            "Pai dos povos europeus e da Ásia Menor",
+            "Pai dos povos semitas (hebreus, árabes, sírios)",
+            "Pai dos povos africanos e cananeus"
+          ],
+          [
+            "Regiões",
+            "Europa, Cáucaso, Ásia Ocidental",
+            "Oriente Médio, Mesopotâmia",
+            "África, Egito, Arábia, Canaã"
+          ],
+          [
+            "Filhos e referência",
+            "Gomer; Magogue; Madai; Javã; Tubal e Meseque; Tiras (Gn 10:2–5)",
+            "Elão; Assur; Arfaxade; Lude; Arã (Gn 10:21–31)",
+            "Cuxe; Mizraim; Pute; Canaã (Gn 10:6–20)"
+          ],
+          [
+            "Associações descritas",
+            "Gomer: celtas e cimérios, povoações na Galácia e Europa Oriental. Magogue: citas e povos das estepes russas. Madai: medos (Império Medo-Persa). Javã: gregos e ilhas do mar Egeu. Tubal e Meseque: Anatólia (Turquia moderna) e tribos do Cáucaso. Tiras: alguns estudiosos relacionam aos trácios (Bálcãs).",
+            "Elão: fundadores do Império Elamita (sudeste do Irã). Assur: povo da Assíria (norte da Mesopotâmia). Arfaxade: de onde virá Eber (Gn 10:24), pai dos hebreus. Lude: provavelmente ligado aos lídios (Anatólia ocidental). Arã: origem dos arameus (Síria).",
+            "Cuxe: Etiópia/Núbia; também gerou Ninrode, fundador de Babel (Gn 10:8–10). Mizraim: Egito; nome hebraico para o Egito. Pute: Líbia e partes da África Setentrional. Canaã: região da Palestina, pai dos cananeus (heteus, jebuseus, amorreus etc.)."
+          ],
+          [
+            "Notas do material",
+            "A tradição vê Jafé como ancestral das nações indo-europeias: gregos, romanos, germanos, eslavos, celtas, escandinavos.",
+            "De Arfaxade vem Eber, de quem surgem os hebreus; de Eber vêm Abraão, Isaque e Jacó (Israel). Através de Sem, nasce o povo escolhido, o Messias (Jesus) e a promessa da salvação. Sem é o ancestral dos semitas: hebreus, árabes, assírios, caldeus, arameus.",
+            "A maldição recaiu sobre Canaã, filho de Cam (Gn 9:20–27). Mais tarde os cananeus são expulsos por Israel, conforme a apresentação do material. Cam é visto como pai dos povos da África: Egito, Etiópia, Canaã e filhos do deserto (árabes, tribais antigos)."
+          ]
+        ]
+      }
+    ],
+    "notes": "A página contém afirmações e associações editoriais da fonte. Os dados não foram corrigidos com fontes externas. Não tratar o texto como classificação científica ou como afirmação criada pelo site."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 8,
+    "figures": [
+      {
+        "id": "book-header",
+        "title": "Informações e cronologia do livro",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.276,
+          122
+        ],
+        "description": "Cartões de capítulos, versículos, autor, data e estilo, acompanhados da cronologia apresentada no cabeçalho do PDF.",
+        "header": true,
+        "rows": [
+          [
+            "Livro",
+            "Gênesis"
+          ],
+          [
+            "Capítulos",
+            "50"
+          ],
+          [
+            "Versículos",
+            "1533"
+          ],
+          [
+            "Autor",
+            "Moíses"
+          ],
+          [
+            "Data",
+            "1500 a.C"
+          ],
+          [
+            "Estilo",
+            "Pentateuco"
+          ],
+          [
+            "Cronologia",
+            "Sequência visual da esquerda para a direita, conforme o quadro."
+          ],
+          [
+            "Criação",
+            "Gn 1:1; Adão e Eva"
+          ],
+          [
+            "Dilúvio",
+            "~2.300 a.C"
+          ],
+          [
+            "Torre de Babel"
+          ],
+          [
+            "Abraão",
+            "~2.116 a.C"
+          ],
+          [
+            "Isaque",
+            "~2.066 a.C"
+          ],
+          [
+            "Jacó e Esaú",
+            "~2.006 a.C"
+          ],
+          [
+            "Morte de Abraão",
+            "1.991 a.C"
+          ],
+          [
+            "José",
+            "1.916 a.C"
+          ],
+          [
+            "Morte de Isaque",
+            "1.886 a.C"
+          ],
+          [
+            "Morte de Jacó",
+            "1.859 a.C"
+          ],
+          [
+            "Morte de José",
+            "1.806 a.C"
+          ]
+        ],
+        "notes": "Leitura acessível dos rótulos e datas do cabeçalho, conferida na imagem do PDF. Datas mantidas como na fonte, sem correção histórica externa. A cronologia continua com sua geometria nativa na figura."
+      },
+      {
+        "id": "ark-dimensions",
+        "title": "Qual era o tamanho da arca?",
+        "kind": "table",
+        "rect": [
+          60,
+          420,
+          527,
+          555
+        ],
+        "description": "Quatro cartões apresentam as medidas e a área estimada conforme o PDF; a prosa e as fotografias ficam fora da figura.",
+        "columns": [
+          "Medida",
+          "Valor apresentado no PDF"
+        ],
+        "rows": [
+          [
+            "Comprimento",
+            "300 côvados = 137 metros"
+          ],
+          [
+            "Largura",
+            "50 côvados = 22 metros"
+          ],
+          [
+            "Altura",
+            "30 côvados = 13,5 metros"
+          ],
+          [
+            "Área total estimada",
+            "≈9.280 m²"
+          ]
+        ],
+        "caption": "Convertendo côvados para metros (1 côvado ≈ 45 cm)."
+      }
+    ],
+    "notes": "Preservados os números efetivamente escritos no PDF, mesmo havendo aproximações ou inconsistência matemática; não recomputar ou corrigir por memória."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 9,
+    "figures": [
+      {
+        "id": "book-header",
+        "title": "Informações e cronologia do livro",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.276,
+          122
+        ],
+        "description": "Cartões de capítulos, versículos, autor, data e estilo, acompanhados da cronologia apresentada no cabeçalho do PDF.",
+        "header": true,
+        "rows": [
+          [
+            "Livro",
+            "Gênesis"
+          ],
+          [
+            "Capítulos",
+            "50"
+          ],
+          [
+            "Versículos",
+            "1533"
+          ],
+          [
+            "Autor",
+            "Moíses"
+          ],
+          [
+            "Data",
+            "1500 a.C"
+          ],
+          [
+            "Estilo",
+            "Pentateuco"
+          ],
+          [
+            "Cronologia",
+            "Sequência visual da esquerda para a direita, conforme o quadro."
+          ],
+          [
+            "Criação",
+            "Gn 1:1; Adão e Eva"
+          ],
+          [
+            "Dilúvio",
+            "~2.300 a.C"
+          ],
+          [
+            "Torre de Babel"
+          ],
+          [
+            "Abraão",
+            "~2.116 a.C"
+          ],
+          [
+            "Isaque",
+            "~2.066 a.C"
+          ],
+          [
+            "Jacó e Esaú",
+            "~2.006 a.C"
+          ],
+          [
+            "Morte de Abraão",
+            "1.991 a.C"
+          ],
+          [
+            "José",
+            "1.916 a.C"
+          ],
+          [
+            "Morte de Isaque",
+            "1.886 a.C"
+          ],
+          [
+            "Morte de Jacó",
+            "1.859 a.C"
+          ],
+          [
+            "Morte de José",
+            "1.806 a.C"
+          ],
+          [
+            "Posição no Antigo Testamento",
+            "1º Livro"
+          ]
+        ],
+        "notes": "Leitura acessível dos rótulos e datas do cabeçalho, conferida na imagem do PDF. Datas mantidas como na fonte, sem correção histórica externa. A cronologia continua com sua geometria nativa na figura."
+      },
+      {
+        "id": "flood-timeline",
+        "title": "Quanto tempo durou o dilúvio?",
+        "kind": "diagram",
+        "rect": [
+          67,
+          193,
+          520,
+          450
+        ],
+        "description": "Linha temporal de quatro etapas, com as durações e referências mostradas no material.",
+        "columns": [
+          "Etapa",
+          "Evento",
+          "Referência"
+        ],
+        "rows": [
+          [
+            "1",
+            "Chuva por 40 dias e 40 noites",
+            "Gn 7:12"
+          ],
+          [
+            "2",
+            "Águas prevaleceram por 150 dias",
+            "Gn 7:24"
+          ],
+          [
+            "3",
+            "A arca repousou no monte Ararate no 150º dia",
+            "Gn 8:4"
+          ],
+          [
+            "4",
+            "As águas foram baixando lentamente até que a arca foi aberta e Noé saiu no 601º ano de sua vida",
+            "Gn 8:13–14"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 10,
+    "figures": [
+      {
+        "id": "abraham-lineage",
+        "title": "Deus edifica sua linhagem",
+        "kind": "diagram",
+        "rect": [
+          73,
+          125,
+          550,
+          805
+        ],
+        "description": "Genealogia de Abraão, Isaque e Jacó; relações e descendentes representados no gráfico do PDF.",
+        "columns": [
+          "Ligação do diagrama",
+          "Descendentes apresentados"
+        ],
+        "rows": [
+          [
+            "Abraão e Sara",
+            "Isaque"
+          ],
+          [
+            "Abraão e Agar",
+            "Ismael"
+          ],
+          [
+            "Isaque e Rebeca",
+            "Jacó e Esaú"
+          ],
+          [
+            "Jacó (Israel) e Lia",
+            "Rúben; Simeão; Levi; Judá; Issacar; Zebulom"
+          ],
+          [
+            "Jacó (Israel) e Raquel",
+            "José; Benjamim"
+          ],
+          [
+            "Jacó (Israel) e Bila",
+            "Dã; Naftali"
+          ],
+          [
+            "Jacó (Israel) e Zilpa",
+            "Gade; Aser"
+          ],
+          [
+            "Levi",
+            "Arão; Moisés; João Batista; Barnabé; Elcana"
+          ],
+          [
+            "Judá",
+            "Daniel; Davi; Salomão; Josias; Ezequias; Jesus"
+          ],
+          [
+            "José",
+            "Manassés; Efraim"
+          ],
+          [
+            "Manassés",
+            "Gideão"
+          ],
+          [
+            "Efraim",
+            "Josué; Débora"
+          ],
+          [
+            "Benjamim",
+            "Saul; Paulo; Ester; Mardoqueu; Jeremias"
+          ],
+          [
+            "Dã",
+            "Sansão"
+          ]
+        ],
+        "caption": "A jornada de Abraão e o nascimento de Israel.",
+        "annotations": [
+          "Abraão estava com 100 anos quando Isaque nasceu; viveu até os 175 anos.",
+          "Sara estava com 90 anos quando Isaque nasceu; o material diz que, mesmo duvidando da promessa, foi agraciada por Deus.",
+          "Sara entregou sua serva Agar a Abraão; desta união nasceu Ismael, apresentado como pai dos povos árabes.",
+          "Isaque: seu nome quer dizer “aquele que ri”; a legenda o associa ao riso de seus pais, que teriam um filho em idade avançada.",
+          "Rebeca é apresentada como mãe dos primeiros gêmeos mencionados na Bíblia.",
+          "Jacó é associado à linhagem das 12 tribos; Deus mudou seu nome para Israel.",
+          "Esaú é apresentado como aquele que vendeu a primogenitura a Jacó por um prato de lentilhas; dele descenderam os edomitas."
+        ],
+        "excludeRects": [
+          [
+            535,
+            779,
+            560,
+            810
+          ]
+        ]
+      }
+    ],
+    "notes": "A figura é um diagrama quase em página inteira, mas o recorte exclui título/margens. O rodapé deve ser excluído pela caixa específica. As associações de nomes foram transcritas como aparecem na fonte, sem validação externa."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 11,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 12,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 13,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 14,
+    "figures": [
+      {
+        "id": "book-header",
+        "title": "Informações e cronologia do livro",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.276,
+          122
+        ],
+        "description": "Cartões de capítulos, versículos, autor, data e estilo, acompanhados da cronologia apresentada no cabeçalho do PDF.",
+        "header": true,
+        "rows": [
+          [
+            "Livro",
+            "Êxodo"
+          ],
+          [
+            "Capítulos",
+            "40"
+          ],
+          [
+            "Versículos",
+            "1213"
+          ],
+          [
+            "Autor",
+            "Moíses"
+          ],
+          [
+            "Data",
+            "1450 a.C"
+          ],
+          [
+            "Estilo",
+            "Pentateuco"
+          ],
+          [
+            "Cronologia",
+            "Sequência visual da esquerda para a direita, conforme o quadro."
+          ],
+          [
+            "Nascimento de Moisés",
+            "1.526 a.C"
+          ],
+          [
+            "Moisés em Midiã",
+            "1486 a.C"
+          ],
+          [
+            "Deus chama Moisés",
+            "1.446 a.C"
+          ],
+          [
+            "As 10 pragas do Egito",
+            "1.446 a.C"
+          ],
+          [
+            "Saída do Egito",
+            "~1.446 a.C"
+          ],
+          [
+            "Travessia Mar vermelho",
+            "~1.446 a.C"
+          ],
+          [
+            "Aliança e Lei",
+            "~1.446 a.C"
+          ],
+          [
+            "Tabernáculo",
+            "~1.445 a.C"
+          ],
+          [
+            "Posição no Antigo Testamento",
+            "2º Livro"
+          ]
+        ],
+        "notes": "Leitura acessível dos rótulos e datas do cabeçalho, conferida na imagem do PDF. Datas mantidas como na fonte, sem correção histórica externa. A cronologia continua com sua geometria nativa na figura."
+      },
+      {
+        "id": "exodus-context",
+        "title": "Autor e contexto histórico de Êxodo",
+        "kind": "table",
+        "rect": [
+          54,
+          309,
+          543,
+          530
+        ],
+        "description": "Tabela que relaciona os elementos de contexto de Êxodo às descrições do material.",
+        "columns": [
+          "Elemento",
+          "Descrição"
+        ],
+        "rows": [
+          [
+            "Autor Tradicional",
+            "Moisés"
+          ],
+          [
+            "Período Histórico",
+            "Da escravidão no Egito à construção do Tabernáculo"
+          ],
+          [
+            "Significado do Nome",
+            "“Êxodo” vem do grego exodos, que significa “saída” ou “partida”"
+          ],
+          [
+            "Tema Central",
+            "Libertação, aliança e presença divina"
+          ],
+          [
+            "Palavra-Chave",
+            "Redenção"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 15,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 16,
+    "figures": [
+      {
+        "id": "egypt-plagues",
+        "title": "As dez pragas do Egito",
+        "kind": "table",
+        "rect": [
+          45,
+          154,
+          550,
+          682
+        ],
+        "description": "Tabela com número, praga, referência e descrição das dez pragas.",
+        "columns": [
+          "Nº",
+          "Praga",
+          "Referência",
+          "Descrição"
+        ],
+        "rows": [
+          [
+            "1",
+            "Águas em sangue",
+            "Êxodo 7:14–24",
+            "O Nilo e as fontes se tornam sangue; a água torna-se imprópria e causa praga no Egito."
+          ],
+          [
+            "2",
+            "Rãs",
+            "Êxodo 8:1–15",
+            "Rãs cobrem a terra, invadindo casas e palácios."
+          ],
+          [
+            "3",
+            "Piolhos",
+            "Êxodo 8:16–19",
+            "O pó da terra se transforma em insetos que infestam homens e animais."
+          ],
+          [
+            "4",
+            "Moscas",
+            "Êxodo 8:20–32",
+            "Nuvens de moscas atormentam o povo e os animais."
+          ],
+          [
+            "5",
+            "Peste no gado",
+            "Êxodo 9:1–7",
+            "O rebanho dos egípcios morre, mas o de Israel é poupado."
+          ],
+          [
+            "6",
+            "Úlceras",
+            "Êxodo 9:8–12",
+            "Feridas dolorosas aparecem nas pessoas e nos animais."
+          ],
+          [
+            "7",
+            "Granizo",
+            "Êxodo 9:13–35",
+            "Uma tempestade destrói plantações, animais e casas."
+          ],
+          [
+            "8",
+            "Gafanhotos",
+            "Êxodo 10:1–20",
+            "Insetos devoram toda a vegetação restante."
+          ],
+          [
+            "9",
+            "Escuridão",
+            "Êxodo 10:21–29",
+            "Três dias de trevas cobrem o Egito."
+          ],
+          [
+            "10",
+            "Morte dos primogênitos",
+            "Êxodo 11–12",
+            "O juízo final: morre todo primogênito egípcio, mas Israel é protegido pelo sangue do cordeiro pascal."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 17,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 18,
+    "figures": [
+      {
+        "id": "tabernacle-areas",
+        "title": "As partes do Tabernáculo",
+        "kind": "table",
+        "rect": [
+          44,
+          319,
+          552,
+          528
+        ],
+        "description": "Quadro comparando Átrio, Lugar Santo e Santo dos Santos, com descrições e elementos principais.",
+        "columns": [
+          "Área",
+          "Descrição",
+          "Elementos principais"
+        ],
+        "rows": [
+          [
+            "Átrio",
+            "Espaço externo cercado por cortinas de linho branco.",
+            "Altar do Holocausto e Bacia de Bronze"
+          ],
+          [
+            "Lugar Santo",
+            "Ambiente interno acessado pelos sacerdotes.",
+            "Candelabro de Ouro, Mesa dos Pães e Altar do Incenso"
+          ],
+          [
+            "Santo dos Santos",
+            "Parte mais sagrada, separada por um véu.",
+            "Arca da Aliança e o Propiciatório"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 19,
+    "figures": [
+      {
+        "id": "exodus-characters",
+        "title": "Personagens centrais de Êxodo",
+        "kind": "table",
+        "rect": [
+          42,
+          269,
+          553,
+          543
+        ],
+        "description": "Quadro de personagens, seus papéis e destaques no estudo de Êxodo.",
+        "columns": [
+          "Personagem",
+          "Papel",
+          "Destaque"
+        ],
+        "rows": [
+          [
+            "Moisés",
+            "Líder e legislador",
+            "Conduz o povo e recebe as leis divinas"
+          ],
+          [
+            "Arão",
+            "Irmão de Moisés",
+            "Primeiro sumo sacerdote e porta-voz de Moisés"
+          ],
+          [
+            "Faraó",
+            "Rei do Egito",
+            "Antagonista da narrativa; símbolo da resistência ao plano de Deus"
+          ],
+          [
+            "Miriã",
+            "Irmã de Moisés",
+            "Profetisa e líder na adoração após o livramento no mar"
+          ],
+          [
+            "Josué",
+            "Auxiliar de Moisés",
+            "Preparado para suceder o líder e conduzir o povo à Terra Prometida"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 20,
+    "figures": [
+      {
+        "id": "tabernacle-plan",
+        "title": "Planta do Tabernáculo",
+        "kind": "diagram",
+        "rect": [
+          58,
+          350,
+          539,
+          541
+        ],
+        "description": "Somente a planta central com medidas, áreas e objetos; as ilustrações ao redor não fazem parte do recorte.",
+        "columns": [
+          "Local ou dimensão",
+          "Rótulo da planta"
+        ],
+        "rows": [
+          [
+            "Dimensões externas",
+            "45,72 m por 22,86 m"
+          ],
+          [
+            "Dimensões indicadas no interior",
+            "13,71 m; 13,71 m; 4,57 m"
+          ],
+          [
+            "Santo dos Santos",
+            "A arca da aliança"
+          ],
+          [
+            "Separação",
+            "O véu"
+          ],
+          [
+            "Lugar Santo",
+            "O altar do incenso; a mesa dos pães; o candelabro de ouro"
+          ],
+          [
+            "Átrio",
+            "O lavatório; o altar do holocausto"
+          ],
+          [
+            "Entrada",
+            "Porta"
+          ]
+        ],
+        "elements": [
+          {
+            "label": "O Santo dos Santos",
+            "rect": [
+              136,
+              407,
+              188,
+              478
+            ]
+          },
+          {
+            "label": "O véu",
+            "rect": [
+              187,
+              402,
+              192,
+              498
+            ]
+          },
+          {
+            "label": "O altar do incenso",
+            "rect": [
+              198,
+              407,
+              237,
+              466
+            ]
+          },
+          {
+            "label": "A mesa dos pães",
+            "rect": [
+              257,
+              407,
+              291,
+              436
+            ]
+          },
+          {
+            "label": "O candelabro de ouro",
+            "rect": [
+              255,
+              472,
+              303,
+              496
+            ]
+          },
+          {
+            "label": "O lavatório",
+            "rect": [
+              333,
+              423,
+              379,
+              469
+            ]
+          },
+          {
+            "label": "O altar do holocausto",
+            "rect": [
+              399,
+              415,
+              446,
+              480
+            ]
+          },
+          {
+            "label": "Porta",
+            "rect": [
+              485,
+              407,
+              516,
+              467
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 21,
+    "figures": [
+      {
+        "id": "law-counts",
+        "title": "A Lei contém 613 mandamentos",
+        "kind": "chart",
+        "rect": [
+          63,
+          148,
+          358,
+          293
+        ],
+        "description": "Três cartões com os totais de mandamentos conforme apresentados no material.",
+        "columns": [
+          "Grupo",
+          "Quantidade",
+          "Texto da fonte"
+        ],
+        "rows": [
+          [
+            "Proibições",
+            "365",
+            "Não faça isso"
+          ],
+          [
+            "Total",
+            "613",
+            "A Lei contém"
+          ],
+          [
+            "Ordens",
+            "248",
+            "Faça isso"
+          ]
+        ]
+      },
+      {
+        "id": "commandments-first",
+        "title": "Os dez mandamentos — início",
+        "kind": "table",
+        "rect": [
+          71,
+          608,
+          534,
+          784
+        ],
+        "description": "Início da tabela dos mandamentos, com a primeira linha e os títulos das colunas.",
+        "columns": [
+          "Nº",
+          "Mandamento (Êxodo 20)",
+          "Aplicação no Novo Testamento",
+          "Significado espiritual"
+        ],
+        "rows": [
+          [
+            "1",
+            "Não terás outros deuses diante de Mim.",
+            "Mateus 4:10",
+            "Fidelidade exclusiva a Deus. Nenhum outro poder deve ocupar o centro da adoração."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 22,
+    "figures": [
+      {
+        "id": "commandments-middle",
+        "title": "Os dez mandamentos — continuação",
+        "kind": "table",
+        "rect": [
+          44,
+          35,
+          549,
+          800
+        ],
+        "description": "Continuação da tabela iniciada na página anterior, com os mandamentos 2 a 8.",
+        "columns": [
+          "Nº",
+          "Mandamento (Êxodo 20)",
+          "Aplicação no Novo Testamento",
+          "Significado espiritual"
+        ],
+        "rows": [
+          [
+            "2",
+            "Não farás imagens de escultura.",
+            "Lucas 16:13",
+            "Lembrar que Deus é espírito e não pode ser reduzido a símbolos humanos."
+          ],
+          [
+            "3",
+            "Não tomarás o nome do Senhor em vão.",
+            "Mateus 5:34",
+            "Respeitar o nome de Deus, evitando usá-lo de forma leviana."
+          ],
+          [
+            "4",
+            "Lembra-te do sábado para o santificar.",
+            "Marcos 2:27",
+            "O descanso é um presente de Deus, um tempo para restaurar corpo e alma."
+          ],
+          [
+            "5",
+            "Honra teu pai e tua mãe.",
+            "Mateus 10:37",
+            "Valorizar a família e a autoridade como reflexo do respeito a Deus."
+          ],
+          [
+            "6",
+            "Não matarás.",
+            "Mateus 5:22",
+            "A vida é sagrada — o ódio e a ira também violam esse princípio."
+          ],
+          [
+            "7",
+            "Não adulterarás.",
+            "Mateus 5:28",
+            "A pureza começa no coração, não apenas nas ações."
+          ],
+          [
+            "8",
+            "Não furtarás.",
+            "Mateus 5:40",
+            "Generosidade e honestidade são a base da convivência justa."
+          ]
+        ],
+        "excludeRects": [
+          [
+            535,
+            779,
+            560,
+            810
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 23,
+    "figures": [
+      {
+        "id": "commandments-end",
+        "title": "Os dez mandamentos — final",
+        "kind": "table",
+        "rect": [
+          44,
+          54,
+          552,
+          248
+        ],
+        "description": "Conclusão da tabela dos mandamentos, com as linhas 9 e 10.",
+        "columns": [
+          "Nº",
+          "Mandamento (Êxodo 20)",
+          "Aplicação no Novo Testamento",
+          "Significado espiritual"
+        ],
+        "rows": [
+          [
+            "9",
+            "Não dirás falso testemunho.",
+            "Mateus 5:33",
+            "A verdade liberta — a mentira destrói relacionamentos e honra."
+          ],
+          [
+            "10",
+            "Não cobiçarás.",
+            "Lucas 12:15",
+            "A cobiça é a raiz da ingratidão e do descontentamento."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 24,
+    "figures": [
+      {
+        "id": "ceremonial-law",
+        "title": "Lei cerimonial: elementos e cumprimento",
+        "kind": "table",
+        "rect": [
+          44,
+          254,
+          551,
+          457
+        ],
+        "description": "Tabela de elementos da lei cerimonial, funções e cumprimento apresentado pelo material.",
+        "columns": [
+          "Elemento",
+          "Função",
+          "Cumprimento em Cristo"
+        ],
+        "rows": [
+          [
+            "Sacrifícios de animais",
+            "Expiação simbólica dos pecados",
+            "Jesus, o sacrifício perfeito"
+          ],
+          [
+            "Incenso e oferendas",
+            "Representavam oração e devoção",
+            "Cristo é o mediador entre Deus e os homens"
+          ],
+          [
+            "Tabernáculo",
+            "Local de adoração móvel",
+            "Cristo é o novo Templo e habita em nós"
+          ]
+        ]
+      },
+      {
+        "id": "civil-law",
+        "title": "Lei civil: áreas e princípios",
+        "kind": "table",
+        "rect": [
+          44,
+          575,
+          552,
+          813
+        ],
+        "description": "Tabela de áreas da convivência, suas aplicações e os princípios indicados pelo material.",
+        "columns": [
+          "Área",
+          "Aplicação",
+          "Princípio atual"
+        ],
+        "rows": [
+          [
+            "Propriedade",
+            "Restituição por danos",
+            "Responsabilidade e ética"
+          ],
+          [
+            "Justiça",
+            "Julgamentos e testemunhos",
+            "Verdade e equidade"
+          ],
+          [
+            "Família",
+            "Casamento e divórcio",
+            "Valorização da aliança"
+          ],
+          [
+            "Trabalho",
+            "Pagamento justo",
+            "Dignidade e solidariedade"
+          ]
+        ],
+        "excludeRects": [
+          [
+            535,
+            779,
+            560,
+            810
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 25,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 26,
+    "figures": [
+      {
+        "id": "exodus-law-events",
+        "title": "Principais eventos relacionados à Lei em Êxodo",
+        "kind": "table",
+        "rect": [
+          44,
+          139,
+          551,
+          801
+        ],
+        "description": "Tabela de dez eventos com descrição e referência bíblica.",
+        "columns": [
+          "Evento",
+          "Descrição",
+          "Referência bíblica"
+        ],
+        "rows": [
+          [
+            "A Escravidão no Egito",
+            "Israel cresce em número e é oprimido por Faraó, simbolizando o cativeiro do pecado.",
+            "Êxodo 1"
+          ],
+          [
+            "Nascimento de Moisés",
+            "Um bebê hebreu é salvo das águas e criado como príncipe egípcio.",
+            "Êxodo 2"
+          ],
+          [
+            "Chamado de Moisés",
+            "Deus fala com Moisés por meio da sarça ardente e o envia para libertar o povo.",
+            "Êxodo 3–4"
+          ],
+          [
+            "As Dez Pragas",
+            "Julgamentos divinos contra os deuses do Egito e a teimosia de Faraó.",
+            "Êxodo 7–12"
+          ],
+          [
+            "A Páscoa",
+            "O sangue do cordeiro nas portas marca o início da libertação — símbolo de Cristo.",
+            "Êxodo 12"
+          ],
+          [
+            "Travessia do Mar Vermelho",
+            "Deus abre o mar e derrota o exército egípcio.",
+            "Êxodo 14"
+          ],
+          [
+            "A Jornada no Deserto",
+            "Deus sustenta o povo com maná, água e direção.",
+            "Êxodo 15–18"
+          ],
+          [
+            "A Aliança no Sinai",
+            "Deus entrega os Dez Mandamentos e estabelece um pacto com Israel.",
+            "Êxodo 19–24"
+          ],
+          [
+            "Construção do Tabernáculo",
+            "O santuário é erguido conforme instruções divinas.",
+            "Êxodo 25–40"
+          ],
+          [
+            "A Presença de Deus",
+            "A glória do Senhor enche o Tabernáculo, sinal de Sua habitação entre o povo.",
+            "Êxodo 40"
+          ]
+        ],
+        "excludeRects": [
+          [
+            535,
+            779,
+            560,
+            810
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 27,
+    "figures": [
+      {
+        "id": "tabernacle-symbols",
+        "title": "Elementos do Tabernáculo",
+        "kind": "table",
+        "rect": [
+          42,
+          610,
+          553,
+          792
+        ],
+        "description": "Quatro elementos do Tabernáculo ligados aos significados indicados no PDF; a fotografia e a prosa ficam fora.",
+        "columns": [
+          "Elemento",
+          "Significado apresentado"
+        ],
+        "rows": [
+          [
+            "Altar do Holocausto",
+            "Representava o sacrifício e a purificação."
+          ],
+          [
+            "Candelabro de Ouro",
+            "Luz divina guiando o povo."
+          ],
+          [
+            "Mesa dos Pães",
+            "Sustento e comunhão."
+          ],
+          [
+            "Arca da Aliança",
+            "Presença de Deus e Sua fidelidade."
+          ]
+        ],
+        "excludeRects": [
+          [
+            535,
+            779,
+            560,
+            810
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 28,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 29,
+    "figures": [
+      {
+        "id": "book-header",
+        "title": "Informações e cronologia do livro",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.276,
+          122
+        ],
+        "description": "Cartões de capítulos, versículos, autor, data e estilo, acompanhados da cronologia apresentada no cabeçalho do PDF.",
+        "header": true,
+        "rows": [
+          [
+            "Livro",
+            "Levítico"
+          ],
+          [
+            "Capítulos",
+            "27"
+          ],
+          [
+            "Versículos",
+            "859"
+          ],
+          [
+            "Autor",
+            "Moíses"
+          ],
+          [
+            "Data",
+            "1450 a.C"
+          ],
+          [
+            "Estilo",
+            "Pentateuco"
+          ],
+          [
+            "Cronologia",
+            "Sequência visual da esquerda para a direita, conforme o quadro."
+          ],
+          [
+            "Monte Sinai",
+            "1.446 a.C"
+          ],
+          [
+            "Os sacrifícios",
+            "Levítico 1"
+          ],
+          [
+            "Sacerdócio estabelecido",
+            "Levítico 8"
+          ],
+          [
+            "Dia da Expiação",
+            "Levítico 16"
+          ],
+          [
+            "Leis Éticas",
+            "Levítico 17"
+          ],
+          [
+            "Ano Sabático e Jubileu"
+          ],
+          [
+            "Preparação para partida",
+            "~1.445 a.C"
+          ],
+          [
+            "Posição no Antigo Testamento",
+            "3º Livro"
+          ]
+        ],
+        "notes": "Leitura acessível dos rótulos e datas do cabeçalho, conferida na imagem do PDF. Datas mantidas como na fonte, sem correção histórica externa. A cronologia continua com sua geometria nativa na figura."
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 30,
+    "figures": [
+      {
+        "id": "sacrifice-types",
+        "title": "Os sacrifícios e o culto",
+        "kind": "table",
+        "rect": [
+          45,
+          401,
+          551,
+          747
+        ],
+        "description": "Tabela dos cinco tipos de sacrifício, descrição e simbolismo; a fotografia e a conclusão não pertencem à figura.",
+        "columns": [
+          "Tipo de sacrifício",
+          "Descrição",
+          "Simbolismo"
+        ],
+        "rows": [
+          [
+            "Holocausto",
+            "O animal era totalmente queimado no altar.",
+            "Entrega completa a Deus."
+          ],
+          [
+            "Oferta de Cereal",
+            "Incluía farinha, azeite e incenso.",
+            "Gratidão e reconhecimento."
+          ],
+          [
+            "Oferta Pacífica",
+            "Parte era queimada, parte compartilhada em refeição.",
+            "Comunhão entre Deus e o povo."
+          ],
+          [
+            "Oferta pelo Pecado",
+            "Realizada por quem cometia pecado involuntário.",
+            "Purificação e perdão."
+          ],
+          [
+            "Oferta pela Culpa",
+            "Feita para reparar ofensas específicas.",
+            "Restauração e reconciliação."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 31,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 32,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 33,
+    "figures": [
+      {
+        "id": "religious-festivals",
+        "title": "As festas religiosas",
+        "kind": "table",
+        "rect": [
+          45,
+          335,
+          550,
+          767
+        ],
+        "description": "Tabela das festas, mês judaico, referência e significado, sem a imagem ilustrativa ou a frase de conclusão.",
+        "columns": [
+          "Festa",
+          "Mês judaico",
+          "Referência",
+          "Significado"
+        ],
+        "rows": [
+          [
+            "Páscoa (Pesach)",
+            "Nisã (Mar/Abr)",
+            "Lv 23:5",
+            "Recorda a libertação do Egito."
+          ],
+          [
+            "Pães Asmos",
+            "Nisã (Mar/Abr)",
+            "Lv 23:6–8",
+            "Pureza e gratidão pela libertação."
+          ],
+          [
+            "Pentecostes (Shavuot)",
+            "Sivã (Mai/Jun)",
+            "Lv 23:15–21",
+            "A colheita e a entrega da Lei."
+          ],
+          [
+            "Trombetas (Rosh Hashaná)",
+            "Tishrei (Set/Out)",
+            "Lv 23:23–25",
+            "Início do novo ano civil."
+          ],
+          [
+            "Dia da Expiação (Yom Kippur)",
+            "Tishrei (Set/Out)",
+            "Lv 23:26–33",
+            "Purificação nacional."
+          ],
+          [
+            "Tabernáculos (Sucot)",
+            "Tishrei (Set/Out)",
+            "Lv 23:33–43",
+            "Celebra a peregrinação no deserto."
+          ],
+          [
+            "Dedicatória (Hanucá)",
+            "Quisleu (Nov/Dez)",
+            "Jo 10:22",
+            "Purificação do Templo."
+          ],
+          [
+            "Purim (Festa de Ester)",
+            "Adar (Fev/Mar)",
+            "Et 9",
+            "Livramento do povo judeu."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 34,
+    "figures": [
+      {
+        "id": "leviticus-characters",
+        "title": "Personagens e acontecimentos de Levítico",
+        "kind": "table",
+        "rect": [
+          44,
+          109,
+          552,
+          702
+        ],
+        "description": "Cinco personagens ou grupos, cada um com seu papel e contribuição.",
+        "columns": [
+          "Personagem",
+          "Papel",
+          "Contribuição"
+        ],
+        "rows": [
+          [
+            "Moisés",
+            "Líder e profeta",
+            "Recebeu as instruções divinas e as transmitiu ao povo."
+          ],
+          [
+            "Arão",
+            "Sumo sacerdote",
+            "Intermediário entre Deus e Israel."
+          ],
+          [
+            "Nadabe e Abiú",
+            "Filhos de Arão",
+            "Desobedeceram e foram punidos, simbolizando a seriedade da adoração."
+          ],
+          [
+            "Os levitas",
+            "Servos do Tabernáculo",
+            "Responsáveis pelo culto e manutenção do sagrado."
+          ],
+          [
+            "O povo de Israel",
+            "Nação sacerdotal",
+            "Chamados a viver em santidade e testemunhar o caráter de Deus."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 35,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 36,
+    "figures": [
+      {
+        "id": "book-header",
+        "title": "Informações e cronologia do livro",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.276,
+          122
+        ],
+        "description": "Cartões de capítulos, versículos, autor, data e estilo, acompanhados da cronologia apresentada no cabeçalho do PDF.",
+        "header": true,
+        "rows": [
+          [
+            "Livro",
+            "Números"
+          ],
+          [
+            "Capítulos",
+            "36"
+          ],
+          [
+            "Versículos",
+            "1.288"
+          ],
+          [
+            "Autor",
+            "Moíses"
+          ],
+          [
+            "Data",
+            "1450 a.C"
+          ],
+          [
+            "Estilo",
+            "Pentateuco"
+          ],
+          [
+            "Cronologia",
+            "Sequência visual da esquerda para a direita, conforme o quadro."
+          ],
+          [
+            "Segunda Páscoa",
+            "1.445 a.C"
+          ],
+          [
+            "Envio dos espias",
+            "Nm 13-14"
+          ],
+          [
+            "Caminhando pelo deserto",
+            "1.443 a.C"
+          ],
+          [
+            "Profecias de Balaão",
+            "Nm 22-24"
+          ],
+          [
+            "distribuição de terras",
+            "Nm 25"
+          ],
+          [
+            "Fixação no outro lado do Jordão",
+            "Nm 33-36"
+          ],
+          [
+            "Vespera da conquista",
+            "~1.406 a.C"
+          ],
+          [
+            "Posição no Antigo Testamento",
+            "4º Livro"
+          ]
+        ],
+        "notes": "Leitura acessível dos rótulos e datas do cabeçalho, conferida na imagem do PDF. Datas mantidas como na fonte, sem correção histórica externa. A cronologia continua com sua geometria nativa na figura."
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 37,
+    "figures": [
+      {
+        "id": "two-censuses",
+        "title": "Os dois censos de Israel",
+        "kind": "table",
+        "rect": [
+          34,
+          191,
+          292,
+          646
+        ],
+        "description": "Tabela comparativa dos dois censos por tribo e do total; a fotografia lateral e a prosa não pertencem à figura.",
+        "columns": [
+          "Tribo",
+          "1º Censo",
+          "2º Censo"
+        ],
+        "rows": [
+          [
+            "Rúben",
+            "46.500",
+            "43.730"
+          ],
+          [
+            "Simeão",
+            "59.300",
+            "22.200"
+          ],
+          [
+            "Gade",
+            "45.650",
+            "40.500"
+          ],
+          [
+            "Judá",
+            "74.600",
+            "76.500"
+          ],
+          [
+            "Issacar",
+            "54.400",
+            "64.300"
+          ],
+          [
+            "Zebulom",
+            "57.400",
+            "60.500"
+          ],
+          [
+            "Efraim",
+            "40.500",
+            "32.500"
+          ],
+          [
+            "Manassés",
+            "32.200",
+            "52.700"
+          ],
+          [
+            "Benjamim",
+            "35.400",
+            "45.600"
+          ],
+          [
+            "Dã",
+            "62.700",
+            "64.400"
+          ],
+          [
+            "Aser",
+            "41.500",
+            "53.400"
+          ],
+          [
+            "Naftali",
+            "53.400",
+            "45.400"
+          ],
+          [
+            "Total",
+            "603.550",
+            "601.730"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 38,
+    "figures": [
+      {
+        "id": "divine-character",
+        "title": "O caráter de Deus em Números",
+        "kind": "table",
+        "rect": [
+          45,
+          553,
+          551,
+          728
+        ],
+        "description": "Quadro de aspectos divinos com descrição e referência.",
+        "columns": [
+          "Aspecto divino",
+          "Descrição",
+          "Referência"
+        ],
+        "rows": [
+          [
+            "Fidelidade",
+            "Mesmo com as falhas do povo, Deus cumpre Sua promessa e os sustenta até Canaã.",
+            "Nm 14:20–24"
+          ],
+          [
+            "Justiça",
+            "O pecado e a rebeldia recebem consequência — Deus é paciente, mas não conivente.",
+            "Nm 16:31–35"
+          ],
+          [
+            "Santidade",
+            "Aproximar-se de Deus exige pureza e obediência; Ele é santo e exige reverência.",
+            "Nm 20:12–13"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 39,
+    "figures": [
+      {
+        "id": "numbers-characters",
+        "title": "Personagens destaque de Números",
+        "kind": "table",
+        "rect": [
+          44,
+          93,
+          550,
+          558
+        ],
+        "description": "Quadro de sete personagens ou grupos e seus papéis/destaques; o acontecimento narrado abaixo permanece texto.",
+        "columns": [
+          "Personagem",
+          "Papel",
+          "Destaque"
+        ],
+        "rows": [
+          [
+            "Moisés",
+            "Líder e profeta",
+            "Conduziu o povo e intercedeu diante de Deus."
+          ],
+          [
+            "Arão",
+            "Sumo sacerdote",
+            "Representou o povo diante de Deus."
+          ],
+          [
+            "Miriã",
+            "Profetisa",
+            "Cantou a vitória após o Mar Vermelho e também enfrentou disciplina por orgulho."
+          ],
+          [
+            "Josué",
+            "Líder sucessor",
+            "Um dos dois espias fiéis; símbolo de coragem e fé."
+          ],
+          [
+            "Calebe",
+            "Espião fiel",
+            "Confiou em Deus apesar das circunstâncias."
+          ],
+          [
+            "Balaão",
+            "Profeta estrangeiro",
+            "Contratado para amaldiçoar, mas foi usado para abençoar Israel."
+          ],
+          [
+            "Corá, Datã e Abirão",
+            "Rebeldes",
+            "Desafiaram a liderança divina e sofreram juízo."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 40,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 41,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 42,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 43,
+    "figures": [
+      {
+        "id": "book-header",
+        "title": "Informações e cronologia do livro",
+        "kind": "diagram",
+        "rect": [
+          0,
+          0,
+          595.276,
+          122
+        ],
+        "description": "Cartões de capítulos, versículos, autor, data e estilo, acompanhados da cronologia apresentada no cabeçalho do PDF.",
+        "header": true,
+        "rows": [
+          [
+            "Livro",
+            "Deuteronômio"
+          ],
+          [
+            "Capítulos",
+            "34"
+          ],
+          [
+            "Versículos",
+            "959"
+          ],
+          [
+            "Autor",
+            "Moíses"
+          ],
+          [
+            "Data",
+            "1405 a.C"
+          ],
+          [
+            "Estilo",
+            "Pentateuco"
+          ],
+          [
+            "Cronologia",
+            "Sequência visual da esquerda para a direita, conforme o quadro."
+          ],
+          [
+            "Discursos finais de Moisés",
+            "1.445 a.C"
+          ],
+          [
+            "Recapitulação da peregrinação pelo deserto",
+            "Dt 1-4"
+          ],
+          [
+            "A maneira de viver como nação escolhida",
+            "Dt 5-26"
+          ],
+          [
+            "Os altares",
+            "Dt 27"
+          ],
+          [
+            "Maldições e bençãos",
+            "Dt 27-30"
+          ],
+          [
+            "Preparação para a sucessão"
+          ],
+          [
+            "Morte de Moisés",
+            "~1.406 a.C"
+          ],
+          [
+            "Posição no Antigo Testamento",
+            "5º Livro"
+          ]
+        ],
+        "notes": "Leitura acessível dos rótulos e datas do cabeçalho, conferida na imagem do PDF. Datas mantidas como na fonte, sem correção histórica externa. A cronologia continua com sua geometria nativa na figura."
+      }
+    ]
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 44,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  },
+  {
+    "sourceId": "study-2",
+    "sourcePage": 45,
+    "figures": [],
+    "notes": "Somente prosa, listas ou imagens ilustrativas. Preservar como texto; não gerar imagem de página inteira nem transformar os parágrafos em figura."
+  }
+]

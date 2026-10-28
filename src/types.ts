@@ -14,6 +14,7 @@ export interface StudyVisual {
   kind: 'chart' | 'table' | 'diagram' | 'illustration' | 'page';
   redrawn: boolean;
 }
+export type StudyBlock = { kind: 'text'; text: string } | { kind: 'visual'; visualId: string };
 export interface StudySection {
   title: string;
   body: string;
@@ -26,6 +27,8 @@ export interface StudySection {
   /** Complete verified reading, including figure descriptions; an empty value suppresses narration. */
   readingText?: string;
   visuals?: StudyVisual[];
+  /** Prose and figure references in their source reading order. */
+  blocks?: StudyBlock[];
 }
 export interface Lesson { id: string; title: string; trailId: string; description: string; summary?: string; summarySourcePages?: number[]; sourceId: string; startPage: number; endPage: number; sections: StudySection[] }
 export interface Trail { id: string; title: string; description: string; lessonIds: string[]; recommended: boolean }

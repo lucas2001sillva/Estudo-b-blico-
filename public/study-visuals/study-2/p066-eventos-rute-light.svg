@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1396" viewBox="0 0 1000 1396" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">Principais eventos de Rute</title>
+<desc id="figure-description">Principais eventos de Rute, conforme a página 66 da Jornada da Bíblia — Parte 2.</desc>
+<metadata>Fonte: Jornada da Bíblia — Parte 2, página 66. Figura vetorial recriada; não contém captura de página.</metadata>
+<rect width="1000" height="1396" rx="20" fill="#ffffff"/>
+<text x="40" y="34" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="11" font-weight="650" fill="#69736b">JORNADA DA BÍBLIA — PARTE 2</text>
+<text x="40" y="78" font-family="Georgia,serif" font-size="30" font-weight="400" fill="#29332d">Principais eventos de Rute</text>
+<defs><marker id="sequence-arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#245341"/></marker></defs>
+<g data-step="0"><rect x="40" y="106" width="920" height="150" rx="13" fill="#eaf1e9" stroke="#e5e7df" stroke-width="1.5"/>
+<text x="62" y="140" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#245341">Passo: 1 · Referência: Rute 1:1–5</text>
+<text x="62" y="172" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Evento e descrição: Fome e partida para Moabe. Devido à escassez em</text>
+<text x="62" y="200" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Belém, Elimeleque leva sua família a Moabe. Lá, ele e seus filhos</text>
+<text x="62" y="228" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">morrem, deixando Noemi e suas noras viúvas.</text>
+</g>
+<path d="M500 260V285" fill="none" stroke="#245341" stroke-width="2.5" marker-end="url(#sequence-arrow)" data-link="next"/>
+<g data-step="1"><rect x="40" y="298" width="920" height="150" rx="13" fill="#ffffff" stroke="#e5e7df" stroke-width="1.5"/>
+<text x="62" y="332" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#245341">Passo: 2 · Referência: Rute 1:6–22</text>
+<text x="62" y="364" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Evento e descrição: Retorno a Belém. Noemi decide voltar à sua terra.</text>
+<text x="62" y="392" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Orfa fica em Moabe, mas Rute insiste em acompanhá-la, pronunciando sua</text>
+<text x="62" y="420" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">famosa declaração de fidelidade.</text>
+</g>
+<path d="M500 452V477" fill="none" stroke="#245341" stroke-width="2.5" marker-end="url(#sequence-arrow)" data-link="next"/>
+<g data-step="2"><rect x="40" y="490" width="920" height="122" rx="13" fill="#eaf1e9" stroke="#e5e7df" stroke-width="1.5"/>
+<text x="62" y="524" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#245341">Passo: 3 · Referência: Rute 2</text>
+<text x="62" y="556" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Evento e descrição: O sustento providencial. Rute respiga espigas no</text>
+<text x="62" y="584" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">campo de Boaz, que a trata com bondade e a protege.</text>
+</g>
+<path d="M500 616V641" fill="none" stroke="#245341" stroke-width="2.5" marker-end="url(#sequence-arrow)" data-link="next"/>
+<g data-step="3"><rect x="40" y="654" width="920" height="150" rx="13" fill="#ffffff" stroke="#e5e7df" stroke-width="1.5"/>
+<text x="62" y="688" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#245341">Passo: 4 · Referência: Rute 3</text>
+<text x="62" y="720" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Evento e descrição: O pedido de redenção. Seguindo o conselho de</text>
+<text x="62" y="748" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Noemi, Rute busca Boaz como seu resgatador, conforme a lei do</text>
+<text x="62" y="776" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">levirato.</text>
+</g>
+<path d="M500 808V833" fill="none" stroke="#245341" stroke-width="2.5" marker-end="url(#sequence-arrow)" data-link="next"/>
+<g data-step="4"><rect x="40" y="846" width="920" height="150" rx="13" fill="#eaf1e9" stroke="#e5e7df" stroke-width="1.5"/>
+<text x="62" y="880" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#245341">Passo: 5 · Referência: Rute 4:1–12</text>
+<text x="62" y="912" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Evento e descrição: Casamento e redenção. Boaz resolve tudo</text>
+<text x="62" y="940" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">publicamente, casa-se com Rute e redime a herança da família de</text>
+<text x="62" y="968" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Elimeleque.</text>
+</g>
+<path d="M500 1000V1025" fill="none" stroke="#245341" stroke-width="2.5" marker-end="url(#sequence-arrow)" data-link="next"/>
+<g data-step="5"><rect x="40" y="1038" width="920" height="122" rx="13" fill="#ffffff" stroke="#e5e7df" stroke-width="1.5"/>
+<text x="62" y="1072" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#245341">Passo: 6 · Referência: Rute 4:13–17</text>
+<text x="62" y="1104" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Evento e descrição: Nascimento de Obede. Rute dá à luz Obede, trazendo</text>
+<text x="62" y="1132" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">alegria e restauração à vida de Noemi.</text>
+</g>
+<path d="M500 1164V1189" fill="none" stroke="#245341" stroke-width="2.5" marker-end="url(#sequence-arrow)" data-link="next"/>
+<g data-step="6"><rect x="40" y="1202" width="920" height="122" rx="13" fill="#eaf1e9" stroke="#e5e7df" stroke-width="1.5"/>
+<text x="62" y="1236" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#245341">Passo: 7 · Referência: Rute 4:18–22</text>
+<text x="62" y="1268" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Evento e descrição: Genealogia de Davi. A linhagem de Perez até Davi é</text>
+<text x="62" y="1296" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">apresentada, revelando a importância de Rute na história da salvação.</text>
+</g>
+<line x1="40" x2="960" y1="1346" y2="1346" stroke="#e5e7df"/>
+<text x="40" y="1373" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#69736b">Fonte: Jornada da Bíblia — Parte 2 · p. 66</text>
+</svg>

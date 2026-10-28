@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="528" viewBox="0 0 1000 528" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">Visão geral de Mateus</title>
+<desc id="figure-description">Tabela de quatro informações do quadro de Mateus.</desc>
+<metadata>Fonte: Os 4 Evangelhos, página 1. Figura vetorial recriada; não contém captura de página.</metadata>
+<rect width="1000" height="528" rx="20" fill="#ffffff"/>
+<text x="40" y="34" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="11" font-weight="650" fill="#69736b">OS 4 EVANGELHOS</text>
+<text x="40" y="78" font-family="Georgia,serif" font-size="30" font-weight="400" fill="#29332d">Visão geral de Mateus</text>
+<rect x="40" y="106" width="920" height="54" rx="10" fill="#245341"/>
+<text x="56" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">Informação</text>
+<text x="306" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#ffffff">Conteúdo da fonte</text>
+<g data-row="0"><rect x="40" y="170" width="920" height="58" rx="10" fill="#eaf1e9" stroke="#e5e7df"/>
+<text x="56" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Autor Tradicional</text>
+<text x="306" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Mateus, publicano/cobrador de impostos, apóstolo</text>
+</g>
+<g data-row="1"><rect x="40" y="238" width="920" height="86" rx="10" fill="#ffffff" stroke="#e5e7df"/>
+<text x="56" y="269" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Público-Alvo</text>
+<text x="56" y="297" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Principal</text>
+<text x="306" y="269" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Judeus</text>
+</g>
+<g data-row="2"><rect x="40" y="334" width="920" height="58" rx="10" fill="#eaf1e9" stroke="#e5e7df"/>
+<text x="56" y="365" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Data Aproximada</text>
+<text x="306" y="365" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Antes de 70 d.C.</text>
+</g>
+<g data-row="3"><rect x="40" y="402" width="920" height="58" rx="10" fill="#ffffff" stroke="#e5e7df"/>
+<text x="56" y="433" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#245341">Tema Central</text>
+<text x="306" y="433" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#29332d">Jesus como o Messias prometido e Rei de Israel</text>
+</g>
+<line x1="40" x2="960" y1="478" y2="478" stroke="#e5e7df"/>
+<text x="40" y="505" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#69736b">Fonte: Os 4 Evangelhos · p. 1</text>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="516" viewBox="0 0 1000 516" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">Lei cerimonial: elementos e cumprimento</title>
+<desc id="figure-description">Tabela de elementos da lei cerimonial, funções e cumprimento apresentado pelo material.</desc>
+<metadata>Fonte: Jornada da Bíblia — Parte 2, página 24. Figura vetorial recriada; não contém captura de página.</metadata>
+<rect width="1000" height="516" rx="20" fill="#1e2520"/>
+<text x="40" y="34" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="11" font-weight="650" fill="#b4bdb3">JORNADA DA BÍBLIA — PARTE 2</text>
+<text x="40" y="78" font-family="Georgia,serif" font-size="30" font-weight="400" fill="#edf1e9">Lei cerimonial: elementos e cumprimento</text>
+<rect x="40" y="106" width="920" height="54" rx="10" fill="#bad6b8"/>
+<text x="56" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#151a17">Elemento</text>
+<text x="362.667" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#151a17">Função</text>
+<text x="669.333" y="135" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#151a17">Cumprimento em Cristo</text>
+<g data-row="0"><rect x="40" y="170" width="920" height="86" rx="10" fill="#293f30" stroke="#364138"/>
+<text x="56" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Sacrifícios de animais</text>
+<text x="362.667" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Expiação simbólica dos</text>
+<text x="362.667" y="229" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">pecados</text>
+<text x="669.333" y="201" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Jesus, o sacrifício</text>
+<text x="669.333" y="229" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">perfeito</text>
+</g>
+<g data-row="1"><rect x="40" y="266" width="920" height="86" rx="10" fill="#1e2520" stroke="#364138"/>
+<text x="56" y="297" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Incenso e oferendas</text>
+<text x="362.667" y="297" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Representavam oração e</text>
+<text x="362.667" y="325" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">devoção</text>
+<text x="669.333" y="297" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Cristo é o mediador</text>
+<text x="669.333" y="325" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">entre Deus e os homens</text>
+</g>
+<g data-row="2"><rect x="40" y="362" width="920" height="86" rx="10" fill="#293f30" stroke="#364138"/>
+<text x="56" y="393" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Tabernáculo</text>
+<text x="362.667" y="393" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Local de adoração</text>
+<text x="362.667" y="421" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">móvel</text>
+<text x="669.333" y="393" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Cristo é o novo Templo</text>
+<text x="669.333" y="421" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">e habita em nós</text>
+</g>
+<line x1="40" x2="960" y1="466" y2="466" stroke="#364138"/>
+<text x="40" y="493" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#b4bdb3">Fonte: Jornada da Bíblia — Parte 2 · p. 24</text>
+</svg>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="634" viewBox="0 0 1000 634" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">A estátua de Nabucodonosor: quadro de partes e reinos</title>
+<desc id="figure-description">Somente o quadro inferior com partes da estátua, reinos e períodos; os parágrafos acima permanecem texto.</desc>
+<metadata>Fonte: Jornada da Bíblia — Parte 3, página 39. Figura vetorial recriada; não contém captura de página.</metadata>
+<rect width="1000" height="634" rx="20" fill="#1e2520"/>
+<text x="40" y="34" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="11" font-weight="650" fill="#b4bdb3">JORNADA DA BÍBLIA — PARTE 3</text>
+<text x="40" y="78" font-family="Georgia,serif" font-size="30" font-weight="400" fill="#edf1e9">A estátua de Nabucodonosor: quadro de partes e</text>
+<text x="40" y="116" font-family="Georgia,serif" font-size="30" font-weight="400" fill="#edf1e9">reinos</text>
+<rect x="40" y="144" width="920" height="54" rx="10" fill="#bad6b8"/>
+<text x="56" y="173" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#151a17">Parte da estátua</text>
+<text x="362.667" y="173" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#151a17">Reino</text>
+<text x="669.333" y="173" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" font-weight="650" fill="#151a17">Período apresentado</text>
+<g data-row="0"><rect x="40" y="208" width="920" height="58" rx="10" fill="#293f30" stroke="#364138"/>
+<text x="56" y="239" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Cabeça de ouro</text>
+<text x="362.667" y="239" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Babilônia</text>
+<text x="669.333" y="239" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">626 a.C a 539 a.C</text>
+</g>
+<g data-row="1"><rect x="40" y="276" width="920" height="86" rx="10" fill="#1e2520" stroke="#364138"/>
+<text x="56" y="307" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Peito e braços de</text>
+<text x="56" y="335" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">prata</text>
+<text x="362.667" y="307" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Medo-Persia</text>
+<text x="669.333" y="307" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">539 a.C a 330 a.C</text>
+</g>
+<g data-row="2"><rect x="40" y="372" width="920" height="58" rx="10" fill="#293f30" stroke="#364138"/>
+<text x="56" y="403" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Quadris de bronze</text>
+<text x="362.667" y="403" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Grecia</text>
+<text x="669.333" y="403" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">330 a.C a 63 a.C</text>
+</g>
+<g data-row="3"><rect x="40" y="440" width="920" height="58" rx="10" fill="#1e2520" stroke="#364138"/>
+<text x="56" y="471" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Pernas de ferro</text>
+<text x="362.667" y="471" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Roma</text>
+<text x="669.333" y="471" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">63 a.C a 70 d.C</text>
+</g>
+<g data-row="4"><rect x="40" y="508" width="920" height="58" rx="10" fill="#293f30" stroke="#364138"/>
+<text x="56" y="539" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#bad6b8">Pés de barro</text>
+<text x="362.667" y="539" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Roma dividida</text>
+<text x="669.333" y="539" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#edf1e9">Tempo do fim</text>
+</g>
+<line x1="40" x2="960" y1="584" y2="584" stroke="#364138"/>
+<text x="40" y="611" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#b4bdb3">Fonte: Jornada da Bíblia — Parte 3 · p. 39</text>
+</svg>

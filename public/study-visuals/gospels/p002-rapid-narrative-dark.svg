@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="446" viewBox="0 0 1000 446" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">A narrativa rápida de Marcos</title>
+<desc id="figure-description">Sequência da narrativa do nascimento ao ministério apresentada pelo quadro.</desc>
+<metadata>Fonte: Os 4 Evangelhos, página 2. Figura vetorial recriada; não contém captura de página.</metadata>
+<rect width="1000" height="446" rx="20" fill="#1e2520"/>
+<text x="40" y="34" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="11" font-weight="650" fill="#b4bdb3">OS 4 EVANGELHOS</text>
+<text x="40" y="78" font-family="Georgia,serif" font-size="30" font-weight="400" fill="#edf1e9">A narrativa rápida de Marcos</text>
+<g data-step="0"><rect x="40" y="106" width="920" height="80" rx="13" fill="#293f30" stroke="#364138" stroke-width="1.5"/>
+<text x="62" y="140" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#bad6b8">Sem Genealogia/Nascimento</text>
+</g>
+<g data-step="1"><rect x="40" y="200" width="920" height="80" rx="13" fill="#1e2520" stroke="#364138" stroke-width="1.5"/>
+<text x="62" y="234" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#bad6b8">Batismo por João Batista</text>
+</g>
+<g data-step="2"><rect x="40" y="294" width="920" height="80" rx="13" fill="#293f30" stroke="#364138" stroke-width="1.5"/>
+<text x="62" y="328" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" fill="#bad6b8">Ministério imediato (Milagres, Ensino com autoridade)</text>
+</g>
+<line x1="40" x2="960" y1="396" y2="396" stroke="#364138"/>
+<text x="40" y="423" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#b4bdb3">Fonte: Os 4 Evangelhos · p. 2</text>
+</svg>
