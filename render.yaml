@@ -1,0 +1,28 @@
+# Render Free runs the app; Turso stores accounts and progress outside its disk.
+services:
+  - type: web
+    name: vereda-biblica
+    runtime: node
+    plan: free
+    repo: https://github.com/lucas2001sillva/Estudo-b-blico-
+    branch: codex/vereda-biblica
+    buildCommand: npm ci --include=dev --no-audit --no-fund && npm run build && npm prune --omit=dev --no-audit --no-fund
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: NODE_ENV
+        value: production
+      - key: REQUIRE_REMOTE_DATABASE
+        value: "1"
+      - key: SECURE_COOKIES
+        value: "1"
+      - key: TRUST_PROXY
+        value: "1"
+      - key: DATABASE_URL
+        value: libsql://vereda-biblica-lucas2001sillva.aws-sa-east-1.turso.io
+      - key: DATABASE_AUTH_TOKEN
+        sync: false
+      - key: DATABASE_REQUEST_TIMEOUT_MS
+        value: "10000"

@@ -1,0 +1,4 @@
+.guest-import-choice{margin-top:20px;padding:14px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
+.guest-import-choice>label{display:flex;align-items:flex-start;gap:10px;font-size:12px;line-height:1.65;cursor:pointer}
+.guest-import-choice input{width:17px;height:17px;margin:2px 0 0;accent-color:var(--primary);flex-shrink:0}
+.guest-import-choice p{font-size:11px;line-height:1.7;margin:10px 0 0}

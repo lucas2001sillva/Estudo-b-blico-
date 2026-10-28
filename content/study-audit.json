@@ -1,0 +1,6179 @@
+{
+  "sources": [
+    {
+      "id": "study-1",
+      "file": "study-1.pdf",
+      "sha256": "0d8e3ddd6dea6dfc0adcc6e96798b6da924991b92e26867ac104879a28c526e8",
+      "pages": 15,
+      "privacy": {
+        "removedPersonalOverlays": 0,
+        "consultationCopy": false,
+        "originalSha256": "0d8e3ddd6dea6dfc0adcc6e96798b6da924991b92e26867ac104879a28c526e8",
+        "consultationSha256": "0d8e3ddd6dea6dfc0adcc6e96798b6da924991b92e26867ac104879a28c526e8",
+        "preserved": "Educational text, attribution and editorial rights notices; original attachment unchanged."
+      }
+    },
+    {
+      "id": "study-2",
+      "file": "study-2.pdf",
+      "sha256": "0cf39673ab9bd3551fab03a629d89fca70fe4b07ab37dc4c1e3d70a40dffd072",
+      "pages": 89,
+      "privacy": {
+        "removedPersonalOverlays": 0,
+        "consultationCopy": false,
+        "originalSha256": "0cf39673ab9bd3551fab03a629d89fca70fe4b07ab37dc4c1e3d70a40dffd072",
+        "consultationSha256": "0cf39673ab9bd3551fab03a629d89fca70fe4b07ab37dc4c1e3d70a40dffd072",
+        "preserved": "Educational text, attribution and editorial rights notices; original attachment unchanged."
+      }
+    },
+    {
+      "id": "study-3",
+      "file": "study-3.pdf",
+      "sha256": "06786a9fdbb5ff794ad3f8807ddda7d36edff8549ad2b51ca5f7ea5004215e60",
+      "pages": 68,
+      "privacy": {
+        "removedPersonalOverlays": 204,
+        "consultationCopy": true,
+        "originalSha256": "9479abd5b460f6fa11e7b34546d1ea34126e867c56ad1578ee66502093b43ca1",
+        "consultationSha256": "06786a9fdbb5ff794ad3f8807ddda7d36edff8549ad2b51ca5f7ea5004215e60",
+        "preserved": "Educational text, attribution and editorial rights notices; original attachment unchanged."
+      }
+    },
+    {
+      "id": "study-4",
+      "file": "study-4.pdf",
+      "sha256": "56836b86b447a58645fc886430267c7963d165652ed4ec53dbaec456037ed59b",
+      "pages": 75,
+      "privacy": {
+        "removedPersonalOverlays": 222,
+        "consultationCopy": true,
+        "originalSha256": "ff62fc1c6efc4970169e08b4cd6938544ba52708fb1161590e113b96a56fed9a",
+        "consultationSha256": "56836b86b447a58645fc886430267c7963d165652ed4ec53dbaec456037ed59b",
+        "preserved": "Educational text, attribution and editorial rights notices; original attachment unchanged."
+      }
+    },
+    {
+      "id": "gospels",
+      "file": "gospels.pdf",
+      "sha256": "c0ef2c1ce510de28f10e241e928b7d51dda2cbb72bd87f2c6fbd09140bfb65b8",
+      "pages": 4,
+      "privacy": {
+        "removedPersonalOverlays": 0,
+        "consultationCopy": false,
+        "originalSha256": "c0ef2c1ce510de28f10e241e928b7d51dda2cbb72bd87f2c6fbd09140bfb65b8",
+        "consultationSha256": "c0ef2c1ce510de28f10e241e928b7d51dda2cbb72bd87f2c6fbd09140bfb65b8",
+        "preserved": "Educational text, attribution and editorial rights notices; original attachment unchanged."
+      }
+    }
+  ],
+  "ocr": {
+    "engine": "tesseract",
+    "language": "por",
+    "modelUrl": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/4.1.0/por.traineddata",
+    "modelSha256": "c4932b937207a9514b7514d518b931a99938c02a28a5a5a553f8599ed58b7deb",
+    "scale": 3.0,
+    "pages": [
+      {
+        "sourceId": "gospels",
+        "page": 1,
+        "meanConfidence": 86.3,
+        "words": 572,
+        "segmentation": "sparse-fallback",
+        "lowConfidenceWords": [
+          {
+            "word": "o",
+            "confidence": 49.289494
+          },
+          {
+            "word": "A",
+            "confidence": 35.15229
+          },
+          {
+            "word": "TR?",
+            "confidence": 47.346085
+          },
+          {
+            "word": "(",
+            "confidence": 27.270187
+          },
+          {
+            "word": "1",
+            "confidence": 45.397766
+          },
+          {
+            "word": "metido",
+            "confidence": 4.812241
+          },
+          {
+            "word": "E",
+            "confidence": 45.874249
+          },
+          {
+            "word": "NAS",
+            "confidence": 24.523254
+          },
+          {
+            "word": "W",
+            "confidence": 33.146202
+          },
+          {
+            "word": "E",
+            "confidence": 26.416374
+          },
+          {
+            "word": "disto»",
+            "confidence": 21.537735
+          },
+          {
+            "word": "AM",
+            "confidence": 30.832809
+          },
+          {
+            "word": "a»",
+            "confidence": 13.623215
+          },
+          {
+            "word": "Y—",
+            "confidence": 0.0
+          },
+          {
+            "word": "LAO",
+            "confidence": 50.657597
+          },
+          {
+            "word": "eds",
+            "confidence": 41.157303
+          },
+          {
+            "word": "Nu",
+            "confidence": 26.449959
+          },
+          {
+            "word": "dE.",
+            "confidence": 30.548378
+          },
+          {
+            "word": "É",
+            "confidence": 4.814529
+          },
+          {
+            "word": "conterde",
+            "confidence": 51.646507
+          },
+          {
+            "word": "lb",
+            "confidence": 53.456261
+          },
+          {
+            "word": "E",
+            "confidence": 33.876968
+          },
+          {
+            "word": "“DIONE",
+            "confidence": 34.276657
+          },
+          {
+            "word": "orrro)",
+            "confidence": 8.673515
+          },
+          {
+            "word": "onosD)",
+            "confidence": 0.0
+          },
+          {
+            "word": "END",
+            "confidence": 0.0
+          },
+          {
+            "word": "TVYPIN",
+            "confidence": 21.592407
+          },
+          {
+            "word": "ND",
+            "confidence": 44.175598
+          },
+          {
+            "word": "OD",
+            "confidence": 18.099487
+          },
+          {
+            "word": "YriN'a",
+            "confidence": 0.0
+          },
+          {
+            "word": "“DD",
+            "confidence": 25.180984
+          },
+          {
+            "word": "DIS",
+            "confidence": 0.0
+          },
+          {
+            "word": "“in",
+            "confidence": 19.642075
+          },
+          {
+            "word": "TON",
+            "confidence": 47.681164
+          },
+          {
+            "word": "500",
+            "confidence": 1.64035
+          },
+          {
+            "word": "MDA",
+            "confidence": 14.824257
+          },
+          {
+            "word": "nana",
+            "confidence": 28.095306
+          },
+          {
+            "word": "PINO",
+            "confidence": 41.651596
+          },
+          {
+            "word": "NON",
+            "confidence": 0.0
+          },
+          {
+            "word": "ni",
+            "confidence": 39.087528
+          },
+          {
+            "word": "ei",
+            "confidence": 28.727943
+          },
+          {
+            "word": "an",
+            "confidence": 5.00589
+          },
+          {
+            "word": "UN",
+            "confidence": 8.091927
+          },
+          {
+            "word": "TORO",
+            "confidence": 50.239273
+          },
+          {
+            "word": "QI",
+            "confidence": 31.380318
+          },
+          {
+            "word": "Mn",
+            "confidence": 13.952728
+          },
+          {
+            "word": "nd",
+            "confidence": 21.217888
+          },
+          {
+            "word": "QTO",
+            "confidence": 0.0
+          },
+          {
+            "word": "IO",
+            "confidence": 5.421303
+          },
+          {
+            "word": "JD4",
+            "confidence": 0.0
+          },
+          {
+            "word": "MON",
+            "confidence": 15.462021
+          },
+          {
+            "word": "Pp",
+            "confidence": 15.462021
+          },
+          {
+            "word": "D'ITPIR",
+            "confidence": 40.454224
+          },
+          {
+            "word": "12D",
+            "confidence": 0.0
+          },
+          {
+            "word": "O,",
+            "confidence": 13.565628
+          },
+          {
+            "word": "Conflito",
+            "confidence": 28.155609
+          },
+          {
+            "word": "[",
+            "confidence": 0.0
+          },
+          {
+            "word": "A",
+            "confidence": 27.811806
+          },
+          {
+            "word": "Grande",
+            "confidence": 27.811806
+          },
+          {
+            "word": "a",
+            "confidence": 14.707962
+          },
+          {
+            "word": "Pin",
+            "confidence": 26.580406
+          },
+          {
+            "word": "oro",
+            "confidence": 0.0
+          },
+          {
+            "word": "SA",
+            "confidence": 29.425537
+          },
+          {
+            "word": "|",
+            "confidence": 50.956787
+          },
+          {
+            "word": "àqueles",
+            "confidence": 53.351067
+          }
+        ]
+      },
+      {
+        "sourceId": "gospels",
+        "page": 2,
+        "meanConfidence": 76.9,
+        "words": 242,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "ta",
+            "confidence": 21.479225
+          },
+          {
+            "word": "dao",
+            "confidence": 0.0
+          },
+          {
+            "word": "|",
+            "confidence": 49.359203
+          },
+          {
+            "word": "Herodes",
+            "confidence": 54.966545
+          },
+          {
+            "word": "RA",
+            "confidence": 15.923698
+          },
+          {
+            "word": "ei",
+            "confidence": 39.689789
+          },
+          {
+            "word": "lemodnos",
+            "confidence": 0.0
+          },
+          {
+            "word": "messod",
+            "confidence": 43.346771
+          },
+          {
+            "word": "À",
+            "confidence": 54.148331
+          },
+          {
+            "word": "pestruição",
+            "confidence": 22.848442
+          },
+          {
+            "word": "Resta",
+            "confidence": 45.321625
+          },
+          {
+            "word": "ii",
+            "confidence": 41.690437
+          },
+          {
+            "word": "MEL",
+            "confidence": 13.024658
+          },
+          {
+            "word": "(error",
+            "confidence": 25.287544
+          },
+          {
+            "word": "da",
+            "confidence": 20.800034
+          },
+          {
+            "word": "CD",
+            "confidence": 20.800034
+          },
+          {
+            "word": "(68.",
+            "confidence": 8.401871
+          },
+          {
+            "word": "io",
+            "confidence": 48.783894
+          },
+          {
+            "word": "Ênie",
+            "confidence": 0.0
+          },
+          {
+            "word": "constartiro",
+            "confidence": 42.907326
+          },
+          {
+            "word": "a”",
+            "confidence": 21.545197
+          },
+          {
+            "word": "em,",
+            "confidence": 0.0
+          },
+          {
+            "word": "cecicaçã",
+            "confidence": 41.243137
+          },
+          {
+            "word": "ora",
+            "confidence": 23.275833
+          },
+          {
+            "word": "templo",
+            "confidence": 23.275833
+          },
+          {
+            "word": "70d.",
+            "confidence": 35.105637
+          },
+          {
+            "word": "dotemploVBdL.",
+            "confidence": 0.0
+          },
+          {
+            "word": "am",
+            "confidence": 51.260548
+          },
+          {
+            "word": "DE,",
+            "confidence": 29.537674
+          },
+          {
+            "word": "30",
+            "confidence": 0.0
+          },
+          {
+            "word": "dC.",
+            "confidence": 0.0
+          },
+          {
+            "word": "“",
+            "confidence": 0.0
+          },
+          {
+            "word": "ir",
+            "confidence": 45.167145
+          },
+          {
+            "word": "a",
+            "confidence": 30.989922
+          },
+          {
+            "word": "inseuição",
+            "confidence": 0.0
+          },
+          {
+            "word": "lero",
+            "confidence": 0.0
+          },
+          {
+            "word": "dá",
+            "confidence": 35.160408
+          },
+          {
+            "word": "ft",
+            "confidence": 18.884323
+          },
+          {
+            "word": "DINÂMICO",
+            "confidence": 28.133308
+          },
+          {
+            "word": "MF",
+            "confidence": 35.679916
+          },
+          {
+            "word": "e",
+            "confidence": 46.905777
+          },
+          {
+            "word": "Cn",
+            "confidence": 37.528229
+          },
+          {
+            "word": "/",
+            "confidence": 23.270432
+          },
+          {
+            "word": "muitos)",
+            "confidence": 50.040493
+          },
+          {
+            "word": "ml",
+            "confidence": 38.010502
+          },
+          {
+            "word": "e",
+            "confidence": 13.673317
+          },
+          {
+            "word": "O",
+            "confidence": 19.40715
+          },
+          {
+            "word": "Ny",
+            "confidence": 21.096817
+          },
+          {
+            "word": "ÇA",
+            "confidence": 40.374084
+          },
+          {
+            "word": "£w",
+            "confidence": 0.0
+          },
+          {
+            "word": "q",
+            "confidence": 47.152931
+          },
+          {
+            "word": "O",
+            "confidence": 24.323563
+          },
+          {
+            "word": "amu:",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "sourceId": "gospels",
+        "page": 3,
+        "meanConfidence": 71.52,
+        "words": 198,
+        "segmentation": "sparse-fallback",
+        "lowConfidenceWords": [
+          {
+            "word": "'",
+            "confidence": 0.0
+          },
+          {
+            "word": "e,",
+            "confidence": 32.492279
+          },
+          {
+            "word": "“a",
+            "confidence": 15.958931
+          },
+          {
+            "word": "é",
+            "confidence": 47.938175
+          },
+          {
+            "word": "o",
+            "confidence": 17.959442
+          },
+          {
+            "word": "Uucas",
+            "confidence": 47.731556
+          },
+          {
+            "word": "J",
+            "confidence": 27.628464
+          },
+          {
+            "word": "Je",
+            "confidence": 42.530678
+          },
+          {
+            "word": "Ed",
+            "confidence": 39.464054
+          },
+          {
+            "word": "é",
+            "confidence": 33.182762
+          },
+          {
+            "word": "eo",
+            "confidence": 37.652748
+          },
+          {
+            "word": "O",
+            "confidence": 19.35582
+          },
+          {
+            "word": "a",
+            "confidence": 38.499008
+          },
+          {
+            "word": "e",
+            "confidence": 33.058037
+          },
+          {
+            "word": "a",
+            "confidence": 17.06955
+          },
+          {
+            "word": "O",
+            "confidence": 23.514038
+          },
+          {
+            "word": "Wa",
+            "confidence": 32.698151
+          },
+          {
+            "word": "AE,",
+            "confidence": 26.909309
+          },
+          {
+            "word": "Á",
+            "confidence": 43.308594
+          },
+          {
+            "word": "y",
+            "confidence": 0.0
+          },
+          {
+            "word": "Inleria",
+            "confidence": 22.931526
+          },
+          {
+            "word": "cma",
+            "confidence": 22.931526
+          },
+          {
+            "word": "ge",
+            "confidence": 26.634506
+          },
+          {
+            "word": "by",
+            "confidence": 11.415024
+          },
+          {
+            "word": "q)",
+            "confidence": 23.716476
+          },
+          {
+            "word": "jaros",
+            "confidence": 31.61615
+          },
+          {
+            "word": "fd",
+            "confidence": 35.735886
+          },
+          {
+            "word": "fonigália",
+            "confidence": 53.503456
+          },
+          {
+            "word": "Chemede",
+            "confidence": 43.852409
+          },
+          {
+            "word": "(54-57)",
+            "confidence": 49.478683
+          },
+          {
+            "word": " opssssies",
+            "confidence": 14.483322
+          },
+          {
+            "word": "(88-88)",
+            "confidence": 11.322678
+          },
+          {
+            "word": "Bate",
+            "confidence": 47.401398
+          },
+          {
+            "word": "nasgermente",
+            "confidence": 38.190819
+          },
+          {
+            "word": "zeyaras",
+            "confidence": 0.0
+          },
+          {
+            "word": "38.6",
+            "confidence": 13.732643
+          },
+          {
+            "word": "IE",
+            "confidence": 33.531151
+          },
+          {
+            "word": "6a",
+            "confidence": 0.0
+          },
+          {
+            "word": "bes.",
+            "confidence": 30.675819
+          },
+          {
+            "word": "loihp",
+            "confidence": 16.517601
+          },
+          {
+            "word": "Utimib=áto",
+            "confidence": 37.589676
+          },
+          {
+            "word": "ahime",
+            "confidence": 0.0
+          },
+          {
+            "word": "eee",
+            "confidence": 30.839638
+          },
+          {
+            "word": "o",
+            "confidence": 22.223007
+          },
+          {
+            "word": "4",
+            "confidence": 45.445366
+          },
+          {
+            "word": "Dom",
+            "confidence": 44.812393
+          },
+          {
+            "word": "ama",
+            "confidence": 48.109879
+          },
+          {
+            "word": "cd",
+            "confidence": 30.366913
+          },
+          {
+            "word": "E",
+            "confidence": 52.052849
+          },
+          {
+            "word": "pa",
+            "confidence": 26.277931
+          },
+          {
+            "word": "S",
+            "confidence": 23.602371
+          },
+          {
+            "word": "(o;",
+            "confidence": 50.88855
+          },
+          {
+            "word": "o)",
+            "confidence": 43.919571
+          },
+          {
+            "word": "AVI",
+            "confidence": 33.957947
+          },
+          {
+            "word": "Tá",
+            "confidence": 25.518845
+          },
+          {
+            "word": "uz",
+            "confidence": 46.55719
+          },
+          {
+            "word": "ARA",
+            "confidence": 47.165966
+          },
+          {
+            "word": "rr:",
+            "confidence": 29.464249
+          },
+          {
+            "word": "Tá",
+            "confidence": 36.186787
+          },
+          {
+            "word": "a",
+            "confidence": 22.199318
+          },
+          {
+            "word": "salvação",
+            "confidence": 24.12027
+          }
+        ]
+      },
+      {
+        "sourceId": "gospels",
+        "page": 4,
+        "meanConfidence": 87.29,
+        "words": 288,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "E",
+            "confidence": 29.682159
+          },
+          {
+            "word": "a",
+            "confidence": 18.597427
+          },
+          {
+            "word": "=",
+            "confidence": 29.797012
+          },
+          {
+            "word": "e.",
+            "confidence": 49.292747
+          },
+          {
+            "word": "ur",
+            "confidence": 22.113007
+          },
+          {
+            "word": "a?",
+            "confidence": 38.412842
+          },
+          {
+            "word": "A",
+            "confidence": 47.410431
+          },
+          {
+            "word": "“",
+            "confidence": 19.451691
+          },
+          {
+            "word": "A!",
+            "confidence": 50.938194
+          },
+          {
+            "word": ")",
+            "confidence": 0.0
+          },
+          {
+            "word": "E",
+            "confidence": 38.386772
+          },
+          {
+            "word": "Blegis",
+            "confidence": 0.0
+          },
+          {
+            "word": "encino))",
+            "confidence": 16.513443
+          },
+          {
+            "word": "Doverai",
+            "confidence": 0.0
+          },
+          {
+            "word": "Es",
+            "confidence": 34.423531
+          },
+          {
+            "word": "Õ,",
+            "confidence": 3.024788
+          },
+          {
+            "word": "Ri",
+            "confidence": 48.619568
+          },
+          {
+            "word": "Rodo",
+            "confidence": 25.765305
+          },
+          {
+            "word": "a",
+            "confidence": 42.842331
+          },
+          {
+            "word": "da",
+            "confidence": 35.302475
+          },
+          {
+            "word": "R",
+            "confidence": 0.0
+          },
+          {
+            "word": "oclhyurertio",
+            "confidence": 0.0
+          },
+          {
+            "word": "Re",
+            "confidence": 19.208061
+          },
+          {
+            "word": "Fes",
+            "confidence": 11.311729
+          },
+          {
+            "word": "«",
+            "confidence": 17.383537
+          },
+          {
+            "word": "O",
+            "confidence": 49.012039
+          },
+          {
+            "word": "dizamando,",
+            "confidence": 18.793243
+          },
+          {
+            "word": "hevram.",
+            "confidence": 47.080643
+          },
+          {
+            "word": "Sou\",",
+            "confidence": 39.121323
+          }
+        ]
+      },
+      {
+        "sourceId": "study-1",
+        "page": 8,
+        "meanConfidence": 63.64,
+        "words": 48,
+        "segmentation": "sparse-fallback",
+        "lowConfidenceWords": [
+          {
+            "word": "“>",
+            "confidence": 44.859909
+          },
+          {
+            "word": "(O",
+            "confidence": 53.114525
+          },
+          {
+            "word": "€",
+            "confidence": 0.0
+          },
+          {
+            "word": "Cartas",
+            "confidence": 53.46701
+          },
+          {
+            "word": "Revelações",
+            "confidence": 30.394432
+          },
+          {
+            "word": "E",
+            "confidence": 41.473843
+          },
+          {
+            "word": "T,",
+            "confidence": 7.740646
+          },
+          {
+            "word": "a",
+            "confidence": 40.410576
+          },
+          {
+            "word": "vã",
+            "confidence": 31.126083
+          },
+          {
+            "word": ">",
+            "confidence": 2.541061
+          },
+          {
+            "word": ">",
+            "confidence": 47.659828
+          },
+          {
+            "word": "2",
+            "confidence": 0.0
+          },
+          {
+            "word": "[>",
+            "confidence": 48.97197
+          },
+          {
+            "word": "e",
+            "confidence": 42.26984
+          },
+          {
+            "word": "É",
+            "confidence": 9.329773
+          },
+          {
+            "word": "“",
+            "confidence": 1.262878
+          },
+          {
+            "word": "e",
+            "confidence": 44.955032
+          },
+          {
+            "word": "k",
+            "confidence": 7.413849
+          },
+          {
+            "word": "E",
+            "confidence": 23.377373
+          },
+          {
+            "word": "Le",
+            "confidence": 16.950188
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 1,
+        "meanConfidence": 86.52,
+        "words": 13,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "—",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 2,
+        "meanConfidence": 92.28,
+        "words": 222,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "constitui",
+            "confidence": 14.821182
+          },
+          {
+            "word": "pe]",
+            "confidence": 43.60611
+          },
+          {
+            "word": "o?",
+            "confidence": 28.578712
+          },
+          {
+            "word": "&",
+            "confidence": 51.401821
+          },
+          {
+            "word": "Isaquee",
+            "confidence": 45.535007
+          },
+          {
+            "word": "formando",
+            "confidence": 4.885094
+          },
+          {
+            "word": "as",
+            "confidence": 4.885094
+          },
+          {
+            "word": "|",
+            "confidence": 17.082306
+          },
+          {
+            "word": "&o",
+            "confidence": 50.105049
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 3,
+        "meanConfidence": 89.7,
+        "words": 230,
+        "segmentation": "visually-checked-column-regions",
+        "lowConfidenceWords": [
+          {
+            "word": "*",
+            "confidence": 44.207916
+          },
+          {
+            "word": "Gênesis",
+            "confidence": 33.273247
+          },
+          {
+            "word": "não",
+            "confidence": 33.273247
+          },
+          {
+            "word": "à",
+            "confidence": 0.0
+          },
+          {
+            "word": "a.0.",
+            "confidence": 24.946167
+          },
+          {
+            "word": "1806",
+            "confidence": 44.310303
+          },
+          {
+            "word": "a.C.",
+            "confidence": 44.310303
+          },
+          {
+            "word": "Deus",
+            "confidence": 0.0
+          },
+          {
+            "word": "cria",
+            "confidence": 0.0
+          },
+          {
+            "word": "tamilia.",
+            "confidence": 44.565712
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 4,
+        "meanConfidence": 83.04,
+        "words": 222,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "es",
+            "confidence": 20.003685
+          },
+          {
+            "word": "E",
+            "confidence": 50.890049
+          },
+          {
+            "word": "Na",
+            "confidence": 52.335808
+          },
+          {
+            "word": "í",
+            "confidence": 0.0
+          },
+          {
+            "word": "Q",
+            "confidence": 53.081165
+          },
+          {
+            "word": "(E",
+            "confidence": 0.0
+          },
+          {
+            "word": "(2",
+            "confidence": 52.647369
+          },
+          {
+            "word": "[5",
+            "confidence": 33.852707
+          },
+          {
+            "word": "2.006",
+            "confidence": 0.0
+          },
+          {
+            "word": "a.C",
+            "confidence": 50.276901
+          },
+          {
+            "word": "6)",
+            "confidence": 54.228115
+          },
+          {
+            "word": "origem",
+            "confidence": 39.835972
+          },
+          {
+            "word": "“começo”.",
+            "confidence": 36.250755
+          },
+          {
+            "word": "es",
+            "confidence": 37.447998
+          },
+          {
+            "word": "le,",
+            "confidence": 18.282326
+          },
+          {
+            "word": "Hoso,",
+            "confidence": 0.0
+          },
+          {
+            "word": "|",
+            "confidence": 44.92128
+          },
+          {
+            "word": "[RE",
+            "confidence": 17.250244
+          },
+          {
+            "word": "na",
+            "confidence": 33.709991
+          },
+          {
+            "word": "Ds",
+            "confidence": 19.424095
+          },
+          {
+            "word": "patriarcas",
+            "confidence": 0.0
+          },
+          {
+            "word": "ea",
+            "confidence": 0.0
+          },
+          {
+            "word": "|",
+            "confidence": 13.284264
+          },
+          {
+            "word": "história",
+            "confidence": 16.141777
+          },
+          {
+            "word": "da",
+            "confidence": 16.141777
+          },
+          {
+            "word": "redenção",
+            "confidence": 26.63253
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 5,
+        "meanConfidence": 76.72,
+        "words": 134,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "es",
+            "confidence": 20.003685
+          },
+          {
+            "word": "E",
+            "confidence": 50.890049
+          },
+          {
+            "word": "nN",
+            "confidence": 45.055904
+          },
+          {
+            "word": "Mortede",
+            "confidence": 24.261719
+          },
+          {
+            "word": "pia",
+            "confidence": 26.104294
+          },
+          {
+            "word": "1946",
+            "confidence": 2.065887
+          },
+          {
+            "word": "a.C",
+            "confidence": 2.065887
+          },
+          {
+            "word": "2.006",
+            "confidence": 0.0
+          },
+          {
+            "word": "1859",
+            "confidence": 0.0
+          },
+          {
+            "word": "aC",
+            "confidence": 0.0
+          },
+          {
+            "word": "1:3-5",
+            "confidence": 29.480469
+          },
+          {
+            "word": "a",
+            "confidence": 23.980499
+          },
+          {
+            "word": "Et",
+            "confidence": 49.488693
+          },
+          {
+            "word": "Criou",
+            "confidence": 0.0
+          },
+          {
+            "word": "o",
+            "confidence": 0.0
+          },
+          {
+            "word": "sol,",
+            "confidence": 53.670982
+          },
+          {
+            "word": "a",
+            "confidence": 53.670982
+          },
+          {
+            "word": "luae",
+            "confidence": 32.010445
+          },
+          {
+            "word": "as",
+            "confidence": 32.010445
+          },
+          {
+            "word": "1114-193",
+            "confidence": 18.099762
+          },
+          {
+            "word": "[=",
+            "confidence": 39.73465
+          },
+          {
+            "word": "24-28",
+            "confidence": 6.426353
+          },
+          {
+            "word": "Génesis",
+            "confidence": 53.235565
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 6,
+        "meanConfidence": 82.92,
+        "words": 245,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "(3)",
+            "confidence": 21.526375
+          },
+          {
+            "word": "2.006",
+            "confidence": 0.0
+          },
+          {
+            "word": "1916",
+            "confidence": 46.373104
+          },
+          {
+            "word": "aC",
+            "confidence": 46.373104
+          },
+          {
+            "word": "(3)",
+            "confidence": 23.447586
+          },
+          {
+            "word": "Caim",
+            "confidence": 32.642784
+          },
+          {
+            "word": "e",
+            "confidence": 32.642784
+          },
+          {
+            "word": "Eva",
+            "confidence": 25.421989
+          },
+          {
+            "word": "o",
+            "confidence": 25.421989
+          },
+          {
+            "word": "inmeça,",
+            "confidence": 19.519081
+          },
+          {
+            "word": "lgaqua,",
+            "confidence": 50.176426
+          },
+          {
+            "word": "fã",
+            "confidence": 10.006714
+          },
+          {
+            "word": "e",
+            "confidence": 10.006714
+          },
+          {
+            "word": "Abraão,",
+            "confidence": 46.911194
+          },
+          {
+            "word": "eda",
+            "confidence": 39.965149
+          },
+          {
+            "word": "pai",
+            "confidence": 52.332039
+          },
+          {
+            "word": "de",
+            "confidence": 52.332039
+          },
+          {
+            "word": "Jacó.",
+            "confidence": 23.147118
+          },
+          {
+            "word": "Jacó",
+            "confidence": 6.549164
+          },
+          {
+            "word": "é",
+            "confidence": 48.156528
+          },
+          {
+            "word": "“+",
+            "confidence": 28.647324
+          },
+          {
+            "word": "histórico",
+            "confidence": 32.453766
+          },
+          {
+            "word": "—",
+            "confidence": 32.453766
+          },
+          {
+            "word": "parta",
+            "confidence": 0.375664
+          },
+          {
+            "word": "que",
+            "confidence": 1.988495
+          },
+          {
+            "word": "Deus",
+            "confidence": 1.988495
+          },
+          {
+            "word": "»,",
+            "confidence": 16.349602
+          },
+          {
+            "word": "caída,",
+            "confidence": 46.152416
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 7,
+        "meanConfidence": 72.7,
+        "words": 278,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "é",
+            "confidence": 31.63131
+          },
+          {
+            "word": "Asia",
+            "confidence": 25.245598
+          },
+          {
+            "word": "Jafé",
+            "confidence": 43.159729
+          },
+          {
+            "word": "Galacia",
+            "confidence": 39.814091
+          },
+          {
+            "word": "povos",
+            "confidence": 47.041798
+          },
+          {
+            "word": "das",
+            "confidence": 47.041798
+          },
+          {
+            "word": "astapas",
+            "confidence": 27.226501
+          },
+          {
+            "word": "*",
+            "confidence": 20.095146
+          },
+          {
+            "word": "Madal",
+            "confidence": 49.850658
+          },
+          {
+            "word": "com",
+            "confidence": 44.739662
+          },
+          {
+            "word": "os",
+            "confidence": 44.739662
+          },
+          {
+            "word": "*",
+            "confidence": 34.792221
+          },
+          {
+            "word": "Javã",
+            "confidence": 49.619122
+          },
+          {
+            "word": "*",
+            "confidence": 18.140709
+          },
+          {
+            "word": "Anatólia",
+            "confidence": 35.665436
+          },
+          {
+            "word": "Cáucaso",
+            "confidence": 10.283966
+          },
+          {
+            "word": "*",
+            "confidence": 44.923725
+          },
+          {
+            "word": "Tilras—",
+            "confidence": 19.463348
+          },
+          {
+            "word": "Fómanoes,",
+            "confidence": 0.0
+          },
+          {
+            "word": "Qqermanas",
+            "confidence": 0.0
+          },
+          {
+            "word": "Regiões:",
+            "confidence": 17.028648
+          },
+          {
+            "word": "Oriente",
+            "confidence": 31.768394
+          },
+          {
+            "word": "Mesopotâmia",
+            "confidence": 42.838703
+          },
+          {
+            "word": "*",
+            "confidence": 40.285995
+          },
+          {
+            "word": "isudoeste",
+            "confidence": 10.014839
+          },
+          {
+            "word": "Assur-",
+            "confidence": 50.14167
+          },
+          {
+            "word": "Assirta",
+            "confidence": 51.42276
+          },
+          {
+            "word": "«",
+            "confidence": 49.770832
+          },
+          {
+            "word": "Arfaxade",
+            "confidence": 52.290516
+          },
+          {
+            "word": "Lude",
+            "confidence": 41.328194
+          },
+          {
+            "word": "-",
+            "confidence": 41.328194
+          },
+          {
+            "word": "aos",
+            "confidence": 53.955116
+          },
+          {
+            "word": "Arã-crigemdos",
+            "confidence": 38.199883
+          },
+          {
+            "word": "saque",
+            "confidence": 10.283958
+          },
+          {
+            "word": "ilstael).",
+            "confidence": 30.258492
+          },
+          {
+            "word": "povo",
+            "confidence": 0.0
+          },
+          {
+            "word": "escolhido,",
+            "confidence": 0.0
+          },
+          {
+            "word": "Less)",
+            "confidence": 0.0
+          },
+          {
+            "word": "Sem",
+            "confidence": 2.931625
+          },
+          {
+            "word": "&",
+            "confidence": 48.524467
+          },
+          {
+            "word": "arames.",
+            "confidence": 0.0
+          },
+          {
+            "word": "Regides:",
+            "confidence": 0.0
+          },
+          {
+            "word": "10:5-20)",
+            "confidence": 10.356178
+          },
+          {
+            "word": "Cuxsa",
+            "confidence": 0.0
+          },
+          {
+            "word": "Etópia/",
+            "confidence": 24.369606
+          },
+          {
+            "word": "Minrode.",
+            "confidence": 49.806095
+          },
+          {
+            "word": "Mizraim",
+            "confidence": 24.15799
+          },
+          {
+            "word": "donoma",
+            "confidence": 52.733894
+          },
+          {
+            "word": "Egito",
+            "confidence": 30.186707
+          },
+          {
+            "word": "or",
+            "confidence": 9.462852
+          },
+          {
+            "word": "barvEr",
+            "confidence": 0.0
+          },
+          {
+            "word": "NOS",
+            "confidence": 0.0
+          },
+          {
+            "word": "p",
+            "confidence": 51.479324
+          },
+          {
+            "word": "(bata,",
+            "confidence": 0.0
+          },
+          {
+            "word": "JPDLSeUS,",
+            "confidence": 2.817299
+          },
+          {
+            "word": "GIMENTELA",
+            "confidence": 0.0
+          },
+          {
+            "word": "canana",
+            "confidence": 53.729328
+          },
+          {
+            "word": "tarra",
+            "confidence": 47.892056
+          },
+          {
+            "word": "IEumprimen",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 8,
+        "meanConfidence": 81.22,
+        "words": 153,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "es",
+            "confidence": 20.003685
+          },
+          {
+            "word": "Jacõe",
+            "confidence": 44.634125
+          },
+          {
+            "word": "Mortede",
+            "confidence": 32.24115
+          },
+          {
+            "word": "Morte",
+            "confidence": 10.439796
+          },
+          {
+            "word": "de",
+            "confidence": 10.439796
+          },
+          {
+            "word": "pia",
+            "confidence": 26.104294
+          },
+          {
+            "word": "—",
+            "confidence": 26.494904
+          },
+          {
+            "word": "[5",
+            "confidence": 33.852707
+          },
+          {
+            "word": "2.006",
+            "confidence": 0.0
+          },
+          {
+            "word": "a.C",
+            "confidence": 50.276901
+          },
+          {
+            "word": "Gis",
+            "confidence": 28.520554
+          },
+          {
+            "word": "Qual",
+            "confidence": 25.677452
+          },
+          {
+            "word": "era",
+            "confidence": 25.677452
+          },
+          {
+            "word": "=",
+            "confidence": 22.936729
+          },
+          {
+            "word": "197",
+            "confidence": 22.936729
+          },
+          {
+            "word": "[4",
+            "confidence": 35.657547
+          },
+          {
+            "word": "na",
+            "confidence": 37.146118
+          },
+          {
+            "word": "arca:",
+            "confidence": 37.146118
+          },
+          {
+            "word": "lano",
+            "confidence": 28.980057
+          },
+          {
+            "word": "comolrãe",
+            "confidence": 40.098297
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 9,
+        "meanConfidence": 75.32,
+        "words": 136,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "es",
+            "confidence": 20.003685
+          },
+          {
+            "word": "A",
+            "confidence": 6.645889
+          },
+          {
+            "word": ")",
+            "confidence": 45.269436
+          },
+          {
+            "word": "y",
+            "confidence": 0.0
+          },
+          {
+            "word": "E",
+            "confidence": 54.908695
+          },
+          {
+            "word": "Rracão",
+            "confidence": 0.0
+          },
+          {
+            "word": "Torrede",
+            "confidence": 54.071087
+          },
+          {
+            "word": "Mortede",
+            "confidence": 32.728409
+          },
+          {
+            "word": "—",
+            "confidence": 39.474564
+          },
+          {
+            "word": "2.300",
+            "confidence": 48.47142
+          },
+          {
+            "word": "2.066",
+            "confidence": 0.0
+          },
+          {
+            "word": "ú",
+            "confidence": 31.588043
+          },
+          {
+            "word": "1916",
+            "confidence": 3.296211
+          },
+          {
+            "word": "aC",
+            "confidence": 3.296211
+          },
+          {
+            "word": "[5",
+            "confidence": 33.852707
+          },
+          {
+            "word": "2.006",
+            "confidence": 0.0
+          },
+          {
+            "word": "a.C",
+            "confidence": 50.276901
+          },
+          {
+            "word": "Águas",
+            "confidence": 38.072556
+          },
+          {
+            "word": "7:24)",
+            "confidence": 26.154709
+          },
+          {
+            "word": "Gn",
+            "confidence": 0.0
+          },
+          {
+            "word": "Bd)",
+            "confidence": 0.0
+          },
+          {
+            "word": "saiu",
+            "confidence": 45.986805
+          },
+          {
+            "word": "BOT",
+            "confidence": 43.092876
+          },
+          {
+            "word": "8:13-14)",
+            "confidence": 16.114944
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 10,
+        "meanConfidence": 81.3,
+        "words": 136,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "mundo,",
+            "confidence": 47.28064
+          },
+          {
+            "word": "Ga",
+            "confidence": 37.880116
+          },
+          {
+            "word": "Esati",
+            "confidence": 42.10638
+          },
+          {
+            "word": "os",
+            "confidence": 46.68671
+          },
+          {
+            "word": "Israel,",
+            "confidence": 26.246429
+          },
+          {
+            "word": "edomitas.",
+            "confidence": 48.173313
+          },
+          {
+            "word": ",",
+            "confidence": 0.0
+          },
+          {
+            "word": "DA",
+            "confidence": 30.717278
+          },
+          {
+            "word": "Simeão",
+            "confidence": 9.933701
+          },
+          {
+            "word": "LGideso",
+            "confidence": 0.0
+          },
+          {
+            "word": "pr",
+            "confidence": 46.382542
+          },
+          {
+            "word": "Naftall",
+            "confidence": 28.03688
+          },
+          {
+            "word": "Lavi",
+            "confidence": 25.811852
+          },
+          {
+            "word": "Le",
+            "confidence": 22.667397
+          },
+          {
+            "word": "Dábora",
+            "confidence": 22.667397
+          },
+          {
+            "word": "Banjumim",
+            "confidence": 0.0
+          },
+          {
+            "word": "lago",
+            "confidence": 0.0
+          },
+          {
+            "word": "car",
+            "confidence": 0.0
+          },
+          {
+            "word": "Mad",
+            "confidence": 10.245941
+          },
+          {
+            "word": "osqueu",
+            "confidence": 4.084412
+          },
+          {
+            "word": "Jeromias",
+            "confidence": 35.764687
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 11,
+        "meanConfidence": 91.03,
+        "words": 246,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "&",
+            "confidence": 16.051849
+          },
+          {
+            "word": "-",
+            "confidence": 27.22451
+          },
+          {
+            "word": "descansa",
+            "confidence": 8.805939
+          },
+          {
+            "word": "e",
+            "confidence": 8.805939
+          },
+          {
+            "word": "dÉ",
+            "confidence": 39.123405
+          },
+          {
+            "word": "e",
+            "confidence": 46.200924
+          },
+          {
+            "word": "e",
+            "confidence": 46.427391
+          },
+          {
+            "word": "do",
+            "confidence": 46.427391
+          },
+          {
+            "word": "»«",
+            "confidence": 13.743195
+          },
+          {
+            "word": "sacrifícios",
+            "confidence": 43.426682
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 12,
+        "meanConfidence": 90.43,
+        "words": 270,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "A",
+            "confidence": 0.0
+          },
+          {
+            "word": "GENEALOGIA",
+            "confidence": 0.0
+          },
+          {
+            "word": "TL",
+            "confidence": 19.353951
+          },
+          {
+            "word": "—",
+            "confidence": 17.032135
+          },
+          {
+            "word": "O",
+            "confidence": 49.804691
+          },
+          {
+            "word": "DILÚVIO",
+            "confidence": 49.804691
+          },
+          {
+            "word": "família",
+            "confidence": 51.674515
+          },
+          {
+            "word": "e",
+            "confidence": 51.674515
+          },
+          {
+            "word": "1)",
+            "confidence": 5.277321
+          },
+          {
+            "word": "A",
+            "confidence": 0.0
+          },
+          {
+            "word": "CHAMADA",
+            "confidence": 0.0
+          },
+          {
+            "word": "Israel",
+            "confidence": 43.91716
+          },
+          {
+            "word": "e",
+            "confidence": 43.91716
+          },
+          {
+            "word": "Cá",
+            "confidence": 31.863831
+          },
+          {
+            "word": "A",
+            "confidence": 0.0
+          },
+          {
+            "word": "CHAMADA",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 13,
+        "meanConfidence": 87.55,
+        "words": 248,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "o",
+            "confidence": 50.303139
+          },
+          {
+            "word": "À",
+            "confidence": 0.0
+          },
+          {
+            "word": "02",
+            "confidence": 26.454567
+          },
+          {
+            "word": "àá",
+            "confidence": 27.663643
+          },
+          {
+            "word": "bênçãos",
+            "confidence": 17.911469
+          },
+          {
+            "word": "E.",
+            "confidence": 39.778618
+          },
+          {
+            "word": "=",
+            "confidence": 44.880989
+          },
+          {
+            "word": "o",
+            "confidence": 33.196426
+          },
+          {
+            "word": "mr",
+            "confidence": 52.810928
+          },
+          {
+            "word": "L)",
+            "confidence": 13.469971
+          },
+          {
+            "word": "José,",
+            "confidence": 3.148483
+          },
+          {
+            "word": "diante",
+            "confidence": 43.827763
+          },
+          {
+            "word": "desobediência",
+            "confidence": 50.266785
+          },
+          {
+            "word": "fidelidade",
+            "confidence": 41.85358
+          },
+          {
+            "word": "em",
+            "confidence": 54.411194
+          },
+          {
+            "word": "Gênesis",
+            "confidence": 40.195358
+          },
+          {
+            "word": "03",
+            "confidence": 45.742115
+          },
+          {
+            "word": "|",
+            "confidence": 42.121372
+          },
+          {
+            "word": "2",
+            "confidence": 1.765907
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 14,
+        "meanConfidence": 92.36,
+        "words": 206,
+        "segmentation": "visually-checked-column-regions",
+        "lowConfidenceWords": [
+          {
+            "word": "*.",
+            "confidence": 35.723022
+          },
+          {
+            "word": "a.C.",
+            "confidence": 41.226765
+          },
+          {
+            "word": "exodos,",
+            "confidence": 30.079559
+          },
+          {
+            "word": "Moisés",
+            "confidence": 43.424305
+          },
+          {
+            "word": "JS",
+            "confidence": 11.96431
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 15,
+        "meanConfidence": 93.08,
+        "words": 77,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "MOISES",
+            "confidence": 53.57555
+          },
+          {
+            "word": "egípcia.",
+            "confidence": 53.382004
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 16,
+        "meanConfidence": 77.6,
+        "words": 185,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "egípcias,",
+            "confidence": 34.41552
+          },
+          {
+            "word": "Yahweh.",
+            "confidence": 22.680801
+          },
+          {
+            "word": "Roferônei",
+            "confidence": 50.076046
+          },
+          {
+            "word": "Descrição",
+            "confidence": 34.508202
+          },
+          {
+            "word": "[7",
+            "confidence": 49.17725
+          },
+          {
+            "word": "|",
+            "confidence": 49.17725
+          },
+          {
+            "word": "Tilá-za",
+            "confidence": 26.266968
+          },
+          {
+            "word": "[2",
+            "confidence": 34.231956
+          },
+          {
+            "word": "|",
+            "confidence": 34.231956
+          },
+          {
+            "word": "8:1-",
+            "confidence": 29.40947
+          },
+          {
+            "word": "[3",
+            "confidence": 11.648895
+          },
+          {
+            "word": "|",
+            "confidence": 11.648895
+          },
+          {
+            "word": "pó",
+            "confidence": 6.094749
+          },
+          {
+            "word": "da",
+            "confidence": 6.094749
+          },
+          {
+            "word": "terrase",
+            "confidence": 42.634811
+          },
+          {
+            "word": "B16+9",
+            "confidence": 22.197464
+          },
+          {
+            "word": "[|",
+            "confidence": 45.321293
+          },
+          {
+            "word": "E20-32",
+            "confidence": 35.297424
+          },
+          {
+            "word": "[5",
+            "confidence": 41.089478
+          },
+          {
+            "word": "|",
+            "confidence": 41.089478
+          },
+          {
+            "word": "Peste",
+            "confidence": 13.822617
+          },
+          {
+            "word": "no",
+            "confidence": 13.822617
+          },
+          {
+            "word": "ÊExodo3:1-",
+            "confidence": 2.633423
+          },
+          {
+            "word": " Orebanho",
+            "confidence": 32.931122
+          },
+          {
+            "word": "egípcios",
+            "confidence": 38.138119
+          },
+          {
+            "word": "E",
+            "confidence": 33.110237
+          },
+          {
+            "word": "g",
+            "confidence": 53.074562
+          },
+          {
+            "word": "Úlcaras",
+            "confidence": 43.166809
+          },
+          {
+            "word": "a8-2",
+            "confidence": 0.0
+          },
+          {
+            "word": "13-35",
+            "confidence": 9.473694
+          },
+          {
+            "word": "Insetos",
+            "confidence": 41.478615
+          },
+          {
+            "word": "O",
+            "confidence": 36.866283
+          },
+          {
+            "word": "H-",
+            "confidence": 13.073212
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 17,
+        "meanConfidence": 91.48,
+        "words": 69,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "id",
+            "confidence": 2.642975
+          },
+          {
+            "word": "ergue",
+            "confidence": 46.113899
+          },
+          {
+            "word": "4)",
+            "confidence": 13.075867
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 18,
+        "meanConfidence": 91.77,
+        "words": 211,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "Isras",
+            "confidence": 51.124382
+          },
+          {
+            "word": "*",
+            "confidence": 4.182861
+          },
+          {
+            "word": "Áliançae",
+            "confidence": 39.369041
+          },
+          {
+            "word": "Propiciatário",
+            "confidence": 32.455276
+          },
+          {
+            "word": "«",
+            "confidence": 43.006294
+          },
+          {
+            "word": "Apenas",
+            "confidence": 49.500237
+          },
+          {
+            "word": "osumo",
+            "confidence": 49.500237
+          },
+          {
+            "word": "imperfeita.",
+            "confidence": 46.240993
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 19,
+        "meanConfidence": 86.98,
+        "words": 144,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "9",
+            "confidence": 47.044624
+          },
+          {
+            "word": "e",
+            "confidence": 48.592052
+          },
+          {
+            "word": "recebe",
+            "confidence": 48.592052
+          },
+          {
+            "word": "intervém",
+            "confidence": 48.814316
+          },
+          {
+            "word": "Molsés",
+            "confidence": 27.496292
+          },
+          {
+            "word": "Moisés",
+            "confidence": 42.405037
+          },
+          {
+            "word": "o",
+            "confidence": 0.0
+          },
+          {
+            "word": "povo",
+            "confidence": 0.0
+          },
+          {
+            "word": ",",
+            "confidence": 0.0
+          },
+          {
+            "word": "=.",
+            "confidence": 4.068153
+          },
+          {
+            "word": "uu",
+            "confidence": 48.75565
+          },
+          {
+            "word": "+",
+            "confidence": 27.506264
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 20,
+        "meanConfidence": 20.86,
+        "words": 9,
+        "segmentation": "sparse-fallback",
+        "lowConfidenceWords": [
+          {
+            "word": "P<",
+            "confidence": 0.0
+          },
+          {
+            "word": "o",
+            "confidence": 31.337219
+          },
+          {
+            "word": "e",
+            "confidence": 24.711983
+          },
+          {
+            "word": "=",
+            "confidence": 13.776657
+          },
+          {
+            "word": "al",
+            "confidence": 0.0
+          },
+          {
+            "word": "Tam",
+            "confidence": 43.862423
+          },
+          {
+            "word": "EEEBBPYBRRWES",
+            "confidence": 5.575745
+          },
+          {
+            "word": "137im",
+            "confidence": 14.642067
+          },
+          {
+            "word": "im\n2\t1\t9\t0\t0\t0\t440\t1245\t81\t18\t-1\t\n3\t1\t9\t1\t0\t0\t440\t1245\t81\t18\t-1\t\n4\t1\t9\t1\t1\t0\t440\t1245\t81\t18\t-1\t\n5\t1\t9\t1\t1\t1\t440\t1245\t81\t18\t0.000000\tTSanto\n2\t1\t10\t0\t0\t0\t1241\t1236\t96\t18\t-1\t\n3\t1\t10\t1\t0\t0\t1241\t1236\t96\t18\t-1\t\n4\t1\t10\t1\t1\t0\t1241\t1236\t96\t18\t-1\t\n5\t1\t10\t1\t1\t1\t1241\t1236\t10\t18\t49.734703\tO\n5\t1\t10\t1\t1\t2\t1262\t1232\t41\t33\t80.747864\taltar\n5\t1\t10\t1\t1\t3\t1311\t1232\t28\t33\t41.795013\tcho\n2\t1\t11\t0\t0\t0\t1418\t1236\t15\t9\t-1\t\n3\t1\t11\t1\t0\t0\t1418\t1236\t15\t9\t-1\t\n4\t1\t11\t1\t1\t0\t1418\t1236\t15\t9\t-1\t\n5\t1\t11\t1\t1\t1\t1418\t1236\t15\t9\t69.415390\t|\n2\t1\t12\t0\t0\t0\t425\t1266\t111\t18\t-1\t\n3\t1\t12\t1\t0\t0\t425\t1266\t111\t18\t-1\t\n4\t1\t12\t1\t1\t0\t425\t1266\t111\t18\t-1\t\n5\t1\t12\t1\t1\t1\t425\t1266\t36\t18\t77.967697\tdos\n5\t1\t12\t1\t1\t2\t467\t1266\t69\t18\t29.529221\tGintos\n2\t1\t13\t0\t0\t0\t617\t1269\t96\t21\t-1\t\n3\t1\t13\t1\t0\t0\t617\t1269\t96\t21\t-1\t\n4\t1\t13\t1\t1\t0\t617\t1269\t96\t21\t-1\t\n5\t1\t13\t1\t1\t1\t617\t1269\t63\t18\t20.727959\tColiar\n5\t1\t13\t1\t1\t2\t686\t1269\t27\t21\t92.896233\tdo\n2\t1\t14\t0\t0\t0\t803\t1245\t72\t27\t-1\t\n3\t1\t14\t1\t0\t0\t803\t1245\t72\t27\t-1\t\n4\t1\t14\t1\t1\t0\t803\t1245\t72\t27\t-1\t\n5\t1\t14\t1\t1\t1\t803\t1245\t12\t18\t25.570999\tA\n5\t1\t14\t1\t1\t2\t821\t1245\t54\t27\t25.570999\tmasa\n2\t1\t15\t0\t0\t0\t1010\t1269\t111\t18\t-1\t\n3\t1\t15\t1\t0\t0\t1010\t1269\t111\t18\t-1\t\n4\t1\t15\t1\t1\t0\t1010\t1269\t111\t18\t-1\t\n5\t1\t15\t1\t1\t1\t1010\t1269\t15\t18\t74.158142\tO\n5\t1\t15\t1\t1\t2\t1031\t1269\t90\t18\t0.000000\tiasátório\n2\t1\t16\t0\t0\t0\t1307\t1257\t36\t15\t-1\t\n3\t1\t16\t1\t0\t0\t1307\t1257\t36\t15\t-1\t\n4\t1\t16\t1\t1\t0\t1307\t1257\t36\t15\t-1\t\n5\t1\t16\t1\t1\t1\t1307\t1257\t36\t15\t0.000000\tEi]\n2\t1\t17\t0\t0\t0\t626\t1296\t81\t15\t-1\t\n3\t1\t17\t1\t0\t0\t626\t1296\t81\t15\t-1\t\n4\t1\t17\t1\t1\t0\t626\t1296\t81\t15\t-1\t\n5\t1\t17\t1\t1\t1\t626\t1296\t81\t15\t7.470741\tmano\n2\t1\t18\t0\t0\t0\t215\t1335\t21\t15\t-1\t\n3\t1\t18\t1\t0\t0\t215\t1335\t21\t15\t-1\t\n4\t1\t18\t1\t1\t0\t215\t1335\t21\t15\t-1\t\n5\t1\t18\t1\t1\t1\t215\t1335\t21\t15\t54.382153\tm\n2\t1\t19\t0\t0\t0\t566\t1356\t30\t18\t-1\t\n3\t1\t19\t1\t0\t0\t566\t1356\t30\t18\t-1\t\n4\t1\t19\t1\t1\t0\t566\t1356\t30\t18\t-1\t\n5\t1\t19\t1\t1\t1\t566\t1356\t30\t18\t49.717056\t1\n2\t1\t20\t0\t0\t0\t776\t1341\t75\t30\t-1\t\n3\t1\t20\t1\t0\t0\t776\t1341\t75\t30\t-1\t\n4\t1\t20\t1\t1\t0\t776\t1341\t75\t30\t-1\t\n5\t1\t20\t1\t1\t1\t776\t1344\t18\t27\t95.507133\ta\n5\t1\t20\t1\t1\t2\t797\t1341\t54\t18\t45.141888\thugar\n2\t1\t21\t0\t0\t0\t782\t1365\t36\t15\t-1\t\n3\t1\t21\t1\t0\t0\t782\t1365\t36\t15\t-1\t\n4\t1\t21\t1\t1\t0\t782\t1365\t36\t15\t-1\t\n5\t1\t21\t1\t1\t1\t782\t1365\t36\t15\t40.134445\t[E\n2\t1\t22\t0\t0\t0\t1502\t1281\t54\t99\t-1\t\n3\t1\t22\t1\t0\t0\t1502\t1281\t54\t99\t-1\t\n4\t1\t22\t1\t1\t0\t1502\t1281\t54\t99\t-1\t\n5\t1\t22\t1\t1\t1\t1502\t1281\t54\t99\t47.650909\tEI\n2\t1\t23\t0\t0\t0\t215\t1392\t21\t12\t-1\t\n3\t1\t23\t1\t0\t0\t215\t1392\t21\t12\t-1\t\n4\t1\t23\t1\t1\t0\t215\t1392\t21\t12\t-1\t\n5\t1\t23\t1\t1\t1\t215\t1392\t21\t12\t50.133362\tEd\n2\t1\t24\t0\t0\t0\t215\t1377\t21\t12\t-1\t\n3\t1\t24\t1\t0\t0\t215\t1377\t21\t12\t-1\t\n4\t1\t24\t1\t1\t0\t215\t1377\t21\t12\t-1\t\n5\t1\t24\t1\t1\t1\t215\t1377\t21\t12\t4.195900\t[o]\n2\t1\t25\t0\t0\t0\t428\t1449\t102\t24\t-1\t\n3\t1\t25\t1\t0\t0\t428\t1449\t102\t24\t-1\t\n4\t1\t25\t1\t1\t0\t428\t1449\t102\t24\t-1\t\n5\t1\t25\t1\t1\t1\t428\t1449\t24\t21\t93.180038\tda\n5\t1\t25\t1\t1\t2\t458\t1449\t72\t24\t33.377174\totançã\n2\t1\t26\t0\t0\t0\t446\t1428\t63\t21\t-1\t\n3\t1\t26\t1\t0\t0\t446\t1428\t63\t21\t-1\t\n4\t1\t26\t1\t1\t0\t446\t1428\t63\t21\t-1\t\n5\t1\t26\t1\t1\t1\t446\t1428\t63\t21\t30.823067\tÁaica\n2\t1\t27\t0\t0\t0\t773\t1437\t123\t18\t-1\t\n3\t1\t27\t1\t0\t0\t773\t1437\t123\t18\t-1\t\n4\t1\t27\t1\t1\t0\t773\t1437\t123\t18\t-1\t\n5\t1\t27\t1\t1\t1\t773\t1437\t123\t18\t0.000000\tOicandelaor\n2\t1\t28\t0\t0\t0\t800\t1458\t78\t18\t-1\t\n3\t1\t28\t1\t0\t0\t800\t1458\t78\t18\t-1\t\n4\t1\t28\t1\t1\t0\t800\t1458\t78\t18\t-1\t\n5\t1\t28\t1\t1\t1\t800\t1458\t27\t18\t88.254669\tde\n5\t1\t28\t1\t1\t2\t833\t1461\t45\t15\t29.568069\touro\n2\t1\t29\t0\t0\t0\t872\t1415\t39\t50\t-1\t\n3\t1\t29\t1\t0\t0\t872\t1415\t39\t50\t-1\t\n4\t1\t29\t1\t1\t0\t872\t1415\t39\t50\t-1\t\n5\t1\t29\t1\t1\t1\t872\t1415\t39\t50\t32.934662\taro\n2\t1\t30\t0\t0\t0\t1418\t1491\t15\t12\t-1\t\n3\t1\t30\t1\t0\t0\t1418\t1491\t15\t12\t-1\t\n4\t1\t30\t1\t1\t0\t1418\t1491\t15\t12\t-1\t\n5\t1\t30\t1\t1\t1\t1418\t1491\t15\t12\t47.773819\tEI\n2\t1\t31\t0\t0\t0\t485\t1539\t42\t3\t-1\t\n3\t1\t31\t1\t0\t0\t485\t1539\t42\t3\t-1\t\n4\t1\t31\t1\t1\t0\t485\t1539\t42\t3\t-1\t\n5\t1\t31\t1\t1\t1\t485\t1539\t42\t3\t28.939163\ter\n2\t1\t32\t0\t0\t0\t545\t1545\t363\t3\t-1\t\n3\t1\t32\t1\t0\t0\t545\t1545\t363\t3\t-1\t\n4\t1\t32\t1\t1\t0\t545\t1545\t363\t3\t-1\t\n5\t1\t32\t1\t1\t1\t545\t1545\t12\t3\t6.125984\tCS\n5\t1\t32\t1\t1\t2\t564\t1545\t344\t3\t0.000000\tTIDISIIDDIICIDIoIcmmacIma===\n2\t1\t33\t0\t0\t0\t938\t1539\t141\t3\t-1\t\n3\t1\t33\t1\t0\t0\t938\t1539\t141\t3\t-1\t\n4\t1\t33\t1\t1\t0\t938\t1539\t141\t3\t-1\t\n5\t1\t33\t1\t1\t1\t938\t1539\t141\t3\t0.000000\texrTeDqr--—\n2\t1\t34\t0\t0\t0\t1250\t1539\t123\t3\t-1\t\n3\t1\t34\t1\t0\t0\t1250\t1539\t123\t3\t-1\t\n4\t1\t34\t1\t1\t0\t1250\t1539\t123\t3\t-1\t\n5\t1\t34\t1\t1\t1\t1250\t1523\t29\t28\t18.507729\tmm\n5\t1\t34\t1\t1\t2\t1283\t1539\t90\t3\t16.449745\tem\n2\t1\t35\t0\t0\t0\t801\t1705\t102\t9\t-1\t\n3\t1\t35\t1\t0\t0\t801\t1705\t102\t9\t-1\t\n4\t1\t35\t1\t1\t0\t801\t1705\t102\t9\t-1\t\n5\t1\t35\t1\t1\t1\t801\t1705\t102\t9\t20.000351\tsita\n2\t1\t36\t0\t0\t0\t185\t1828\t213\t84\t-1\t\n3\t1\t36\t1\t0\t0\t185\t1828\t213\t84\t-1\t\n4\t1\t36\t1\t1\t0\t185\t1828\t213\t84\t-1\t\n5\t1\t36\t1\t1\t1\t185\t1828\t213\t84\t58.377289\tis\n2\t1\t37\t0\t0\t0\t537\t1897\t9\t9\t-1\t\n3\t1\t37\t1\t0\t0\t537\t1897\t9\t9\t-1\t\n4\t1\t37\t1\t1\t0\t537\t1897\t9\t9\t-1\t\n5\t1\t37\t1\t1\t1\t537\t1897\t9\t9\t0.000000\t”\n2\t1\t38\t0\t0\t0\t212\t1906\t18\t27\t-1\t\n3\t1\t38\t1\t0\t0\t212\t1906\t18\t27\t-1\t\n4\t1\t38\t1\t1\t0\t212\t1906\t18\t27\t-1\t\n5\t1\t38\t1\t1\t1\t212\t1906\t18\t27\t0.000000\tJ\n2\t1\t39\t0\t0\t0\t1432\t2035\t174\t196\t-1\t\n3\t1\t39\t1\t0\t0\t1432\t2035\t174\t196\t-1\t\n4\t1\t39\t1\t1\t0\t1432\t2035\t174\t196\t-1\t\n5\t1\t39\t1\t1\t1\t1432\t2035\t174\t196\t42.607162\tté\n2\t1\t40\t0\t0\t0\t1246\t2171\t180\t204\t-1\t\n3\t1\t40\t1\t0\t0\t1246\t2171\t180\t204\t-1\t\n4\t1\t40\t1\t1\t0\t1246\t2171\t180\t204\t-1\t\n5\t1\t40\t1\t1\t1\t1246\t2171\t180\t204\t24.404236\t(4\n2\t1\t41\t0\t0\t0\t1104\t2309\t133\t93\t-1\t\n3\t1\t41\t1\t0\t0\t1104\t2309\t133\t93\t-1\t\n4\t1\t41\t1\t1\t0\t1104\t2309\t133\t93\t-1\t\n5\t1\t41\t1\t1\t1\t1104\t2309\t133\t93\t0.000000\t/.\n2\t1\t42\t0\t0\t0\t1243\t2324\t18\t60\t-1\t\n3\t1\t42\t1\t0\t0\t1243\t2324\t18\t60\t-1\t\n4\t1\t42\t1\t1\t0\t1243\t2324\t18\t60\t-1\t\n5\t1\t42\t1\t1\t1\t1243\t2324\t18\t60\t75.966232\t)\n",
+            "confidence": 53.877991
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 21,
+        "meanConfidence": 89.77,
+        "words": 160,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "aee",
+            "confidence": 36.576073
+          },
+          {
+            "word": "E",
+            "confidence": 16.215607
+          },
+          {
+            "word": "povo",
+            "confidence": 10.20607
+          },
+          {
+            "word": "de",
+            "confidence": 10.20607
+          },
+          {
+            "word": "e",
+            "confidence": 34.300911
+          },
+          {
+            "word": "E]",
+            "confidence": 54.783138
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 22,
+        "meanConfidence": 85.96,
+        "words": 110,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "santificar”",
+            "confidence": 41.47543
+          },
+          {
+            "word": "matarás.'",
+            "confidence": 40.72316
+          },
+          {
+            "word": "a",
+            "confidence": 23.708252
+          },
+          {
+            "word": "autoridade",
+            "confidence": 23.708252
+          },
+          {
+            "word": "—",
+            "confidence": 52.537457
+          },
+          {
+            "word": "nas",
+            "confidence": 0.0
+          },
+          {
+            "word": "ações.",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 23,
+        "meanConfidence": 87.96,
+        "words": 166,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "&",
+            "confidence": 19.489975
+          },
+          {
+            "word": "|:",
+            "confidence": 24.412605
+          },
+          {
+            "word": "AS",
+            "confidence": 32.936638
+          },
+          {
+            "word": "TRÊS",
+            "confidence": 32.936638
+          },
+          {
+            "word": "1",
+            "confidence": 33.037437
+          },
+          {
+            "word": "1",
+            "confidence": 9.950729
+          },
+          {
+            "word": "A",
+            "confidence": 44.969719
+          },
+          {
+            "word": "ORDEM",
+            "confidence": 44.969719
+          },
+          {
+            "word": "reguiava",
+            "confidence": 47.827908
+          },
+          {
+            "word": "«3.",
+            "confidence": 0.0
+          },
+          {
+            "word": "Lei",
+            "confidence": 40.708305
+          },
+          {
+            "word": "Moral",
+            "confidence": 40.708305
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 24,
+        "meanConfidence": 92.68,
+        "words": 176,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "“1.",
+            "confidence": 38.182671
+          },
+          {
+            "word": "rituais",
+            "confidence": 49.135113
+          },
+          {
+            "word": "«É",
+            "confidence": 41.496269
+          },
+          {
+            "word": "(João",
+            "confidence": 53.859734
+          },
+          {
+            "word": "“É",
+            "confidence": 46.284454
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 25,
+        "meanConfidence": 90.89,
+        "words": 141,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "2.",
+            "confidence": 13.029266
+          },
+          {
+            "word": "<*",
+            "confidence": 27.702393
+          },
+          {
+            "word": "LJ",
+            "confidence": 15.305084
+          },
+          {
+            "word": "Propósito:",
+            "confidence": 47.618046
+          },
+          {
+            "word": "e",
+            "confidence": 0.0
+          },
+          {
+            "word": "errado",
+            "confidence": 0.0
+          },
+          {
+            "word": "É",
+            "confidence": 48.417625
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 26,
+        "meanConfidence": 83.06,
+        "words": 182,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "A",
+            "confidence": 41.489403
+          },
+          {
+            "word": "A",
+            "confidence": 45.882244
+          },
+          {
+            "word": "Aliança",
+            "confidence": 52.205917
+          },
+          {
+            "word": "Fara,",
+            "confidence": 4.653976
+          },
+          {
+            "word": "cativeiro",
+            "confidence": 46.883385
+          },
+          {
+            "word": "aguas",
+            "confidence": 36.575371
+          },
+          {
+            "word": "e",
+            "confidence": 43.00132
+          },
+          {
+            "word": "egípcio.",
+            "confidence": 29.902206
+          },
+          {
+            "word": "ardente",
+            "confidence": 25.08493
+          },
+          {
+            "word": "e",
+            "confidence": 25.08493
+          },
+          {
+            "word": "Egito",
+            "confidence": 48.91642
+          },
+          {
+            "word": "e",
+            "confidence": 48.91642
+          },
+          {
+            "word": "O",
+            "confidence": 10.306946
+          },
+          {
+            "word": "sangue",
+            "confidence": 10.306946
+          },
+          {
+            "word": "egípcio.",
+            "confidence": 26.753471
+          },
+          {
+            "word": "Tabernáculo,",
+            "confidence": 44.792435
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 27,
+        "meanConfidence": 88.8,
+        "words": 93,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "[—",
+            "confidence": 4.621857
+          },
+          {
+            "word": "E",
+            "confidence": 45.52092
+          },
+          {
+            "word": "à»",
+            "confidence": 17.629272
+          },
+          {
+            "word": "Aliança.",
+            "confidence": 46.585316
+          },
+          {
+            "word": "Altar",
+            "confidence": 43.856438
+          },
+          {
+            "word": "sacrifícios",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 28,
+        "meanConfidence": 92.32,
+        "words": 120,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "-+",
+            "confidence": 43.591347
+          },
+          {
+            "word": "Omodelo",
+            "confidence": 32.191559
+          },
+          {
+            "word": "Moisés.",
+            "confidence": 31.506363
+          },
+          {
+            "word": "Ei",
+            "confidence": 44.390785
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 29,
+        "meanConfidence": 90.33,
+        "words": 154,
+        "segmentation": "visually-checked-column-regions",
+        "lowConfidenceWords": [
+          {
+            "word": "|",
+            "confidence": 24.655685
+          },
+          {
+            "word": "%'",
+            "confidence": 0.0
+          },
+          {
+            "word": "1445",
+            "confidence": 0.0
+          },
+          {
+            "word": "a.C).",
+            "confidence": 0.0
+          },
+          {
+            "word": "Sus",
+            "confidence": 44.079178
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 30,
+        "meanConfidence": 91.32,
+        "words": 115,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "animal",
+            "confidence": 24.818771
+          },
+          {
+            "word": "era",
+            "confidence": 24.818771
+          },
+          {
+            "word": "Incluía",
+            "confidence": 47.159462
+          },
+          {
+            "word": "olansas",
+            "confidence": 46.046143
+          },
+          {
+            "word": "aspecificas,",
+            "confidence": 54.533901
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 31,
+        "meanConfidence": 90.75,
+        "words": 87,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "d",
+            "confidence": 11.520317
+          },
+          {
+            "word": "sacerdócio",
+            "confidence": 45.676674
+          },
+          {
+            "word": "Uma",
+            "confidence": 36.875835
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 32,
+        "meanConfidence": 91.41,
+        "words": 147,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "=",
+            "confidence": 28.187653
+          },
+          {
+            "word": "VZ",
+            "confidence": 23.687737
+          },
+          {
+            "word": "*",
+            "confidence": 31.44487
+          },
+          {
+            "word": "no",
+            "confidence": 41.764954
+          },
+          {
+            "word": "trabalho,",
+            "confidence": 41.764954
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 33,
+        "meanConfidence": 76.45,
+        "words": 131,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "(Shavuot)",
+            "confidence": 47.571442
+          },
+          {
+            "word": "Dia",
+            "confidence": 24.973846
+          },
+          {
+            "word": "da",
+            "confidence": 24.973846
+          },
+          {
+            "word": "(MarlAbr)",
+            "confidence": 52.500568
+          },
+          {
+            "word": "Misa",
+            "confidence": 44.36319
+          },
+          {
+            "word": "(IMarlálr)",
+            "confidence": 0.0
+          },
+          {
+            "word": "Siva",
+            "confidence": 54.778973
+          },
+          {
+            "word": "(IMai/lun)",
+            "confidence": 4.523621
+          },
+          {
+            "word": "Tishrei",
+            "confidence": 48.492794
+          },
+          {
+            "word": "CGet/Qut)",
+            "confidence": 47.439674
+          },
+          {
+            "word": "(Set/Out)",
+            "confidence": 24.02459
+          },
+          {
+            "word": "Quisieu",
+            "confidence": 41.540855
+          },
+          {
+            "word": "(Nov/Dez)",
+            "confidence": 10.269203
+          },
+          {
+            "word": "dudar",
+            "confidence": 18.964653
+          },
+          {
+            "word": "(Fev",
+            "confidence": 11.231117
+          },
+          {
+            "word": "Mar)",
+            "confidence": 52.678886
+          },
+          {
+            "word": "235",
+            "confidence": 17.052414
+          },
+          {
+            "word": "2315-21",
+            "confidence": 45.059166
+          },
+          {
+            "word": "ZH23-25",
+            "confidence": 0.0
+          },
+          {
+            "word": "Z333-43",
+            "confidence": 5.564133
+          },
+          {
+            "word": "Jo",
+            "confidence": 16.200027
+          },
+          {
+            "word": "1022",
+            "confidence": 16.200027
+          },
+          {
+            "word": "ELs",
+            "confidence": 0.0
+          },
+          {
+            "word": "A",
+            "confidence": 38.683971
+          },
+          {
+            "word": "colheita",
+            "confidence": 38.683971
+          },
+          {
+            "word": "(3",
+            "confidence": 45.935158
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 34,
+        "meanConfidence": 93.74,
+        "words": 80,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": []
+      },
+      {
+        "sourceId": "study-2",
+        "page": 35,
+        "meanConfidence": 89.72,
+        "words": 224,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "ii",
+            "confidence": 13.957291
+          },
+          {
+            "word": "|",
+            "confidence": 25.56881
+          },
+          {
+            "word": "1-7)",
+            "confidence": 47.652393
+          },
+          {
+            "word": "a)",
+            "confidence": 15.156372
+          },
+          {
+            "word": "o2",
+            "confidence": 45.647171
+          },
+          {
+            "word": "(Lv",
+            "confidence": 40.543369
+          },
+          {
+            "word": "O)",
+            "confidence": 35.356941
+          },
+          {
+            "word": "TI5)",
+            "confidence": 15.664665
+          },
+          {
+            "word": "o”",
+            "confidence": 52.487785
+          },
+          {
+            "word": "oa",
+            "confidence": 44.316692
+          },
+          {
+            "word": "A",
+            "confidence": 38.901402
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 36,
+        "meanConfidence": 90.23,
+        "words": 165,
+        "segmentation": "visually-checked-column-regions",
+        "lowConfidenceWords": [
+          {
+            "word": "[|",
+            "confidence": 50.876564
+          },
+          {
+            "word": "“",
+            "confidence": 0.0
+          },
+          {
+            "word": "até",
+            "confidence": 25.890686
+          },
+          {
+            "word": "o",
+            "confidence": 25.890686
+          },
+          {
+            "word": "E",
+            "confidence": 53.819061
+          },
+          {
+            "word": "LI",
+            "confidence": 28.020927
+          },
+          {
+            "word": "Propósito",
+            "confidence": 28.036339
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 37,
+        "meanConfidence": 84.3,
+        "words": 100,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "!F]",
+            "confidence": 0.0
+          },
+          {
+            "word": "f*",
+            "confidence": 26.613419
+          },
+          {
+            "word": "Ruben",
+            "confidence": 28.681595
+          },
+          {
+            "word": "Juelá",
+            "confidence": 7.130341
+          },
+          {
+            "word": "32.400",
+            "confidence": 38.315033
+          },
+          {
+            "word": "Da",
+            "confidence": 29.604767
+          },
+          {
+            "word": "Maftali",
+            "confidence": 53.336075
+          },
+          {
+            "word": "601.730",
+            "confidence": 10.629272
+          },
+          {
+            "word": "nl",
+            "confidence": 45.754654
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 38,
+        "meanConfidence": 92.09,
+        "words": 173,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "2",
+            "confidence": 32.689499
+          },
+          {
+            "word": "16:31-35",
+            "confidence": 46.575031
+          },
+          {
+            "word": "1)",
+            "confidence": 30.609703
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 39,
+        "meanConfidence": 89.18,
+        "words": 132,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "Moisés",
+            "confidence": 34.082253
+          },
+          {
+            "word": "Josué",
+            "confidence": 40.862595
+          },
+          {
+            "word": "fiéis;",
+            "confidence": 32.486473
+          },
+          {
+            "word": "diante",
+            "confidence": 50.909515
+          },
+          {
+            "word": "Miriã",
+            "confidence": 8.738266
+          },
+          {
+            "word": "Cantou",
+            "confidence": 49.848427
+          },
+          {
+            "word": "a",
+            "confidence": 49.848427
+          },
+          {
+            "word": "«A",
+            "confidence": 26.553162
+          },
+          {
+            "word": "ER!",
+            "confidence": 9.347084
+          },
+          {
+            "word": "utensílios",
+            "confidence": 54.361458
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 40,
+        "meanConfidence": 93.69,
+        "words": 145,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "sd",
+            "confidence": 9.595963
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 41,
+        "meanConfidence": 92.85,
+        "words": 108,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": []
+      },
+      {
+        "sourceId": "study-2",
+        "page": 42,
+        "meanConfidence": 92.19,
+        "words": 235,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "»«",
+            "confidence": 20.059799
+          },
+          {
+            "word": "7.",
+            "confidence": 35.362839
+          },
+          {
+            "word": "8",
+            "confidence": 0.0
+          },
+          {
+            "word": "Josue.",
+            "confidence": 21.434853
+          },
+          {
+            "word": "anulam",
+            "confidence": 35.642929
+          },
+          {
+            "word": "o",
+            "confidence": 35.642929
+          },
+          {
+            "word": "genuína.",
+            "confidence": 21.419144
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 43,
+        "meanConfidence": 93.01,
+        "words": 91,
+        "segmentation": "visually-checked-column-regions",
+        "lowConfidenceWords": [
+          {
+            "word": "“Quve,",
+            "confidence": 52.3032
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 44,
+        "meanConfidence": 93.27,
+        "words": 128,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "Sê",
+            "confidence": 18.024353
+          },
+          {
+            "word": "(8",
+            "confidence": 31.674126
+          },
+          {
+            "word": "Om",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 45,
+        "meanConfidence": 92.34,
+        "words": 218,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "Il",
+            "confidence": 27.172379
+          },
+          {
+            "word": "-",
+            "confidence": 37.766434
+          },
+          {
+            "word": "judaico-crista.",
+            "confidence": 39.220016
+          },
+          {
+            "word": "À",
+            "confidence": 51.777618
+          },
+          {
+            "word": "a",
+            "confidence": 36.275848
+          },
+          {
+            "word": "escolher",
+            "confidence": 36.275848
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 46,
+        "meanConfidence": 87.27,
+        "words": 191,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "Deserto",
+            "confidence": 13.40593
+          },
+          {
+            "word": "Obediência",
+            "confidence": 23.971992
+          },
+          {
+            "word": "e",
+            "confidence": 23.971992
+          },
+          {
+            "word": "+4",
+            "confidence": 49.135609
+          },
+          {
+            "word": "=",
+            "confidence": 35.408279
+          },
+          {
+            "word": "u",
+            "confidence": 0.0
+          },
+          {
+            "word": "THB",
+            "confidence": 27.736176
+          },
+          {
+            "word": "a",
+            "confidence": 41.47385
+          },
+          {
+            "word": "dd",
+            "confidence": 51.752563
+          },
+          {
+            "word": "e",
+            "confidence": 52.804459
+          },
+          {
+            "word": "Muoiss",
+            "confidence": 4.468727
+          },
+          {
+            "word": "Moises",
+            "confidence": 26.290871
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 47,
+        "meanConfidence": 90.13,
+        "words": 192,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "t",
+            "confidence": 0.0
+          },
+          {
+            "word": "E!",
+            "confidence": 38.760559
+          },
+          {
+            "word": "Moisés",
+            "confidence": 49.126492
+          },
+          {
+            "word": "Lider",
+            "confidence": 54.699192
+          },
+          {
+            "word": "e",
+            "confidence": 54.699192
+          },
+          {
+            "word": "!3",
+            "confidence": 0.0
+          },
+          {
+            "word": "e",
+            "confidence": 46.610352
+          },
+          {
+            "word": "toda",
+            "confidence": 46.610352
+          },
+          {
+            "word": "nosso",
+            "confidence": 32.464249
+          },
+          {
+            "word": "&",
+            "confidence": 33.33255
+          },
+          {
+            "word": "*",
+            "confidence": 36.711067
+          },
+          {
+            "word": "Moisés",
+            "confidence": 16.641739
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 48,
+        "meanConfidence": 92.73,
+        "words": 172,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "=",
+            "confidence": 42.855209
+          },
+          {
+            "word": "manifesto",
+            "confidence": 38.485317
+          },
+          {
+            "word": "»4",
+            "confidence": 20.781754
+          },
+          {
+            "word": "É",
+            "confidence": 20.629028
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 49,
+        "meanConfidence": 90.33,
+        "words": 202,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "2Reis",
+            "confidence": 53.319721
+          },
+          {
+            "word": "iCrônicas",
+            "confidence": 54.871372
+          },
+          {
+            "word": "Feconta",
+            "confidence": 10.738968
+          },
+          {
+            "word": "e",
+            "confidence": 34.300751
+          },
+          {
+            "word": "no",
+            "confidence": 34.300751
+          },
+          {
+            "word": "Judãe",
+            "confidence": 54.250164
+          },
+          {
+            "word": "a",
+            "confidence": 54.250164
+          },
+          {
+            "word": "Enfatiza",
+            "confidence": 26.296913
+          },
+          {
+            "word": "exílio",
+            "confidence": 53.82856
+          },
+          {
+            "word": "dos",
+            "confidence": 47.282074
+          },
+          {
+            "word": "muros",
+            "confidence": 47.282074
+          },
+          {
+            "word": "Deuteronômio",
+            "confidence": 45.183567
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 50,
+        "meanConfidence": 92.53,
+        "words": 190,
+        "segmentation": "visually-checked-column-regions",
+        "lowConfidenceWords": [
+          {
+            "word": "Hosus",
+            "confidence": 0.0
+          },
+          {
+            "word": "a.C.",
+            "confidence": 18.679802
+          },
+          {
+            "word": "8",
+            "confidence": 32.550957
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 51,
+        "meanConfidence": 87.57,
+        "words": 31,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "Yehoshua,",
+            "confidence": 25.254318
+          },
+          {
+            "word": "O\n5\t1\t2\t1\t1\t9\t1067\t312\t135\t27\t64.394455\tSenhor\n5\t1\t2\t1\t1\t10\t1211\t321\t18\t18\t27.213829\te\n5\t1\t2\t1\t1\t11\t1244\t312\t178\t27\t81.852684\tSalvação”\n5\t1\t2\t1\t1\t12\t1437\t327\t30\t3\t91.887779\t—\n5\t1\t2\t1\t1\t13\t1482\t318\t54\t21\t96.496933\tum\n2\t1\t3\t0\t0\t0\t139\t372\t1493\t102\t-1\t\n3\t1\t3\t1\t0\t0\t139\t372\t1493\t102\t-1\t\n4\t1\t3\t1\t1\t0\t139\t372\t1493\t39\t-1\t\n5\t1\t3\t1\t1\t1\t139\t381\t105\t24\t96.474823\tnome\n5\t1\t3\t1\t1\t2\t253\t381\t69\t30\t96.723381\tque\n5\t1\t3\t1\t1\t3\t331\t372\t160\t39\t95.305618\tantecipa\n5\t1\t3\t1\t1\t4\t500\t381\t21\t24\t96.027832\to\n5\t1\t3\t1\t1\t5\t533\t372\t174\t39\t96.155113\tpropósito\n5\t1\t3\t1\t1\t6\t719\t375\t45\t30\t96.155113\tde\n5\t1\t3\t1\t1\t7\t773\t381\t63\t24\t96.821632\tsua\n5\t1\t3\t1\t1\t8\t845\t372\t84\t33\t91.441086\tvida:\n5\t1\t3\t1\t1\t9\t941\t381\t54\t24\t94.417946\tser\n5\t1\t3\t1\t1\t10\t1007\t372\t225\t33\t95.493431\tinstrumento\n5\t1\t3\t1\t1\t11\t1244\t375\t42\t30\t96.839432\tda\n5\t1\t3\t1\t1\t12\t1295\t372\t187\t39\t96.501907\tlibertação\n5\t1\t3\t1\t1\t13\t1491\t381\t21\t24\t94.429474\te\n5\t1\t3\t1\t1\t14\t1521\t372\t111\t33\t96.836464\tvitória\n4\t1\t3\t1\t2\t0\t139\t438\t646\t36\t-1\t\n5\t1\t3\t1\t2\t1\t139\t438\t45\t30\t96.767242\tde\n5\t1\t3\t1\t2\t2\t193\t438\t93\t30\t95.992088\tDeus\n5\t1\t3\t1\t2\t3\t298\t438\t102\t30\t95.085098\tsobre\n5\t1\t3\t1\t2\t4\t409\t447\t42\t21\t95.337502\tos\n5\t1\t3\t1\t2\t5\t461\t438\t156\t36\t96.040695\tinimigos\n5\t1\t3\t1\t2\t6\t626\t438\t45\t30\t96.918861\tde\n5\t1\t3\t1\t2\t7\t683\t438\t102\t30\t92.772446\tIsrael.\n2\t1\t4\t0\t0\t0\t142\t528\t559\t45\t-1\t\n3\t1\t4\t1\t0\t0\t142\t528\t559\t45\t-1\t\n4\t1\t4\t1\t1\t0\t142\t528\t559\t45\t-1\t\n5\t1\t4\t1\t1\t1\t142\t531\t42\t42\t0.000000\t=\n5\t1\t4\t1\t1\t2\t196\t528\t231\t39\t96.437035\tPROPÓSITO\n5\t1\t4\t1\t1\t3\t439\t537\t22\t30\t95.757843\tE\n5\t1\t4\t1\t1\t4\t470\t537\t231\t30\t96.398827\tMENSAGEM\n2\t1\t5\t0\t0\t0\t139\t636\t1424\t231\t-1\t\n3\t1\t5\t1\t0\t0\t139\t636\t1424\t231\t-1\t\n4\t1\t5\t1\t1\t0\t139\t636\t1367\t39\t-1\t\n5\t1\t5\t1\t1\t1\t139\t636\t27\t30\t93.092461\tO\n5\t1\t5\t1\t1\t2\t178\t636\t147\t39\t95.469025\tobjetivo\n5\t1\t5\t1\t1\t3\t334\t636\t127\t30\t95.764687\tcentral\n5\t1\t5\t1\t1\t4\t473\t636\t45\t30\t95.764687\tdo\n5\t1\t5\t1\t1\t5\t530\t636\t75\t30\t96.426842\tlivro\n5\t1\t5\t1\t1\t6\t617\t636\t18\t30\t94.863846\té\n5\t1\t5\t1\t1\t7\t647\t636\t213\t30\t96.594734\tdemonstrar\n5\t1\t5\t1\t1\t8\t872\t645\t66\t30\t96.594734\tque\n5\t1\t5\t1\t1\t9\t950\t636\t126\t30\t96.676064\tDeus\n5\t1\t5\t1\t1\t10\t1047\t632\t17\t47\t96.978340\té\n5\t1\t5\t1\t1\t11\t1085\t636\t54\t30\t33.378067\tfiel\n5\t1\t5\t1\t1\t12\t1151\t645\t84\t30\t96.769745\tpara\n5\t1\t5\t1\t1\t13\t1244\t636\t151\t39\t96.122879\tcumprir\n5\t1\t5\t1\t1\t14\t1404\t645\t21\t21\t95.919624\to\n5\t1\t5\t1\t1\t15\t1434\t645\t72\t30\t96.260254\tque\n4\t1\t5\t1\t2\t0\t139\t699\t1346\t39\t-1\t\n5\t1\t5\t1\t2\t1\t139\t702\t168\t36\t96.404846\tpromete.\n5\t1\t5\t1\t2\t2\t322\t699\t24\t30\t94.681168\tÀ\n5\t1\t5\t1\t2\t3\t358\t699\t181\t39\t96.078583\tconquista\n5\t1\t5\t1\t2\t4\t548\t699\t45\t33\t96.913155\tde\n5\t1\t5\t1\t2\t5\t605\t699\t114\t33\t95.825020\tCanaã\n5\t1\t5\t1\t2\t6\t731\t702\t63\t30\t96.869827\tnão\n5\t1\t5\t1\t2\t7\t806\t699\t21\t33\t96.960732\té\n5\t1\t5\t1\t2\t8\t836\t708\t132\t30\t96.936531\tapenas\n5\t1\t5\t1\t2\t9\t977\t708\t57\t24\t96.855026\tum\n5\t1\t5\t1\t2\t10\t1046\t699\t81\t33\t95.794044\tfeito\n5\t1\t5\t1\t2\t11\t1139\t699\t120\t36\t95.083199\tmilitar,\n5\t1\t5\t1\t2\t12\t1274\t708\t73\t24\t96.766113\tmas\n5\t1\t5\t1\t2\t13\t1359\t708\t54\t24\t96.829498\tum\n5\t1\t5\t1\t2\t14\t1425\t702\t60\t30\t95.843269\tato\n4\t1\t5\t1\t3\t0\t139\t765\t1424\t36\t-1\t\n5\t1\t5\t1\t3\t1\t139\t765\t183\t36\t91.366745\tespiritual,\n5\t1\t5\t1\t3\t2\t334\t774\t57\t21\t95.903130\tem\n5\t1\t5\t1\t3\t3\t403\t774\t67\t27\t96.572937\tque\n5\t1\t5\t1\t3\t4\t482\t765\t84\t30\t96.603943\tcada\n5\t1\t5\t1\t3\t5\t578\t765\t111\t30\t96.665466\tvitória\n5\t1\t5\t1\t3\t6\t701\t774\t75\t21\t96.914574\tvem\n5\t1\t5\t1\t3\t7\t791\t765\t72\t36\t96.458176\tpela\n5\t1\t5\t1\t3\t8\t875\t765\t33\t30\t65.687843\tfé\n5\t1\t5\t1\t3\t9\t920\t774\t18\t21\t95.761940\te\n5\t1\t5\t1\t3\t10\t950\t765\t210\t30\t93.063507\tobediência.\n5\t1\t5\t1\t3\t11\t1169\t765\t108\t30\t95.356476\tJosué\n5\t1\t5\t1\t3\t12\t1286\t765\t21\t30\t94.412346\té\n5\t1\t5\t1\t3\t13\t1316\t774\t22\t21\t95.091927\to\n5\t1\t5\t1\t3\t14\t1347\t765\t159\t36\t94.213959\texemplo\n5\t1\t5\t1\t3\t15\t1515\t765\t48\t30\t96.137466\tdo\n4\t1\t5\t1\t4\t0\t139\t828\t1111\t39\t-1\t\n5\t1\t5\t1\t4\t1\t139\t828\t81\t33\t95.972260\tlider\n5\t1\t5\t1\t4\t2\t229\t837\t69\t30\t95.870522\tque\n5\t1\t5\t1\t4\t3\t307\t837\t99\t27\t95.829521\touve,\n5\t1\t5\t1\t4\t4\t418\t828\t115\t33\t96.277138\tconfia\n5\t1\t5\t1\t4\t5\t542\t837\t21\t21\t93.292854\te\n5\t1\t5\t1\t4\t6\t575\t837\t66\t30\t96.191170\tage\n5\t1\t5\t1\t4\t7\t650\t831\t48\t30\t96.567154\tde\n5\t1\t5\t1\t4\t8\t707\t831\t129\t30\t95.790344\tacordo\n5\t1\t5\t1\t4\t9\t845\t837\t84\t24\t96.831238\tcom\n5\t1\t5\t1\t4\t10\t938\t837\t21\t24\t96.186440\ta\n5\t1\t5\t1\t4\t11\t968\t828\t153\t33\t96.186440\tvontade\n5\t1\t5\t1\t4\t12\t1130\t828\t120\t33\t95.897224\tdivina.\n2\t1\t6\t0\t0\t0\t142\t936\t754\t36\t-1\t\n3\t1\t6\t1\t0\t0\t142\t936\t754\t36\t-1\t\n4\t1\t6\t1\t1\t0\t142\t936\t754\t36\t-1\t\n5\t1\t6\t1\t1\t1\t142\t942\t51\t30\t44.611290\t=)\n5\t1\t6\t1\t1\t2\t208\t936\t283\t36\t96.545593\tESTRUTURA\n5\t1\t6\t1\t1\t3\t503\t936\t156\t36\t96.221161\tGERAL\n5\t1\t6\t1\t1\t4\t674\t936\t69\t36\t96.104492\tDO\n5\t1\t6\t1\t1\t5\t755\t936\t141\t36\t95.597626\tLIVRO\n2\t1\t7\t0\t0\t0\t172\t1065\t90\t30\t-1\t\n3\t1\t7\t1\t0\t0\t172\t1065\t90\t30\t-1\t\n4\t1\t7\t1\t1\t0\t172\t1065\t90\t30\t-1\t\n5\t1\t7\t1\t1\t1\t172\t1065\t90\t30\t72.981171\tSeção\n2\t1\t8\t0\t0\t0\t172\t1161\t373\t39\t-1\t\n3\t1\t8\t1\t0\t0\t172\t1161\t373\t39\t-1\t\n4\t1\t8\t1\t1\t0\t172\t1161\t373\t39\t-1\t\n5\t1\t8\t1\t1\t1\t172\t1164\t21\t27\t81.483704\t1\n5\t1\t8\t1\t1\t2\t205\t1161\t216\t39\t96.459473\tPreparação\n5\t1\t8\t1\t1\t3\t430\t1170\t85\t30\t96.697021\tpara\n5\t1\t8\t1\t1\t4\t524\t1170\t21\t21\t96.642616\ta\n2\t1\t9\t0\t0\t0\t172\t1224\t192\t39\t-1\t\n3\t1\t9\t1\t0\t0\t172\t1224\t192\t39\t-1\t\n4\t1\t9\t1\t1\t0\t172\t1224\t192\t39\t-1\t\n5\t1\t9\t1\t1\t1\t172\t1224\t192\t39\t96.250961\tConquista\n2\t1\t10\t0\t0\t0\t172\t1392\t418\t39\t-1\t\n3\t1\t10\t1\t0\t0\t172\t1392\t418\t39\t-1\t\n4\t1\t10\t1\t1\t0\t172\t1392\t418\t39\t-1\t\n5\t1\t10\t1\t1\t1\t172\t1392\t30\t33\t83.854477\t2.\n5\t1\t10\t1\t1\t2\t214\t1392\t192\t39\t96.705528\tConquista\n5\t1\t10\t1\t1\t3\t415\t1392\t49\t33\t96.097443\tde\n5\t1\t10\t1\t1\t4\t473\t1392\t117\t33\t94.634903\tCanaã\n2\t1\t11\t0\t0\t0\t172\t1563\t337\t30\t-1\t\n3\t1\t11\t1\t0\t0\t172\t1563\t337\t30\t-1\t\n4\t1\t11\t1\t1\t0\t172\t1563\t337\t30\t-1\t\n5\t1\t11\t1\t1\t1\t172\t1563\t30\t30\t72.684372\t3.\n5\t1\t11\t1\t1\t2\t214\t1563\t135\t30\t96.512222\tDivisão\n5\t1\t11\t1\t1\t3\t358\t1563\t45\t30\t96.931503\tda\n5\t1\t11\t1\t1\t4\t415\t1563\t94\t30\t95.972916\tTerra\n2\t1\t12\t0\t0\t0\t172\t1731\t382\t156\t-1\t\n3\t1\t12\t1\t0\t0\t172\t1731\t382\t156\t-1\t\n4\t1\t12\t1\t1\t0\t172\t1731\t301\t39\t-1\t\n5\t1\t12\t1\t1\t1\t172\t1731\t33\t30\t94.238449\t4.\n5\t1\t12\t1\t1\t2\t214\t1731\t207\t39\t95.963387\tRenovação\n5\t1\t12\t1\t1\t3\t427\t1731\t46\t30\t96.280647\tda\n4\t1\t12\t1\t2\t0\t172\t1794\t382\t39\t-1\t\n5\t1\t12\t1\t2\t1\t172\t1794\t138\t39\t96.051971\tAliança\n5\t1\t12\t1\t2\t2\t322\t1803\t21\t21\t96.464302\te\n5\t1\t12\t1\t2\t3\t352\t1794\t202\t39\t96.314163\tDespedida\n4\t1\t12\t1\t3\t0\t172\t1857\t162\t30\t-1\t\n5\t1\t12\t1\t3\t1\t172\t1860\t45\t27\t96.871407\tde\n5\t1\t12\t1\t3\t2\t226\t1857\t108\t30\t96.409607\tJosué\n2\t1\t13\t0\t0\t0\t677\t1065\t144\t30\t-1\t\n3\t1\t13\t1\t0\t0\t677\t1065\t144\t30\t-1\t\n4\t1\t13\t1\t1\t0\t677\t1065\t144\t30\t-1\t\n5\t1\t13\t1\t1\t1\t677\t1065\t144\t30\t96.569382\tCapítulos\n2\t1\t14\t0\t0\t0\t677\t1161\t57\t30\t-1\t\n3\t1\t14\t1\t0\t0\t677\t1161\t57\t30\t-1\t\n4\t1\t14\t1\t1\t0\t677\t1161\t57\t30\t-1\t\n5\t1\t14\t1\t1\t1\t677\t1161\t57\t30\t89.487801\t1-5\n2\t1\t15\t0\t0\t0\t677\t1392\t75\t33\t-1\t\n3\t1\t15\t1\t0\t0\t677\t1392\t75\t33\t-1\t\n4\t1\t15\t1\t1\t0\t677\t1392\t75\t33\t-1\t\n5\t1\t15\t1\t1\t1\t677\t1392\t75\t33\t58.673977\t65-12\n2\t1\t16\t0\t0\t0\t674\t1563\t93\t30\t-1\t\n3\t1\t16\t1\t0\t0\t674\t1563\t93\t30\t-1\t\n4\t1\t16\t1\t1\t0\t674\t1563\t93\t30\t-1\t\n5\t1\t16\t1\t1\t1\t674\t1563\t93\t30\t3.905182\t13-21\n2\t1\t17\t0\t0\t0\t677\t1731\t102\t30\t-1\t\n3\t1\t17\t1\t0\t0\t677\t1731\t102\t30\t-1\t\n4\t1\t17\t1\t1\t0\t677\t1731\t102\t30\t-1\t\n5\t1\t17\t1\t1\t1\t677\t1731\t102\t30\t91.897537\t22-24\n2\t1\t18\t0\t0\t0\t1178\t1065\t202\t24\t-1\t\n3\t1\t18\t1\t0\t0\t1178\t1065\t202\t24\t-1\t\n4\t1\t18\t1\t1\t0\t1178\t1065\t202\t24\t-1\t\n5\t1\t18\t1\t1\t1\t1178\t1065\t81\t24\t93.486107\tTema\n5\t1\t18\t1\t1\t2\t1268\t1065\t112\t24\t96.216103\tCentral\n2\t1\t19\t0\t0\t0\t1178\t1161\t409\t39\t-1\t\n3\t1\t19\t1\t0\t0\t1178\t1161\t409\t39\t-1\t\n4\t1\t19\t1\t1\t0\t1178\t1161\t409\t39\t-1\t\n5\t1\t19\t1\t1\t1\t1178\t1164\t27\t27\t93.932945\tA\n5\t1\t19\t1\t1\t2\t1217\t1161\t193\t39\t96.200874\tnomeação\n5\t1\t19\t1\t1\t3\t1419\t1161\t45\t30\t96.092422\tde\n5\t1\t19\t1\t1\t4\t1473\t1161\t114\t36\t96.380081\tJosué,\n2\t1\t20\t0\t0\t0\t1178\t1224\t421\t105\t-1\t\n3\t1\t20\t1\t0\t0\t1178\t1224\t421\t105\t-1\t\n4\t1\t20\t1\t1\t0\t1178\t1224\t412\t33\t-1\t\n5\t1\t20\t1\t1\t1\t1178\t1233\t21\t24\t96.300507\ta\n5\t1\t20\t1\t1\t2\t1208\t1224\t163\t33\t96.259552\ttravessia\n5\t1\t20\t1\t1\t3\t1380\t1227\t48\t30\t96.697884\tdo\n5\t1\t20\t1\t1\t4\t1437\t1224\t123\t33\t85.438789\tJordão\n5\t1\t20\t1\t1\t5\t1569\t1233\t21\t24\t85.438789\te\n4\t1\t20\t1\t2\t0\t1178\t1290\t421\t39\t-1\t\n5\t1\t20\t1\t2\t1\t1178\t1299\t18\t21\t0.000000\ta\n5\t1\t20\t1\t2\t2\t1208\t1290\t193\t39\t0.000000\trenovação\n5\t1\t20\t1\t2\t3\t1410\t1290\t42\t30\t96.609756\tda\n5\t1\t20\t1\t2\t4\t1464\t1290\t135\t39\t91.414284\taliança.\n2\t1\t21\t0\t0\t0\t1178\t1392\t439\t96\t-1\t\n3\t1\t21\t1\t0\t0\t1178\t1392\t439\t96\t-1\t\n4\t1\t21\t1\t1\t0\t1178\t1392\t439\t39\t-1\t\n5\t1\t21\t1\t1\t1\t1178\t1392\t45\t33\t69.558830\tAs\n5\t1\t21\t1\t1\t2\t1235\t1395\t211\t36\t94.448929\tcampanhas\n5\t1\t21\t1\t1\t3\t1458\t1392\t159\t33\t96.629982\tmilitares\n4\t1\t21\t1\t2\t0\t1181\t1458\t307\t30\t-1\t\n5\t1\t21\t1\t2\t1\t1181\t1467\t42\t21\t59.299717\tno\n5\t1\t21\t1\t2\t2\t1235\t1458\t136\t30\t59.299717\tsuleno\n5\t1\t21\t1\t2\t3\t1383\t1461\t105\t27\t94.285461\tnorte.\n2\t1\t22\t0\t0\t0\t1178\t1563\t427\t102\t-1\t\n3\t1\t22\t1\t0\t0\t1178\t1563\t427\t102\t-1\t\n4\t1\t22\t1\t1\t0\t1178\t1563\t307\t36\t-1\t\n5\t1\t22\t1\t1\t1\t1178\t1563\t27\t30\t77.534157\tÀ\n5\t1\t22\t1\t1\t2\t1214\t1563\t220\t36\t93.936264\tdistribuição\n5\t1\t22\t1\t1\t3\t1443\t1563\t42\t30\t96.728668\tda\n4\t1\t22\t1\t2\t0\t1181\t1629\t424\t36\t-1\t\n5\t1\t22\t1\t2\t1\t1181\t1629\t145\t36\t96.683701\therança\n5\t1\t22\t1\t2\t2\t1338\t1629\t96\t27\t95.974167\tentre\n5\t1\t22\t1\t2\t3\t1443\t1635\t42\t21\t90.754158\tas\n5\t1\t22\t1\t2\t4\t1491\t1629\t114\t27\t90.754158\ttribos.\n2\t1\t23\t0\t0\t0\t1181\t1731\t373\t156\t-1\t\n3\t1\t23\t1\t0\t0\t1181\t1731\t373\t156\t-1\t\n4\t1\t23\t1\t1\t0\t1181\t1731\t373\t36\t-1\t\n5\t1\t23\t1\t1\t1\t1181\t1731\t205\t36\t91.207764\tExortações\n5\t1\t23\t1\t1\t2\t1395\t1731\t129\t30\t83.843613\tfinaise\n5\t1\t23\t1\t1\t3\t1533\t1740\t21\t21\t96.171082\to\n4\t1\t23\t1\t2\t0\t1181\t1794\t358\t39\t-1\t\n5\t1\t23\t1\t2\t1\t1181\t1794\t123\t39\t96.542580\tlegado\n5\t1\t23\t1\t2\t2\t1313\t1794\t169\t39\t95.024231\tespiritual\n5\t1\t23\t1\t2\t3\t1491\t1797\t48\t27\t96.173325\tdo\n4\t1\t23\t1\t3\t0\t1181\t1857\t84\t30\t-1\t\n5\t1\t23\t1\t3\t1\t1181\t1857\t84\t30\t95.247482\tlider.\n2\t1\t24\t0\t0\t0\t148\t1974\t1376\t54\t-1\t\n3\t1\t24\t1\t0\t0\t148\t1974\t1376\t54\t-1\t\n4\t1\t24\t1\t1\t0\t148\t1974\t1376\t54\t-1\t\n5\t1\t24\t1\t1\t1\t148\t1980\t39\t48\t33.273552\t()\n5\t1\t24\t1\t1\t2\t208\t1986\t30\t36\t77.069305\tA\n5\t1\t24\t1\t1\t3\t253\t1986\t280\t36\t77.069305\tCONQUISTA\n5\t1\t24\t1\t1\t4\t545\t1986\t63\t36\t96.300766\tDA\n5\t1\t24\t1\t1\t5\t623\t1983\t282\t45\t79.458099\tPROMESSA\n5\t1\t24\t1\t1\t6\t891\t1970\t24\t69\t79.458099\t|\n5\t1\t24\t1\t1\t7\t935\t1977\t24\t45\t32.101135\t?\n5\t1\t24\t1\t1\t8\t986\t1986\t33\t36\t46.806801\tA\n5\t1\t24\t1\t1\t9\t1031\t1974\t255\t48\t46.806801\tCOMISSÃO\n5\t1\t24\t1\t1\t10\t1301\t1986\t61\t36\t96.027145\tDE\n5\t1\t24\t1\t1\t11\t1374\t1974\t150\t48\t94.949318\tJOSUÉ\n2\t1\t25\t0\t0\t0\t142\t2046\t246\t45\t-1\t\n3\t1\t25\t1\t0\t0\t142\t2046\t246\t45\t-1\t\n4\t1\t25\t1\t1\t0\t142\t2046\t246\t45\t-1\t\n5\t1\t25\t1\t1\t1\t142\t2046\t201\t45\t96.258141\t(Capítulo\n5\t1\t25\t1\t1\t2\t355\t2046\t33\t42\t96.307953\t1)\n2\t1\t26\t0\t0\t0\t139\t2160\t1424\t99\t-1\t\n3\t1\t26\t1\t0\t0\t139\t2160\t1424\t99\t-1\t\n4\t1\t26\t1\t1\t0\t139\t2160\t1412\t36\t-1\t\n5\t1\t26\t1\t1\t1\t139\t2160\t93\t36\t85.485062\tApós\n5\t1\t26\t1\t1\t2\t244\t2169\t18\t21\t93.736786\ta\n5\t1\t26\t1\t1\t3\t274\t2163\t108\t27\t93.736786\tmorte\n5\t1\t26\t1\t1\t4\t394\t2160\t45\t30\t96.967667\tde\n5\t1\t26\t1\t1\t5\t451\t2160\t136\t33\t95.256538\tMoisés,\n5\t1\t26\t1\t1\t6\t599\t2160\t93\t30\t95.874191\tDeus\n5\t1\t26\t1\t1\t7\t701\t2160\t162\t30\t96.311920\tconfirma\n5\t1\t26\t1\t1\t8\t875\t2160\t105\t30\t96.637535\tJosué\n5\t1\t26\t1\t1\t9\t989\t2166\t102\t24\t96.272202\tcomo\n5\t1\t26\t1\t1\t10\t1103\t2169\t21\t21\t96.101608\to\n5\t1\t26\t1\t1\t11\t1136\t2169\t87\t21\t96.101608\tnovo\n5\t1\t26\t1\t1\t12\t1235\t2160\t78\t30\t92.327629\tlider\n5\t1\t26\t1\t1\t13\t1326\t2169\t18\t21\t82.216110\te\n5\t1\t26\t1\t1\t14\t1356\t2160\t51\t30\t96.710129\tlhe\n5\t1\t26\t1\t1\t15\t1419\t2160\t51\t30\t96.597008\tfaz\n5\t1\t26\t1\t1\t16\t1482\t2160\t69\t30\t96.743347\ttrês\n4\t1\t26\t1\t2\t0\t139\t2223\t1424\t36\t-1\t\n5\t1\t26\t1\t2\t1\t139\t2232\t207\t27\t92.614532\tpromessas:\n5\t1\t26\t1\t2\t2\t361\t2232\t172\t27\t96.145676\tpresença\n5\t1\t26\t1\t2\t3\t542\t2226\t201\t30\t96.145676\tconstante,\n5\t1\t26\t1\t2\t4\t752\t2223\t120\t30\t96.243729\tvitória\n5\t1\t26\t1\t2\t5\t881\t2223\t108\t30\t96.143639\tsobre\n5\t1\t26\t1\t2\t6\t998\t2232\t42\t21\t96.349121\tos\n5\t1\t26\t1\t2\t7\t1049\t2223\t162\t36\t94.618706\tinimigos\n5\t1\t26\t1\t2\t8\t1220\t2232\t21\t21\t94.047989\te\n5\t1\t26\t1\t2\t9\t1250\t2223\t259\t36\t96.042595\tcumprimento\n5\t1\t26\t1\t2\t10\t1518\t2223\t45\t30\t96.908043\tda\n2\t1\t27\t0\t0\t0\t139\t2286\t1472\t39\t-1\t\n3\t1\t27\t1\t0\t0\t139\t2286\t1472\t39\t-1\t\n4\t1\t27\t1\t1\t0\t139\t2286\t1472\t39\t-1\t\n5\t1\t27\t1\t1\t1\t139\t2289\t150\t36\t95.831741\therança\n5\t1\t27\t1\t1\t2\t301\t2286\t205\t39\t96.079834\tprometida.\n5\t1\t27\t1\t1\t3\t521\t2289\t93\t27\t94.803436\tDeus\n5\t1\t27\t1\t1\t4\t623\t2289\t117\t36\t94.803436\trepete\n5\t1\t27\t1\t1\t5\t752\t2295\t18\t21\t96.416832\ta\n5\t1\t27\t1\t1\t6\t779\t2289\t129\t27\t93.133202\tordem:\n5\t1\t27\t1\t1\t7\t923\t2286\t57\t30\t60.943901\tS&",
+            "confidence": 45.259781
+          },
+          {
+            "word": "corajoso”,",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 52,
+        "meanConfidence": 93.31,
+        "words": 257,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "ES",
+            "confidence": 44.750778
+          },
+          {
+            "word": "ACÃ",
+            "confidence": 53.33313
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 53,
+        "meanConfidence": 93.03,
+        "words": 230,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "“O",
+            "confidence": 18.92849
+          },
+          {
+            "word": "Deus",
+            "confidence": 18.319595
+          },
+          {
+            "word": "e",
+            "confidence": 18.319595
+          },
+          {
+            "word": "à",
+            "confidence": 40.495499
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 54,
+        "meanConfidence": 90.87,
+        "words": 190,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "=",
+            "confidence": 24.004753
+          },
+          {
+            "word": "“Escolhei",
+            "confidence": 45.691101
+          },
+          {
+            "word": "Hosué",
+            "confidence": 26.176781
+          },
+          {
+            "word": "€",
+            "confidence": 16.764374
+          },
+          {
+            "word": "fé.",
+            "confidence": 21.262398
+          },
+          {
+            "word": "Acaã",
+            "confidence": 50.799442
+          },
+          {
+            "word": "se",
+            "confidence": 0.0
+          },
+          {
+            "word": "opôs",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 55,
+        "meanConfidence": 90.75,
+        "words": 86,
+        "segmentation": "sparse-fallback",
+        "lowConfidenceWords": [
+          {
+            "word": "»«",
+            "confidence": 50.397163
+          },
+          {
+            "word": "1",
+            "confidence": 54.813316
+          },
+          {
+            "word": "toda",
+            "confidence": 48.763485
+          },
+          {
+            "word": "a",
+            "confidence": 48.763485
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 56,
+        "meanConfidence": 90.39,
+        "words": 180,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "«»",
+            "confidence": 44.33762
+          },
+          {
+            "word": "TO",
+            "confidence": 45.59137
+          },
+          {
+            "word": "Losué",
+            "confidence": 0.0
+          },
+          {
+            "word": "Dietis",
+            "confidence": 42.278397
+          },
+          {
+            "word": "stias",
+            "confidence": 19.823677
+          },
+          {
+            "word": "o",
+            "confidence": 36.272427
+          },
+          {
+            "word": "KI",
+            "confidence": 23.707512
+          },
+          {
+            "word": "“Jordões\",",
+            "confidence": 38.400917
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 57,
+        "meanConfidence": 81.71,
+        "words": 290,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "Em",
+            "confidence": 31.029495
+          },
+          {
+            "word": "ET",
+            "confidence": 0.0
+          },
+          {
+            "word": "utlatoi)",
+            "confidence": 0.0
+          },
+          {
+            "word": "Edema",
+            "confidence": 8.082695
+          },
+          {
+            "word": "autoria",
+            "confidence": 0.0
+          },
+          {
+            "word": "exata",
+            "confidence": 0.0
+          },
+          {
+            "word": "so",
+            "confidence": 44.185387
+          },
+          {
+            "word": "O",
+            "confidence": 29.153564
+          },
+          {
+            "word": "livro",
+            "confidence": 10.678093
+          },
+          {
+            "word": "cobre",
+            "confidence": 10.678093
+          },
+          {
+            "word": "aproximadamente",
+            "confidence": 43.627529
+          },
+          {
+            "word": "lerael.",
+            "confidence": 8.1931
+          },
+          {
+            "word": "“7",
+            "confidence": 54.864326
+          },
+          {
+            "word": "c,",
+            "confidence": 49.573921
+          },
+          {
+            "word": "1380",
+            "confidence": 30.03022
+          },
+          {
+            "word": "a.C.",
+            "confidence": 17.552223
+          },
+          {
+            "word": "a",
+            "confidence": 17.552223
+          },
+          {
+            "word": "a.C.",
+            "confidence": 38.860199
+          },
+          {
+            "word": "dispersas,",
+            "confidence": 42.019188
+          },
+          {
+            "word": "—",
+            "confidence": 39.287445
+          },
+          {
+            "word": "fé",
+            "confidence": 49.330696
+          },
+          {
+            "word": "=:",
+            "confidence": 40.025146
+          },
+          {
+            "word": "O",
+            "confidence": 19.01165
+          },
+          {
+            "word": "livro",
+            "confidence": 19.01165
+          },
+          {
+            "word": "Deusa",
+            "confidence": 46.150406
+          },
+          {
+            "word": "israel",
+            "confidence": 41.929733
+          },
+          {
+            "word": "ds",
+            "confidence": 51.324738
+          },
+          {
+            "word": "forma",
+            "confidence": 46.828735
+          },
+          {
+            "word": "ao",
+            "confidence": 45.993633
+          },
+          {
+            "word": "sofrimento,",
+            "confidence": 52.792206
+          },
+          {
+            "word": "E",
+            "confidence": 50.485764
+          },
+          {
+            "word": "pevoclama",
+            "confidence": 48.321861
+          },
+          {
+            "word": "5",
+            "confidence": 44.671051
+          },
+          {
+            "word": "]",
+            "confidence": 0.0
+          },
+          {
+            "word": "o",
+            "confidence": 44.895515
+          },
+          {
+            "word": "ciclo",
+            "confidence": 44.895515
+          },
+          {
+            "word": "cartamático",
+            "confidence": 42.056656
+          },
+          {
+            "word": "FECOMECa.",
+            "confidence": 44.763836
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 58,
+        "meanConfidence": 93.09,
+        "words": 114,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "4",
+            "confidence": 0.0
+          },
+          {
+            "word": "e,",
+            "confidence": 13.666428
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 59,
+        "meanConfidence": 64.4,
+        "words": 111,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "à",
+            "confidence": 34.067749
+          },
+          {
+            "word": "Otoniol",
+            "confidence": 35.905769
+          },
+          {
+            "word": "Juclã",
+            "confidence": 9.128113
+          },
+          {
+            "word": "Manassés",
+            "confidence": 12.860451
+          },
+          {
+            "word": "Issacar",
+            "confidence": 38.756538
+          },
+          {
+            "word": "Manassés",
+            "confidence": 48.635895
+          },
+          {
+            "word": "Manassés",
+            "confidence": 53.436424
+          },
+          {
+            "word": "Jucá",
+            "confidence": 47.686733
+          },
+          {
+            "word": "a",
+            "confidence": 2.642662
+          },
+          {
+            "word": "anos",
+            "confidence": 30.505081
+          },
+          {
+            "word": "40",
+            "confidence": 33.722313
+          },
+          {
+            "word": "anos",
+            "confidence": 33.722313
+          },
+          {
+            "word": "Z3anos",
+            "confidence": 45.227692
+          },
+          {
+            "word": "22",
+            "confidence": 0.0
+          },
+          {
+            "word": "anos",
+            "confidence": 0.0
+          },
+          {
+            "word": "É",
+            "confidence": 25.391861
+          },
+          {
+            "word": "Tanos",
+            "confidence": 0.0
+          },
+          {
+            "word": "Danos",
+            "confidence": 29.845802
+          },
+          {
+            "word": "gl",
+            "confidence": 49.118523
+          },
+          {
+            "word": "Moabitas",
+            "confidence": 42.724464
+          },
+          {
+            "word": "18",
+            "confidence": 41.758999
+          },
+          {
+            "word": "4",
+            "confidence": 46.90818
+          },
+          {
+            "word": "Juizes",
+            "confidence": 43.571453
+          },
+          {
+            "word": "3/7=",
+            "confidence": 15.353539
+          },
+          {
+            "word": "312-",
+            "confidence": 0.0
+          },
+          {
+            "word": "Juizes",
+            "confidence": 53.62748
+          },
+          {
+            "word": "6-8",
+            "confidence": 16.914688
+          },
+          {
+            "word": "Juizes",
+            "confidence": 32.994072
+          },
+          {
+            "word": "101-",
+            "confidence": 0.0
+          },
+          {
+            "word": "Juizes",
+            "confidence": 27.109489
+          },
+          {
+            "word": "10B-",
+            "confidence": 0.0
+          },
+          {
+            "word": "127",
+            "confidence": 0.0
+          },
+          {
+            "word": "1211-412",
+            "confidence": 32.669037
+          },
+          {
+            "word": "1",
+            "confidence": 0.0
+          },
+          {
+            "word": "Samuel",
+            "confidence": 0.0
+          },
+          {
+            "word": "1-",
+            "confidence": 37.287666
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 60,
+        "meanConfidence": 88.66,
+        "words": 217,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "(7",
+            "confidence": 28.481949
+          },
+          {
+            "word": "dos",
+            "confidence": 0.0
+          },
+          {
+            "word": "cânticos",
+            "confidence": 0.0
+          },
+          {
+            "word": "(ulzes",
+            "confidence": 16.802605
+          },
+          {
+            "word": "!!",
+            "confidence": 0.0
+          },
+          {
+            "word": "amenitas,",
+            "confidence": 31.551247
+          },
+          {
+            "word": "história",
+            "confidence": 44.627285
+          },
+          {
+            "word": "»“«",
+            "confidence": 7.05468
+          },
+          {
+            "word": "tgrael.",
+            "confidence": 26.11525
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 61,
+        "meanConfidence": 91.13,
+        "words": 115,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "[E",
+            "confidence": 11.589729
+          },
+          {
+            "word": "0",
+            "confidence": 0.0
+          },
+          {
+            "word": "imperfeitos",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 62,
+        "meanConfidence": 89.79,
+        "words": 146,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "HE)",
+            "confidence": 36.694946
+          },
+          {
+            "word": "[Destaque",
+            "confidence": 0.0
+          },
+          {
+            "word": "llbertou",
+            "confidence": 16.915733
+          },
+          {
+            "word": "Eglam,",
+            "confidence": 51.668922
+          },
+          {
+            "word": "fé.",
+            "confidence": 40.819191
+          },
+          {
+            "word": "símbolo",
+            "confidence": 43.392735
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 63,
+        "meanConfidence": 91.06,
+        "words": 245,
+        "segmentation": "visually-checked-column-regions",
+        "lowConfidenceWords": [
+          {
+            "word": "1150",
+            "confidence": 51.836899
+          },
+          {
+            "word": "a",
+            "confidence": 51.836899
+          },
+          {
+            "word": "a.C.",
+            "confidence": 8.14373
+          },
+          {
+            "word": "perder",
+            "confidence": 11.398766
+          },
+          {
+            "word": "o",
+            "confidence": 11.398766
+          },
+          {
+            "word": "+",
+            "confidence": 11.230042
+          },
+          {
+            "word": "Ocenário",
+            "confidence": 30.80558
+          },
+          {
+            "word": "A",
+            "confidence": 53.734364
+          },
+          {
+            "word": "leva",
+            "confidence": 53.144302
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 64,
+        "meanConfidence": 91.97,
+        "words": 218,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "Rute",
+            "confidence": 41.071205
+          },
+          {
+            "word": "fidelidade",
+            "confidence": 48.00219
+          },
+          {
+            "word": "[ia]",
+            "confidence": 31.919579
+          },
+          {
+            "word": "os?",
+            "confidence": 48.522354
+          },
+          {
+            "word": " Rutese",
+            "confidence": 4.571465
+          },
+          {
+            "word": "a",
+            "confidence": 50.287552
+          },
+          {
+            "word": "dedicação",
+            "confidence": 50.287552
+          },
+          {
+            "word": "famíliae",
+            "confidence": 48.957325
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 65,
+        "meanConfidence": 90.49,
+        "words": 165,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "“&",
+            "confidence": 50.867237
+          },
+          {
+            "word": "e",
+            "confidence": 52.621197
+          },
+          {
+            "word": "próprio",
+            "confidence": 36.279495
+          },
+          {
+            "word": "Judã)",
+            "confidence": 30.997025
+          },
+          {
+            "word": "Jogsá",
+            "confidence": 0.0
+          },
+          {
+            "word": "1:5).",
+            "confidence": 46.969574
+          },
+          {
+            "word": "-—",
+            "confidence": 17.548378
+          },
+          {
+            "word": "O",
+            "confidence": 43.333618
+          },
+          {
+            "word": "livro",
+            "confidence": 43.333618
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 66,
+        "meanConfidence": 90.06,
+        "words": 221,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "+",
+            "confidence": 26.957718
+          },
+          {
+            "word": "&",
+            "confidence": 0.0
+          },
+          {
+            "word": ">",
+            "confidence": 29.065208
+          },
+          {
+            "word": "“£",
+            "confidence": 32.664742
+          },
+          {
+            "word": "4:18-22)",
+            "confidence": 50.585266
+          },
+          {
+            "word": "&9",
+            "confidence": 26.176941
+          },
+          {
+            "word": "acompanhá-la,",
+            "confidence": 43.389263
+          },
+          {
+            "word": "lei",
+            "confidence": 0.0
+          },
+          {
+            "word": "do",
+            "confidence": 0.0
+          },
+          {
+            "word": "“É",
+            "confidence": 53.45612
+          },
+          {
+            "word": "dA",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 67,
+        "meanConfidence": 90.75,
+        "words": 276,
+        "segmentation": "visually-checked-column-regions",
+        "lowConfidenceWords": [
+          {
+            "word": "ALItO!",
+            "confidence": 0.0
+          },
+          {
+            "word": "o",
+            "confidence": 18.863998
+          },
+          {
+            "word": "profeta",
+            "confidence": 18.863998
+          },
+          {
+            "word": "históricos",
+            "confidence": 5.378265
+          },
+          {
+            "word": "operíodo",
+            "confidence": 45.640083
+          },
+          {
+            "word": "Samuel!",
+            "confidence": 0.0
+          },
+          {
+            "word": "o",
+            "confidence": 45.481506
+          },
+          {
+            "word": "início",
+            "confidence": 45.481506
+          },
+          {
+            "word": "rei;",
+            "confidence": 36.155716
+          },
+          {
+            "word": "e",
+            "confidence": 36.155716
+          },
+          {
+            "word": "a",
+            "confidence": 51.039509
+          },
+          {
+            "word": "Deus",
+            "confidence": 51.039509
+          },
+          {
+            "word": "1",
+            "confidence": 21.503052
+          },
+          {
+            "word": "Samuel",
+            "confidence": 21.503052
+          },
+          {
+            "word": "fe)",
+            "confidence": 48.541454
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 68,
+        "meanConfidence": 90.77,
+        "words": 276,
+        "segmentation": "visually-checked-column-regions",
+        "lowConfidenceWords": [
+          {
+            "word": "ALItO!",
+            "confidence": 0.0
+          },
+          {
+            "word": "o",
+            "confidence": 18.863998
+          },
+          {
+            "word": "profeta",
+            "confidence": 18.863998
+          },
+          {
+            "word": "históricos",
+            "confidence": 5.378265
+          },
+          {
+            "word": "operíodo",
+            "confidence": 45.640083
+          },
+          {
+            "word": "Samuel!",
+            "confidence": 0.0
+          },
+          {
+            "word": "o",
+            "confidence": 45.481506
+          },
+          {
+            "word": "início",
+            "confidence": 45.481506
+          },
+          {
+            "word": "rei;",
+            "confidence": 36.155716
+          },
+          {
+            "word": "e",
+            "confidence": 36.155716
+          },
+          {
+            "word": "a",
+            "confidence": 51.039509
+          },
+          {
+            "word": "Deus",
+            "confidence": 51.039509
+          },
+          {
+            "word": "1",
+            "confidence": 21.503052
+          },
+          {
+            "word": "Samuel",
+            "confidence": 21.503052
+          },
+          {
+            "word": "8",
+            "confidence": 53.577686
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 69,
+        "meanConfidence": 92.79,
+        "words": 277,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "&4",
+            "confidence": 6.47744
+          },
+          {
+            "word": "Samuel",
+            "confidence": 53.317112
+          },
+          {
+            "word": "Ê",
+            "confidence": 22.876984
+          },
+          {
+            "word": "Ea",
+            "confidence": 41.641903
+          },
+          {
+            "word": "ciâme",
+            "confidence": 28.729088
+          },
+          {
+            "word": "Davi",
+            "confidence": 47.33696
+          },
+          {
+            "word": "como",
+            "confidence": 47.33696
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 70,
+        "meanConfidence": 93.79,
+        "words": 157,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "º,",
+            "confidence": 0.0
+          },
+          {
+            "word": "“+",
+            "confidence": 52.44059
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 71,
+        "meanConfidence": 83.84,
+        "words": 257,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "&",
+            "confidence": 18.413475
+          },
+          {
+            "word": "Samuel",
+            "confidence": 11.620438
+          },
+          {
+            "word": "1-2)",
+            "confidence": 11.620438
+          },
+          {
+            "word": "aArca",
+            "confidence": 6.70018
+          },
+          {
+            "word": "mas",
+            "confidence": 0.0
+          },
+          {
+            "word": "sua",
+            "confidence": 0.0
+          },
+          {
+            "word": "desobediência",
+            "confidence": 48.828045
+          },
+          {
+            "word": "o",
+            "confidence": 48.828045
+          },
+          {
+            "word": "“£",
+            "confidence": 0.0
+          },
+          {
+            "word": "mantém-se",
+            "confidence": 37.206631
+          },
+          {
+            "word": "e",
+            "confidence": 0.0
+          },
+          {
+            "word": "recebe",
+            "confidence": 0.0
+          },
+          {
+            "word": "*",
+            "confidence": 42.847237
+          },
+          {
+            "word": "Arcaea",
+            "confidence": 39.795956
+          },
+          {
+            "word": "5-7)",
+            "confidence": 51.519733
+          },
+          {
+            "word": "Área",
+            "confidence": 34.258965
+          },
+          {
+            "word": "devolve-",
+            "confidence": 50.546005
+          },
+          {
+            "word": "lzrael.",
+            "confidence": 2.240364
+          },
+          {
+            "word": "Jânatas",
+            "confidence": 44.246101
+          },
+          {
+            "word": "protegê-lo.",
+            "confidence": 31.827759
+          },
+          {
+            "word": "&,",
+            "confidence": 41.756496
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 72,
+        "meanConfidence": 94.85,
+        "words": 116,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "()",
+            "confidence": 43.388222
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 73,
+        "meanConfidence": 89.19,
+        "words": 141,
+        "segmentation": "visually-checked-column-regions",
+        "lowConfidenceWords": [
+          {
+            "word": "Samuse/",
+            "confidence": 22.279289
+          },
+          {
+            "word": "1010",
+            "confidence": 42.604786
+          },
+          {
+            "word": "e",
+            "confidence": 42.604786
+          },
+          {
+            "word": "2.€.,",
+            "confidence": 7.457893
+          },
+          {
+            "word": "Samuel!",
+            "confidence": 5.874496
+          },
+          {
+            "word": "1",
+            "confidence": 46.160782
+          },
+          {
+            "word": "Samuel",
+            "confidence": 46.160782
+          },
+          {
+            "word": "consequências",
+            "confidence": 28.096542
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 74,
+        "meanConfidence": 72.8,
+        "words": 308,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "à»",
+            "confidence": 25.223877
+          },
+          {
+            "word": "O",
+            "confidence": 18.226616
+          },
+          {
+            "word": "livro",
+            "confidence": 18.226616
+          },
+          {
+            "word": "Jerusalém",
+            "confidence": 54.596638
+          },
+          {
+            "word": "Arca",
+            "confidence": 45.057529
+          },
+          {
+            "word": "aliança",
+            "confidence": 34.577255
+          },
+          {
+            "word": "etora,",
+            "confidence": 35.477631
+          },
+          {
+            "word": "teria",
+            "confidence": 53.41785
+          },
+          {
+            "word": "Jesus",
+            "confidence": 37.778618
+          },
+          {
+            "word": "Sarmmuel",
+            "confidence": 44.809708
+          },
+          {
+            "word": "Does",
+            "confidence": 48.070866
+          },
+          {
+            "word": "=",
+            "confidence": 0.0
+          },
+          {
+            "word": "PA",
+            "confidence": 34.493172
+          },
+          {
+            "word": "ERR",
+            "confidence": 40.29557
+          },
+          {
+            "word": "o",
+            "confidence": 17.107407
+          },
+          {
+            "word": "ts",
+            "confidence": 16.028435
+          },
+          {
+            "word": "Ê",
+            "confidence": 14.990913
+          },
+          {
+            "word": "DM",
+            "confidence": 27.740486
+          },
+          {
+            "word": "=",
+            "confidence": 1.988754
+          },
+          {
+            "word": "NR",
+            "confidence": 14.15416
+          },
+          {
+            "word": "ps",
+            "confidence": 33.171028
+          },
+          {
+            "word": "RD",
+            "confidence": 19.936485
+          },
+          {
+            "word": "9Ns",
+            "confidence": 0.0
+          },
+          {
+            "word": "1",
+            "confidence": 31.399872
+          },
+          {
+            "word": "tim",
+            "confidence": 33.30777
+          },
+          {
+            "word": "Sm",
+            "confidence": 15.247429
+          },
+          {
+            "word": "ds",
+            "confidence": 51.304939
+          },
+          {
+            "word": "pe",
+            "confidence": 42.447098
+          },
+          {
+            "word": "e",
+            "confidence": 28.043755
+          },
+          {
+            "word": "ta",
+            "confidence": 10.355972
+          },
+          {
+            "word": "E",
+            "confidence": 20.418556
+          },
+          {
+            "word": "por",
+            "confidence": 35.854301
+          },
+          {
+            "word": "ASR",
+            "confidence": 14.602188
+          },
+          {
+            "word": "e",
+            "confidence": 23.153748
+          },
+          {
+            "word": "=",
+            "confidence": 52.032185
+          },
+          {
+            "word": "=",
+            "confidence": 40.857769
+          },
+          {
+            "word": "mm",
+            "confidence": 41.125458
+          },
+          {
+            "word": "2-7",
+            "confidence": 0.0
+          },
+          {
+            "word": "Aa",
+            "confidence": 15.413246
+          },
+          {
+            "word": "DRT)",
+            "confidence": 25.698608
+          },
+          {
+            "word": "EM",
+            "confidence": 43.094448
+          },
+          {
+            "word": "ts",
+            "confidence": 20.157898
+          },
+          {
+            "word": "o",
+            "confidence": 28.460426
+          },
+          {
+            "word": "x",
+            "confidence": 30.980011
+          },
+          {
+            "word": "om",
+            "confidence": 12.449631
+          },
+          {
+            "word": "Sea",
+            "confidence": 3.89183
+          },
+          {
+            "word": "j",
+            "confidence": 44.772232
+          },
+          {
+            "word": "dim",
+            "confidence": 27.506836
+          },
+          {
+            "word": "Ba",
+            "confidence": 39.667133
+          },
+          {
+            "word": "bm]",
+            "confidence": 33.488663
+          },
+          {
+            "word": "em",
+            "confidence": 44.366184
+          },
+          {
+            "word": "o",
+            "confidence": 27.344635
+          },
+          {
+            "word": "Do",
+            "confidence": 50.990646
+          },
+          {
+            "word": "a",
+            "confidence": 41.165848
+          },
+          {
+            "word": "a",
+            "confidence": 26.701752
+          },
+          {
+            "word": "da",
+            "confidence": 40.685673
+          },
+          {
+            "word": "e",
+            "confidence": 48.911434
+          },
+          {
+            "word": "A",
+            "confidence": 24.13736
+          },
+          {
+            "word": "o",
+            "confidence": 30.443962
+          },
+          {
+            "word": "je",
+            "confidence": 41.896996
+          },
+          {
+            "word": "eo",
+            "confidence": 10.054787
+          },
+          {
+            "word": "No",
+            "confidence": 41.234291
+          },
+          {
+            "word": "=",
+            "confidence": 33.209061
+          },
+          {
+            "word": "e;",
+            "confidence": 37.743416
+          },
+          {
+            "word": "Pensa",
+            "confidence": 21.867813
+          },
+          {
+            "word": "nu",
+            "confidence": 50.640011
+          },
+          {
+            "word": "va",
+            "confidence": 54.390846
+          },
+          {
+            "word": "mo",
+            "confidence": 38.661163
+          },
+          {
+            "word": "5",
+            "confidence": 0.0
+          },
+          {
+            "word": "4Dm",
+            "confidence": 0.0
+          },
+          {
+            "word": "nasmaço",
+            "confidence": 0.0
+          },
+          {
+            "word": "ES",
+            "confidence": 37.110245
+          },
+          {
+            "word": "4",
+            "confidence": 29.816185
+          },
+          {
+            "word": "ana",
+            "confidence": 29.378357
+          },
+          {
+            "word": "erranono",
+            "confidence": 0.0
+          },
+          {
+            "word": "DB",
+            "confidence": 43.246033
+          },
+          {
+            "word": "Pons",
+            "confidence": 0.0
+          },
+          {
+            "word": "s",
+            "confidence": 47.105583
+          },
+          {
+            "word": "s99s5",
+            "confidence": 0.0
+          },
+          {
+            "word": "4",
+            "confidence": 4.959244
+          },
+          {
+            "word": "and",
+            "confidence": 29.785278
+          },
+          {
+            "word": "Ssoada",
+            "confidence": 0.0
+          },
+          {
+            "word": "Ss",
+            "confidence": 30.709702
+          },
+          {
+            "word": "a9o",
+            "confidence": 0.0
+          },
+          {
+            "word": "9rmuDo",
+            "confidence": 0.0
+          },
+          {
+            "word": "“Tas",
+            "confidence": 25.20372
+          },
+          {
+            "word": "DN",
+            "confidence": 34.855682
+          },
+          {
+            "word": "RSS",
+            "confidence": 33.86657
+          },
+          {
+            "word": "5x\"",
+            "confidence": 0.0
+          },
+          {
+            "word": "059%\n5\t1\t21\t1\t1\t5\t1562\t1828\t135\t24\t0.000000\t455\n5\t1\t21\t1\t1\t6\t1712\t1822\t75\t24\t42.628918\t4%\n4\t1\t21\t1\t2\t0\t947\t1861\t840\t33\t-1\t\n5\t1\t21\t1\t2\t1\t947\t1867\t249\t27\t10.094635\tRSRS\n5\t1\t21\t1\t2\t2\t1217\t1870\t90\t24\t31.859947\tSMS\n5\t1\t21\t1\t2\t3\t1376\t1870\t90\t21\t32.938873\tmm\n5\t1\t21\t1\t2\t4\t1499\t1870\t57\t21\t43.599197\tMi\n5\t1\t21\t1\t2\t5\t1574\t1870\t60\t12\t38.107765\tTT\n5\t1\t21\t1\t2\t6\t1655\t1864\t48\t24\t37.905712\tTA\n5\t1\t21\t1\t2\t7\t1718\t1861\t69\t27\t29.854759\tTOA\n2\t1\t22\t0\t0\t0\t948\t1950\t839\t574\t-1\t\n3\t1\t22\t1\t0\t0\t948\t1950\t839\t574\t-1\t\n4\t1\t22\t1\t1\t0\t948\t1950\t839\t574\t-1\t\n5\t1\t22\t1\t1\t1\t948\t1950\t839\t574\t95.000000\t \n",
+            "confidence": 31.313675
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 75,
+        "meanConfidence": 89.33,
+        "words": 159,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "»%",
+            "confidence": 38.659016
+          },
+          {
+            "word": "ij!",
+            "confidence": 21.180397
+          },
+          {
+            "word": "Oz",
+            "confidence": 31.354591
+          },
+          {
+            "word": "à",
+            "confidence": 34.906631
+          },
+          {
+            "word": "Não",
+            "confidence": 43.315472
+          },
+          {
+            "word": "deseus",
+            "confidence": 50.321655
+          },
+          {
+            "word": " Daviordena",
+            "confidence": 9.121437
+          },
+          {
+            "word": "03",
+            "confidence": 50.729694
+          },
+          {
+            "word": "Og",
+            "confidence": 25.504822
+          },
+          {
+            "word": " Aocser",
+            "confidence": 36.652504
+          },
+          {
+            "word": "justifica",
+            "confidence": 41.966446
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 76,
+        "meanConfidence": 90.71,
+        "words": 109,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "*",
+            "confidence": 14.548248
+          },
+          {
+            "word": "próprio",
+            "confidence": 12.736473
+          },
+          {
+            "word": "Jerusalém",
+            "confidence": 0.0
+          },
+          {
+            "word": "lesmo",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 77,
+        "meanConfidence": 92.71,
+        "words": 169,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "(x)",
+            "confidence": 52.451969
+          },
+          {
+            "word": "Davi",
+            "confidence": 35.746071
+          },
+          {
+            "word": "e",
+            "confidence": 35.746071
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 78,
+        "meanConfidence": 86.32,
+        "words": 264,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "&",
+            "confidence": 18.413475
+          },
+          {
+            "word": "au",
+            "confidence": 8.758537
+          },
+          {
+            "word": "Judá",
+            "confidence": 46.588993
+          },
+          {
+            "word": "jabuseia",
+            "confidence": 42.752213
+          },
+          {
+            "word": "»",
+            "confidence": 9.643318
+          },
+          {
+            "word": "GR",
+            "confidence": 53.006294
+          },
+          {
+            "word": "Bate-Seba",
+            "confidence": 46.452785
+          },
+          {
+            "word": "-«.",
+            "confidence": 23.759811
+          },
+          {
+            "word": "Absalão",
+            "confidence": 33.638634
+          },
+          {
+            "word": "contra",
+            "confidence": 25.795387
+          },
+          {
+            "word": "o",
+            "confidence": 25.795387
+          },
+          {
+            "word": "+“",
+            "confidence": 0.0
+          },
+          {
+            "word": "dividir",
+            "confidence": 0.0
+          },
+          {
+            "word": "o",
+            "confidence": 0.0
+          },
+          {
+            "word": "É",
+            "confidence": 50.13393
+          },
+          {
+            "word": "e",
+            "confidence": 8.326027
+          },
+          {
+            "word": "fidelidade.",
+            "confidence": 8.326027
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 79,
+        "meanConfidence": 94.51,
+        "words": 51,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": []
+      },
+      {
+        "sourceId": "study-2",
+        "page": 80,
+        "meanConfidence": 91.77,
+        "words": 182,
+        "segmentation": "visually-checked-column-regions",
+        "lowConfidenceWords": [
+          {
+            "word": "Autor:",
+            "confidence": 44.124306
+          },
+          {
+            "word": "O",
+            "confidence": 44.124306
+          },
+          {
+            "word": "babilônico.",
+            "confidence": 36.394394
+          },
+          {
+            "word": "970aC.e850aC,",
+            "confidence": 0.0
+          },
+          {
+            "word": "reis",
+            "confidence": 23.743828
+          },
+          {
+            "word": "e",
+            "confidence": 23.743828
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 81,
+        "meanConfidence": 88.39,
+        "words": 247,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "1",
+            "confidence": 0.0
+          },
+          {
+            "word": "Reis",
+            "confidence": 0.0
+          },
+          {
+            "word": "govemar,",
+            "confidence": 49.455803
+          },
+          {
+            "word": "constrói",
+            "confidence": 38.534412
+          },
+          {
+            "word": "por",
+            "confidence": 11.227692
+          },
+          {
+            "word": "construir",
+            "confidence": 11.227692
+          },
+          {
+            "word": "Jezabelfol",
+            "confidence": 44.97501
+          },
+          {
+            "word": "institui",
+            "confidence": 20.219505
+          },
+          {
+            "word": "o",
+            "confidence": 50.587273
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 82,
+        "meanConfidence": 87.04,
+        "words": 323,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "&",
+            "confidence": 9.876266
+          },
+          {
+            "word": "n",
+            "confidence": 36.174088
+          },
+          {
+            "word": "oz",
+            "confidence": 48.398891
+          },
+          {
+            "word": "qualquer",
+            "confidence": 0.0
+          },
+          {
+            "word": "ehonra,",
+            "confidence": 51.947971
+          },
+          {
+            "word": "Qd",
+            "confidence": 39.917873
+          },
+          {
+            "word": "que",
+            "confidence": 0.0
+          },
+          {
+            "word": "do",
+            "confidence": 54.171074
+          },
+          {
+            "word": "Senhor",
+            "confidence": 54.171074
+          },
+          {
+            "word": "0s",
+            "confidence": 19.237442
+          },
+          {
+            "word": "profetas",
+            "confidence": 33.773506
+          },
+          {
+            "word": "e",
+            "confidence": 33.773506
+          },
+          {
+            "word": "diante-do",
+            "confidence": 37.337307
+          },
+          {
+            "word": "povoa.",
+            "confidence": 54.13879
+          },
+          {
+            "word": "“—",
+            "confidence": 0.0
+          },
+          {
+            "word": "ruína.",
+            "confidence": 34.981369
+          },
+          {
+            "word": "terminou",
+            "confidence": 47.636417
+          },
+          {
+            "word": "Elias",
+            "confidence": 32.511307
+          },
+          {
+            "word": "Izrael",
+            "confidence": 45.295326
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 83,
+        "meanConfidence": 89.91,
+        "words": 112,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "11",
+            "confidence": 42.008331
+          },
+          {
+            "word": "Judá",
+            "confidence": 53.871521
+          },
+          {
+            "word": "de",
+            "confidence": 34.610863
+          },
+          {
+            "word": "Davieo",
+            "confidence": 34.610863
+          },
+          {
+            "word": "&",
+            "confidence": 19.704666
+          },
+          {
+            "word": "Assíria",
+            "confidence": 0.0
+          },
+          {
+            "word": "20.",
+            "confidence": 36.134163
+          },
+          {
+            "word": "a.€.,",
+            "confidence": 32.36174
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 84,
+        "meanConfidence": 80.92,
+        "words": 245,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "EE",
+            "confidence": 35.1334
+          },
+          {
+            "word": "[EMA",
+            "confidence": 53.193008
+          },
+          {
+            "word": "EEE",
+            "confidence": 3.575424
+          },
+          {
+            "word": "isigojojor-",
+            "confidence": 0.0
+          },
+          {
+            "word": "[oO",
+            "confidence": 0.0
+          },
+          {
+            "word": "a.C",
+            "confidence": 50.257881
+          },
+          {
+            "word": "910",
+            "confidence": 50.264137
+          },
+          {
+            "word": "-",
+            "confidence": 50.264137
+          },
+          {
+            "word": "910",
+            "confidence": 21.38562
+          },
+          {
+            "word": "-",
+            "confidence": 21.38562
+          },
+          {
+            "word": "a.C",
+            "confidence": 33.596893
+          },
+          {
+            "word": "a.C",
+            "confidence": 53.735229
+          },
+          {
+            "word": "1",
+            "confidence": 28.3125
+          },
+          {
+            "word": "8",
+            "confidence": 47.338696
+          },
+          {
+            "word": "EloeTo",
+            "confidence": 0.0
+          },
+          {
+            "word": "a.C",
+            "confidence": 26.263641
+          },
+          {
+            "word": "716",
+            "confidence": 48.796249
+          },
+          {
+            "word": "a.€",
+            "confidence": 48.796249
+          },
+          {
+            "word": "a.C",
+            "confidence": 52.795036
+          },
+          {
+            "word": "NErENEYER]",
+            "confidence": 0.0
+          },
+          {
+            "word": "|",
+            "confidence": 36.938347
+          },
+          {
+            "word": "ME",
+            "confidence": 0.0
+          },
+          {
+            "word": "VERO",
+            "confidence": 0.0
+          },
+          {
+            "word": "EVEN",
+            "confidence": 0.0
+          },
+          {
+            "word": "EVAN]",
+            "confidence": 0.0
+          },
+          {
+            "word": "EBRTo-TevA",
+            "confidence": 0.0
+          },
+          {
+            "word": "609a.€",
+            "confidence": 44.216415
+          },
+          {
+            "word": "a.C",
+            "confidence": 41.699211
+          },
+          {
+            "word": "722",
+            "confidence": 11.413689
+          },
+          {
+            "word": "a.C",
+            "confidence": 11.413689
+          },
+          {
+            "word": "597",
+            "confidence": 51.738289
+          },
+          {
+            "word": "-567",
+            "confidence": 51.738289
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 85,
+        "meanConfidence": 88.33,
+        "words": 193,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "obediência",
+            "confidence": 27.029083
+          },
+          {
+            "word": "“eo",
+            "confidence": 23.378464
+          },
+          {
+            "word": "o",
+            "confidence": 23.378464
+          },
+          {
+            "word": "837",
+            "confidence": 46.894012
+          },
+          {
+            "word": "aC.)",
+            "confidence": 46.178745
+          },
+          {
+            "word": "7E5",
+            "confidence": 33.025391
+          },
+          {
+            "word": "a)",
+            "confidence": 31.434662
+          },
+          {
+            "word": "os",
+            "confidence": 0.0
+          },
+          {
+            "word": "reis",
+            "confidence": 0.0
+          },
+          {
+            "word": "€",
+            "confidence": 30.682251
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 86,
+        "meanConfidence": 84.75,
+        "words": 170,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "725",
+            "confidence": 21.053223
+          },
+          {
+            "word": "aC)",
+            "confidence": 21.053223
+          },
+          {
+            "word": "758",
+            "confidence": 40.543259
+          },
+          {
+            "word": "698",
+            "confidence": 31.854347
+          },
+          {
+            "word": "aC.)",
+            "confidence": 31.854347
+          },
+          {
+            "word": "Ministério",
+            "confidence": 53.629547
+          },
+          {
+            "word": "(e.",
+            "confidence": 54.857059
+          },
+          {
+            "word": "a",
+            "confidence": 47.734474
+          },
+          {
+            "word": "0)",
+            "confidence": 47.734474
+          },
+          {
+            "word": "é",
+            "confidence": 48.798935
+          },
+          {
+            "word": "tv",
+            "confidence": 1.783592
+          },
+          {
+            "word": "(e.",
+            "confidence": 53.667091
+          },
+          {
+            "word": "Assíria,",
+            "confidence": 28.758743
+          },
+          {
+            "word": "B10",
+            "confidence": 6.239738
+          },
+          {
+            "word": "de",
+            "confidence": 30.87394
+          },
+          {
+            "word": "ira",
+            "confidence": 30.87394
+          },
+          {
+            "word": "58640)",
+            "confidence": 0.0
+          },
+          {
+            "word": "Jogcaz,",
+            "confidence": 50.930706
+          },
+          {
+            "word": "Jeoaquim",
+            "confidence": 54.010242
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 87,
+        "meanConfidence": 89.02,
+        "words": 175,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "534",
+            "confidence": 0.0
+          },
+          {
+            "word": "a.C)",
+            "confidence": 0.0
+          },
+          {
+            "word": "583",
+            "confidence": 0.0
+          },
+          {
+            "word": "a.C.)",
+            "confidence": 0.0
+          },
+          {
+            "word": "52020.)",
+            "confidence": 40.403503
+          },
+          {
+            "word": "dízimos.",
+            "confidence": 50.966827
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 88,
+        "meanConfidence": 87.88,
+        "words": 128,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": [
+          {
+            "word": "ERA",
+            "confidence": 29.016464
+          },
+          {
+            "word": "&",
+            "confidence": 37.441071
+          },
+          {
+            "word": "o",
+            "confidence": 20.00209
+          },
+          {
+            "word": "foco",
+            "confidence": 20.00209
+          },
+          {
+            "word": "Judá",
+            "confidence": 0.0
+          },
+          {
+            "word": "e",
+            "confidence": 0.0
+          },
+          {
+            "word": "Retorno",
+            "confidence": 52.628372
+          }
+        ]
+      },
+      {
+        "sourceId": "study-2",
+        "page": 89,
+        "meanConfidence": 95.24,
+        "words": 93,
+        "segmentation": "whole-page",
+        "lowConfidenceWords": []
+      }
+    ]
+  },
+  "review": {
+    "status": "partial",
+    "textualPages": "Extraídas da camada textual; a revisão editorial integral ainda não foi concluída.",
+    "ocrPages": "ocr-extracted identifica transcrição automática legível por verificações de comprimento/confiança e amostragem visual; pode conter erros residuais. Não equivale a revisão editorial integral. needs-review reserva páginas de baixa qualidade ou defeito original. ocr-reviewed identifica transcrição manual conferida na imagem.",
+    "visualSamplesStudy2": [
+      3,
+      14,
+      29,
+      36,
+      43,
+      50,
+      63,
+      67,
+      73,
+      80,
+      84
+    ],
+    "columnLayoutFixesStudy2": [
+      3,
+      14,
+      29,
+      36,
+      43,
+      50,
+      63,
+      67,
+      68,
+      73,
+      80
+    ],
+    "manualTranscriptions": [
+      {
+        "sourceId": "study-1",
+        "page": 5
+      },
+      {
+        "sourceId": "study-1",
+        "page": 6
+      },
+      {
+        "sourceId": "study-2",
+        "page": 20
+      }
+    ],
+    "simplifiedSummaries": "17 aberturas de lições, em linguagem simples, verificadas em páginas textuais citadas. Não substituem a transcrição integral.",
+    "quizSources": "Somente páginas com camada textual clara; cada pergunta tem arquivo e página de origem.",
+    "excludedPages": [
+      {
+        "sourceId": "study-1",
+        "page": 1,
+        "reason": "capa"
+      },
+      {
+        "sourceId": "study-2",
+        "page": 1,
+        "reason": "capa"
+      },
+      {
+        "sourceId": "study-4",
+        "page": 1,
+        "reason": "capa"
+      }
+    ],
+    "knownSourceIssues": [
+      {
+        "sourceId": "study-2",
+        "page": 57,
+        "detail": "Título Samuel em quadro com características de Juízes; não corrigido com fontes externas."
+      },
+      {
+        "sourceId": "study-2",
+        "page": 63,
+        "detail": "A linha temporal nomeia Abimeleque; o corpo da página nomeia Elimeleque. A divergência pertence ao original e não foi corrigida com fontes externas."
+      },
+      {
+        "sourceId": "study-2",
+        "page": 73,
+        "detail": "Cabeçalho e texto apresentam datas diferentes. Preservado como fonte, sem completar por memória."
+      },
+      {
+        "sourceId": "study-2",
+        "page": 84,
+        "detail": "A tabela tem nomes/datas que o OCR não reconhece com confiabilidade; exige revisão manual antes de ensino ou áudio."
+      },
+      {
+        "sourceId": "gospels",
+        "page": 1,
+        "detail": "Trechos deformados ou truncados no próprio original."
+      },
+      {
+        "sourceId": "gospels",
+        "page": 2,
+        "detail": "Trechos deformados e numeração de livro inconsistente no original."
+      },
+      {
+        "sourceId": "gospels",
+        "page": 4,
+        "detail": "Linhas repetidas e palavras deformadas no original."
+      }
+    ]
+  },
+  "quizEvidence": [
+    {
+      "id": "intro-01",
+      "sourceId": "study-1",
+      "page": 2,
+      "evidence": "oferecer uma visão panorâmica das Escrituras"
+    },
+    {
+      "id": "intro-02",
+      "sourceId": "study-1",
+      "page": 3,
+      "evidence": "A palavra “Bíblia” vem do grego bíblos, que significa “livros”."
+    },
+    {
+      "id": "organizacao-01",
+      "sourceId": "study-1",
+      "page": 7,
+      "evidence": "A maior parte do Antigo Testamento foi originalmente escrita em hebraico"
+    },
+    {
+      "id": "organizacao-02",
+      "sourceId": "study-1",
+      "page": 7,
+      "evidence": "O Novo Testamento foi originalmente escrito em grego koiné"
+    },
+    {
+      "id": "panorama-01",
+      "sourceId": "study-1",
+      "page": 12,
+      "evidence": "Êxodo – Mostra a libertação do povo hebreu da escravidão no Egito"
+    },
+    {
+      "id": "panorama-02",
+      "sourceId": "study-1",
+      "page": 15,
+      "evidence": "Atos dos Apóstolos mostra a expansão da igreja e a ação do Espírito Santo."
+    },
+    {
+      "id": "hebreus-01",
+      "sourceId": "study-3",
+      "page": 1,
+      "evidence": "Eles são os descendentes de Israel, que anteriormente era chamado de Jacó."
+    },
+    {
+      "id": "hebreus-02",
+      "sourceId": "study-3",
+      "page": 2,
+      "evidence": "Jacó, juntamente com seu pai (Isaque) e avô (Abraão), são considerados os patriarcas"
+    },
+    {
+      "id": "historicos-01",
+      "sourceId": "study-3",
+      "page": 3,
+      "evidence": "o ministério do profeta Eliseu, sucessor de Elias."
+    },
+    {
+      "id": "historicos-02",
+      "sourceId": "study-3",
+      "page": 11,
+      "evidence": "voltassem a Jerusalém e reconstruíssem o Templo."
+    },
+    {
+      "id": "poeticos-01",
+      "sourceId": "study-3",
+      "page": 16,
+      "evidence": "Salmos: É uma coleção de 150 cânticos e poemas de adoração, louvor, lamentação, gratidão e reflexão."
+    },
+    {
+      "id": "poeticos-02",
+      "sourceId": "study-3",
+      "page": 16,
+      "evidence": "oferecem orientação prática para a vida diária."
+    },
+    {
+      "id": "menores-01",
+      "sourceId": "study-3",
+      "page": 40,
+      "evidence": "Os profetas menores são chamados assim devido ao tamanho mais curto de seus livros"
+    },
+    {
+      "id": "menores-02",
+      "sourceId": "study-3",
+      "page": 40,
+      "evidence": "Jonas: Relata a história de Jonas, enviado por Deus para pregar a mensagem de arrependimento à cidade de Nínive."
+    },
+    {
+      "id": "interbiblico-01",
+      "sourceId": "study-3",
+      "page": 65,
+      "evidence": "a tradução grega do Antigo Testamento"
+    },
+    {
+      "id": "interbiblico-02",
+      "sourceId": "study-3",
+      "page": 66,
+      "evidence": "Construíram estradas para ligar cidades e países."
+    },
+    {
+      "id": "evangelhos-01",
+      "sourceId": "study-4",
+      "page": 2,
+      "evidence": "MATEUS MARCOS LUCAS JOÃO"
+    },
+    {
+      "id": "evangelhos-02",
+      "sourceId": "study-4",
+      "page": 2,
+      "evidence": "Marcos destaca a ação e o poder de Jesus"
+    },
+    {
+      "id": "vida-01",
+      "sourceId": "study-4",
+      "page": 15,
+      "evidence": "tornando os ensinamentos de Jesus acessíveis a um público diversificado."
+    },
+    {
+      "id": "vida-02",
+      "sourceId": "study-4",
+      "page": 16,
+      "evidence": "Transformando a água em vinho (João 2:1-11)"
+    },
+    {
+      "id": "atos-01",
+      "sourceId": "study-4",
+      "page": 23,
+      "evidence": "nascimento e da expansão da igreja cristã."
+    },
+    {
+      "id": "atos-02",
+      "sourceId": "study-4",
+      "page": 23,
+      "evidence": "O capítulo 2 marca o Pentecostes, quando o Espírito Santo é derramado sobre os discípulos"
+    },
+    {
+      "id": "paulinas-01",
+      "sourceId": "study-4",
+      "page": 26,
+      "evidence": "para igrejas e indivíduos específicos"
+    },
+    {
+      "id": "paulinas-02",
+      "sourceId": "study-4",
+      "page": 26,
+      "evidence": "Ele aborda questões éticas, relacionamentos interpessoais, serviço cristão e adoração apropriada."
+    },
+    {
+      "id": "gerais-01",
+      "sourceId": "study-4",
+      "page": 54,
+      "evidence": "vivendo uma vida coerente com a fé cristã."
+    },
+    {
+      "id": "gerais-02",
+      "sourceId": "study-4",
+      "page": 54,
+      "evidence": "1, 2 e 3 João abordam a importância do amor e da verdade na comunidade cristã."
+    },
+    {
+      "id": "apocalipse-01",
+      "sourceId": "study-4",
+      "page": 71,
+      "evidence": "O Apocalipse faz uso extensivo de imagens, símbolos e metáforas"
+    },
+    {
+      "id": "apocalipse-02",
+      "sourceId": "study-4",
+      "page": 71,
+      "evidence": "o triunfo final de Cristo sobre o mal"
+    }
+  ],
+  "counts": {
+    "sources": 5,
+    "sourcePages": 251,
+    "totalSections": 248,
+    "accessibleSections": 238,
+    "pendingReviewSections": 10,
+    "lessons": 33,
+    "trails": 5,
+    "quizzes": 14,
+    "questions": 28
+  },
+  "elapsedSeconds": 16.39
+}

@@ -1,0 +1,376 @@
+{
+  "sources": [
+    {
+      "file": "at.pdf",
+      "testament": "AT",
+      "pages": 1098,
+      "sha256": "c9a3da3183032f9b976e434fe17a8a212270367d0b72d6b4b3bb19307aa31bb8",
+      "uploadedFileSha256": "57fb5954825baaea789c2e31417d050114fe73c9c88832166f29823a81ebe990",
+      "publicCopyPolicy": "Metadados de autoria de edição removidos das cópias de consulta; conteúdo das páginas preservado."
+    },
+    {
+      "file": "nt.pdf",
+      "testament": "NT",
+      "pages": 273,
+      "sha256": "2f1632602ed900d0b78f0b71191bc6943f7e54da1bc713143e5a62e0016a07d5",
+      "uploadedFileSha256": "5542cfaf98265dfa536806152c7fdbf0d59012fc6f1259ab24984e3cb71d519b",
+      "publicCopyPolicy": "Metadados de autoria de edição removidos das cópias de consulta; conteúdo das páginas preservado."
+    }
+  ],
+  "layoutCorrections": [
+    {
+      "bookId": "isaias",
+      "chapter": 38,
+      "verse": 16,
+      "sourcePage": 794,
+      "reason": "Número 16 impresso junto ao corpo do texto, sem estilo sobrescrito."
+    }
+  ],
+  "numberingGaps": [],
+  "unassignedBodyText": [],
+  "method": "Estilos tipográficos e coordenadas das linhas, com separação de notas de rodapé.",
+  "status": "machine-validated",
+  "limitations": [
+    "A conferência editorial integral, versículo a versículo, ainda não foi realizada.",
+    "Notas de rodapé e referências paralelas podem ser consultadas nos PDFs originais; não integram o texto dos versículos."
+  ],
+  "validationErrors": [],
+  "regressionChecks": 12,
+  "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31105
+  },
+  "bookCounts": [
+    {
+      "id": "genesis",
+      "chapters": 50,
+      "verses": 1533
+    },
+    {
+      "id": "exodo",
+      "chapters": 40,
+      "verses": 1213
+    },
+    {
+      "id": "levitico",
+      "chapters": 27,
+      "verses": 859
+    },
+    {
+      "id": "numeros",
+      "chapters": 36,
+      "verses": 1288
+    },
+    {
+      "id": "deuteronomio",
+      "chapters": 34,
+      "verses": 959
+    },
+    {
+      "id": "josue",
+      "chapters": 24,
+      "verses": 658
+    },
+    {
+      "id": "juizes",
+      "chapters": 21,
+      "verses": 618
+    },
+    {
+      "id": "rute",
+      "chapters": 4,
+      "verses": 85
+    },
+    {
+      "id": "1-samuel",
+      "chapters": 31,
+      "verses": 811
+    },
+    {
+      "id": "2-samuel",
+      "chapters": 24,
+      "verses": 695
+    },
+    {
+      "id": "1-reis",
+      "chapters": 22,
+      "verses": 816
+    },
+    {
+      "id": "2-reis",
+      "chapters": 25,
+      "verses": 719
+    },
+    {
+      "id": "1-cronicas",
+      "chapters": 29,
+      "verses": 942
+    },
+    {
+      "id": "2-cronicas",
+      "chapters": 36,
+      "verses": 822
+    },
+    {
+      "id": "esdras",
+      "chapters": 10,
+      "verses": 280
+    },
+    {
+      "id": "neemias",
+      "chapters": 13,
+      "verses": 406
+    },
+    {
+      "id": "ester",
+      "chapters": 10,
+      "verses": 167
+    },
+    {
+      "id": "jo",
+      "chapters": 42,
+      "verses": 1070
+    },
+    {
+      "id": "salmos",
+      "chapters": 150,
+      "verses": 2461
+    },
+    {
+      "id": "proverbios",
+      "chapters": 31,
+      "verses": 915
+    },
+    {
+      "id": "eclesiastes",
+      "chapters": 12,
+      "verses": 222
+    },
+    {
+      "id": "cantico-dos-canticos",
+      "chapters": 8,
+      "verses": 117
+    },
+    {
+      "id": "isaias",
+      "chapters": 66,
+      "verses": 1292
+    },
+    {
+      "id": "jeremias",
+      "chapters": 52,
+      "verses": 1364
+    },
+    {
+      "id": "lamentacoes",
+      "chapters": 5,
+      "verses": 154
+    },
+    {
+      "id": "ezequiel",
+      "chapters": 48,
+      "verses": 1273
+    },
+    {
+      "id": "daniel",
+      "chapters": 12,
+      "verses": 357
+    },
+    {
+      "id": "oseias",
+      "chapters": 14,
+      "verses": 197
+    },
+    {
+      "id": "joel",
+      "chapters": 3,
+      "verses": 73
+    },
+    {
+      "id": "amos",
+      "chapters": 9,
+      "verses": 146
+    },
+    {
+      "id": "obadias",
+      "chapters": 1,
+      "verses": 21
+    },
+    {
+      "id": "jonas",
+      "chapters": 4,
+      "verses": 48
+    },
+    {
+      "id": "miqueias",
+      "chapters": 7,
+      "verses": 105
+    },
+    {
+      "id": "naum",
+      "chapters": 3,
+      "verses": 47
+    },
+    {
+      "id": "habacuque",
+      "chapters": 3,
+      "verses": 56
+    },
+    {
+      "id": "sofonias",
+      "chapters": 3,
+      "verses": 53
+    },
+    {
+      "id": "ageu",
+      "chapters": 2,
+      "verses": 38
+    },
+    {
+      "id": "zacarias",
+      "chapters": 14,
+      "verses": 211
+    },
+    {
+      "id": "malaquias",
+      "chapters": 4,
+      "verses": 55
+    },
+    {
+      "id": "mateus",
+      "chapters": 28,
+      "verses": 1071
+    },
+    {
+      "id": "marcos",
+      "chapters": 16,
+      "verses": 678
+    },
+    {
+      "id": "lucas",
+      "chapters": 24,
+      "verses": 1151
+    },
+    {
+      "id": "joao",
+      "chapters": 21,
+      "verses": 879
+    },
+    {
+      "id": "atos-dos-apostolos",
+      "chapters": 28,
+      "verses": 1007
+    },
+    {
+      "id": "romanos",
+      "chapters": 16,
+      "verses": 433
+    },
+    {
+      "id": "1-corintios",
+      "chapters": 16,
+      "verses": 437
+    },
+    {
+      "id": "2-corintios",
+      "chapters": 13,
+      "verses": 257
+    },
+    {
+      "id": "galatas",
+      "chapters": 6,
+      "verses": 149
+    },
+    {
+      "id": "efesios",
+      "chapters": 6,
+      "verses": 155
+    },
+    {
+      "id": "filipenses",
+      "chapters": 4,
+      "verses": 104
+    },
+    {
+      "id": "colossenses",
+      "chapters": 4,
+      "verses": 95
+    },
+    {
+      "id": "1-tessalonicenses",
+      "chapters": 5,
+      "verses": 89
+    },
+    {
+      "id": "2-tessalonicenses",
+      "chapters": 3,
+      "verses": 47
+    },
+    {
+      "id": "1-timoteo",
+      "chapters": 6,
+      "verses": 113
+    },
+    {
+      "id": "2-timoteo",
+      "chapters": 4,
+      "verses": 83
+    },
+    {
+      "id": "tito",
+      "chapters": 3,
+      "verses": 46
+    },
+    {
+      "id": "filemom",
+      "chapters": 1,
+      "verses": 25
+    },
+    {
+      "id": "hebreus",
+      "chapters": 13,
+      "verses": 303
+    },
+    {
+      "id": "tiago",
+      "chapters": 5,
+      "verses": 108
+    },
+    {
+      "id": "1-pedro",
+      "chapters": 5,
+      "verses": 105
+    },
+    {
+      "id": "2-pedro",
+      "chapters": 3,
+      "verses": 61
+    },
+    {
+      "id": "1-joao",
+      "chapters": 5,
+      "verses": 105
+    },
+    {
+      "id": "2-joao",
+      "chapters": 1,
+      "verses": 13
+    },
+    {
+      "id": "3-joao",
+      "chapters": 1,
+      "verses": 15
+    },
+    {
+      "id": "judas",
+      "chapters": 1,
+      "verses": 25
+    },
+    {
+      "id": "apocalipse",
+      "chapters": 22,
+      "verses": 405
+    }
+  ]
+}

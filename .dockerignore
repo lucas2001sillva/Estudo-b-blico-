@@ -1,0 +1,13 @@
+.git
+node_modules
+dist
+var
+.env
+.env.*
+.cache
+.venv
+test-results
+playwright-report
+*.tsbuildinfo
+__pycache__
+attachments

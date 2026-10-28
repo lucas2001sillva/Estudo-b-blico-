@@ -1,0 +1,39 @@
+# Validação da primeira versão
+
+Verificações executadas em 27/10/2026, com Node.js 24.19.0 e Chromium 154.
+
+- `npm ci --no-audit --no-fund --cache /workspace/.cache/npm`: instalação a partir do lockfile concluída.
+- `npm run build`: TypeScript e compilação da interface concluídos.
+- `npm test`: **29 testes passaram**, sem testes ignorados: 5 de conteúdo, 9 de banco e 15 de API/segurança. Incluem concorrência entre instâncias e processos, migração de banco anterior, expiração de sessões, atualização de hashes, limites de autenticação, isolamento de contas, validação de origem, requisições grandes e falhas de persistência sem cookie indevido.
+- `npm run test:e2e`: **11 testes passaram**, sem testes ignorados. Incluem leitura pública, busca, progresso reversível, sincronização, estudos/quizzes, teclado, celular, temas e fonte calculada. As regressões de privacidade verificam importação de visitante desmarcada por padrão, limpeza após importação confirmada, ausência de perfil/histórico privado persistente no navegador, logout confirmado e fila da conta A recusada sob cookie da conta B. A largura real da barra e a fonte foram medidas sob CSP; respostas atrasadas não restauraram estado antigo.
+- `python3 scripts/import-studies.py --validate-only`: estrutura, hashes e evidências das 28 perguntas conferidos.
+- A importação bíblica foi repetida com resultados idênticos e 12 regressões de extração verificadas nos PDFs.
+- A inicialização compilada foi verificada por requisições à interface, ao catálogo, a João 3:16 e aos sete PDFs de consulta.
+- O modo `npm run dev` foi verificado com Vite, proxy da API, registro, cookie, alteração de progresso/tema e logout. Um problema de origem no proxy foi corrigido e o fluxo foi repetido com sucesso.
+- `node scripts/check-remote-database.mjs`: integração HTTP passou com o servidor libSQL oficial fixado por digest. Duas APIs preservaram alterações concorrentes e respostas de quiz; banco indisponível respondeu 503 sem cookie ou fallback; reiniciar API/banco preservou os dados. Contêiner e volume temporários foram removidos. Este teste em loopback não usa o token do usuário e não comprova conexão ou TLS com o Turso hospedado.
+- `npm audit --omit=dev --json`: nenhuma vulnerabilidade conhecida reportada nas dependências de produção na data da verificação. A consulta não comprova ausência de falhas no aplicativo.
+- `PUBLIC_ORIGIN` inválida com caminho foi rejeitada antes da abertura do banco; URLs de origem não são normalizadas silenciosamente.
+- A imagem Docker foi construída com `bash scripts/docker-build.sh vereda-biblica:review-20261027`. Um contêiner sem root e com volume temporário foi exercitado: interface, catálogo, PDF, registro, alteração de progresso/tema, reinicialização, novo login e confirmação dos dados persistentes. O contêiner e seu volume foram removidos ao final. O build utilizou o certificado confiável do proxy por montagem temporária, sem desabilitar verificação TLS nem copiar a CA para a imagem final.
+
+Os testes de navegador e de desenvolvimento usaram bancos temporários. O banco de uso normal não recebeu contas de demonstração.
+
+## Apresentação e acessibilidade
+
+Layout conferido em larguras de 390, 768 e 1.440 pixels, sem rolagem horizontal indevida nos fluxos examinados. Temas, ajuste de fonte, navegação por teclado e link para pular ao conteúdo foram exercitados. As capturas estão em `/workspace/artifacts/` na máquina de desenvolvimento.
+
+A saída de áudio não foi validada auditivamente. As vozes disponíveis dependem do navegador e do dispositivo. Uma avaliação com leitores de tela reais e pessoas com dificuldade de leitura continua sendo uma etapa própria de validação.
+
+## Conteúdo e limites conhecidos
+
+- Bíblia: 66 livros, 1.189 capítulos e 50 passagens selecionadas dos versículos importados.
+- Estudos: 5 trilhas livres, 33 assuntos, 17 resumos simplificados e 14 quizzes com 28 perguntas.
+- Das 248 seções de estudos, 238 possuem texto legível no site; 82 usam OCR com aviso de conversão automática.
+- Dez páginas permanecem sinalizadas para revisão: Parte 1, página 8; Parte 2, páginas 7, 57, 59, 74 e 84; “Os 4 Evangelhos”, páginas 1 a 4. Os trechos duvidosos não são narrados como texto confirmado nem utilizados em gabaritos; os PDFs de consulta permanecem acessíveis.
+- Não foi realizada revisão editorial integral, versículo a versículo ou página a página, de todo o conteúdo.
+- A conta permite sincronização, mas esta versão não inclui confirmação de e-mail nem recuperação de senha por e-mail.
+- O cadastro duplicado retorna HTTP 409 e permite inferir a existência de um e-mail. O fluxo de confirmação de e-mail e a redução dessa exposição permanecem pendentes.
+- Contas infantis, aviso de privacidade público, canal responsável, retenção/eliminação e backups reais ainda dependem das providências descritas na política. A primeira implantação é para validação com contas de teste de adultos autorizados.
+- O histórico autenticado não é mantido em `localStorage`. Alterações privadas ainda não sincronizadas ficam na aba em `sessionStorage`; fechar essa aba antes da sincronização pode perdê-las. O site avisa quando a sincronização está indisponível.
+- A fila local de progresso não oferece leitura completa sem internet.
+
+As verificações foram feitas nesta máquina. A restauração em uma tarefa nova, a conexão com o Turso hospedado e o endereço público no Render ainda não foram verificados.
