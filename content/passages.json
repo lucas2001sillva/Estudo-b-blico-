@@ -6,7 +6,15 @@
     "chapter": 1,
     "verseStart": 1,
     "verseEnd": 1,
-    "text": "No princípio Deus criou os céus e a terra."
+    "text": "No princípio Deus criou os céus e a terra.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        1
+      ]
+    }
   },
   {
     "id": "passagem-02",
@@ -15,7 +23,15 @@
     "chapter": 1,
     "verseStart": 27,
     "verseEnd": 27,
-    "text": "Criou Deus o homem à sua imagem, à imagem de Deus o criou; homem e mulher os criou."
+    "text": "Criou Deus o homem à sua imagem, à imagem de Deus o criou; homem e mulher os criou.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        1
+      ]
+    }
   },
   {
     "id": "passagem-03",
@@ -24,7 +40,15 @@
     "chapter": 14,
     "verseStart": 14,
     "verseEnd": 14,
-    "text": "O SENHOR lutará por vocês; tão-somente acalmem-se”."
+    "text": "O SENHOR lutará por vocês; tão-somente acalmem-se”.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        59
+      ]
+    }
   },
   {
     "id": "passagem-04",
@@ -33,7 +57,15 @@
     "chapter": 6,
     "verseStart": 24,
     "verseEnd": 26,
-    "text": "“O SENHOR te abençoe e te guarde; o SENHOR faça resplandecer o seu rosto sobre ti e te conceda graça; o SENHOR volte para ti o seu rosto e te dê paz."
+    "text": "“O SENHOR te abençoe e te guarde; o SENHOR faça resplandecer o seu rosto sobre ti e te conceda graça; o SENHOR volte para ti o seu rosto e te dê paz.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        114
+      ]
+    }
   },
   {
     "id": "passagem-05",
@@ -42,7 +74,15 @@
     "chapter": 6,
     "verseStart": 5,
     "verseEnd": 5,
-    "text": "Ame o SENHOR, o seu Deus, de todo o seu coração, de toda a sua alma e de todas as suas forças."
+    "text": "Ame o SENHOR, o seu Deus, de todo o seu coração, de toda a sua alma e de todas as suas forças.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        153
+      ]
+    }
   },
   {
     "id": "passagem-06",
@@ -51,7 +91,15 @@
     "chapter": 31,
     "verseStart": 8,
     "verseEnd": 8,
-    "text": "O próprio SENHOR irá à sua frente e estará com você; ele nunca o deixará, nunca o abandonará. Não tenha medo! Não desani- me!”"
+    "text": "O próprio SENHOR irá à sua frente e estará com você; ele nunca o deixará, nunca o abandonará. Não tenha medo! Não desani- me!”",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        172
+      ]
+    }
   },
   {
     "id": "passagem-07",
@@ -60,7 +108,15 @@
     "chapter": 1,
     "verseStart": 9,
     "verseEnd": 9,
-    "text": "Não fui eu que lhe ordenei? Seja forte e corajoso! Não se apavore, nem desanime, pois o SENHOR, o seu Deus, estará com você por onde você andar”."
+    "text": "Não fui eu que lhe ordenei? Seja forte e corajoso! Não se apavore, nem desanime, pois o SENHOR, o seu Deus, estará com você por onde você andar”.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        181
+      ]
+    }
   },
   {
     "id": "passagem-08",
@@ -69,7 +125,15 @@
     "chapter": 1,
     "verseStart": 16,
     "verseEnd": 16,
-    "text": "Rute, porém, respondeu: “Não insistas comigo que te deixe e que não mais te acompanhe. Aonde fores irei, onde ficares ficarei! O teu povo será o meu povo e o teu Deus será o meu Deus!"
+    "text": "Rute, porém, respondeu: “Não insistas comigo que te deixe e que não mais te acompanhe. Aonde fores irei, onde ficares ficarei! O teu povo será o meu povo e o teu Deus será o meu Deus!",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        223
+      ]
+    }
   },
   {
     "id": "passagem-09",
@@ -78,7 +142,15 @@
     "chapter": 16,
     "verseStart": 7,
     "verseEnd": 7,
-    "text": "O SENHOR, contudo, disse a Samuel: “Não considere sua aparência nem sua altura, pois eu o rejeitei. O SENHOR não vê como o homem: o homem vê a aparência, mas o SENHOR vê o coração”."
+    "text": "O SENHOR, contudo, disse a Samuel: “Não considere sua aparência nem sua altura, pois eu o rejeitei. O SENHOR não vê como o homem: o homem vê a aparência, mas o SENHOR vê o coração”.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        241
+      ]
+    }
   },
   {
     "id": "passagem-10",
@@ -87,7 +159,15 @@
     "chapter": 16,
     "verseStart": 34,
     "verseEnd": 34,
-    "text": "“Rendam graças ao SENHOR, pois ele é bom; o seu amor dura para sempre."
+    "text": "“Rendam graças ao SENHOR, pois ele é bom; o seu amor dura para sempre.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        356
+      ]
+    }
   },
   {
     "id": "passagem-11",
@@ -96,7 +176,15 @@
     "chapter": 1,
     "verseStart": 1,
     "verseEnd": 3,
-    "text": "Como é feliz aquele que não segue o conselho dos ímpios, não imita a conduta dos pecadores, nem se assenta na roda dos zombadores! Ao contrário, sua satisfação está na lei do SENHOR, e nessa lei medita dia e noite. É como árvore plantada à beira de águas correntes: Dá fruto no tempo certo e suas folhas não murcham. Tudo o que ele faz prospera!"
+    "text": "Como é feliz aquele que não segue o conselho dos ímpios, não imita a conduta dos pecadores, nem se assenta na roda dos zombadores! Ao contrário, sua satisfação está na lei do SENHOR, e nessa lei medita dia e noite. É como árvore plantada à beira de águas correntes: Dá fruto no tempo certo e suas folhas não murcham. Tudo o que ele faz prospera!",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        501
+      ]
+    }
   },
   {
     "id": "passagem-12",
@@ -105,7 +193,15 @@
     "chapter": 19,
     "verseStart": 1,
     "verseEnd": 1,
-    "text": "Os céus declaram a glória de Deus; o firmamento proclama a obra das suas mãos."
+    "text": "Os céus declaram a glória de Deus; o firmamento proclama a obra das suas mãos.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        515
+      ]
+    }
   },
   {
     "id": "passagem-13",
@@ -114,7 +210,15 @@
     "chapter": 23,
     "verseStart": 1,
     "verseEnd": 3,
-    "text": "O SENHOR é o meu pastor; de nada terei falta. Em verdes pastagens me faz repousar e me conduz a águas tranqüilas; restaura-me o vigor. Guia-me nas veredas da justiça por amor do seu nome."
+    "text": "O SENHOR é o meu pastor; de nada terei falta. Em verdes pastagens me faz repousar e me conduz a águas tranqüilas; restaura-me o vigor. Guia-me nas veredas da justiça por amor do seu nome.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        519
+      ]
+    }
   },
   {
     "id": "passagem-14",
@@ -123,7 +227,15 @@
     "chapter": 27,
     "verseStart": 1,
     "verseEnd": 1,
-    "text": "O SENHOR é a minha luz e a minha salvação; de quem terei temor? O SENHOR é o meu forte refúgio; de quem terei medo?"
+    "text": "O SENHOR é a minha luz e a minha salvação; de quem terei temor? O SENHOR é o meu forte refúgio; de quem terei medo?",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        522
+      ]
+    }
   },
   {
     "id": "passagem-15",
@@ -132,7 +244,15 @@
     "chapter": 34,
     "verseStart": 8,
     "verseEnd": 8,
-    "text": "Provem, e vejam como o SENHOR é bom. Como é feliz o homem que nele se refugia!"
+    "text": "Provem, e vejam como o SENHOR é bom. Como é feliz o homem que nele se refugia!",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        529
+      ]
+    }
   },
   {
     "id": "passagem-16",
@@ -141,7 +261,15 @@
     "chapter": 46,
     "verseStart": 1,
     "verseEnd": 1,
-    "text": "Deus é o nosso refúgio e a nossa fortaleza, auxílio sempre presente na adversidade."
+    "text": "Deus é o nosso refúgio e a nossa fortaleza, auxílio sempre presente na adversidade.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        543
+      ]
+    }
   },
   {
     "id": "passagem-17",
@@ -150,7 +278,15 @@
     "chapter": 46,
     "verseStart": 10,
     "verseEnd": 10,
-    "text": "“Parem de lutar! Saibam que eu sou Deus! Serei exaltado entre as nações, serei exaltado na terra.”"
+    "text": "“Parem de lutar! Saibam que eu sou Deus! Serei exaltado entre as nações, serei exaltado na terra.”",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        544
+      ]
+    }
   },
   {
     "id": "passagem-18",
@@ -159,7 +295,15 @@
     "chapter": 91,
     "verseStart": 1,
     "verseEnd": 2,
-    "text": "Aquele que habita no abrigo do Altíssimo e descansa à sombra do Todo-poderoso pode dizer ao SENHOR: “Tu és o meu refúgio e a minha fortaleza, o meu Deus, em quem confio”."
+    "text": "Aquele que habita no abrigo do Altíssimo e descansa à sombra do Todo-poderoso pode dizer ao SENHOR: “Tu és o meu refúgio e a minha fortaleza, o meu Deus, em quem confio”.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        591
+      ]
+    }
   },
   {
     "id": "passagem-19",
@@ -168,7 +312,16 @@
     "chapter": 100,
     "verseStart": 5,
     "verseEnd": 5,
-    "text": "Pois o SENHOR é bom e o seu amor leal é eterno; a sua fidelidade permanece por todas as gerações."
+    "text": "Pois o SENHOR é bom e o seu amor leal é eterno; a sua fidelidade permanece por todas as gerações.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        597,
+        598
+      ]
+    }
   },
   {
     "id": "passagem-20",
@@ -177,7 +330,15 @@
     "chapter": 119,
     "verseStart": 105,
     "verseEnd": 105,
-    "text": "A tua palavra é lâmpada que ilumina os meus passos e luz que clareia o meu caminho."
+    "text": "A tua palavra é lâmpada que ilumina os meus passos e luz que clareia o meu caminho.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        623
+      ]
+    }
   },
   {
     "id": "passagem-21",
@@ -186,7 +347,15 @@
     "chapter": 121,
     "verseStart": 1,
     "verseEnd": 2,
-    "text": "Levanto os meus olhos para os montes e pergunto: De onde me vem o socorro? O meu socorro vem do SENHOR, que fez os céus e a terra."
+    "text": "Levanto os meus olhos para os montes e pergunto: De onde me vem o socorro? O meu socorro vem do SENHOR, que fez os céus e a terra.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        627
+      ]
+    }
   },
   {
     "id": "passagem-22",
@@ -195,7 +364,15 @@
     "chapter": 133,
     "verseStart": 1,
     "verseEnd": 1,
-    "text": "Como é bom e agradável quando os irmãos convivem em união!"
+    "text": "Como é bom e agradável quando os irmãos convivem em união!",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        633
+      ]
+    }
   },
   {
     "id": "passagem-23",
@@ -204,7 +381,15 @@
     "chapter": 139,
     "verseStart": 23,
     "verseEnd": 24,
-    "text": "Sonda-me, ó Deus, e conhece o meu coração; prova-me, e conhece as minhas inquietações. Vê se em minha conduta algo te ofende, e dirige-me pelo caminho eterno."
+    "text": "Sonda-me, ó Deus, e conhece o meu coração; prova-me, e conhece as minhas inquietações. Vê se em minha conduta algo te ofende, e dirige-me pelo caminho eterno.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        638
+      ]
+    }
   },
   {
     "id": "passagem-24",
@@ -213,7 +398,15 @@
     "chapter": 3,
     "verseStart": 5,
     "verseEnd": 6,
-    "text": "Confie no SENHOR de todo o seu coração e não se apóie em seu próprio entendimento; reconheça o SENHOR em todos os seus caminhos, e ele endireitará as suas veredas."
+    "text": "Confie no SENHOR de todo o seu coração e não se apóie em seu próprio entendimento; reconheça o SENHOR em todos os seus caminhos, e ele endireitará as suas veredas.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        650
+      ]
+    }
   },
   {
     "id": "passagem-25",
@@ -222,7 +415,15 @@
     "chapter": 4,
     "verseStart": 23,
     "verseEnd": 23,
-    "text": "Acima de tudo, guarde o seu coração, pois dele depende toda a sua vida."
+    "text": "Acima de tudo, guarde o seu coração, pois dele depende toda a sua vida.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        653
+      ]
+    }
   },
   {
     "id": "passagem-26",
@@ -231,7 +432,15 @@
     "chapter": 16,
     "verseStart": 3,
     "verseEnd": 3,
-    "text": "Consagre ao SENHOR tudo o que você faz, e os seus planos serão bem-sucedidos."
+    "text": "Consagre ao SENHOR tudo o que você faz, e os seus planos serão bem-sucedidos.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        674
+      ]
+    }
   },
   {
     "id": "passagem-27",
@@ -240,7 +449,15 @@
     "chapter": 3,
     "verseStart": 1,
     "verseEnd": 1,
-    "text": "Para tudo há uma ocasião certa; há um tempo certo para cada propósito debaixo do céu:"
+    "text": "Para tudo há uma ocasião certa; há um tempo certo para cada propósito debaixo do céu:",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        709
+      ]
+    }
   },
   {
     "id": "passagem-28",
@@ -249,7 +466,15 @@
     "chapter": 40,
     "verseStart": 31,
     "verseEnd": 31,
-    "text": "mas aqueles que esperam no SENHOR renovam as suas forças. Voam alto como águias; correm e não ficam exaustos, andam e não se cansam."
+    "text": "mas aqueles que esperam no SENHOR renovam as suas forças. Voam alto como águias; correm e não ficam exaustos, andam e não se cansam.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        797
+      ]
+    }
   },
   {
     "id": "passagem-29",
@@ -258,7 +483,15 @@
     "chapter": 41,
     "verseStart": 10,
     "verseEnd": 10,
-    "text": "Por isso não tema, pois estou com você; não tenha medo, pois sou o seu Deus. Eu o fortalecerei e o ajudarei; eu o segurarei com a minha mão direita vitoriosa."
+    "text": "Por isso não tema, pois estou com você; não tenha medo, pois sou o seu Deus. Eu o fortalecerei e o ajudarei; eu o segurarei com a minha mão direita vitoriosa.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        798
+      ]
+    }
   },
   {
     "id": "passagem-30",
@@ -267,7 +500,15 @@
     "chapter": 29,
     "verseStart": 11,
     "verseEnd": 11,
-    "text": "Porque sou eu que conheço os planos que tenho para vocês’, diz o SENHOR, ‘planos de fazê-los prosperar e não de lhes causar dano, planos de dar-lhes esperança e um futuro."
+    "text": "Porque sou eu que conheço os planos que tenho para vocês’, diz o SENHOR, ‘planos de fazê-los prosperar e não de lhes causar dano, planos de dar-lhes esperança e um futuro.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        898
+      ]
+    }
   },
   {
     "id": "passagem-31",
@@ -276,7 +517,15 @@
     "chapter": 3,
     "verseStart": 22,
     "verseEnd": 23,
-    "text": "Graças ao grande amor do SENHOR é que não somos consumidos, pois as suas misericórdias são inesgotáveis. Renovam-se cada manhã; grande é a sua fidelidade!"
+    "text": "Graças ao grande amor do SENHOR é que não somos consumidos, pois as suas misericórdias são inesgotáveis. Renovam-se cada manhã; grande é a sua fidelidade!",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        947
+      ]
+    }
   },
   {
     "id": "passagem-32",
@@ -285,7 +534,15 @@
     "chapter": 6,
     "verseStart": 8,
     "verseEnd": 8,
-    "text": "Ele mostrou a você, ó homem, o que é bom e o que o SENHOR exige: pratique a justiça, ame a fidelidade e ande humildemente com o seu Deus."
+    "text": "Ele mostrou a você, ó homem, o que é bom e o que o SENHOR exige: pratique a justiça, ame a fidelidade e ande humildemente com o seu Deus.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "at",
+      "file": "at.pdf",
+      "pages": [
+        1067
+      ]
+    }
   },
   {
     "id": "passagem-33",
@@ -294,7 +551,15 @@
     "chapter": 5,
     "verseStart": 14,
     "verseEnd": 16,
-    "text": "“Vocês são a luz do mundo. Não se pode esconder uma cidade construída sobre um monte. E, também, ninguém acende uma candeia e a coloca debaixo de uma vasilha. Ao contrário, coloca-a no lugar apropriado, e assim ilumina a todos os que estão na casa. Assim brilhe a luz de vocês diante dos homens, para que vejam as suas boas obras e glorifiquem ao Pai de vocês, que está nos céus."
+    "text": "“Vocês são a luz do mundo. Não se pode esconder uma cidade construída sobre um monte. E, também, ninguém acende uma candeia e a coloca debaixo de uma vasilha. Ao contrário, coloca-a no lugar apropriado, e assim ilumina a todos os que estão na casa. Assim brilhe a luz de vocês diante dos homens, para que vejam as suas boas obras e glorifiquem ao Pai de vocês, que está nos céus.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        5
+      ]
+    }
   },
   {
     "id": "passagem-34",
@@ -303,7 +568,15 @@
     "chapter": 6,
     "verseStart": 33,
     "verseEnd": 33,
-    "text": "Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas lhes serão acrescentadas."
+    "text": "Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas lhes serão acrescentadas.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        8
+      ]
+    }
   },
   {
     "id": "passagem-35",
@@ -312,7 +585,15 @@
     "chapter": 11,
     "verseStart": 28,
     "verseEnd": 30,
-    "text": "“Venham a mim, todos os que estão cansados e sobrecarregados, e eu lhes darei descanso. Tomem sobre vocês o meu jugo e aprendam de mim, pois sou manso e humilde de coração, e vocês encontrarão descanso para as suas almas. Pois o meu jugo é suave e o meu fardo é leve”."
+    "text": "“Venham a mim, todos os que estão cansados e sobrecarregados, e eu lhes darei descanso. Tomem sobre vocês o meu jugo e aprendam de mim, pois sou manso e humilde de coração, e vocês encontrarão descanso para as suas almas. Pois o meu jugo é suave e o meu fardo é leve”.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        13
+      ]
+    }
   },
   {
     "id": "passagem-36",
@@ -321,7 +602,15 @@
     "chapter": 22,
     "verseStart": 37,
     "verseEnd": 39,
-    "text": "Respondeu Jesus: “ ‘Ame o Senhor, o seu Deus de todo o seu coração, de toda a sua alma e de todo o seu entendimento’. Este é o primeiro e maior mandamento. E o segundo é semelhante a ele: ‘Ame o seu próximo como a si mesmo’."
+    "text": "Respondeu Jesus: “ ‘Ame o Senhor, o seu Deus de todo o seu coração, de toda a sua alma e de todo o seu entendimento’. Este é o primeiro e maior mandamento. E o segundo é semelhante a ele: ‘Ame o seu próximo como a si mesmo’.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        28
+      ]
+    }
   },
   {
     "id": "passagem-37",
@@ -330,7 +619,15 @@
     "chapter": 10,
     "verseStart": 45,
     "verseEnd": 45,
-    "text": "Pois nem mesmo o Filho do homem veio para ser servido, mas para servir e dar a sua vida em resgate por muitos”."
+    "text": "Pois nem mesmo o Filho do homem veio para ser servido, mas para servir e dar a sua vida em resgate por muitos”.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        49
+      ]
+    }
   },
   {
     "id": "passagem-38",
@@ -339,7 +636,15 @@
     "chapter": 6,
     "verseStart": 31,
     "verseEnd": 31,
-    "text": "Como vocês querem que os outros lhes façam, façam também vocês a eles."
+    "text": "Como vocês querem que os outros lhes façam, façam também vocês a eles.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        69
+      ]
+    }
   },
   {
     "id": "passagem-39",
@@ -348,7 +653,15 @@
     "chapter": 3,
     "verseStart": 16,
     "verseEnd": 16,
-    "text": "“Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna."
+    "text": "“Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        98
+      ]
+    }
   },
   {
     "id": "passagem-40",
@@ -357,7 +670,15 @@
     "chapter": 8,
     "verseStart": 12,
     "verseEnd": 12,
-    "text": "Falando novamente ao povo, Jesus disse: “Eu sou a luz do mundo. Quem me segue, nunca andará em trevas, mas terá a luz da vida”."
+    "text": "Falando novamente ao povo, Jesus disse: “Eu sou a luz do mundo. Quem me segue, nunca andará em trevas, mas terá a luz da vida”.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        105
+      ]
+    }
   },
   {
     "id": "passagem-41",
@@ -366,7 +687,15 @@
     "chapter": 13,
     "verseStart": 34,
     "verseEnd": 35,
-    "text": "“Um novo mandamento lhes dou: Amem-se uns aos outros. Como eu os amei, vocês devem amar-se uns aos outros. Com isso todos saberão que vocês são meus discípulos, se vocês se amarem uns aos outros”."
+    "text": "“Um novo mandamento lhes dou: Amem-se uns aos outros. Como eu os amei, vocês devem amar-se uns aos outros. Com isso todos saberão que vocês são meus discípulos, se vocês se amarem uns aos outros”.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        113
+      ]
+    }
   },
   {
     "id": "passagem-42",
@@ -375,7 +704,15 @@
     "chapter": 14,
     "verseStart": 27,
     "verseEnd": 27,
-    "text": "Deixo-lhes a paz; a minha paz lhes dou. Não a dou como o mundo a dá. Não se perturbe o seu coração, nem tenham medo."
+    "text": "Deixo-lhes a paz; a minha paz lhes dou. Não a dou como o mundo a dá. Não se perturbe o seu coração, nem tenham medo.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        114
+      ]
+    }
   },
   {
     "id": "passagem-43",
@@ -384,7 +721,15 @@
     "chapter": 8,
     "verseStart": 38,
     "verseEnd": 39,
-    "text": "Pois estou convencido de que nem morte nem vida, nem anjos nem demônios, nem o presente nem o futuro, nem quaisquer poderes, nem altura nem profundidade, nem qualquer outra coisa na criação será capaz de nos separar do amor de Deus que está em Cristo Jesus, nosso Senhor."
+    "text": "Pois estou convencido de que nem morte nem vida, nem anjos nem demônios, nem o presente nem o futuro, nem quaisquer poderes, nem altura nem profundidade, nem qualquer outra coisa na criação será capaz de nos separar do amor de Deus que está em Cristo Jesus, nosso Senhor.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        160
+      ]
+    }
   },
   {
     "id": "passagem-44",
@@ -393,7 +738,15 @@
     "chapter": 12,
     "verseStart": 2,
     "verseEnd": 2,
-    "text": "Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus."
+    "text": "Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        164
+      ]
+    }
   },
   {
     "id": "passagem-45",
@@ -402,7 +755,15 @@
     "chapter": 13,
     "verseStart": 4,
     "verseEnd": 7,
-    "text": "O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se orgulha. Não maltrata, não procura seus interesses, não se ira facilmente, não guarda rancor. O amor não se alegra com a injustiça, mas se alegra com a verdade. Tudo sofre, tudo crê, tudo espera, tudo suporta."
+    "text": "O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se orgulha. Não maltrata, não procura seus interesses, não se ira facilmente, não guarda rancor. O amor não se alegra com a injustiça, mas se alegra com a verdade. Tudo sofre, tudo crê, tudo espera, tudo suporta.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        177
+      ]
+    }
   },
   {
     "id": "passagem-46",
@@ -411,7 +772,15 @@
     "chapter": 5,
     "verseStart": 22,
     "verseEnd": 23,
-    "text": "Mas o fruto do Espírito é amor, alegria, paz, paciência, amabilidade, bondade, fidelidade, mansidão e domínio próprio. Contra essas coisas não há lei."
+    "text": "Mas o fruto do Espírito é amor, alegria, paz, paciência, amabilidade, bondade, fidelidade, mansidão e domínio próprio. Contra essas coisas não há lei.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        193
+      ]
+    }
   },
   {
     "id": "passagem-47",
@@ -420,7 +789,15 @@
     "chapter": 4,
     "verseStart": 32,
     "verseEnd": 32,
-    "text": "Sejam bondosos e compassivos uns para com os outros, perdoando-se mutuamente, assim como Deus os perdoou em Cristo."
+    "text": "Sejam bondosos e compassivos uns para com os outros, perdoando-se mutuamente, assim como Deus os perdoou em Cristo.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        197
+      ]
+    }
   },
   {
     "id": "passagem-48",
@@ -429,7 +806,15 @@
     "chapter": 4,
     "verseStart": 6,
     "verseEnd": 7,
-    "text": "Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus. E a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus."
+    "text": "Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus. E a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        202
+      ]
+    }
   },
   {
     "id": "passagem-49",
@@ -438,7 +823,15 @@
     "chapter": 5,
     "verseStart": 7,
     "verseEnd": 7,
-    "text": "Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês."
+    "text": "Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        244
+      ]
+    }
   },
   {
     "id": "passagem-50",
@@ -447,6 +840,14 @@
     "chapter": 4,
     "verseStart": 19,
     "verseEnd": 19,
-    "text": "Nós amamos porque ele nos amou primeiro."
+    "text": "Nós amamos porque ele nos amou primeiro.",
+    "version": "NVI",
+    "source": {
+      "sourceId": "nt",
+      "file": "nt.pdf",
+      "pages": [
+        250
+      ]
+    }
   }
 ]

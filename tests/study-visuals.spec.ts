@@ -163,3 +163,46 @@ test('os parágrafos ao redor dos quadros continuam selecionáveis e disponívei
   await expect(tabernacle.locator('.study-visual-preview img')).toHaveAttribute('src', /p020-tabernacle-light\.png$/);
   await tabernacle.screenshot({ path: testInfo.outputPath('generated-tabernacle.png') });
 });
+
+test('figuras ainda em conferência usam recortes originais ampliáveis sem inventar leitura em áudio', async ({ page }, testInfo) => {
+  await page.goto('/');
+  await studies(page);
+  await openLesson(page, 'Como a Bíblia está organizada');
+  const section = page.locator('.study-text-section').filter({ has: page.locator('.study-section-topline').getByText('Página 8', { exact: true }) });
+  await expect(section.getByRole('heading', { name: 'Página em conferência', exact: true })).toBeVisible();
+  const figure = section.locator('figure.study-visual');
+  const original = figure.locator('.study-visual-preview img');
+  await expectLoaded(original);
+  await expect(original).toHaveAttribute('src', /p008-division-rings-original\.png$/);
+  await expect(original).toHaveAttribute('alt', /Imagem original do PDF/);
+  await expect(figure).toContainText('Imagem original do PDF.');
+  await expect(figure.getByRole('button', { name: /^Ouvir descrição:/ })).toHaveCount(0);
+  await expect(section.getByRole('button', { name: 'Ouvir texto da página 8', exact: true })).toHaveCount(0);
+  await expect(section.locator('.study-source-link')).toHaveAttribute('href', '/api/sources/study-1#page=8');
+  await figure.screenshot({ path: testInfo.outputPath('original-division-figure.png') });
+  const source = await original.getAttribute('src');
+  await page.getByRole('button', { name: 'Ativar tema escuro', exact: true }).click();
+  await expect(original).toHaveAttribute('src', source!);
+  const enlarge = figure.getByRole('button', { name: 'Ampliar imagem: Como a Bíblia é dividida', exact: true });
+  await enlarge.click();
+  const dialog = page.getByRole('dialog', { name: 'Como a Bíblia é dividida', exact: true });
+  await expect(dialog).toBeVisible();
+  await dialog.getByRole('button', { name: 'Aumentar ampliação', exact: true }).click();
+  await expect(dialog.getByLabel('Nível de ampliação', { exact: true })).toHaveText('150%');
+  await page.keyboard.press('Escape');
+  await expect(dialog).not.toBeVisible();
+  await expect(enlarge).toBeFocused();
+
+  await page.getByRole('button', { name: 'Voltar aos estudos', exact: true }).click();
+  await openLesson(page, 'João em um quadro');
+  await page.setViewportSize({ width: 390, height: 844 });
+  const gospelOriginals = page.locator('figure.study-visual').filter({ has: page.locator('img[src$="-original.png"]') });
+  await expect(gospelOriginals).toHaveCount(2);
+  for (const image of await gospelOriginals.locator('.study-visual-preview img').all()) {
+    await expectLoaded(image);
+    await expect(image).toHaveAttribute('src', /\/gospels\/p004-(?:book-info|timeline)-original\.png$/);
+  }
+  await expect(page.getByRole('button', { name: 'Ouvir texto da página 4', exact: true })).toHaveCount(0);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
+  await gospelOriginals.first().screenshot({ path: testInfo.outputPath('original-gospel-mobile.png') });
+});

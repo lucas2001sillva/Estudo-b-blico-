@@ -56,7 +56,7 @@ export function StudyVisual({ visual, theme, onSpeak }: {
       />}
     </div>
     <div className="study-visual-actions">
-      <span className="muted">{visual.redrawn ? 'Dados e relações preservados do material.' : 'Confira os detalhes no tamanho ampliado.'}</span>
+      <span className="muted">{visual.redrawn ? 'Dados e relações preservados do material.' : 'Imagem original do PDF. Amplie para consultar os detalhes.'}</span>
       <button ref={trigger} type="button" className="button button-secondary" disabled={failed} onClick={() => { setZoom(1); setIsOpen(true); }} aria-label={`Ampliar imagem: ${visual.title}`}>
         <Expand size={16} aria-hidden="true" /> Ampliar imagem
       </button>

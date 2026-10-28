@@ -16,6 +16,13 @@ const nativeText = item => (item.blocks ?? []).filter(block => block.kind === 't
 const plannedPageCount = () => studies.lessons.reduce((count, lesson) => count + lesson.sections.length, 0);
 const plans = ['visual-regions-study2a.json', 'visual-regions-study2b.json', 'visual-regions-native.json']
   .flatMap(filename => JSON.parse(readFileSync(path.join(root, 'content', filename), 'utf8')));
+const approvedOriginalIds = new Set([
+  'study-1-p008-division-rings',
+  'gospels-p001-book-info', 'gospels-p001-timeline', 'gospels-p001-structure',
+  'gospels-p002-timeline', 'gospels-p002-human-side', 'gospels-p002-cross-sequence',
+  'gospels-p003-timeline', 'gospels-p003-ordered-narrative',
+  'gospels-p004-book-info', 'gospels-p004-timeline',
+]);
 const svgText = value => normalized([...value.matchAll(/<text\b[^>]*>([\s\S]*?)<\/text>/g)].map(match => match[1]).join(' '));
 
 test('o gráfico preserva 39 e 27 livros, escala comum e proporções das barras nos dois temas', () => {
@@ -112,7 +119,7 @@ test('parágrafos permanecem texto e somente as regiões gráficas recebem figur
   }
 });
 
-test('as figuras recriadas usam assets locais seguros e mantêm a integridade das fontes', () => {
+test('figuras recriadas e recortes originais aprovados usam assets seguros com fonte íntegra', () => {
   for (const [sourceId, page] of [['study-1', 3], ['study-1', 4], ['study-3', 3], ['study-4', 3]]) {
     assert.ok(section(sourceId, page)?.visuals?.length, `${sourceId}, página ${page}`);
   }
@@ -130,10 +137,18 @@ test('as figuras recriadas usam assets locais seguros e mantêm a integridade da
       assert.ok(!seenIds.has(visual.id), `Figura duplicada: ${visual.id}`);
       seenIds.add(visual.id);
       assert.ok(visual.title.trim() && visual.description.trim());
-      assert.ok(visual.accessibleText?.trim(), `A figura ${visual.id} precisa de conteúdo para leitura em voz alta.`);
+      if (approvedOriginalIds.has(visual.id)) {
+        assert.equal(visual.redrawn, false, 'O recorte original não pode ser apresentado como imagem recriada.');
+        assert.equal(visual.accessibleText, undefined, 'Os rótulos ilegíveis não devem ganhar uma transcrição inventada.');
+        assert.equal(visual.lightSrc, visual.darkSrc, 'Os temas preservam a mesma imagem original, sem filtros.');
+        assert.match(visual.description, /Imagem original do PDF/);
+        assert.match(visual.lightSrc, /-original\.png$/);
+      } else {
+        assert.equal(visual.redrawn, true, 'Somente as onze figuras aprovadas usam recortes originais.');
+        assert.ok(visual.accessibleText?.trim(), `A figura ${visual.id} precisa de conteúdo para leitura em voz alta.`);
+      }
       assert.ok(visual.width > 0 && visual.height > 0);
       assert.notEqual(visual.kind, 'page', 'Somente a figura deve ser representada como imagem.');
-      assert.equal(visual.redrawn, true, 'As imagens precisam ser recriadas no estilo do site.');
       for (const asset of [visual.lightSrc, visual.darkSrc].filter(Boolean)) {
         assert.match(asset, /^\/study-visuals\/[a-z0-9-]+\/[a-z0-9-]+\.(?:svg|png)$/);
         assert.doesNotMatch(asset, /\/p\d{3}\.webp$/, 'A captura anterior de página inteira não pode voltar.');
@@ -160,6 +175,9 @@ test('as figuras recriadas usam assets locais seguros e mantêm a integridade da
   const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
   assert.equal(audit.version, 2);
   assert.equal(audit.fullPageImages, 0, 'Nenhuma página completa deve ser usada como imagem.');
+  assert.equal(audit.originalFigures, approvedOriginalIds.size);
+  assert.equal(audit.figures, audit.redrawnFigures + audit.originalFigures);
+  assert.ok([...approvedOriginalIds].every(id => seenIds.has(id)), 'Os onze recortes originais devem estar disponíveis para ampliação.');
   assert.equal(audit.sections, plannedPageCount(), 'A auditoria cobre todas as páginas do estudo.');
   for (const original of audit.sources) {
     const source = studies.sources.find(item => item.id === original.id);
@@ -171,8 +189,18 @@ test('as figuras recriadas usam assets locais seguros e mantêm a integridade da
     assert.ok(item);
     assert.equal(sha256(item.body), entry.bodySha256, 'A apresentação não deve sobrescrever a transcrição de origem.');
     assert.notEqual(entry.mode, 'faithful-composite');
-    const expectedFigures = (entry.figures ?? []).filter(figure => figure.status === 'redrawn');
-    assert.equal((item.visuals ?? []).length, expectedFigures.length, 'Uma figura em conferência não vira imagem inventada.');
+    const expectedFigures = (entry.figures ?? []).filter(figure => ['redrawn', 'source-original'].includes(figure.status));
+    assert.equal((item.visuals ?? []).length, expectedFigures.length, 'Figuras em conferência usam o original aprovado, sem imagem inventada.');
+    for (const figure of expectedFigures.filter(figure => figure.status === 'source-original')) {
+      const id = `${entry.sourceId}-p${String(entry.sourcePage).padStart(3, '0')}-${figure.id}`;
+      assert.ok(approvedOriginalIds.has(id));
+      const plan = plans.find(plan => plan.sourceId === entry.sourceId && plan.sourcePage === entry.sourcePage);
+      const originalRegion = plan.figures.find(region => region.id === figure.id);
+      assert.equal(originalRegion.redrawReviewRequired, true);
+      assert.deepEqual(figure.rect, originalRegion.rect, 'O recorte original deve ficar restrito à região auditada.');
+      assert.equal(figure.assets.length, 1, 'A imagem original é compartilhada pelos dois temas.');
+      assert.ok(entry.pendingFigures.some(pending => pending.id === figure.id && pending.availableAs === 'source-original'));
+    }
   }
   const auditedAssets = new Set();
   const inspectAudit = value => {

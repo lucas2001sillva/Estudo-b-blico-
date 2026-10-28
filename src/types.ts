@@ -1,4 +1,4 @@
-export interface Verse { number: number; text: string }
+export interface Verse { number: number; text: string; sourcePages?: number[] }
 export interface Book { id: string; name: string; abbreviation: string; testament: 'AT' | 'NT'; chapterCount: number }
 export interface Chapter { number: number; verses: Verse[]; sourcePages: number[] }
 export interface Source { id: string; title: string; file: string; totalPages: number }
@@ -35,7 +35,7 @@ export interface Trail { id: string; title: string; description: string; lessonI
 export interface Question { id: string; prompt: string; choices: string[]; answerIndex: number; explanation: string; source: { sourceId: string; page: number } }
 export interface Quiz { id: string; lessonId: string; title: string; questions: Question[] }
 export interface Studies { sources: Source[]; trails: Trail[]; lessons: Lesson[]; quizzes: Quiz[] }
-export interface Passage { id: string; bookId: string; bookName: string; chapter: number; verseStart: number; verseEnd: number; text: string }
+export interface Passage { id: string; bookId: string; bookName: string; chapter: number; verseStart: number; verseEnd: number; text: string; version: 'NVI'; source: { sourceId: 'at' | 'nt'; file: string; pages: number[] } }
 export interface Catalog { version: string; books: Book[]; studies: Studies; passages: Passage[] }
 export interface QuizAttempt { id: string; quizId: string; score: number; total: number; createdAt: string; answers?: number[] }
 export interface Preferences { theme: 'light' | 'dark'; fontSize: number; speechRate: number }

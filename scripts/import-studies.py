@@ -95,15 +95,20 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'Reunir somente biografias dos reis',
                              'Tratar exclusivamente das cartas apostólicas'],
                  'answerIndex': 1,
-                 'explanation': 'A introdução propõe uma visão panorâmica das Escrituras para ajudar o leitor a '
-                                'compreender sua narrativa.',
+                 'explanation': 'A Jornada Bíblica oferece uma visão geral das Escrituras para ajudar o leitor a '
+                                'compreender sua narrativa. A introdução apresenta a Bíblia como uma história '
+                                'contínua da relação de Deus com o ser humano, escrita em épocas e idiomas '
+                                'diferentes. O material propõe acompanhar essa história da criação ao '
+                                'cumprimento da promessa em Jesus.',
                  'source': {'sourceId': 'study-1', 'page': 2}},
                 {'id': 'intro-02',
                  'prompt': 'Segundo o material, o que significa a palavra grega que deu origem ao nome “Bíblia”?',
                  'choices': ['Templo', 'Caminho', 'Livros', 'Cidade'],
                  'answerIndex': 2,
-                 'explanation': 'O material explica que “Bíblia” vem do grego bíblos, com o significado de '
-                                '“livros”.',
+                 'explanation': 'Segundo o material, a palavra “Bíblia” vem do grego bíblos e significa '
+                                '“livros”. Esse nome ajuda a entender a Bíblia como uma coleção de obras '
+                                'interligadas, dividida em Antigo e Novo Testamento. A página mostra que essa '
+                                'coleção reúne histórias, poesias, profecias, leis, conselhos e cartas.',
                  'source': {'sourceId': 'study-1', 'page': 3}}]},
  {'lessonId': 'organizacao-biblia',
   'title': 'Organização e línguas da Bíblia',
@@ -111,15 +116,20 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                  'prompt': 'Em qual língua foi escrita originalmente a maior parte do Antigo Testamento?',
                  'choices': ['Hebraico', 'Latim', 'Português', 'Grego koiné'],
                  'answerIndex': 0,
-                 'explanation': 'A seção sobre línguas informa que a maior parte do Antigo Testamento foi escrita '
-                                'em hebraico; também há trechos em aramaico.',
+                 'explanation': 'A maior parte do Antigo Testamento foi escrita em hebraico, apresentado como a '
+                                'língua literária do povo hebreu e de Israel. O estudo também informa que alguns '
+                                'trechos foram escritos em aramaico, uma língua relacionada ao hebraico. Assim, '
+                                'o hebraico é a língua principal dessa parte da Bíblia, mas não a única.',
                  'source': {'sourceId': 'study-1', 'page': 7}},
                 {'id': 'organizacao-02',
                  'prompt': 'Qual língua o material apresenta como a língua original do Novo Testamento?',
                  'choices': ['Latim', 'Hebraico', 'Português', 'Grego koiné'],
                  'answerIndex': 3,
-                 'explanation': 'O texto identifica o grego koiné como a forma comum do grego usada na escrita do '
-                                'Novo Testamento.',
+                 'explanation': 'O Novo Testamento foi escrito em grego koiné, uma forma comum do grego antigo. '
+                                'Segundo o estudo, embora Jesus e seus discípulos falassem aramaico no '
+                                'cotidiano, os textos foram registrados em grego para alcançar mais pessoas. A '
+                                'escolha da língua está ligada ao contexto cultural em que esses escritos '
+                                'surgiram.',
                  'source': {'sourceId': 'study-1', 'page': 7}}]},
  {'lessonId': 'panorama-biblia',
   'title': 'Um passeio pelos livros bíblicos',
@@ -128,16 +138,21 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                            'Egito?',
                  'choices': ['Rute', 'Êxodo', 'Provérbios', 'Apocalipse'],
                  'answerIndex': 1,
-                 'explanation': 'No panorama do Pentateuco, Êxodo é associado à libertação do povo hebreu do '
-                                'Egito e à formação de Israel como nação.',
+                 'explanation': 'Êxodo relata a libertação do povo hebreu da escravidão no Egito e a formação de '
+                                'Israel como nação. O panorama destaca a liderança de Moisés, os sinais de Deus '
+                                'e a travessia do Mar Vermelho. Também inclui a entrega da Lei no Sinai, '
+                                'mostrando que o livro acompanha a saída do Egito e a organização do povo.',
                  'source': {'sourceId': 'study-1', 'page': 12}},
                 {'id': 'panorama-02',
                  'prompt': 'No panorama do Novo Testamento, qual livro mostra a expansão da igreja e a ação do '
                            'Espírito Santo?',
                  'choices': ['Cantares', 'Números', 'Atos dos Apóstolos', 'Ester'],
                  'answerIndex': 2,
-                 'explanation': 'O panorama distingue os Evangelhos, que relatam a vida e o ministério de Jesus, '
-                                'de Atos, que mostra a expansão da igreja.',
+                 'explanation': 'Atos dos Apóstolos é o livro que o panorama associa à expansão da igreja e à '
+                                'ação do Espírito Santo. Na mesma página, Mateus, Marcos, Lucas e João são '
+                                'apresentados como relatos da vida e do ministério de Jesus sob perspectivas '
+                                'diferentes. Essa distinção ajuda a identificar o tema de Atos entre os livros '
+                                'do Novo Testamento.',
                  'source': {'sourceId': 'study-1', 'page': 15}}]},
  {'lessonId': 'identidade-hebreus',
   'title': 'Hebreus e israelitas',
@@ -148,8 +163,10 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'Eliseu, sucessor de Elias',
                              'Lucas, autor de Atos'],
                  'answerIndex': 0,
-                 'explanation': 'O material explica que os israelitas são descendentes de Jacó, que recebeu o '
-                                'nome Israel.',
+                 'explanation': 'Os israelitas são apresentados como descendentes de Jacó, que recebeu o nome '
+                                'Israel. Segundo o estudo, cada um de seus filhos representa uma tribo, dando '
+                                'origem às doze tribos de Israel. Por isso, o nome “israelita” se relaciona à '
+                                'expressão “filhos de Israel”.',
                  'source': {'sourceId': 'study-3', 'page': 1}},
                 {'id': 'hebreus-02',
                  'prompt': 'Quais três nomes são apresentados juntos como patriarcas dos israelitas?',
@@ -158,8 +175,10 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'Davi, Salomão e Roboão',
                              'Mateus, Marcos e Lucas'],
                  'answerIndex': 1,
-                 'explanation': 'O texto chama Abraão, seu filho Isaque e seu neto Jacó de patriarcas dos filhos '
-                                'de Israel.',
+                 'explanation': 'Os três patriarcas citados são Abraão, Isaque e Jacó. A página explica a '
+                                'relação entre eles: Isaque é pai de Jacó, e Abraão é seu avô. O estudo liga o '
+                                'povo israelita à descendência de Jacó e apresenta esses três nomes juntos como '
+                                'patriarcas dos filhos de Israel.',
                  'source': {'sourceId': 'study-3', 'page': 2}}]},
  {'lessonId': 'historicos-at',
   'title': 'História, retorno e reconstrução',
@@ -167,8 +186,10 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                  'prompt': 'Quem é apresentado em 2 Reis como sucessor de Elias, realizando vários milagres?',
                  'choices': ['Ciro', 'Zorobabel', 'Eliseu', 'Esdras'],
                  'answerIndex': 2,
-                 'explanation': 'Na apresentação de 2 Reis, o material descreve Eliseu como sucessor de Elias e '
-                                'cita milagres de seu ministério.',
+                 'explanation': 'Eliseu é apresentado em 2 Reis como o sucessor do profeta Elias. A página cita '
+                                'milagres de seu ministério, como a multiplicação do azeite para uma viúva e a '
+                                'cura de Naamã. O estudo usa esses relatos para mostrar a graça e o poder de '
+                                'Deus mesmo em um período de declínio espiritual.',
                  'source': {'sourceId': 'study-3', 'page': 3}},
                 {'id': 'historicos-02',
                  'prompt': 'O que o decreto de Ciro permitiu aos exilados judeus, segundo o resumo de Esdras?',
@@ -177,8 +198,10 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'Construir uma torre em Babel',
                              'Interromper toda a leitura da Lei'],
                  'answerIndex': 0,
-                 'explanation': 'A seção sobre Esdras informa que Ciro permitiu o retorno a Jerusalém e a '
-                                'reconstrução do Templo.',
+                 'explanation': 'O decreto de Ciro permitiu que os exilados judeus voltassem a Jerusalém e '
+                                'reconstruíssem o Templo. A página também informa que Ciro devolveu os '
+                                'utensílios que haviam sido levados pelos babilônios. No resumo de Esdras, esse '
+                                'decreto marca o começo do retorno e da reconstrução.',
                  'source': {'sourceId': 'study-3', 'page': 11}}]},
  {'lessonId': 'poeticos',
   'title': 'Poesia e sabedoria para a vida',
@@ -187,15 +210,19 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                            'oração?',
                  'choices': ['Josué', 'Levítico', 'Atos', 'Salmos'],
                  'answerIndex': 3,
-                 'explanation': 'O material apresenta Salmos como uma coleção de cânticos e poemas que expressam '
-                                'muitas emoções diante de Deus.',
+                 'explanation': 'Salmos é apresentado como uma coleção de 150 cânticos e poemas de adoração, '
+                                'louvor, lamentação, gratidão e reflexão. O material mostra que esses textos '
+                                'expressam muitas emoções e situações da vida diante de Deus. Por isso, são '
+                                'frequentemente usados como oração e adoração nas tradições judaica e cristã.',
                  'source': {'sourceId': 'study-3', 'page': 16}},
                 {'id': 'poeticos-02',
                  'prompt': 'Qual livro reúne ditos sábios e orientação prática para a vida diária?',
                  'choices': ['Esdras', 'Provérbios', 'Obadias', 'Marcos'],
                  'answerIndex': 1,
-                 'explanation': 'A apresentação de Provérbios destaca conselhos sobre sabedoria, justiça, '
-                                'relacionamentos, trabalho e integridade.',
+                 'explanation': 'Provérbios reúne ditos e ensinamentos sábios que oferecem orientação prática '
+                                'para a vida diária. O estudo cita temas como justiça, relacionamentos, trabalho '
+                                'e integridade. Esses assuntos mostram como a sabedoria é aplicada às escolhas e '
+                                'à maneira de viver.',
                  'source': {'sourceId': 'study-3', 'page': 16}}]},
  {'lessonId': 'profetas-menores',
   'title': 'Descobrindo os profetas menores',
@@ -206,16 +233,20 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'Porque seus livros são mais curtos',
                              'Porque todos tinham pouca idade'],
                  'answerIndex': 2,
-                 'explanation': 'O estudo explica que “menores” se refere ao tamanho dos escritos, sem diminuir a '
-                                'importância das mensagens.',
+                 'explanation': 'Os “profetas menores” recebem esse nome porque seus livros são mais curtos em '
+                                'comparação com os dos profetas maiores. O material esclarece que isso não torna '
+                                'suas mensagens menos importantes. São doze livros do Antigo Testamento, de '
+                                'Oséias a Malaquias, com ensinamentos sobre a relação entre Deus e seu povo.',
                  'source': {'sourceId': 'study-3', 'page': 40}},
                 {'id': 'menores-02',
                  'prompt': 'Qual profeta foi enviado para anunciar uma mensagem de arrependimento à cidade de '
                            'Nínive?',
                  'choices': ['Jonas', 'Ageu', 'Malaquias', 'Zacarias'],
                  'answerIndex': 0,
-                 'explanation': 'Na lista dos profetas menores, Jonas é identificado como o profeta enviado a '
-                                'Nínive.',
+                 'explanation': 'Jonas é o profeta que o estudo apresenta como enviado por Deus para anunciar '
+                                'uma mensagem de arrependimento em Nínive. Seu livro aparece na lista dos doze '
+                                'profetas menores. Nessa classificação, “menores” se refere ao tamanho dos '
+                                'escritos, e não à importância da mensagem.',
                  'source': {'sourceId': 'study-3', 'page': 40}}]},
  {'lessonId': 'periodo-interbiblico',
   'title': 'O mundo entre os Testamentos',
@@ -226,8 +257,10 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'Uma estrada construída pelos romanos',
                              'Uma tradução do Antigo Testamento para o grego'],
                  'answerIndex': 3,
-                 'explanation': 'O estudo apresenta a Septuaginta como a tradução grega do Antigo Testamento, '
-                                'importante para leitores que não conheciam hebraico.',
+                 'explanation': 'A Septuaginta é a tradução do Antigo Testamento para o grego. O estudo explica '
+                                'que muitos judeus que viviam fora de Israel já não sabiam ler hebraico e '
+                                'precisavam ter acesso às Escrituras em outra língua. A tradução ajudou esses '
+                                'leitores e também foi usada pelos primeiros cristãos.',
                  'source': {'sourceId': 'study-3', 'page': 65}},
                 {'id': 'interbiblico-02',
                  'prompt': 'Qual obra dos romanos é citada como uma ajuda para as viagens e a expansão da '
@@ -237,8 +270,10 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'A criação dos quatro Evangelhos',
                              'A reconstrução da Torre de Babel'],
                  'answerIndex': 1,
-                 'explanation': 'O material relaciona as estradas romanas à ligação entre cidades e à maior '
-                                'facilidade de viagem.',
+                 'explanation': 'A obra citada é a construção de estradas que ligavam cidades e países. Segundo '
+                                'o estudo, a organização romana também trouxe leis comuns e mais segurança para '
+                                'as viagens. Essas condições ajudaram os primeiros cristãos a viajar e levar a '
+                                'mensagem de Jesus a outras regiões.',
                  'source': {'sourceId': 'study-3', 'page': 66}}]},
  {'lessonId': 'evangelhos',
   'title': 'Quatro olhares sobre Jesus',
@@ -249,16 +284,21 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'Romanos, Gálatas, Efésios e Filipenses',
                              'Jó, Salmos, Provérbios e Eclesiastes'],
                  'answerIndex': 0,
-                 'explanation': 'A abertura da seção dos Evangelhos apresenta Mateus, Marcos, Lucas e João como '
-                                'relatos da vida e da mensagem de Jesus.',
+                 'explanation': 'Os quatro Evangelhos são Mateus, Marcos, Lucas e João. Eles relatam a vida, o '
+                                'ministério, a morte e a ressurreição de Jesus, reunindo ensinamentos, diálogos, '
+                                'parábolas e milagres. Cada relato tem características próprias; juntos, '
+                                'apresentam uma visão ampla da vida e da mensagem de Jesus.',
                  'source': {'sourceId': 'study-4', 'page': 2}},
                 {'id': 'evangelhos-02',
                  'prompt': 'Qual Evangelho é descrito nessa introdução como aquele que destaca a ação e o poder '
                            'de Jesus?',
                  'choices': ['Mateus', 'Lucas', 'Marcos', 'João'],
                  'answerIndex': 2,
-                 'explanation': 'Ao comparar as ênfases dos Evangelhos, o texto associa Marcos à ação e ao poder '
-                                'de Jesus.',
+                 'explanation': 'Marcos é o Evangelho que essa introdução associa à ação e ao poder de Jesus. O '
+                                'material distingue as ênfases dos quatro relatos: Mateus destaca o cumprimento '
+                                'das profecias, Lucas dá atenção aos marginalizados e João aprofunda a divindade '
+                                'de Jesus. Essas perspectivas se complementam na apresentação de sua vida e '
+                                'mensagem.',
                  'source': {'sourceId': 'study-4', 'page': 2}}]},
  {'lessonId': 'vida-jesus',
   'title': 'Parábolas e milagres de Jesus',
@@ -270,15 +310,19 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'Para reunir regras dos sacrifícios sacerdotais',
                              'Para descrever as viagens missionárias de Paulo'],
                  'answerIndex': 1,
-                 'explanation': 'O material explica que as parábolas usavam histórias simples e familiares para '
-                                'comunicar ensinamentos espirituais e morais.',
+                 'explanation': 'Jesus usava histórias simples e familiares para tornar seus ensinamentos '
+                                'acessíveis a pessoas diferentes. As parábolas recorriam a situações da vida '
+                                'cotidiana para comunicar ensinamentos espirituais e morais. Assim, quem ouvia '
+                                'podia compreender a mensagem por meio de exemplos conhecidos.',
                  'source': {'sourceId': 'study-4', 'page': 15}},
                 {'id': 'vida-02',
                  'prompt': 'Em qual passagem o material localiza o milagre da transformação de água em vinho?',
                  'choices': ['Lucas 15:11-32', 'Mateus 5–7', 'Atos 2:1-4', 'João 2:1-11'],
                  'answerIndex': 3,
-                 'explanation': 'Na lista dos milagres, a transformação de água em vinho aparece com a referência '
-                                'João 2:1-11.',
+                 'explanation': 'O material indica João 2:1-11 para o relato da transformação de água em vinho. '
+                                'Esse é o primeiro item da lista de milagres apresentada na página. A introdução '
+                                'da lista explica que esses acontecimentos extraordinários demonstram o poder '
+                                'divino de Jesus e revelam aspectos de sua missão.',
                  'source': {'sourceId': 'study-4', 'page': 16}}]},
  {'lessonId': 'atos',
   'title': 'O início e a expansão da igreja',
@@ -289,8 +333,11 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'O nascimento e a expansão da igreja cristã',
                              'Somente a genealogia dos reis de Judá'],
                  'answerIndex': 2,
-                 'explanation': 'O estudo apresenta Atos como o registro do nascimento e da expansão da igreja '
-                                'após a ressurreição e a ascensão de Jesus.',
+                 'explanation': 'Atos apresenta o nascimento e a expansão da igreja cristã depois da '
+                                'ressurreição e da ascensão de Jesus. O estudo mostra o Espírito Santo '
+                                'capacitando os discípulos para levarem o Evangelho além de Jerusalém. O relato '
+                                'acompanha essa expansão, os desafios dos primeiros cristãos e as viagens '
+                                'missionárias de Paulo.',
                  'source': {'sourceId': 'study-4', 'page': 23}},
                 {'id': 'atos-02',
                  'prompt': 'O que o estudo destaca no Pentecostes, em Atos 2?',
@@ -299,8 +346,11 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'Moisés entrega a Lei no Sinai',
                              'Salomão começa a construir o Templo'],
                  'answerIndex': 0,
-                 'explanation': 'A apresentação de Atos relaciona o Pentecostes ao derramamento do Espírito Santo '
-                                'sobre os discípulos.',
+                 'explanation': 'No Pentecostes, o Espírito Santo é derramado sobre os discípulos, cumprindo a '
+                                'promessa de Jesus. Segundo o estudo, eles passam a falar em várias línguas e a '
+                                'anunciar a mensagem com coragem. A página também destaca o sermão de Pedro, os '
+                                'batismos e o crescimento de uma comunidade marcada por oração, comunhão e '
+                                'ensino.',
                  'source': {'sourceId': 'study-4', 'page': 23}}]},
  {'lessonId': 'cartas-paulinas',
   'title': 'Aprendendo com as cartas de Paulo',
@@ -311,8 +361,11 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'Exclusivamente aos soldados romanos',
                              'A igrejas e a pessoas específicas'],
                  'answerIndex': 3,
-                 'explanation': 'O material informa que Paulo escreveu para igrejas e indivíduos, oferecendo '
-                                'ensinamentos e orientações.',
+                 'explanation': 'Paulo escreveu suas cartas para igrejas e pessoas específicas. O estudo explica '
+                                'que elas combinam ensino da fé com orientações para questões práticas '
+                                'enfrentadas pelos destinatários. As saudações, orações, palavras de '
+                                'encorajamento e instruções pessoais mostram seu cuidado com essas comunidades e '
+                                'pessoas.',
                  'source': {'sourceId': 'study-4', 'page': 26}},
                 {'id': 'paulinas-02',
                  'prompt': 'Além de ensinar sobre a fé, que tipo de orientação aparece nas cartas de Paulo?',
@@ -321,8 +374,10 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'Como organizar a monarquia de Israel',
                              'Como classificar as genealogias dos patriarcas'],
                  'answerIndex': 1,
-                 'explanation': 'A seção descreve conselhos práticos sobre ética, relacionamentos, serviço '
-                                'cristão e adoração.',
+                 'explanation': 'As cartas de Paulo incluem conselhos para a vida diária e os relacionamentos. O '
+                                'material cita questões éticas, serviço cristão e adoração, ligando o ensino da '
+                                'fé à maneira de viver. Também destaca palavras de encorajamento, esperança e '
+                                'consolo aos destinatários.',
                  'source': {'sourceId': 'study-4', 'page': 26}}]},
  {'lessonId': 'cartas-gerais',
   'title': 'Fé, amor e perseverança',
@@ -330,8 +385,10 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                  'prompt': 'Qual carta é destacada por tratar da prática da fé e de uma vida coerente com ela?',
                  'choices': ['Tiago', 'Filemom', 'Gálatas', 'Romanos'],
                  'answerIndex': 0,
-                 'explanation': 'A apresentação das cartas gerais afirma que Tiago trata da prática da fé, '
-                                'inclusive combatendo o favoritismo.',
+                 'explanation': 'Tiago é a carta que o estudo destaca por tratar da prática da fé. A página cita '
+                                'o combate ao favoritismo e a importância de viver de modo coerente com a fé '
+                                'cristã. Esse exemplo mostra como as cartas gerais respondem a questões '
+                                'concretas enfrentadas pelas comunidades.',
                  'source': {'sourceId': 'study-4', 'page': 54}},
                 {'id': 'gerais-02',
                  'prompt': 'Quais valores o material destaca nas cartas de 1, 2 e 3 João?',
@@ -340,8 +397,10 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'Amor e verdade na comunidade cristã',
                              'Comércio e impostos'],
                  'answerIndex': 2,
-                 'explanation': 'A seção das cartas gerais associa 1, 2 e 3 João à importância do amor e da '
-                                'verdade na comunidade cristã.',
+                 'explanation': 'O estudo destaca o amor e a verdade nas cartas de 1, 2 e 3 João. Esses valores '
+                                'aparecem ligados à vida da comunidade cristã. A página explica que as cartas '
+                                'gerais oferecem ensinamentos e orientações para questões éticas, de '
+                                'comportamento e de fé vividas por seus leitores.',
                  'source': {'sourceId': 'study-4', 'page': 54}}]},
  {'lessonId': 'apocalipse',
   'title': 'Símbolos e esperança em Apocalipse',
@@ -352,8 +411,11 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'Conselhos cotidianos reunidos em provérbios',
                              'Uma lista de regras para sacrifícios'],
                  'answerIndex': 1,
-                 'explanation': 'O estudo destaca o uso de imagens, símbolos e metáforas para transmitir a '
-                                'mensagem de Apocalipse.',
+                 'explanation': 'Apocalipse usa imagens, símbolos e metáforas para comunicar sua mensagem. '
+                                'Segundo o estudo, muitas dessas figuras se relacionam com o Antigo Testamento e '
+                                'representam realidades espirituais e acontecimentos cósmicos. Por isso, a '
+                                'página orienta a prestar atenção aos símbolos e às imagens para compreender o '
+                                'livro.',
                  'source': {'sourceId': 'study-4', 'page': 71}},
                 {'id': 'apocalipse-02',
                  'prompt': 'Que mensagem de esperança o estudo destaca em Apocalipse?',
@@ -362,8 +424,10 @@ CURATED_QUIZZES = [{'lessonId': 'intro-biblia',
                              'Uma coleção de viagens pelo Império Romano',
                              'A vitória final de Cristo sobre o mal'],
                  'answerIndex': 3,
-                 'explanation': 'A seção apresenta a vitória final de Cristo, a justiça divina e a esperança da '
-                                'vida eterna como temas do livro.',
+                 'explanation': 'A mensagem de esperança destacada é a vitória final de Cristo sobre o mal. O '
+                                'estudo relaciona essa vitória à justiça divina e à esperança da vida eterna '
+                                'para quem segue a Cristo. Também apresenta o livro como encorajamento para a '
+                                'igreja perseverar e permanecer fiel em meio às dificuldades.',
                  'source': {'sourceId': 'study-4', 'page': 71}}]}]
 
 

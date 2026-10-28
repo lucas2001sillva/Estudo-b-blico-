@@ -16,6 +16,7 @@ import unicodedata
 import xml.etree.ElementTree as ET
 
 import fitz
+from PIL import Image
 
 SVG = 'http://www.w3.org/2000/svg'
 XLINK = 'http://www.w3.org/1999/xlink'
@@ -287,6 +288,45 @@ def _native_svg(page, figure, crop, palette, source_id, page_no):
     bottom = top + inner_height
     tail, height = _notes_and_footer(figure, palette, source_id, page_no, bottom, width)
     return width, height, pieces + tail
+
+
+def render_original_figure(page: fitz.Page, figure: dict, output_dir: Path,
+                           source_id: str, page_no: int) -> dict:
+    """Export only an explicitly reviewed region, preserving its original pixels.
+
+    This exception is for the source-unreadable figures the reader requested
+    to see as originals. It never turns an unreviewed OCR reading into audio
+    and never applies theme recoloring to the source image.
+    """
+    if not figure.get('redrawReviewRequired'):
+        raise ValueError('Original exports are limited to figures awaiting faithful transcription.')
+    crop = fitz.Rect(figure['rect']) & page.rect
+    if crop.is_empty or crop == page.rect:
+        raise ValueError('An original figure must have a nonempty, region-only crop.')
+    identifier = _slug(figure.get('id', figure['title']))
+    folder = Path(output_dir) / source_id
+    folder.mkdir(parents=True, exist_ok=True)
+    filename = f'p{page_no:03d}-{identifier}-original.png'
+    pixmap = page.get_pixmap(matrix=fitz.Matrix(2.5, 2.5), clip=crop, alpha=False)
+    # Lossless PNG encoding keeps every rendered RGB value and strips metadata.
+    # It is materially smaller than the PDF library's default PNG encoder.
+    with Image.frombytes('RGB', (pixmap.width, pixmap.height), pixmap.samples) as image:
+        image.save(folder / filename, optimize=True)
+    source = f'/study-visuals/{source_id}/{filename}'
+    return {
+        'id': f'{source_id}-p{page_no:03d}-{identifier}',
+        'title': figure['title'],
+        'description': f'Imagem original do PDF: {figure["title"]}. '
+                       f'Fonte: {SOURCE_NAMES.get(source_id, source_id)}, página {page_no}. '
+                       'Somente o recorte da figura; os rótulos ainda não têm transcrição conferida. '
+                       'Amplie a imagem para consultar o original.',
+        'kind': figure.get('kind', 'diagram'),
+        'redrawn': False,
+        'lightSrc': source,
+        'darkSrc': source,
+        'width': pixmap.width,
+        'height': pixmap.height,
+    }
 
 
 def render_figure(page: fitz.Page, figure: dict, output_dir: Path,

@@ -10,20 +10,25 @@ export function BibleReader({ books, progress, target, onNavigate, onPatch, onSp
 }) {
   const position = target || progress.lastReading || { bookId: books[0]?.id, chapter: 1 };
   const book = books.find(item => item.id === position.bookId) || books[0];
-  const [chapter, setChapter] = useState<Chapter | null>(null);
+  const [loadedChapter, setLoadedChapter] = useState<{ bookId: string; number: number; chapter: Chapter } | null>(null);
   const [error, setError] = useState('');
   const [testament, setTestament] = useState<'all' | 'AT' | 'NT'>('all');
   const [filter, setFilter] = useState('');
   const [mobileBooks, setMobileBooks] = useState(false);
   const savedPosition = useRef('');
   const chapterNumber = Math.min(Math.max(1, position.chapter || 1), book?.chapterCount || 1);
+  // A new reference must never display the previous chapter or its PDF page,
+  // including the render before the request effect has cleared its old state.
+  const chapter = loadedChapter?.bookId === book?.id && loadedChapter.number === chapterNumber ? loadedChapter.chapter : null;
+  const sourcePage = (position.verse ? chapter?.verses.find(verse => verse.number === position.verse)?.sourcePages?.[0] : undefined)
+    ?? chapter?.sourcePages[0] ?? 1;
   useEffect(() => {
     if (!book) return;
     let active = true;
-    setError(''); setChapter(null);
+    setError(''); setLoadedChapter(null);
     request<{ chapter: Chapter }>(`/bible/${book.id}/${chapterNumber}`).then(data => {
       if (!active) return;
-      setChapter(data.chapter);
+      setLoadedChapter({ bookId: book.id, number: chapterNumber, chapter: data.chapter });
       const id = `${book.id}:${chapterNumber}`;
       if (savedPosition.current !== id) {
         savedPosition.current = id;
@@ -65,7 +70,7 @@ export function BibleReader({ books, progress, target, onNavigate, onPatch, onSp
         <article className="scripture card" aria-busy={!chapter && !error}>
           <div className="reader-heading"><span className="badge">NVI · TEXTO DOS ARQUIVOS ENVIADOS</span><button className="button button-ghost" disabled={!chapter} onClick={() => onSpeak(`${book.name}, capítulo ${chapterNumber}. ${chapter?.verses.map(verse => verse.text).join(' ')}`)}><Volume2 size={17} />Ouvir capítulo</button></div>
           <div data-readable><h2>{book.name} <span>{chapterNumber}</span></h2>{error ? <div className="error-box" role="alert">{error}<button className="button button-secondary" onClick={() => window.location.reload()}>Tentar novamente</button></div> : !chapter ? <p className="muted" role="status">Carregando capítulo…</p> : <div className="verses">{chapter.verses.map(verse => <p key={verse.number} id={`verse-${verse.number}`} className={position.verse === verse.number ? 'highlighted-verse' : ''}><sup aria-label={`Versículo ${verse.number}`}>{verse.number}</sup>{verse.text}</p>)}</div>}</div>
-          {chapter && <a className="source-link" href={`/api/sources/${book.testament === 'AT' ? 'at' : 'nt'}#page=${chapter.sourcePages[0] || 1}`} target="_blank" rel="noreferrer"><ExternalLink size={14} />Consultar o PDF original</a>}
+          {chapter && <a className="source-link" href={`/api/sources/${book.testament === 'AT' ? 'at' : 'nt'}#page=${sourcePage}`} target="_blank" rel="noreferrer"><ExternalLink size={14} />Consultar o PDF original · p. {sourcePage}</a>}
           <div className="chapter-completion"><button className={`button ${completed ? 'button-complete' : 'button-primary'}`} disabled={!chapter} onClick={() => onPatch({ completedChapters: { [key]: !completed } })}><Check size={18} />{completed ? 'Desfazer leitura do capítulo' : 'Marcar capítulo como lido'}</button><span className="muted" aria-live="polite">{completed ? 'Capítulo concluído. Seu progresso foi atualizado.' : 'Terminou? Marque a leitura para acompanhar seu caminho.'}</span></div>
         </article>
         <div className="chapter-navigation"><button className="button button-secondary" disabled={chapterNumber <= 1} onClick={() => navigate(book.id, chapterNumber - 1)}><ArrowLeft size={17} />Capítulo anterior</button><span className="muted">{chapterNumber} de {book.chapterCount}</span><button className="button button-primary" disabled={chapterNumber >= book.chapterCount} onClick={() => navigate(book.id, chapterNumber + 1)}>Próximo capítulo<ArrowRight size={17} /></button></div>

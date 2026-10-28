@@ -1,12 +1,39 @@
-import { useState } from 'react';
-import { ArrowRight, BookOpen, CheckCircle2, ChevronLeft, ChevronRight, Compass, Feather, Flag, Sparkles, Volume2 } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { ArrowRight, BookOpen, CheckCircle2, ChevronLeft, ChevronRight, Compass, ExternalLink, Feather, Flag, Sparkles, Volume2 } from 'lucide-react';
 import type { Catalog, Page, ProgressState, User } from '../types';
+import '../styles/passages.css';
 
-export function Home({ catalog, progress, user, onPage, onRead, onTrail, onSpeak }: { catalog: Catalog; progress: ProgressState; user: User | null; onPage: (page: Page) => void; onRead: (bookId: string, chapter: number, verse?: number) => void; onTrail: (id: string) => void; onSpeak: (text: string) => void }) {
+const selectedPassageKey = 'vereda:featured-passage';
+
+export function Home({ catalog, progress, user, onPage, onRead, onTrail, onSpeak, onStopSpeech }: { catalog: Catalog; progress: ProgressState; user: User | null; onPage: (page: Page) => void; onRead: (bookId: string, chapter: number, verse?: number) => void; onTrail: (id: string) => void; onSpeak: (text: string) => void; onStopSpeech: () => void }) {
   const now = new Date();
   const day = Math.floor(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) / 86_400_000);
-  const [passageIndex, setPassageIndex] = useState(day % Math.max(1, catalog.passages.length));
+  const defaultIndex = day % Math.max(1, catalog.passages.length);
+  const [selectedPassageId, setSelectedPassageId] = useState(() => {
+    try {
+      const stored = window.sessionStorage.getItem(selectedPassageKey);
+      if (catalog.passages.some(passage => passage.id === stored)) return stored!;
+    } catch { /* Reading remains available when browser storage is blocked. */ }
+    return catalog.passages[defaultIndex]?.id ?? '';
+  });
+  const foundIndex = catalog.passages.findIndex(item => item.id === selectedPassageId);
+  const passageIndex = foundIndex >= 0 ? foundIndex : defaultIndex;
   const passage = catalog.passages[passageIndex];
+  const reference = passage ? `${passage.bookName} ${passage.chapter}:${passage.verseStart}${passage.verseEnd !== passage.verseStart ? `–${passage.verseEnd}` : ''}` : '';
+  useEffect(() => {
+    if (!passage) return;
+    try { window.sessionStorage.setItem(selectedPassageKey, passage.id); } catch { /* No storage is needed to change cards. */ }
+  }, [passage?.id]);
+  const changePassage = (direction: -1 | 1) => {
+    onStopSpeech();
+    setSelectedPassageId(current => {
+      const length = catalog.passages.length;
+      if (!length) return '';
+      const currentIndex = catalog.passages.findIndex(item => item.id === current);
+      const index = currentIndex >= 0 ? currentIndex : defaultIndex;
+      return catalog.passages[(index + direction + length) % length].id;
+    });
+  };
   const total = catalog.books.reduce((sum, book) => sum + book.chapterCount, 0);
   const read = Object.values(progress.completedChapters).filter(Boolean).length;
   const lessons = Object.values(progress.completedLessons).filter(Boolean).length;
@@ -17,7 +44,7 @@ export function Home({ catalog, progress, user, onPage, onRead, onTrail, onSpeak
     <div className="home-greeting"><span className="eyebrow">UM TEMPO PARA O QUE IMPORTA</span><p>Que bom ter você aqui{user ? `, ${user.name.split(' ')[0]}` : ''}. <span className="greeting-line" /></p></div>
     <section className="welcome-hero"><div className="hero-copy"><span className="hero-kicker"><span /> CONHECER. REFLETIR. CRESCER.</span><h1>Cada capítulo,<br />um novo <em>caminho.</em></h1><p>Um espaço para ler a Bíblia, descobrir seus contextos e aprender. Com calma, curiosidade e no seu ritmo.</p><button className="button button-primary" onClick={() => onRead(position?.bookId || catalog.books[0].id, position?.chapter || 1)}>{position ? 'Continuar minha leitura' : 'Começar minha leitura'}<ArrowRight size={17} /></button><span className="hero-note">Aberto a todos. Feito para caminhar com você.</span></div><div className="hero-art" aria-hidden="true"><svg viewBox="0 0 380 300" fill="none"><circle cx="202" cy="123" r="104" fill="currentColor" opacity=".06"/><circle cx="285" cy="55" r="22" stroke="currentColor" opacity=".35"/><path d="M45 243c70-18 123-7 171-35 34-19 10-40 39-60 20-14 43-12 71-23" stroke="currentColor" strokeWidth="2" strokeDasharray="4 7" opacity=".35"/><path d="M91 107c40-14 73-7 101 14 29-21 63-28 102-14v119c-42-15-75-9-102 10-26-19-60-25-101-10V107Z" fill="var(--surface)" stroke="currentColor" strokeWidth="2"/><path d="M192 122v112M109 127c25-5 45-1 64 9m-64 8c25-5 45-1 64 9m-64 8c25-5 45-1 64 9m-64 8c25-5 45-1 64 9m40-51c20-10 40-14 64-9m-64 26c20-10 40-14 64-9m-64 26c20-10 40-14 64-9m-64 26c20-10 40-14 64-9" stroke="currentColor" strokeWidth="2" opacity=".4"/><path d="m60 89 7-18 7 18 18 7-18 7-7 18-7-18-18-7 18-7Z" fill="var(--accent)" opacity=".7"/><path d="M296 216c-7-18-1-40 15-54 8 24 3 42-15 54Zm0 0c1-18-11-34-30-40-1 22 9 36 30 40Z" fill="currentColor" opacity=".5"/><path d="m295 218-5 28" stroke="currentColor" strokeWidth="2"/></svg><span>UMA JORNADA. MUITAS DESCOBERTAS.</span></div></section>
     <section className="stats-row" aria-label="Resumo do seu progresso"><div><span className="stat-icon"><BookOpen size={20} /></span><div><strong>{read}<small> / {total.toLocaleString('pt-BR')}</small></strong><span>capítulos lidos</span></div><span className="stat-percentage">{Math.round(read / total * 100)}%</span></div><div><span className="stat-icon"><Compass size={20} /></span><div><strong>{lessons}<small> assuntos</small></strong><span>estudos concluídos</span></div></div><div><span className="stat-icon"><Flag size={20} /></span><div><strong>{progress.quizAttempts.length}<small> quizzes</small></strong><span>novas descobertas</span></div></div></section>
-    <div className="home-columns"><section className="daily-passage card"><div className="section-eyebrow"><span className="eyebrow"><Feather size={16} /> PALAVRA PARA HOJE</span><div className="passage-controls"><button className="icon-button" aria-label="Passagem anterior" onClick={() => setPassageIndex(index => (index - 1 + catalog.passages.length) % catalog.passages.length)}><ChevronLeft size={17} /></button><button className="icon-button" aria-label="Próxima passagem" onClick={() => setPassageIndex(index => (index + 1) % catalog.passages.length)}><ChevronRight size={17} /></button></div></div>{passage ? <><blockquote data-readable style={{ fontSize: 'calc(var(--reader-size) + 5px)' }}>{passage.text}</blockquote><div className="passage-footer"><button className="passage-reference" onClick={() => onRead(passage.bookId, passage.chapter, passage.verseStart)}>{passage.bookName} {passage.chapter}:{passage.verseStart}{passage.verseEnd !== passage.verseStart ? `–${passage.verseEnd}` : ''}<ArrowRight size={15} /></button><button className="icon-button" aria-label="Ouvir passagem em destaque" onClick={() => onSpeak(passage.text)}><Volume2 size={19} /></button></div><small className="muted passage-count">{passageIndex + 1} de {catalog.passages.length} passagens selecionadas · NVI</small></> : <p>As passagens estão sendo preparadas.</p>}</section>
+    <div className="home-columns"><section className="daily-passage card" aria-label="Passagem bíblica em destaque"><div className="section-eyebrow"><span className="eyebrow"><Feather size={16} /> PALAVRA PARA HOJE</span><div className="passage-controls"><button type="button" className="icon-button" aria-label="Passagem anterior" disabled={catalog.passages.length < 2} onClick={() => changePassage(-1)}><ChevronLeft size={17} /></button><button type="button" className="icon-button" aria-label="Próxima passagem" disabled={catalog.passages.length < 2} onClick={() => changePassage(1)}><ChevronRight size={17} /></button></div></div>{passage ? <div key={passage.id} className="passage-content" aria-live="polite" aria-atomic="true" data-readable><blockquote style={{ fontSize: 'calc(var(--reader-size) + 5px)' }}>{passage.text}</blockquote><div className="passage-footer"><button type="button" className="passage-reference" onClick={() => onRead(passage.bookId, passage.chapter, passage.verseStart)}>{reference}<ArrowRight size={15} /></button><button type="button" className="icon-button" aria-label="Ouvir passagem em destaque" onClick={() => onSpeak(`${reference}. Bíblia ${passage.version}.\n${passage.text}`)}><Volume2 size={19} /></button></div><a className="passage-source source-link" href={`/api/sources/${passage.source.sourceId}#page=${passage.source.pages[0]}`} target="_blank" rel="noreferrer"><ExternalLink size={14} aria-hidden="true" />Fonte: Bíblia {passage.version} · {passage.source.sourceId === 'at' ? 'Antigo' : 'Novo'} Testamento · PDF, {passage.source.pages.length === 1 ? 'p.' : 'pp.'} {passage.source.pages.join(', ')}</a><small className="muted passage-count">{passageIndex + 1} de {catalog.passages.length} passagens selecionadas · {passage.version}</small></div> : <p>As passagens estão sendo preparadas.</p>}</section>
     <section className="continue-card card"><span className="eyebrow"><BookOpen size={15} /> SUA LEITURA</span><h2>{lastBook ? 'Continue de onde parou' : 'Uma página de cada vez'}</h2><p className="muted">{lastBook ? `${lastBook.name} · Capítulo ${position?.chapter}` : 'Escolha um dos 66 livros e dê o primeiro passo na sua leitura.'}</p><div className="progress-track" role="progressbar" aria-label="Seu progresso na Bíblia" aria-valuenow={read} aria-valuemin={0} aria-valuemax={total}><span style={{ width: `${read / total * 100}%` }} /></div><div className="continue-meta"><span>{read} capítulos concluídos</span><span>{Math.round(read / total * 100)}%</span></div><button className="button button-secondary" onClick={() => onRead(lastBook?.id || catalog.books[0].id, position?.chapter || 1)}>{lastBook ? 'Retomar leitura' : 'Explorar a Bíblia'}<ArrowRight size={16} /></button></section></div>
     <section className="journeys-section"><div className="section-heading"><div><span className="eyebrow">APRENDA COM CONTEXTO</span><h2>Qual caminho você quer seguir?</h2></div><button className="text-button" onClick={() => onPage('studies')}>Ver todas as trilhas<ArrowRight size={16} /></button></div><div className="journey-cards">{catalog.studies.trails.slice(0, 3).map((trail, index) => {
       const done = trail.lessonIds.filter(id => progress.completedLessons[id]).length;

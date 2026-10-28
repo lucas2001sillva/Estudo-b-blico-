@@ -217,7 +217,7 @@ def build(content_dir, output_dir):
                 elif source_id == 'study-2' and number == 20 and figure['id'] == 'tabernacle-plan':
                     visual = generated_tabernacle(output_dir, figure)
                 elif figure.get('redrawReviewRequired'):
-                    visual = None
+                    visual = renderer.render_original_figure(page, figure, output_dir, source_id, number)
                 else:
                     visual = renderer.render_figure(page, figure, output_dir, source_id, number)
                 record = {'id': figure['id'], 'rect': figure['rect'], 'kind': figure['kind'], 'title': figure['title'], 'assets': []}
@@ -228,13 +228,15 @@ def build(content_dir, output_dir):
                 else:
                     figures.append(visual)
                     positioned.append((figure['rect'][1], figure['rect'][0], {'kind': 'visual', 'visualId': visual['id']}))
-                    record['status'] = 'redrawn'
-                    for field in ['lightSrc', 'darkSrc']:
-                        if visual.get(field):
-                            url = visual[field]
-                            path = output_dir / url.removeprefix('/study-visuals/')
-                            referenced.add(url)
-                            record['assets'].append({'url': url, 'sha256': digest(path), 'bytes': path.stat().st_size})
+                    record['status'] = 'redrawn' if visual['redrawn'] else 'source-original'
+                    if not visual['redrawn']:
+                        pending.append({'id': figure['id'], 'title': figure['title'],
+                                        'reason': figure.get('notes', 'A transcrição fiel dos rótulos continua em conferência.'),
+                                        'availableAs': 'source-original'})
+                    for url in dict.fromkeys(visual[field] for field in ['lightSrc', 'darkSrc'] if visual.get(field)):
+                        path = output_dir / url.removeprefix('/study-visuals/')
+                        referenced.add(url)
+                        record['assets'].append({'url': url, 'sha256': digest(path), 'bytes': path.stat().st_size})
                 audits.append(record)
             positioned.sort(key=lambda item: (item[0], item[1]))
             section['blocks'] = [item[2] for item in positioned]
@@ -256,12 +258,14 @@ def build(content_dir, output_dir):
                     path = output_dir / relative
                     if path.resolve().is_relative_to(output_dir.resolve()) and path.is_file():
                         path.unlink()
-        audit = {'version': 2, 'method': 'Native prose interleaved with region-only, recreated diagrams and tables; no whole-page screenshot fallback.',
+        audit = {'version': 2, 'method': 'Native prose interleaved with region-only recreated figures; explicitly approved unreadable figures use original region crops, never whole pages.',
                  'sources': [{'id': key, 'sha256': value} for key, value in source_hashes.items()], 'sections': len(entries),
-                 'visualSections': sum(any(figure['status'] == 'redrawn' for figure in entry['figures']) for entry in entries),
-                 'figures': sum(figure['status'] == 'redrawn' for entry in entries for figure in entry['figures']),
+                 'visualSections': sum(any(figure['status'] in {'redrawn', 'source-original'} for figure in entry['figures']) for entry in entries),
+                 'figures': sum(figure['status'] in {'redrawn', 'source-original'} for entry in entries for figure in entry['figures']),
+                 'redrawnFigures': sum(figure['status'] == 'redrawn' for entry in entries for figure in entry['figures']),
+                 'originalFigures': sum(figure['status'] == 'source-original' for entry in entries for figure in entry['figures']),
                  'pendingFigures': sum(len(entry['pendingFigures']) for entry in entries), 'fullPageImages': 0, 'assets': len(referenced),
-                 'entries': entries, 'limits': ['Source-unreadable labels are not invented or silently corrected.', 'OCR prose retains its conversion/review notice.', 'Generated diagram labels were checked against the supplied PDF.']}
+                 'entries': entries, 'limits': ['Source-unreadable labels are shown only as original cropped images, without invented transcription or audio.', 'OCR prose retains its conversion/review notice.', 'Generated diagram labels were checked against the supplied PDF.']}
         data_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
         (content_dir / 'study-visual-audit.json').write_text(json.dumps(audit, ensure_ascii=False, indent=2) + '\n')
         return audit
@@ -275,6 +279,7 @@ def verify(content_dir, output_dir):
     audit = json.loads((content_dir / 'study-visual-audit.json').read_text())
     assert audit['version'] == 2 and audit['fullPageImages'] == 0
     sections = {(lesson['sourceId'], section['sourcePage']): section for lesson in data['lessons'] for section in lesson['sections']}
+    plans = {(entry['sourceId'], entry['sourcePage']): entry for name in ANNOTATIONS for entry in json.loads((content_dir / name).read_text())}
     assert len(sections) == audit['sections'] == len(audit['entries'])
     for source in audit['sources']:
         meta = next(item for item in data['sources'] if item['id'] == source['id'])
@@ -285,11 +290,21 @@ def verify(content_dir, output_dir):
         assert 'blocks' in section
         ids = {visual['id'] for visual in section.get('visuals', [])}
         assert all(block['kind'] == 'text' or block['visualId'] in ids for block in section['blocks'])
-        assert all(visual['kind'] != 'page' and visual['redrawn'] for visual in section.get('visuals', []))
+        visuals = {visual['id']: visual for visual in section.get('visuals', [])}
+        assert all(visual['kind'] != 'page' for visual in visuals.values())
         for figure in entry['figures']:
+            visual = visuals.get(f'{entry["sourceId"]}-p{entry["sourcePage"]:03d}-{figure["id"]}')
+            if figure['status'] == 'source-original':
+                plan = next(item for item in plans[(entry['sourceId'], entry['sourcePage'])]['figures'] if item['id'] == figure['id'])
+                assert plan.get('redrawReviewRequired') and figure['rect'] == plan['rect']
+                assert visual and visual['redrawn'] is False and not visual.get('accessibleText')
+                assert visual['lightSrc'] == visual['darkSrc'] and visual['lightSrc'].endswith('-original.png')
+                assert len(figure['assets']) == 1
+            elif visual:
+                assert visual['redrawn'] is True
             for asset in figure['assets']:
                 path = output_dir / asset['url'].removeprefix('/study-visuals/')
                 assert digest(path) == asset['sha256'], str(path)
                 if path.suffix == '.svg':
                     assert not re.search(r'<(?:\w+:)?image\b|<script\b|<foreignObject\b', path.read_text()), str(path)
-    return {key: audit[key] for key in ['sections', 'visualSections', 'figures', 'pendingFigures', 'fullPageImages', 'assets']}
+    return {key: audit[key] for key in ['sections', 'visualSections', 'figures', 'redrawnFigures', 'originalFigures', 'pendingFigures', 'fullPageImages', 'assets']}

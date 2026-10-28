@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "method": "Native prose interleaved with region-only, recreated diagrams and tables; no whole-page screenshot fallback.",
+  "method": "Native prose interleaved with region-only recreated figures; explicitly approved unreadable figures use original region crops, never whole pages.",
   "sources": [
     {
       "id": "study-1",
@@ -24,11 +24,13 @@
     }
   ],
   "sections": 248,
-  "visualSections": 126,
-  "figures": 142,
+  "visualSections": 128,
+  "figures": 153,
+  "redrawnFigures": 142,
+  "originalFigures": 11,
   "pendingFigures": 11,
   "fullPageImages": 0,
-  "assets": 284,
+  "assets": 295,
   "entries": [
     {
       "sourceId": "study-1",
@@ -206,7 +208,7 @@
       "sourceId": "study-1",
       "sourcePage": 8,
       "bodySha256": "4d26a75efeebd9014e9777972e5c3af0616bd654cc111b2335e8dd51b8833b86",
-      "nativeTextBlocks": 3,
+      "nativeTextBlocks": 2,
       "figures": [
         {
           "id": "division-rings",
@@ -218,15 +220,22 @@
           ],
           "kind": "diagram",
           "title": "Como a Bíblia é dividida",
-          "assets": [],
-          "status": "needs-review"
+          "assets": [
+            {
+              "url": "/study-visuals/study-1/p008-division-rings-original.png",
+              "sha256": "e1e019389626c09cbd0a00e624994d7082ad334a6301218332061db884b6966f",
+              "bytes": 714786
+            }
+          ],
+          "status": "source-original"
         }
       ],
       "pendingFigures": [
         {
           "id": "division-rings",
           "title": "Como a Bíblia é dividida",
-          "reason": "A fonte tem abreviações e associações ambíguas no círculo. Não completar ou corrigir por memória; o recorte serve apenas como referência de revisão."
+          "reason": "A fonte tem abreviações e associações ambíguas no círculo. Não completar ou corrigir por memória; o recorte serve apenas como referência de revisão.",
+          "availableAs": "source-original"
         }
       ]
     },
@@ -5369,7 +5378,7 @@
       "sourceId": "gospels",
       "sourcePage": 1,
       "bodySha256": "f41f1fffa29ef17105812d23bfb4f1c8df6d5ae2197605c7201927d0a3aff5ac",
-      "nativeTextBlocks": 3,
+      "nativeTextBlocks": 0,
       "figures": [
         {
           "id": "book-info",
@@ -5381,8 +5390,14 @@
           ],
           "kind": "table",
           "title": "Informações de Mateus no quadro",
-          "assets": [],
-          "status": "needs-review"
+          "assets": [
+            {
+              "url": "/study-visuals/gospels/p001-book-info-original.png",
+              "sha256": "6ab0665df7a391559b615cf965aa3b037f07266838ad828c4322015e2ad7c4eb",
+              "bytes": 812441
+            }
+          ],
+          "status": "source-original"
         },
         {
           "id": "timeline",
@@ -5394,8 +5409,14 @@
           ],
           "kind": "diagram",
           "title": "Linha do tempo do quadro de Mateus",
-          "assets": [],
-          "status": "needs-review"
+          "assets": [
+            {
+              "url": "/study-visuals/gospels/p001-timeline-original.png",
+              "sha256": "ccbc3a7b72aba44393c8dd1a27d3c5cc55aa1a7d18e050660dfb20ed7f217c4f",
+              "bytes": 1033420
+            }
+          ],
+          "status": "source-original"
         },
         {
           "id": "overview",
@@ -5431,25 +5452,34 @@
           ],
           "kind": "diagram",
           "title": "Estrutura e conteúdo de Mateus",
-          "assets": [],
-          "status": "needs-review"
+          "assets": [
+            {
+              "url": "/study-visuals/gospels/p001-structure-original.png",
+              "sha256": "bf40e2a02a5782bb1f4957837c6f8269ffddfa8623aba2c2fbcd0f5e3be10f5b",
+              "bytes": 835249
+            }
+          ],
+          "status": "source-original"
         }
       ],
       "pendingFigures": [
         {
           "id": "book-info",
           "title": "Informações de Mateus no quadro",
-          "reason": "Rótulos deformados no próprio original: os valores propostos em unverifiedRows não constituem transcrição confirmada. Não redesenhar ou narrar como texto revisado sem conferência."
+          "reason": "Rótulos deformados no próprio original: os valores propostos em unverifiedRows não constituem transcrição confirmada. Não redesenhar ou narrar como texto revisado sem conferência.",
+          "availableAs": "source-original"
         },
         {
           "id": "timeline",
           "title": "Linha do tempo do quadro de Mateus",
-          "reason": "A figura exige conferência de dados antes de ser recriada."
+          "reason": "A transcrição fiel dos rótulos continua em conferência.",
+          "availableAs": "source-original"
         },
         {
           "id": "structure",
           "title": "Estrutura e conteúdo de Mateus",
-          "reason": "A figura exige conferência de dados antes de ser recriada."
+          "reason": "A transcrição fiel dos rótulos continua em conferência.",
+          "availableAs": "source-original"
         }
       ]
     },
@@ -5457,7 +5487,7 @@
       "sourceId": "gospels",
       "sourcePage": 2,
       "bodySha256": "900a9c37543fe4364eda8e135826096d283dc1600c442cec91864e3375d0052f",
-      "nativeTextBlocks": 3,
+      "nativeTextBlocks": 0,
       "figures": [
         {
           "id": "book-info",
@@ -5493,8 +5523,14 @@
           ],
           "kind": "diagram",
           "title": "Linha do tempo do quadro de Marcos",
-          "assets": [],
-          "status": "needs-review"
+          "assets": [
+            {
+              "url": "/study-visuals/gospels/p002-timeline-original.png",
+              "sha256": "de4a079a2f5cc878d72e3e49875bd6952f7756e4e360296c0662c4b25c2b2476",
+              "bytes": 1459701
+            }
+          ],
+          "status": "source-original"
         },
         {
           "id": "structure",
@@ -5578,8 +5614,14 @@
           ],
           "kind": "table",
           "title": "O lado humano e a incompreensão",
-          "assets": [],
-          "status": "needs-review"
+          "assets": [
+            {
+              "url": "/study-visuals/gospels/p002-human-side-original.png",
+              "sha256": "e2ccf3eb625983452d550487766fd0352cacddf82498ee50e2aef85b5efb1e14",
+              "bytes": 830956
+            }
+          ],
+          "status": "source-original"
         },
         {
           "id": "cross-sequence",
@@ -5591,25 +5633,34 @@
           ],
           "kind": "diagram",
           "title": "O ponto central: a cruz",
-          "assets": [],
-          "status": "needs-review"
+          "assets": [
+            {
+              "url": "/study-visuals/gospels/p002-cross-sequence-original.png",
+              "sha256": "20af01a87ccefcdd5b8030d3ad87e109b9a2a55819c60d1eeae731d9b47c2975",
+              "bytes": 1341690
+            }
+          ],
+          "status": "source-original"
         }
       ],
       "pendingFigures": [
         {
           "id": "timeline",
           "title": "Linha do tempo do quadro de Marcos",
-          "reason": "A figura exige conferência de dados antes de ser recriada."
+          "reason": "A transcrição fiel dos rótulos continua em conferência.",
+          "availableAs": "source-original"
         },
         {
           "id": "human-side",
           "title": "O lado humano e a incompreensão",
-          "reason": "A figura exige conferência de dados antes de ser recriada."
+          "reason": "A transcrição fiel dos rótulos continua em conferência.",
+          "availableAs": "source-original"
         },
         {
           "id": "cross-sequence",
           "title": "O ponto central: a cruz",
-          "reason": "A figura exige conferência de dados antes de ser recriada."
+          "reason": "A transcrição fiel dos rótulos continua em conferência.",
+          "availableAs": "source-original"
         }
       ]
     },
@@ -5617,7 +5668,7 @@
       "sourceId": "gospels",
       "sourcePage": 3,
       "bodySha256": "5ad824dc77d0c09adfe1c3d4a35b8725c1b1178523afcfc6a9d9937de2519ac4",
-      "nativeTextBlocks": 2,
+      "nativeTextBlocks": 0,
       "figures": [
         {
           "id": "book-info",
@@ -5653,8 +5704,14 @@
           ],
           "kind": "diagram",
           "title": "Linha do tempo do quadro de Lucas",
-          "assets": [],
-          "status": "needs-review"
+          "assets": [
+            {
+              "url": "/study-visuals/gospels/p003-timeline-original.png",
+              "sha256": "0a2aa4e34c9b39e6e9527f08c14cf6a029f0e39aa5340b7939f2cbf6513d5247",
+              "bytes": 1340134
+            }
+          ],
+          "status": "source-original"
         },
         {
           "id": "context-authorship",
@@ -5686,24 +5743,32 @@
             29,
             779,
             1123,
-            1801
+            1820
           ],
           "kind": "diagram",
           "title": "Narrativa ordenada da vida de Jesus",
-          "assets": [],
-          "status": "needs-review"
+          "assets": [
+            {
+              "url": "/study-visuals/gospels/p003-ordered-narrative-original.png",
+              "sha256": "868cafc9aafe4a8fb49925d0e583aeffa8d1c318430a6ab5c6776d0e309cd42f",
+              "bytes": 6905209
+            }
+          ],
+          "status": "source-original"
         }
       ],
       "pendingFigures": [
         {
           "id": "timeline",
           "title": "Linha do tempo do quadro de Lucas",
-          "reason": "A figura exige conferência de dados antes de ser recriada."
+          "reason": "A transcrição fiel dos rótulos continua em conferência.",
+          "availableAs": "source-original"
         },
         {
           "id": "ordered-narrative",
           "title": "Narrativa ordenada da vida de Jesus",
-          "reason": "A figura exige conferência de dados antes de ser recriada."
+          "reason": "A transcrição fiel dos rótulos continua em conferência.",
+          "availableAs": "source-original"
         }
       ]
     },
@@ -5711,7 +5776,7 @@
       "sourceId": "gospels",
       "sourcePage": 4,
       "bodySha256": "aa64530047b861640a288898124fb5a86cec44d1424a32fe32abf43ee009ed76",
-      "nativeTextBlocks": 2,
+      "nativeTextBlocks": 0,
       "figures": [
         {
           "id": "book-info",
@@ -5723,8 +5788,14 @@
           ],
           "kind": "table",
           "title": "Informações de João no quadro",
-          "assets": [],
-          "status": "needs-review"
+          "assets": [
+            {
+              "url": "/study-visuals/gospels/p004-book-info-original.png",
+              "sha256": "7c4c944b6b3d5dc607e5382bae09d11097af6acb1cca9df9c700c8a2765cf44b",
+              "bytes": 787860
+            }
+          ],
+          "status": "source-original"
         },
         {
           "id": "timeline",
@@ -5736,26 +5807,34 @@
           ],
           "kind": "diagram",
           "title": "Linha do tempo do quadro de João",
-          "assets": [],
-          "status": "needs-review"
+          "assets": [
+            {
+              "url": "/study-visuals/gospels/p004-timeline-original.png",
+              "sha256": "a8faf4ffd164d6108624276671c5848978f598af1ce9062677769506802de55d",
+              "bytes": 1157983
+            }
+          ],
+          "status": "source-original"
         }
       ],
       "pendingFigures": [
         {
           "id": "book-info",
           "title": "Informações de João no quadro",
-          "reason": "Rótulos deformados no próprio original: os valores propostos em unverifiedRows não constituem transcrição confirmada. Não redesenhar ou narrar como texto revisado sem conferência."
+          "reason": "Rótulos deformados no próprio original: os valores propostos em unverifiedRows não constituem transcrição confirmada. Não redesenhar ou narrar como texto revisado sem conferência.",
+          "availableAs": "source-original"
         },
         {
           "id": "timeline",
           "title": "Linha do tempo do quadro de João",
-          "reason": "A figura exige conferência de dados antes de ser recriada."
+          "reason": "A transcrição fiel dos rótulos continua em conferência.",
+          "availableAs": "source-original"
         }
       ]
     }
   ],
   "limits": [
-    "Source-unreadable labels are not invented or silently corrected.",
+    "Source-unreadable labels are shown only as original cropped images, without invented transcription or audio.",
     "OCR prose retains its conversion/review notice.",
     "Generated diagram labels were checked against the supplied PDF."
   ]

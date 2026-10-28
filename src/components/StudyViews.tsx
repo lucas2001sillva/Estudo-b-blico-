@@ -4,7 +4,7 @@ import {
   CircleHelp, FileText, Headphones, RotateCcw, Route, Search, Sparkles,
   Trophy, Volume2,
 } from 'lucide-react';
-import type { Lesson, ProgressState, Quiz, QuizAttempt, StatePatch, Studies, StudySection } from '../types';
+import type { Lesson, ProgressState, Question, Quiz, QuizAttempt, StatePatch, Studies, StudySection } from '../types';
 import { StudyVisual } from './StudyVisual';
 import '../styles/studies.css';
 
@@ -72,16 +72,23 @@ function lessonSpeech(lesson: Lesson) {
   })].filter(Boolean).join('\n\n');
 }
 
-function AnswerReview({ quiz, answers }: { quiz: Quiz; answers: number[] }) {
+function QuizExplanation({ question, studies }: { question: Question; studies: Studies }) {
+  return <>
+    <p className="quiz-explanation"><strong>Resumo do material:</strong> {question.explanation}</p>
+    <SourceLink id={question.source.sourceId} page={question.source.page} title={studies.sources.find(source => source.id === question.source.sourceId)?.title} />
+  </>;
+}
+
+function AnswerReview({ quiz, answers, studies }: { quiz: Quiz; answers: number[]; studies: Studies }) {
   return <>{quiz.questions.map((item, index) => <section className={`quiz-review-item ${answers[index] === item.answerIndex ? 'is-correct' : ''}`} key={item.id}>
     <h3><span>{index + 1}.</span> {item.prompt}</h3>
     <p><strong>Sua resposta:</strong> {item.choices[answers[index]] ?? 'Não respondida'} {answers[index] === item.answerIndex && <Check size={16} aria-label="Correta" />}</p>
     {answers[index] !== item.answerIndex && <p><strong>Resposta correta:</strong> {item.choices[item.answerIndex]}</p>}
-    <p className="muted">{item.explanation}</p><SourceLink id={item.source.sourceId} page={item.source.page} />
+    <QuizExplanation question={item} studies={studies} />
   </section>)}</>;
 }
 
-function QuizHistory({ quiz, attempts }: { quiz: Quiz; attempts: QuizAttempt[] }) {
+function QuizHistory({ quiz, attempts, studies }: { quiz: Quiz; attempts: QuizAttempt[]; studies: Studies }) {
   const [isOpen, setIsOpen] = useState(false);
   const [limit, setLimit] = useState(5);
   const sorted = [...attempts].sort((first, second) => Date.parse(second.createdAt) - Date.parse(first.createdAt));
@@ -95,7 +102,7 @@ function QuizHistory({ quiz, attempts }: { quiz: Quiz; attempts: QuizAttempt[] }
       <p className="quiz-history-intro muted">Abra uma tentativa para rever suas respostas e as referências do material.</p>
       {sorted.slice(0, limit).map(attempt => <details className="quiz-history-attempt" key={attempt.id}>
         <summary><strong>{attempt.score} de {attempt.total}</strong><time dateTime={attempt.createdAt}>{displayDate(attempt.createdAt)}</time><ChevronRight size={15} aria-hidden="true" /></summary>
-        <div className="quiz-history-answers">{attempt.answers?.length === quiz.questions.length ? <AnswerReview quiz={quiz} answers={attempt.answers} /> : <p className="muted">Esta tentativa registra apenas a pontuação.</p>}</div>
+        <div className="quiz-history-answers">{attempt.answers?.length === quiz.questions.length ? <AnswerReview quiz={quiz} answers={attempt.answers} studies={studies} /> : <p className="muted">Esta tentativa registra apenas a pontuação.</p>}</div>
       </details>)}
       {sorted.length > limit && <button className="button button-ghost quiz-show-history" onClick={() => setLimit(value => value + 5)}>Mostrar mais tentativas <span>({sorted.length - limit})</span></button>}
     </div>}
@@ -160,7 +167,7 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
 
             <div className="study-reader-note">
               <BookOpen size={18} aria-hidden="true" />
-              <p>Texto para leitura, com gráficos, quadros e diagramas recriados a partir do material. Amplie as figuras e consulte o PDF para conferir a fonte.</p>
+              <p>Texto para leitura, com gráficos, quadros e diagramas do material. Os trechos ainda em conferência usam a imagem original do PDF. Amplie as figuras para consultar os detalhes.</p>
             </div>
 
             {hasReviewNotice && <div className="study-review-notice" role="note">
@@ -342,7 +349,7 @@ export function QuizPage({ studies, progress, selectedQuizId, onSelectQuiz, onPa
             const trail = studies.trails.find(item => item.id === lesson?.trailId);
             const attempts = progress.quizAttempts.filter(attempt => attempt.quizId === quiz.id);
             const best = attempts.length ? attempts.reduce((previous, current) => current.score / current.total > previous.score / previous.total ? current : previous) : null;
-            return <article className={`quiz-catalog-item ${attempts.length ? 'has-history' : ''}`} key={quiz.id}><button className="card study-lesson-card quiz-catalog-card" onClick={() => onSelectQuiz(quiz.id)}><div className="study-lesson-card-top"><span className="study-card-trail">{trail?.title ?? 'Quiz por assunto'}</span><CircleHelp size={21} aria-hidden="true" /></div><h2>{quiz.title}</h2><p className="muted">{quiz.questions.length} {quiz.questions.length === 1 ? 'pergunta' : 'perguntas'} · sem cronômetro</p><div className="quiz-best-score">{best ? <><Trophy size={16} aria-hidden="true" /><span>Melhor resultado: {best.score} de {best.total}</span></> : <><BookOpen size={16} aria-hidden="true" /><span>Baseado no material de estudo</span></>}</div><div className="study-lesson-card-footer"><span>{attempts.length ? 'Tentar novamente' : 'Começar quiz'}</span><ArrowRight size={18} aria-hidden="true" /></div></button>{attempts.length > 0 && <QuizHistory quiz={quiz} attempts={attempts} />}</article>;
+            return <article className={`quiz-catalog-item ${attempts.length ? 'has-history' : ''}`} key={quiz.id}><button className="card study-lesson-card quiz-catalog-card" onClick={() => onSelectQuiz(quiz.id)}><div className="study-lesson-card-top"><span className="study-card-trail">{trail?.title ?? 'Quiz por assunto'}</span><CircleHelp size={21} aria-hidden="true" /></div><h2>{quiz.title}</h2><p className="muted">{quiz.questions.length} {quiz.questions.length === 1 ? 'pergunta' : 'perguntas'} · sem cronômetro</p><div className="quiz-best-score">{best ? <><Trophy size={16} aria-hidden="true" /><span>Melhor resultado: {best.score} de {best.total}</span></> : <><BookOpen size={16} aria-hidden="true" /><span>Baseado no material de estudo</span></>}</div><div className="study-lesson-card-footer"><span>{attempts.length ? 'Tentar novamente' : 'Começar quiz'}</span><ArrowRight size={18} aria-hidden="true" /></div></button>{attempts.length > 0 && <QuizHistory quiz={quiz} attempts={attempts} studies={studies} />}</article>;
           })}
         </div>
         {filteredQuizzes.length === 0 && <div className="empty-state"><CircleHelp size={30} aria-hidden="true" /><h2>Nenhum quiz encontrado</h2><p className="muted">Tente outro assunto ou selecione todas as trilhas.</p><button className="button button-secondary" onClick={() => { setQuery(''); setTrailFilter(''); }}>Limpar filtros</button></div>}
@@ -408,19 +415,19 @@ function QuizSession({ selectedQuiz, studies, onSelectQuiz, onPatch, onSpeak }: 
               <p className="quiz-score"><strong>{score}</strong><span> / {total}</span></p>
               <p className="muted">{score === total ? 'Você acertou todas as perguntas deste assunto.' : `Você acertou ${score} de ${total} ${total === 1 ? 'pergunta' : 'perguntas'}. Revise as explicações e tente novamente quando quiser.`}</p>
               <div className="quiz-result-actions"><button className="button button-primary" onClick={resetQuiz}><RotateCcw size={17} aria-hidden="true" /> Tentar novamente</button><button className="button button-secondary" onClick={() => onSelectQuiz('')}>Explorar outros quizzes <ArrowRight size={17} aria-hidden="true" /></button></div>
-              <div className="quiz-result-review"><h2>Vamos revisar?</h2><AnswerReview quiz={selectedQuiz} answers={answers} /></div>
+              <div className="quiz-result-review"><h2>Vamos revisar?</h2><AnswerReview quiz={selectedQuiz} answers={answers} studies={studies} /></div>
             </div>
           ) : (
             <>
               <div className="quiz-question-progress"><span>Pergunta {questionIndex + 1} de {total}</span><ProgressBar value={questionIndex + (confirmed ? 1 : 0)} total={total} label="Progresso deste quiz" /></div>
-              <div className="quiz-question-title"><h1 id={questionId} ref={questionHeading} tabIndex={-1}>{question.prompt}</h1><button className="button button-ghost quiz-listen" aria-label="Ouvir pergunta e alternativas" onClick={() => onSpeak([question.prompt, ...question.choices.map((choice, index) => `${String.fromCharCode(65 + index)}. ${choice}`), ...(confirmed ? [question.explanation] : [])].join('\n'))}><Volume2 size={21} aria-hidden="true" /></button></div>
+              <div className="quiz-question-title"><h1 id={questionId} ref={questionHeading} tabIndex={-1}>{question.prompt}</h1><button className="button button-ghost quiz-listen" aria-label="Ouvir pergunta e alternativas" onClick={() => onSpeak([question.prompt, ...question.choices.map((choice, index) => `${String.fromCharCode(65 + index)}. ${choice}`), ...(confirmed ? [`Resposta correta: ${question.choices[question.answerIndex]}. ${question.explanation} Fonte: ${studies.sources.find(source => source.id === question.source.sourceId)?.title ?? 'PDF de estudo'}, página ${question.source.page}.`] : [])].join('\n'))}><Volume2 size={21} aria-hidden="true" /></button></div>
               <fieldset className="quiz-options" aria-labelledby={questionId}><legend className="study-sr-only">Escolha uma resposta</legend>{question.choices.map((choice, index) => {
                 const isSelected = selectedChoice === index;
                 const isCorrect = confirmed && index === question.answerIndex;
                 const isIncorrect = confirmed && isSelected && index !== question.answerIndex;
                 return <label className={`quiz-choice ${isSelected ? 'is-selected' : ''} ${isCorrect ? 'is-correct' : ''} ${isIncorrect ? 'is-incorrect' : ''} ${confirmed ? 'is-locked' : ''}`} key={index}><input type="radio" name={`${questionId}-choice`} value={index} checked={isSelected} disabled={confirmed} onChange={() => setSelectedChoice(index)} /><span className="quiz-choice-letter" aria-hidden="true">{String.fromCharCode(65 + index)}</span><span className="quiz-choice-text">{choice}</span>{isCorrect && <CheckCircle2 size={19} aria-label="Resposta correta" />}{isIncorrect && <span className="quiz-answer-label">Sua resposta</span>}</label>;
               })}</fieldset>
-              <div className="quiz-feedback-slot" aria-live="polite" aria-atomic="true">{confirmed && <section className={`quiz-feedback ${selectedChoice === question.answerIndex ? 'is-correct' : 'is-incorrect'}`}><h2>{selectedChoice === question.answerIndex ? <><CheckCircle2 size={19} aria-hidden="true" /> Isso mesmo!</> : <><CircleHelp size={19} aria-hidden="true" /> Vamos entender juntos</>}</h2>{selectedChoice !== question.answerIndex && <p><strong>Resposta correta:</strong> {question.choices[question.answerIndex]}</p>}<p>{question.explanation}</p><SourceLink id={question.source.sourceId} page={question.source.page} /></section>}</div>
+              <div className="quiz-feedback-slot" aria-live="polite" aria-atomic="true">{confirmed && <section className={`quiz-feedback ${selectedChoice === question.answerIndex ? 'is-correct' : 'is-incorrect'}`}><h2>{selectedChoice === question.answerIndex ? <><CheckCircle2 size={19} aria-hidden="true" /> Isso mesmo!</> : <><CircleHelp size={19} aria-hidden="true" /> Vamos entender juntos</>}</h2><p><strong>Resposta correta:</strong> {question.choices[question.answerIndex]}</p><QuizExplanation question={question} studies={studies} /><button className="button button-ghost" onClick={() => onSpeak(`Resposta correta: ${question.choices[question.answerIndex]}. ${question.explanation} Fonte: ${studies.sources.find(source => source.id === question.source.sourceId)?.title ?? 'PDF de estudo'}, página ${question.source.page}.`)}><Volume2 size={17} aria-hidden="true" /> Ouvir explicação da resposta</button></section>}</div>
               <div className="quiz-action-row"><span className="muted">{confirmed ? 'Leia a explicação antes de continuar.' : 'Escolha uma alternativa para continuar.'}</span>{confirmed ? <button className="button button-primary" onClick={advance}>{questionIndex === total - 1 ? 'Ver resultado' : 'Próxima pergunta'} <ArrowRight size={17} aria-hidden="true" /></button> : <button className="button button-primary" onClick={confirmAnswer} disabled={selectedChoice === null}>Confirmar resposta <Check size={17} aria-hidden="true" /></button>}</div>
             </>
           )}

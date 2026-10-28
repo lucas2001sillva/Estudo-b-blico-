@@ -355,7 +355,9 @@ def passages(books):
         selected = [verses[n] for n in range(start, end + 1)]
         result.append({'id': f'passagem-{i:02}', 'bookId': book_id, 'bookName': book['name'],
                        'chapter': chapter, 'verseStart': start, 'verseEnd': end,
-                       'text': ' '.join(v['text'] for v in selected)})
+                       'text': ' '.join(v['text'] for v in selected), 'version': 'NVI',
+                       'source': {'sourceId': book['testament'].lower(), 'file': f"{book['testament'].lower()}.pdf",
+                                  'pages': sorted({page for verse in selected for page in verse['sourcePages']})}})
     assert len(result) == 50 and len({(x['bookId'], x['chapter'], x['verseStart'], x['verseEnd']) for x in result}) == 50
     return result
 
