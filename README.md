@@ -2,6 +2,8 @@
 
 Site de leitura e estudo bíblico em português, com acesso público ao conteúdo e conta opcional para sincronizar a jornada entre dispositivos.
 
+Endereço publicado: **[estudo-b-blico.onrender.com](https://estudo-b-blico.onrender.com/)**. A primeira publicação está em validação; as pendências de privacidade e operação estão descritas na documentação.
+
 ## Desenvolvimento
 
 Requer Node.js 24 ou superior. Os dados já importados e os PDFs de consulta estão em `content/`; não é necessário executar OCR para usar o site.
@@ -96,6 +98,6 @@ O escopo e as decisões do produto estão em [docs/escopo-inicial.md](docs/escop
 
 Os resultados executados e as limitações conhecidas estão em [docs/validacao.md](docs/validacao.md).
 
-A preparação para hospedagem e o armazenamento persistente estão descritos em [docs/publicacao.md](docs/publicacao.md). O Dockerfile prepara a aplicação para um serviço de hospedagem; o site ainda não possui endereço público.
+A hospedagem no Render e o armazenamento persistente estão descritos em [docs/publicacao.md](docs/publicacao.md). O Dockerfile também está disponível para implantação em contêiner.
 
 A [Política de Segurança da Informação](docs/politica-seguranca.md) e o [guia de boas práticas](docs/boas-praticas-seguranca.md) definem requisitos e pendências de segurança; sua existência não significa que todos os controles estejam implementados ou validados.

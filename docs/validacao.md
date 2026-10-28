@@ -15,7 +15,23 @@ Verificações executadas em 27/10/2026, com Node.js 24.19.0 e Chromium 154.
 - `PUBLIC_ORIGIN` inválida com caminho foi rejeitada antes da abertura do banco; URLs de origem não são normalizadas silenciosamente.
 - A imagem Docker foi construída com `bash scripts/docker-build.sh vereda-biblica:review-20261027`. Um contêiner sem root e com volume temporário foi exercitado: interface, catálogo, PDF, registro, alteração de progresso/tema, reinicialização, novo login e confirmação dos dados persistentes. O contêiner e seu volume foram removidos ao final. O build utilizou o certificado confiável do proxy por montagem temporária, sem desabilitar verificação TLS nem copiar a CA para a imagem final.
 
-Os testes de navegador e de desenvolvimento usaram bancos temporários. O banco de uso normal não recebeu contas de demonstração.
+Os testes automatizados locais de navegador e de desenvolvimento usaram bancos temporários. A verificação pública abaixo não criou contas de demonstração.
+
+## Verificação do endereço público
+
+Em 27/10/2026 foi consultado **<https://estudo-b-blico.onrender.com/>**, com verificação de certificado TLS habilitada.
+
+- Página inicial HTTP 200; arquivos JavaScript e CSS HTTP 200, com hashes idênticos aos da compilação validada localmente.
+- `/api/health` HTTP 200, incluindo a consulta de prontidão ao banco; catálogo HTTP 200 com 66 livros, 50 passagens, 5 trilhas, 33 assuntos e 14 quizzes.
+- João 3:16 presente no capítulo e encontrado pela pesquisa por referência.
+- Os sete PDFs responderam como `application/pdf`, com assinatura PDF válida em consultas parciais HTTP 206.
+- `/api/state` sem autenticação retornou 401; `/api/session` retornou usuário nulo. As respostas da API usaram `Cache-Control: no-store`.
+- Cabeçalhos HTTPS/HSTS, CSP, proteção contra enquadramento e `nosniff` presentes.
+- Na interface pública foram exercitados início, busca de João 3:16, progresso de visitante reversível e persistente após recarregar, tema, fonte calculada de 18 para 20 pixels, leitura/conclusão local de estudo e seleção de resposta com explicação no quiz. Em 768 pixels, início e Bíblia abriram sem rolagem horizontal indevida. Não houve erros de JavaScript, console ou rede nesses fluxos.
+
+O Chromium deste ambiente não confiou diretamente na CA do proxy de saída. A conferência visual utilizou GETs intermediados pelo Node, com a CA confiável e TLS verificado, preservando os cabeçalhos de conteúdo e CSP. Isso verifica a interface servida e suas interações locais, mas não é uma validação do certificado diretamente pelo Chromium. Não foram desativadas verificações TLS nem enviados pedidos de escrita ao servidor.
+
+Essas consultas públicas não comprovam cadastro, login, sincronização entre contas ou restauração após reiniciar o serviço hospedado. Não foram fornecidas credenciais do banco para esta conferência.
 
 ## Apresentação e acessibilidade
 
@@ -36,4 +52,4 @@ A saída de áudio não foi validada auditivamente. As vozes disponíveis depend
 - O histórico autenticado não é mantido em `localStorage`. Alterações privadas ainda não sincronizadas ficam na aba em `sessionStorage`; fechar essa aba antes da sincronização pode perdê-las. O site avisa quando a sincronização está indisponível.
 - A fila local de progresso não oferece leitura completa sem internet.
 
-As verificações foram feitas nesta máquina. A restauração em uma tarefa nova, a conexão com o Turso hospedado e o endereço público no Render ainda não foram verificados.
+A restauração em uma tarefa nova do ambiente de desenvolvimento e os fluxos autenticados no serviço hospedado permanecem sem validação. Os resultados locais de integração e de navegador não substituem essas verificações em produção.

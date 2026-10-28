@@ -2,7 +2,9 @@
 
 O serviço web executa no plano Free do Render. Contas, sessões, progresso, respostas e preferências ficam no banco externo Turso, acessado somente pelo backend. Reiniciar ou substituir o servidor web não deve apagar esses dados.
 
-O usuário já possui conta no Render e criou o banco Turso. O token não foi fornecido ao projeto nem deve ser colocado no GitHub ou no chat. A conexão com o banco real ainda depende dessa credencial e da validação depois da publicação.
+Endereço publicado para validação: **<https://estudo-b-blico.onrender.com/>**. As respostas HTTP do site, do catálogo, da pesquisa e do health com consulta ao banco foram verificadas; veja [validacao.md](validacao.md). O fluxo de conta e a persistência após reiniciar o serviço hospedado ainda precisam de validação nesse ambiente.
+
+O usuário possui conta no Render e criou o banco Turso. O token é configurado diretamente no Render e não deve ser colocado no GitHub ou no chat.
 
 Esta etapa prepara uma implantação para validação. Antes de divulgar o cadastro ao público, defina o responsável e o canal de privacidade, publique o aviso de privacidade e resolva a base legal e o fluxo de contas para crianças e adolescentes conforme a política. Esses fluxos ainda não estão implementados; o formulário atual não verifica idade nem consentimento de responsável. Use contas de teste de adultos autorizados na validação. O conteúdo público pode ser lido sem cadastro.
 
