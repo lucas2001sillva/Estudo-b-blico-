@@ -27,7 +27,7 @@ export default defineConfig({
     { name: 'chromium', use: { ...devices['Desktop Chrome'], viewport: { width: 1440, height: 1000 } } },
   ],
   webServer: {
-    command: 'npm start',
+    command: 'node tests/support/e2e-server.mjs',
     url: `${baseURL}/api/health`,
     timeout: 30_000,
     reuseExistingServer: Boolean(process.env.TEST_BASE_URL),

@@ -50,14 +50,28 @@ async function site(t, options = {}) {
   return { app, request, register, origin, dbPath, client, fault, logs };
 }
 
-test('cadastro exige 15 caracteres, permite frases longas e emite sessão de sete dias', async t => {
+test('cadastro exige seis caracteres, uma letra e um símbolo, aceita acentos e emite sessão de sete dias', async t => {
   const { register } = await site(t);
-  assert.equal((await register('short@example.test', '12345678901234')).status, 400);
-  const allowed = await register('minimum@example.test', '123456789012345');
+  for (const [label, value, message] of [
+    ['short', 'abcd!', /entre 6 e 128/],
+    ['unicode-short', 'a!😀😀', /entre 6 e 128/],
+    ['no-letter', '12345!', /pelo menos uma letra/],
+    ['no-special', 'abcdef', /caractere especial/],
+    ['only-space', 'abcde ', /caractere especial/],
+  ]) {
+    const refused = await register(`${label}@example.test`, value);
+    assert.equal(refused.status, 400);
+    assert.match(refused.data.error, message);
+    assert.equal(refused.cookie, undefined);
+  }
+  // Exactly six characters, without a digit: numbers are optional.
+  const allowed = await register('minimum@example.test', 'abcde!');
   assert.equal(allowed.status, 201);
   assert.match(allowed.headers.get('set-cookie'), /Max-Age=604800/);
-  assert.equal((await register('long@example.test', 'á'.repeat(128))).status, 201);
-  assert.equal((await register('too-long@example.test', 'á'.repeat(129))).status, 400);
+  assert.equal((await register('accent@example.test', 'á1234!')).status, 201);
+  assert.equal((await register('symbol@example.test', 'áaaaa😀')).status, 201);
+  assert.equal((await register('long@example.test', `${'á'.repeat(127)}!`)).status, 201);
+  assert.equal((await register('too-long@example.test', `${'á'.repeat(128)}!`)).status, 400);
 });
 
 test('senhas legadas continuam funcionando e são fortalecidas após autenticação', async t => {

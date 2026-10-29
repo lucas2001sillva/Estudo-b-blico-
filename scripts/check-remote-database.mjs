@@ -114,7 +114,7 @@ try {
   assert.equal(catalog.data.books.length, 66);
   const quiz = catalog.data.studies.quizzes.find(item => item.questions.length > 0);
   const answers = quiz.questions.map(question => question.answerIndex);
-  const account = { name: 'Integração temporária', email: `integration-${randomUUID()}@example.test`, password: randomBytes(24).toString('base64url') };
+  const account = { name: 'Integração temporária', email: `integration-${randomUUID()}@example.test`, password: `Aa!${randomBytes(24).toString('base64url')}` };
   const registered = await first.request('/auth/register', { method: 'POST', body: account });
   assert.equal(registered.status, 201);
   assert.ok(registered.cookie);

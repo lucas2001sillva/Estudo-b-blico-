@@ -1,4 +1,20 @@
-# Validação da primeira versão
+# Validação do site
+
+## Login e progresso — 29/10/2026
+
+- `npm test`: **44 testes passaram**, sem ignorados. Incluem falha de leitura do progresso antes do login, falha de gravação da sessão, ausência de cookie prematuro e acesso público durante indisponibilidade do banco.
+- `npm run build`: compilação TypeScript e Vite concluída.
+- `npm run test:e2e`: **38 testes passaram** na suíte completa, sem ignorados, usando Chromium; inclui computador e celular.
+- Cadastro e login agora devolvem conta, progresso e revisão na mesma resposta confirmada. A verificação inicial da sessão antecede novas gravações de leitura.
+- Alterações recusadas são isoladas em uma cópia temporária por conta, com download e nova tentativa. As demais leituras continuam sincronizando; importações recusadas preservam o progresso original do visitante.
+- As regressões de navegador cobrem atraso de sessão, perda de confirmação HTTP 503 ou JSON inválido HTTP 200, recarregamento, logout, isolamento de contas, retomada de versículo, importação e saída pelo celular.
+- Novos cadastros exigem **6 a 128 caracteres, uma letra e um caractere especial**. Números são opcionais; espaços não substituem símbolos. O formulário e a API compartilham o validador; contas antigas continuam acessíveis.
+- `node scripts/check-remote-database.mjs`: integração HTTP libSQL passou com duas APIs, concorrência, quiz, indisponibilidade e reinicialização sem fallback local. Contêiner e volume temporários foram removidos. Este teste não utiliza credenciais do Turso hospedado.
+- O servidor exclusivo dos testes de navegador utiliza SQLite temporário e desativa limites de frequência apenas nesse processo de testes. Os limites de produção permanecem ativos e possuem testes próprios em `security.test.mjs`.
+
+Os registros abaixo preservam as verificações anteriores, com suas datas e limites de escopo.
+
+## Primeira versão
 
 Verificações executadas em 27/10/2026, com Node.js 24.19.0 e Chromium 154.
 

@@ -1,12 +1,42 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { ProgressState, StatePatch, User } from '../types';
+import { dividePatch, readRejected, removeRejected, retainRejected } from './rejected';
 
 export const emptyState = (): ProgressState => ({ completedChapters: {}, completedLessons: {}, quizAttempts: [], preferences: { theme: 'light', fontSize: 18, speechRate: 1 }, selectedTrailId: null, lastReading: null });
 
+const record = (value: unknown): value is Record<string, unknown> => value !== null && typeof value === 'object' && !Array.isArray(value);
+function stateReply(value: unknown) {
+  if (!record(value) || !Number.isInteger(value.revision) || Number(value.revision) < 0 || !record(value.state)) return false;
+  const state = value.state;
+  return record(state.completedChapters) && Object.values(state.completedChapters).every(value => typeof value === 'boolean')
+    && record(state.completedLessons) && Object.values(state.completedLessons).every(value => typeof value === 'boolean')
+    && Array.isArray(state.quizAttempts) && state.quizAttempts.every(attempt => record(attempt)
+      && typeof attempt.id === 'string' && typeof attempt.quizId === 'string' && typeof attempt.createdAt === 'string'
+      && Number.isInteger(attempt.score) && Number.isInteger(attempt.total)
+      && (attempt.answers === undefined || (Array.isArray(attempt.answers) && attempt.answers.every(Number.isInteger))))
+    && record(state.preferences) && ['light', 'dark'].includes(String(state.preferences.theme))
+    && Number.isFinite(state.preferences.fontSize) && Number.isFinite(state.preferences.speechRate)
+    && (state.selectedTrailId === null || typeof state.selectedTrailId === 'string')
+    && (state.lastReading === null || (record(state.lastReading) && typeof state.lastReading.bookId === 'string' && Number.isInteger(state.lastReading.chapter)));
+}
+const userReply = (value: unknown) => record(value) && typeof value.id === 'string' && typeof value.name === 'string' && typeof value.email === 'string';
+
 export async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   const response = await fetch(`/api${path}`, { ...options, headers: { ...(options.body ? { 'Content-Type': 'application/json' } : {}), ...options.headers } });
-  const body = await response.json().catch(() => ({}));
-  if (!response.ok) throw Object.assign(new Error(typeof body.error === 'string' ? body.error : body.message || 'Não foi possível concluir. Tente novamente.'), { status: response.status });
+  let body;
+  try { body = await response.json(); }
+  catch {
+    if (response.ok) throw new Error('A resposta não pôde ser confirmada. Tente novamente.');
+    body = {};
+  }
+  if (!response.ok) {
+    const errorBody = record(body) ? body : {};
+    throw Object.assign(new Error(typeof errorBody.error === 'string' ? errorBody.error : typeof errorBody.message === 'string' ? errorBody.message : 'Não foi possível concluir. Tente novamente.'), { status: response.status });
+  }
+  const authentication = path === '/auth/login' || path === '/auth/register';
+  if ((path === '/state' || authentication) && !stateReply(body)) throw new Error('Não foi possível confirmar o progresso salvo. Tente novamente.');
+  if (authentication && !userReply(body.user)) throw new Error('Não foi possível confirmar a conta. Tente novamente.');
+  if (path === '/session' && (!record(body) || (body.user !== null && !userReply(body.user)))) throw new Error('Não foi possível confirmar a sessão. Tente novamente.');
   return body as T;
 }
 
@@ -91,9 +121,12 @@ export function useProgressStore() {
   const refreshing = useRef(false);
   const transitioning = useRef(false);
   const revision = useRef(0);
+  const importing = useRef<{ id: string; confirmed: boolean } | null>(null);
   const sessionGeneration = useRef(0);
+  const sessionConfirmedRef = useRef(false);
+  const [sessionConfirmed, setSessionConfirmed] = useState(false);
   const [sessionCheck, setSessionCheck] = useState(0);
-  const [status, setStatus] = useState<'checking' | 'local' | 'syncing' | 'synced' | 'offline'>('checking');
+  const [status, setStatus] = useState<'checking' | 'local' | 'syncing' | 'synced' | 'offline' | 'attention'>('checking');
   const [storageWarning, setStorageWarning] = useState(false);
   const [accountNotice, setAccountNotice] = useState('');
 
@@ -110,6 +143,10 @@ export function useProgressStore() {
     try { localStorage.setItem(sessionSignal, operationId()); }
     catch { setStorageWarning(true); }
   }, []);
+  const confirmSession = useCallback((confirmed: boolean) => {
+    sessionConfirmedRef.current = confirmed;
+    setSessionConfirmed(confirmed);
+  }, []);
 
   const flush = useCallback((): Promise<void> => {
     if (flushing.current) return flushing.current;
@@ -121,13 +158,38 @@ export function useProgressStore() {
         while (current.current.queue.length && current.current.user?.id === user.id && generation === sessionGeneration.current) {
           setStatus('syncing');
           const item = current.current.queue[0];
-          const result = await request<{ state: ProgressState; revision: number }>('/state', { method: 'PATCH', headers: accountHeaders(user), body: JSON.stringify(item.patch) });
+          let result: { state: ProgressState; revision: number };
+          try {
+            result = await request('/state', { method: 'PATCH', headers: accountHeaders(user), body: JSON.stringify(item.patch) });
+          } catch (error) {
+            if (generation !== sessionGeneration.current || current.current.user?.id !== user.id) return;
+            if (![400, 422].includes((error as { status?: number })?.status || 0)) throw error;
+            const parts = dividePatch(item.patch);
+            if (parts.length > 1) {
+              const replacements = parts.map(patch => ({ id: operationId(), patch }));
+              commit({ ...current.current, queue: current.current.queue.flatMap(queued => queued.id === item.id ? replacements : [queued]) });
+              continue;
+            }
+            try { retainRejected(user.id, item, error instanceof Error ? error.message : 'Alteração não aceita.'); }
+            catch { setStorageWarning(true); throw error; }
+            const queue = current.current.queue.filter(queued => queued.id !== item.id);
+            commit({ ...current.current, queue });
+            // Reconcile the visible state with confirmed data, keeping every
+            // other pending reading. The refused operation remains exportable.
+            const confirmed = await request<{ state: ProgressState; revision: number }>('/state', { headers: accountHeaders(user) });
+            if (generation !== sessionGeneration.current || current.current.user?.id !== user.id) return;
+            revision.current = Math.max(revision.current, confirmed.revision);
+            commit({ ...current.current, state: current.current.queue.reduce((value, queued) => applyPatch(value, queued.patch), confirmed.state) });
+            continue;
+          }
           if (current.current.user?.id !== user.id || generation !== sessionGeneration.current) return;
+          if (importing.current?.id === item.id) importing.current.confirmed = true;
+          try { removeRejected(user.id, item.id); } catch { setStorageWarning(true); }
           revision.current = Math.max(revision.current, result.revision);
           const queue = current.current.queue.filter(queued => queued.id !== item.id);
           commit({ ...current.current, state: queue.reduce((value, queued) => applyPatch(value, queued.patch), result.state), queue });
         }
-        if (generation === sessionGeneration.current) setStatus(current.current.user ? 'synced' : 'local');
+        if (generation === sessionGeneration.current) setStatus(current.current.user ? readRejected(user.id).length ? 'attention' : 'synced' : 'local');
       } catch (error) {
         if (generation === sessionGeneration.current) {
           setStatus('offline');
@@ -154,6 +216,7 @@ export function useProgressStore() {
           commit(readGuest());
         }
         setStatus('local');
+        confirmSession(true);
         return;
       }
       const result = await request<{ state: ProgressState; revision: number }>('/state', { headers: accountHeaders(user) });
@@ -166,11 +229,12 @@ export function useProgressStore() {
       revision.current = result.revision;
       const queue = sameAccount ? current.current.queue : readPending(user.id);
       commit({ user, state: queue.reduce((value, item) => applyPatch(value, item.patch), result.state), queue });
-      setStatus(queue.length ? 'syncing' : 'synced');
+      confirmSession(true);
+      setStatus(queue.length ? 'syncing' : readRejected(user.id).length ? 'attention' : 'synced');
       void flush();
     } catch { if (generation === sessionGeneration.current) setStatus('offline'); }
     finally { refreshing.current = false; }
-  }, [commit, flush]);
+  }, [commit, flush, confirmSession]);
 
   useEffect(() => {
     void refresh();
@@ -178,6 +242,7 @@ export function useProgressStore() {
     const onStorage = (event: StorageEvent) => {
       if (event.key !== sessionSignal || transitioning.current) return;
       sessionGeneration.current += 1;
+      confirmSession(false);
       commit(readGuest());
       setStatus('checking');
       setSessionCheck(value => value + 1);
@@ -188,15 +253,19 @@ export function useProgressStore() {
     document.addEventListener('visibilitychange', onFocus);
     const interval = window.setInterval(onFocus, 20_000);
     return () => { window.clearInterval(interval); window.removeEventListener('online', onFocus); window.removeEventListener('focus', onFocus); window.removeEventListener('storage', onStorage); document.removeEventListener('visibilitychange', onFocus); };
-  }, [refresh, commit]);
+  }, [refresh, commit, confirmSession]);
   useEffect(() => { if (sessionCheck) void refresh(); }, [sessionCheck, refresh]);
 
   const patch = useCallback((value: StatePatch) => {
     if (transitioning.current) { setAccountNotice('Aguarde a alteração de conta antes de registrar outra leitura.'); return; }
+    if (!sessionConfirmedRef.current && Object.keys(value).some(key => key !== 'preferences')) {
+      setAccountNotice('Aguarde a confirmação da sessão para salvar seu progresso. A leitura continua disponível.');
+      return;
+    }
     const previous = current.current;
     const queue = previous.user ? [...previous.queue, { id: operationId(), patch: value }] : [];
     commit({ ...previous, state: applyPatch(previous.state, value), queue });
-    setStatus(previous.user ? 'syncing' : 'local');
+    setStatus(previous.user ? 'syncing' : sessionConfirmedRef.current ? 'local' : 'checking');
     void flush();
   }, [commit, flush]);
 
@@ -207,24 +276,38 @@ export function useProgressStore() {
     const before = current.current;
     let importedId: string | null = null;
     try {
-      const { user } = await request<{ user: User }>(`/auth/${mode}`, { method: 'POST', body: JSON.stringify(credentials) });
-      const result = await request<{ state: ProgressState; revision: number }>('/state', { headers: accountHeaders(user) });
+      let result: { user: User; state: ProgressState; revision: number };
+      try {
+        result = await request(`/auth/${mode}`, { method: 'POST', body: JSON.stringify(credentials) });
+      } catch (error) {
+        const status = (error as { status?: number })?.status;
+        if (status && status >= 400 && status < 500) throw error;
+        // A response can be interrupted after the server issued the cookie.
+        // Recover only the same account, without repeating account creation.
+        const session = await request<{ user: User | null }>('/session');
+        if (!session.user || session.user.email.toLowerCase() !== credentials.email.trim().toLowerCase()) throw error;
+        const confirmed = await request<{ state: ProgressState; revision: number }>('/state', { headers: accountHeaders(session.user) });
+        result = { ...confirmed, user: session.user };
+      }
+      const { user } = result;
       if (generation !== sessionGeneration.current) throw new Error('A sessão mudou. Entre novamente para continuar.');
       const queue = readPending(user.id);
-      if (importGuest && hasReadings(before.state)) { importedId = operationId(); queue.push({ id: importedId, patch: guestImport(before.state) }); }
+      if (importGuest && hasReadings(before.state)) { importedId = operationId(); importing.current = { id: importedId, confirmed: false }; queue.push({ id: importedId, patch: guestImport(before.state) }); }
       revision.current = result.revision;
       setAccountNotice('');
       commit({ user, state: queue.reduce((value, item) => applyPatch(value, item.patch), result.state), queue });
-      setStatus(queue.length ? 'syncing' : 'synced');
+      confirmSession(true);
+      setStatus(queue.length ? 'syncing' : readRejected(user.id).length ? 'attention' : 'synced');
       signalSessionChange();
     } finally { transitioning.current = false; }
     await flush();
     // Clear only the imported readings after confirmation, keeping visitor comfort preferences.
-    if (importedId && !current.current.queue.some(item => item.id === importedId) && JSON.stringify(readGuest().state) === JSON.stringify(before.state)) {
+    if (importedId && importing.current?.id === importedId && importing.current.confirmed && JSON.stringify(readGuest().state) === JSON.stringify(before.state)) {
       try { localStorage.setItem(guestKey, JSON.stringify({ state: { ...emptyState(), preferences: before.state.preferences } })); }
       catch { setStorageWarning(true); }
     }
-  }, [commit, flush, signalSessionChange]);
+    importing.current = null;
+  }, [commit, flush, signalSessionChange, confirmSession]);
 
   const logout = useCallback(async () => {
     if (transitioning.current || !current.current.user) return;
@@ -240,6 +323,7 @@ export function useProgressStore() {
       catch { setStorageWarning(true); }
       revision.current = 0;
       commit(readGuest());
+      confirmSession(true);
       setAccountNotice('');
       setStatus('local');
       signalSessionChange();
@@ -247,7 +331,26 @@ export function useProgressStore() {
       if (isSessionError(error)) setSessionCheck(value => value + 1);
       throw error;
     } finally { transitioning.current = false; }
-  }, [commit, flush, signalSessionChange]);
+  }, [commit, flush, signalSessionChange, confirmSession]);
 
-  return { user: snapshot.user, progress: snapshot.state, patch, authenticate, logout, status, storageWarning, accountNotice, clearAccountNotice: () => setAccountNotice(''), hasGuestProgress: !snapshot.user && hasReadings(snapshot.state), refresh };
+  const retryRejected = useCallback(() => {
+    const user = current.current.user;
+    if (!user || transitioning.current) return;
+    const existing = new Set(current.current.queue.map(item => item.id));
+    const restored = readRejected(user.id).filter(item => !existing.has(item.id)).map(({ id, patch }) => ({ id, patch }));
+    commit({ ...current.current, queue: [...current.current.queue, ...restored] });
+    setStatus('syncing');
+    void flush();
+  }, [commit, flush]);
+
+  const downloadRejected = useCallback(() => {
+    const user = current.current.user;
+    if (!user) return;
+    const url = URL.createObjectURL(new Blob([JSON.stringify({ format: 'vereda-alteracoes-pendentes-v1', operations: readRejected(user.id) }, null, 2)], { type: 'application/json' }));
+    const link = document.createElement('a');
+    link.href = url; link.download = 'vereda-alteracoes-pendentes.json'; link.click();
+    window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }, []);
+
+  return { user: snapshot.user, progress: snapshot.state, patch, authenticate, logout, status, storageWarning, accountNotice, clearAccountNotice: () => setAccountNotice(''), hasGuestProgress: !snapshot.user && hasReadings(snapshot.state), refresh, canSave: sessionConfirmed, retryRejected, downloadRejected, rejectedCount: snapshot.user ? readRejected(snapshot.user.id).length : 0 };
 }

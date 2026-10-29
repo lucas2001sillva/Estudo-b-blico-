@@ -2,3 +2,5 @@
 .guest-import-choice>label{display:flex;align-items:flex-start;gap:10px;font-size:12px;line-height:1.65;cursor:pointer}
 .guest-import-choice input{width:17px;height:17px;margin:2px 0 0;accent-color:var(--primary);flex-shrink:0}
 .guest-import-choice p{font-size:11px;line-height:1.7;margin:10px 0 0}
+.sync-recovery-notice{flex-wrap:wrap;gap:12px}
+.sync-recovery-notice>span{flex:1 1 320px}

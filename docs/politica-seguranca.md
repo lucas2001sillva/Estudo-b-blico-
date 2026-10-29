@@ -68,7 +68,7 @@ O cadastro de crianças só deverá ser disponibilizado após a implementação 
 - Contas administrativas serão individuais, com o menor privilégio necessário. MFA será habilitado no GitHub, Render e Turso conforme os recursos disponíveis.
 - Acessos serão revisados trimestralmente e revogados quando cessar sua necessidade, inclusive no desligamento de colaboradores.
 - Senhas serão armazenadas como hashes resistentes, com salt criptográfico individual. Parâmetros, memória e concorrência serão definidos e medidos para a infraestrutura usada.
-- Para autenticação somente por senha, o requisito proposto é mínimo de 15 caracteres, suporte a frases longas e ausência de trocas periódicas arbitrárias. Senhas comprometidas exigirão substituição.
+- Novos cadastros exigem de 6 a 128 caracteres, com pelo menos uma letra e um caractere especial; números são opcionais. Espaços não substituem o caractere especial. A mesma regra será validada no formulário e no servidor. Senhas de contas existentes continuam aceitas no login. Não haverá trocas periódicas arbitrárias; senhas comprometidas exigirão substituição.
 - Sessões terão identificadores aleatórios, expiração validada pelo servidor e cookies `HttpOnly`, `Secure` em HTTPS e `SameSite` adequado.
 - Toda autorização usará a identidade obtida da sessão pelo servidor. Um identificador de usuário enviado pelo navegador não poderá conceder acesso a outra conta.
 - Login, cadastro, recuperação e sincronização terão validação de entradas, limites de tentativas e respostas que não revelem desnecessariamente a existência de uma conta.

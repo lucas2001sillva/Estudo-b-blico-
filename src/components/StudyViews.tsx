@@ -14,6 +14,7 @@ interface SharedProps {
   progress: ProgressState;
   onPatch: (patch: StatePatch) => void;
   onSpeak: (text: string) => void;
+  canSave?: boolean;
 }
 
 interface StudiesProps extends SharedProps {
@@ -159,7 +160,7 @@ function QuizHistory({ quiz, attempts, studies }: { quiz: Quiz; attempts: QuizAt
   </details>;
 }
 
-export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }: StudiesProps) {
+export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak, canSave = true }: StudiesProps) {
   const [query, setQuery] = useState('');
   const [selectedLessonId, setSelectedLessonId] = useState<string | null>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
@@ -188,6 +189,7 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
   }, [selectedLessonId]);
 
   const selectTrail = (id: string | null) => {
+    if (!canSave) return;
     onPatch({ selectedTrailId: id });
     revealContent(() => resultsHeadingRef.current);
   };
@@ -295,7 +297,7 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
                 <h2>{isComplete ? 'Mais um passo na sua jornada' : 'Terminou este assunto?'}</h2>
                 <p className="muted">Você decide quando marcar a leitura como concluída e pode desfazer depois.</p>
               </div>
-              <button className={`button ${isComplete ? 'button-secondary' : 'button-primary'}`} onClick={() => onPatch({ completedLessons: { [selectedLesson.id]: !isComplete } })} aria-pressed={isComplete}>
+              <button className={`button ${isComplete ? 'button-secondary' : 'button-primary'}`} disabled={!canSave} onClick={() => onPatch({ completedLessons: { [selectedLesson.id]: !isComplete } })} aria-pressed={isComplete}>
                 <CheckCircle2 size={18} aria-hidden="true" /> {isComplete ? 'Leitura concluída · desfazer' : 'Concluir leitura'}
               </button>
             </footer>
@@ -333,12 +335,12 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
       </header>
 
       <section aria-labelledby="study-trails-heading" className="study-trails-section">
-        <div className="study-section-heading"><div><h2 id="study-trails-heading" ref={trailsHeadingRef} tabIndex={-1}>Escolha sua trilha</h2><p className="muted">Uma sugestão para começar. Liberdade para seguir por onde quiser.</p></div><button className="button button-ghost" onClick={() => selectTrail(null)} aria-pressed={!selectedTrail}>Ver todas <ArrowRight size={16} aria-hidden="true" /></button></div>
+        <div className="study-section-heading"><div><h2 id="study-trails-heading" ref={trailsHeadingRef} tabIndex={-1}>Escolha sua trilha</h2><p className="muted">Uma sugestão para começar. Liberdade para seguir por onde quiser.</p></div><button className="button button-ghost" disabled={!canSave} onClick={() => selectTrail(null)} aria-pressed={!selectedTrail}>Ver todas <ArrowRight size={16} aria-hidden="true" /></button></div>
         <div className="study-trail-grid">
           {studies.trails.map((trail, index) => {
             const count = trail.lessonIds.filter(id => progress.completedLessons[id]).length;
             const active = selectedTrail?.id === trail.id;
-            return <button key={trail.id} className={`card study-trail-card ${trail.recommended ? 'is-recommended' : ''} ${active ? 'is-selected' : ''}`} onClick={() => selectTrail(active ? null : trail.id)} aria-pressed={active}>
+            return <button key={trail.id} className={`card study-trail-card ${trail.recommended ? 'is-recommended' : ''} ${active ? 'is-selected' : ''}`} disabled={!canSave} onClick={() => selectTrail(active ? null : trail.id)} aria-pressed={active}>
               <div className="study-trail-card-top"><span className="study-icon">{trail.recommended ? <Sparkles size={23} aria-hidden="true" /> : index % 2 ? <BookOpen size={23} aria-hidden="true" /> : <Route size={23} aria-hidden="true" />}</span>{trail.recommended && <span className="badge">Comece por aqui</span>}{active && <Check size={19} aria-label="Trilha selecionada" />}</div>
               <h3>{trail.title}</h3><p className="muted">{trail.description}</p>
               <div className="study-trail-count">{trail.lessonIds.length} {trail.lessonIds.length === 1 ? 'estudo' : 'estudos'}<span>{count} {count === 1 ? 'concluído' : 'concluídos'}</span></div>
@@ -375,7 +377,7 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
   );
 }
 
-export function QuizPage({ studies, bibleQuizzes = [], progress, selectedQuizId, onSelectQuiz, onPatch, onSpeak }: QuizProps) {
+export function QuizPage({ studies, bibleQuizzes = [], progress, selectedQuizId, onSelectQuiz, onPatch, onSpeak, canSave = true }: QuizProps) {
   const [query, setQuery] = useState('');
   const [trailFilter, setTrailFilter] = useState('');
   const [category, setCategory] = useState<'bible' | 'study'>('study');
@@ -462,10 +464,10 @@ export function QuizPage({ studies, bibleQuizzes = [], progress, selectedQuizId,
     );
   }
 
-  return <QuizSession key={selectedQuiz.id} selectedQuiz={selectedQuiz} studies={studies} onSelectQuiz={onSelectQuiz} onPatch={onPatch} onSpeak={onSpeak} />;
+  return <QuizSession key={selectedQuiz.id} selectedQuiz={selectedQuiz} studies={studies} onSelectQuiz={onSelectQuiz} onPatch={onPatch} onSpeak={onSpeak} canSave={canSave} />;
 }
 
-function QuizSession({ selectedQuiz, studies, onSelectQuiz, onPatch, onSpeak }: { selectedQuiz: Quiz; studies: Studies; onSelectQuiz: (id: string) => void; onPatch: (patch: StatePatch) => void; onSpeak: (text: string) => void }) {
+function QuizSession({ selectedQuiz, studies, onSelectQuiz, onPatch, onSpeak, canSave = true }: { selectedQuiz: Quiz; studies: Studies; onSelectQuiz: (id: string) => void; onPatch: (patch: StatePatch) => void; onSpeak: (text: string) => void; canSave?: boolean }) {
   const [questionIndex, setQuestionIndex] = useState(0);
   const [selectedChoice, setSelectedChoice] = useState<number | null>(null);
   const [confirmed, setConfirmed] = useState(false);
@@ -500,6 +502,7 @@ function QuizSession({ selectedQuiz, studies, onSelectQuiz, onPatch, onSpeak }: 
       setQuestionIndex(index => index + 1); setSelectedChoice(null); setConfirmed(false);
       return;
     }
+    if (!canSave) return;
     if (!submittedRef.current) {
       submittedRef.current = true;
       onPatch({ quizAttempts: [{ id: attemptIdRef.current, quizId: selectedQuiz.id, quizRevision: selectedQuiz.revision ?? 1, score, total, answers: [...answers], createdAt: new Date().toISOString() }] });
@@ -535,7 +538,7 @@ function QuizSession({ selectedQuiz, studies, onSelectQuiz, onPatch, onSpeak }: 
                 return <label className={`quiz-choice ${isSelected ? 'is-selected' : ''} ${isCorrect ? 'is-correct' : ''} ${isIncorrect ? 'is-incorrect' : ''} ${confirmed ? 'is-locked' : ''}`} key={index}><input type="radio" name={`${questionId}-choice`} value={index} checked={isSelected} disabled={confirmed} onChange={() => setSelectedChoice(index)} /><span className="quiz-choice-letter" aria-hidden="true">{String.fromCharCode(65 + index)}</span><span className="quiz-choice-text">{choice}</span>{isCorrect && <CheckCircle2 size={19} aria-label="Resposta correta" />}{isIncorrect && <span className="quiz-answer-label">Sua resposta</span>}</label>;
               })}</fieldset>
               <div className="quiz-feedback-slot" aria-live="polite" aria-atomic="true">{confirmed && <section className={`quiz-feedback ${selectedChoice === question.answerIndex ? 'is-correct' : 'is-incorrect'}`}><h2>{selectedChoice === question.answerIndex ? <><CheckCircle2 size={19} aria-hidden="true" /> Isso mesmo!</> : <><CircleHelp size={19} aria-hidden="true" /> Vamos entender juntos</>}</h2><p><strong>Resposta correta:</strong> {question.choices[question.answerIndex]}</p><QuizExplanation question={question} studies={studies} /><button className="button button-ghost" onClick={() => onSpeak(questionExplanationSpeech(question, studies))}><Volume2 size={17} aria-hidden="true" /> Ouvir explicação da resposta</button></section>}</div>
-              <div className="quiz-action-row"><span className="muted">{confirmed ? 'Leia a explicação antes de continuar.' : 'Escolha uma alternativa para continuar.'}</span>{confirmed ? <button className="button button-primary" onClick={advance}>{questionIndex === total - 1 ? 'Ver resultado' : 'Próxima pergunta'} <ArrowRight size={17} aria-hidden="true" /></button> : <button className="button button-primary" onClick={confirmAnswer} disabled={selectedChoice === null}>Confirmar resposta <Check size={17} aria-hidden="true" /></button>}</div>
+              <div className="quiz-action-row"><span className="muted">{!canSave && confirmed && questionIndex === total - 1 ? 'Conferindo sua sessão antes de salvar o resultado…' : confirmed ? 'Leia a explicação antes de continuar.' : 'Escolha uma alternativa para continuar.'}</span>{confirmed ? <button className="button button-primary" disabled={!canSave && questionIndex === total - 1} onClick={advance}>{questionIndex === total - 1 ? 'Ver resultado' : 'Próxima pergunta'} <ArrowRight size={17} aria-hidden="true" /></button> : <button className="button button-primary" onClick={confirmAnswer} disabled={selectedChoice === null}>Confirmar resposta <Check size={17} aria-hidden="true" /></button>}</div>
             </>
           )}
         </article>

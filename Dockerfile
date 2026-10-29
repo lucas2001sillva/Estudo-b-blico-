@@ -6,6 +6,7 @@ RUN --mount=type=secret,id=build_ca \
     npm ci --no-audit --no-fund
 COPY tsconfig.json vite.config.ts index.html ./
 COPY src ./src
+COPY shared ./shared
 COPY public ./public
 RUN --mount=type=secret,id=build_ca \
     if [ -s /run/secrets/build_ca ]; then export NODE_EXTRA_CA_CERTS=/run/secrets/build_ca; fi; \
@@ -18,6 +19,7 @@ COPY --from=build --chown=node:node /app/package.json /app/package-lock.json ./
 COPY --from=build --chown=node:node /app/node_modules ./node_modules
 COPY --from=build --chown=node:node /app/dist ./dist
 COPY --chown=node:node server ./server
+COPY --chown=node:node shared ./shared
 COPY --chown=node:node content ./content
 RUN mkdir -p /app/var && chown node:node /app/var
 USER node

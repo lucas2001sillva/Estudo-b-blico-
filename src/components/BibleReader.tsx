@@ -3,10 +3,11 @@ import { ArrowLeft, ArrowRight, BookOpen, Check, CheckCircle2, ChevronDown, Exte
 import type { Book, Chapter, ProgressState, ReadingPosition, StatePatch } from '../types';
 import { request } from '../lib/store';
 
-export function BibleReader({ books, progress, target, onNavigate, onPatch, onSpeak }: {
+export function BibleReader({ books, progress, target, onNavigate, onPatch, onSpeak, canSave = true }: {
   books: Book[]; progress: ProgressState; target: ReadingPosition | null;
   onNavigate: (bookId: string, chapter: number, verse?: number) => void;
   onPatch: (patch: StatePatch) => void; onSpeak: (text: string) => void;
+  canSave?: boolean;
 }) {
   const position = target || progress.lastReading || { bookId: books[0]?.id, chapter: 1 };
   const book = books.find(item => item.id === position.bookId) || books[0];
@@ -29,14 +30,20 @@ export function BibleReader({ books, progress, target, onNavigate, onPatch, onSp
     request<{ chapter: Chapter }>(`/bible/${book.id}/${chapterNumber}`).then(data => {
       if (!active) return;
       setLoadedChapter({ bookId: book.id, number: chapterNumber, chapter: data.chapter });
-      const id = `${book.id}:${chapterNumber}`;
-      if (savedPosition.current !== id) {
-        savedPosition.current = id;
-        onPatch({ lastReading: { bookId: book.id, chapter: chapterNumber } });
-      }
     }).catch(err => { if (active) setError(err.message); });
     return () => { active = false; };
-  }, [book?.id, chapterNumber, onPatch]);
+  }, [book?.id, chapterNumber]);
+  useEffect(() => {
+    if (!canSave || !book || !chapter) return;
+    // Read the current selection after the chapter has loaded. A fetch can
+    // finish after the user chooses another verse in that same chapter.
+    const verse = chapter.verses.some(item => item.number === position.verse) ? position.verse : undefined;
+    const id = `${book.id}:${chapterNumber}:${verse ?? ''}`;
+    if (savedPosition.current === id) return;
+    savedPosition.current = id;
+    if (progress.lastReading?.bookId === book.id && progress.lastReading.chapter === chapterNumber && progress.lastReading.verse === verse) return;
+    onPatch({ lastReading: { bookId: book.id, chapter: chapterNumber, ...(verse === undefined ? {} : { verse }) } });
+  }, [canSave, book?.id, chapterNumber, chapter, position.verse, progress.lastReading?.bookId, progress.lastReading?.chapter, progress.lastReading?.verse, onPatch]);
   useEffect(() => {
     if (chapter && position.verse) document.getElementById(`verse-${position.verse}`)?.scrollIntoView({ block: 'center', behavior: 'instant' });
   }, [chapter, position.verse]);
@@ -71,7 +78,7 @@ export function BibleReader({ books, progress, target, onNavigate, onPatch, onSp
           <div className="reader-heading"><span className="badge">NVI · TEXTO DOS ARQUIVOS ENVIADOS</span><button className="button button-ghost" disabled={!chapter} onClick={() => onSpeak(`${book.name}, capítulo ${chapterNumber}. ${chapter?.verses.map(verse => verse.text).join(' ')}`)}><Volume2 size={17} />Ouvir capítulo</button></div>
           <div data-readable><h2>{book.name} <span>{chapterNumber}</span></h2>{error ? <div className="error-box" role="alert">{error}<button className="button button-secondary" onClick={() => window.location.reload()}>Tentar novamente</button></div> : !chapter ? <p className="muted" role="status">Carregando capítulo…</p> : <div className="verses">{chapter.verses.map(verse => <p key={verse.number} id={`verse-${verse.number}`} className={position.verse === verse.number ? 'highlighted-verse' : ''}><sup aria-label={`Versículo ${verse.number}`}>{verse.number}</sup>{verse.text}</p>)}</div>}</div>
           {chapter && <a className="source-link" href={`/api/sources/${book.testament === 'AT' ? 'at' : 'nt'}#page=${sourcePage}`} target="_blank" rel="noreferrer"><ExternalLink size={14} />Consultar o PDF original · p. {sourcePage}</a>}
-          <div className="chapter-completion"><button className={`button ${completed ? 'button-complete' : 'button-primary'}`} disabled={!chapter} onClick={() => onPatch({ completedChapters: { [key]: !completed } })}><Check size={18} />{completed ? 'Desfazer leitura do capítulo' : 'Marcar capítulo como lido'}</button><span className="muted" aria-live="polite">{completed ? 'Capítulo concluído. Seu progresso foi atualizado.' : 'Terminou? Marque a leitura para acompanhar seu caminho.'}</span></div>
+          <div className="chapter-completion"><button className={`button ${completed ? 'button-complete' : 'button-primary'}`} disabled={!chapter || !canSave} onClick={() => onPatch({ completedChapters: { [key]: !completed } })}><Check size={18} />{completed ? 'Desfazer leitura do capítulo' : 'Marcar capítulo como lido'}</button><span className="muted" aria-live="polite">{!canSave ? 'Conferindo sua sessão e seu progresso antes de salvar novas leituras…' : completed ? 'Capítulo concluído. Seu progresso foi atualizado.' : 'Terminou? Marque a leitura para acompanhar seu caminho.'}</span></div>
         </article>
         <div className="chapter-navigation"><button className="button button-secondary" disabled={chapterNumber <= 1} onClick={() => navigate(book.id, chapterNumber - 1)}><ArrowLeft size={17} />Capítulo anterior</button><span className="muted">{chapterNumber} de {book.chapterCount}</span><button className="button button-primary" disabled={chapterNumber >= book.chapterCount} onClick={() => navigate(book.id, chapterNumber + 1)}>Próximo capítulo<ArrowRight size={17} /></button></div>
       </div>

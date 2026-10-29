@@ -2,6 +2,7 @@ import express from 'express';
 import { rateLimit } from 'express-rate-limit';
 import { createDatabase } from './database.mjs';
 import { resolveQuizVersion } from './quiz-versions.mjs';
+import { MAX_PASSWORD_LENGTH, registrationPasswordError } from '../shared/password-policy.mjs';
 import { randomBytes, randomUUID, scrypt as scryptCallback, timingSafeEqual, createHash } from 'node:crypto';
 import { promisify } from 'node:util';
 import { readFileSync, existsSync } from 'node:fs';
@@ -56,11 +57,11 @@ function credentials(body, registration = false) {
   const email = requiredText(body.email, 'O e-mail', 3, 254).toLowerCase();
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) fail(400, 'Informe um e-mail válido.');
   const passwordLength = typeof body.password === 'string' ? [...body.password].length : 0;
-  // Existing accounts may have shorter passwords. Enforce the stronger rule on
-  // registration without locking out people who registered before this change.
-  if (passwordLength < (registration ? 15 : 1) || passwordLength > 128) {
-    fail(400, registration ? 'A senha deve ter entre 15 e 128 caracteres.' : 'Informe uma senha com até 128 caracteres.');
-  }
+  // Apply the current composition rule only to new accounts so existing
+  // readers can still log in with their original passwords.
+  const passwordError = registration ? registrationPasswordError(body.password)
+    : passwordLength < 1 || passwordLength > MAX_PASSWORD_LENGTH ? 'Informe uma senha com até 128 caracteres.' : null;
+  if (passwordError) fail(400, passwordError);
   return { email, password: body.password, ...(registration ? { name: requiredText(body.name, 'O nome', 2, 60) } : {}) };
 }
 
@@ -179,6 +180,11 @@ export async function createApp({
   app.use('/api', sessionLookupLimiter);
   app.use('/api', express.json({ limit: '512kb', strict: true }));
   app.use('/api', async (req, _res, next) => {
+    // Public reading must remain available during a database outage even if
+    // the browser still carries a session cookie. Express routes accept mixed
+    // case and a trailing slash, so the session boundary must accept them too.
+    const privateRoute = /^\/(?:session|state)\/?$/i.test(req.path) || /^\/auth(?:\/|$)/i.test(req.path);
+    if (!privateRoute) return next();
     const token = cookieToken(req);
     const row = token ? await database.getSession(tokenHash(token), Date.now()) : null;
     req.user = row ? publicUser(row) : null;
@@ -220,10 +226,11 @@ export async function createApp({
     const hash = PASSWORD_PREFIX + (await passwordWork(() => scrypt(password, salt, 64, PASSWORD_OPTIONS))).toString('hex');
     const user = { id: randomUUID(), name, email };
     const session = newSession(req, user.id);
-    await database.createAccount({ user, passwordSalt: salt, passwordHash: hash, state: emptyState(), session: session.record });
+    const state = emptyState();
+    await database.createAccount({ user, passwordSalt: salt, passwordHash: hash, state, session: session.record });
     // No cookie may be sent before the database confirms the account/session transaction.
     sendSessionCookie(req, res, session.token);
-    res.status(201).json({ user });
+    res.status(201).json({ user, state, revision: 0 });
   });
 
   app.post('/api/auth/login', async (req, res) => {
@@ -243,10 +250,14 @@ export async function createApp({
     const expected = hasSalt && (isCurrent || isLegacy) ? Buffer.from(isCurrent ? row.password_hash.slice(PASSWORD_PREFIX.length) : row.password_hash, 'hex') : dummyHash;
     if (!timingSafeEqual(actual, expected) || !row || !hasSalt || (!isCurrent && !isLegacy)) fail(401, 'E-mail ou senha incorretos.');
     if (isLegacy) await database.updatePasswordHash(row.id, row.password_hash, PASSWORD_PREFIX + current.toString('hex'));
+    // Load progress before replacing the session or emitting its cookie. The
+    // client can then enter with one confirmed response, without a second read
+    // that could fail after authentication has already succeeded.
+    const result = await database.readState(row.id);
     const session = newSession(req, row.id);
     await database.createSession(session.record);
     sendSessionCookie(req, res, session.token);
-    res.json({ user: publicUser(row) });
+    res.json({ user: publicUser(row), state: result.state, revision: result.revision });
   });
 
   app.post('/api/auth/logout', intendedAccount, async (req, res) => {
