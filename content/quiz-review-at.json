@@ -1,0 +1,1187 @@
+{
+  "reviewed": 60,
+  "approved": 60,
+  "source": {
+    "file": "at.pdf",
+    "sha256": "c9a3da3183032f9b976e434fe17a8a212270367d0b72d6b4b3bb19307aa31bb8"
+  },
+  "bankSha256": "9727927e69aa9637fdd39fb03c2d29c3cb8ab878b98a7ce0e912c3192ea4665c",
+  "externalSourcesUsed": false,
+  "method": "Independent editorial review of all sixty complete cited passages and direct literal checks in the retained PDF; source references checked against verse page metadata. Evidence shortened only at verse-marker/footnote layout boundaries; audit matching rules were not weakened.",
+  "corrections": [
+    {
+      "id": "biblia-at-003",
+      "fields": [
+        "explanation"
+      ]
+    },
+    {
+      "id": "biblia-at-009",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "biblia-at-023",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "biblia-at-028",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "biblia-at-029",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "biblia-at-038",
+      "fields": [
+        "explanation"
+      ]
+    },
+    {
+      "id": "biblia-at-042",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "biblia-at-045",
+      "fields": [
+        "prompt"
+      ]
+    },
+    {
+      "id": "biblia-at-048",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "biblia-at-056",
+      "fields": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "biblia-at-057",
+      "fields": [
+        "evidence"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "biblia-at-001",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 1,
+        "bookId": "genesis",
+        "bookName": "Gênesis",
+        "chapter": 1,
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      "correctAnswer": "Deus",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "ce63c9303e461774b89ee9d0928621ff9c229bdeffe954d5b6eb533d3a30c9e7",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-002",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 6,
+        "bookId": "genesis",
+        "bookName": "Gênesis",
+        "chapter": 6,
+        "verseStart": 13,
+        "verseEnd": 14
+      },
+      "correctAnswer": "Uma arca de madeira",
+      "directPdfEvidenceMethod": "pdf-body-spans-native-order",
+      "evidenceSha256": "34da98d590433645c0067cfbafdb351354e8ead4c4a63da18badb9b7f4c11138",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-003",
+      "status": "approved-after-correction",
+      "source": {
+        "sourceId": "at",
+        "page": 50,
+        "bookId": "exodo",
+        "bookName": "Êxodo",
+        "chapter": 3,
+        "verseStart": 4,
+        "verseEnd": 4
+      },
+      "correctAnswer": "Moisés",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "0e39016151a1e7f51f63f77f5d65e4351a5d1fc3c1835f8629c8709856a47a18",
+      "correctedFields": [
+        "explanation"
+      ],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-004",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 60,
+        "bookId": "exodo",
+        "bookName": "Êxodo",
+        "chapter": 14,
+        "verseStart": 21,
+        "verseEnd": 21
+      },
+      "correctAnswer": "Elas se dividiram, deixando terra seca",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "e9f2ef60da7f85f73cd18efbb3a25bb60c5024d9b10adf062a9e558e5834990b",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-005",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 98,
+        "bookId": "levitico",
+        "bookName": "Levítico",
+        "chapter": 19,
+        "verseStart": 18,
+        "verseEnd": 18
+      },
+      "correctAnswer": "Como a si mesma",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "6568bcdddd854b45c1d2d8aa6a561879ca6d591b72d34e86fc6de52011f6539e",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-006",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 122,
+        "bookId": "numeros",
+        "bookName": "Números",
+        "chapter": 13,
+        "verseStart": 23,
+        "verseEnd": 23
+      },
+      "correctAnswer": "Uvas",
+      "directPdfEvidenceMethod": "pdf-body-spans-native-order",
+      "evidenceSha256": "4cde0071a6b5786a4916c20005b02ddb0d4a2b74956acd254b11eb2c20c0cc08",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-007",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 153,
+        "bookId": "deuteronomio",
+        "bookName": "Deuteronômio",
+        "chapter": 6,
+        "verseStart": 5,
+        "verseEnd": 5
+      },
+      "correctAnswer": "Coração, alma e forças",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "df67fae02d9e3ffb1ae787a58cba49862481bd2b87002a3423cf458571e434b9",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-008",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 184,
+        "bookId": "josue",
+        "bookName": "Josué",
+        "chapter": 6,
+        "verseStart": 20,
+        "verseEnd": 20
+      },
+      "correctAnswer": "O muro caiu",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "47cbb14cd2ef0a9a85a7db133d22ed16f57e60e1cff87728ee1c1491802f8d5d",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-009",
+      "status": "approved-after-correction",
+      "source": {
+        "sourceId": "at",
+        "page": 207,
+        "bookId": "juizes",
+        "bookName": "Juízes",
+        "chapter": 6,
+        "verseStart": 11,
+        "verseEnd": 12
+      },
+      "correctAnswer": "Gideão",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "9059e7117fae244983021e5c8c582a77cdd436d2d9d616c95339646b7c9991e0",
+      "correctedFields": [
+        "evidence"
+      ],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-010",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 223,
+        "bookId": "rute",
+        "bookName": "Rute",
+        "chapter": 1,
+        "verseStart": 15,
+        "verseEnd": 16
+      },
+      "correctAnswer": "Rute",
+      "directPdfEvidenceMethod": "pdf-body-spans-native-order",
+      "evidenceSha256": "ae582bfc242b4b366697d2a18dabda4960b907e191bade808bd3699eceb757a6",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-011",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 242,
+        "bookId": "1-samuel",
+        "bookName": "1 Samuel",
+        "chapter": 17,
+        "verseStart": 39,
+        "verseEnd": 40
+      },
+      "correctAnswer": "Cinco",
+      "directPdfEvidenceMethod": "pdf-body-spans-native-order",
+      "evidenceSha256": "b70612b611a262b48fc6792e729a5056f45997efe20a8c6ac09891f7c35b09f8",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-012",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 260,
+        "bookId": "2-samuel",
+        "bookName": "2 Samuel",
+        "chapter": 6,
+        "verseStart": 14,
+        "verseEnd": 14
+      },
+      "correctAnswer": "Dançando com todas as suas forças",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "afc0d19d9ea12411939c430ae879c2409bbf6fd41962090bff6662d337cf11ea",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-013",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 285,
+        "bookId": "1-reis",
+        "bookName": "1 Reis",
+        "chapter": 3,
+        "verseStart": 9,
+        "verseEnd": 9
+      },
+      "correctAnswer": "Discernir entre o bem e o mal",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "c877e8c02c6b271e6b7738067a6f739b3a38dc4bccacb053745896980b51846b",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-014",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 312,
+        "bookId": "2-reis",
+        "bookName": "2 Reis",
+        "chapter": 5,
+        "verseStart": 14,
+        "verseEnd": 15
+      },
+      "correctAnswer": "Jordão",
+      "directPdfEvidenceMethod": "pdf-body-spans-native-order",
+      "evidenceSha256": "48297c7b5600dd893761353ccd9667fce3902e4f027862be4674b7b5d7859b1d",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-015",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 356,
+        "bookId": "1-cronicas",
+        "bookName": "1 Crônicas",
+        "chapter": 16,
+        "verseStart": 34,
+        "verseEnd": 34
+      },
+      "correctAnswer": "Ele é bom, e seu amor dura para sempre",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "8991bc47ebd7be7306f13bd34d3d58a6d217772826ccb5b6b51665e6b31b012a",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-016",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 403,
+        "bookId": "esdras",
+        "bookName": "Esdras",
+        "chapter": 3,
+        "verseStart": 11,
+        "verseEnd": 11
+      },
+      "correctAnswer": "Porque os alicerces do templo haviam sido lançados",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "5eb6252badecd57b7788568a81607306ab7382c07a4aa3223c92032c4caaaa6a",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-017",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 413,
+        "bookId": "neemias",
+        "bookName": "Neemias",
+        "chapter": 2,
+        "verseStart": 18,
+        "verseEnd": 18
+      },
+      "correctAnswer": "Decidiram começar e se encheram de coragem",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "3d6d54e8620a53741bfa3e01c752b54700bbfc58df6e58c257219c721314c75d",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-018",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 429,
+        "bookId": "ester",
+        "bookName": "Ester",
+        "chapter": 4,
+        "verseStart": 15,
+        "verseEnd": 16
+      },
+      "correctAnswer": "Três dias e três noites",
+      "directPdfEvidenceMethod": "pdf-body-spans-native-order",
+      "evidenceSha256": "d8967c78d4beb678f0bd41869aa2fe3b76d17874c707c6672aa7eb9f53179f99",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-019",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 519,
+        "bookId": "salmos",
+        "bookName": "Salmos",
+        "chapter": 23,
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      "correctAnswer": "A um pastor",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "0d46b6b77ea18cb63af224837a8dd82e3bd89ee80a69d1c570557a9461b8e819",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-020",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 1057,
+        "bookId": "jonas",
+        "bookName": "Jonas",
+        "chapter": 1,
+        "verseStart": 17,
+        "verseEnd": 17
+      },
+      "correctAnswer": "Um grande peixe",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "87887b04ba4ff91e5ff79949ba49d0de1d81a7fe6a3b22c541fe5e5c144d5d03",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-021",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 37,
+        "bookId": "genesis",
+        "bookName": "Gênesis",
+        "chapter": 41,
+        "verseStart": 29,
+        "verseEnd": 30
+      },
+      "correctAnswer": "Sete de fartura, seguidos de sete de fome",
+      "directPdfEvidenceMethod": "pdf-body-spans-native-order",
+      "evidenceSha256": "3344c9adb57f15edc8738448530b82441a0f31ee53c3ef89e298174d39562339",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-022",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 63,
+        "bookId": "exodo",
+        "bookName": "Êxodo",
+        "chapter": 16,
+        "verseStart": 31,
+        "verseEnd": 31
+      },
+      "correctAnswer": "Era branco e tinha gosto de bolo de mel",
+      "directPdfEvidenceMethod": "native-text-visual-order",
+      "evidenceSha256": "b52439b39792ea1ced516188d397364f13993f065b4387854ca2f57ce68babe5",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-023",
+      "status": "approved-after-correction",
+      "source": {
+        "sourceId": "at",
+        "page": 114,
+        "bookId": "numeros",
+        "bookName": "Números",
+        "chapter": 6,
+        "verseStart": 24,
+        "verseEnd": 26
+      },
+      "correctAnswer": "Que o Senhor conceda paz",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "3b24d992c5deecad0d8c484dbb89501a44c398d20c623b310cf4979b93c1b244",
+      "correctedFields": [
+        "evidence"
+      ],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-024",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 155,
+        "bookId": "deuteronomio",
+        "bookName": "Deuteronômio",
+        "chapter": 8,
+        "verseStart": 3,
+        "verseEnd": 3
+      },
+      "correctAnswer": "De toda palavra que procede da boca do Senhor",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "b102f2418344fa4f275d60390be085f28c4694e1176b532f37bc63ccc6d66438",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-025",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 199,
+        "bookId": "josue",
+        "bookName": "Josué",
+        "chapter": 24,
+        "verseStart": 15,
+        "verseEnd": 15
+      },
+      "correctAnswer": "Ele e sua família serviriam ao Senhor",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "e661e6462e12d69220d92c8be77f832c179e9d0524bbad5cddd8b1f960c84e22",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-026",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 203,
+        "bookId": "juizes",
+        "bookName": "Juízes",
+        "chapter": 4,
+        "verseStart": 4,
+        "verseEnd": 5
+      },
+      "correctAnswer": "Para que ela decidisse suas questões",
+      "directPdfEvidenceMethod": "pdf-body-spans-native-order",
+      "evidenceSha256": "4020f05b6f14b5c5aa2cec5e90df53ff1a3714c2dd5498313c30b53152393f93",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-027",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 224,
+        "bookId": "rute",
+        "bookName": "Rute",
+        "chapter": 2,
+        "verseStart": 8,
+        "verseEnd": 9
+      },
+      "correctAnswer": "Ela deveria ficar com suas servas, e os rapazes seriam orientados a não tocá-la",
+      "directPdfEvidenceMethod": "pdf-body-spans-native-order",
+      "evidenceSha256": "a1de55009abb27afe699e7dcb62a0780e243a9e7829398f79fd2283ab9bd8153",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-028",
+      "status": "approved-after-correction",
+      "source": {
+        "sourceId": "at",
+        "page": 230,
+        "bookId": "1-samuel",
+        "bookName": "1 Samuel",
+        "chapter": 3,
+        "verseStart": 9,
+        "verseEnd": 10
+      },
+      "correctAnswer": "Disponibilidade para ouvir como servo",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "3fad1b9aeea3ba965e84b06749af1194dfb88da5fb9839d1d25e51591a4fad6a",
+      "correctedFields": [
+        "evidence"
+      ],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-029",
+      "status": "approved-after-correction",
+      "source": {
+        "sourceId": "at",
+        "page": 303,
+        "bookId": "1-reis",
+        "bookName": "1 Reis",
+        "chapter": 19,
+        "verseStart": 11,
+        "verseEnd": 12
+      },
+      "correctAnswer": "O murmúrio de uma brisa suave",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "dc25f6d07a5c31a468fcbfa0d04172520f27fc324fe4e43f0d0053da8bf6a929",
+      "correctedFields": [
+        "evidence"
+      ],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-030",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 329,
+        "bookId": "2-reis",
+        "bookName": "2 Reis",
+        "chapter": 22,
+        "verseStart": 8,
+        "verseEnd": 8
+      },
+      "correctAnswer": "O Livro da Lei",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "96377c38ed2b7963d82b82310342d9dfe321c0da18664daf237e0a369cf4afb2",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-031",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 385,
+        "bookId": "2-cronicas",
+        "bookName": "2 Crônicas",
+        "chapter": 20,
+        "verseStart": 21,
+        "verseEnd": 21
+      },
+      "correctAnswer": "À frente do exército",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "c87aa878f4b42dffc0d51de74e2bbe91bb43d1e7fd3a75a931694aab3f9d3452",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-032",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 406,
+        "bookId": "esdras",
+        "bookName": "Esdras",
+        "chapter": 7,
+        "verseStart": 10,
+        "verseEnd": 10
+      },
+      "correctAnswer": "Estudar, praticar e ensinar",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "fe9ef5194b637e8dc7ca9c48d43ee4e821b81f8a166539ac00a6efb402c8e528",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-033",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 419,
+        "bookId": "neemias",
+        "bookName": "Neemias",
+        "chapter": 8,
+        "verseStart": 8,
+        "verseEnd": 8
+      },
+      "correctAnswer": "O texto foi interpretado e explicado",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "3fcccf43ab57875707b2b751a3fbcd4ec7fd9c07b58f24b3f0e4a15470bd0e95",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-034",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 434,
+        "bookId": "jo",
+        "bookName": "Jó",
+        "chapter": 2,
+        "verseStart": 11,
+        "verseEnd": 11
+      },
+      "correctAnswer": "Mostrar solidariedade e consolá-lo",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "d4c9d7610bd85626de2051b7c652502c6dcd3f8aebb967c35e39bc6146010510",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-035",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 672,
+        "bookId": "proverbios",
+        "bookName": "Provérbios",
+        "chapter": 15,
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      "correctAnswer": "A calma desvia a fúria; a rispidez desperta a ira",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "ffd98c94e005fbcb8285abb692bfe147e58d6a7b3b33262c5d8ae1a583fe957c",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-036",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 709,
+        "bookId": "eclesiastes",
+        "bookName": "Eclesiastes",
+        "chapter": 3,
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      "correctAnswer": "Há uma ocasião certa para cada propósito",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "83a04d35adfc4df4fd8465b10303213f6c596309671822ee353f998c7a9953a3",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-037",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 732,
+        "bookId": "cantico-dos-canticos",
+        "bookName": "Cântico dos Cânticos",
+        "chapter": 8,
+        "verseStart": 7,
+        "verseEnd": 7
+      },
+      "correctAnswer": "As águas não o apagam, e as riquezas não o compram",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "0f9e9535643050e4fdadac9d6efd277874ae74244e29ab09255ab27263a3abea",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-038",
+      "status": "approved-after-correction",
+      "source": {
+        "sourceId": "at",
+        "page": 743,
+        "bookId": "isaias",
+        "bookName": "Isaías",
+        "chapter": 6,
+        "verseStart": 8,
+        "verseEnd": 8
+      },
+      "correctAnswer": "Ofereceu-se para ser enviado",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "1dd06de4864a55c8436d6b51b2f0cdb6510444d0cf42aa012bbd9456eb896235",
+      "correctedFields": [
+        "explanation"
+      ],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-039",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 885,
+        "bookId": "jeremias",
+        "bookName": "Jeremias",
+        "chapter": 18,
+        "verseStart": 6,
+        "verseEnd": 6
+      },
+      "correctAnswer": "O barro nas mãos do oleiro",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "8a86c9631bd7f37753cb3967d98fef6ac959246f8573342a4a55f9d114b4b553",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-040",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 1008,
+        "bookId": "daniel",
+        "bookName": "Daniel",
+        "chapter": 6,
+        "verseStart": 10,
+        "verseEnd": 10
+      },
+      "correctAnswer": "Ajoelhar-se e orar três vezes ao dia",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "cc981fe876f1a2a0ff00f36386b6b6fd4784d645011f1b472ef86bf20befa055",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-041",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 104,
+        "bookId": "levitico",
+        "bookName": "Levítico",
+        "chapter": 25,
+        "verseStart": 10,
+        "verseEnd": 10
+      },
+      "correctAnswer": "No quinquagésimo ano, cada um retornaria à propriedade da família e ao clã",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "687d019f4148761d25b92764994e3f59e9bf9018d225294f46dc937de2b7b518",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-042",
+      "status": "approved-after-correction",
+      "source": {
+        "sourceId": "at",
+        "page": 138,
+        "bookId": "numeros",
+        "bookName": "Números",
+        "chapter": 27,
+        "verseStart": 1,
+        "verseEnd": 4
+      },
+      "correctAnswer": "Receber propriedade entre os parentes do pai",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "f790aa1319c6d751504a41d2ddf980ee9442c6202b5fa33ef2f9d8dc4f30b6a5",
+      "correctedFields": [
+        "evidence"
+      ],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-043",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 164,
+        "bookId": "deuteronomio",
+        "bookName": "Deuteronômio",
+        "chapter": 22,
+        "verseStart": 8,
+        "verseEnd": 8
+      },
+      "correctAnswer": "Fazer um parapeito ao redor do terraço",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "f3e43101d8921c602f29c809620f5a2ea8405963c6d63ec8183178be885d5808",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-044",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 339,
+        "bookId": "1-cronicas",
+        "bookName": "1 Crônicas",
+        "chapter": 4,
+        "verseStart": 9,
+        "verseEnd": 10
+      },
+      "correctAnswer": "Que a mão de Deus estivesse com ele e o guardasse de males e dores",
+      "directPdfEvidenceMethod": "pdf-body-spans-native-order",
+      "evidenceSha256": "b3c3ca237bd616decd0d9f6a98a3f876a04d38a856bc22338eed0eba5da170b9",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-045",
+      "status": "approved-after-correction",
+      "source": {
+        "sourceId": "at",
+        "page": 499,
+        "bookId": "jo",
+        "bookName": "Jó",
+        "chapter": 42,
+        "verseStart": 10,
+        "verseEnd": 10
+      },
+      "correctAnswer": "Jó orou por seus amigos",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "cc6250bb5b09c3230627a6b462c981dfe134281ea4c203e5e5a2d59ec58c6247",
+      "correctedFields": [
+        "prompt"
+      ],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-046",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 704,
+        "bookId": "proverbios",
+        "bookName": "Provérbios",
+        "chapter": 30,
+        "verseStart": 24,
+        "verseEnd": 28
+      },
+      "correctAnswer": "Os gafanhotos",
+      "directPdfEvidenceMethod": "pdf-body-spans-native-order",
+      "evidenceSha256": "4de12d4763f180c9a1c2da62ce2f52041b726741d62a355ac4fcf71b32fbeda9",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-047",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 720,
+        "bookId": "eclesiastes",
+        "bookName": "Eclesiastes",
+        "chapter": 11,
+        "verseStart": 4,
+        "verseEnd": 4
+      },
+      "correctAnswer": "Plantar e colher",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "0d75d1b35a0d1b315b339571e33263144494c5b446498a762221567b3bac7ff2",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-048",
+      "status": "approved-after-correction",
+      "source": {
+        "sourceId": "at",
+        "page": 947,
+        "bookId": "lamentacoes",
+        "bookName": "Lamentações",
+        "chapter": 3,
+        "verseStart": 22,
+        "verseEnd": 23
+      },
+      "correctAnswer": "As misericórdias do Senhor",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "a2ec0a5de1a9b0527ef94b8ab8167490c934a73dfb836984a0e047730e44cf97",
+      "correctedFields": [
+        "evidence"
+      ],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-049",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 999,
+        "bookId": "ezequiel",
+        "bookName": "Ezequiel",
+        "chapter": 47,
+        "verseStart": 12,
+        "verseEnd": 12
+      },
+      "correctAnswer": "A água vem do santuário, e as folhas servem de remédio",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "24fae3fc1119a8fd29736858ab89d8dfb7f989b86c502595e98ca653b16e2bc5",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-050",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 1022,
+        "bookId": "oseias",
+        "bookName": "Oséias",
+        "chapter": 6,
+        "verseStart": 6,
+        "verseEnd": 6,
+        "pages": [
+          1022,
+          1023
+        ]
+      },
+      "correctAnswer": "Misericórdia e conhecimento de Deus",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "0e5ca83dfbb200da10df23d7210ee94a105234be560d78bb9975c4ec977feced",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-051",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 1039,
+        "bookId": "joel",
+        "bookName": "Joel",
+        "chapter": 2,
+        "verseStart": 28,
+        "verseEnd": 28
+      },
+      "correctAnswer": "Filhos e filhas profetizam, velhos sonham e jovens têm visões",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "566d80bcec25c4615b849b6b43801576e89836110b92fa03724c3df5cac0e745",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-052",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 1051,
+        "bookId": "amos",
+        "bookName": "Amós",
+        "chapter": 7,
+        "verseStart": 14,
+        "verseEnd": 14
+      },
+      "correctAnswer": "Cuidar do gado e colher figos silvestres",
+      "directPdfEvidenceMethod": "pdf-body-spans-native-order",
+      "evidenceSha256": "fe7aea7694a9da09edf15f13db982ccd72a37114dc4381b8ce58ca108f77f320",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-053",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 1055,
+        "bookId": "obadias",
+        "bookName": "Obadias",
+        "chapter": 1,
+        "verseStart": 3,
+        "verseEnd": 3
+      },
+      "correctAnswer": "Achar que uma morada nas alturas tornava impossível ser derrubado",
+      "directPdfEvidenceMethod": "pdf-body-spans-native-order",
+      "evidenceSha256": "c633dde4a2fdac2562bf930b88d483056792740224ed9ddb26efe1f2d733d2d9",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-054",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 1067,
+        "bookId": "miqueias",
+        "bookName": "Miquéias",
+        "chapter": 6,
+        "verseStart": 8,
+        "verseEnd": 8
+      },
+      "correctAnswer": "Praticar a justiça, amar a fidelidade e andar humildemente com Deus",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "ad0539989260bdacebcecf3513010c2e99af9413163b06c33dd52b42642aac11",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-055",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 1070,
+        "bookId": "naum",
+        "bookName": "Naum",
+        "chapter": 1,
+        "verseStart": 7,
+        "verseEnd": 7
+      },
+      "correctAnswer": "Ele é refúgio e protege os que nele confiam",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "9f9fa078bd8d9c582c2ab6139ecddf7d019a6ed92417576bed36b70e62dc9ca6",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-056",
+      "status": "approved-after-correction",
+      "source": {
+        "sourceId": "at",
+        "page": 1078,
+        "bookId": "habacuque",
+        "bookName": "Habacuque",
+        "chapter": 3,
+        "verseStart": 17,
+        "verseEnd": 18
+      },
+      "correctAnswer": "Mesmo sem produção e sem rebanhos, ele se alegraria no Deus da sua salvação",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "f45379f43f63a5784a631d8e36bd2545d1f058e2e6fd1ae470d68dce884c28bd",
+      "correctedFields": [
+        "evidence"
+      ],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-057",
+      "status": "approved-after-correction",
+      "source": {
+        "sourceId": "at",
+        "page": 1083,
+        "bookId": "sofonias",
+        "bookName": "Sofonias",
+        "chapter": 3,
+        "verseStart": 17,
+        "verseEnd": 17
+      },
+      "correctAnswer": "Ele o renova com amor e se alegra com brados de alegria",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "a7dc16f52e7b199dcab8c5c9fc7729f6da899334351d95bc7b4dfdfc65db3b87",
+      "correctedFields": [
+        "evidence"
+      ],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-058",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 1084,
+        "bookId": "ageu",
+        "bookName": "Ageu",
+        "chapter": 1,
+        "verseStart": 4,
+        "verseEnd": 4
+      },
+      "correctAnswer": "As casas do povo tinham fino acabamento, mas a casa do Senhor continuava destruída",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "bd2e1a1a40ffd97aad40cfd3128e1573af7e8dafa95cca20cfc1c5dc2f35f2d7",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-059",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 1087,
+        "bookId": "zacarias",
+        "bookName": "Zacarias",
+        "chapter": 4,
+        "verseStart": 6,
+        "verseEnd": 6
+      },
+      "correctAnswer": "O Espírito do Senhor",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "efaaa2e38ed32f8ba1b99da35fc0a96f57757a535cd769eea4c213f654505c79",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    },
+    {
+      "id": "biblia-at-060",
+      "status": "approved",
+      "source": {
+        "sourceId": "at",
+        "page": 1098,
+        "bookId": "malaquias",
+        "bookName": "Malaquias",
+        "chapter": 4,
+        "verseStart": 6,
+        "verseEnd": 6
+      },
+      "correctAnswer": "Os corações dos pais se voltariam aos filhos, e os dos filhos aos pais",
+      "directPdfEvidenceMethod": "native-text",
+      "evidenceSha256": "2e0e04f850202d95496682a9b25c6aeb52b59900b5b34b25f5d1c570cc83a731",
+      "correctedFields": [],
+      "semanticReview": "Question, unique correct choice and every explanation statement checked against the cited passage; no outside source used."
+    }
+  ]
+}

@@ -25,10 +25,10 @@ const fixtures = {
   passages: [{ id: 'p1', bookId: 'joao', bookName: 'João', chapter: 3, verseStart: 16, verseEnd: 16, text: 'Porque Deus tanto amou o mundo.' }],
 };
 
-async function fixture(t, extra = {}) {
+async function fixture(t, extra = {}, contentOverrides = {}) {
   const directory = mkdtempSync(path.join(tmpdir(), 'vereda-api-'));
   mkdirSync(path.join(directory, 'source-pdfs'));
-  for (const [file, value] of Object.entries(fixtures)) writeFileSync(path.join(directory, `${file}.json`), JSON.stringify(value));
+  for (const [file, value] of Object.entries({ ...fixtures, ...contentOverrides })) writeFileSync(path.join(directory, `${file}.json`), JSON.stringify(value));
   writeFileSync(path.join(directory, 'source-pdfs', 'study-1.pdf'), '%PDF-1.4\n% fixture');
   const dbPath = path.join(directory, 'state.sqlite');
   const app = await createApp({ dataDir: directory, dbPath, distDir: path.join(directory, 'no-dist'), rateLimitEnabled: false, logger: { error() {} }, ...extra });
@@ -59,6 +59,47 @@ async function register(request, email = 'leitor@example.test') {
   assert.ok(response.cookie);
   return response;
 }
+
+test('quizzes bíblicos sincronizam resultados e versões antigas mantêm seu próprio gabarito', async t => {
+  const original = fixtures.studies.quizzes[0];
+  const oldQuestion = original.questions[0];
+  const current = { ...original, revision: 2,
+    questions: [oldQuestion, { ...oldQuestion, id: 'q2', answerIndex: 1 }, { ...oldQuestion, id: 'q3' }],
+    previousVersions: [{ revision: 1, questions: [oldQuestion] }],
+  };
+  const bibleQuiz = { id: 'quiz-biblia-teste', category: 'bible', revision: 1, difficulty: 'easy', title: 'Quiz da Bíblia',
+    questions: [{ ...oldQuestion, id: 'b1', answerIndex: 1 }, { ...oldQuestion, id: 'b2' }],
+  };
+  const { request } = await fixture(t, {}, {
+    studies: { ...fixtures.studies, quizzes: [current] },
+    'bible-quizzes': [bibleQuiz],
+  });
+  const catalog = await request('/api/catalog');
+  assert.equal(catalog.data.bibleQuizzes[0].id, bibleQuiz.id);
+  const account = await register(request);
+  const common = { createdAt: '2026-10-28T12:00:00Z' };
+  const attempts = [
+    { ...common, id: 'old-client-attempt', quizId: original.id, total: 1, score: 1, answers: [0] },
+    { ...common, id: 'current-attempt', quizId: original.id, quizRevision: 2, total: 3, score: 3, answers: [0, 1, 0] },
+    { ...common, id: 'bible-attempt', quizId: bibleQuiz.id, quizRevision: 1, total: 2, score: 2, answers: [1, 0] },
+  ];
+  const saved = await request('/api/state', { method: 'PATCH', cookie: account.cookie, body: { quizAttempts: attempts } });
+  assert.equal(saved.status, 200);
+  assert.deepEqual(saved.data.state.quizAttempts.map(attempt => attempt.quizRevision), [1, 2, 1]);
+  assert.deepEqual(saved.data.state.quizAttempts[0].answers, [0]);
+  for (const invalid of [
+    { ...attempts[1], quizRevision: 1 },
+    { ...attempts[0], quizRevision: 2 },
+    { ...attempts[2], answers: [0, 0] },
+    { ...attempts[2], quizRevision: 99 },
+  ]) {
+    const rejected = await request('/api/state', { method: 'PATCH', cookie: account.cookie, body: { quizAttempts: [{ ...invalid, id: 'invalid-revision-attempt' }] } });
+    assert.equal(rejected.status, 400);
+  }
+  const retained = await request('/api/state', { cookie: account.cookie });
+  assert.equal(retained.data.state.quizAttempts.length, 3);
+  assert.deepEqual(retained.data.state.quizAttempts.map(attempt => attempt.total), [1, 3, 2]);
+});
 
 test('conteúdo público, capítulos, pesquisa com acentos e fontes ficam acessíveis sem conta', async t => {
   const { request } = await fixture(t);

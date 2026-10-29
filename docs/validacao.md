@@ -35,6 +35,10 @@ Essas consultas públicas não comprovam cadastro, login, sincronização entre 
 
 ## Apresentação e acessibilidade
 
+Expansão dos quizzes e navegação em 28/10/2026: **39 testes Node e 27 testes de navegador passaram**, sem ignorados. A Bíblia tem 120 perguntas (40 por nível) em doze rodadas; os estudos têm 112 perguntas em quatorze quizzes. Todas as 232 questões passaram por conferência literal diretamente nos PDFs e revisão editorial independente de pergunta, alternativas, gabarito e explicação. Os relatórios versionados e seus hashes correspondem aos bancos publicados. Foram corrigidas inferências de redação, um enunciado que remetia ao contexto da página anterior e evidências interrompidas por marcadores ou notas de PDF; não houve substituição por correspondência aproximada.
+
+As passagens que atravessam páginas mostram a lista completa e links para as páginas seguintes, inclusive em áudio. Tentativas antigas de duas perguntas mantêm suas perguntas/gabaritos originais, enquanto as novas registram revisão 2; sincronização valida cada versão separadamente. No celular, a seleção de categoria, trilha ou nível revela e foca o cabeçalho dos resultados, com contexto e quantidade; “Ver filtros” e “Trocar trilha” oferecem retorno explícito. Busca por digitação mantém o foco. Após ajustes finais de posicionamento, os dois testes de navegação foram repetidos com sucesso. O fluxo também cobre fonte, temas, teclado, histórico, referências e ausência de rolagem horizontal. Veja [quizzes.md](quizzes.md).
+
 Atualização solicitada em 28/10/2026: **34 testes Node e 20 testes de navegador passaram**, sem ignorados. As onze figuras que aguardavam transcrição agora mostram somente o recorte original sanitizado, identificado como original, com ampliação, teclado e cores preservadas nos dois temas. São 153 figuras (142 recriadas e 11 originais), em 128 seções, com 295 assets únicos; não há imagens de páginas inteiras. Os hashes dos 295 arquivos compilados coincidiram com a auditoria.
 
 As cinquenta passagens foram conferidas diretamente nos PDFs AT/NT, incluindo a ordem das linhas e os versículos que atravessam páginas, sem usar o JSON bíblico como prova. Texto e referências estavam corretos; dezenove links abriam na primeira página do capítulo, e agora apontam para a página do versículo focalizado. Salmos 119:105 abre na página 623. Trocas entre todas as cinquenta passagens, retorno circular, 101 cliques rápidos, persistência da seleção ao abrir a Bíblia/recarregar e interrupção do áudio anterior passaram nos testes. Texto, referência, versão e fonte aparecem juntos.
@@ -54,7 +58,7 @@ A saída de áudio não foi validada auditivamente. As vozes disponíveis depend
 ## Conteúdo e limites conhecidos
 
 - Bíblia: 66 livros, 1.189 capítulos e 50 passagens selecionadas dos versículos importados.
-- Estudos: 5 trilhas livres, 33 assuntos, 17 resumos simplificados e 14 quizzes com 28 perguntas.
+- Estudos: 5 trilhas livres, 33 assuntos e 17 resumos simplificados. Na ampliação, os 14 quizzes passaram a ter 112 perguntas; a seção Bíblia acrescentou 120 perguntas em três níveis. As versões anteriores de duas perguntas permanecem no histórico.
 - Das 248 seções de estudos, 238 possuem texto legível no site; 82 usam OCR com aviso de conversão automática.
 - Dez páginas permanecem sinalizadas para revisão: Parte 1, página 8; Parte 2, páginas 7, 57, 59, 74 e 84; “Os 4 Evangelhos”, páginas 1 a 4. Os trechos duvidosos não são narrados como texto confirmado nem utilizados em gabaritos; os PDFs de consulta permanecem acessíveis.
 - Não foi realizada revisão editorial integral, versículo a versículo ou página a página, de todo o conteúdo.

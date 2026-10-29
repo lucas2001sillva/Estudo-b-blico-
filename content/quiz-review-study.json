@@ -1,0 +1,1732 @@
+{
+  "status": "approved",
+  "reviewed": 112,
+  "sources": [
+    {
+      "id": "study-1",
+      "file": "study-1.pdf",
+      "sha256": "0d8e3ddd6dea6dfc0adcc6e96798b6da924991b92e26867ac104879a28c526e8"
+    },
+    {
+      "id": "study-3",
+      "file": "study-3.pdf",
+      "sha256": "06786a9fdbb5ff794ad3f8807ddda7d36edff8549ad2b51ca5f7ea5004215e60"
+    },
+    {
+      "id": "study-4",
+      "file": "study-4.pdf",
+      "sha256": "56836b86b447a58645fc886430267c7963d165652ed4ec53dbaec456037ed59b"
+    }
+  ],
+  "method": "Independent editorial review of each prompt, the four alternatives, selected answer and every explanation claim against the complete native text of the exact supplied PDF page. First64 reviewed by audit_study_final; second48 independently reviewed by review_second_readonly. Literal evidence confirmed directly in PDF text, without external sources.",
+  "questionBanks": [
+    {
+      "file": "quiz-study-first.json",
+      "sha256": "043ceffbf224ed8fd212b9769651d8ce55da3d0dbc0430b835cdd124c79dfabb"
+    },
+    {
+      "file": "quiz-study-second.json",
+      "sha256": "5c045cd375d11e73f44c0bd1eb5f43b863f187400dc8e91f5ba0477544760aef"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "organizacao-04",
+      "kind": "evidence",
+      "detail": "Expanded short evidence to the literal Evangelhos list followed by Histórico/Atos on the same page; answer and source unchanged."
+    },
+    {
+      "id": "interbiblico-02",
+      "kind": "source-precision",
+      "detail": "Removed the common-language preface, discussed on page65, so the prompt uses only the Roman-roads context on cited page66; choices, answer and source unchanged."
+    },
+    {
+      "id": "vida-01",
+      "kind": "naturalidade",
+      "detail": "Question now starts with Por que to fit the existing four Para alternatives, preserving meaning, answer and source."
+    }
+  ],
+  "findings": [],
+  "results": [
+    {
+      "id": "intro-01",
+      "sourceId": "study-1",
+      "page": 2,
+      "answer": "Oferecer uma visão geral das Escrituras",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "d5e826eeb3503e374a77e825b38556a94853f5219c5bbe79d207b6128a68673c",
+      "questionSha256": "54d84c590007a6e83d869d0840c16fbd30c18aceb822ef2752905c9e4d94c06a"
+    },
+    {
+      "id": "intro-02",
+      "sourceId": "study-1",
+      "page": 3,
+      "answer": "Livros",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "ced4e9d17619195e953d6ebd43b41da2ea0b42eaab99dc9bcc282365997ec804",
+      "questionSha256": "1f3cb90c36d770f366590fd8c9d1f898882bf6839c9d20f5622c5575d7565d8c"
+    },
+    {
+      "id": "intro-03",
+      "sourceId": "study-1",
+      "page": 2,
+      "answer": "A relação de Deus com o ser humano",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "d5e826eeb3503e374a77e825b38556a94853f5219c5bbe79d207b6128a68673c",
+      "questionSha256": "d735c641b1d36162bef641999d714948c34ba63fbffc64127133a428cbfaf001"
+    },
+    {
+      "id": "intro-04",
+      "sourceId": "study-1",
+      "page": 3,
+      "answer": "Antigo Testamento e Novo Testamento",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "ced4e9d17619195e953d6ebd43b41da2ea0b42eaab99dc9bcc282365997ec804",
+      "questionSha256": "5f914ac8817812d31e07cb6470a01801648e7e32f744f10b86fc636a84784241"
+    },
+    {
+      "id": "intro-05",
+      "sourceId": "study-1",
+      "page": 3,
+      "answer": "O cumprimento das promessas na vida, morte e ressurreição de Jesus",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "ced4e9d17619195e953d6ebd43b41da2ea0b42eaab99dc9bcc282365997ec804",
+      "questionSha256": "f0dd05fc398214fc8f0ea7d5647b53fcfcab7e1b5e5c0409e917d351b836984e"
+    },
+    {
+      "id": "intro-06",
+      "sourceId": "study-1",
+      "page": 3,
+      "answer": "Uma diversidade de gêneros que orientam a fé e a conduta",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "ced4e9d17619195e953d6ebd43b41da2ea0b42eaab99dc9bcc282365997ec804",
+      "questionSha256": "da3931b8338c40a58883a555b7bd1f2d1f1e48b354015f12cf6730aa543cf7ad"
+    },
+    {
+      "id": "intro-07",
+      "sourceId": "study-1",
+      "page": 4,
+      "answer": "A mensagem de relacionamento com Deus e salvação por meio de Cristo",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "63ec75ebe0dff61f89005fc7e327abf05d272831d6599e7355e705ed72fd731d",
+      "questionSha256": "a77e593164b33f485f568117036521b88ed267242952d1af456a8429656cc069"
+    },
+    {
+      "id": "intro-08",
+      "sourceId": "study-1",
+      "page": 4,
+      "answer": "Ensinar justiça, compaixão e esperança, mostrando o caráter de Deus",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "63ec75ebe0dff61f89005fc7e327abf05d272831d6599e7355e705ed72fd731d",
+      "questionSha256": "f67373ba32c13530536754d6adf4f732ed6f11d77b78db876c63c59207d44022"
+    },
+    {
+      "id": "organizacao-01",
+      "sourceId": "study-1",
+      "page": 7,
+      "answer": "Hebraico",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "73be0d07e0753d9336a43fa67c62fe7b84e08253a98a62eab58b5aa2406aebae",
+      "questionSha256": "a9ed48f443aa41cd7f3304192b9a7382d38c25be50fcf775ceadbbe16cfbcc42"
+    },
+    {
+      "id": "organizacao-02",
+      "sourceId": "study-1",
+      "page": 7,
+      "answer": "Grego koiné",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "73be0d07e0753d9336a43fa67c62fe7b84e08253a98a62eab58b5aa2406aebae",
+      "questionSha256": "660e27a4972d88172a0e52b6e320246b0c3adb48c56008f4dc3cab15e3585aa1"
+    },
+    {
+      "id": "organizacao-03",
+      "sourceId": "study-1",
+      "page": 5,
+      "answer": "Gênesis, Êxodo, Levítico, Números e Deuteronômio",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "e1c5578dace3ddaa2df963e37eb5e58a0f4850d2dd5564cd54485d66744c9d9d",
+      "questionSha256": "69380e142f05245d2ce20fd07a905077c6dd0791cca9cf570294ce3f27dba4fe"
+    },
+    {
+      "id": "organizacao-04",
+      "sourceId": "study-1",
+      "page": 5,
+      "answer": "Atos",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "e1c5578dace3ddaa2df963e37eb5e58a0f4850d2dd5564cd54485d66744c9d9d",
+      "questionSha256": "d9a74bc93be5593a4c002a9cc02df1412cbf27e85275d634517f441a85fde35c"
+    },
+    {
+      "id": "organizacao-05",
+      "sourceId": "study-1",
+      "page": 5,
+      "answer": "Malaquias",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "e1c5578dace3ddaa2df963e37eb5e58a0f4850d2dd5564cd54485d66744c9d9d",
+      "questionSha256": "b403aa9e131aeb3829017ef31d17f4bc1ae262c9ef13563bee02891b5b4b85db"
+    },
+    {
+      "id": "organizacao-06",
+      "sourceId": "study-1",
+      "page": 5,
+      "answer": "Cartas de Paulo",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "e1c5578dace3ddaa2df963e37eb5e58a0f4850d2dd5564cd54485d66744c9d9d",
+      "questionSha256": "bff78abbaace236485156e4781ed06944e4b0ae4eaa32dd5cbfbffd8f64687c3"
+    },
+    {
+      "id": "organizacao-07",
+      "sourceId": "study-1",
+      "page": 7,
+      "answer": "O aramaico, uma língua semítica relacionada ao hebraico",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "73be0d07e0753d9336a43fa67c62fe7b84e08253a98a62eab58b5aa2406aebae",
+      "questionSha256": "0989a8385b4d8ebf91ec7f2f4a0f86342ae01b14bf8fef91927b67c057871eb7"
+    },
+    {
+      "id": "organizacao-08",
+      "sourceId": "study-1",
+      "page": 7,
+      "answer": "Para alcançar uma audiência maior com a língua comum da época",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "73be0d07e0753d9336a43fa67c62fe7b84e08253a98a62eab58b5aa2406aebae",
+      "questionSha256": "64d0330d21b9f27f0cf524047b8e9bc4bfb7cc56171b17cbefd1cde1ddbf62c4"
+    },
+    {
+      "id": "panorama-01",
+      "sourceId": "study-1",
+      "page": 12,
+      "answer": "Êxodo",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "2388283b69f28cddec2c46b04507119a716068da83d71a68a1350e8fb18e57f9",
+      "questionSha256": "7f5e49539c2f4604bf1ab9a18a1dd0fa6ce9a2a2bcd346ca47b35ee3c625a98b"
+    },
+    {
+      "id": "panorama-02",
+      "sourceId": "study-1",
+      "page": 15,
+      "answer": "Atos dos Apóstolos",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "5dd4351894759cb9410781075f12a2b71beb1bfbf77a5d7d92a241b1695c329b",
+      "questionSha256": "6f7396ec059df32761171d3b27b48dfb7542d3a79379b50cf7d0659a85878405"
+    },
+    {
+      "id": "panorama-03",
+      "sourceId": "study-1",
+      "page": 12,
+      "answer": "Gênesis",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "2388283b69f28cddec2c46b04507119a716068da83d71a68a1350e8fb18e57f9",
+      "questionSha256": "65e14edf8aa083f3cdf94a8a7aa4fa3c251e8db81741e4106d7ca6e7e1793e9a"
+    },
+    {
+      "id": "panorama-04",
+      "sourceId": "study-1",
+      "page": 12,
+      "answer": "Levítico",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "2388283b69f28cddec2c46b04507119a716068da83d71a68a1350e8fb18e57f9",
+      "questionSha256": "9f73d5bda1468cd9b86bfb6176572c1944b65c328b9066319336cf12fed3dce9"
+    },
+    {
+      "id": "panorama-05",
+      "sourceId": "study-1",
+      "page": 12,
+      "answer": "Deuteronômio",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "2388283b69f28cddec2c46b04507119a716068da83d71a68a1350e8fb18e57f9",
+      "questionSha256": "cca538414c7fe5ee46d7379bf5c17f75699e3b0d75ae6073c9f733417f8e97a1"
+    },
+    {
+      "id": "panorama-06",
+      "sourceId": "study-1",
+      "page": 13,
+      "answer": "Rute",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "2586841011ba092db6ee278badf21f465f2b45317c9619417f2b83a40cc4f646",
+      "questionSha256": "c70ec2cd1da8af211b6203c58a6e5cb589049801e6d2e9d9902d9e8e5b6c3972"
+    },
+    {
+      "id": "panorama-07",
+      "sourceId": "study-1",
+      "page": 13,
+      "answer": "A transição de Israel para a monarquia",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "2586841011ba092db6ee278badf21f465f2b45317c9619417f2b83a40cc4f646",
+      "questionSha256": "6b7f371d5662d36eda324621789e6c2eb225d1778afe05e1fd438e48bf5d412a"
+    },
+    {
+      "id": "panorama-08",
+      "sourceId": "study-1",
+      "page": 14,
+      "answer": "O sentido da vida e a necessidade de viver com propósito diante de Deus",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "90fd576360dd7bc6537fbb4bc9fc7f38fb74dcfd35dde1639d1cc08b55348403",
+      "questionSha256": "762c7dc737be3895e5c480c6905e3cd765a04f85d552726c1c71cde5fcf467fc"
+    },
+    {
+      "id": "hebreus-01",
+      "sourceId": "study-3",
+      "page": 1,
+      "answer": "Jacó, também chamado Israel",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "38aa48d6a2f28030537632f82a666f032e413d2c428f2e90813cc8d67a6546f9",
+      "questionSha256": "186901a6236dc1a74f264ff22f36c03f4293a2bfb436be32b1898d913e9678bf"
+    },
+    {
+      "id": "hebreus-02",
+      "sourceId": "study-3",
+      "page": 2,
+      "answer": "Abraão, Isaque e Jacó",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "5bebd33ae5cdae4c9d24ff21ceac716f74d286f7f197277bffd94f962114e305",
+      "questionSha256": "a40dc586f0ba2bf08417cb5888e4b037ed0e26cbcc83111989f8156c6fc57a4c"
+    },
+    {
+      "id": "hebreus-03",
+      "sourceId": "study-3",
+      "page": 1,
+      "answer": "À descendência de Sem",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "38aa48d6a2f28030537632f82a666f032e413d2c428f2e90813cc8d67a6546f9",
+      "questionSha256": "1113264f92faebc8b1f47cb78779cdfb8d41b797ac8b3c1f835922fa2a01a34e"
+    },
+    {
+      "id": "hebreus-04",
+      "sourceId": "study-3",
+      "page": 1,
+      "answer": "A crença em um único Deus",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "38aa48d6a2f28030537632f82a666f032e413d2c428f2e90813cc8d67a6546f9",
+      "questionSha256": "9584c046aba8a01df1210e9c643fc2256e0bd782da0aa36de799d681a1c04252"
+    },
+    {
+      "id": "hebreus-05",
+      "sourceId": "study-3",
+      "page": 2,
+      "answer": "Dos doze filhos de Jacó",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "5bebd33ae5cdae4c9d24ff21ceac716f74d286f7f197277bffd94f962114e305",
+      "questionSha256": "ef0074f35e31beeec119256670962bcc83d45cf4ff6b2cbf28392d0efdfaa61e"
+    },
+    {
+      "id": "hebreus-06",
+      "sourceId": "study-3",
+      "page": 2,
+      "answer": "Os edomitas",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "5bebd33ae5cdae4c9d24ff21ceac716f74d286f7f197277bffd94f962114e305",
+      "questionSha256": "72be6b2851cb774808e6960b90fa3677d8581c8025b1597168c2f2775631c6eb"
+    },
+    {
+      "id": "hebreus-07",
+      "sourceId": "study-3",
+      "page": 2,
+      "answer": "Seguir os jovens e anunciar uma carga ainda maior sobre o povo",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "5bebd33ae5cdae4c9d24ff21ceac716f74d286f7f197277bffd94f962114e305",
+      "questionSha256": "231c1c01177a70569bfc6e2d1062f4207ae364a3de33d870bfccbdea742bc75d"
+    },
+    {
+      "id": "hebreus-08",
+      "sourceId": "study-3",
+      "page": 2,
+      "answer": "Jesus era judeu, e seus seguidores foram denominados cristãos por reconhecê-lo como o Cristo",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "5bebd33ae5cdae4c9d24ff21ceac716f74d286f7f197277bffd94f962114e305",
+      "questionSha256": "ba319513544cebee6351253982909df42dfe3813146dac0cc810a6cae905315c"
+    },
+    {
+      "id": "historicos-01",
+      "sourceId": "study-3",
+      "page": 3,
+      "answer": "Eliseu",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "e53f541d71a0f916053915e06d2f25bcede85943fdb00406b4a060dbd89c93cd",
+      "questionSha256": "3375a2a59288b33a251bfe7f7c9680e78919c8f3686898703a4c5afce1cd44ba"
+    },
+    {
+      "id": "historicos-02",
+      "sourceId": "study-3",
+      "page": 11,
+      "answer": "Voltar a Jerusalém e reconstruir o Templo",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "663bfde28923184b48e1a3172fbba644142ba70a1a56a9f95e5a67cc14adc229",
+      "questionSha256": "37493dc22d22f7403dcc3fbbbb3743e712f2e1502fabcaa2d5f3146a8db39bcb"
+    },
+    {
+      "id": "historicos-03",
+      "sourceId": "study-3",
+      "page": 3,
+      "answer": "O Império Assírio",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "e53f541d71a0f916053915e06d2f25bcede85943fdb00406b4a060dbd89c93cd",
+      "questionSha256": "45b836ea82808cfaf8ad40ac65e4f0db4c99b429000d35e17c4712853cd7397a"
+    },
+    {
+      "id": "historicos-04",
+      "sourceId": "study-3",
+      "page": 3,
+      "answer": "Ezequias e Josias",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "e53f541d71a0f916053915e06d2f25bcede85943fdb00406b4a060dbd89c93cd",
+      "questionSha256": "89cdb8c143e6ab7b615597f39b597e60c3cb12715508f1a9af3b0938815719b7"
+    },
+    {
+      "id": "historicos-05",
+      "sourceId": "study-3",
+      "page": 11,
+      "answer": "Ensinar e aplicar a lei de Deus ao povo",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "663bfde28923184b48e1a3172fbba644142ba70a1a56a9f95e5a67cc14adc229",
+      "questionSha256": "2e6f291df2977d0f8acb8f077184f41b09aa6d372c9f4cc9d94cf8f87d084d7b"
+    },
+    {
+      "id": "historicos-06",
+      "sourceId": "study-3",
+      "page": 13,
+      "answer": "Oração acompanhada de vigilância",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "d3ccc4e8d3f614258225f7af46608beaaa5570856922f0e35331509e16311313",
+      "questionSha256": "cbd229dda4e3d263a2ad54829bee235cb390fa727ac6decfc35eef9d1de39dd8"
+    },
+    {
+      "id": "historicos-07",
+      "sourceId": "study-3",
+      "page": 13,
+      "answer": "Cinquenta e dois dias",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "d3ccc4e8d3f614258225f7af46608beaaa5570856922f0e35331509e16311313",
+      "questionSha256": "797b118b235e2277b61e838ade81f3258cbff580d69b5d20a37dba265f038879"
+    },
+    {
+      "id": "historicos-08",
+      "sourceId": "study-3",
+      "page": 15,
+      "answer": "Que seu povo jejuasse com ela por três dias",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "df1c59e2ecb36e1b0201343675944db91d7f26a07b3869a5453a2c58c3c4fcd4",
+      "questionSha256": "537f0590099c77eaafe6354c330703936619df6ee7715de67195a5d15425aca4"
+    },
+    {
+      "id": "poeticos-01",
+      "sourceId": "study-3",
+      "page": 16,
+      "answer": "Salmos",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "a869d7a126503dac88882caf6c718edb5ef43335719be7d38b85df6b7924335c",
+      "questionSha256": "f26ec7a1141aac294c21424e6285598ba581f5030b1061fefd51f1357d0c8f60"
+    },
+    {
+      "id": "poeticos-02",
+      "sourceId": "study-3",
+      "page": 16,
+      "answer": "Provérbios",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "a869d7a126503dac88882caf6c718edb5ef43335719be7d38b85df6b7924335c",
+      "questionSha256": "2ecc53ca54ee34734fd0218bc1334d8a39e461189f6798c7868d04a054959b45"
+    },
+    {
+      "id": "poeticos-03",
+      "sourceId": "study-3",
+      "page": 16,
+      "answer": "A sabedoria e a poesia sobre a experiência humana diante de Deus",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "a869d7a126503dac88882caf6c718edb5ef43335719be7d38b85df6b7924335c",
+      "questionSha256": "b61c7f0fd93c55bbaff6adc7b920e204230bdd0ddc6c0a7ea68f68c3844b8c46"
+    },
+    {
+      "id": "poeticos-04",
+      "sourceId": "study-3",
+      "page": 19,
+      "answer": "Reconhecer vários autores e salmos de autoria desconhecida",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "b458e6b17aab80578be95b781164fb4fc767252822b9ccfa5246eb7304fa959d",
+      "questionSha256": "9e79f560178f0bb20fbf920649ed68b9367b66d76cd8a50803663c7720da609c"
+    },
+    {
+      "id": "poeticos-05",
+      "sourceId": "study-3",
+      "page": 21,
+      "answer": "Como reverência e submissão a Deus",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "664461d302d8fcd432b390b883443f9bf40f20d53ab616ddce187c56e6214014",
+      "questionSha256": "8019acce02a1c92b09eca5887343c327e5d73e318e127bcbcdaef4ebe4e1ce83"
+    },
+    {
+      "id": "poeticos-06",
+      "sourceId": "study-3",
+      "page": 23,
+      "answer": "Algo passageiro e ilusório, como um vapor que desaparece",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "307166c25e64e9c40141ff62b36b75f665b25e54a301cd72179391804e695ee0",
+      "questionSha256": "09d0f153ad3a2c4bdd7e0753c5e20fbafdba025846b7e65373cc4764f831ec46"
+    },
+    {
+      "id": "poeticos-07",
+      "sourceId": "study-3",
+      "page": 17,
+      "answer": "Que Jó estava sofrendo por algum pecado oculto",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "4e9927e6126b15b406f71c3b9a4d5acf28efa8436d08bbc3873af490fec68c77",
+      "questionSha256": "323d7ac0b4458761703d34b2e02eac243d67e1d63b1c3417f25438f8f07f7986"
+    },
+    {
+      "id": "poeticos-08",
+      "sourceId": "study-3",
+      "page": 25,
+      "answer": "Para expressar poeticamente o amor e o vínculo entre o amado e a amada",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "05f376de5e4aa123df6a1e4c597ecacec21b3e7e111587cb9587d9d057ecdd2b",
+      "questionSha256": "e9c4d2aabd9db8186eaca40f48d51288b12b56ef55fc9dae52a0310dc7faa55f"
+    },
+    {
+      "id": "menores-01",
+      "sourceId": "study-3",
+      "page": 40,
+      "answer": "Porque seus livros são mais curtos",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "be4b497978531b84dd61a3463e5abb6d6c33356c6c831baf661ab92087929069",
+      "questionSha256": "5699c8a33a02128784109e539b06db4681fcc449e4aac50285f90e7a45d3154f"
+    },
+    {
+      "id": "menores-02",
+      "sourceId": "study-3",
+      "page": 40,
+      "answer": "Jonas",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "be4b497978531b84dd61a3463e5abb6d6c33356c6c831baf661ab92087929069",
+      "questionSha256": "664c9eca8d6fc541c5939926a4ea6395eaddfe442e594c4ccc88bbff7917ae90"
+    },
+    {
+      "id": "menores-03",
+      "sourceId": "study-3",
+      "page": 45,
+      "answer": "A ligação entre adoração verdadeira e justiça",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "ca11ca9e02537e92b5ebb806352cd0e0f21b4d4c33c1a7ebb9956f27c1c690b6",
+      "questionSha256": "4da3cc036a21d21c42b755efb2344bc63c2d80c88de2aa7f38e9516d9cf34f64"
+    },
+    {
+      "id": "menores-04",
+      "sourceId": "study-3",
+      "page": 40,
+      "answer": "Reconstruir o templo e renovar o compromisso com Deus",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "be4b497978531b84dd61a3463e5abb6d6c33356c6c831baf661ab92087929069",
+      "questionSha256": "369d629ade5008dae045e5b9ec11f402f8d6ff231c64cfb26a42059baed3239e"
+    },
+    {
+      "id": "menores-05",
+      "sourceId": "study-3",
+      "page": 56,
+      "answer": "Confiar em Deus e viver a fé mesmo sem compreender tudo",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "97cce84949e7b2ba528e53b4eecb9322fbd34503ffc67e45436aaa7acd450e7a",
+      "questionSha256": "11393cde4d4bdde9d1ae773923cf9f59c7b283138f934099ac3886222c1e8f40"
+    },
+    {
+      "id": "menores-06",
+      "sourceId": "study-3",
+      "page": 52,
+      "answer": "Praticar a justiça, amar a bondade e andar humildemente com Deus",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "2bac4780ffd6b1af3fd311ef149db20f4320ae6ddbf658a0d23ce3acf794c8b7",
+      "questionSha256": "425aa25340b415361a2a9fcee55f957bd5f4523d4463de87b324514f2d387b8c"
+    },
+    {
+      "id": "menores-07",
+      "sourceId": "study-3",
+      "page": 61,
+      "answer": "Apontar também para a restauração espiritual e a vinda do Messias",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "f8d974fb616106ef3590d067a1f4bd4acb2e0579a364a004325a7b3520cd0f19",
+      "questionSha256": "b496ea73c7f1f149793bb77951e7274aff77f4c516142d92edad16729722f571"
+    },
+    {
+      "id": "menores-08",
+      "sourceId": "study-3",
+      "page": 63,
+      "answer": "Deus faz declarações, e o povo responde com perguntas",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "7278d9b8e8c1d8f8aff71056347605715f297d988390722ce969e4c7281ec775",
+      "questionSha256": "e5ee3aef30051fa0086a8e3434583215ab40eec9da6fe4084369a78a8524f589"
+    },
+    {
+      "id": "interbiblico-01",
+      "sourceId": "study-3",
+      "page": 65,
+      "answer": "Uma tradução do Antigo Testamento para o grego",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "b63bd0d8705ad43c041bf998940dc7d4a1a59176ff07eb0d4f347a81e9e23e8e",
+      "questionSha256": "71ab7fed32748e8d7a6f52154b1ebe02abb2b5a515c67c82cccff667aff5eddc"
+    },
+    {
+      "id": "interbiblico-02",
+      "sourceId": "study-3",
+      "page": 66,
+      "answer": "A construção de estradas ligando cidades",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "f7206b4ba0172017837eed4cb3bc13a877ed13ca29d97d9df037b653a7d8ede4",
+      "questionSha256": "73a41b363e9ceaf88b56d9413321111d85b273d9e34fe3034873dbb3d94510ac"
+    },
+    {
+      "id": "interbiblico-03",
+      "sourceId": "study-3",
+      "page": 65,
+      "answer": "Quatrocentos anos",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "b63bd0d8705ad43c041bf998940dc7d4a1a59176ff07eb0d4f347a81e9e23e8e",
+      "questionSha256": "dbfade0ade530b0bf0c175e344834000ed2e5716946b2e2ec734c2fdf4bd275b"
+    },
+    {
+      "id": "interbiblico-04",
+      "sourceId": "study-3",
+      "page": 65,
+      "answer": "Permitir a leitura das Escrituras em grego a quem já não lia hebraico",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "b63bd0d8705ad43c041bf998940dc7d4a1a59176ff07eb0d4f347a81e9e23e8e",
+      "questionSha256": "6d455f9df169b87df7f407cb2f2f4be96afebdb496a6e2302c3bc80000d6498d"
+    },
+    {
+      "id": "interbiblico-05",
+      "sourceId": "study-3",
+      "page": 65,
+      "answer": "O Pentateuco, os cinco primeiros livros da Bíblia",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "b63bd0d8705ad43c041bf998940dc7d4a1a59176ff07eb0d4f347a81e9e23e8e",
+      "questionSha256": "cf6ba9e50d58b079a988495e8ce539214337850f1e742e9b0f69abb6851a7c5f"
+    },
+    {
+      "id": "interbiblico-06",
+      "sourceId": "study-3",
+      "page": 66,
+      "answer": "Hanucá",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "f7206b4ba0172017837eed4cb3bc13a877ed13ca29d97d9df037b653a7d8ede4",
+      "questionSha256": "d7a3c96bd7e952979cccfb3ccef0f3bcade16b1f8fa72b31ff339e2ebc736f84"
+    },
+    {
+      "id": "interbiblico-07",
+      "sourceId": "study-3",
+      "page": 66,
+      "answer": "Os saduceus",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "f7206b4ba0172017837eed4cb3bc13a877ed13ca29d97d9df037b653a7d8ede4",
+      "questionSha256": "7fba7918a79c6c21f2070e09c3fe04eeab7730b0cbf474d2fbb41f3f242db54a"
+    },
+    {
+      "id": "interbiblico-08",
+      "sourceId": "study-3",
+      "page": 66,
+      "answer": "De Roma, que permitia seu governo na região",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "f7206b4ba0172017837eed4cb3bc13a877ed13ca29d97d9df037b653a7d8ede4",
+      "questionSha256": "7f35d1336ada4eaced5564aa782a4b54a13d88453d5a61b40ecf5b5589b8a402"
+    },
+    {
+      "id": "evangelhos-01",
+      "sourceId": "study-4",
+      "page": 2,
+      "answer": "Mateus, Marcos, Lucas e João",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "b90342b20623f06047fecabbbef926391caa06340cd11a33771e588b2ce6c50d",
+      "questionSha256": "ece693492b606d8f854632c50854c0c068ad2ef86cbf97726476414dc4f8c810"
+    },
+    {
+      "id": "evangelhos-02",
+      "sourceId": "study-4",
+      "page": 2,
+      "answer": "Marcos",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "b90342b20623f06047fecabbbef926391caa06340cd11a33771e588b2ce6c50d",
+      "questionSha256": "f5063ea305c9eaff7cccf4d0e3a84eca8ee9490212841bcf296de610cf552cc3"
+    },
+    {
+      "id": "evangelhos-03",
+      "sourceId": "study-4",
+      "page": 2,
+      "answer": "Lucas",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "b90342b20623f06047fecabbbef926391caa06340cd11a33771e588b2ce6c50d",
+      "questionSha256": "62935027e725c3d404447b246e3a9bf02216ea6316da57c35c12360a2e74ee43"
+    },
+    {
+      "id": "evangelhos-04",
+      "sourceId": "study-4",
+      "page": 2,
+      "answer": "Mateus",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "b90342b20623f06047fecabbbef926391caa06340cd11a33771e588b2ce6c50d",
+      "questionSha256": "cf325e4ae9839f63d7145fb6f2994a603f7883e0db11367ff50d5cd69c6e936f"
+    },
+    {
+      "id": "evangelhos-05",
+      "sourceId": "study-4",
+      "page": 13,
+      "answer": "Nicodemos",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "af83945658756f42801aaa54150c06de33c9d5e0a2fc2262d5eb3a64f192ac47",
+      "questionSha256": "f8a369298dd0e3656b7d31e69fdacad419591a209cc7e067c6c2415d541e4f0f"
+    },
+    {
+      "id": "evangelhos-06",
+      "sourceId": "study-4",
+      "page": 4,
+      "answer": "Ele afirma que veio cumpri-los, não aboli-los",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "336ca7cfa0da3540b6fb4e65eeda10f7644d544fc51c78aa77cc34679f0f4d70",
+      "questionSha256": "9c8512636337eb525193f852962de5013c88cd8703af3aa82abd4f0e0979d12f"
+    },
+    {
+      "id": "evangelhos-07",
+      "sourceId": "study-4",
+      "page": 7,
+      "answer": "Porque se dirige a um público romano, provavelmente não judeu",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "491b3e2c933332e3d1ce1c19fecedbd77b7d063118962183e3ccd73b0a70e3aa",
+      "questionSha256": "464bcd92537fa8f065fd580b9ee830b43ab86acf2c4daf71ec7c783fc22e7c68"
+    },
+    {
+      "id": "evangelhos-08",
+      "sourceId": "study-4",
+      "page": 2,
+      "answer": "Testemunhos oculares e outras fontes orais e escritas da época",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "b90342b20623f06047fecabbbef926391caa06340cd11a33771e588b2ce6c50d",
+      "questionSha256": "5f021541c4a22f968450fa968dc8f9922476e2205e1a0f02ae4e45aaa5624c42"
+    },
+    {
+      "id": "vida-01",
+      "sourceId": "study-4",
+      "page": 15,
+      "answer": "Para tornar os ensinamentos acessíveis às pessoas",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "d49bfd22be14034ebc744efdb6312d03e5ed3ce63e762b614ea499b2cfa14fe3",
+      "questionSha256": "9e4646ca8f105a33a9a026e7e453b52f4f78c635c9faa2895a3d8574014051bb"
+    },
+    {
+      "id": "vida-02",
+      "sourceId": "study-4",
+      "page": 16,
+      "answer": "João 2:1-11",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "959e416d3459868f46fddeceba95361f664facf083a4982410728932c74cd187",
+      "questionSha256": "3404ea449db23e4ccd327b5de21b0b3ce9a6cd6ab01b49116d764bda4b85d1a7"
+    },
+    {
+      "id": "vida-03",
+      "sourceId": "study-4",
+      "page": 17,
+      "answer": "Montado em um jumentinho",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "14f7cf55ff0860326de0df11a041fc3fa677c9a71db2124a8c6521579db20bbf",
+      "questionSha256": "24c86a157cf6ced03a6ad6b8f0dc2db217ed988310a4272d01eabf413a5cda4b"
+    },
+    {
+      "id": "vida-04",
+      "sourceId": "study-4",
+      "page": 18,
+      "answer": "As mulheres que seguiam Jesus",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "e3ae3c4ff9be7fd0574d2cc4cce549c71ffc3ced37a7302c0d39df9bd79b57b3",
+      "questionSha256": "fc32f2bfcd86d0d03f5dcf7ca3ed4cb415a862a6025f6370e241977c7b7d9037"
+    },
+    {
+      "id": "vida-05",
+      "sourceId": "study-4",
+      "page": 22,
+      "answer": "Dracma",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "e301843396ba1d54e450307f0c8bbe88c2b3ed37759deb9e30f94381565c99e3",
+      "questionSha256": "30e60eb12330fd6e7381e9cba48eb7d795cf9ad27a7e61a536a0e10754121b87"
+    },
+    {
+      "id": "vida-06",
+      "sourceId": "study-4",
+      "page": 17,
+      "answer": "Simão de Cirene",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "14f7cf55ff0860326de0df11a041fc3fa677c9a71db2124a8c6521579db20bbf",
+      "questionSha256": "e1ff067b7f473e43a373055df3b53924f7b0bc4430ed3372609e3e3e28374bef"
+    },
+    {
+      "id": "vida-07",
+      "sourceId": "study-4",
+      "page": 18,
+      "answer": "O acesso a Deus se abre por meio do sacrifício de Cristo para os que creem",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "e3ae3c4ff9be7fd0574d2cc4cce549c71ffc3ced37a7302c0d39df9bd79b57b3",
+      "questionSha256": "287f78b4c62879b14092624ba81c69461dca55da407319312975feedcdf12274"
+    },
+    {
+      "id": "vida-08",
+      "sourceId": "study-4",
+      "page": 19,
+      "answer": "João",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "b37f995106b5d530fbbe925060d6e743ef685400c36d8e3cf5bbadec90a3142f",
+      "questionSha256": "485c808c0682ca65a8f1dea06dbc38a7c7c2d05d4ab8faf5919379b2e95af06e"
+    },
+    {
+      "id": "atos-01",
+      "sourceId": "study-4",
+      "page": 23,
+      "answer": "O nascimento e a expansão da igreja cristã",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "ff948fa4f94902f3f1171cdfc80ac65e289a79f20c0f7eb6be84ce97e9d5e9dd",
+      "questionSha256": "2ba47b1982dd7be02062deba88e74255bab65a74a5c9557f8fc72af9a92cbea7"
+    },
+    {
+      "id": "atos-02",
+      "sourceId": "study-4",
+      "page": 23,
+      "answer": "O Espírito Santo é derramado sobre os discípulos",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "ff948fa4f94902f3f1171cdfc80ac65e289a79f20c0f7eb6be84ce97e9d5e9dd",
+      "questionSha256": "212876f1f15378323f934b7a817501ac787a4027b210909783dffef2e1587bcf"
+    },
+    {
+      "id": "atos-03",
+      "sourceId": "study-4",
+      "page": 23,
+      "answer": "Lucas",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "ff948fa4f94902f3f1171cdfc80ac65e289a79f20c0f7eb6be84ce97e9d5e9dd",
+      "questionSha256": "5314eba091a849ef24fa78d7779981b6d41ed8ff80d7a7ae79c0fd04e4d5fa0e"
+    },
+    {
+      "id": "atos-04",
+      "sourceId": "study-4",
+      "page": 24,
+      "answer": "Barnabé",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "2a63044973945145ce3c0ed39c2760cfe787a04f5d341aa7bce6ca3606d79cc8",
+      "questionSha256": "212df1da0de549f1da28b7df612d0a27601793ac168e1223afe00d7f4313434e"
+    },
+    {
+      "id": "atos-05",
+      "sourceId": "study-4",
+      "page": 23,
+      "answer": "De Jerusalém para Judeia e Samaria, chegando a outros povos e nações",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "ff948fa4f94902f3f1171cdfc80ac65e289a79f20c0f7eb6be84ce97e9d5e9dd",
+      "questionSha256": "82efba7fea0916ce753dbdd655aaac42d903e6b7b146590a381e3cab4e9e01ab"
+    },
+    {
+      "id": "atos-06",
+      "sourceId": "study-4",
+      "page": 23,
+      "answer": "De perseguidor dos cristãos a missionário que leva o Evangelho a muitos lugares",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "ff948fa4f94902f3f1171cdfc80ac65e289a79f20c0f7eb6be84ce97e9d5e9dd",
+      "questionSha256": "73596590dd31ddf4560b42191ba80529817f463b2e0d8acedb159d28abab8164"
+    },
+    {
+      "id": "atos-07",
+      "sourceId": "study-4",
+      "page": 23,
+      "answer": "Mesmo preso, ele continua anunciando o Reino de Deus a quem o visita",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "ff948fa4f94902f3f1171cdfc80ac65e289a79f20c0f7eb6be84ce97e9d5e9dd",
+      "questionSha256": "9ae662b330f01588c27a7d2f21ab3db467b358b9042ee17573041a5d8542e461"
+    },
+    {
+      "id": "atos-08",
+      "sourceId": "study-4",
+      "page": 24,
+      "answer": "Apolo",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "2a63044973945145ce3c0ed39c2760cfe787a04f5d341aa7bce6ca3606d79cc8",
+      "questionSha256": "4d4515e1a71e8e7170401ee1d0dd932a473748b06431fe8fa7102f69245663f1"
+    },
+    {
+      "id": "paulinas-01",
+      "sourceId": "study-4",
+      "page": 26,
+      "answer": "A igrejas e a pessoas específicas",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "405e79c906dc5bc4322df04df52a782328762b77feadff3fd7080dcc6c3f138b",
+      "questionSha256": "520cbf689f02738f06f49198db7041872ea34127fb114263ed1355fe15ee000f"
+    },
+    {
+      "id": "paulinas-02",
+      "sourceId": "study-4",
+      "page": 26,
+      "answer": "Conselhos para a vida diária e os relacionamentos",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "405e79c906dc5bc4322df04df52a782328762b77feadff3fd7080dcc6c3f138b",
+      "questionSha256": "39132f27cb0e23a0c401b4addc3bdd532c9d7a9a6481d5117c73b764f4383d78"
+    },
+    {
+      "id": "paulinas-03",
+      "sourceId": "study-4",
+      "page": 33,
+      "answer": "Ajudando a carregá-los e não se cansando de fazer o bem",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "651abbdb3d2a81caa02b7d2e5b2bf4f78d0cef94d15f803da5c409fc91ea0989",
+      "questionSha256": "25922ea25bd11b3f4bc4b25a1f41372deae5b8f0ba82dfa948635e6d4270081e"
+    },
+    {
+      "id": "paulinas-04",
+      "sourceId": "study-4",
+      "page": 52,
+      "answer": "Que seja perdoado e recebido como irmão em Cristo",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "8bffaca303731203130caced3d724a3b8a63451f4ad5426b574b194f617db1b9",
+      "questionSha256": "ac6c4d1f84ee40d7eea73329bed7d5936eddc3075dce759e66af75c5ac9800ec"
+    },
+    {
+      "id": "paulinas-05",
+      "sourceId": "study-4",
+      "page": 35,
+      "answer": "Primeiro, a obra de Deus; depois, como viver em resposta a ela",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "d0c5291f2867fc424bfff6d0bd72c2171253d5c56ad5eaa6d52bd8b0b012ce27",
+      "questionSha256": "1c937c6dfe393b9ea9d8c4661462d99c07c9178466425574791b4d11cc17c019"
+    },
+    {
+      "id": "paulinas-06",
+      "sourceId": "study-4",
+      "page": 39,
+      "answer": "A humildade, expressa no cuidado mútuo e no serviço",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "ce8d7eef768f6727bf19cc90bb2b95865f1da015dfaf66c7f812e72d5ae71c5b",
+      "questionSha256": "239799cadbc3a8542387fb572454600a16adf51329bf38cd7bb86545d7636854"
+    },
+    {
+      "id": "paulinas-07",
+      "sourceId": "study-4",
+      "page": 27,
+      "answer": "Para ilustrar a justificação pela fé, em vez da confiança nas obras da lei",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "0e88139dafbfd386df98a2dd07b03c4d4cba9a3b6983d253257491a173413766",
+      "questionSha256": "756e9b2092f3e9067854d0c91d30b5216a2ba6e1706b5afccb07d7a06a3d386a"
+    },
+    {
+      "id": "paulinas-08",
+      "sourceId": "study-4",
+      "page": 41,
+      "answer": "Filosofias vazias, tradições humanas e adoração de anjos",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "fa459cf184e70b6f34912628050786b4bdbea2785e8797a23562cfe2896a850b",
+      "questionSha256": "a077802152f645824fe03c66ea531e8afaa11bf131abfb856dc1b9c711ae3a36"
+    },
+    {
+      "id": "gerais-01",
+      "sourceId": "study-4",
+      "page": 54,
+      "answer": "Tiago",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "d6cab7a1d71adcf6cabfd6fd519174440ecbb4617ba8e863d81e5b0885c8d098",
+      "questionSha256": "a2231e89d6362cab8e457b4e3a050fa3ec57873ac01211476cb2088c22fc4586"
+    },
+    {
+      "id": "gerais-02",
+      "sourceId": "study-4",
+      "page": 54,
+      "answer": "Amor e verdade na comunidade cristã",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "d6cab7a1d71adcf6cabfd6fd519174440ecbb4617ba8e863d81e5b0885c8d098",
+      "questionSha256": "149907c7cf61d206ed01156c93e2d27bf1b06c9cf2096acb252704e2349fc151"
+    },
+    {
+      "id": "gerais-03",
+      "sourceId": "study-4",
+      "page": 57,
+      "answer": "Olhar-se no espelho e logo esquecer a própria aparência",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "8092050d54458e44a9d7ad58b4df66c7bd45e132f3cda5ae8b8ac72d2968f9ee",
+      "questionSha256": "9e5698ce561179d3aeaa5495be37a565af14f77b4bbf3d86ae967ca9d5c6b435"
+    },
+    {
+      "id": "gerais-04",
+      "sourceId": "study-4",
+      "page": 59,
+      "answer": "Na fé e na esperança em Cristo",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "ba5d9a6a37fa1a6ba16e894bda6b9c6af96eca085f26e3d51d9cfabcbc6b9c93",
+      "questionSha256": "51257e00d192247a457d725f2fee8545cb6c6df4e021af2bebb1785240fb3712"
+    },
+    {
+      "id": "gerais-05",
+      "sourceId": "study-4",
+      "page": 55,
+      "answer": "Crescer em maturidade e no conhecimento de Cristo",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "805eb6e0b14cb39a940a9b6786951a286b0b01021aeb68b3f372a5ca4fa8507f",
+      "questionSha256": "11a9235c2c77676c1f66a3dc6d228fea8a35634b94d0c954e5f8199ad70d4a5e"
+    },
+    {
+      "id": "gerais-06",
+      "sourceId": "study-4",
+      "page": 63,
+      "answer": "O amor ao próximo aparece como expressão concreta de obediência a Deus",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "7029dc27b5b04ff7412610f5733d11c54f67dc4b081cdc82fc62b508730bf6d1",
+      "questionSha256": "f37c34aeb78278364157d3f7a1b89c22311ea037ecc56f5b83a3cd3dfb5dc7e2"
+    },
+    {
+      "id": "gerais-07",
+      "sourceId": "study-4",
+      "page": 57,
+      "answer": "O freio de um cavalo, o leme de um navio e o fogo que destrói uma floresta",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "8092050d54458e44a9d7ad58b4df66c7bd45e132f3cda5ae8b8ac72d2968f9ee",
+      "questionSha256": "524a72011897e6b2b0ca78d3fc8d73bec6818109cbfc6e14bfd51e2155223513"
+    },
+    {
+      "id": "gerais-08",
+      "sourceId": "study-4",
+      "page": 69,
+      "answer": "Caim, Balaão e Corá",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "8f0998a9acc6bf9b5eeeb6bddfb03ab13cbe05588fae6073768b341fe72af2c2",
+      "questionSha256": "40a1cf65d633624f70221e5c19d48d8c25d1ff110ef010661c2452caa6623c76"
+    },
+    {
+      "id": "apocalipse-01",
+      "sourceId": "study-4",
+      "page": 71,
+      "answer": "Imagens, símbolos e metáforas",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "96b9b0ccc5d7443a0cd4a94f0d5f6cb7e0735d7d3d215e026bf13b3b8fdb1f32",
+      "questionSha256": "2aef8232e746c7ad1020db247210e50521a29da7c3bd447c6a40703b0354ec7f"
+    },
+    {
+      "id": "apocalipse-02",
+      "sourceId": "study-4",
+      "page": 71,
+      "answer": "A vitória final de Cristo sobre o mal",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "96b9b0ccc5d7443a0cd4a94f0d5f6cb7e0735d7d3d215e026bf13b3b8fdb1f32",
+      "questionSha256": "4b870593bd50a31d8dd2b094fdea02549441f3d243e311d092d71083a5193166"
+    },
+    {
+      "id": "apocalipse-03",
+      "sourceId": "study-4",
+      "page": 72,
+      "answer": "Patmos",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "59dca1c06a593b8dda589a3443b4913b8e7f0101c4b3721e1e36f187b3d6a909",
+      "questionSha256": "48802c170774e292b48d842682de5ae992c9d88de1d0dc333475b4c130c102cd"
+    },
+    {
+      "id": "apocalipse-04",
+      "sourceId": "study-4",
+      "page": 72,
+      "answer": "Sete",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "59dca1c06a593b8dda589a3443b4913b8e7f0101c4b3721e1e36f187b3d6a909",
+      "questionSha256": "2c28025d28aa3428c2a9a85698a56072f74b3ff0233b9b44eb063792859290a0"
+    },
+    {
+      "id": "apocalipse-05",
+      "sourceId": "study-4",
+      "page": 72,
+      "answer": "Novo Céu e Nova Terra, sem dor, morte ou sofrimento",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "59dca1c06a593b8dda589a3443b4913b8e7f0101c4b3721e1e36f187b3d6a909",
+      "questionSha256": "8086a9b42d3047d6c9c30484e8b3623ed8c4d05bddd99299e359857760506025"
+    },
+    {
+      "id": "apocalipse-06",
+      "sourceId": "study-4",
+      "page": 71,
+      "answer": "Sua estrutura repetitiva, que destaca e reforça temas centrais",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "96b9b0ccc5d7443a0cd4a94f0d5f6cb7e0735d7d3d215e026bf13b3b8fdb1f32",
+      "questionSha256": "004ec0505232f24a223dfce5853306ef6725922dceed1ff8e870274d04825315"
+    },
+    {
+      "id": "apocalipse-07",
+      "sourceId": "study-4",
+      "page": 72,
+      "answer": "O Cordeiro de Deus, Jesus",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "59dca1c06a593b8dda589a3443b4913b8e7f0101c4b3721e1e36f187b3d6a909",
+      "questionSha256": "2fa54cf2c42e262c8edb25902cf5868789c927881367f05eb01498fe5d218fcf"
+    },
+    {
+      "id": "apocalipse-08",
+      "sourceId": "study-4",
+      "page": 71,
+      "answer": "Muitas figuras simbólicas se relacionam com referências ao Antigo Testamento",
+      "status": "approved",
+      "literalEvidenceFound": true,
+      "semanticReview": {
+        "promptSupported": true,
+        "uniqueAnswerSupported": true,
+        "allExplanationClaimsWithinCitedPage": true
+      },
+      "pageNativeTextSha256": "96b9b0ccc5d7443a0cd4a94f0d5f6cb7e0735d7d3d215e026bf13b3b8fdb1f32",
+      "questionSha256": "74dd18ecba3f36550de7dd3cbaac6979b6b58a46e33c51dba5fcd776552146d1"
+    }
+  ]
+}

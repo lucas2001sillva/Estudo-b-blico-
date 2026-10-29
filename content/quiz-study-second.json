@@ -1,0 +1,908 @@
+[
+  {
+    "id": "quiz-evangelhos",
+    "lessonId": "evangelhos",
+    "title": "Quatro olhares sobre Jesus",
+    "questions": [
+      {
+        "id": "evangelhos-01",
+        "prompt": "Você vai começar a ler os Evangelhos. Quais quatro livros fazem parte desse grupo?",
+        "choices": [
+          "Mateus, Marcos, Lucas e João",
+          "Gênesis, Êxodo, Levítico e Números",
+          "Romanos, Gálatas, Efésios e Filipenses",
+          "Jó, Salmos, Provérbios e Eclesiastes"
+        ],
+        "answerIndex": 0,
+        "explanation": "Os quatro Evangelhos são Mateus, Marcos, Lucas e João. Eles relatam a vida, o ministério, a morte e a ressurreição de Jesus, reunindo ensinamentos, diálogos, parábolas e milagres. Cada relato tem características próprias; juntos, apresentam uma visão ampla da vida e da mensagem de Jesus.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 2
+        },
+        "difficulty": "easy",
+        "evidence": "MATEUS MARCOS LUCAS JOÃO"
+      },
+      {
+        "id": "evangelhos-02",
+        "prompt": "A apresentação destaca um Evangelho pelo ritmo de ação e pelo poder de Jesus. Qual é ele?",
+        "choices": [
+          "Mateus",
+          "Lucas",
+          "Marcos",
+          "João"
+        ],
+        "answerIndex": 2,
+        "explanation": "Marcos é o Evangelho que essa introdução associa à ação e ao poder de Jesus. O material distingue as ênfases dos quatro relatos: Mateus destaca o cumprimento das profecias, Lucas dá atenção aos marginalizados e João aprofunda a divindade de Jesus. Essas perspectivas se complementam na apresentação de sua vida e mensagem.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 2
+        },
+        "difficulty": "medium",
+        "evidence": "Marcos destaca a ação e o poder de Jesus"
+      },
+      {
+        "prompt": "Um Evangelho dá atenção especial às pessoas marginalizadas. De qual relato a introdução está falando?",
+        "choices": [
+          "Mateus",
+          "Lucas",
+          "Marcos",
+          "João"
+        ],
+        "answerIndex": 1,
+        "difficulty": "easy",
+        "explanation": "A introdução destaca o interesse de Lucas pelas pessoas marginalizadas. Essa ênfase é apresentada ao lado das características próprias dos outros três Evangelhos, que se complementam ao contar a vida e a mensagem de Jesus.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 2
+        },
+        "evidence": "Lucas tem um interesse especial pelos marginalizados",
+        "id": "evangelhos-03"
+      },
+      {
+        "prompt": "Para acompanhar a relação entre Jesus e as profecias do Antigo Testamento, qual Evangelho recebe esse destaque na introdução?",
+        "choices": [
+          "Marcos",
+          "Lucas",
+          "João",
+          "Mateus"
+        ],
+        "answerIndex": 3,
+        "difficulty": "easy",
+        "explanation": "O material associa Mateus ao cumprimento das profecias do Antigo Testamento. Essa é uma de suas formas de apresentar Jesus; a página também lembra que os quatro Evangelhos têm perspectivas próprias e complementares.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 2
+        },
+        "evidence": "Mateus enfatiza o cumprimento das profecias do Antigo Testamento",
+        "id": "evangelhos-04"
+      },
+      {
+        "prompt": "No panorama de João, quem procura Jesus à noite para conversar sobre questões espirituais e nascer de novo?",
+        "choices": [
+          "Nicodemos",
+          "João Batista",
+          "Filipe",
+          "Lázaro"
+        ],
+        "answerIndex": 0,
+        "difficulty": "medium",
+        "explanation": "O panorama identifica Nicodemos como um fariseu e membro do Sinédrio que procura Jesus à noite. A conversa sobre nascer de novo é localizada em João 3, e o estudo também menciona seu envolvimento posterior no sepultamento de Jesus.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 13
+        },
+        "evidence": "Nicodemos é um fariseu e membro do Sinédrio, o conselho judaico. Ele busca Jesus à noite para discutir sobre questões espirituais e nascer de novo.",
+        "id": "evangelhos-05"
+      },
+      {
+        "prompt": "Ao explicar o Sermão do Monte, como o estudo apresenta a relação de Jesus com a Lei e os Profetas?",
+        "choices": [
+          "Ele deixa de tratar da relação com a Lei",
+          "Ele afirma que veio apenas substituir os profetas por novos autores",
+          "Ele afirma que veio cumpri-los, não aboli-los",
+          "Ele apresenta a Lei como um assunto sem ligação com seu ensino"
+        ],
+        "answerIndex": 2,
+        "difficulty": "medium",
+        "explanation": "A página apresenta Jesus no Sermão do Monte em relação com Moisés e o monte Sinai. Nesse contexto, registra que Jesus não veio abolir a Lei ou os Profetas, mas cumpri-los, indicando Mateus 5:17.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 4
+        },
+        "evidence": "Jesus afirmou que não veio para abolir a Lei ou os Profetas, mas sim cumprir na sua íntegra (Mt 5.17).",
+        "id": "evangelhos-06"
+      },
+      {
+        "prompt": "Por que, segundo o panorama, Marcos explica costumes judaicos e traduz expressões aramaicas?",
+        "choices": [
+          "Porque escreve apenas para especialistas da Lei judaica",
+          "Porque se dirige a um público romano, provavelmente não judeu",
+          "Porque seu relato é apresentado como uma carta particular a Nicodemos",
+          "Porque o material o situa como um livro de leis do Antigo Testamento"
+        ],
+        "answerIndex": 1,
+        "difficulty": "hard",
+        "explanation": "O panorama relaciona essas explicações ao público romano de Marcos, provavelmente não judeu. Ao explicar costumes e traduzir expressões, o relato torna essas informações compreensíveis a leitores que não partilhavam do mesmo contexto.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 7
+        },
+        "evidence": "Marcos foi escrito para um público romano, provavelmente não judeu, por isso explica costumes judaicos e traduz expressões aramaicas.",
+        "id": "evangelhos-07"
+      },
+      {
+        "prompt": "A apresentação diz que os autores dos Evangelhos compilaram informações. Que conjunto de fontes ela menciona?",
+        "choices": [
+          "Somente os registros administrativos do Império Romano",
+          "Apenas discursos do próprio autor, sem outras fontes",
+          "Exclusivamente os livros de leis de Israel",
+          "Testemunhos oculares e outras fontes orais e escritas da época"
+        ],
+        "answerIndex": 3,
+        "difficulty": "hard",
+        "explanation": "A página afirma que os Evangelhos geralmente se baseiam em testemunhos oculares dos discípulos e em outras fontes orais e escritas disponíveis na época. Os autores reuniram essas informações para construir suas narrativas, que também têm propósito teológico e espiritual.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 2
+        },
+        "evidence": "Os evangelhos geralmente são baseados em testemunhos oculares dos discípulos de Jesus e em outras fontes orais e escritas disponíveis na época.",
+        "id": "evangelhos-08"
+      }
+    ]
+  },
+  {
+    "id": "quiz-vida-jesus",
+    "lessonId": "vida-jesus",
+    "title": "Parábolas e milagres de Jesus",
+    "questions": [
+      {
+        "id": "vida-01",
+        "prompt": "Por que Jesus usava situações do dia a dia nas parábolas?",
+        "choices": [
+          "Para registrar uma lista de reis e suas datas",
+          "Para tornar os ensinamentos acessíveis às pessoas",
+          "Para reunir regras dos sacrifícios sacerdotais",
+          "Para descrever as viagens missionárias de Paulo"
+        ],
+        "answerIndex": 1,
+        "explanation": "Jesus usava histórias simples e familiares para tornar seus ensinamentos acessíveis a pessoas diferentes. As parábolas recorriam a situações da vida cotidiana para comunicar ensinamentos espirituais e morais. Assim, quem ouvia podia compreender a mensagem por meio de exemplos conhecidos.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 15
+        },
+        "difficulty": "easy",
+        "evidence": "tornando os ensinamentos de Jesus acessíveis a um público diversificado."
+      },
+      {
+        "id": "vida-02",
+        "prompt": "Quer encontrar a transformação de água em vinho? Qual referência a lista de milagres indica?",
+        "choices": [
+          "Lucas 15:11-32",
+          "Mateus 5–7",
+          "Atos 2:1-4",
+          "João 2:1-11"
+        ],
+        "answerIndex": 3,
+        "explanation": "O material indica João 2:1-11 para o relato da transformação de água em vinho. Esse é o primeiro item da lista de milagres apresentada na página. A introdução da lista explica que esses acontecimentos extraordinários demonstram o poder divino de Jesus e revelam aspectos de sua missão.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 16
+        },
+        "difficulty": "medium",
+        "evidence": "1 - Transformando a água em vinho (João 2:1-11)"
+      },
+      {
+        "prompt": "Na descrição da entrada triunfal, como Jesus chega a Jerusalém?",
+        "choices": [
+          "Montado em um jumentinho",
+          "Em uma carruagem",
+          "Montado em um cavalo",
+          "Em um barco"
+        ],
+        "answerIndex": 0,
+        "difficulty": "easy",
+        "explanation": "O estudo descreve Jesus entrando em Jerusalém montado em um jumentinho e sendo recebido com ramos de palmeiras. A página relaciona a cena à profecia de Zacarias 9:9 e à aclamação registrada em Mateus 21:9.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 17
+        },
+        "evidence": "Jesus entrou em Jerusalém montado em um jumentinho",
+        "id": "vida-03"
+      },
+      {
+        "prompt": "Na manhã da ressurreição, quem o estudo destaca como as primeiras testemunhas?",
+        "choices": [
+          "Os soldados romanos",
+          "Os membros do Sinédrio",
+          "As mulheres que seguiam Jesus",
+          "Os visitantes vindos da Galileia para o julgamento"
+        ],
+        "answerIndex": 2,
+        "difficulty": "easy",
+        "explanation": "O material destaca as mulheres como as primeiras testemunhas da ressurreição. A narrativa conta que elas foram ao túmulo na manhã de domingo, o encontraram vazio e receberam o anúncio de que Jesus havia ressuscitado.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 18
+        },
+        "evidence": "As primeiras testemunhas da ressurreição foram mulheres",
+        "id": "vida-04"
+      },
+      {
+        "prompt": "Na tabela das moedas, qual delas aparece associada à parábola da moeda perdida, em Lucas 15:8?",
+        "choices": [
+          "Dracma",
+          "Didracma",
+          "Estáter",
+          "Quadrante"
+        ],
+        "answerIndex": 0,
+        "difficulty": "medium",
+        "explanation": "A tabela associa a dracma a Lucas 15:8, identificado como o texto da parábola da moeda perdida. A página a descreve como uma moeda grega de prata; essa é a associação pedida pela pergunta.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 22
+        },
+        "evidence": "DRACMA Texto Bíblico: Lucas 15:8 (Parábola da moeda perdida) Tipo: Moeda grega de prata",
+        "id": "vida-05"
+      },
+      {
+        "prompt": "No caminho até o Calvário, quem o relato do estudo diz que ajudou a carregar a cruz?",
+        "choices": [
+          "José de Arimateia",
+          "Nicodemos",
+          "Simão de Cirene",
+          "João Batista"
+        ],
+        "answerIndex": 2,
+        "difficulty": "medium",
+        "explanation": "A página identifica Simão de Cirene como a pessoa que ajudou Jesus a carregar a cruz. Para essa informação, o estudo aponta Marcos 15:21, dentro de sua sequência sobre a semana da crucificação.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 17
+        },
+        "evidence": "Em certo ponto, Simão de Cirene ajudou a carregar a cruz (Marcos 15:21).",
+        "id": "vida-06"
+      },
+      {
+        "prompt": "O estudo vai além de dizer que o véu do templo se rasgou. Que significado atribui a esse acontecimento?",
+        "choices": [
+          "O acesso à presença de Deus fica reservado apenas aos soldados",
+          "O acesso a Deus se abre por meio do sacrifício de Cristo para os que creem",
+          "A separação entre Deus e os que creem é apresentada como definitiva",
+          "O véu passa a representar uma nova barreira para todos os discípulos"
+        ],
+        "answerIndex": 1,
+        "difficulty": "hard",
+        "explanation": "A explicação relaciona o rasgar do véu ao acesso à presença de Deus por meio do sacrifício de Cristo. O estudo afirma que esse caminho está aberto a todos os que creem e cita Hebreus 10:19-20 para desenvolver o significado da cena.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 18
+        },
+        "evidence": "O rasgar do véu indica que, através do sacrifício de Cristo, o acesso a Deus agora está aberto para todos os que crerem.",
+        "id": "vida-07"
+      },
+      {
+        "prompt": "No quadro que compara os quatro Evangelhos, qual relato reúne sete sinais e sete declarações “Eu Sou”?",
+        "choices": [
+          "Mateus",
+          "Marcos",
+          "Lucas",
+          "João"
+        ],
+        "answerIndex": 3,
+        "difficulty": "hard",
+        "explanation": "A comparação associa os sete sinais e as sete declarações “Eu Sou” ao Evangelho de João. O material explica que esses elementos mostram quem Jesus é e ligam seu relato ao convite para crer nele e receber vida eterna.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 19
+        },
+        "evidence": "João apresenta sete sinais (milagres) e sete declarações \"Eu Sou\" para mostrar quem Jesus é.",
+        "id": "vida-08"
+      }
+    ]
+  },
+  {
+    "id": "quiz-atos",
+    "lessonId": "atos",
+    "title": "O início e a expansão da igreja",
+    "questions": [
+      {
+        "id": "atos-01",
+        "prompt": "Depois dos relatos sobre a vida de Jesus, Atos acompanha principalmente o quê?",
+        "choices": [
+          "A construção da arca de Noé",
+          "As regras dos sacrifícios no deserto",
+          "O nascimento e a expansão da igreja cristã",
+          "Somente a genealogia dos reis de Judá"
+        ],
+        "answerIndex": 2,
+        "explanation": "Atos apresenta o nascimento e a expansão da igreja cristã depois da ressurreição e da ascensão de Jesus. O estudo mostra o Espírito Santo capacitando os discípulos para levarem o Evangelho além de Jerusalém. O relato acompanha essa expansão, os desafios dos primeiros cristãos e as viagens missionárias de Paulo.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 23
+        },
+        "difficulty": "easy",
+        "evidence": "É o registro do nascimento e da expansão da igreja cristã."
+      },
+      {
+        "id": "atos-02",
+        "prompt": "Na apresentação de Atos 2, o que acontece com os discípulos no Pentecostes?",
+        "choices": [
+          "O Espírito Santo é derramado sobre os discípulos",
+          "Ciro autoriza o retorno a Jerusalém",
+          "Moisés entrega a Lei no Sinai",
+          "Salomão começa a construir o Templo"
+        ],
+        "answerIndex": 0,
+        "explanation": "No Pentecostes, o Espírito Santo é derramado sobre os discípulos, cumprindo a promessa de Jesus. Segundo o estudo, eles passam a falar em várias línguas e a anunciar a mensagem com coragem. A página também destaca o sermão de Pedro, os batismos e o crescimento de uma comunidade marcada por oração, comunhão e ensino.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 23
+        },
+        "difficulty": "medium",
+        "evidence": "O capítulo 2 marca o Pentecostes, quando o Espírito Santo é derramado sobre os discípulos,"
+      },
+      {
+        "prompt": "O panorama apresenta Atos como a continuação natural de qual Evangelho?",
+        "choices": [
+          "Mateus",
+          "Lucas",
+          "Marcos",
+          "João"
+        ],
+        "answerIndex": 1,
+        "difficulty": "easy",
+        "explanation": "O estudo apresenta Atos como a continuação do Evangelho de Lucas e atribui os dois livros a Lucas. Enquanto o Evangelho relata a vida e os ensinamentos de Jesus, Atos acompanha o impacto de sua obra e a expansão da igreja.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 23
+        },
+        "evidence": "O livro de Atos dos Apóstolos é a continuação natural do Evangelho de Lucas.",
+        "id": "atos-03"
+      },
+      {
+        "prompt": "Entre os personagens de Atos, quem é lembrado por sua generosidade e por encorajar novos convertidos?",
+        "choices": [
+          "Apolo",
+          "Tiago, irmão de Jesus",
+          "Filipe",
+          "Barnabé"
+        ],
+        "answerIndex": 3,
+        "difficulty": "easy",
+        "explanation": "A apresentação descreve Barnabé como companheiro de Paulo na missão inicial da igreja. Seu destaque nessa página é a generosidade e o encorajamento aos novos convertidos.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 24
+        },
+        "evidence": "Barnabé: Barnabé é um companheiro de Paulo e desempenha um papel importante na missão inicial da igreja primitiva. Ele é conhecido por sua generosidade e encorajamento aos novos convertidos.",
+        "id": "atos-04"
+      },
+      {
+        "prompt": "Atos 1:8 funciona como um roteiro no panorama. Como a mensagem se expande nessa apresentação?",
+        "choices": [
+          "De Jerusalém para Judeia e Samaria, chegando a outros povos e nações",
+          "De Roma diretamente para Jerusalém, sem passar por outras regiões",
+          "Somente entre as comunidades de Jerusalém, sem expansão geográfica",
+          "De Corinto para Éfeso, terminando antes de alcançar Jerusalém"
+        ],
+        "answerIndex": 0,
+        "difficulty": "medium",
+        "explanation": "O estudo usa Atos 1:8 para resumir o movimento do livro. Os discípulos começam anunciando em Jerusalém, alcançam a Judeia e Samaria e depois levam o Evangelho a outros povos e nações.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 23
+        },
+        "evidence": "os primeiros discípulos começam pregando em Jerusalém, depois alcançam a Judeia e Samaria, e finalmente anunciam o Evangelho a outros povos e nações.",
+        "id": "atos-05"
+      },
+      {
+        "prompt": "Qual mudança na vida de Paulo o panorama usa para mostrar o avanço do Evangelho?",
+        "choices": [
+          "De líder romano a sacerdote responsável pelo templo de Jerusalém",
+          "De discípulo de Jesus a opositor de toda missão entre os gentios",
+          "De perseguidor dos cristãos a missionário que leva o Evangelho a muitos lugares",
+          "De rei da Judeia a administrador da cidade de Corinto"
+        ],
+        "answerIndex": 2,
+        "difficulty": "medium",
+        "explanation": "O estudo destaca a conversão de Paulo como um dos momentos marcantes de Atos. Aquele que perseguia os cristãos passa a anunciar o Evangelho em lugares como Filipos, Corinto, Éfeso e Roma.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 23
+        },
+        "evidence": "Deus transforma um perseguidor implacável em um missionário apaixonado, que leva o Evangelho a muitos lugares, como Filipos, Corinto, Éfeso e Roma.",
+        "id": "atos-06"
+      },
+      {
+        "prompt": "No final de Atos, Paulo está preso em Roma. Que contraste o estudo chama a atenção nessa cena?",
+        "choices": [
+          "Depois da prisão, a mensagem deixa de ser anunciada em Roma",
+          "Mesmo preso, ele continua anunciando o Reino de Deus a quem o visita",
+          "A igreja passa a depender de Paulo governar o Império Romano",
+          "O encerramento apresenta Paulo retornando ao seu papel de perseguidor"
+        ],
+        "answerIndex": 1,
+        "difficulty": "hard",
+        "explanation": "O encerramento mostra Paulo preso em Roma e, ao mesmo tempo, ainda pregando aos que o visitam. O estudo lê esse final aberto como sinal de que a história da igreja e o anúncio do Evangelho não terminam ali.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 23
+        },
+        "evidence": "Atos termina com Paulo preso em Roma, mas ainda pregando o Reino de Deus a todos que o visitam.",
+        "id": "atos-07"
+      },
+      {
+        "prompt": "Qual personagem do panorama de Atos é descrito como um pregador eloquente e bem instruído nas Escrituras?",
+        "choices": [
+          "Barnabé",
+          "Filipe",
+          "Tiago, irmão de Jesus",
+          "Apolo"
+        ],
+        "answerIndex": 3,
+        "difficulty": "hard",
+        "explanation": "O quadro de personagens destaca Apolo por sua eloquência na pregação e por seu conhecimento das Escrituras. Essa descrição o distingue das outras funções e características atribuídas aos personagens da página.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 24
+        },
+        "evidence": "Apolo: Apolo é mencionado como um pregador eloquente e poderoso na propagação do evangelho. Ele é descrito como um homem bem instruído nas Escrituras.",
+        "id": "atos-08"
+      }
+    ]
+  },
+  {
+    "id": "quiz-cartas-paulinas",
+    "lessonId": "cartas-paulinas",
+    "title": "Aprendendo com as cartas de Paulo",
+    "questions": [
+      {
+        "id": "paulinas-01",
+        "prompt": "As cartas de Paulo têm destinatários concretos. Para quem ele as escrevia?",
+        "choices": [
+          "Apenas aos reis de Israel",
+          "Somente a pessoas que nunca haviam ouvido sobre Jesus",
+          "Exclusivamente aos soldados romanos",
+          "A igrejas e a pessoas específicas"
+        ],
+        "answerIndex": 3,
+        "explanation": "Paulo escreveu suas cartas para igrejas e pessoas específicas. O estudo explica que elas combinam ensino da fé com orientações para questões práticas enfrentadas pelos destinatários. As saudações, orações, palavras de encorajamento e instruções pessoais mostram seu cuidado com essas comunidades e pessoas.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 26
+        },
+        "difficulty": "easy",
+        "evidence": "para igrejas e indivíduos específicos, oferecendo ensinamentos, exortações e orientações para questões teológicas e práticas."
+      },
+      {
+        "id": "paulinas-02",
+        "prompt": "Quem lê as cartas de Paulo encontra ensino sobre a fé e também que tipo de orientação?",
+        "choices": [
+          "Como construir o templo e separar os materiais",
+          "Conselhos para a vida diária e os relacionamentos",
+          "Como organizar a monarquia de Israel",
+          "Como classificar as genealogias dos patriarcas"
+        ],
+        "answerIndex": 1,
+        "explanation": "As cartas de Paulo incluem conselhos para a vida diária e os relacionamentos. O material cita questões éticas, serviço cristão e adoração, ligando o ensino da fé à maneira de viver. Também destaca palavras de encorajamento, esperança e consolo aos destinatários.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 26
+        },
+        "difficulty": "medium",
+        "evidence": "Ele aborda questões éticas, relacionamentos interpessoais, serviço cristão e adoração apropriada."
+      },
+      {
+        "prompt": "No panorama de Gálatas, como os fiéis são orientados a lidar com os fardos uns dos outros?",
+        "choices": [
+          "Ajudando a carregá-los e não se cansando de fazer o bem",
+          "Deixando esse cuidado apenas para as autoridades romanas",
+          "Evitando qualquer responsabilidade pela vida comunitária",
+          "Trocando a prática do bem por discussões sobre prestígio"
+        ],
+        "answerIndex": 0,
+        "difficulty": "easy",
+        "explanation": "O estudo de Gálatas liga a vida no Espírito ao cuidado concreto com as outras pessoas. Ele destaca a orientação para carregar os fardos uns dos outros e perseverar na prática do bem.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 33
+        },
+        "evidence": "Ele ensina que os fieis devem carregar os fardos uns dos outros e não se cansar de fazer o bem.",
+        "id": "paulinas-03"
+      },
+      {
+        "prompt": "Em Filemom, que acolhimento Paulo pede para Onésimo?",
+        "choices": [
+          "Que seja tratado apenas como um desconhecido",
+          "Que seja afastado de toda convivência com a comunidade",
+          "Que seja perdoado e recebido como irmão em Cristo",
+          "Que seja recebido somente se ocupar uma posição de autoridade"
+        ],
+        "answerIndex": 2,
+        "difficulty": "easy",
+        "explanation": "O panorama apresenta o pedido de Paulo para que Filemom perdoe Onésimo e o receba como irmão em Cristo. A carta é descrita como um convite a praticar amor, perdão e reconciliação nos relacionamentos.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 52
+        },
+        "evidence": "Paulo então escreve a Filemom para pedir que ele perdoe Onésimo e o receba não apenas como um escravo, mas como um irmão em Cristo.",
+        "id": "paulinas-04"
+      },
+      {
+        "prompt": "A apresentação de Efésios divide a carta em duas partes. Como elas se relacionam?",
+        "choices": [
+          "Primeiro, a obra de Deus; depois, como viver em resposta a ela",
+          "Primeiro, viagens de Jesus; depois, a história dos reis de Israel",
+          "Primeiro, genealogias; depois, regras para a construção do templo",
+          "Primeiro, instruções comerciais; depois, relatos sobre a criação"
+        ],
+        "answerIndex": 0,
+        "difficulty": "medium",
+        "explanation": "O estudo explica que Efésios 1–3 apresenta o que Deus fez por nós. Em seguida, os capítulos 4–6 tratam de como viver em resposta a essa obra, ligando o ensino à vida cotidiana.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 35
+        },
+        "evidence": "Efésios se divide em duas partes principais: a primeira (capítulos 1–3) explica o que Deus fez por nós, a segunda (capítulos 4–6) nos ensina como devemos viver em resposta a essa obra",
+        "id": "paulinas-05"
+      },
+      {
+        "prompt": "No resumo de Filipenses 2, que atitude de Cristo serve de exemplo para a comunidade?",
+        "choices": [
+          "A busca por destaque pessoal acima da unidade",
+          "O afastamento das necessidades dos outros",
+          "A humildade, expressa no cuidado mútuo e no serviço",
+          "A competição entre os membros da igreja por reconhecimento"
+        ],
+        "answerIndex": 2,
+        "difficulty": "medium",
+        "explanation": "O material destaca a humildade de Cristo como modelo para os filipenses. Essa atitude aparece ligada ao cuidado uns com os outros, ao serviço e à união da comunidade.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 39
+        },
+        "evidence": "Paulo destaca o exemplo de humildade de Cristo, incentivando os filipenses a terem a mesma atitude, a se preocuparem uns com os outros e a trabalharem para a glória de Deus.",
+        "id": "paulinas-06"
+      },
+      {
+        "prompt": "Em Romanos, por que o estudo lembra que Abraão foi considerado justo antes da circuncisão?",
+        "choices": [
+          "Para apresentar a circuncisão como o fundamento da justificação",
+          "Para ilustrar a justificação pela fé, em vez da confiança nas obras da lei",
+          "Para limitar a promessa de Deus à descendência física de Abraão",
+          "Para defender que a observância da Lei veio antes da promessa a Abraão"
+        ],
+        "answerIndex": 1,
+        "difficulty": "hard",
+        "explanation": "O panorama diz que Paulo usa Abraão como exemplo de alguém considerado justo antes da circuncisão. Esse exemplo sustenta a explicação sobre a justificação pela fé, em contraste com a confiança nas próprias obras.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 27
+        },
+        "evidence": "Paulo usa o exemplo de Abraão, que foi considerado justo antes mesmo de ser circuncidado, para mostrar que a salvação sempre foi pela fé",
+        "id": "paulinas-07"
+      },
+      {
+        "prompt": "Ao explicar Colossenses 2:6–23, contra o que o estudo apresenta uma advertência?",
+        "choices": [
+          "A oração, a sabedoria e as saudações aos colaboradores",
+          "O amor, o respeito e o cuidado nas relações familiares",
+          "A reconciliação com Deus e a nova vida em Cristo",
+          "Filosofias vazias, tradições humanas e adoração de anjos"
+        ],
+        "answerIndex": 3,
+        "difficulty": "hard",
+        "explanation": "O resumo de Colossenses 2:6–23 lista filosofias vazias, tradições humanas e adoração de anjos entre os enganos combatidos. Nesse contexto, o material destaca a suficiência de Cristo e a necessidade de permanecer firme na fé.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 41
+        },
+        "evidence": "Paulo adverte contra filosofias vazias, tradições humanas e a adoração de anjos. Ele destaca a suficiência de Cristo e exorta os crentes a permanecerem firmes em sua fé.",
+        "id": "paulinas-08"
+      }
+    ]
+  },
+  {
+    "id": "quiz-cartas-gerais",
+    "lessonId": "cartas-gerais",
+    "title": "Fé, amor e perseverança",
+    "questions": [
+      {
+        "id": "gerais-01",
+        "prompt": "Qual carta o panorama destaca por ligar a fé ao modo de viver e combater o favoritismo?",
+        "choices": [
+          "Tiago",
+          "Filemom",
+          "Gálatas",
+          "Romanos"
+        ],
+        "answerIndex": 0,
+        "explanation": "Tiago é a carta que o estudo destaca por tratar da prática da fé. A página cita o combate ao favoritismo e a importância de viver de modo coerente com a fé cristã. Esse exemplo mostra como as cartas gerais respondem a questões concretas enfrentadas pelas comunidades.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 54
+        },
+        "difficulty": "easy",
+        "evidence": "a carta de Tiago fala sobre a prática da fé, lidando com o favoritismo e vivendo uma vida coerente com a fé cristã."
+      },
+      {
+        "id": "gerais-02",
+        "prompt": "Ao apresentar 1, 2 e 3 João, quais valores o estudo coloca no centro da vida comunitária?",
+        "choices": [
+          "Riqueza e prestígio",
+          "Força militar e conquistas",
+          "Amor e verdade na comunidade cristã",
+          "Comércio e impostos"
+        ],
+        "answerIndex": 2,
+        "explanation": "O estudo destaca o amor e a verdade nas cartas de 1, 2 e 3 João. Esses valores aparecem ligados à vida da comunidade cristã. A página explica que as cartas gerais oferecem ensinamentos e orientações para questões éticas, de comportamento e de fé vividas por seus leitores.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 54
+        },
+        "difficulty": "medium",
+        "evidence": "1, 2 e 3 João abordam a importância do amor e da verdade na comunidade cristã."
+      },
+      {
+        "prompt": "Segundo o panorama de Tiago, ouvir a Palavra sem colocá-la em prática é comparado a qual situação?",
+        "choices": [
+          "Acender uma lamparina e colocá-la em lugar visível",
+          "Olhar-se no espelho e logo esquecer a própria aparência",
+          "Preparar uma mesa para receber convidados",
+          "Cuidar de uma plantação e esperar sua colheita"
+        ],
+        "answerIndex": 1,
+        "difficulty": "easy",
+        "explanation": "A página retoma a imagem do espelho para falar de quem ouve a Palavra, mas não a pratica. Tiago é apresentado como um chamado a uma fé que se manifesta em ações concretas, não apenas em ouvir.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 57
+        },
+        "evidence": "quem ouve sem praticar engana a si mesmo, como alguém que se olha no espelho e logo se esquece da própria aparência",
+        "id": "gerais-03"
+      },
+      {
+        "prompt": "O panorama de 1 Pedro encoraja pessoas que enfrentam sofrimento. Em que elas são chamadas a permanecer firmes?",
+        "choices": [
+          "Na busca por aprovação de todos os grupos sociais",
+          "Na promessa de nunca enfrentar dificuldades",
+          "Na confiança de que não precisam cuidar de sua conduta",
+          "Na fé e na esperança em Cristo"
+        ],
+        "answerIndex": 3,
+        "difficulty": "easy",
+        "explanation": "O estudo apresenta 1 Pedro como encorajamento para cristãos perseguidos ou em sofrimento. A carta os lembra de sua esperança viva em Cristo e os chama a perseverar com uma conduta santa.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 59
+        },
+        "evidence": "Ele encoraja os crentes a permanecerem firmes na fé, mesmo diante da perseguição.",
+        "id": "gerais-04"
+      },
+      {
+        "prompt": "Em Hebreus, a expressão “leite espiritual” ajuda o estudo a tratar de qual desafio?",
+        "choices": [
+          "Crescer em maturidade e no conhecimento de Cristo",
+          "Retornar à falta de compreensão como objetivo permanente",
+          "Substituir o aprendizado pela busca de prestígio",
+          "Abandonar toda forma de ensino sobre a fé"
+        ],
+        "answerIndex": 0,
+        "difficulty": "medium",
+        "explanation": "O material explica que o autor de Hebreus repreende leitores que ainda precisam de “leite espiritual” quando já deveriam ensinar. A imagem acompanha um chamado ao crescimento no conhecimento de Cristo e à maturidade espiritual.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 55
+        },
+        "evidence": "Outro ponto importante é o chamado à maturidade espiritual. O autor repreende os leitores por ainda precisarem de “leite espiritual” quando já deveriam ser mestres, e os desafia a crescerem no conhecimento de Cristo",
+        "id": "gerais-05"
+      },
+      {
+        "prompt": "Ao apresentar 1 João, como o estudo relaciona fé verdadeira e amor ao próximo?",
+        "choices": [
+          "O amor é separado da convivência e da obediência",
+          "Conhecer a Deus dispensa qualquer cuidado com os irmãos",
+          "O amor ao próximo aparece como expressão concreta de obediência a Deus",
+          "A fé é descrita apenas como uma ideia sem efeitos na vida"
+        ],
+        "answerIndex": 2,
+        "difficulty": "medium",
+        "explanation": "O panorama afirma que a fé verdadeira se manifesta em obediência, especialmente no amor ao próximo. Assim, o amor aparece ligado à maneira de viver e à comunhão com os irmãos.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 63
+        },
+        "evidence": "A fé verdadeira se manifesta em obediência aos mandamentos de Deus, especialmente no amor ao próximo.",
+        "id": "gerais-06"
+      },
+      {
+        "prompt": "Para mostrar o poder da língua, quais três imagens o panorama de Tiago reúne?",
+        "choices": [
+          "Uma pedra, uma armadura e um cordeiro",
+          "O freio de um cavalo, o leme de um navio e o fogo que destrói uma floresta",
+          "Um espelho, uma porta e um caminho",
+          "Uma semente, uma videira e uma lamparina"
+        ],
+        "answerIndex": 1,
+        "difficulty": "hard",
+        "explanation": "O panorama retoma três comparações de Tiago: o freio, o leme e o fogo. Elas acompanham o alerta sobre o poder das palavras, que podem edificar ou destruir, e o chamado a cuidar do que dizemos.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 57
+        },
+        "evidence": "Ele compara a língua a um freio que controla um cavalo, a um leme que direciona um navio e a um fogo que pode destruir uma floresta.",
+        "id": "gerais-07"
+      },
+      {
+        "prompt": "Para ilustrar a desobediência e a rebeldia, que três figuras do Antigo Testamento o panorama de Judas menciona?",
+        "choices": [
+          "Abel, Noé e Abraão",
+          "Moisés, Josué e Samuel",
+          "Davi, Salomão e Elias",
+          "Caim, Balaão e Corá"
+        ],
+        "answerIndex": 3,
+        "difficulty": "hard",
+        "explanation": "A página diz que Judas compara os falsos mestres a Caim, Balaão e Corá. Nesse trecho, essas figuras do Antigo Testamento são lembradas pela desobediência e pela rebelião.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 69
+        },
+        "evidence": "Judas os compara a figuras do Antigo Testamento, como Caim, Balaão e Corá, conhecidos por sua desobediência e rebelião.",
+        "id": "gerais-08"
+      }
+    ]
+  },
+  {
+    "id": "quiz-apocalipse",
+    "lessonId": "apocalipse",
+    "title": "Símbolos e esperança em Apocalipse",
+    "questions": [
+      {
+        "id": "apocalipse-01",
+        "prompt": "Ao ler Apocalipse, que recurso de linguagem merece atenção especial?",
+        "choices": [
+          "Uma sequência de genealogias sem imagens",
+          "Imagens, símbolos e metáforas",
+          "Conselhos cotidianos reunidos em provérbios",
+          "Uma lista de regras para sacrifícios"
+        ],
+        "answerIndex": 1,
+        "explanation": "Apocalipse usa imagens, símbolos e metáforas para comunicar sua mensagem. Segundo o estudo, muitas dessas figuras se relacionam com o Antigo Testamento e representam realidades espirituais e acontecimentos cósmicos. Por isso, a página orienta a prestar atenção aos símbolos e às imagens para compreender o livro.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 71
+        },
+        "difficulty": "easy",
+        "evidence": "O Apocalipse faz uso extensivo de imagens, símbolos e metáforas"
+      },
+      {
+        "id": "apocalipse-02",
+        "prompt": "Em meio às cenas difíceis de Apocalipse, que esperança o estudo destaca?",
+        "choices": [
+          "Uma história centrada somente nos reis de Israel",
+          "Um manual para reconstruir o templo de Jerusalém",
+          "Uma coleção de viagens pelo Império Romano",
+          "A vitória final de Cristo sobre o mal"
+        ],
+        "answerIndex": 3,
+        "explanation": "A mensagem de esperança destacada é a vitória final de Cristo sobre o mal. O estudo relaciona essa vitória à justiça divina e à esperança da vida eterna para quem segue a Cristo. Também apresenta o livro como encorajamento para a igreja perseverar e permanecer fiel em meio às dificuldades.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 71
+        },
+        "difficulty": "medium",
+        "evidence": "o triunfo final de Cristo sobre o mal"
+      },
+      {
+        "prompt": "No panorama de Apocalipse, em que ilha João recebe a revelação enquanto está exilado?",
+        "choices": [
+          "Patmos",
+          "Creta",
+          "Chipre",
+          "Malta"
+        ],
+        "answerIndex": 0,
+        "difficulty": "easy",
+        "explanation": "O panorama situa João na ilha de Patmos, onde estava exilado por causa da fé. Nesse contexto, apresenta Apocalipse como revelação de Jesus Cristo destinada a fortalecer a igreja em tempos de perseguição.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 72
+        },
+        "evidence": "enquanto estava exilado na ilha de Patmos, por causa de sua fé.",
+        "id": "apocalipse-03"
+      },
+      {
+        "prompt": "No início de Apocalipse, as mensagens de Cristo ressurreto são dirigidas a quantas igrejas da Ásia Menor?",
+        "choices": [
+          "Três",
+          "Cinco",
+          "Sete",
+          "Doze"
+        ],
+        "answerIndex": 2,
+        "difficulty": "easy",
+        "explanation": "A página apresenta mensagens destinadas a sete igrejas da Ásia Menor. Elas incluem elogios, advertências e promessas, chamando essas comunidades ao arrependimento e à fidelidade.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 72
+        },
+        "evidence": "mensagens para sete igrejas da Ásia Menor",
+        "id": "apocalipse-04"
+      },
+      {
+        "prompt": "Que visão de futuro o panorama destaca em meio às cenas de juízo?",
+        "choices": [
+          "Novo Céu e Nova Terra, sem dor, morte ou sofrimento",
+          "O desaparecimento de toda mensagem de esperança",
+          "A permanência definitiva da dor como destino dos fiéis",
+          "Um futuro em que a criação deixa de ser mencionada"
+        ],
+        "answerIndex": 0,
+        "difficulty": "medium",
+        "explanation": "Em meio às cenas de juízo, o estudo destaca mensagens de esperança. Entre elas estão as visões do Novo Céu e da Nova Terra, apresentados como um lugar onde não haverá mais dor, morte ou sofrimento.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 72
+        },
+        "evidence": "recebe visões do Novo Céu e da Nova Terra, onde não haverá mais dor, morte ou sofrimento.",
+        "id": "apocalipse-05"
+      },
+      {
+        "prompt": "Os ciclos de sete selos, trombetas e taças são citados para explicar qual característica literária de Apocalipse?",
+        "choices": [
+          "Uma sequência sem repetição de imagens ou temas",
+          "Uma organização feita apenas de genealogias",
+          "Sua estrutura repetitiva, que destaca e reforça temas centrais",
+          "Uma lista de provérbios independentes entre si"
+        ],
+        "answerIndex": 2,
+        "difficulty": "medium",
+        "explanation": "A página descreve uma estrutura repetitiva formada por ciclos de sete. Segundo o estudo, os selos, as trombetas e as taças destacam e reforçam temas e acontecimentos centrais, enfatizando completude e soberania divina.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 71
+        },
+        "evidence": "O livro de Apocalipse tem uma estrutura repetitiva que utiliza ciclos de sete (como os sete selos, as sete trombetas e as sete taças) para destacar e reforçar os temas e eventos centrais.",
+        "id": "apocalipse-06"
+      },
+      {
+        "prompt": "Na visão do livro selado com sete selos, quem o panorama identifica como capaz de abri-lo?",
+        "choices": [
+          "João, por ter recebido a visão",
+          "O Cordeiro de Deus, Jesus",
+          "Uma das sete igrejas da Ásia Menor",
+          "Um dos anjos que está diante do trono"
+        ],
+        "answerIndex": 1,
+        "difficulty": "hard",
+        "explanation": "O panorama apresenta um livro selado com sete selos na visão do céu. Ele identifica Jesus, o Cordeiro de Deus, como aquele que pode abri-lo.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 72
+        },
+        "evidence": "o livro selado com sete selos, que só o Cordeiro de Deus, Jesus, pode abrir.",
+        "id": "apocalipse-07"
+      },
+      {
+        "prompt": "Para compreender as imagens de Apocalipse, que relação com o restante da Bíblia a introdução recomenda observar?",
+        "choices": [
+          "As imagens devem ser separadas de qualquer referência a outros livros",
+          "Todos os símbolos são apresentados como nomes de cidades romanas",
+          "As figuras vêm exclusivamente de relatos sobre as viagens de Paulo",
+          "Muitas figuras simbólicas se relacionam com referências ao Antigo Testamento"
+        ],
+        "answerIndex": 3,
+        "difficulty": "hard",
+        "explanation": "A introdução explica que muitas figuras simbólicas de Apocalipse derivam de referências ao Antigo Testamento. O estudo ressalta a atenção aos símbolos e às imagens como parte do esforço de compreender a mensagem do livro.",
+        "source": {
+          "sourceId": "study-4",
+          "page": 71
+        },
+        "evidence": "Essas figuras simbólicas são ricas em significado e muitas vezes derivam de referências ao Antigo Testamento.",
+        "id": "apocalipse-08"
+      }
+    ]
+  }
+]

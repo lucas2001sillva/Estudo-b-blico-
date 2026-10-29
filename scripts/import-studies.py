@@ -1018,7 +1018,13 @@ def main() -> None:
             lesson["summarySourcePages"] = summary["sourcePages"]
         lessons.append(lesson)
     trails = [{**trail, "lessonIds": [lesson["id"] for lesson in lessons if lesson["trailId"] == trail["id"]]} for trail in TRAILS]
-    quizzes = json.loads(args.quiz_file.read_text(encoding="utf-8")) if args.quiz_file else CURATED_QUIZZES
+    if args.quiz_file:
+        quizzes = json.loads(args.quiz_file.read_text(encoding="utf-8"))
+    elif all((content / name).is_file() for name in ['quiz-study-legacy.json', 'quiz-study-first.json', 'quiz-study-second.json']):
+        from quiz_catalog import study_quizzes
+        quizzes = study_quizzes(content)
+    else:
+        quizzes = CURATED_QUIZZES
     if not quizzes and (content / "studies.json").exists():
         quizzes = json.loads((content / "studies.json").read_text(encoding="utf-8"))["quizzes"]
     quizzes = [{"id": f"quiz-{quiz['lessonId']}", **quiz} for quiz in quizzes]

@@ -1,0 +1,1012 @@
+{
+  "version": 1,
+  "status": "passed",
+  "reviewed": 60,
+  "independentEditorialReview": true,
+  "source": {
+    "file": "nt.pdf",
+    "sha256": "2f1632602ed900d0b78f0b71191bc6943f7e54da1bc713143e5a62e0016a07d5"
+  },
+  "bankSha256": "fc077789def7c4c477b67a69fa02a4d22d789835789d0d53adb7397632950855",
+  "method": "Independent reading of all 60 prompts, four alternatives, intended answers and complete explanatory summaries against the literal supplied NVI PDF text. Every evidence excerpt was separately matched on a cited physical PDF page; book/chapter/verse provenance was cross-checked without using imported Bible text as the final evidence. Multi-page contexts in John 2 and Acts 9 were read in both original PDF pages. No internet or fuzzy matching was used.",
+  "corrections": [
+    {
+      "id": "biblia-nt-004",
+      "field": "evidence",
+      "before": "Disse Jesus aos serviçais: “Encham os potes com água”. E os encheram até a borda. Então lhes disse: “Agora, levem um pouco ao encarregado da festa”. Eles assim fizeram, e o encarregado da festa provou a água que fora transformada em vinho, sem saber de onde este viera, embora o soubessem os serviçais que haviam tirado a água. Então chamou o noivo",
+      "after": "o encarregado da festa provou a água que fora transformada em vinho"
+    },
+    {
+      "id": "biblia-nt-005",
+      "field": "evidence",
+      "before": "Em sua viagem, quando se aproximava de Damasco, de repente brilhou ao seu redor uma luz vinda do céu. Ele caiu por terra e ouviu uma voz que lhe dizia: “Saulo, Saulo, por que você me persegue?” Saulo perguntou: “Quem és tu, Senhor?” Ele respondeu: “Eu sou Jesus, a quem você persegue.",
+      "after": "Eu sou Jesus, a quem você persegue."
+    },
+    {
+      "id": "biblia-nt-015",
+      "field": "explanation",
+      "before": "A orientação não é esconder a juventude, mas ser exemplo para os fiéis. O versículo cita a palavra, o procedimento, o amor, a fé e a pureza como áreas desse exemplo.",
+      "after": "A orientação é ser exemplo para os fiéis, apesar de ser jovem. O versículo cita a palavra, o procedimento, o amor, a fé e a pureza como áreas desse exemplo."
+    },
+    {
+      "id": "biblia-nt-043",
+      "field": "explanation",
+      "before": "O versículo situa o povoado de Emaús a onze quilômetros de Jerusalém. Também informa que dois dos discípulos seguiam para lá naquele mesmo dia.",
+      "after": "O versículo situa o povoado de Emaús a onze quilômetros de Jerusalém. Também informa que dois deles seguiam para lá naquele mesmo dia."
+    },
+    {
+      "id": "biblia-nt-060",
+      "field": "explanation",
+      "before": "Diótrefes é descrito como alguém que gosta de ser o mais importante e não recebe os autores da carta. O texto também critica suas palavras maldosas e sua resistência a acolher os irmãos, chegando a impedir quem desejava recebê-los.",
+      "after": "Diótrefes é descrito como alguém que gosta de ser o mais importante. O texto também critica suas palavras maldosas e afirma que ele impede quem deseja receber os irmãos, expulsando essas pessoas da igreja."
+    }
+  ],
+  "questions": [
+    {
+      "id": "biblia-nt-001",
+      "reference": "Mateus 2:11",
+      "pages": [
+        2
+      ],
+      "literalEvidencePages": [
+        2
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "47f81ddf2330b90cb9ea857b59e102a55545d8df78a4cd75dd9349a69ea2cb28"
+    },
+    {
+      "id": "biblia-nt-002",
+      "reference": "Marcos 1:16–18",
+      "pages": [
+        37
+      ],
+      "literalEvidencePages": [
+        37
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "df372589c05a8569fd8a90fc933123de4a01e338d55992cd56a945314d1897a7"
+    },
+    {
+      "id": "biblia-nt-003",
+      "reference": "Lucas 10:33–34",
+      "pages": [
+        76
+      ],
+      "literalEvidencePages": [
+        76
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "0d5399c2b13a1d66a6c157a6eec8c50b8100e1ccf662f1b76ce6ea2284d77459"
+    },
+    {
+      "id": "biblia-nt-004",
+      "reference": "João 2:7–9",
+      "pages": [
+        97,
+        98
+      ],
+      "literalEvidencePages": [
+        98
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "70bbe4e2a30a50a4db303572f4c21d0b250dcb05ed22c1ba4cca432142cff969"
+    },
+    {
+      "id": "biblia-nt-005",
+      "reference": "Atos dos Apóstolos 9:3–5",
+      "pages": [
+        131,
+        132
+      ],
+      "literalEvidencePages": [
+        132
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "2adab82c31c9bb0a3ce64dd97b960935057ac6326ec823f269f73afb7089385b"
+    },
+    {
+      "id": "biblia-nt-006",
+      "reference": "Romanos 12:21",
+      "pages": [
+        165
+      ],
+      "literalEvidencePages": [
+        165
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "5a2cbf29c0b5ad83ac55d7702de36784a7e06e261f1079708c055ba70228ec55"
+    },
+    {
+      "id": "biblia-nt-007",
+      "reference": "1 Coríntios 13:13",
+      "pages": [
+        177
+      ],
+      "literalEvidencePages": [
+        177
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "1ebee08d8bb9b1aad89183baa3258fd0cad823e927fc4e7d8059b67620eb1616"
+    },
+    {
+      "id": "biblia-nt-008",
+      "reference": "2 Coríntios 5:17",
+      "pages": [
+        183
+      ],
+      "literalEvidencePages": [
+        183
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "775c782f89c31472b30473cd98b165f588e77b668b7f50e7789c4a2bba3eddd7"
+    },
+    {
+      "id": "biblia-nt-009",
+      "reference": "Gálatas 5:22–23",
+      "pages": [
+        193
+      ],
+      "literalEvidencePages": [
+        193
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "de3f53e24c19af8ed1c53030557eaf31fc0344e8e2dfc0f5bece3b6f49249873"
+    },
+    {
+      "id": "biblia-nt-010",
+      "reference": "Efésios 6:17",
+      "pages": [
+        198
+      ],
+      "literalEvidencePages": [
+        198
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "bb8acb3c5464aa22dbef7df4f0a0ff69af246616ffe5dcf1e66cc7ae64fae653"
+    },
+    {
+      "id": "biblia-nt-011",
+      "reference": "Filipenses 4:6",
+      "pages": [
+        202
+      ],
+      "literalEvidencePages": [
+        202
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "98c5ba5d53ca9f0d1ef1abc52761e708ba12409c797862e77fa7d73bff91cbdb"
+    },
+    {
+      "id": "biblia-nt-012",
+      "reference": "Colossenses 3:13",
+      "pages": [
+        206
+      ],
+      "literalEvidencePages": [
+        206
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "ef92ca623e0df02affdea75f44478bb9529cdb48e5d6c96ee6cc3d8f86fd2a44"
+    },
+    {
+      "id": "biblia-nt-013",
+      "reference": "1 Tessalonicenses 5:16–18",
+      "pages": [
+        210
+      ],
+      "literalEvidencePages": [
+        210
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "017b9e52b846b0e820d918d625f70e16d326a5ec9fe481cd52c0e3c403f03d27"
+    },
+    {
+      "id": "biblia-nt-014",
+      "reference": "2 Tessalonicenses 3:13",
+      "pages": [
+        212
+      ],
+      "literalEvidencePages": [
+        212
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "6e9d5e85f9d06364b9a32d04e247d91c52f193f601bc70fc5afca9ab3321ac86"
+    },
+    {
+      "id": "biblia-nt-015",
+      "reference": "1 Timóteo 4:12",
+      "pages": [
+        215
+      ],
+      "literalEvidencePages": [
+        215
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "6516f8bffe2b49f81b1eb9b52ce6c52404a13a58217295516afc825d876d9c90"
+    },
+    {
+      "id": "biblia-nt-016",
+      "reference": "2 Timóteo 3:16",
+      "pages": [
+        218
+      ],
+      "literalEvidencePages": [
+        218
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "e0cdb3fbf90e2955d9a1d4c546139835e2ae11754af8885dba52cc3a4ab236ca"
+    },
+    {
+      "id": "biblia-nt-017",
+      "reference": "Tito 3:2",
+      "pages": [
+        221
+      ],
+      "literalEvidencePages": [
+        221
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "9d2692f191e6ed0ac83773f964f675b1c8c4a7a65005c10c184117b4d0cbf8e4"
+    },
+    {
+      "id": "biblia-nt-018",
+      "reference": "Hebreus 11:1",
+      "pages": [
+        232
+      ],
+      "literalEvidencePages": [
+        232
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "6f38a0177a461984419de8872bc3a60eaa252ff3d4bc1c3ad5e42ccdb745ac1f"
+    },
+    {
+      "id": "biblia-nt-019",
+      "reference": "Tiago 1:22",
+      "pages": [
+        236
+      ],
+      "literalEvidencePages": [
+        236
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "32b2e46730d28d7f5f19c6e74981f62d72443d28b901f25316e31b37ad8b8c7e"
+    },
+    {
+      "id": "biblia-nt-020",
+      "reference": "1 João 4:8",
+      "pages": [
+        250
+      ],
+      "literalEvidencePages": [
+        250
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "dcfebd7dfd2e19640513150cc3de41ecf88d91cb19b5d6f5620fa9bceb6bdf90"
+    },
+    {
+      "id": "biblia-nt-021",
+      "reference": "Mateus 5:23–24",
+      "pages": [
+        6
+      ],
+      "literalEvidencePages": [
+        6
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "4989f79ad338c442434be05b128ab41ce65544b9f25d5770cb9d838b91d4f21c"
+    },
+    {
+      "id": "biblia-nt-022",
+      "reference": "Marcos 4:18–19",
+      "pages": [
+        40
+      ],
+      "literalEvidencePages": [
+        40
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "98e49914a96750baf612d1d9d024c77e510979dc0d8aeb0051ba27c44cc908cc"
+    },
+    {
+      "id": "biblia-nt-023",
+      "reference": "Lucas 19:8",
+      "pages": [
+        86
+      ],
+      "literalEvidencePages": [
+        86
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "c628a80bbc672d81f5d51b6451aa54350bf857bde1084e5e9840e05a197027f2"
+    },
+    {
+      "id": "biblia-nt-024",
+      "reference": "João 6:9",
+      "pages": [
+        102
+      ],
+      "literalEvidencePages": [
+        102
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "394237aa6f913b434965a059c70e7016ef181ecc0d1871f4d6e8f5ff41a449ea"
+    },
+    {
+      "id": "biblia-nt-025",
+      "reference": "Atos dos Apóstolos 2:42",
+      "pages": [
+        124
+      ],
+      "literalEvidencePages": [
+        124
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "d4b81dd58c1f60f3a9d96a865cd7f4fff23784cbf39a0749890f081334f86da2"
+    },
+    {
+      "id": "biblia-nt-026",
+      "reference": "Romanos 12:4–5",
+      "pages": [
+        164
+      ],
+      "literalEvidencePages": [
+        164
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "d94d9efdb1fe98e969d0d14aeb3ee789b057b52301dd0dc30215ae5f51f675ce"
+    },
+    {
+      "id": "biblia-nt-027",
+      "reference": "1 Coríntios 12:22",
+      "pages": [
+        177
+      ],
+      "literalEvidencePages": [
+        177
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "af3f2f6c95b0de5e082a988e9bf40c957f65e6325dd0b6e4c407367cf0acc89d"
+    },
+    {
+      "id": "biblia-nt-028",
+      "reference": "2 Coríntios 9:7",
+      "pages": [
+        186
+      ],
+      "literalEvidencePages": [
+        186
+      ],
+      "evidenceMethod": "native-text-visual-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "6c0db731ae8a16fa511f5c30962544242dcf537b3093df54216dc78db8c16d60"
+    },
+    {
+      "id": "biblia-nt-029",
+      "reference": "Gálatas 6:2",
+      "pages": [
+        193
+      ],
+      "literalEvidencePages": [
+        193
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "102c115ee7636be1a78e86e677e7ac3f84c5b61322d7a41f36ee1691c97bf6a2"
+    },
+    {
+      "id": "biblia-nt-030",
+      "reference": "Efésios 4:26–27",
+      "pages": [
+        197
+      ],
+      "literalEvidencePages": [
+        197
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "c005c5954702765b63ec1434c4412f86baf741f372e7e67c2d359fc2c0b781aa"
+    },
+    {
+      "id": "biblia-nt-031",
+      "reference": "Filipenses 2:3",
+      "pages": [
+        201
+      ],
+      "literalEvidencePages": [
+        201
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "4d05897d0400d24b3925e23312316bdf43d8736d22185d2c90b4a51724f44b17"
+    },
+    {
+      "id": "biblia-nt-032",
+      "reference": "Colossenses 3:23",
+      "pages": [
+        206
+      ],
+      "literalEvidencePages": [
+        206
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "73f7bd48f7d99a1126e2bf31a2370149c9d97f152caeab2f2df7f05738281cc7"
+    },
+    {
+      "id": "biblia-nt-033",
+      "reference": "1 Tessalonicenses 4:11–12",
+      "pages": [
+        209
+      ],
+      "literalEvidencePages": [
+        209
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "c0bd82da3214cc36b40587fbdc995ebed5a7a10bd18e8c843aea26dcd0b4bdc9"
+    },
+    {
+      "id": "biblia-nt-034",
+      "reference": "2 Tessalonicenses 3:11–12",
+      "pages": [
+        212
+      ],
+      "literalEvidencePages": [
+        212
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "01ed16f78b9a32a5fe47cb2289f13b23e5ecdfd982ac8b641b24b1a892967477"
+    },
+    {
+      "id": "biblia-nt-035",
+      "reference": "1 Timóteo 6:7–8",
+      "pages": [
+        216
+      ],
+      "literalEvidencePages": [
+        216
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "69e03532d17503363309d4484e43b298b62354b8cab267d8b55092486a6755a2"
+    },
+    {
+      "id": "biblia-nt-036",
+      "reference": "2 Timóteo 1:7",
+      "pages": [
+        217
+      ],
+      "literalEvidencePages": [
+        217
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "270145d5f7e582c8d2d70ef6f1027c5a206f263b41a5dfad99353026c34f4bb8"
+    },
+    {
+      "id": "biblia-nt-037",
+      "reference": "Tito 2:7–8",
+      "pages": [
+        220
+      ],
+      "literalEvidencePages": [
+        220
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "60a7bbaa52179b6bf0e1ebcd7d26528b81fe2b1d87261b0a0494c11497ac1609"
+    },
+    {
+      "id": "biblia-nt-038",
+      "reference": "Filemom 1:15–16",
+      "pages": [
+        222
+      ],
+      "literalEvidencePages": [
+        222
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "b72606465ac4f466db3c55598deeedb67b42bbc4eab22a385e5c2f854c5427b5"
+    },
+    {
+      "id": "biblia-nt-039",
+      "reference": "1 Pedro 3:15–16",
+      "pages": [
+        242
+      ],
+      "literalEvidencePages": [
+        242
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "d117227751ad74bcaf4b0d65920bda66a2ac7b21ab406fc07b6112629d356902"
+    },
+    {
+      "id": "biblia-nt-040",
+      "reference": "Apocalipse 3:20",
+      "pages": [
+        257
+      ],
+      "literalEvidencePages": [
+        257
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "b1b329dfb3bcdf24744f7e93dc06d80f1c0cc132c10e3dde8bc5dc9b9d4d6a21"
+    },
+    {
+      "id": "biblia-nt-041",
+      "reference": "Mateus 17:24–27",
+      "pages": [
+        21
+      ],
+      "literalEvidencePages": [
+        21
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "b948e03045466827d1c9f7b7eacdc0a1e83a660de7fef5f368c25fa1966123ac"
+    },
+    {
+      "id": "biblia-nt-042",
+      "reference": "Marcos 15:21",
+      "pages": [
+        57
+      ],
+      "literalEvidencePages": [
+        57
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "109ea6ccdea5fea62d2ab08a0a1a8789f7b50c3962cb5c730d8c00955b96912f"
+    },
+    {
+      "id": "biblia-nt-043",
+      "reference": "Lucas 24:13",
+      "pages": [
+        94
+      ],
+      "literalEvidencePages": [
+        94
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "f7296316ef8804441165d2518678c6786a4ab5d2357cb0ba50f7a3cb05fa2224"
+    },
+    {
+      "id": "biblia-nt-044",
+      "reference": "João 21:11",
+      "pages": [
+        120
+      ],
+      "literalEvidencePages": [
+        120
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "3fa830581a8e6d48125f579b4f94b9231f78cde39080830d9180f2985ccca928"
+    },
+    {
+      "id": "biblia-nt-045",
+      "reference": "Atos dos Apóstolos 18:24–26",
+      "pages": [
+        142
+      ],
+      "literalEvidencePages": [
+        142
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "2fcd5137846e9dbbe56d0db53e39087a60ee6eda76296f5ab4053bd551532711"
+    },
+    {
+      "id": "biblia-nt-046",
+      "reference": "Romanos 16:1–2",
+      "pages": [
+        168
+      ],
+      "literalEvidencePages": [
+        168
+      ],
+      "evidenceMethod": "native-text-visual-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "13e8335adee4251c46e8236bc3e7e478545d9ccd76610f94ae898c0200418591"
+    },
+    {
+      "id": "biblia-nt-047",
+      "reference": "1 Coríntios 16:8–9",
+      "pages": [
+        180
+      ],
+      "literalEvidencePages": [
+        180
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "4dd567273c9c0d0ff6c13b463872a98c56fdbdb7d7466fa91491425f2a0674f3"
+    },
+    {
+      "id": "biblia-nt-048",
+      "reference": "2 Coríntios 11:32–33",
+      "pages": [
+        187
+      ],
+      "literalEvidencePages": [
+        187
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "de6c35b05003281fb547e7eee91d83916aed77de3a49ab36c3382afe4c1f4982"
+    },
+    {
+      "id": "biblia-nt-049",
+      "reference": "Gálatas 2:11–12",
+      "pages": [
+        191
+      ],
+      "literalEvidencePages": [
+        191
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "6626c94c5acd9edaba7ad63a082c2a120aa4bd351e63b4718257e845d5269a85"
+    },
+    {
+      "id": "biblia-nt-050",
+      "reference": "Efésios 6:19–20",
+      "pages": [
+        199
+      ],
+      "literalEvidencePages": [
+        199
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "abc804dfdf62735a6146b201cd352b6944b242665adea0f5247021d0435b6e31"
+    },
+    {
+      "id": "biblia-nt-051",
+      "reference": "Filipenses 2:25",
+      "pages": [
+        201
+      ],
+      "literalEvidencePages": [
+        201
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "1593fd59fe78f4b76412ff3c06c5eba339c66e4fd8842b985f50efbc5b7c5b70"
+    },
+    {
+      "id": "biblia-nt-052",
+      "reference": "Colossenses 4:14",
+      "pages": [
+        207
+      ],
+      "literalEvidencePages": [
+        207
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "d54fbf25a57e6c060ef12ffe8907ef629f02f2ce2adb08477e2c1649975b2676"
+    },
+    {
+      "id": "biblia-nt-053",
+      "reference": "1 Tessalonicenses 5:20–21",
+      "pages": [
+        210
+      ],
+      "literalEvidencePages": [
+        210
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "85f4c31673f5999b87bfe8ca779b2d0b59ed8e520291feb9f5978bef7c4b5d8b"
+    },
+    {
+      "id": "biblia-nt-054",
+      "reference": "2 Tessalonicenses 2:15",
+      "pages": [
+        211
+      ],
+      "literalEvidencePages": [
+        211
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "8c977c06a577b093e44a02821e2da14c703d60fe184e8a0697a006dd8fa5139a"
+    },
+    {
+      "id": "biblia-nt-055",
+      "reference": "1 Timóteo 5:18",
+      "pages": [
+        215
+      ],
+      "literalEvidencePages": [
+        215
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "f10533d4447eb0dbb83d8703519f30793b41516fef82c9b31fe2f401be13e477"
+    },
+    {
+      "id": "biblia-nt-056",
+      "reference": "2 Timóteo 4:13",
+      "pages": [
+        219
+      ],
+      "literalEvidencePages": [
+        219
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "89fc14a8b20ad9913d93c24597e64213f20c8c5ee8eaa0cdea1085e76c4f4c63"
+    },
+    {
+      "id": "biblia-nt-057",
+      "reference": "Hebreus 11:23",
+      "pages": [
+        233
+      ],
+      "literalEvidencePages": [
+        233
+      ],
+      "evidenceMethod": "native-text",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "511b4f20c643517d12aeae8debf6a0c170adce4088bc341b4073e16383359498"
+    },
+    {
+      "id": "biblia-nt-058",
+      "reference": "2 Pedro 1:5–7",
+      "pages": [
+        245
+      ],
+      "literalEvidencePages": [
+        245
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "763df1ddb7390ffc01092e3e023dd552e583b56cd2e507c10f763c8267eb112e"
+    },
+    {
+      "id": "biblia-nt-059",
+      "reference": "2 João 1:5–6",
+      "pages": [
+        252
+      ],
+      "literalEvidencePages": [
+        252
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "aecace545da26db784a02d85ddd111394daef09085a3b6d439a7d7344bcc1fb7"
+    },
+    {
+      "id": "biblia-nt-060",
+      "reference": "3 João 1:9–10",
+      "pages": [
+        253
+      ],
+      "literalEvidencePages": [
+        253
+      ],
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "metadataMatchesVerseProvenance": true,
+      "correctAnswerSupported": true,
+      "summarySupported": true,
+      "singleCorrectAlternative": true,
+      "questionSha256": "a3cdc7f2f5fe92e5f6c9a014507b0ab917295fdf050c6dbd52cbae5eac911f41"
+    }
+  ],
+  "limits": [
+    "Literal evidence matching and this editorial review do not establish an absolute guarantee against every future editorial mistake.",
+    "Source PDF printed page numbers can differ from physical file pages; metadata uses the physical page accepted by #page links."
+  ]
+}

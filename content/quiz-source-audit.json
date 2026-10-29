@@ -1,0 +1,4388 @@
+{
+  "version": 1,
+  "mode": "published-catalog",
+  "status": "passed",
+  "externalSourcesUsed": false,
+  "method": "Strict literal evidence search in the supplied PDF pages; Unicode case/accent and layout normalization preserves letters and numbers. No fuzzy matching or internet source is used.",
+  "scope": "Reference integrity, source provenance and literal evidence. This does not replace the separate editorial review of each prompt, alternatives, answer and explanatory assertion.",
+  "counts": {
+    "bibleQuizzes": 12,
+    "bibleQuestions": 120,
+    "studyQuizzes": 14,
+    "studyQuestions": 112,
+    "bibleDifficulties": {
+      "easy": 40,
+      "medium": 40,
+      "hard": 40
+    },
+    "studyDifficulties": {
+      "easy": 34,
+      "medium": 50,
+      "hard": 28
+    }
+  },
+  "sourceFiles": {
+    "study-1": {
+      "file": "study-1.pdf",
+      "sha256": "0d8e3ddd6dea6dfc0adcc6e96798b6da924991b92e26867ac104879a28c526e8",
+      "pages": 15
+    },
+    "study-2": {
+      "file": "study-2.pdf",
+      "sha256": "0cf39673ab9bd3551fab03a629d89fca70fe4b07ab37dc4c1e3d70a40dffd072",
+      "pages": 89
+    },
+    "study-3": {
+      "file": "study-3.pdf",
+      "sha256": "06786a9fdbb5ff794ad3f8807ddda7d36edff8549ad2b51ca5f7ea5004215e60",
+      "pages": 68
+    },
+    "study-4": {
+      "file": "study-4.pdf",
+      "sha256": "56836b86b447a58645fc886430267c7963d165652ed4ec53dbaec456037ed59b",
+      "pages": 75
+    },
+    "gospels": {
+      "file": "gospels.pdf",
+      "sha256": "c0ef2c1ce510de28f10e241e928b7d51dda2cbb72bd87f2c6fbd09140bfb65b8",
+      "pages": 4
+    },
+    "at": {
+      "file": "at.pdf",
+      "sha256": "c9a3da3183032f9b976e434fe17a8a212270367d0b72d6b4b3bb19307aa31bb8",
+      "pages": 1098
+    },
+    "nt": {
+      "file": "nt.pdf",
+      "sha256": "2f1632602ed900d0b78f0b71191bc6943f7e54da1bc713143e5a62e0016a07d5",
+      "pages": 273
+    }
+  },
+  "questions": [
+    {
+      "id": "biblia-at-001",
+      "quizId": "quiz-biblia-at-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 1,
+        "bookId": "genesis",
+        "bookName": "Gênesis",
+        "chapter": 1,
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      "reference": "Gênesis 1:1",
+      "evidenceSha256": "ce63c9303e461774b89ee9d0928621ff9c229bdeffe954d5b6eb533d3a30c9e7",
+      "explanationSha256": "e1a61fb0b997c5ff0590f06d210216afd97e99e59a703329e4cf42f48f389ae7",
+      "sourceTextSha256": "9663f57c35e5fd116f193a33003a27d39a56ba26478df0fd40569613e73f135c",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-002",
+      "quizId": "quiz-biblia-at-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 6,
+        "bookId": "genesis",
+        "bookName": "Gênesis",
+        "chapter": 6,
+        "verseStart": 13,
+        "verseEnd": 14
+      },
+      "reference": "Gênesis 6:13–14",
+      "evidenceSha256": "34da98d590433645c0067cfbafdb351354e8ead4c4a63da18badb9b7f4c11138",
+      "explanationSha256": "32fc2ddb353dc07c878e9cd384ce0f6eaf5a1b8aef9ec2bb42df03669a9d6ce9",
+      "sourceTextSha256": "a61ce886c7da7241939ce1ef9cd6db84bed6c6f3fbf10b8e553f825443a15f71",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-003",
+      "quizId": "quiz-biblia-at-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 50,
+        "bookId": "exodo",
+        "bookName": "Êxodo",
+        "chapter": 3,
+        "verseStart": 4,
+        "verseEnd": 4
+      },
+      "reference": "Êxodo 3:4",
+      "evidenceSha256": "0e39016151a1e7f51f63f77f5d65e4351a5d1fc3c1835f8629c8709856a47a18",
+      "explanationSha256": "a314cff2f394592b670f4f7298f63834268d66283c810f3990870c4da602eeab",
+      "sourceTextSha256": "a7d281610b66533a07c1e47bb694798cbb57157397953fe5fe2461cdc1929432",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-004",
+      "quizId": "quiz-biblia-at-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 60,
+        "bookId": "exodo",
+        "bookName": "Êxodo",
+        "chapter": 14,
+        "verseStart": 21,
+        "verseEnd": 21
+      },
+      "reference": "Êxodo 14:21",
+      "evidenceSha256": "e9f2ef60da7f85f73cd18efbb3a25bb60c5024d9b10adf062a9e558e5834990b",
+      "explanationSha256": "56b862c862701cb90f9141377d3a925539d04c9f14c711fcb1d3d0981949b84b",
+      "sourceTextSha256": "1e9728d57b962abc52bf8b8889346125c2ce1669e672ba135b71680f56c16446",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-005",
+      "quizId": "quiz-biblia-at-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 98,
+        "bookId": "levitico",
+        "bookName": "Levítico",
+        "chapter": 19,
+        "verseStart": 18,
+        "verseEnd": 18
+      },
+      "reference": "Levítico 19:18",
+      "evidenceSha256": "6568bcdddd854b45c1d2d8aa6a561879ca6d591b72d34e86fc6de52011f6539e",
+      "explanationSha256": "7546964d7bc9858557cebccd3e199e299e2ebd4a066904ef240cd49684ee644e",
+      "sourceTextSha256": "8104ea8565b4b722ed20b0db3e2ecfa27ecd85afc917d1ac4725ca36899e9d6a",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-006",
+      "quizId": "quiz-biblia-at-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 122,
+        "bookId": "numeros",
+        "bookName": "Números",
+        "chapter": 13,
+        "verseStart": 23,
+        "verseEnd": 23
+      },
+      "reference": "Números 13:23",
+      "evidenceSha256": "4cde0071a6b5786a4916c20005b02ddb0d4a2b74956acd254b11eb2c20c0cc08",
+      "explanationSha256": "ee746fcb39b5bd661cc4378622f5e0ff70b614d59179dd44b35b483eeaa6896d",
+      "sourceTextSha256": "698c1059b3610f866e737826c1e8928215b09717b9db14072db2e472c9bc93e4",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-007",
+      "quizId": "quiz-biblia-at-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 153,
+        "bookId": "deuteronomio",
+        "bookName": "Deuteronômio",
+        "chapter": 6,
+        "verseStart": 5,
+        "verseEnd": 5
+      },
+      "reference": "Deuteronômio 6:5",
+      "evidenceSha256": "df67fae02d9e3ffb1ae787a58cba49862481bd2b87002a3423cf458571e434b9",
+      "explanationSha256": "c2d4c0425f3becbfe556a774ddbee0e4e4340a2b22007289b8a9654a8044e314",
+      "sourceTextSha256": "4eff7b3107ac6d0ff61fc3152f6342460834ece28e67e6f6c15fbc68ab4f514b",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-008",
+      "quizId": "quiz-biblia-at-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 184,
+        "bookId": "josue",
+        "bookName": "Josué",
+        "chapter": 6,
+        "verseStart": 20,
+        "verseEnd": 20
+      },
+      "reference": "Josué 6:20",
+      "evidenceSha256": "47cbb14cd2ef0a9a85a7db133d22ed16f57e60e1cff87728ee1c1491802f8d5d",
+      "explanationSha256": "29a9e419add5c592c0204ae6584b18100b8e9eb80a69ace961b22efced59dc3f",
+      "sourceTextSha256": "98d3ec4ff7ffd9fcb8a47a278c2d645add179390c69a5491056b8e5ee19d4300",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-009",
+      "quizId": "quiz-biblia-at-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 207,
+        "bookId": "juizes",
+        "bookName": "Juízes",
+        "chapter": 6,
+        "verseStart": 11,
+        "verseEnd": 12
+      },
+      "reference": "Juízes 6:11–12",
+      "evidenceSha256": "9059e7117fae244983021e5c8c582a77cdd436d2d9d616c95339646b7c9991e0",
+      "explanationSha256": "a8771dcfc1d9de09590af7437b4aba53bc5d6285d796e73c12859f5574dd6ba8",
+      "sourceTextSha256": "02fa2fd2e11f3ebe4d7d1e7b734e8fce367f2697da8d54dfcaf5df739f5a1a94",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-010",
+      "quizId": "quiz-biblia-at-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 223,
+        "bookId": "rute",
+        "bookName": "Rute",
+        "chapter": 1,
+        "verseStart": 15,
+        "verseEnd": 16
+      },
+      "reference": "Rute 1:15–16",
+      "evidenceSha256": "ae582bfc242b4b366697d2a18dabda4960b907e191bade808bd3699eceb757a6",
+      "explanationSha256": "8325158e50de00998e8057889d1a08a6733f324bdd15c6dc7cf29f1823108c0b",
+      "sourceTextSha256": "974210641dc3c0357ae1e5c947d8ab9254ff8005321ea68b6a6b9c64557f8fbc",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-011",
+      "quizId": "quiz-biblia-at-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 242,
+        "bookId": "1-samuel",
+        "bookName": "1 Samuel",
+        "chapter": 17,
+        "verseStart": 39,
+        "verseEnd": 40
+      },
+      "reference": "1 Samuel 17:39–40",
+      "evidenceSha256": "b70612b611a262b48fc6792e729a5056f45997efe20a8c6ac09891f7c35b09f8",
+      "explanationSha256": "25b6a99967a2aca4f3ac4f14fa4c9b2703c6aeb319e634ad8bba1ee6948fb36c",
+      "sourceTextSha256": "b3ac6f7cc4044c0bb3e0daa8b1a7cdfd336a5f1a613b119d8de6042bed93fa92",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-012",
+      "quizId": "quiz-biblia-at-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 260,
+        "bookId": "2-samuel",
+        "bookName": "2 Samuel",
+        "chapter": 6,
+        "verseStart": 14,
+        "verseEnd": 14
+      },
+      "reference": "2 Samuel 6:14",
+      "evidenceSha256": "afc0d19d9ea12411939c430ae879c2409bbf6fd41962090bff6662d337cf11ea",
+      "explanationSha256": "ea2f6f5e0dcb59a9174a259ab7200e020998676a61068cbfea55ae6f904229fb",
+      "sourceTextSha256": "7ab0e5f2cc6155f0e0b30142ed8d4dae00c3d3dfbd6f65bbcf31215af630e2ba",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-013",
+      "quizId": "quiz-biblia-at-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 285,
+        "bookId": "1-reis",
+        "bookName": "1 Reis",
+        "chapter": 3,
+        "verseStart": 9,
+        "verseEnd": 9
+      },
+      "reference": "1 Reis 3:9",
+      "evidenceSha256": "c877e8c02c6b271e6b7738067a6f739b3a38dc4bccacb053745896980b51846b",
+      "explanationSha256": "94c1ce5c9883d26e8c6287b78662786128da16f2c1509b20eeddd7b27cfb7c59",
+      "sourceTextSha256": "771434c6ccc0d001af6018ff65583d4a3131eaf38a79b9a14081048b97925333",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-014",
+      "quizId": "quiz-biblia-at-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 312,
+        "bookId": "2-reis",
+        "bookName": "2 Reis",
+        "chapter": 5,
+        "verseStart": 14,
+        "verseEnd": 15
+      },
+      "reference": "2 Reis 5:14–15",
+      "evidenceSha256": "48297c7b5600dd893761353ccd9667fce3902e4f027862be4674b7b5d7859b1d",
+      "explanationSha256": "0e88da12960ad650ee4da02f0882fb2fbb1f0834cea61656dc818183668f529d",
+      "sourceTextSha256": "192afbb5aa816bb9d509fc7375f797572be175a4c1c0899fcdc58345746765d6",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-015",
+      "quizId": "quiz-biblia-at-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 356,
+        "bookId": "1-cronicas",
+        "bookName": "1 Crônicas",
+        "chapter": 16,
+        "verseStart": 34,
+        "verseEnd": 34
+      },
+      "reference": "1 Crônicas 16:34",
+      "evidenceSha256": "8991bc47ebd7be7306f13bd34d3d58a6d217772826ccb5b6b51665e6b31b012a",
+      "explanationSha256": "e32540cb93907f51c3adaf1c336e5772648a4d9e3fe0326ca0cf23e6015d0f2a",
+      "sourceTextSha256": "b9a30162328e3cce5cb3a494758e04b60ecbaf8f68cff29e8f6b489400230311",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-016",
+      "quizId": "quiz-biblia-at-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 403,
+        "bookId": "esdras",
+        "bookName": "Esdras",
+        "chapter": 3,
+        "verseStart": 11,
+        "verseEnd": 11
+      },
+      "reference": "Esdras 3:11",
+      "evidenceSha256": "5eb6252badecd57b7788568a81607306ab7382c07a4aa3223c92032c4caaaa6a",
+      "explanationSha256": "dc00e81f61b0f6b26e432870584a4b8fc6543ebe5e1fbc18451a8c5e3779869d",
+      "sourceTextSha256": "562418cdc0710feea94fad6916eb4aba4c77a87786ec25090fffff6d7c425a6b",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-017",
+      "quizId": "quiz-biblia-at-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 413,
+        "bookId": "neemias",
+        "bookName": "Neemias",
+        "chapter": 2,
+        "verseStart": 18,
+        "verseEnd": 18
+      },
+      "reference": "Neemias 2:18",
+      "evidenceSha256": "3d6d54e8620a53741bfa3e01c752b54700bbfc58df6e58c257219c721314c75d",
+      "explanationSha256": "c0da3fea837a60c59f7bfe09e3b88545c8aacceb9d12aa366a51b36a28c1b3c9",
+      "sourceTextSha256": "c3b739d68df63ec3aca44690b8356e89bfd83518a90b884dee31cf6367bf2586",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-018",
+      "quizId": "quiz-biblia-at-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 429,
+        "bookId": "ester",
+        "bookName": "Ester",
+        "chapter": 4,
+        "verseStart": 15,
+        "verseEnd": 16
+      },
+      "reference": "Ester 4:15–16",
+      "evidenceSha256": "d8967c78d4beb678f0bd41869aa2fe3b76d17874c707c6672aa7eb9f53179f99",
+      "explanationSha256": "ce80b8eb326e8da09ce70e2e3c2c4c1a190adcbd03f9fe6fb30aae48129f15b0",
+      "sourceTextSha256": "b74de0465106f433596e5bd41986993f90d92184d705824f68579398d69cc1f2",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-019",
+      "quizId": "quiz-biblia-at-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 519,
+        "bookId": "salmos",
+        "bookName": "Salmos",
+        "chapter": 23,
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      "reference": "Salmos 23:1",
+      "evidenceSha256": "0d46b6b77ea18cb63af224837a8dd82e3bd89ee80a69d1c570557a9461b8e819",
+      "explanationSha256": "d0a2561ac764e364f67a0dd9c8c12a9afc889ca1c83b308d8ed3fe5499303b37",
+      "sourceTextSha256": "babfa474b1c77846b952fd534fe1235b8848a07550e622affcd938ce33449f29",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-020",
+      "quizId": "quiz-biblia-at-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "at",
+        "page": 1057,
+        "bookId": "jonas",
+        "bookName": "Jonas",
+        "chapter": 1,
+        "verseStart": 17,
+        "verseEnd": 17
+      },
+      "reference": "Jonas 1:17",
+      "evidenceSha256": "87887b04ba4ff91e5ff79949ba49d0de1d81a7fe6a3b22c541fe5e5c144d5d03",
+      "explanationSha256": "20d1d788f42db3364e22f2a3b38202c2c28659dc2174ee43471bc8683b1af8c2",
+      "sourceTextSha256": "42d3772333bb002a2f4fff76142ef5c6693757cd406276dffa5b2099ec30c432",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-021",
+      "quizId": "quiz-biblia-at-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 37,
+        "bookId": "genesis",
+        "bookName": "Gênesis",
+        "chapter": 41,
+        "verseStart": 29,
+        "verseEnd": 30
+      },
+      "reference": "Gênesis 41:29–30",
+      "evidenceSha256": "3344c9adb57f15edc8738448530b82441a0f31ee53c3ef89e298174d39562339",
+      "explanationSha256": "8d23f0b2a0a1b20ace9852f064b26a26c195ff8d6e75deaaa9db11ea301d3c3a",
+      "sourceTextSha256": "997fdf7408f9b42b133405f2314b21a73951e98b698d927a0b4b512716312648",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-022",
+      "quizId": "quiz-biblia-at-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 63,
+        "bookId": "exodo",
+        "bookName": "Êxodo",
+        "chapter": 16,
+        "verseStart": 31,
+        "verseEnd": 31
+      },
+      "reference": "Êxodo 16:31",
+      "evidenceSha256": "b52439b39792ea1ced516188d397364f13993f065b4387854ca2f57ce68babe5",
+      "explanationSha256": "dd8d58a94a0b3de913d8081bffbb67240563dd677b032b9f067d7b1ceec62ff5",
+      "sourceTextSha256": "febe29fb4b5746960396cf1929ecab1f0f46cbb05a044c98061c9bbd167e1f7e",
+      "evidenceMethod": "native-text-visual-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-023",
+      "quizId": "quiz-biblia-at-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 114,
+        "bookId": "numeros",
+        "bookName": "Números",
+        "chapter": 6,
+        "verseStart": 24,
+        "verseEnd": 26
+      },
+      "reference": "Números 6:24–26",
+      "evidenceSha256": "3b24d992c5deecad0d8c484dbb89501a44c398d20c623b310cf4979b93c1b244",
+      "explanationSha256": "a2ac798bffead9e575d96c22484e92538cbbbfcf1d356261ade3aec439092cd1",
+      "sourceTextSha256": "bb8acf1e832177d90c863f2ccc85226fc532db2a59bbf0f60159a1f1fcbe15af",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-024",
+      "quizId": "quiz-biblia-at-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 155,
+        "bookId": "deuteronomio",
+        "bookName": "Deuteronômio",
+        "chapter": 8,
+        "verseStart": 3,
+        "verseEnd": 3
+      },
+      "reference": "Deuteronômio 8:3",
+      "evidenceSha256": "b102f2418344fa4f275d60390be085f28c4694e1176b532f37bc63ccc6d66438",
+      "explanationSha256": "007ae6d5671b6e810bf07cfeb07fc2d4921dbbac94393ed45aaa00c8578871cc",
+      "sourceTextSha256": "6c58f1616e4bed429c8fa0a6b23dc0ba622124996fc98fe9cdf497c2ca7c5bf9",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-025",
+      "quizId": "quiz-biblia-at-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 199,
+        "bookId": "josue",
+        "bookName": "Josué",
+        "chapter": 24,
+        "verseStart": 15,
+        "verseEnd": 15
+      },
+      "reference": "Josué 24:15",
+      "evidenceSha256": "e661e6462e12d69220d92c8be77f832c179e9d0524bbad5cddd8b1f960c84e22",
+      "explanationSha256": "8e69df722774bfdc53e1f953f00b3f2baff12f527f515ee3dcaefcbfd3059959",
+      "sourceTextSha256": "d9d7f9fc04b0584cfbac0bf8a34d92577d0067f5c276f6127e6a02bc3b5ea0a4",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-026",
+      "quizId": "quiz-biblia-at-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 203,
+        "bookId": "juizes",
+        "bookName": "Juízes",
+        "chapter": 4,
+        "verseStart": 4,
+        "verseEnd": 5
+      },
+      "reference": "Juízes 4:4–5",
+      "evidenceSha256": "4020f05b6f14b5c5aa2cec5e90df53ff1a3714c2dd5498313c30b53152393f93",
+      "explanationSha256": "2deaff05c3b5c0019265276c4974a51f92c668bb0ed29bb6d2ca2d36f76c8f8c",
+      "sourceTextSha256": "d045d90b26fa800e6b96e2b45886ccbadc3d14f6ab65fab57a37ecfe1d8a429a",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-027",
+      "quizId": "quiz-biblia-at-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 224,
+        "bookId": "rute",
+        "bookName": "Rute",
+        "chapter": 2,
+        "verseStart": 8,
+        "verseEnd": 9
+      },
+      "reference": "Rute 2:8–9",
+      "evidenceSha256": "a1de55009abb27afe699e7dcb62a0780e243a9e7829398f79fd2283ab9bd8153",
+      "explanationSha256": "48303c7abe11fc175e4f25f40c8747f92a41a191dd81264b9a7f57506958e62a",
+      "sourceTextSha256": "c35956eb14327596ab0ce6ee6a07059035a5e04b60e9373f58f7b0fe3da2faa1",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-028",
+      "quizId": "quiz-biblia-at-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 230,
+        "bookId": "1-samuel",
+        "bookName": "1 Samuel",
+        "chapter": 3,
+        "verseStart": 9,
+        "verseEnd": 10
+      },
+      "reference": "1 Samuel 3:9–10",
+      "evidenceSha256": "3fad1b9aeea3ba965e84b06749af1194dfb88da5fb9839d1d25e51591a4fad6a",
+      "explanationSha256": "75162c53457b84873b6b36479a6fe6b806df9858129d4a12fec83b63506827a9",
+      "sourceTextSha256": "9177e78836fe2240cf9828856553f089acde5a57cb76403feb80805907f39378",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-029",
+      "quizId": "quiz-biblia-at-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 303,
+        "bookId": "1-reis",
+        "bookName": "1 Reis",
+        "chapter": 19,
+        "verseStart": 11,
+        "verseEnd": 12
+      },
+      "reference": "1 Reis 19:11–12",
+      "evidenceSha256": "dc25f6d07a5c31a468fcbfa0d04172520f27fc324fe4e43f0d0053da8bf6a929",
+      "explanationSha256": "3957fdf4a82184a4845d7bb0ee1cf162a8dafcb164a3127b2a4913cd8ee3a86c",
+      "sourceTextSha256": "1ab13e692970bc282e5c9fbe4e6cc67cd467b05062439f3f9cc92fbdc4d7ed70",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-030",
+      "quizId": "quiz-biblia-at-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 329,
+        "bookId": "2-reis",
+        "bookName": "2 Reis",
+        "chapter": 22,
+        "verseStart": 8,
+        "verseEnd": 8
+      },
+      "reference": "2 Reis 22:8",
+      "evidenceSha256": "96377c38ed2b7963d82b82310342d9dfe321c0da18664daf237e0a369cf4afb2",
+      "explanationSha256": "3805c6687b88a8af0dde3108f1e375023e3d32a8ebf3daf06eff93980f03b85e",
+      "sourceTextSha256": "52b7d5db01c6019107e0d4a90877331672142501485f5e3cf5b01312822a8fa2",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-031",
+      "quizId": "quiz-biblia-at-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 385,
+        "bookId": "2-cronicas",
+        "bookName": "2 Crônicas",
+        "chapter": 20,
+        "verseStart": 21,
+        "verseEnd": 21
+      },
+      "reference": "2 Crônicas 20:21",
+      "evidenceSha256": "c87aa878f4b42dffc0d51de74e2bbe91bb43d1e7fd3a75a931694aab3f9d3452",
+      "explanationSha256": "6241297f9a9851987ca63e8f81726010770923d6535b6a372e52ef1b73b26cd2",
+      "sourceTextSha256": "936ef62522ade655764c9ce461f378c405e8d9d0d0dfb0a2d35abfff64d07c2d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-032",
+      "quizId": "quiz-biblia-at-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 406,
+        "bookId": "esdras",
+        "bookName": "Esdras",
+        "chapter": 7,
+        "verseStart": 10,
+        "verseEnd": 10
+      },
+      "reference": "Esdras 7:10",
+      "evidenceSha256": "fe9ef5194b637e8dc7ca9c48d43ee4e821b81f8a166539ac00a6efb402c8e528",
+      "explanationSha256": "ea1ba231a14b0260e441f43181427bf5412a2dfdf8d1c0757503ab597fb88258",
+      "sourceTextSha256": "e35ba960470334e4d57ebcbcc17db227b67199fb7750f988ce6b572f19a26de9",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-033",
+      "quizId": "quiz-biblia-at-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 419,
+        "bookId": "neemias",
+        "bookName": "Neemias",
+        "chapter": 8,
+        "verseStart": 8,
+        "verseEnd": 8
+      },
+      "reference": "Neemias 8:8",
+      "evidenceSha256": "3fcccf43ab57875707b2b751a3fbcd4ec7fd9c07b58f24b3f0e4a15470bd0e95",
+      "explanationSha256": "3d1cd92f7698bb212b6e1a266c9e564b90551ec2cab6fc7dea605931d372ba5c",
+      "sourceTextSha256": "3602a7bd7735122e673108e56e04fa8abda231af101558ed197f4dfd4139bcfa",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-034",
+      "quizId": "quiz-biblia-at-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 434,
+        "bookId": "jo",
+        "bookName": "Jó",
+        "chapter": 2,
+        "verseStart": 11,
+        "verseEnd": 11
+      },
+      "reference": "Jó 2:11",
+      "evidenceSha256": "d4c9d7610bd85626de2051b7c652502c6dcd3f8aebb967c35e39bc6146010510",
+      "explanationSha256": "5a31060d54d689e19ef8e80563295f5d197ea384a325168919cdcd08543f02de",
+      "sourceTextSha256": "7693284e5b67b04994526dd6aa5b1f61acb787b53088fd7bcbc40123460d960f",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-035",
+      "quizId": "quiz-biblia-at-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 672,
+        "bookId": "proverbios",
+        "bookName": "Provérbios",
+        "chapter": 15,
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      "reference": "Provérbios 15:1",
+      "evidenceSha256": "ffd98c94e005fbcb8285abb692bfe147e58d6a7b3b33262c5d8ae1a583fe957c",
+      "explanationSha256": "ff89841962d87c7b1ab335968bbf56edf9a4d78a91e1c6c2ca6926861fd310b4",
+      "sourceTextSha256": "c69dcc690587c83dc9d1604e0963c66cf213b07b91a6a29abc66b3e3b769da7a",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-036",
+      "quizId": "quiz-biblia-at-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 709,
+        "bookId": "eclesiastes",
+        "bookName": "Eclesiastes",
+        "chapter": 3,
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      "reference": "Eclesiastes 3:1",
+      "evidenceSha256": "83a04d35adfc4df4fd8465b10303213f6c596309671822ee353f998c7a9953a3",
+      "explanationSha256": "8c413c9f613a78c873ff43ac6a72c443015d93b47299bce51947be4c8fe5883d",
+      "sourceTextSha256": "f3dc6eda3faa11149e5efef21bbb7a23d6f1b94190f8f59d19a12813eee567f7",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-037",
+      "quizId": "quiz-biblia-at-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 732,
+        "bookId": "cantico-dos-canticos",
+        "bookName": "Cântico dos Cânticos",
+        "chapter": 8,
+        "verseStart": 7,
+        "verseEnd": 7
+      },
+      "reference": "Cântico dos Cânticos 8:7",
+      "evidenceSha256": "0f9e9535643050e4fdadac9d6efd277874ae74244e29ab09255ab27263a3abea",
+      "explanationSha256": "a5fc385edea415cb22632808d0a488447770d005492291c04d6b00af1e3ac1b1",
+      "sourceTextSha256": "78a216f0838fac225e9c4cdfa27fb81e1a2c9d5051ada8558ebb8291dff43cf1",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-038",
+      "quizId": "quiz-biblia-at-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 743,
+        "bookId": "isaias",
+        "bookName": "Isaías",
+        "chapter": 6,
+        "verseStart": 8,
+        "verseEnd": 8
+      },
+      "reference": "Isaías 6:8",
+      "evidenceSha256": "1dd06de4864a55c8436d6b51b2f0cdb6510444d0cf42aa012bbd9456eb896235",
+      "explanationSha256": "e3f0c7258d5efefd80db94a04f06f478548186d0c796e9a8f33cc846068318b3",
+      "sourceTextSha256": "05f9efa9918b17ad3ca963ccbeacfd86767bd0d24337c30d4e72530e2a200b8f",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-039",
+      "quizId": "quiz-biblia-at-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 885,
+        "bookId": "jeremias",
+        "bookName": "Jeremias",
+        "chapter": 18,
+        "verseStart": 6,
+        "verseEnd": 6
+      },
+      "reference": "Jeremias 18:6",
+      "evidenceSha256": "8a86c9631bd7f37753cb3967d98fef6ac959246f8573342a4a55f9d114b4b553",
+      "explanationSha256": "29c43f7fb3b7c720ff6b69806b31d46438da18d0089965c697e4fdaff40437e0",
+      "sourceTextSha256": "f88751d098ddb6e1fe57e65a17ee1a10f4476bda03ae41d56fa671b5b6944729",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-040",
+      "quizId": "quiz-biblia-at-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "at",
+        "page": 1008,
+        "bookId": "daniel",
+        "bookName": "Daniel",
+        "chapter": 6,
+        "verseStart": 10,
+        "verseEnd": 10
+      },
+      "reference": "Daniel 6:10",
+      "evidenceSha256": "cc981fe876f1a2a0ff00f36386b6b6fd4784d645011f1b472ef86bf20befa055",
+      "explanationSha256": "db04e6739067a58f2a7d06ddd12b4e197560708cc54d76869d614e3576832aed",
+      "sourceTextSha256": "765faefb8f50fcbd5f2e89218d7192abb0c5535245aca1031ca597a235d5b1aa",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-041",
+      "quizId": "quiz-biblia-at-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 104,
+        "bookId": "levitico",
+        "bookName": "Levítico",
+        "chapter": 25,
+        "verseStart": 10,
+        "verseEnd": 10
+      },
+      "reference": "Levítico 25:10",
+      "evidenceSha256": "687d019f4148761d25b92764994e3f59e9bf9018d225294f46dc937de2b7b518",
+      "explanationSha256": "a4c559d6b9ccc92c453390d7eb7e6cabb8d07a18d638b67ff89eff2e59cb1257",
+      "sourceTextSha256": "d1ffc79876a01797f6e7f2a442e4f53c7d112c1ab73cc7db664e9ca2948bea00",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-042",
+      "quizId": "quiz-biblia-at-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 138,
+        "bookId": "numeros",
+        "bookName": "Números",
+        "chapter": 27,
+        "verseStart": 1,
+        "verseEnd": 4
+      },
+      "reference": "Números 27:1–4",
+      "evidenceSha256": "f790aa1319c6d751504a41d2ddf980ee9442c6202b5fa33ef2f9d8dc4f30b6a5",
+      "explanationSha256": "fc18acf0743ff5a1f29484e52d22c77503ee70c5d76eaa4a6dfaa90e0d45865a",
+      "sourceTextSha256": "617612de6dcc9d5996218e1a696ed4064953147ab2e773ea8f6dd0c3c3605fa4",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-043",
+      "quizId": "quiz-biblia-at-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 164,
+        "bookId": "deuteronomio",
+        "bookName": "Deuteronômio",
+        "chapter": 22,
+        "verseStart": 8,
+        "verseEnd": 8
+      },
+      "reference": "Deuteronômio 22:8",
+      "evidenceSha256": "f3e43101d8921c602f29c809620f5a2ea8405963c6d63ec8183178be885d5808",
+      "explanationSha256": "558d6c2d8fc02e1ae5700df6f5a4f0732368b35448158166d1b5e3d2826edabd",
+      "sourceTextSha256": "95412fbb5399e5bae01ea9e3261da46e99d2c97f39eae0c4c14718b581bed3a4",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-044",
+      "quizId": "quiz-biblia-at-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 339,
+        "bookId": "1-cronicas",
+        "bookName": "1 Crônicas",
+        "chapter": 4,
+        "verseStart": 9,
+        "verseEnd": 10
+      },
+      "reference": "1 Crônicas 4:9–10",
+      "evidenceSha256": "b3c3ca237bd616decd0d9f6a98a3f876a04d38a856bc22338eed0eba5da170b9",
+      "explanationSha256": "ad596ab00268f283ab9e1a6ce535245737a7b78f3008dcacd167ebadac6f264a",
+      "sourceTextSha256": "1c15aeb5262a5d9f5b506aa5f93ceb6832fdfe7ac745517b16ccbc307ffba0e4",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-045",
+      "quizId": "quiz-biblia-at-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 499,
+        "bookId": "jo",
+        "bookName": "Jó",
+        "chapter": 42,
+        "verseStart": 10,
+        "verseEnd": 10
+      },
+      "reference": "Jó 42:10",
+      "evidenceSha256": "cc6250bb5b09c3230627a6b462c981dfe134281ea4c203e5e5a2d59ec58c6247",
+      "explanationSha256": "f25a5988e4357e5fdd5668e562c20c3e95ee99dd70cd3bb57049121493591cf4",
+      "sourceTextSha256": "572f648d4dc37a88dbd40329b07ed25edd2abf56c5e52b8c9f61bbcf50e1dbd5",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-046",
+      "quizId": "quiz-biblia-at-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 704,
+        "bookId": "proverbios",
+        "bookName": "Provérbios",
+        "chapter": 30,
+        "verseStart": 24,
+        "verseEnd": 28
+      },
+      "reference": "Provérbios 30:24–28",
+      "evidenceSha256": "4de12d4763f180c9a1c2da62ce2f52041b726741d62a355ac4fcf71b32fbeda9",
+      "explanationSha256": "480a29f6884d63a9ea505d733193a5444258bd6c2b363045f6b42f12176d3bee",
+      "sourceTextSha256": "7aa3597c0eedcd93e0ef489f8a293bb761e861433731b6e8413d8725c78ec1a6",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-047",
+      "quizId": "quiz-biblia-at-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 720,
+        "bookId": "eclesiastes",
+        "bookName": "Eclesiastes",
+        "chapter": 11,
+        "verseStart": 4,
+        "verseEnd": 4
+      },
+      "reference": "Eclesiastes 11:4",
+      "evidenceSha256": "0d75d1b35a0d1b315b339571e33263144494c5b446498a762221567b3bac7ff2",
+      "explanationSha256": "980af803c1737c09dc52d09a96bc98c6dc09c35fcd082ec953e9433c08605c7f",
+      "sourceTextSha256": "fcba73803cfdb72ae7515dfd4e47a2042c89891f571fd91468a5ff96ed9a621b",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-048",
+      "quizId": "quiz-biblia-at-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 947,
+        "bookId": "lamentacoes",
+        "bookName": "Lamentações",
+        "chapter": 3,
+        "verseStart": 22,
+        "verseEnd": 23
+      },
+      "reference": "Lamentações 3:22–23",
+      "evidenceSha256": "a2ec0a5de1a9b0527ef94b8ab8167490c934a73dfb836984a0e047730e44cf97",
+      "explanationSha256": "3e12a2dbe5365713e03ecea7f242a4b94ead48a9dffcb2ab36890fa27f03cd82",
+      "sourceTextSha256": "aee782a7371741afd954df0b3a07d0afb83ee1367b4b16cfcb61958d96d35bb3",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-049",
+      "quizId": "quiz-biblia-at-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 999,
+        "bookId": "ezequiel",
+        "bookName": "Ezequiel",
+        "chapter": 47,
+        "verseStart": 12,
+        "verseEnd": 12
+      },
+      "reference": "Ezequiel 47:12",
+      "evidenceSha256": "24fae3fc1119a8fd29736858ab89d8dfb7f989b86c502595e98ca653b16e2bc5",
+      "explanationSha256": "ccb46d1f5aea8fdc20146b7364f5bd9b5a42c3c519ba9256d725a303c29cb882",
+      "sourceTextSha256": "670ddae236c2465b1ef9599c77adb40f7c72e162e95ddad6933061eca7fc9bcd",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-050",
+      "quizId": "quiz-biblia-at-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 1022,
+        "bookId": "oseias",
+        "bookName": "Oséias",
+        "chapter": 6,
+        "verseStart": 6,
+        "verseEnd": 6,
+        "pages": [
+          1022,
+          1023
+        ]
+      },
+      "reference": "Oséias 6:6",
+      "evidenceSha256": "0e5ca83dfbb200da10df23d7210ee94a105234be560d78bb9975c4ec977feced",
+      "explanationSha256": "dbb29a0bd87e2671934c453d3eb2c15b8949d925af71f11231bcb140a28d72f1",
+      "sourceTextSha256": "93f5f4ee6860fe661466aeed764dc01bd83217ef1ff0a337100b783f5c3e29b2",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-051",
+      "quizId": "quiz-biblia-at-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 1039,
+        "bookId": "joel",
+        "bookName": "Joel",
+        "chapter": 2,
+        "verseStart": 28,
+        "verseEnd": 28
+      },
+      "reference": "Joel 2:28",
+      "evidenceSha256": "566d80bcec25c4615b849b6b43801576e89836110b92fa03724c3df5cac0e745",
+      "explanationSha256": "bd16a463de4b367d222e4e7e622a95e915561cfa2196a3414f1d696b86ba00a4",
+      "sourceTextSha256": "45cac1357c6d85462db0ae9d54725b6d13756d3d9115719c1fee6b80c0f49185",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-052",
+      "quizId": "quiz-biblia-at-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 1051,
+        "bookId": "amos",
+        "bookName": "Amós",
+        "chapter": 7,
+        "verseStart": 14,
+        "verseEnd": 14
+      },
+      "reference": "Amós 7:14",
+      "evidenceSha256": "fe7aea7694a9da09edf15f13db982ccd72a37114dc4381b8ce58ca108f77f320",
+      "explanationSha256": "131ba4c0f310b8b69838f9ff7a1e2ec1d052db870d6ba53dc30fbcad950de43c",
+      "sourceTextSha256": "e997fcd177766dd8285960b4f7ed784496660632c17bfb40da34a6a7ea33e89d",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-053",
+      "quizId": "quiz-biblia-at-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 1055,
+        "bookId": "obadias",
+        "bookName": "Obadias",
+        "chapter": 1,
+        "verseStart": 3,
+        "verseEnd": 3
+      },
+      "reference": "Obadias 1:3",
+      "evidenceSha256": "c633dde4a2fdac2562bf930b88d483056792740224ed9ddb26efe1f2d733d2d9",
+      "explanationSha256": "6690ebf7a9dabc9d3cf9bd8c8751cad40f709466b00a7dd8801823295e9e2971",
+      "sourceTextSha256": "bd4a49f5895f747397a6a0585b6b61cdcb0f4e3a60e74b492169be0fd544e131",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-054",
+      "quizId": "quiz-biblia-at-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 1067,
+        "bookId": "miqueias",
+        "bookName": "Miquéias",
+        "chapter": 6,
+        "verseStart": 8,
+        "verseEnd": 8
+      },
+      "reference": "Miquéias 6:8",
+      "evidenceSha256": "ad0539989260bdacebcecf3513010c2e99af9413163b06c33dd52b42642aac11",
+      "explanationSha256": "081d12fe549ca7a9552a58b7845567d7303cc9c55f2cf3653150eed2f0e0ebb9",
+      "sourceTextSha256": "fb82bf276d15ae962aba3f988da3aed9bfd53965cc8c350ef76b3bbbd286cac7",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-055",
+      "quizId": "quiz-biblia-at-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 1070,
+        "bookId": "naum",
+        "bookName": "Naum",
+        "chapter": 1,
+        "verseStart": 7,
+        "verseEnd": 7
+      },
+      "reference": "Naum 1:7",
+      "evidenceSha256": "9f9fa078bd8d9c582c2ab6139ecddf7d019a6ed92417576bed36b70e62dc9ca6",
+      "explanationSha256": "dfbc581d7b8c472381ae154aa9ba5b4cdb75f886e562794bbec25bbb7442750b",
+      "sourceTextSha256": "a2dc456fbd63813bdc3a15494e140a271f3537446ee06d072482c04da51cd34e",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-056",
+      "quizId": "quiz-biblia-at-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 1078,
+        "bookId": "habacuque",
+        "bookName": "Habacuque",
+        "chapter": 3,
+        "verseStart": 17,
+        "verseEnd": 18
+      },
+      "reference": "Habacuque 3:17–18",
+      "evidenceSha256": "f45379f43f63a5784a631d8e36bd2545d1f058e2e6fd1ae470d68dce884c28bd",
+      "explanationSha256": "be172a4da7f72600739af89c1cee1507dc166b71813a82eb4c840bd0438b8fd4",
+      "sourceTextSha256": "48f50a11d4e76cdba801f4c88eb64a837e1df52fef2fc15cfef606ea2c450a67",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-057",
+      "quizId": "quiz-biblia-at-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 1083,
+        "bookId": "sofonias",
+        "bookName": "Sofonias",
+        "chapter": 3,
+        "verseStart": 17,
+        "verseEnd": 17
+      },
+      "reference": "Sofonias 3:17",
+      "evidenceSha256": "a7dc16f52e7b199dcab8c5c9fc7729f6da899334351d95bc7b4dfdfc65db3b87",
+      "explanationSha256": "6f47ab1aa222204dce3ecfd4d876a43e0ed080eafd7c2d7fb37dbe99181c91e5",
+      "sourceTextSha256": "f4f0b1d8e60e56f27bbdd4bb065ab03c1dac54d7d7efb8b81d81c11485c77421",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-058",
+      "quizId": "quiz-biblia-at-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 1084,
+        "bookId": "ageu",
+        "bookName": "Ageu",
+        "chapter": 1,
+        "verseStart": 4,
+        "verseEnd": 4
+      },
+      "reference": "Ageu 1:4",
+      "evidenceSha256": "bd2e1a1a40ffd97aad40cfd3128e1573af7e8dafa95cca20cfc1c5dc2f35f2d7",
+      "explanationSha256": "e7b503db62a1c1074bc887d78de32529c04560cf07dc53a0ed9ea91e8aec8fb1",
+      "sourceTextSha256": "6d7e0d36eb47d2aef95e74543b01573ad7ae3162fef236687151727c403be208",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-059",
+      "quizId": "quiz-biblia-at-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 1087,
+        "bookId": "zacarias",
+        "bookName": "Zacarias",
+        "chapter": 4,
+        "verseStart": 6,
+        "verseEnd": 6
+      },
+      "reference": "Zacarias 4:6",
+      "evidenceSha256": "efaaa2e38ed32f8ba1b99da35fc0a96f57757a535cd769eea4c213f654505c79",
+      "explanationSha256": "9ed992eb200725bf6d97fb23f70b9ac7c1ef8ea71b8ce5989cb53862561e16d3",
+      "sourceTextSha256": "ae0e7808a483662e5d9ebfc078879170fdbdb52d21272d1160b0e691ddbf0d96",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-at-060",
+      "quizId": "quiz-biblia-at-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "at",
+        "page": 1098,
+        "bookId": "malaquias",
+        "bookName": "Malaquias",
+        "chapter": 4,
+        "verseStart": 6,
+        "verseEnd": 6
+      },
+      "reference": "Malaquias 4:6",
+      "evidenceSha256": "2e0e04f850202d95496682a9b25c6aeb52b59900b5b34b25f5d1c570cc83a731",
+      "explanationSha256": "553d41863661f2990b620c6a45de5044fbe7bd7c524808dbd974cf7d24cbb9f5",
+      "sourceTextSha256": "4ae97133ce29a898352a3d64ccd26c56e994ac32f40e2a9a6db8d440618718f4",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-001",
+      "quizId": "quiz-biblia-nt-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 2,
+        "bookId": "mateus",
+        "bookName": "Mateus",
+        "chapter": 2,
+        "verseStart": 11,
+        "verseEnd": 11
+      },
+      "reference": "Mateus 2:11",
+      "evidenceSha256": "96783a58a423cffb93c5d4d7670ba63d12828c32eed91365b092d2b6a9f3a18d",
+      "explanationSha256": "89197d4924035e79be83af7ca55f4aba40582277bb32bf4c5de258da8ad73e9a",
+      "sourceTextSha256": "3095afe2ba6c81893e1524fc0d921cc76cfd77d929c013250814a3e7aecd0a3d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-002",
+      "quizId": "quiz-biblia-nt-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 37,
+        "bookId": "marcos",
+        "bookName": "Marcos",
+        "chapter": 1,
+        "verseStart": 16,
+        "verseEnd": 18
+      },
+      "reference": "Marcos 1:16–18",
+      "evidenceSha256": "ab0b86969a12f032ec4df520ed2cbdcf503bea9b3cc8dcf8500692d58107e514",
+      "explanationSha256": "1ba89eb417f995813c19177bf8bf817a65651f82227527b8a556c13730c585b1",
+      "sourceTextSha256": "4652556fbea8587073d66b2f046e5fabb29bd1c08d85a5450d61a0f9f42b1e15",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-003",
+      "quizId": "quiz-biblia-nt-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 76,
+        "bookId": "lucas",
+        "bookName": "Lucas",
+        "chapter": 10,
+        "verseStart": 33,
+        "verseEnd": 34
+      },
+      "reference": "Lucas 10:33–34",
+      "evidenceSha256": "9dabbe60b6292d9eccf2cf610498429ab0b136a9602334851b8ec01fa842b00d",
+      "explanationSha256": "f10b12942d6d4e6f64312ee669e24ca75092b6ce05b89e9c58e018a9ce498a04",
+      "sourceTextSha256": "7d198a7422f1e1a68506013b67ab6d3d07e517eaa2d63254adebe679b36ed04d",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-004",
+      "quizId": "quiz-biblia-nt-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 97,
+        "bookId": "joao",
+        "bookName": "João",
+        "chapter": 2,
+        "verseStart": 7,
+        "verseEnd": 9,
+        "pages": [
+          97,
+          98
+        ]
+      },
+      "reference": "João 2:7–9",
+      "evidenceSha256": "db9bb3c022ab0d050334ff88a676a3dcc21d3a98d3b866fa1f260fd402394501",
+      "explanationSha256": "a05ef8c036d2e2d84d94b6c795b72c96f2e07e176e79329c3024c87663d29957",
+      "sourceTextSha256": "a7d47761dfed4c231937b8351957c56082befc67612c2bb22267a7608aa6399b",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-005",
+      "quizId": "quiz-biblia-nt-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 131,
+        "bookId": "atos-dos-apostolos",
+        "bookName": "Atos dos Apóstolos",
+        "chapter": 9,
+        "verseStart": 3,
+        "verseEnd": 5,
+        "pages": [
+          131,
+          132
+        ]
+      },
+      "reference": "Atos dos Apóstolos 9:3–5",
+      "evidenceSha256": "5b56b5672021d3194308ade4cea6094dcf59be150542b592f4e92bd748471e1d",
+      "explanationSha256": "93c47ba08f21af8118006c58f13e5d1b0f67e8295ea5743f3793f17e60fcafda",
+      "sourceTextSha256": "ad26a9ea7cfbb3b22a0d166169a656cf49b058c84724a4fe857bdc042826d1b8",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-006",
+      "quizId": "quiz-biblia-nt-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 165,
+        "bookId": "romanos",
+        "bookName": "Romanos",
+        "chapter": 12,
+        "verseStart": 21,
+        "verseEnd": 21
+      },
+      "reference": "Romanos 12:21",
+      "evidenceSha256": "8a501e745c488beaabeddbcec07a470fba8aa4af28c756e7caed25f5f7ad0ef0",
+      "explanationSha256": "1ccdb8bd3cd052979583f1e815918e2aba4efce5f051b32d6d5a48d12dd1b211",
+      "sourceTextSha256": "62b162fcdf782bbf99d80280332fab9d87fad8712ea3bcde950b4b494bd9eea2",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-007",
+      "quizId": "quiz-biblia-nt-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 177,
+        "bookId": "1-corintios",
+        "bookName": "1 Coríntios",
+        "chapter": 13,
+        "verseStart": 13,
+        "verseEnd": 13
+      },
+      "reference": "1 Coríntios 13:13",
+      "evidenceSha256": "0c6d0c1176b761c00e1359c7c06d9301362c3877d5f504d89c7707ae6968588f",
+      "explanationSha256": "ecb3b5a893f5b77b80d140971cdcdbf7b2fdfa67263f2e50a0fc13b0902c0307",
+      "sourceTextSha256": "27d49930ecc4959c8fd71f9a8229718af76130014717b25f6f87a613af4770aa",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-008",
+      "quizId": "quiz-biblia-nt-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 183,
+        "bookId": "2-corintios",
+        "bookName": "2 Coríntios",
+        "chapter": 5,
+        "verseStart": 17,
+        "verseEnd": 17
+      },
+      "reference": "2 Coríntios 5:17",
+      "evidenceSha256": "590f0a532a4f5918edecb3fb149436358965b5d128a9ac646fdc29f356cc1ddf",
+      "explanationSha256": "a6f27a58eb1b2f77803d60cf07da7f2b224612f49368d0181ef5fdca7f11110a",
+      "sourceTextSha256": "755eec5b15bf98970186363ba3a2ab2e9f1ea7fc83e7044d42f44a8d64caf775",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-009",
+      "quizId": "quiz-biblia-nt-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 193,
+        "bookId": "galatas",
+        "bookName": "Gálatas",
+        "chapter": 5,
+        "verseStart": 22,
+        "verseEnd": 23
+      },
+      "reference": "Gálatas 5:22–23",
+      "evidenceSha256": "b3ec078b36de3918b847124b32e963096f2f7c15b07b350e6dea42a80a35eeac",
+      "explanationSha256": "e03984dbc63db44395e4b54718efd611ee81e9ec258313a58e7f764756f0a0fb",
+      "sourceTextSha256": "4b96054f86ff9ac42253c7fd48b99f5ee557e3560fb3e0e110e042faf8d42733",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-010",
+      "quizId": "quiz-biblia-nt-easy-1",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 198,
+        "bookId": "efesios",
+        "bookName": "Efésios",
+        "chapter": 6,
+        "verseStart": 17,
+        "verseEnd": 17
+      },
+      "reference": "Efésios 6:17",
+      "evidenceSha256": "8d35459e8fcecd016432095f8adf78694b205b0415d666b506d7b92e8f412968",
+      "explanationSha256": "0bc45b8cbea08abc7086f233c781b15b743c553dbd3c1d87ef0ea6145f8a54c3",
+      "sourceTextSha256": "8d2bfedc4cd55d9b3bfbc1e2dbc36a178a088b27df81300200c90e0f26cd7460",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-011",
+      "quizId": "quiz-biblia-nt-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 202,
+        "bookId": "filipenses",
+        "bookName": "Filipenses",
+        "chapter": 4,
+        "verseStart": 6,
+        "verseEnd": 6
+      },
+      "reference": "Filipenses 4:6",
+      "evidenceSha256": "7b0b2937f1a8468eb9d6f037211812b7fe2fd8640b6be0d821566526c0199e1e",
+      "explanationSha256": "d4411b26d82cf1d7789376e52e1181c9815026c320f3b6b9fc86bbfc4edc60d6",
+      "sourceTextSha256": "4781b3d295be9e508353fa3e015fe775e2bca9dc26adbd39a400d3385dbd0a62",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-012",
+      "quizId": "quiz-biblia-nt-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 206,
+        "bookId": "colossenses",
+        "bookName": "Colossenses",
+        "chapter": 3,
+        "verseStart": 13,
+        "verseEnd": 13
+      },
+      "reference": "Colossenses 3:13",
+      "evidenceSha256": "ad60dda3011bd57af70ee1355a55a65783a20e6023e9bcc3919654447a46e506",
+      "explanationSha256": "9d13374893767ac9f85f10d7768c1479206435163e940f5b2285f451955c1c67",
+      "sourceTextSha256": "466b2b3c77d385595c524d141f1ca9a8556e4c4778d605086e7faad97bf3cd91",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-013",
+      "quizId": "quiz-biblia-nt-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 210,
+        "bookId": "1-tessalonicenses",
+        "bookName": "1 Tessalonicenses",
+        "chapter": 5,
+        "verseStart": 16,
+        "verseEnd": 18
+      },
+      "reference": "1 Tessalonicenses 5:16–18",
+      "evidenceSha256": "a17ae17eb05079f55bda1aa2b7df9e9d46c30d0b30f0bd04496eeeca37555e9d",
+      "explanationSha256": "d5faccb9b8e7386ac69d2c13952cc3019e829d0ac7b6fb18cfda255c13809c14",
+      "sourceTextSha256": "dda9d9847e3542bfedbdf135ccaf99787603737bcb51dc72cd96e1716b260398",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-014",
+      "quizId": "quiz-biblia-nt-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 212,
+        "bookId": "2-tessalonicenses",
+        "bookName": "2 Tessalonicenses",
+        "chapter": 3,
+        "verseStart": 13,
+        "verseEnd": 13
+      },
+      "reference": "2 Tessalonicenses 3:13",
+      "evidenceSha256": "f3f2ada39fc36ceaebdc63c56b9912dc4c79407413c448c86dbfb639fb6e2c30",
+      "explanationSha256": "45b2b41d799d10143989cd31426492b5f9383b1b5c14f1b72781ceef599c4e80",
+      "sourceTextSha256": "0f64f8d6c264665030e77e2362ee90bf4c5f4ebd6fd558bd6ab1c8e888f27eb1",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-015",
+      "quizId": "quiz-biblia-nt-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 215,
+        "bookId": "1-timoteo",
+        "bookName": "1 Timóteo",
+        "chapter": 4,
+        "verseStart": 12,
+        "verseEnd": 12
+      },
+      "reference": "1 Timóteo 4:12",
+      "evidenceSha256": "4c312f2f3173ef7b60bb172b3dc9ace9500fd5cef86de88e84e1410f2f7cbdd9",
+      "explanationSha256": "7e61b61148a5dd292581f334cbf71d9aaa8a24569d3aadd358585f00edfba9f8",
+      "sourceTextSha256": "239cd01c113f86f31bc771c007a9760033ab43e6674c13f0298997a855a59aea",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-016",
+      "quizId": "quiz-biblia-nt-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 218,
+        "bookId": "2-timoteo",
+        "bookName": "2 Timóteo",
+        "chapter": 3,
+        "verseStart": 16,
+        "verseEnd": 16
+      },
+      "reference": "2 Timóteo 3:16",
+      "evidenceSha256": "48b72a88cc5387cfc93af192004767d483b4cdb03eca556f04ef596086acb827",
+      "explanationSha256": "0bacb1bc39d31a1af9c14390c872fb0eb61e4b1752dbb793eff0b63e51eb9890",
+      "sourceTextSha256": "c4e87cdb63319ffb009af356da2c9c7d083647389d1bc15bdc3fc3f2271e7920",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-017",
+      "quizId": "quiz-biblia-nt-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 221,
+        "bookId": "tito",
+        "bookName": "Tito",
+        "chapter": 3,
+        "verseStart": 2,
+        "verseEnd": 2
+      },
+      "reference": "Tito 3:2",
+      "evidenceSha256": "83810e260a453cd19c15b1fe29af1404bd3204ca5bf9d8298b28e927d9c9faf3",
+      "explanationSha256": "951fd6b0756b55920a57a3f1acb904e0a04ce1d315ad14b8bae2b8c0ab96744e",
+      "sourceTextSha256": "88b4c2c9f05cba719b70a6ed268dc3633773a61975b7ca9b17a0e1184fb265eb",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-018",
+      "quizId": "quiz-biblia-nt-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 232,
+        "bookId": "hebreus",
+        "bookName": "Hebreus",
+        "chapter": 11,
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      "reference": "Hebreus 11:1",
+      "evidenceSha256": "594b2c9d286ddfb408790678e7b8539e4d8966d559832be94b1f34096861b1e6",
+      "explanationSha256": "23fa9cdcbfd98567d1227ac7e4558d0f2daac12c11c9d277f42578fe704fff05",
+      "sourceTextSha256": "eeacf4c0bd5ec89083eff583a10981cbc505649d5ffa5ffb32934d87d1fa6449",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-019",
+      "quizId": "quiz-biblia-nt-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 236,
+        "bookId": "tiago",
+        "bookName": "Tiago",
+        "chapter": 1,
+        "verseStart": 22,
+        "verseEnd": 22
+      },
+      "reference": "Tiago 1:22",
+      "evidenceSha256": "fb0f5e8f5cfab64cc337cf9f45e15ef94e2a63a99ab3695a910ab5382d4e78e3",
+      "explanationSha256": "cf06d5ca86b13b462d026703ff6101e9d168e44cdb988d94da4aa3edad1e05ed",
+      "sourceTextSha256": "4bee161c0b41a02fd4f1b01acb89ca9aaaf340e172c05827591be60d4b4d90ce",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-020",
+      "quizId": "quiz-biblia-nt-easy-2",
+      "category": "bible",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "nt",
+        "page": 250,
+        "bookId": "1-joao",
+        "bookName": "1 João",
+        "chapter": 4,
+        "verseStart": 8,
+        "verseEnd": 8
+      },
+      "reference": "1 João 4:8",
+      "evidenceSha256": "6dfcc308026a2f4c9ee6c06330c6590e75a6b34a2c54737ecde06d3521266126",
+      "explanationSha256": "4b30a995887bf09377fb9aae4eb82783e0e5bfd666f3d3d5d963d939a57f95ae",
+      "sourceTextSha256": "1692ad936584bdf1f39e625fb1254e3baf5bdf10ff21a6b9c4664abc62a13dab",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-021",
+      "quizId": "quiz-biblia-nt-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 6,
+        "bookId": "mateus",
+        "bookName": "Mateus",
+        "chapter": 5,
+        "verseStart": 23,
+        "verseEnd": 24
+      },
+      "reference": "Mateus 5:23–24",
+      "evidenceSha256": "56893e9f5be8efe84754e8435292cf8c85447b0d2e9364c5925db79798f3eed9",
+      "explanationSha256": "22f30bd507d4ace4fa20840daccf627b94c19a229a81d6d776190c36d9df4835",
+      "sourceTextSha256": "ae8fff4063bef83634aafb06f0f66c422188212eb8fbd2de67b276cad952f1e2",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-022",
+      "quizId": "quiz-biblia-nt-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 40,
+        "bookId": "marcos",
+        "bookName": "Marcos",
+        "chapter": 4,
+        "verseStart": 18,
+        "verseEnd": 19
+      },
+      "reference": "Marcos 4:18–19",
+      "evidenceSha256": "9b74d378bb64064cc069fa9b3e97ae4c914bb557c71b24b36b9e8a18ec361b86",
+      "explanationSha256": "8375516d185623340b54ad393058713c82b6821b85ef6b6f42e1ab8b3e7fe63a",
+      "sourceTextSha256": "aee3a6c0d42ff0a25b8d9bf689b9aee3aab85ee4a72c5042bc2c8c19ea68ffca",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-023",
+      "quizId": "quiz-biblia-nt-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 86,
+        "bookId": "lucas",
+        "bookName": "Lucas",
+        "chapter": 19,
+        "verseStart": 8,
+        "verseEnd": 8
+      },
+      "reference": "Lucas 19:8",
+      "evidenceSha256": "1f57081ef093d8ec617401a4c8b2294a5ce8571930ff51ac0da9eb8535046e05",
+      "explanationSha256": "fbdaa3f0bc61fe04f9b48638663c19d45e25227be8a497c73d6782d1bcd17b76",
+      "sourceTextSha256": "71227befa90631a7784c16eef1cf180661515ceaad279883bc6fe6bc8c8ef60d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-024",
+      "quizId": "quiz-biblia-nt-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 102,
+        "bookId": "joao",
+        "bookName": "João",
+        "chapter": 6,
+        "verseStart": 9,
+        "verseEnd": 9
+      },
+      "reference": "João 6:9",
+      "evidenceSha256": "c0f2a69ad64abeb91fa94e2ea6879194b824ce80db57c606dadd3c1d36382627",
+      "explanationSha256": "acf02fd0439e79ab5ad69cb787c712a7051e8cb398b5640055493f75502ac1bd",
+      "sourceTextSha256": "feed7631196be388644d42d7d0c2eb292297bfb1f3ee72399d5a76113c73b843",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-025",
+      "quizId": "quiz-biblia-nt-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 124,
+        "bookId": "atos-dos-apostolos",
+        "bookName": "Atos dos Apóstolos",
+        "chapter": 2,
+        "verseStart": 42,
+        "verseEnd": 42
+      },
+      "reference": "Atos dos Apóstolos 2:42",
+      "evidenceSha256": "d512adf22cf054c3375ceac2964597f7776ce91bb0aa227843857985abeca1f1",
+      "explanationSha256": "a54803866c6e1a824551e7170bb1e997fdf8fbe85452270c0187d16246d6814f",
+      "sourceTextSha256": "b898be4d6d9413bbdfaca9da2663aece0993fafbb166a38d16958617d7c218fb",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-026",
+      "quizId": "quiz-biblia-nt-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 164,
+        "bookId": "romanos",
+        "bookName": "Romanos",
+        "chapter": 12,
+        "verseStart": 4,
+        "verseEnd": 5
+      },
+      "reference": "Romanos 12:4–5",
+      "evidenceSha256": "05c901a30deb1cdd463bb8093a70178956b1958f183182bc20f07b11fb5a1eab",
+      "explanationSha256": "4cd730ab945ca8c52ce4fe71a427929999d7287b660e33ff0f361b5ac05dad2b",
+      "sourceTextSha256": "e3d9bcef0c1f97e041ee3606fa60bc552aaae910ab9e88960bda8417fe34ce97",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-027",
+      "quizId": "quiz-biblia-nt-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 177,
+        "bookId": "1-corintios",
+        "bookName": "1 Coríntios",
+        "chapter": 12,
+        "verseStart": 22,
+        "verseEnd": 22
+      },
+      "reference": "1 Coríntios 12:22",
+      "evidenceSha256": "0e1f7a338892530d6fbedf8779e0db5786232dae939fdec5e7333b5ed65e43d4",
+      "explanationSha256": "e5b9baf5edee5eb044e1737cf13aa479146a717644307058f8342b1f9f145397",
+      "sourceTextSha256": "27d49930ecc4959c8fd71f9a8229718af76130014717b25f6f87a613af4770aa",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-028",
+      "quizId": "quiz-biblia-nt-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 186,
+        "bookId": "2-corintios",
+        "bookName": "2 Coríntios",
+        "chapter": 9,
+        "verseStart": 7,
+        "verseEnd": 7
+      },
+      "reference": "2 Coríntios 9:7",
+      "evidenceSha256": "be4d3182aa10766060ddf0b29c215ca644f57c854c991d2f1b74309b8375161e",
+      "explanationSha256": "f75dea448ed8c9c109346d1d7af27774b0b1e2bd5b9a13f03c95664e2a19a998",
+      "sourceTextSha256": "12028a735009a7298ca6b7474f87ea0462383ce15c9b818baf2edc982d90d183",
+      "evidenceMethod": "native-text-visual-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-029",
+      "quizId": "quiz-biblia-nt-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 193,
+        "bookId": "galatas",
+        "bookName": "Gálatas",
+        "chapter": 6,
+        "verseStart": 2,
+        "verseEnd": 2
+      },
+      "reference": "Gálatas 6:2",
+      "evidenceSha256": "6ff427f0688407f47086cce46135ebf7caffeee9917321313c5338affb942797",
+      "explanationSha256": "7f650353c0032ae41dc15a410d2cdb6a80154166684cc0c80ca543126065bb91",
+      "sourceTextSha256": "4b96054f86ff9ac42253c7fd48b99f5ee557e3560fb3e0e110e042faf8d42733",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-030",
+      "quizId": "quiz-biblia-nt-medium-1",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 197,
+        "bookId": "efesios",
+        "bookName": "Efésios",
+        "chapter": 4,
+        "verseStart": 26,
+        "verseEnd": 27
+      },
+      "reference": "Efésios 4:26–27",
+      "evidenceSha256": "09c9a74bae002fde13bc6eeffcf73b8dc6fd28ac533c520483e286403ff5bd6d",
+      "explanationSha256": "c276dccbf7382e25291b43a85c1fc5a01a3638daee27008365fad56ae31f0748",
+      "sourceTextSha256": "86c248d356e3ffc1ee79d119fa0ed2eb662b278c95cdf207c6bd98bdd394aedc",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-031",
+      "quizId": "quiz-biblia-nt-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 201,
+        "bookId": "filipenses",
+        "bookName": "Filipenses",
+        "chapter": 2,
+        "verseStart": 3,
+        "verseEnd": 3
+      },
+      "reference": "Filipenses 2:3",
+      "evidenceSha256": "e7286e497ba6ec722377af6637aac1cef733b9c1a5f3ae62ef32ed287cf17449",
+      "explanationSha256": "156a9d22c5c63a1a2ecdc3c569dc82e43c15d597dd6127164d39eb641f6e3194",
+      "sourceTextSha256": "23eadf40b1ee4747e7102d3e0ac8a3bd5571479976f1fbe95a2ecfc1af269248",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-032",
+      "quizId": "quiz-biblia-nt-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 206,
+        "bookId": "colossenses",
+        "bookName": "Colossenses",
+        "chapter": 3,
+        "verseStart": 23,
+        "verseEnd": 23
+      },
+      "reference": "Colossenses 3:23",
+      "evidenceSha256": "27b0c48953d7fa58a8c8f464659ff2320b51740fd7f6a7d4d07790f938c7d7b3",
+      "explanationSha256": "b96c5a586abb42ead13e23e82e34aece1fd237a435ac7d74d3366192d1465200",
+      "sourceTextSha256": "466b2b3c77d385595c524d141f1ca9a8556e4c4778d605086e7faad97bf3cd91",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-033",
+      "quizId": "quiz-biblia-nt-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 209,
+        "bookId": "1-tessalonicenses",
+        "bookName": "1 Tessalonicenses",
+        "chapter": 4,
+        "verseStart": 11,
+        "verseEnd": 12
+      },
+      "reference": "1 Tessalonicenses 4:11–12",
+      "evidenceSha256": "dc264bd238cd101d39c85a4f25384677108bd4609c4950bd3acb2d06a695790b",
+      "explanationSha256": "854a0e494d9186481d7d7c52a987a91e291a181d3e20111c2f04addc5b953100",
+      "sourceTextSha256": "6f48785cfa762b664b3759bb2ef9c3144ef0bb04c82bc8224f75efd879831c7f",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-034",
+      "quizId": "quiz-biblia-nt-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 212,
+        "bookId": "2-tessalonicenses",
+        "bookName": "2 Tessalonicenses",
+        "chapter": 3,
+        "verseStart": 11,
+        "verseEnd": 12
+      },
+      "reference": "2 Tessalonicenses 3:11–12",
+      "evidenceSha256": "bf29d34b9f49f2ed808f86e7d99fc0057f532cd5bf9b3be73aea5bd06b279480",
+      "explanationSha256": "595903335f9943ad5c4778e166495c135b92f8c117e35b9fd965d58f2b43e31b",
+      "sourceTextSha256": "8e12e0ec31005782678c633fc29ba4c29636ee916b97c9efd739d707a02c1e3f",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-035",
+      "quizId": "quiz-biblia-nt-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 216,
+        "bookId": "1-timoteo",
+        "bookName": "1 Timóteo",
+        "chapter": 6,
+        "verseStart": 7,
+        "verseEnd": 8
+      },
+      "reference": "1 Timóteo 6:7–8",
+      "evidenceSha256": "3f66fc422c62f0a5dc9fc892ed718c40dee7d72b2c8c36947bafbca8aaf1a5ef",
+      "explanationSha256": "8a5a8c2dbf401a33c93fddea501dd27588bb41a8233d2732c2086554d1c1fe13",
+      "sourceTextSha256": "74973d4d06bec7f2f5f95743dfa392c1b4b4d10f12d3625d582982ec911d7341",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-036",
+      "quizId": "quiz-biblia-nt-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 217,
+        "bookId": "2-timoteo",
+        "bookName": "2 Timóteo",
+        "chapter": 1,
+        "verseStart": 7,
+        "verseEnd": 7
+      },
+      "reference": "2 Timóteo 1:7",
+      "evidenceSha256": "b36c3786ea357e3f90f9d17093dcdf0dc454f216c13fbcd5fee45638cf1cbf0d",
+      "explanationSha256": "9f196170be1aff8592ea7c4526e398c9b39cd2341453873ad3a5f657109a28e5",
+      "sourceTextSha256": "ae9164526a8b303a2913ee549a1bd58f87626695c1261d05915c4599f57656dd",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-037",
+      "quizId": "quiz-biblia-nt-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 220,
+        "bookId": "tito",
+        "bookName": "Tito",
+        "chapter": 2,
+        "verseStart": 7,
+        "verseEnd": 8
+      },
+      "reference": "Tito 2:7–8",
+      "evidenceSha256": "a8246135661a2f844ecf16937358f9e0c8081be1db96925c5e60413641b4b71d",
+      "explanationSha256": "2fa03f18d32a6bfad1ffad66c0724e41782af74621fe26124bd189e09d341df2",
+      "sourceTextSha256": "acd59730ff1a8198f4a979bd63ee8d7cad183f86b96e77c775ee1b74c8d4e4f7",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-038",
+      "quizId": "quiz-biblia-nt-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 222,
+        "bookId": "filemom",
+        "bookName": "Filemom",
+        "chapter": 1,
+        "verseStart": 15,
+        "verseEnd": 16
+      },
+      "reference": "Filemom 1:15–16",
+      "evidenceSha256": "c4c049e45bab3e96932fc183529ba3319c72931cb5b746378829a21bee166f81",
+      "explanationSha256": "3705811f1bc947bc7b0297045150513ed7860bdee1cdf880ce8304c124e1287b",
+      "sourceTextSha256": "40e3e5a2025e625671ef7e03b001e1abdb32bc3a0daa5f970491509901278729",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-039",
+      "quizId": "quiz-biblia-nt-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 242,
+        "bookId": "1-pedro",
+        "bookName": "1 Pedro",
+        "chapter": 3,
+        "verseStart": 15,
+        "verseEnd": 16
+      },
+      "reference": "1 Pedro 3:15–16",
+      "evidenceSha256": "03d1f019c95ebf21b862a8330da8d7fe5cba0349f83d4a2b184a34690eeb5b5a",
+      "explanationSha256": "bf9827d1002d0de93e40cd7538ab07ea9c86eea1f31ded2c70bac5a38986b405",
+      "sourceTextSha256": "8f19e447af3b8d7bfb39976640738896b156c03460efeaddd6a0a39af27bf68a",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-040",
+      "quizId": "quiz-biblia-nt-medium-2",
+      "category": "bible",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "nt",
+        "page": 257,
+        "bookId": "apocalipse",
+        "bookName": "Apocalipse",
+        "chapter": 3,
+        "verseStart": 20,
+        "verseEnd": 20
+      },
+      "reference": "Apocalipse 3:20",
+      "evidenceSha256": "857b6e0e93eb516b5e7eda1e440e8f872f1e65d249ca8f4b7c372653203ca2ee",
+      "explanationSha256": "70acb26307e471559ec351f304e9dce85d097dd840c4d934cac744fac648fad9",
+      "sourceTextSha256": "95353b955cca2675589fd999982ba5aa0cb8d94d9e04d027d150cacf0fb8e84c",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-041",
+      "quizId": "quiz-biblia-nt-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 21,
+        "bookId": "mateus",
+        "bookName": "Mateus",
+        "chapter": 17,
+        "verseStart": 24,
+        "verseEnd": 27
+      },
+      "reference": "Mateus 17:24–27",
+      "evidenceSha256": "684f9f0969f4a46c87ae36c1fdbd797c86098983ab3861308d3fe16eabd9e9be",
+      "explanationSha256": "3d3c8e1a3dc66e640f74347212fedacb095e24611dd8c92b090f5feaca3241da",
+      "sourceTextSha256": "7c0698be924d05e92b7c21dddf0c356f93174205b1e2f9aefef9c1b64e66fb74",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-042",
+      "quizId": "quiz-biblia-nt-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 57,
+        "bookId": "marcos",
+        "bookName": "Marcos",
+        "chapter": 15,
+        "verseStart": 21,
+        "verseEnd": 21
+      },
+      "reference": "Marcos 15:21",
+      "evidenceSha256": "f06e618feccf0983f5358dbb2f94f80cb85622579f879c20157142a97546e542",
+      "explanationSha256": "ff97510ccd715e64f4cb46c97e8048abf7ebfc7680652568d486612f9e98a9bf",
+      "sourceTextSha256": "a24eeeaf5d2687717cb5a41b1af987b87e61643d261cdfb9adb5b2877d5bd7a0",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-043",
+      "quizId": "quiz-biblia-nt-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 94,
+        "bookId": "lucas",
+        "bookName": "Lucas",
+        "chapter": 24,
+        "verseStart": 13,
+        "verseEnd": 13
+      },
+      "reference": "Lucas 24:13",
+      "evidenceSha256": "bc4682b2c9f5bcc4bd5d1cc61f2c18d43be9bcb3fb8f5a3070084e2e2ad6c5bc",
+      "explanationSha256": "71799af4280f23a83559c3b755284e21754e45741b0d54108417774ebbdb3a5a",
+      "sourceTextSha256": "60f0faabe39e199acf55da49f412552fd2581e46b4a0e2235ede0a1c046c6606",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-044",
+      "quizId": "quiz-biblia-nt-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 120,
+        "bookId": "joao",
+        "bookName": "João",
+        "chapter": 21,
+        "verseStart": 11,
+        "verseEnd": 11
+      },
+      "reference": "João 21:11",
+      "evidenceSha256": "279a763cea1a28b0021b7fa68a3a1497cabd6ab0e3a4ecbc5d8851fc3aa1ffdb",
+      "explanationSha256": "f3d44f3dafda0d1e4bc6b94d7013133c2e0e3e7353602e5ddf98bc49224d9d1d",
+      "sourceTextSha256": "c324f6ae31be3e75e1cd8dde9aa21305c0d67ed8833fe94f0d4758e5ee9f0e87",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-045",
+      "quizId": "quiz-biblia-nt-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 142,
+        "bookId": "atos-dos-apostolos",
+        "bookName": "Atos dos Apóstolos",
+        "chapter": 18,
+        "verseStart": 24,
+        "verseEnd": 26
+      },
+      "reference": "Atos dos Apóstolos 18:24–26",
+      "evidenceSha256": "18a51a328b5f0cf0331de2759de536bc81a9ae15bb2f12483ca2f520dbc4dbf1",
+      "explanationSha256": "5577377fad60d4e047ff5d36d00d28a02b5f4826b551ad24ea769168da927812",
+      "sourceTextSha256": "6aa4ef59efc1e672e271f6c4c09c1cacb48ede0a4b1a368c35b14681d608d63b",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-046",
+      "quizId": "quiz-biblia-nt-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 168,
+        "bookId": "romanos",
+        "bookName": "Romanos",
+        "chapter": 16,
+        "verseStart": 1,
+        "verseEnd": 2
+      },
+      "reference": "Romanos 16:1–2",
+      "evidenceSha256": "fa7343e7b2bffe7b6f7358d211aa2be54002f4900bf05b9e615b701e5e13c935",
+      "explanationSha256": "fd0c686e0d8bf6345be9ab8d3244116eb08b7491b54265b680d26df84fda569d",
+      "sourceTextSha256": "666270d6f10b75dfa3fcac8362d064db999a25da6c50137bca7977076e374455",
+      "evidenceMethod": "native-text-visual-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-047",
+      "quizId": "quiz-biblia-nt-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 180,
+        "bookId": "1-corintios",
+        "bookName": "1 Coríntios",
+        "chapter": 16,
+        "verseStart": 8,
+        "verseEnd": 9
+      },
+      "reference": "1 Coríntios 16:8–9",
+      "evidenceSha256": "62dfdb80b9e10f1984c422aa1291d3bbb4adae93aa57bc5a94c1ab41e2012db4",
+      "explanationSha256": "ddcff9e3c801b952fc1dd12e7b80b3c209691fb50fc2af20ae0220c68c851b60",
+      "sourceTextSha256": "9bbf57d8187b56ccb912c0de569b337fd4f27c2fe01c70bdc650fdd7184d1ad5",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-048",
+      "quizId": "quiz-biblia-nt-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 187,
+        "bookId": "2-corintios",
+        "bookName": "2 Coríntios",
+        "chapter": 11,
+        "verseStart": 32,
+        "verseEnd": 33
+      },
+      "reference": "2 Coríntios 11:32–33",
+      "evidenceSha256": "b75ad9626fe5b3fb2f32979e9c8503a03bb13dfe62bccc4677cff4e9f73f525e",
+      "explanationSha256": "7bb1660c89c2872d5586c9a7d2ebee5cecc169532498a190406bbc544aabec3d",
+      "sourceTextSha256": "29a4bc6266b004d9bb96e26c627ce6e2c9647d5662a477013da8a565e7a01af6",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-049",
+      "quizId": "quiz-biblia-nt-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 191,
+        "bookId": "galatas",
+        "bookName": "Gálatas",
+        "chapter": 2,
+        "verseStart": 11,
+        "verseEnd": 12
+      },
+      "reference": "Gálatas 2:11–12",
+      "evidenceSha256": "fece7afab12cf3eb907ede4a8e7fff570ae52d586377776caa14f860fcf9e81b",
+      "explanationSha256": "c6537dfa3109e0c9cb5d2203b86dedbd04b1a8e89057f73e0c0dfd91e1d9e42b",
+      "sourceTextSha256": "133000ddab763c94419cdc6aa88e9605b8ab0b3935aa4d52f21df371ec3f6cd7",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-050",
+      "quizId": "quiz-biblia-nt-hard-1",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 199,
+        "bookId": "efesios",
+        "bookName": "Efésios",
+        "chapter": 6,
+        "verseStart": 19,
+        "verseEnd": 20
+      },
+      "reference": "Efésios 6:19–20",
+      "evidenceSha256": "4e76c3fb3dd84609d0abfc845f9a9457a35222e2f78346e8f64508606ca88748",
+      "explanationSha256": "f9f168d4ad1310b888ba3868427726c1dd69623200a3adb4e9eea6bb111e4e84",
+      "sourceTextSha256": "d73a9bd0963f923ed9be308d78223a92c71abcb10af92d895f00e20964400538",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-051",
+      "quizId": "quiz-biblia-nt-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 201,
+        "bookId": "filipenses",
+        "bookName": "Filipenses",
+        "chapter": 2,
+        "verseStart": 25,
+        "verseEnd": 25
+      },
+      "reference": "Filipenses 2:25",
+      "evidenceSha256": "1fc828bd2ee5cc6a6b7f8b9f0ca5ab59fa11cf69a8a4daa3f55fcfc4de23bfe7",
+      "explanationSha256": "663b2074860359ade725c700a8fab3361dc80bac4398b99e3d43f2b5c3ef49a4",
+      "sourceTextSha256": "23eadf40b1ee4747e7102d3e0ac8a3bd5571479976f1fbe95a2ecfc1af269248",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-052",
+      "quizId": "quiz-biblia-nt-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 207,
+        "bookId": "colossenses",
+        "bookName": "Colossenses",
+        "chapter": 4,
+        "verseStart": 14,
+        "verseEnd": 14
+      },
+      "reference": "Colossenses 4:14",
+      "evidenceSha256": "8e7f54aef1e3d74c89df5827b3234890b2fb3f8005195fe4a02854e94fd56f14",
+      "explanationSha256": "d234005f1f00efc9fa79b598ef31784ac466d22f0c5a99dae36e971949527094",
+      "sourceTextSha256": "9d598101bae3be2e0f991c00873ccb989c0833dfbe505efe7c68ffaaa15d26c3",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-053",
+      "quizId": "quiz-biblia-nt-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 210,
+        "bookId": "1-tessalonicenses",
+        "bookName": "1 Tessalonicenses",
+        "chapter": 5,
+        "verseStart": 20,
+        "verseEnd": 21
+      },
+      "reference": "1 Tessalonicenses 5:20–21",
+      "evidenceSha256": "38c70470634f27df6a5bba4ca71071e7095ecb60c5cd4cf936704a5c49b2bf53",
+      "explanationSha256": "2b72ab06d3e2c895141932976dc9afbbc7dbe1955d0ba819246469534bd53788",
+      "sourceTextSha256": "dda9d9847e3542bfedbdf135ccaf99787603737bcb51dc72cd96e1716b260398",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-054",
+      "quizId": "quiz-biblia-nt-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 211,
+        "bookId": "2-tessalonicenses",
+        "bookName": "2 Tessalonicenses",
+        "chapter": 2,
+        "verseStart": 15,
+        "verseEnd": 15
+      },
+      "reference": "2 Tessalonicenses 2:15",
+      "evidenceSha256": "204af3c921790a295a731f5a1d43bd3368cac3f8bc462a60b24ee70afa4edfc5",
+      "explanationSha256": "a5a18e0e64454b36667caff9784f1b89fa0a6413fc1c704c3e7ded4328b0ea63",
+      "sourceTextSha256": "828e7cdfc47adf06a55f0166cbafa93223b8da1cb991306b0e4ebb5a7bbd2dc6",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-055",
+      "quizId": "quiz-biblia-nt-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 215,
+        "bookId": "1-timoteo",
+        "bookName": "1 Timóteo",
+        "chapter": 5,
+        "verseStart": 18,
+        "verseEnd": 18
+      },
+      "reference": "1 Timóteo 5:18",
+      "evidenceSha256": "4a485e5bf8fbbc8027ec913495b5c213a3f521239f959f2d61d56f746e397873",
+      "explanationSha256": "4c866cd38fc5d8352f464a61195fbe216598f76fa48964054f4c623c39af3b3e",
+      "sourceTextSha256": "97c70b8375e78d0b8830c1635310383f34e1e2e62dada938763eb6b570e04fcc",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-056",
+      "quizId": "quiz-biblia-nt-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 219,
+        "bookId": "2-timoteo",
+        "bookName": "2 Timóteo",
+        "chapter": 4,
+        "verseStart": 13,
+        "verseEnd": 13
+      },
+      "reference": "2 Timóteo 4:13",
+      "evidenceSha256": "d2e1f2fb497241cdc10d5becea4715b0745ef3c2a2d7b95aeb38bbcc05b4c87d",
+      "explanationSha256": "b58182efe187c18ea734b00fade9d09d8dc74a9a51b9d2ae4a35c7239dbf1844",
+      "sourceTextSha256": "c639f76b337c3d5e4508362013f24d50962f4d10ef1351c40c888f5c56895e88",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-057",
+      "quizId": "quiz-biblia-nt-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 233,
+        "bookId": "hebreus",
+        "bookName": "Hebreus",
+        "chapter": 11,
+        "verseStart": 23,
+        "verseEnd": 23
+      },
+      "reference": "Hebreus 11:23",
+      "evidenceSha256": "130114a016d5f8ae0b47410ca2caee1e0e9cc594e9c580b6ada2fea4f0d2a0ef",
+      "explanationSha256": "c41191e2987e75bd5b7fd7a150aeb68f9b2ca1f6b52dd8b53460b02043d33cb0",
+      "sourceTextSha256": "4107445509ade868b417d32c891628d03f4312fbec5a9ccc0e8f64948b00f5fb",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-058",
+      "quizId": "quiz-biblia-nt-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 245,
+        "bookId": "2-pedro",
+        "bookName": "2 Pedro",
+        "chapter": 1,
+        "verseStart": 5,
+        "verseEnd": 7
+      },
+      "reference": "2 Pedro 1:5–7",
+      "evidenceSha256": "1da431beb2c239ef79807216fe09e6f4f526b9712c59ffd8ea51101cfeb9675b",
+      "explanationSha256": "4b7e076af177d8948a04cf3e4ffbc663167a731457d4579a455a57b11b022adb",
+      "sourceTextSha256": "32441e714ead17a07872819f7981494a76c3fb0430b5a903256aac0f5dc95322",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-059",
+      "quizId": "quiz-biblia-nt-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 252,
+        "bookId": "2-joao",
+        "bookName": "2 João",
+        "chapter": 1,
+        "verseStart": 5,
+        "verseEnd": 6
+      },
+      "reference": "2 João 1:5–6",
+      "evidenceSha256": "4393aba3089666a3b520c11ce69e07f9675f7c65ecdfd14e8c2a820f09a7ffb8",
+      "explanationSha256": "10bdf105b0bb1fda55821116e98557104b5653235e68bd6b6749d93e373f9781",
+      "sourceTextSha256": "12bc86860f875fe7e54ecb5709adc7958d08e80dcbedc8ab140deb74fc87d803",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "biblia-nt-060",
+      "quizId": "quiz-biblia-nt-hard-2",
+      "category": "bible",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "nt",
+        "page": 253,
+        "bookId": "3-joao",
+        "bookName": "3 João",
+        "chapter": 1,
+        "verseStart": 9,
+        "verseEnd": 10
+      },
+      "reference": "3 João 1:9–10",
+      "evidenceSha256": "0485c4794f9b79cd269bc238c72b8f42e4533c4c71d2e72b96dcd29b057a466c",
+      "explanationSha256": "a2592c2491141b848b4f37d6af64be4ac5dcf5f06030d07507ba9627ee811554",
+      "sourceTextSha256": "66874e60cfd3348e84df8619785274574dbc8481c9845275db74f254a02849d2",
+      "evidenceMethod": "pdf-body-spans-native-order",
+      "verified": true
+    },
+    {
+      "id": "intro-01",
+      "quizId": "quiz-intro-biblia",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-1",
+        "page": 2
+      },
+      "reference": null,
+      "evidenceSha256": "f813aeac39104eb96b2996dcf18ba32368758f26df3ba84207ef271d3cb132b5",
+      "explanationSha256": "9e350e3ab5aeb8ff55505f503094b496fc41f265231dd81f97167e88702f5514",
+      "sourceTextSha256": "d5e826eeb3503e374a77e825b38556a94853f5219c5bbe79d207b6128a68673c",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "intro-02",
+      "quizId": "quiz-intro-biblia",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-1",
+        "page": 3
+      },
+      "reference": null,
+      "evidenceSha256": "fca15a9e8713169de51b2d6599f4cca4b67c8a018766f29fd1ccc223c297a653",
+      "explanationSha256": "ad859ad77004fb161c0d4ac2062fb8661c04c843668498930baa45dd979c6cac",
+      "sourceTextSha256": "ced4e9d17619195e953d6ebd43b41da2ea0b42eaab99dc9bcc282365997ec804",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "intro-03",
+      "quizId": "quiz-intro-biblia",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-1",
+        "page": 2
+      },
+      "reference": null,
+      "evidenceSha256": "f5260a776a79d835c6eb8b005bc02e5b013c78b5061c21f8434a1d4565bf7944",
+      "explanationSha256": "87fb7126bfb06e9d9b8dfc03be7d11a48640d475c3e03af7c68581dc4decfd0c",
+      "sourceTextSha256": "d5e826eeb3503e374a77e825b38556a94853f5219c5bbe79d207b6128a68673c",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "intro-04",
+      "quizId": "quiz-intro-biblia",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-1",
+        "page": 3
+      },
+      "reference": null,
+      "evidenceSha256": "a03d40e26d62258fce626823cf45d18cda13f249c3e1e59c1490f3af0aac2fa1",
+      "explanationSha256": "ae8d30712d7ef060181a290e50b5fc619d964cb8ef8278935fe8c54891ba2154",
+      "sourceTextSha256": "ced4e9d17619195e953d6ebd43b41da2ea0b42eaab99dc9bcc282365997ec804",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "intro-05",
+      "quizId": "quiz-intro-biblia",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-1",
+        "page": 3
+      },
+      "reference": null,
+      "evidenceSha256": "a47b3e28f2f5e481d3d02ebcc7922ace1a7756b2a922904a9eb33e1553de48c8",
+      "explanationSha256": "f8beb5d9d211883066033d4ac8f638984d106677efe5619559acd3c7000a8736",
+      "sourceTextSha256": "ced4e9d17619195e953d6ebd43b41da2ea0b42eaab99dc9bcc282365997ec804",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "intro-06",
+      "quizId": "quiz-intro-biblia",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-1",
+        "page": 3
+      },
+      "reference": null,
+      "evidenceSha256": "8dedc73586c2f7c333bb85b0874b707df1aa906bb9007675c55e4a73eb3c7763",
+      "explanationSha256": "6572cdf663f0bfb6ec6e96cf60c1809d300d7e535e2a2e9eda0a3aec04eca5c9",
+      "sourceTextSha256": "ced4e9d17619195e953d6ebd43b41da2ea0b42eaab99dc9bcc282365997ec804",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "intro-07",
+      "quizId": "quiz-intro-biblia",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-1",
+        "page": 4
+      },
+      "reference": null,
+      "evidenceSha256": "a0d93b3f851ae18d5fa7154ebff44b25ad74119e313cedf33a3fcdf37159ac46",
+      "explanationSha256": "df76eebf6f001807a0ba4cb1a9c845ac8b5531d278f8e068b1df4f6f49138184",
+      "sourceTextSha256": "63ec75ebe0dff61f89005fc7e327abf05d272831d6599e7355e705ed72fd731d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "intro-08",
+      "quizId": "quiz-intro-biblia",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-1",
+        "page": 4
+      },
+      "reference": null,
+      "evidenceSha256": "100d5593bca52519b3fd9d0108f4f7c1094e20fd86e3a6336adbd8a59a91aad2",
+      "explanationSha256": "63c8605cff01bdaa736991dc3c00047ab607c9daf54aa8215670fcc4fdf6f2d1",
+      "sourceTextSha256": "63ec75ebe0dff61f89005fc7e327abf05d272831d6599e7355e705ed72fd731d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "organizacao-01",
+      "quizId": "quiz-organizacao-biblia",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-1",
+        "page": 7
+      },
+      "reference": null,
+      "evidenceSha256": "6a28214a4c88cffa041a7b9ecc3a169dce010b06bad0c8ee5658b9e407f8b14d",
+      "explanationSha256": "295f749437b05aac4a641857a03820144ddcd5fd545563ad68d4ba688900e2e8",
+      "sourceTextSha256": "73be0d07e0753d9336a43fa67c62fe7b84e08253a98a62eab58b5aa2406aebae",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "organizacao-02",
+      "quizId": "quiz-organizacao-biblia",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-1",
+        "page": 7
+      },
+      "reference": null,
+      "evidenceSha256": "d918b9e003be512d46e28b4477734bc7fef8f148fae762dfdb9ea524dda3051c",
+      "explanationSha256": "d3a2a9a45939ac638c1170651591122524137c6af993a0114a0e0de4d28bac77",
+      "sourceTextSha256": "73be0d07e0753d9336a43fa67c62fe7b84e08253a98a62eab58b5aa2406aebae",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "organizacao-03",
+      "quizId": "quiz-organizacao-biblia",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-1",
+        "page": 5
+      },
+      "reference": null,
+      "evidenceSha256": "90fa25c8df585670803d3a1588b105b41a6dda95c0514b1e990bce9d99c1957d",
+      "explanationSha256": "51dbbdbbf6f01d96d1f9b330daf7b1bdb835d8848f65162f1cb3cae693582501",
+      "sourceTextSha256": "e1c5578dace3ddaa2df963e37eb5e58a0f4850d2dd5564cd54485d66744c9d9d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "organizacao-04",
+      "quizId": "quiz-organizacao-biblia",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-1",
+        "page": 5
+      },
+      "reference": null,
+      "evidenceSha256": "e210ebf5e9c815031a8800ca838274c5e1c360174fc6a901de74163cf862ca83",
+      "explanationSha256": "fad5b5e6cc584c22786f195513b35b8878640df61435ac48b1b0e98ac98b4411",
+      "sourceTextSha256": "e1c5578dace3ddaa2df963e37eb5e58a0f4850d2dd5564cd54485d66744c9d9d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "organizacao-05",
+      "quizId": "quiz-organizacao-biblia",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-1",
+        "page": 5
+      },
+      "reference": null,
+      "evidenceSha256": "3c38b2186bdb7909dafc8ac6a3a1fb656c921ef044800726d328190755b255e6",
+      "explanationSha256": "f81dda53b4d4f48d45d77412c1be0800349388f23303dab0e575ac673a91bebc",
+      "sourceTextSha256": "e1c5578dace3ddaa2df963e37eb5e58a0f4850d2dd5564cd54485d66744c9d9d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "organizacao-06",
+      "quizId": "quiz-organizacao-biblia",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-1",
+        "page": 5
+      },
+      "reference": null,
+      "evidenceSha256": "1f4c0110d6d18c768de6a924e210ba857c974fab49926113e3660e1f8a146539",
+      "explanationSha256": "5d4d505e54f874bdf7abd2eb2fb4794ec8fe1990fd45b9b55c9b2bf00712ec14",
+      "sourceTextSha256": "e1c5578dace3ddaa2df963e37eb5e58a0f4850d2dd5564cd54485d66744c9d9d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "organizacao-07",
+      "quizId": "quiz-organizacao-biblia",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-1",
+        "page": 7
+      },
+      "reference": null,
+      "evidenceSha256": "8ef85e1de04118693687c25f5f618242b7d63748657a157ef43d259014770893",
+      "explanationSha256": "53bab87109defd9a4a7a61db5434d07dae6795d4c89e58661254b16105c4f066",
+      "sourceTextSha256": "73be0d07e0753d9336a43fa67c62fe7b84e08253a98a62eab58b5aa2406aebae",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "organizacao-08",
+      "quizId": "quiz-organizacao-biblia",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-1",
+        "page": 7
+      },
+      "reference": null,
+      "evidenceSha256": "dcf9a53e45bfacd4c5bc3ec8cfa8f04e68089d9b303f1e80890ec978c9364ad5",
+      "explanationSha256": "3424a94c5330fb1f99323da36c10b30f72a39ed39b5103b0cd4439e90ea69baa",
+      "sourceTextSha256": "73be0d07e0753d9336a43fa67c62fe7b84e08253a98a62eab58b5aa2406aebae",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "panorama-01",
+      "quizId": "quiz-panorama-biblia",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-1",
+        "page": 12
+      },
+      "reference": null,
+      "evidenceSha256": "7c37452b0990596b8aa6ca9f02a097ec5b4bbd0527c668ce362653c3befa988f",
+      "explanationSha256": "53e37f55852d2cad42cdecc0c52e1bd66db7781670ca023b77d44f5e1c5ad601",
+      "sourceTextSha256": "2388283b69f28cddec2c46b04507119a716068da83d71a68a1350e8fb18e57f9",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "panorama-02",
+      "quizId": "quiz-panorama-biblia",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-1",
+        "page": 15
+      },
+      "reference": null,
+      "evidenceSha256": "20263a11c3807a7e68564f571d18ec56ff705d8982b2423c7bfa5c4500d1254a",
+      "explanationSha256": "04d2ddf281aa5b96fd3630be423282cd8b51e145484a2ad673d320fe0d564fc5",
+      "sourceTextSha256": "5dd4351894759cb9410781075f12a2b71beb1bfbf77a5d7d92a241b1695c329b",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "panorama-03",
+      "quizId": "quiz-panorama-biblia",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-1",
+        "page": 12
+      },
+      "reference": null,
+      "evidenceSha256": "67a988ff517a3b3af72b41acbc54999c28e4a5dc5dd9ebd6d3b96b2e98a03d4f",
+      "explanationSha256": "6f167ea31125ec0384c3599e38ebc055226acba6b796f8ba0699d354a95ade05",
+      "sourceTextSha256": "2388283b69f28cddec2c46b04507119a716068da83d71a68a1350e8fb18e57f9",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "panorama-04",
+      "quizId": "quiz-panorama-biblia",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-1",
+        "page": 12
+      },
+      "reference": null,
+      "evidenceSha256": "b4c02537f3200e57700d37d5c51702ccf64a31d4d5b3a3648f0e5f63ede4eb17",
+      "explanationSha256": "c328c58d62c6e7aa62a0cc9e5e9ffd98d89054ea1f0f62dbdc851d1375232670",
+      "sourceTextSha256": "2388283b69f28cddec2c46b04507119a716068da83d71a68a1350e8fb18e57f9",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "panorama-05",
+      "quizId": "quiz-panorama-biblia",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-1",
+        "page": 12
+      },
+      "reference": null,
+      "evidenceSha256": "68ef1618c094ff1efcb541dba8522dcc1b60f27cb2e74076db0206623983796e",
+      "explanationSha256": "c70a9d21c52f999cc13648c58c53460e198b854445d3e7df0802c52867974a89",
+      "sourceTextSha256": "2388283b69f28cddec2c46b04507119a716068da83d71a68a1350e8fb18e57f9",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "panorama-06",
+      "quizId": "quiz-panorama-biblia",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-1",
+        "page": 13
+      },
+      "reference": null,
+      "evidenceSha256": "c33283eb9d4bea4a801e1330e8e4dbf486ef06af7467946aa5376b2721e9691f",
+      "explanationSha256": "e8a1e7af9af3ff34937b968ea3e33da92ec6c7e7835868cbe2d4d47c1a2b021a",
+      "sourceTextSha256": "2586841011ba092db6ee278badf21f465f2b45317c9619417f2b83a40cc4f646",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "panorama-07",
+      "quizId": "quiz-panorama-biblia",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-1",
+        "page": 13
+      },
+      "reference": null,
+      "evidenceSha256": "46e8b099529be3085ff67ae195cde77d580feecf36605a025376fc8d26efac8c",
+      "explanationSha256": "3f3b3c40ffaf6f0383f1a3609731b19f0a6f5e646f46793e55b48e1647119761",
+      "sourceTextSha256": "2586841011ba092db6ee278badf21f465f2b45317c9619417f2b83a40cc4f646",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "panorama-08",
+      "quizId": "quiz-panorama-biblia",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-1",
+        "page": 14
+      },
+      "reference": null,
+      "evidenceSha256": "fb35bdde4d07112b7baf27da892568a7b5a6d8a550754cf68456520c7ce6494d",
+      "explanationSha256": "3ed9b6351bc55e149c43032401a74a75128a36b9daf70d300ac20fda9620259e",
+      "sourceTextSha256": "90fd576360dd7bc6537fbb4bc9fc7f38fb74dcfd35dde1639d1cc08b55348403",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "hebreus-01",
+      "quizId": "quiz-identidade-hebreus",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-3",
+        "page": 1
+      },
+      "reference": null,
+      "evidenceSha256": "48cc8dfabbb425ea559883f89fffcca15d0466f116279c9ba7fe59bb0d2b272d",
+      "explanationSha256": "07ec683a7054241a6a1e8a092914ac6ad47cc689d6218f642ff1027f763ed02f",
+      "sourceTextSha256": "38aa48d6a2f28030537632f82a666f032e413d2c428f2e90813cc8d67a6546f9",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "hebreus-02",
+      "quizId": "quiz-identidade-hebreus",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 2
+      },
+      "reference": null,
+      "evidenceSha256": "f4a994602c022149d8414b44179ab1721e2f27a42457a470a64a8a0bc2e49915",
+      "explanationSha256": "840daac59078a69ab9fefb4ac228cdc87696b437e77869e16356836c0ed0d14a",
+      "sourceTextSha256": "5bebd33ae5cdae4c9d24ff21ceac716f74d286f7f197277bffd94f962114e305",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "hebreus-03",
+      "quizId": "quiz-identidade-hebreus",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-3",
+        "page": 1
+      },
+      "reference": null,
+      "evidenceSha256": "aa3ee17706c52255869c186bdd93c9559f8ddcbc2b2d7e246c1d7bc7e1f3bf65",
+      "explanationSha256": "ccc304d28b9c659d746e342defbcddf7f86b30ecc1a462b24602e9f99dcffa3a",
+      "sourceTextSha256": "38aa48d6a2f28030537632f82a666f032e413d2c428f2e90813cc8d67a6546f9",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "hebreus-04",
+      "quizId": "quiz-identidade-hebreus",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 1
+      },
+      "reference": null,
+      "evidenceSha256": "3222d9fe840f27f4283b1592a458f84ccd84642e9779781c4a37bd8ff4e633f2",
+      "explanationSha256": "0f1612ae5fe239450732b5b1a4347e726dd8cb7a1c71248ae56b73d1f9023e8d",
+      "sourceTextSha256": "38aa48d6a2f28030537632f82a666f032e413d2c428f2e90813cc8d67a6546f9",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "hebreus-05",
+      "quizId": "quiz-identidade-hebreus",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 2
+      },
+      "reference": null,
+      "evidenceSha256": "625faeccdd5dbc1f516b31b405a85903e6d91925512b8a90163dcbc9bc8011d2",
+      "explanationSha256": "4e303a9fd223059ac411c0743b410489a62572f21808b43e055d9eb61ddc7704",
+      "sourceTextSha256": "5bebd33ae5cdae4c9d24ff21ceac716f74d286f7f197277bffd94f962114e305",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "hebreus-06",
+      "quizId": "quiz-identidade-hebreus",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 2
+      },
+      "reference": null,
+      "evidenceSha256": "841d445463ba92b2643a340760bac5311c1b849270de7548d89ac534bb650df8",
+      "explanationSha256": "efa80f1ff4bcfbe54e53bc75b314d5be21ad0c934e30682142a26490e06ca962",
+      "sourceTextSha256": "5bebd33ae5cdae4c9d24ff21ceac716f74d286f7f197277bffd94f962114e305",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "hebreus-07",
+      "quizId": "quiz-identidade-hebreus",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-3",
+        "page": 2
+      },
+      "reference": null,
+      "evidenceSha256": "21c8c7aa508d73e38f5d096433196e19c6499ecac3958c11abc6934481024ec6",
+      "explanationSha256": "763d0d46cd8a37fa79fc7f0021cc090360ad0fbadbe6051cb84c4f12056b450f",
+      "sourceTextSha256": "5bebd33ae5cdae4c9d24ff21ceac716f74d286f7f197277bffd94f962114e305",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "hebreus-08",
+      "quizId": "quiz-identidade-hebreus",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-3",
+        "page": 2
+      },
+      "reference": null,
+      "evidenceSha256": "e621c7fad3605845e68cd785a5a5dab5747b2f01ddad8a72114e849dee0e81f4",
+      "explanationSha256": "917820ee6ac527fe47cea8eff832f8d0bd94adf43a03d4214b156f8aed11853b",
+      "sourceTextSha256": "5bebd33ae5cdae4c9d24ff21ceac716f74d286f7f197277bffd94f962114e305",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "historicos-01",
+      "quizId": "quiz-historicos-at",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-3",
+        "page": 3
+      },
+      "reference": null,
+      "evidenceSha256": "9703ba21835169d6a18e5de7bf1e26f3ea0c0b7fefdc929945f8eb67de24ed7e",
+      "explanationSha256": "33a26cccd3f37413e7c4ab5195a6b57ecc741e434697a0cf2ebc6af26e62f9f3",
+      "sourceTextSha256": "e53f541d71a0f916053915e06d2f25bcede85943fdb00406b4a060dbd89c93cd",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "historicos-02",
+      "quizId": "quiz-historicos-at",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 11
+      },
+      "reference": null,
+      "evidenceSha256": "6f7adc30720e203fbb7d7f852411c1794790f122562c358c4a015b72a73c4a84",
+      "explanationSha256": "e39c8e11db87124c3fca7786ee84d548f382dfadc02b2e020ba341568bbf71eb",
+      "sourceTextSha256": "663bfde28923184b48e1a3172fbba644142ba70a1a56a9f95e5a67cc14adc229",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "historicos-03",
+      "quizId": "quiz-historicos-at",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-3",
+        "page": 3
+      },
+      "reference": null,
+      "evidenceSha256": "05b7acc75668f1eaeea0227a1443bccb182bf264b36c28927163f259049d17f7",
+      "explanationSha256": "4b6142dda704f446633cb28ccb66d18dedb308c2233d38b485001cdc7ad7c18f",
+      "sourceTextSha256": "e53f541d71a0f916053915e06d2f25bcede85943fdb00406b4a060dbd89c93cd",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "historicos-04",
+      "quizId": "quiz-historicos-at",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 3
+      },
+      "reference": null,
+      "evidenceSha256": "711edaa138df9ca2e43965e9fe999db618c82ce0b78e12182b57e8520102ef19",
+      "explanationSha256": "a9e2c8ffdd4d9054d889567388d5c98cb233fc20e83be75239c6f2980b42244a",
+      "sourceTextSha256": "e53f541d71a0f916053915e06d2f25bcede85943fdb00406b4a060dbd89c93cd",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "historicos-05",
+      "quizId": "quiz-historicos-at",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 11
+      },
+      "reference": null,
+      "evidenceSha256": "aa84c72ecec7413f09b9f8556ed8ac0142c8940f6d6024fb6f45d3baf91288ab",
+      "explanationSha256": "caf0fe7d06058a971f533e0f8c3af7f7d41ce945476235ba04f48fb67d50da94",
+      "sourceTextSha256": "663bfde28923184b48e1a3172fbba644142ba70a1a56a9f95e5a67cc14adc229",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "historicos-06",
+      "quizId": "quiz-historicos-at",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 13
+      },
+      "reference": null,
+      "evidenceSha256": "84c0ff4502ac59d37182debabd1744e11dcd1db1da14cc00174da75139298033",
+      "explanationSha256": "9b0d0e11b8671c8bf07905396767e3fb0bd0d32c65f64c59d5dbf414cf034dfb",
+      "sourceTextSha256": "d3ccc4e8d3f614258225f7af46608beaaa5570856922f0e35331509e16311313",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "historicos-07",
+      "quizId": "quiz-historicos-at",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-3",
+        "page": 13
+      },
+      "reference": null,
+      "evidenceSha256": "6ea616f5f3beb5e43394854d2d2294d064121d338573299c8676a7e5b7acee4d",
+      "explanationSha256": "e99f5cdceaee1691a1eeff2281b18e75b7a4463129b216ef5c6663d1f82ce6b5",
+      "sourceTextSha256": "d3ccc4e8d3f614258225f7af46608beaaa5570856922f0e35331509e16311313",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "historicos-08",
+      "quizId": "quiz-historicos-at",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-3",
+        "page": 15
+      },
+      "reference": null,
+      "evidenceSha256": "f6ec9a1633fbe8428edb53c9412acc5c91eff68bcbff9026ab883cbe189b279f",
+      "explanationSha256": "13f02742daee3adc500c3b0a9a45b2d9c5cad270c698e67cca69a5075da9db9f",
+      "sourceTextSha256": "df1c59e2ecb36e1b0201343675944db91d7f26a07b3869a5453a2c58c3c4fcd4",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "poeticos-01",
+      "quizId": "quiz-poeticos",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-3",
+        "page": 16
+      },
+      "reference": null,
+      "evidenceSha256": "492c03b37706215d8718587d1adeeb13a21548abdc1c1328eebae435771dceb8",
+      "explanationSha256": "9b61aa18d1da39ed349e4e80d002fa6ba422baf4cc4e75b37d3bff9f348a5f2c",
+      "sourceTextSha256": "a869d7a126503dac88882caf6c718edb5ef43335719be7d38b85df6b7924335c",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "poeticos-02",
+      "quizId": "quiz-poeticos",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 16
+      },
+      "reference": null,
+      "evidenceSha256": "8e1d3f27b0ce7c14f1f3a286f01f8a2ed2f106ad29142064834f0ceb641b1497",
+      "explanationSha256": "4e08e412975c284ca3fd2f1a5a48344cc16b39f2f720e0e42eb11f7f3b82e8ef",
+      "sourceTextSha256": "a869d7a126503dac88882caf6c718edb5ef43335719be7d38b85df6b7924335c",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "poeticos-03",
+      "quizId": "quiz-poeticos",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-3",
+        "page": 16
+      },
+      "reference": null,
+      "evidenceSha256": "bf9ff76f56d9625f87ed7372c527fd76d56433e2d606cdfab0da507c74a9def9",
+      "explanationSha256": "c9ebe16ac48f28af4b75c43baaa25a499677796f7b00bb296702039ad36d8b86",
+      "sourceTextSha256": "a869d7a126503dac88882caf6c718edb5ef43335719be7d38b85df6b7924335c",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "poeticos-04",
+      "quizId": "quiz-poeticos",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 19
+      },
+      "reference": null,
+      "evidenceSha256": "38f328eac12fa46a36a0062a8d908fce3886bc8bead8b2b094903b72c221ca84",
+      "explanationSha256": "1a7e4978f767e233d1e095398075bdee96875f235ca70a5f9e9234f6ae90c85c",
+      "sourceTextSha256": "b458e6b17aab80578be95b781164fb4fc767252822b9ccfa5246eb7304fa959d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "poeticos-05",
+      "quizId": "quiz-poeticos",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 21
+      },
+      "reference": null,
+      "evidenceSha256": "cfacaa739cc14195cf4ee50083f60f1bb26fef32519b3bead2da05c828e898ce",
+      "explanationSha256": "5c5ab356556c176ce65b360eca696de043fe43a18f6c7ede39aa2646810a8d7e",
+      "sourceTextSha256": "664461d302d8fcd432b390b883443f9bf40f20d53ab616ddce187c56e6214014",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "poeticos-06",
+      "quizId": "quiz-poeticos",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 23
+      },
+      "reference": null,
+      "evidenceSha256": "3f0d073b35dfd3c78de30a05af95adaa5ce2ab0aceecd566b1533c61c89b76d8",
+      "explanationSha256": "a9e6651d3f92331a156c78a05b6ac4155210c6d093278db1041cb2c16710d3b7",
+      "sourceTextSha256": "307166c25e64e9c40141ff62b36b75f665b25e54a301cd72179391804e695ee0",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "poeticos-07",
+      "quizId": "quiz-poeticos",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-3",
+        "page": 17
+      },
+      "reference": null,
+      "evidenceSha256": "482c4206d177893bc3f56420b7882a2348510885420650e00e3fed2e5ba55ca3",
+      "explanationSha256": "de424446ce4927d0b2ea86cda08504c4c02414beb43e3e2b78bfbeabe77f30b5",
+      "sourceTextSha256": "4e9927e6126b15b406f71c3b9a4d5acf28efa8436d08bbc3873af490fec68c77",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "poeticos-08",
+      "quizId": "quiz-poeticos",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-3",
+        "page": 25
+      },
+      "reference": null,
+      "evidenceSha256": "723b686bbf02de34b1803053b821ebc7aeea008472d6b9bd6d43ce341eb45e9f",
+      "explanationSha256": "f391a46e279ec029c4d825fc660543d2090911c11de76a9ec1c0e2217e5893c0",
+      "sourceTextSha256": "05f376de5e4aa123df6a1e4c597ecacec21b3e7e111587cb9587d9d057ecdd2b",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "menores-01",
+      "quizId": "quiz-profetas-menores",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-3",
+        "page": 40
+      },
+      "reference": null,
+      "evidenceSha256": "12d58abb2e6a2b22d5671d07454401669c1013a070dfab12a993751b7c3d2e64",
+      "explanationSha256": "f6cb7563269e01f9852cfe2924627fd99a4ae5a6139010ac2e37d455b18f0b3f",
+      "sourceTextSha256": "be4b497978531b84dd61a3463e5abb6d6c33356c6c831baf661ab92087929069",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "menores-02",
+      "quizId": "quiz-profetas-menores",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 40
+      },
+      "reference": null,
+      "evidenceSha256": "711f9252e8146efb2d10010200d982e0aa511847ed315ec797884349a0074f52",
+      "explanationSha256": "88c6a7e09232ef7948081fbf1a3c6f3795e80701e63d6d6262f23b6a45087d87",
+      "sourceTextSha256": "be4b497978531b84dd61a3463e5abb6d6c33356c6c831baf661ab92087929069",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "menores-03",
+      "quizId": "quiz-profetas-menores",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-3",
+        "page": 45
+      },
+      "reference": null,
+      "evidenceSha256": "fa578f90e76644485288a0ce82ab0d5216a5038470a6a30334329ec6f2256c4d",
+      "explanationSha256": "dfc646c4df710c5249a7d4280caf1c5f3f3cdfaf268e0f2b7977d82a5cd4e3b8",
+      "sourceTextSha256": "ca11ca9e02537e92b5ebb806352cd0e0f21b4d4c33c1a7ebb9956f27c1c690b6",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "menores-04",
+      "quizId": "quiz-profetas-menores",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 40
+      },
+      "reference": null,
+      "evidenceSha256": "dc8488bea3c9dcd5db660668552d350bffc8585d998d44755c4cbfde1d3465a2",
+      "explanationSha256": "7bea0be3721c1ed070dd8b5c80f5de11c7874aa56c2621523cdf4f2fbb3b2efd",
+      "sourceTextSha256": "be4b497978531b84dd61a3463e5abb6d6c33356c6c831baf661ab92087929069",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "menores-05",
+      "quizId": "quiz-profetas-menores",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 56
+      },
+      "reference": null,
+      "evidenceSha256": "5a89f264e0bf9aad850c7c050b2a62abb0bdb9133debc3eaee149e2a44bb38ad",
+      "explanationSha256": "657da7b6b952c538d8c729aa02df858c8bab4186725204aed68e2d04898ad2ce",
+      "sourceTextSha256": "97cce84949e7b2ba528e53b4eecb9322fbd34503ffc67e45436aaa7acd450e7a",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "menores-06",
+      "quizId": "quiz-profetas-menores",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 52
+      },
+      "reference": null,
+      "evidenceSha256": "b80470b81da478d032dd3bf6a23e485b980566d331129f131eef51e3278ca877",
+      "explanationSha256": "a2c50255f789c13a70a85da0e17039cc602789fc7d63f478c605f3a331b4b1d0",
+      "sourceTextSha256": "2bac4780ffd6b1af3fd311ef149db20f4320ae6ddbf658a0d23ce3acf794c8b7",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "menores-07",
+      "quizId": "quiz-profetas-menores",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-3",
+        "page": 61
+      },
+      "reference": null,
+      "evidenceSha256": "9aeb00a8dcba327ea27f9c8cfede8a27ae9b5dfb31cc79ea5356fc799fd21283",
+      "explanationSha256": "31455c09b7fe0fb7e64039914ebeb46b173ca5e25d62cf499de36ac2bf25a95a",
+      "sourceTextSha256": "f8d974fb616106ef3590d067a1f4bd4acb2e0579a364a004325a7b3520cd0f19",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "menores-08",
+      "quizId": "quiz-profetas-menores",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-3",
+        "page": 63
+      },
+      "reference": null,
+      "evidenceSha256": "98a8d0f0603fddcff93abc92c1cfc5ae8b9d24c2dfa868ee37b7cd19eb86616a",
+      "explanationSha256": "7f0145c2881285a525197e4453cc75959b5df8c2526968f28e5a3418321a87e8",
+      "sourceTextSha256": "7278d9b8e8c1d8f8aff71056347605715f297d988390722ce969e4c7281ec775",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "interbiblico-01",
+      "quizId": "quiz-periodo-interbiblico",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-3",
+        "page": 65
+      },
+      "reference": null,
+      "evidenceSha256": "e68ac6516c81a86c894d2f12f9ff7766e905d67b49413b36f135b5f579284d1d",
+      "explanationSha256": "5d5bc78769f76663078a9313f68ecd6d2e66ada2f16a50e7e3e9d4734dc0a670",
+      "sourceTextSha256": "b63bd0d8705ad43c041bf998940dc7d4a1a59176ff07eb0d4f347a81e9e23e8e",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "interbiblico-02",
+      "quizId": "quiz-periodo-interbiblico",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 66
+      },
+      "reference": null,
+      "evidenceSha256": "f24691a654814fdeda89415a90e958dda49ecf6b92f0f330ce6210d75ef6f689",
+      "explanationSha256": "9d8a7ca27aea2d9d6bc33a513ab403420b50156f80834142b167a12de3b142c9",
+      "sourceTextSha256": "f7206b4ba0172017837eed4cb3bc13a877ed13ca29d97d9df037b653a7d8ede4",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "interbiblico-03",
+      "quizId": "quiz-periodo-interbiblico",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-3",
+        "page": 65
+      },
+      "reference": null,
+      "evidenceSha256": "e29037da724184ac1b02fd6952348060f6e7a27f0f646e7db2435fa2016c1eb5",
+      "explanationSha256": "5fa6cbf24c537abea31f54448d73fdbf35361ebe8daca49b0c1de32a6562894c",
+      "sourceTextSha256": "b63bd0d8705ad43c041bf998940dc7d4a1a59176ff07eb0d4f347a81e9e23e8e",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "interbiblico-04",
+      "quizId": "quiz-periodo-interbiblico",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 65
+      },
+      "reference": null,
+      "evidenceSha256": "32812c92075cb294930f1f49ebc7223e6912902a45588765fda2ef5bc5a10386",
+      "explanationSha256": "42235c0f7ff32c905772884e79ea744336a02a4144416dc0ae82441e44ab3bf9",
+      "sourceTextSha256": "b63bd0d8705ad43c041bf998940dc7d4a1a59176ff07eb0d4f347a81e9e23e8e",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "interbiblico-05",
+      "quizId": "quiz-periodo-interbiblico",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 65
+      },
+      "reference": null,
+      "evidenceSha256": "bf57a14ee47ca2c3f1b6c5dd856d2178700995bed002f37e2311248246aeea0c",
+      "explanationSha256": "b16f562f6eafc8ab82dedcc1c92e086df119e397c97f50d18d7f9db92b6ec396",
+      "sourceTextSha256": "b63bd0d8705ad43c041bf998940dc7d4a1a59176ff07eb0d4f347a81e9e23e8e",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "interbiblico-06",
+      "quizId": "quiz-periodo-interbiblico",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-3",
+        "page": 66
+      },
+      "reference": null,
+      "evidenceSha256": "5a2c998367de3e046efe80086ca52a5254802fcbf39c82ed19efb194f280c036",
+      "explanationSha256": "b0fba6ee1e88df5aa029fc113468411ba252d288c1cba62fc8316578d0be23e9",
+      "sourceTextSha256": "f7206b4ba0172017837eed4cb3bc13a877ed13ca29d97d9df037b653a7d8ede4",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "interbiblico-07",
+      "quizId": "quiz-periodo-interbiblico",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-3",
+        "page": 66
+      },
+      "reference": null,
+      "evidenceSha256": "22ad6a69d9f3774f597853b7050102810b3c22d213eb496bc22c79e5e7d4d965",
+      "explanationSha256": "c9d24923a5f73d2cfb622104c83b19679eed3c47779fe62f8448f3dd49d69c91",
+      "sourceTextSha256": "f7206b4ba0172017837eed4cb3bc13a877ed13ca29d97d9df037b653a7d8ede4",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "interbiblico-08",
+      "quizId": "quiz-periodo-interbiblico",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-3",
+        "page": 66
+      },
+      "reference": null,
+      "evidenceSha256": "e08b66134a722e193774057621a3afaa7ed1204129c5b008ff155687402f83dc",
+      "explanationSha256": "b1983d2aabeaab4214f957d16d09d0b0223956c0ade7865939258936358118d5",
+      "sourceTextSha256": "f7206b4ba0172017837eed4cb3bc13a877ed13ca29d97d9df037b653a7d8ede4",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "evangelhos-01",
+      "quizId": "quiz-evangelhos",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 2
+      },
+      "reference": null,
+      "evidenceSha256": "223b87c3d6e9c0e8a2f9a792e4e7360efb6515007f904ed87db143d1b09ecc35",
+      "explanationSha256": "da95c033aa7f18aa8cf680c70e316a979e520c441db5c6d55d616d753a640886",
+      "sourceTextSha256": "b90342b20623f06047fecabbbef926391caa06340cd11a33771e588b2ce6c50d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "evangelhos-02",
+      "quizId": "quiz-evangelhos",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 2
+      },
+      "reference": null,
+      "evidenceSha256": "ec055627587e3a2706e58f394be15054fd841f090007876e3ceab01102b912b5",
+      "explanationSha256": "b52e80e3fc3b261cbf3865b0c2e46651168faba7aa118fad6dc9e84b6347f55a",
+      "sourceTextSha256": "b90342b20623f06047fecabbbef926391caa06340cd11a33771e588b2ce6c50d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "evangelhos-03",
+      "quizId": "quiz-evangelhos",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 2
+      },
+      "reference": null,
+      "evidenceSha256": "9696eb71f71c5d84541588d770131f308a23fb702d28e352b66f4e6e4af5a3cf",
+      "explanationSha256": "b7dad51e46c420f9f2ef9e8b249776d37a592e41f4cc74100c758b3a6af638bc",
+      "sourceTextSha256": "b90342b20623f06047fecabbbef926391caa06340cd11a33771e588b2ce6c50d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "evangelhos-04",
+      "quizId": "quiz-evangelhos",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 2
+      },
+      "reference": null,
+      "evidenceSha256": "c94e19b67febb710ebbf3f5e9978fb38e24581e1f9f4782b181c9063e253058e",
+      "explanationSha256": "b2678621663b17749d45eb93780921a0ba2cb05a2c373f4dd4e4c1467e7e87dc",
+      "sourceTextSha256": "b90342b20623f06047fecabbbef926391caa06340cd11a33771e588b2ce6c50d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "evangelhos-05",
+      "quizId": "quiz-evangelhos",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 13
+      },
+      "reference": null,
+      "evidenceSha256": "4036162336f9858ec9e69f64ddedec6b3469d7dbcfd16fa8ef3aa53dee767357",
+      "explanationSha256": "e77be0d72a203f724cc1867c0e02e9a43b58d8a956cbc4eae7b5763db20c8316",
+      "sourceTextSha256": "af83945658756f42801aaa54150c06de33c9d5e0a2fc2262d5eb3a64f192ac47",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "evangelhos-06",
+      "quizId": "quiz-evangelhos",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 4
+      },
+      "reference": null,
+      "evidenceSha256": "7c8c9a5cf7603eaa0ac0a94704f708583c328526936ac4d5f64df70264ac1fd1",
+      "explanationSha256": "42615aea0b81aa5a0abbe83438e64fbefafc2bdf64a058a6a802938857875be4",
+      "sourceTextSha256": "336ca7cfa0da3540b6fb4e65eeda10f7644d544fc51c78aa77cc34679f0f4d70",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "evangelhos-07",
+      "quizId": "quiz-evangelhos",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-4",
+        "page": 7
+      },
+      "reference": null,
+      "evidenceSha256": "603fcb4394e1da09a76981c26ae48e90bcfcc7b64549009dfe3b0badffc6c2f9",
+      "explanationSha256": "2c0008bf8daef0e6d281635fc6e7cb8ce021a7a2db9385bc166548125cc13c81",
+      "sourceTextSha256": "491b3e2c933332e3d1ce1c19fecedbd77b7d063118962183e3ccd73b0a70e3aa",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "evangelhos-08",
+      "quizId": "quiz-evangelhos",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-4",
+        "page": 2
+      },
+      "reference": null,
+      "evidenceSha256": "797ba5fb1aee0e8ab208e96dea797ecf3d1a7b2056855490bca159af9d2c1800",
+      "explanationSha256": "89fcb513ae87b8b5437be212a353dbf89cb27877316cbe1e8cd13a3f4b51ef1c",
+      "sourceTextSha256": "b90342b20623f06047fecabbbef926391caa06340cd11a33771e588b2ce6c50d",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "vida-01",
+      "quizId": "quiz-vida-jesus",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 15
+      },
+      "reference": null,
+      "evidenceSha256": "d48f7509767507d7501f48cc0250ffb1f93df23aeecd8120f853bea9a54c8683",
+      "explanationSha256": "273ed51632eeb86bea37857d009ea3252152f342336037f6ee874d3d34e5ea75",
+      "sourceTextSha256": "d49bfd22be14034ebc744efdb6312d03e5ed3ce63e762b614ea499b2cfa14fe3",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "vida-02",
+      "quizId": "quiz-vida-jesus",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 16
+      },
+      "reference": null,
+      "evidenceSha256": "5004ea931a447def610cab73d8c8d6965f21c147bf99eafe75a1b090e8bdc224",
+      "explanationSha256": "81da6fdce08716150a09cb9e3c3044d4b2090332cca4c2d68d37d44f7c7eaad3",
+      "sourceTextSha256": "959e416d3459868f46fddeceba95361f664facf083a4982410728932c74cd187",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "vida-03",
+      "quizId": "quiz-vida-jesus",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 17
+      },
+      "reference": null,
+      "evidenceSha256": "960a05bb2e92fe11e557504322cd8cff93e344082321fef25e8a8588e9419877",
+      "explanationSha256": "0a8d50d4592f835bc03a07fec4ea9282d1ebfdd9443f95be459f1ec6ba729a1c",
+      "sourceTextSha256": "14f7cf55ff0860326de0df11a041fc3fa677c9a71db2124a8c6521579db20bbf",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "vida-04",
+      "quizId": "quiz-vida-jesus",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 18
+      },
+      "reference": null,
+      "evidenceSha256": "ba98327db510eb00eefc65d4839712226653cc1f635a08c3a8a529b492af2891",
+      "explanationSha256": "218d775e6c7321e4d30e20393907677396518c090903277e9453eda362c76fad",
+      "sourceTextSha256": "e3ae3c4ff9be7fd0574d2cc4cce549c71ffc3ced37a7302c0d39df9bd79b57b3",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "vida-05",
+      "quizId": "quiz-vida-jesus",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 22
+      },
+      "reference": null,
+      "evidenceSha256": "703467121a81946fd4d5be5ff921bebc0a7fb1a94299c8b2a27aae738e16d7ff",
+      "explanationSha256": "26bc10e9d38de1b4cb74ec543d4952c62b2014c06aec96a03313de41a0e7b0e6",
+      "sourceTextSha256": "e301843396ba1d54e450307f0c8bbe88c2b3ed37759deb9e30f94381565c99e3",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "vida-06",
+      "quizId": "quiz-vida-jesus",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 17
+      },
+      "reference": null,
+      "evidenceSha256": "6e1febcdc0241ed90c4f24776bc6a45b3d3e1d287170de441771911b9cd2e6df",
+      "explanationSha256": "635715a0f81290c3156fa590c89e2f26f8f270662f39c96dbd0ad8df017d0ecd",
+      "sourceTextSha256": "14f7cf55ff0860326de0df11a041fc3fa677c9a71db2124a8c6521579db20bbf",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "vida-07",
+      "quizId": "quiz-vida-jesus",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-4",
+        "page": 18
+      },
+      "reference": null,
+      "evidenceSha256": "68c7716ebe857e5d6425ecb2b4451b845ee4ea245062bed59539040a5e9a9bae",
+      "explanationSha256": "0ba82b70d6cd8e052b0af660abc241e31df17d88a19c4f7ffd33b36ecadb2bc4",
+      "sourceTextSha256": "e3ae3c4ff9be7fd0574d2cc4cce549c71ffc3ced37a7302c0d39df9bd79b57b3",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "vida-08",
+      "quizId": "quiz-vida-jesus",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-4",
+        "page": 19
+      },
+      "reference": null,
+      "evidenceSha256": "bd76af628e99d826465c19c1bf34e3b6b5bb0eec4762b785101b84188a578313",
+      "explanationSha256": "2bce75576b3915c24a3430d3d39306c8290e4b9d5f8fa987902b085b32774559",
+      "sourceTextSha256": "b37f995106b5d530fbbe925060d6e743ef685400c36d8e3cf5bbadec90a3142f",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "atos-01",
+      "quizId": "quiz-atos",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 23
+      },
+      "reference": null,
+      "evidenceSha256": "cf6c15405e19c7bedfcea158666dbd8edc2580ac6a2724858ca0bfa43c43e0a7",
+      "explanationSha256": "9dc1a2f80fccdd03f0cd5222649219c2f89a0d3729c87aab1f848d68f937c224",
+      "sourceTextSha256": "ff948fa4f94902f3f1171cdfc80ac65e289a79f20c0f7eb6be84ce97e9d5e9dd",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "atos-02",
+      "quizId": "quiz-atos",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 23
+      },
+      "reference": null,
+      "evidenceSha256": "ce313d934ecb0b2da9157e464c477ef91a3ef5b8bef767bd3c4ba1eb2aa82398",
+      "explanationSha256": "7476306c184563b9c840afe0c970f8b176ce0099fec12450c4bbcc0739867039",
+      "sourceTextSha256": "ff948fa4f94902f3f1171cdfc80ac65e289a79f20c0f7eb6be84ce97e9d5e9dd",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "atos-03",
+      "quizId": "quiz-atos",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 23
+      },
+      "reference": null,
+      "evidenceSha256": "5a540f2f156f777fae1caa2bca92d0320db993246362865ae363d82b783dc38f",
+      "explanationSha256": "2892cd9b03c11ef042ddb1c4b07f72d54ee034e5193bf2abc2de090b585c564b",
+      "sourceTextSha256": "ff948fa4f94902f3f1171cdfc80ac65e289a79f20c0f7eb6be84ce97e9d5e9dd",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "atos-04",
+      "quizId": "quiz-atos",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 24
+      },
+      "reference": null,
+      "evidenceSha256": "2b255501e71769521cb9016d66478bf8432f1f31c4e982ba28569abc2bd05cf8",
+      "explanationSha256": "bf13da90d983ae282135a6dea931643cf9077ba53243b9b09d2554beff0502dd",
+      "sourceTextSha256": "2a63044973945145ce3c0ed39c2760cfe787a04f5d341aa7bce6ca3606d79cc8",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "atos-05",
+      "quizId": "quiz-atos",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 23
+      },
+      "reference": null,
+      "evidenceSha256": "b70041916d668367412a329117a699ca8f5fe4377576c54ef672e17b66ea2dd7",
+      "explanationSha256": "52dacc825f287ab0656b6e7e8ae92ab9a89df0cee3b05e3ca07976105420c610",
+      "sourceTextSha256": "ff948fa4f94902f3f1171cdfc80ac65e289a79f20c0f7eb6be84ce97e9d5e9dd",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "atos-06",
+      "quizId": "quiz-atos",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 23
+      },
+      "reference": null,
+      "evidenceSha256": "9a1e4a30cc8a49c80b0be5e1cfaf085079e130aadd1c71a092c2cbe7a60484b1",
+      "explanationSha256": "59a47ea5ca4e4948677ecb6a7fbda925dd3d55c56bf64b38b0ee1df307a41ee8",
+      "sourceTextSha256": "ff948fa4f94902f3f1171cdfc80ac65e289a79f20c0f7eb6be84ce97e9d5e9dd",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "atos-07",
+      "quizId": "quiz-atos",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-4",
+        "page": 23
+      },
+      "reference": null,
+      "evidenceSha256": "09b924c1b3b52569835ef5b77db0238a70ebe723d83ad8c9bfc39a00a7f69d20",
+      "explanationSha256": "25cb6ba37445955bcdb5953823331a7497b45808a83accdf9d70931c8e4dbe78",
+      "sourceTextSha256": "ff948fa4f94902f3f1171cdfc80ac65e289a79f20c0f7eb6be84ce97e9d5e9dd",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "atos-08",
+      "quizId": "quiz-atos",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-4",
+        "page": 24
+      },
+      "reference": null,
+      "evidenceSha256": "cccd07383d75fd8ba2592b8d0cdd38377ce0f69bc0cd48b6fb3e5e65d73ca1a6",
+      "explanationSha256": "1abc6e48ff5b559d1aead84052bc840eaf5d85901236d2caa34976cf7ff7e5f1",
+      "sourceTextSha256": "2a63044973945145ce3c0ed39c2760cfe787a04f5d341aa7bce6ca3606d79cc8",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "paulinas-01",
+      "quizId": "quiz-cartas-paulinas",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 26
+      },
+      "reference": null,
+      "evidenceSha256": "6379ec08663bc907a6e011cce1ee46edf6c4676a9627beff491fcad8b7bb2dd8",
+      "explanationSha256": "255da66d7cd206b92f6701c4b30c7fcee8c7d8faa3b4c39b335d0d1a31cabc66",
+      "sourceTextSha256": "405e79c906dc5bc4322df04df52a782328762b77feadff3fd7080dcc6c3f138b",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "paulinas-02",
+      "quizId": "quiz-cartas-paulinas",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 26
+      },
+      "reference": null,
+      "evidenceSha256": "c6750cc5024daac7f2119bf5154458911a2cb60b54a294a8d08fd0a497349d59",
+      "explanationSha256": "e568451b3d25cf10997fe963b7e83f78b38c0c1d298d8ecc67a8ec22287e77ac",
+      "sourceTextSha256": "405e79c906dc5bc4322df04df52a782328762b77feadff3fd7080dcc6c3f138b",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "paulinas-03",
+      "quizId": "quiz-cartas-paulinas",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 33
+      },
+      "reference": null,
+      "evidenceSha256": "3eaa13bed107f1aff14cd5ad4fece4489f5c1bc6e413d0d8565ace28f45a5d5e",
+      "explanationSha256": "87497ba074e95086a34ba64c9335a9732cd4a93f0b2dcc009abfbe6e32fe3f81",
+      "sourceTextSha256": "651abbdb3d2a81caa02b7d2e5b2bf4f78d0cef94d15f803da5c409fc91ea0989",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "paulinas-04",
+      "quizId": "quiz-cartas-paulinas",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 52
+      },
+      "reference": null,
+      "evidenceSha256": "6a11ab5e78f26166cb8d09c70d4a26606bb23dc7dc2ddace5bd3bc8ce2481264",
+      "explanationSha256": "d6a7e06e918c1f79a76432b1b82c2067b8f8f240d9472d167be3238f9550a196",
+      "sourceTextSha256": "8bffaca303731203130caced3d724a3b8a63451f4ad5426b574b194f617db1b9",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "paulinas-05",
+      "quizId": "quiz-cartas-paulinas",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 35
+      },
+      "reference": null,
+      "evidenceSha256": "830a003f9b4b97d595d3fde17e7f7edc07ca6cf230b510e35d7f176c6cd717c3",
+      "explanationSha256": "bd504700499bfc4973d4c966ab1a1f4b523c95bd877d6cbc7482f261dda889df",
+      "sourceTextSha256": "d0c5291f2867fc424bfff6d0bd72c2171253d5c56ad5eaa6d52bd8b0b012ce27",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "paulinas-06",
+      "quizId": "quiz-cartas-paulinas",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 39
+      },
+      "reference": null,
+      "evidenceSha256": "3044be361a8d63e0d079a6bff711f931f11233f6a1513778618554637e0264ed",
+      "explanationSha256": "c4aa88cf20a3b366011defba6346a48ce255a14c2d6161257b7f7854f5da1d73",
+      "sourceTextSha256": "ce8d7eef768f6727bf19cc90bb2b95865f1da015dfaf66c7f812e72d5ae71c5b",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "paulinas-07",
+      "quizId": "quiz-cartas-paulinas",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-4",
+        "page": 27
+      },
+      "reference": null,
+      "evidenceSha256": "ad1ecf2ae074ddd5f5554cdd8fccbcd8c51bf1e38156239f0bd0a73233293c7d",
+      "explanationSha256": "209529d290f7e3d5c42f2fc8ad9fb28464a57926ebeec4353f7d34595dfe6bb4",
+      "sourceTextSha256": "0e88139dafbfd386df98a2dd07b03c4d4cba9a3b6983d253257491a173413766",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "paulinas-08",
+      "quizId": "quiz-cartas-paulinas",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-4",
+        "page": 41
+      },
+      "reference": null,
+      "evidenceSha256": "9b4b80171a8fd9bbdc0391d113cd8c5ea49990b2f4403c273b6a4ff81b09ab8c",
+      "explanationSha256": "d2b7e09712da6ad7d32496951b05256fdf7a25b0ddeec330a6eda385f37de7ff",
+      "sourceTextSha256": "fa459cf184e70b6f34912628050786b4bdbea2785e8797a23562cfe2896a850b",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "gerais-01",
+      "quizId": "quiz-cartas-gerais",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 54
+      },
+      "reference": null,
+      "evidenceSha256": "31958372d5e485712881c4dec200a4f1021f88a5dde2ecc0e14de2e7eb2863bb",
+      "explanationSha256": "ea875c405f0d1711022a95617622d740aa9f950e9915b5efaed7ab5b9578cb4a",
+      "sourceTextSha256": "d6cab7a1d71adcf6cabfd6fd519174440ecbb4617ba8e863d81e5b0885c8d098",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "gerais-02",
+      "quizId": "quiz-cartas-gerais",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 54
+      },
+      "reference": null,
+      "evidenceSha256": "8fed6f694a8dcec6d63a3f5f89ab6240e609c128004e88acc4844f4202d0cea4",
+      "explanationSha256": "abc09d390aedc6c4f58ed44d14e46f7b1b8af0740c863098fd3f0278da6b6436",
+      "sourceTextSha256": "d6cab7a1d71adcf6cabfd6fd519174440ecbb4617ba8e863d81e5b0885c8d098",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "gerais-03",
+      "quizId": "quiz-cartas-gerais",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 57
+      },
+      "reference": null,
+      "evidenceSha256": "b8ecc9bd735b211614efa3c46cea2fafa642a9eab035e5b71aa9ca6126c069ff",
+      "explanationSha256": "abd743d3b4dd936479eea7deeba887056afe73c91ee1db7e901c49ff7045b936",
+      "sourceTextSha256": "8092050d54458e44a9d7ad58b4df66c7bd45e132f3cda5ae8b8ac72d2968f9ee",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "gerais-04",
+      "quizId": "quiz-cartas-gerais",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 59
+      },
+      "reference": null,
+      "evidenceSha256": "c83e51f0b8f1f7c68df395b76a9c0f3f144f1e703c81724c52a28f760d63012d",
+      "explanationSha256": "27147ce5e3ae17a317f7f5a611811fec2c3f19d9b6d04d22c0ecdd72b8cadc8c",
+      "sourceTextSha256": "ba5d9a6a37fa1a6ba16e894bda6b9c6af96eca085f26e3d51d9cfabcbc6b9c93",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "gerais-05",
+      "quizId": "quiz-cartas-gerais",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 55
+      },
+      "reference": null,
+      "evidenceSha256": "89b96f1387ec905b3fe5cced7b3cf36af739b06a224dafb65260c544b1a729f0",
+      "explanationSha256": "4b0519fd30a0f6c6a4c1a991ee787f54f95a2bb4aeb7ad93a00b7a3bb183518d",
+      "sourceTextSha256": "805eb6e0b14cb39a940a9b6786951a286b0b01021aeb68b3f372a5ca4fa8507f",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "gerais-06",
+      "quizId": "quiz-cartas-gerais",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 63
+      },
+      "reference": null,
+      "evidenceSha256": "0a50034b8e98938e8b9f3f270a3bfc3cb888a9aefddfac8ff5bada1ad77629fe",
+      "explanationSha256": "f2cd381c28e44bc1748ce557ad63df453ff59f0993f425434bcdc04c70ef0e0b",
+      "sourceTextSha256": "7029dc27b5b04ff7412610f5733d11c54f67dc4b081cdc82fc62b508730bf6d1",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "gerais-07",
+      "quizId": "quiz-cartas-gerais",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-4",
+        "page": 57
+      },
+      "reference": null,
+      "evidenceSha256": "d0b51a733fa6c2e63a8cdea3550d1a81961f4489a4adf491f63ab787bcacb2f6",
+      "explanationSha256": "2c00e21cb3ba8230274528506179bdd6e0fb7011a2acc5677ac19d09a6af6734",
+      "sourceTextSha256": "8092050d54458e44a9d7ad58b4df66c7bd45e132f3cda5ae8b8ac72d2968f9ee",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "gerais-08",
+      "quizId": "quiz-cartas-gerais",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-4",
+        "page": 69
+      },
+      "reference": null,
+      "evidenceSha256": "4e90a3069b024405309c5cce655c23ae3bee38ab36d1321dadbf75fd2e2b5bc2",
+      "explanationSha256": "0d0e64f1472d04a1bfefc7bd2f1ff496b7a277f65b230f78c52978df1675bf0b",
+      "sourceTextSha256": "8f0998a9acc6bf9b5eeeb6bddfb03ab13cbe05588fae6073768b341fe72af2c2",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "apocalipse-01",
+      "quizId": "quiz-apocalipse",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 71
+      },
+      "reference": null,
+      "evidenceSha256": "b21122a1ccad7dbcf10906a2f3817e5bdccfeb80617d95823514a4969b33c66a",
+      "explanationSha256": "b76050f219a89450eb50da1d94d3054c4fff2464daad58a57dd4a1d173bef077",
+      "sourceTextSha256": "96b9b0ccc5d7443a0cd4a94f0d5f6cb7e0735d7d3d215e026bf13b3b8fdb1f32",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "apocalipse-02",
+      "quizId": "quiz-apocalipse",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 71
+      },
+      "reference": null,
+      "evidenceSha256": "5f4f17b4b2f127279920bad4ee53a87a36a6f741acb550740c17be872ced36c0",
+      "explanationSha256": "20d79058ba080c47659b5bfe059f92cf7af5efe0f4b490d17684a8902951f67b",
+      "sourceTextSha256": "96b9b0ccc5d7443a0cd4a94f0d5f6cb7e0735d7d3d215e026bf13b3b8fdb1f32",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "apocalipse-03",
+      "quizId": "quiz-apocalipse",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 72
+      },
+      "reference": null,
+      "evidenceSha256": "1c919a0947e6757655e84d43477a86ace72ab5981cba45909965ea2d2160eea2",
+      "explanationSha256": "0d52eb47775582088339b09b8b0a115d1c78481de0d39cd52f63a8fffa6a31a6",
+      "sourceTextSha256": "59dca1c06a593b8dda589a3443b4913b8e7f0101c4b3721e1e36f187b3d6a909",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "apocalipse-04",
+      "quizId": "quiz-apocalipse",
+      "category": "study",
+      "difficulty": "easy",
+      "source": {
+        "sourceId": "study-4",
+        "page": 72
+      },
+      "reference": null,
+      "evidenceSha256": "3b6b571b566c77e1beffa1517dea8188b3d58f339436ff671fa1cdd4fbb5fcb5",
+      "explanationSha256": "74288d7c99332bc626ec1aa05b9484e01a5624cd8617b9fc901f8a3c44028561",
+      "sourceTextSha256": "59dca1c06a593b8dda589a3443b4913b8e7f0101c4b3721e1e36f187b3d6a909",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "apocalipse-05",
+      "quizId": "quiz-apocalipse",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 72
+      },
+      "reference": null,
+      "evidenceSha256": "2b88499c3a0ca87af009dc118885dc4c41bfef1f3e452947575727172f61906f",
+      "explanationSha256": "f1523efa92863f38f950e701e2cb7bff87b0e1b53b6c4b8491574c08bdfeee2f",
+      "sourceTextSha256": "59dca1c06a593b8dda589a3443b4913b8e7f0101c4b3721e1e36f187b3d6a909",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "apocalipse-06",
+      "quizId": "quiz-apocalipse",
+      "category": "study",
+      "difficulty": "medium",
+      "source": {
+        "sourceId": "study-4",
+        "page": 71
+      },
+      "reference": null,
+      "evidenceSha256": "50d9d14f2c3a71312f5b822db600145248ca50082dc494b8b2b9c2c0a9bf617a",
+      "explanationSha256": "751c60ccba8cbcdab7a8f34fc34003c23eb945aac2ac1199eca025ab55614b03",
+      "sourceTextSha256": "96b9b0ccc5d7443a0cd4a94f0d5f6cb7e0735d7d3d215e026bf13b3b8fdb1f32",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "apocalipse-07",
+      "quizId": "quiz-apocalipse",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-4",
+        "page": 72
+      },
+      "reference": null,
+      "evidenceSha256": "bea5a12ebe8a0f7635814f7468bb1ac805c9b16a48b432128bed4c4d4f6717ea",
+      "explanationSha256": "d6ba702117a2bd62e8d2963748be9a117b9c7ff5e52c413cbda0b5adaf679216",
+      "sourceTextSha256": "59dca1c06a593b8dda589a3443b4913b8e7f0101c4b3721e1e36f187b3d6a909",
+      "evidenceMethod": "native-text",
+      "verified": true
+    },
+    {
+      "id": "apocalipse-08",
+      "quizId": "quiz-apocalipse",
+      "category": "study",
+      "difficulty": "hard",
+      "source": {
+        "sourceId": "study-4",
+        "page": 71
+      },
+      "reference": null,
+      "evidenceSha256": "4582903af89b29cc4d345b2cfc95075517a283bde993e6e4b1686b7d5eb4b7e5",
+      "explanationSha256": "3855fa4f448dcf7c45d3ac39432454d843943b6b24fa015d6bf809301f767710",
+      "sourceTextSha256": "96b9b0ccc5d7443a0cd4a94f0d5f6cb7e0735d7d3d215e026bf13b3b8fdb1f32",
+      "evidenceMethod": "native-text",
+      "verified": true
+    }
+  ],
+  "findings": []
+}

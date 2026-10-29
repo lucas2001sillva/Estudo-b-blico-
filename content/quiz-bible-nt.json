@@ -1,0 +1,1390 @@
+[
+  {
+    "id": "biblia-nt-001",
+    "prompt": "Que presentes os visitantes ofereceram ao menino Jesus?",
+    "choices": [
+      "Pão, vinho e mel",
+      "Prata, azeite e trigo",
+      "Ouro, incenso e mirra",
+      "Linho, sal e perfume"
+    ],
+    "answerIndex": 2,
+    "difficulty": "easy",
+    "explanation": "Os visitantes abriram seus tesouros e ofereceram ouro, incenso e mirra. O versículo também conta que eles se prostraram e adoraram o menino.",
+    "source": {
+      "sourceId": "nt",
+      "page": 2,
+      "bookId": "mateus",
+      "bookName": "Mateus",
+      "chapter": 2,
+      "verseStart": 11,
+      "verseEnd": 11
+    },
+    "evidence": "Ao entrarem na casa, viram o menino com Maria, sua mãe, e, prostrando-se, o adoraram. Então abriram os seus tesouros e lhe deram presentes: ouro, incenso e mirra."
+  },
+  {
+    "id": "biblia-nt-002",
+    "prompt": "Simão e André estavam trabalhando quando Jesus os chamou. O que faziam?",
+    "choices": [
+      "Lançavam redes, pois eram pescadores",
+      "Preparavam pão para vender na cidade",
+      "Cobravam impostos dos viajantes",
+      "Cultivavam uma plantação de trigo"
+    ],
+    "answerIndex": 0,
+    "difficulty": "easy",
+    "explanation": "Jesus encontrou Simão e seu irmão André lançando redes no mar da Galileia. Quando foram chamados, deixaram as redes e o seguiram.",
+    "source": {
+      "sourceId": "nt",
+      "page": 37,
+      "bookId": "marcos",
+      "bookName": "Marcos",
+      "chapter": 1,
+      "verseStart": 16,
+      "verseEnd": 18
+    },
+    "evidence": "Andando à beira do mar da Galiléia, Jesus viu Simão e seu irmão André lançando redes ao mar, pois eram pescadores. E disse Jesus: “Sigam-me, e eu os farei pescadores de homens”. No mesmo instante eles deixaram as suas redes e o seguiram."
+  },
+  {
+    "id": "biblia-nt-003",
+    "prompt": "Na história do homem ferido, quem se aproximou para cuidar dele?",
+    "choices": [
+      "Um comerciante que vendia azeite",
+      "Um samaritano que estava de viagem",
+      "Um soldado que vigiava a estrada",
+      "Um juiz que vinha de Jerusalém"
+    ],
+    "answerIndex": 1,
+    "difficulty": "easy",
+    "explanation": "O samaritano viu o homem e teve piedade dele. Enfaixou suas feridas, levou-o para uma hospedaria e cuidou dele.",
+    "source": {
+      "sourceId": "nt",
+      "page": 76,
+      "bookId": "lucas",
+      "bookName": "Lucas",
+      "chapter": 10,
+      "verseStart": 33,
+      "verseEnd": 34
+    },
+    "evidence": "Mas um samaritano, estando de viagem, chegou onde se encontrava o homem e, quando o viu, teve piedade dele. Aproximou-se, enfaixou-lhe as feridas, derramando nelas vinho e óleo. Depois colocou-o sobre o seu próprio animal, levou-o para uma hospedaria e cuidou dele."
+  },
+  {
+    "id": "biblia-nt-004",
+    "prompt": "Na festa de casamento, em que a água dos potes foi transformada?",
+    "choices": [
+      "Em vinho",
+      "Em leite",
+      "Em mel",
+      "Em azeite"
+    ],
+    "answerIndex": 0,
+    "difficulty": "easy",
+    "explanation": "Jesus mandou os serviçais encherem os potes com água e levarem um pouco ao encarregado da festa. Ao provar, o encarregado encontrou vinho onde antes havia água.",
+    "source": {
+      "sourceId": "nt",
+      "page": 97,
+      "bookId": "joao",
+      "bookName": "João",
+      "chapter": 2,
+      "verseStart": 7,
+      "verseEnd": 9,
+      "pages": [
+        97,
+        98
+      ]
+    },
+    "evidence": "o encarregado da festa provou a água que fora transformada em vinho"
+  },
+  {
+    "id": "biblia-nt-005",
+    "prompt": "Perto de Damasco, Saulo ouviu uma voz depois de ver uma luz do céu. Quem se apresentou a ele?",
+    "choices": [
+      "Moisés",
+      "Jesus",
+      "João Batista",
+      "Elias"
+    ],
+    "answerIndex": 1,
+    "difficulty": "easy",
+    "explanation": "Saulo perguntou quem estava falando com ele. A resposta foi: Jesus, aquele a quem Saulo perseguia.",
+    "source": {
+      "sourceId": "nt",
+      "page": 131,
+      "bookId": "atos-dos-apostolos",
+      "bookName": "Atos dos Apóstolos",
+      "chapter": 9,
+      "verseStart": 3,
+      "verseEnd": 5,
+      "pages": [
+        131,
+        132
+      ]
+    },
+    "evidence": "Eu sou Jesus, a quem você persegue."
+  },
+  {
+    "id": "biblia-nt-006",
+    "prompt": "Como Romanos orienta o leitor a vencer o mal?",
+    "choices": [
+      "Buscando a própria vingança",
+      "Guardando ressentimento",
+      "Fazendo o bem",
+      "Respondendo com outro mal"
+    ],
+    "answerIndex": 2,
+    "difficulty": "easy",
+    "explanation": "A orientação é não se deixar vencer pelo mal. Em vez disso, o versículo ensina a vencer o mal com o bem.",
+    "source": {
+      "sourceId": "nt",
+      "page": 165,
+      "bookId": "romanos",
+      "bookName": "Romanos",
+      "chapter": 12,
+      "verseStart": 21,
+      "verseEnd": 21
+    },
+    "evidence": "Não se deixem vencer pelo mal, mas vençam o mal com o bem."
+  },
+  {
+    "id": "biblia-nt-007",
+    "prompt": "Fé, esperança e amor permanecem. Segundo o texto, qual deles é o maior?",
+    "choices": [
+      "Nenhum é destacado",
+      "O amor",
+      "A fé",
+      "A esperança"
+    ],
+    "answerIndex": 1,
+    "difficulty": "easy",
+    "explanation": "O versículo reúne a fé, a esperança e o amor. Entre os três, afirma expressamente que o maior é o amor.",
+    "source": {
+      "sourceId": "nt",
+      "page": 177,
+      "bookId": "1-corintios",
+      "bookName": "1 Coríntios",
+      "chapter": 13,
+      "verseStart": 13,
+      "verseEnd": 13
+    },
+    "evidence": "Assim, permanecem agora estes três: a fé, a esperança e o amor. O maior deles, porém, é o amor."
+  },
+  {
+    "id": "biblia-nt-008",
+    "prompt": "Que expressão descreve a pessoa que está em Cristo?",
+    "choices": [
+      "Estrangeiro sem família",
+      "Trabalhador sem descanso",
+      "Viajante sem destino",
+      "Nova criação"
+    ],
+    "answerIndex": 3,
+    "difficulty": "easy",
+    "explanation": "O texto diz que quem está em Cristo é nova criação. A explicação que vem em seguida é que as coisas antigas passaram e surgiram coisas novas.",
+    "source": {
+      "sourceId": "nt",
+      "page": 183,
+      "bookId": "2-corintios",
+      "bookName": "2 Coríntios",
+      "chapter": 5,
+      "verseStart": 17,
+      "verseEnd": 17
+    },
+    "evidence": "Portanto, se alguém está em Cristo, é nova criação. As coisas antigas já passaram; eis que surgiram coisas novas!"
+  },
+  {
+    "id": "biblia-nt-009",
+    "prompt": "Que grupo reúne características do fruto do Espírito?",
+    "choices": [
+      "Amor, alegria e paz",
+      "Impaciência, vaidade e desprezo",
+      "Ganância, raiva e egoísmo",
+      "Inveja, rivalidade e orgulho"
+    ],
+    "answerIndex": 0,
+    "difficulty": "easy",
+    "explanation": "Amor, alegria e paz aparecem na lista do fruto do Espírito. O trecho também menciona paciência, bondade, fidelidade, mansidão e domínio próprio, entre outras características.",
+    "source": {
+      "sourceId": "nt",
+      "page": 193,
+      "bookId": "galatas",
+      "bookName": "Gálatas",
+      "chapter": 5,
+      "verseStart": 22,
+      "verseEnd": 23
+    },
+    "evidence": "Mas o fruto do Espírito é amor, alegria, paz, paciência, amabilidade, bondade, fidelidade, mansidão e domínio próprio. Contra essas coisas não há lei."
+  },
+  {
+    "id": "biblia-nt-010",
+    "prompt": "Na imagem da armadura, o capacete está ligado a quê?",
+    "choices": [
+      "À força física",
+      "À salvação",
+      "À riqueza",
+      "À fama"
+    ],
+    "answerIndex": 1,
+    "difficulty": "easy",
+    "explanation": "Efésios fala do capacete da salvação. No mesmo versículo, apresenta a espada do Espírito como a palavra de Deus.",
+    "source": {
+      "sourceId": "nt",
+      "page": 198,
+      "bookId": "efesios",
+      "bookName": "Efésios",
+      "chapter": 6,
+      "verseStart": 17,
+      "verseEnd": 17
+    },
+    "evidence": "Usem o capacete da salvação e a espada do Espírito, que é a palavra de Deus."
+  },
+  {
+    "id": "biblia-nt-011",
+    "prompt": "O que Filipenses recomenda fazer com os pedidos e as preocupações?",
+    "choices": [
+      "Trocar a oração pela busca de prestígio",
+      "Esperar ficar sem problemas para orar",
+      "Guardá-los sem conversar com ninguém",
+      "Apresentá-los a Deus em oração, com gratidão"
+    ],
+    "answerIndex": 3,
+    "difficulty": "easy",
+    "explanation": "A orientação é apresentar os pedidos a Deus por meio de oração e súplicas. Essa atitude deve vir acompanhada de ação de graças, em lugar de viver dominado pela ansiedade.",
+    "source": {
+      "sourceId": "nt",
+      "page": 202,
+      "bookId": "filipenses",
+      "bookName": "Filipenses",
+      "chapter": 4,
+      "verseStart": 6,
+      "verseEnd": 6
+    },
+    "evidence": "Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus."
+  },
+  {
+    "id": "biblia-nt-012",
+    "prompt": "Quando surgem queixas entre as pessoas, que atitude Colossenses recomenda?",
+    "choices": [
+      "Guardar uma lista de cada ofensa",
+      "Evitar qualquer possibilidade de reconciliação",
+      "Perdoar como o Senhor perdoou",
+      "Responder sempre com uma acusação"
+    ],
+    "answerIndex": 2,
+    "difficulty": "easy",
+    "explanation": "O versículo pede que as pessoas se suportem e perdoem as queixas umas contra as outras. O perdão do Senhor é apresentado como referência para esse cuidado.",
+    "source": {
+      "sourceId": "nt",
+      "page": 206,
+      "bookId": "colossenses",
+      "bookName": "Colossenses",
+      "chapter": 3,
+      "verseStart": 13,
+      "verseEnd": 13
+    },
+    "evidence": "Suportem-se uns aos outros e perdoem as queixas que tiverem uns contra os outros. Perdoem como o Senhor lhes perdoou."
+  },
+  {
+    "id": "biblia-nt-013",
+    "prompt": "Que convite aparece junto de alegrar-se sempre e orar continuamente?",
+    "choices": [
+      "Agradecer apenas quando tudo dá certo",
+      "Abandonar a alegria quando há dificuldades",
+      "Orar somente em ocasiões especiais",
+      "Dar graças em todas as circunstâncias"
+    ],
+    "answerIndex": 3,
+    "difficulty": "easy",
+    "explanation": "O trecho reúne três orientações: alegrar-se sempre, orar continuamente e dar graças em todas as circunstâncias. Ele as apresenta como a vontade de Deus para os leitores em Cristo Jesus.",
+    "source": {
+      "sourceId": "nt",
+      "page": 210,
+      "bookId": "1-tessalonicenses",
+      "bookName": "1 Tessalonicenses",
+      "chapter": 5,
+      "verseStart": 16,
+      "verseEnd": 18
+    },
+    "evidence": "Alegrem-se sempre. Orem continuamente. Dêem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus."
+  },
+  {
+    "id": "biblia-nt-014",
+    "prompt": "Ao incentivar os irmãos, o texto diz que eles não devem se cansar de quê?",
+    "choices": [
+      "Fazer o bem",
+      "Procurar reconhecimento",
+      "Disputar os primeiros lugares",
+      "Cobrar elogios pelos serviços"
+    ],
+    "answerIndex": 0,
+    "difficulty": "easy",
+    "explanation": "O incentivo é simples e direto: nunca se cansar de fazer o bem. A frase é dirigida aos irmãos como uma orientação de perseverança.",
+    "source": {
+      "sourceId": "nt",
+      "page": 212,
+      "bookId": "2-tessalonicenses",
+      "bookName": "2 Tessalonicenses",
+      "chapter": 3,
+      "verseStart": 13,
+      "verseEnd": 13
+    },
+    "evidence": "Quanto a vocês, irmãos, nunca se cansem de fazer o bem."
+  },
+  {
+    "id": "biblia-nt-015",
+    "prompt": "Timóteo era jovem. Como deveria lidar com quem o desprezasse por isso?",
+    "choices": [
+      "Sendo exemplo na conduta, no amor e na fé",
+      "Desistindo de ensinar até ficar mais velho",
+      "Exigindo respeito por meio de ameaças",
+      "Tentando parecer mais importante que todos"
+    ],
+    "answerIndex": 0,
+    "difficulty": "easy",
+    "explanation": "A orientação é ser exemplo para os fiéis, apesar de ser jovem. O versículo cita a palavra, o procedimento, o amor, a fé e a pureza como áreas desse exemplo.",
+    "source": {
+      "sourceId": "nt",
+      "page": 215,
+      "bookId": "1-timoteo",
+      "bookName": "1 Timóteo",
+      "chapter": 4,
+      "verseStart": 12,
+      "verseEnd": 12
+    },
+    "evidence": "Ninguém o despreze pelo fato de você ser jovem, mas seja um exemplo para os fiéis na palavra, no procedimento, no amor, na fé e na pureza."
+  },
+  {
+    "id": "biblia-nt-016",
+    "prompt": "De acordo com o texto, de onde vem a inspiração de toda a Escritura?",
+    "choices": [
+      "Dos governantes de cada época",
+      "Da aprovação das multidões",
+      "Da experiência dos comerciantes",
+      "De Deus"
+    ],
+    "answerIndex": 3,
+    "difficulty": "easy",
+    "explanation": "O versículo afirma que toda a Escritura é inspirada por Deus. Também apresenta sua utilidade para ensinar, repreender, corrigir e instruir na justiça.",
+    "source": {
+      "sourceId": "nt",
+      "page": 218,
+      "bookId": "2-timoteo",
+      "bookName": "2 Timóteo",
+      "chapter": 3,
+      "verseStart": 16,
+      "verseEnd": 16
+    },
+    "evidence": "Toda a Escritura é inspirada por Deus e útil para o ensino, para a repreensão, para a correção e para a instrução na justiça,"
+  },
+  {
+    "id": "biblia-nt-017",
+    "prompt": "Como Tito orienta os leitores a tratar as outras pessoas?",
+    "choices": [
+      "Com desprezo, mesmo sem motivo",
+      "Com calúnias contra quem pensa diferente",
+      "Com paz, amabilidade e mansidão",
+      "Com agressividade para vencer discussões"
+    ],
+    "answerIndex": 2,
+    "difficulty": "easy",
+    "explanation": "O texto proíbe caluniar e pede uma atitude pacífica e amável. A mansidão deve ser demonstrada no trato com todas as pessoas.",
+    "source": {
+      "sourceId": "nt",
+      "page": 221,
+      "bookId": "tito",
+      "bookName": "Tito",
+      "chapter": 3,
+      "verseStart": 2,
+      "verseEnd": 2
+    },
+    "evidence": "não caluniem ninguém, sejam pacíficos, amáveis e mostrem sempre verdadeira mansidão para com todos os homens."
+  },
+  {
+    "id": "biblia-nt-018",
+    "prompt": "Como Hebreus descreve a fé?",
+    "choices": [
+      "Uma recompensa reservada aos mais famosos",
+      "Certeza do que esperamos e prova do que não vemos",
+      "Ausência de qualquer espera ou confiança",
+      "Conhecimento de tudo o que acontecerá amanhã"
+    ],
+    "answerIndex": 1,
+    "difficulty": "easy",
+    "explanation": "Hebreus relaciona a fé com aquilo que esperamos e com as coisas que não vemos. O versículo usa as palavras certeza e prova para apresentar essa confiança.",
+    "source": {
+      "sourceId": "nt",
+      "page": 232,
+      "bookId": "hebreus",
+      "bookName": "Hebreus",
+      "chapter": 11,
+      "verseStart": 1,
+      "verseEnd": 1
+    },
+    "evidence": "Ora, a fé é a certeza daquilo que esperamos e a prova das coisas que não vemos."
+  },
+  {
+    "id": "biblia-nt-019",
+    "prompt": "Ouvir a palavra é importante. O que Tiago diz que também precisamos fazer?",
+    "choices": [
+      "Usá-la só para avaliar os outros",
+      "Guardá-la apenas na memória",
+      "Praticá-la",
+      "Deixar sua prática sempre para depois"
+    ],
+    "answerIndex": 2,
+    "difficulty": "easy",
+    "explanation": "Tiago pede que os leitores sejam praticantes da palavra. O texto alerta que ficar apenas na escuta pode levar a pessoa a enganar a si mesma.",
+    "source": {
+      "sourceId": "nt",
+      "page": 236,
+      "bookId": "tiago",
+      "bookName": "Tiago",
+      "chapter": 1,
+      "verseStart": 22,
+      "verseEnd": 22
+    },
+    "evidence": "Sejam praticantes da palavra, e não apenas ouvintes, enganando-se a si mesmos."
+  },
+  {
+    "id": "biblia-nt-020",
+    "prompt": "Que afirmação sobre Deus aparece em 1 João 4:8?",
+    "choices": [
+      "Deus valoriza apenas os mais fortes",
+      "Deus só se importa com a aparência",
+      "Deus rejeita toda demonstração de cuidado",
+      "Deus é amor"
+    ],
+    "answerIndex": 3,
+    "difficulty": "easy",
+    "explanation": "O versículo afirma que Deus é amor. Por isso, relaciona a falta de amor com não conhecer a Deus.",
+    "source": {
+      "sourceId": "nt",
+      "page": 250,
+      "bookId": "1-joao",
+      "bookName": "1 João",
+      "chapter": 4,
+      "verseStart": 8,
+      "verseEnd": 8
+    },
+    "evidence": "Quem não ama não conhece a Deus, porque Deus é amor."
+  },
+  {
+    "id": "biblia-nt-021",
+    "prompt": "Alguém vai apresentar uma oferta e se lembra de um conflito com um irmão. O que Jesus orienta a fazer primeiro?",
+    "choices": [
+      "Buscar a reconciliação com o irmão",
+      "Apresentar a oferta e procurar o irmão depois",
+      "Pedir ao sacerdote que resolva o conflito",
+      "Fazer uma nova oferta no lugar da primeira"
+    ],
+    "answerIndex": 0,
+    "difficulty": "medium",
+    "explanation": "Jesus orienta a deixar a oferta diante do altar e ir primeiro reconciliar-se com o irmão. Depois da reconciliação, a pessoa pode voltar e apresentar sua oferta.",
+    "source": {
+      "sourceId": "nt",
+      "page": 6,
+      "bookId": "mateus",
+      "bookName": "Mateus",
+      "chapter": 5,
+      "verseStart": 23,
+      "verseEnd": 24
+    },
+    "evidence": "“Portanto, se você estiver apresentando sua oferta diante do altar e ali se lembrar de que seu irmão tem algo contra você, deixe sua oferta ali, diante do altar, e vá primeiro reconciliar-se com seu irmão; depois volte e apresente sua oferta."
+  },
+  {
+    "id": "biblia-nt-022",
+    "prompt": "Na parábola, o que sufoca a palavra representada pela semente entre espinhos?",
+    "choices": [
+      "A pouca profundidade do solo e o calor do sol",
+      "O cuidado de quem prepara e rega a terra",
+      "Preocupações, engano das riquezas e desejos por outras coisas",
+      "A chegada de pássaros que carregam a semente"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium",
+    "explanation": "O trecho associa os espinhos às preocupações desta vida, ao engano das riquezas e aos desejos por outras coisas. Esses fatores sufocam a palavra e a tornam infrutífera.",
+    "source": {
+      "sourceId": "nt",
+      "page": 40,
+      "bookId": "marcos",
+      "bookName": "Marcos",
+      "chapter": 4,
+      "verseStart": 18,
+      "verseEnd": 19
+    },
+    "evidence": "Outras ainda, como a semente lançada entre espinhos, ouvem a palavra; mas, quando chegam as preocupações desta vida, o engano das riquezas e os anseios por outras coisas sufocam a palavra, tornando-a infrutífera."
+  },
+  {
+    "id": "biblia-nt-023",
+    "prompt": "Zaqueu se comprometeu a reparar o que tivesse extorquido. Quanto devolveria?",
+    "choices": [
+      "A metade do valor",
+      "Exatamente o mesmo valor",
+      "Dez vezes o valor",
+      "Quatro vezes o valor"
+    ],
+    "answerIndex": 3,
+    "difficulty": "medium",
+    "explanation": "Zaqueu declarou que devolveria quatro vezes mais se tivesse extorquido alguém. No mesmo compromisso, afirmou que estava dando a metade dos seus bens aos pobres.",
+    "source": {
+      "sourceId": "nt",
+      "page": 86,
+      "bookId": "lucas",
+      "bookName": "Lucas",
+      "chapter": 19,
+      "verseStart": 8,
+      "verseEnd": 8
+    },
+    "evidence": "Mas Zaqueu levantou-se e disse ao Senhor: “Olha, Senhor! Estou dando a metade dos meus bens aos pobres; e se de alguém extorqui alguma coisa, devolverei quatro vezes mais”."
+  },
+  {
+    "id": "biblia-nt-024",
+    "prompt": "Antes da alimentação da multidão, que alimentos estavam com o rapaz?",
+    "choices": [
+      "Cinco pães de cevada e dois peixinhos",
+      "Sete pães de trigo e três peixinhos",
+      "Três pães de trigo e quatro peixinhos",
+      "Dois pães de cevada e cinco peixinhos"
+    ],
+    "answerIndex": 0,
+    "difficulty": "medium",
+    "explanation": "O relato menciona um rapaz com cinco pães de cevada e dois peixinhos. A pergunta sobre como aquilo bastaria para tanta gente destaca a pequena quantidade disponível.",
+    "source": {
+      "sourceId": "nt",
+      "page": 102,
+      "bookId": "joao",
+      "bookName": "João",
+      "chapter": 6,
+      "verseStart": 9,
+      "verseEnd": 9
+    },
+    "evidence": "“Aqui está um rapaz com cinco pães de cevada e dois peixinhos, mas o que é isto para tanta gente?”"
+  },
+  {
+    "id": "biblia-nt-025",
+    "prompt": "Que conjunto de práticas marca a comunidade descrita em Atos 2:42?",
+    "choices": [
+      "Jejum, peregrinações, leitura da Lei e comércio",
+      "Ensino dos apóstolos, comunhão, partir do pão e orações",
+      "Sacrifícios, votos, viagens e debates públicos",
+      "Vigilância, colheita, hospitalidade e recolhimento"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium",
+    "explanation": "A comunidade se dedicava ao ensino dos apóstolos e à comunhão. O partir do pão e as orações também faziam parte de sua vida em conjunto.",
+    "source": {
+      "sourceId": "nt",
+      "page": 124,
+      "bookId": "atos-dos-apostolos",
+      "bookName": "Atos dos Apóstolos",
+      "chapter": 2,
+      "verseStart": 42,
+      "verseEnd": 42
+    },
+    "evidence": "Eles se dedicavam ao ensino dos apóstolos e à comunhão, ao partir do pão e às orações."
+  },
+  {
+    "id": "biblia-nt-026",
+    "prompt": "Por que Romanos compara os cristãos aos membros de um corpo?",
+    "choices": [
+      "Porque só um dos membros tem alguma importância",
+      "Porque têm funções diferentes e estão ligados uns aos outros",
+      "Porque cada pessoa pode viver sem relação com as demais",
+      "Porque todos precisam exercer exatamente a mesma função"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium",
+    "explanation": "A comparação parte de um corpo que possui muitos membros com funções diferentes. Em Cristo, os muitos formam um corpo, e cada membro está ligado aos outros.",
+    "source": {
+      "sourceId": "nt",
+      "page": 164,
+      "bookId": "romanos",
+      "bookName": "Romanos",
+      "chapter": 12,
+      "verseStart": 4,
+      "verseEnd": 5
+    },
+    "evidence": "Assim como cada um de nós tem um corpo com muitos membros e esses membros não exercem todos a mesma função, assim também em Cristo nós, que somos muitos, formamos um corpo, e cada membro está ligado a todos os outros."
+  },
+  {
+    "id": "biblia-nt-027",
+    "prompt": "Na comparação com o corpo, como devem ser vistos os membros que parecem mais fracos?",
+    "choices": [
+      "Como facilmente descartáveis",
+      "Como sempre menos necessários",
+      "Como incapazes de participar",
+      "Como indispensáveis"
+    ],
+    "answerIndex": 3,
+    "difficulty": "medium",
+    "explanation": "O texto chama de indispensáveis os membros do corpo que parecem mais fracos. A aparência de fraqueza, portanto, não os torna desnecessários na comparação apresentada.",
+    "source": {
+      "sourceId": "nt",
+      "page": 177,
+      "bookId": "1-corintios",
+      "bookName": "1 Coríntios",
+      "chapter": 12,
+      "verseStart": 22,
+      "verseEnd": 22
+    },
+    "evidence": "Ao contrário, os membros do corpo que parecem mais fracos são indispensáveis,"
+  },
+  {
+    "id": "biblia-nt-028",
+    "prompt": "Que atitude deve acompanhar uma contribuição, segundo 2 Coríntios?",
+    "choices": [
+      "Decisão do coração e alegria, sem obrigação",
+      "Obrigação de agradar quem está observando",
+      "Pressão para competir com os outros",
+      "Tristeza para demonstrar que houve sacrifício"
+    ],
+    "answerIndex": 0,
+    "difficulty": "medium",
+    "explanation": "Cada pessoa deve dar conforme determinou no coração, sem pesar ou obrigação. A razão apresentada é que Deus ama quem dá com alegria.",
+    "source": {
+      "sourceId": "nt",
+      "page": 186,
+      "bookId": "2-corintios",
+      "bookName": "2 Coríntios",
+      "chapter": 9,
+      "verseStart": 7,
+      "verseEnd": 7
+    },
+    "evidence": "Cada um dê conforme determinou em seu coração, não com pesar ou por obrigação, pois Deus ama quem dá com alegria."
+  },
+  {
+    "id": "biblia-nt-029",
+    "prompt": "Levar os fardos uns dos outros é apresentado como uma forma de fazer o quê?",
+    "choices": [
+      "Cumprir os rituais do templo",
+      "Cumprir a lei de Cristo",
+      "Repetir uma exigência dos governantes",
+      "Aplicar uma tradição dos anciãos"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium",
+    "explanation": "Gálatas orienta os leitores a carregar os fardos pesados uns dos outros. O próprio versículo associa esse apoio ao cumprimento da lei de Cristo.",
+    "source": {
+      "sourceId": "nt",
+      "page": 193,
+      "bookId": "galatas",
+      "bookName": "Gálatas",
+      "chapter": 6,
+      "verseStart": 2,
+      "verseEnd": 2
+    },
+    "evidence": "Levem os fardos pesados uns dos outros e, assim, cumpram a lei de Cristo."
+  },
+  {
+    "id": "biblia-nt-030",
+    "prompt": "O que o texto recomenda quando surge a ira?",
+    "choices": [
+      "Evitar toda conversa até esquecer o ocorrido",
+      "Não pecar e apaziguar a ira antes que o sol se ponha",
+      "Exigir primeiro um pedido público de desculpas",
+      "Esperar o dia seguinte para buscar a reconciliação"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium",
+    "explanation": "Efésios reconhece a situação de ficar irado, mas orienta a não pecar. Acrescenta o cuidado de apaziguar a ira antes do pôr do sol e não dar lugar ao Diabo.",
+    "source": {
+      "sourceId": "nt",
+      "page": 197,
+      "bookId": "efesios",
+      "bookName": "Efésios",
+      "chapter": 4,
+      "verseStart": 26,
+      "verseEnd": 27
+    },
+    "evidence": "“Quando vocês ficarem irados, não pequem”. Apazigúem a sua ira antes que o sol se ponha, e não dêem lugar ao Diabo."
+  },
+  {
+    "id": "biblia-nt-031",
+    "prompt": "Em uma situação de disputa por reconhecimento, que atitude Filipenses recomenda?",
+    "choices": [
+      "Humildade, considerando os outros superiores a si",
+      "Vaidade para deixar todos impressionados",
+      "Ambição egoísta para garantir o primeiro lugar",
+      "Comparações para diminuir as outras pessoas"
+    ],
+    "answerIndex": 0,
+    "difficulty": "medium",
+    "explanation": "O texto pede que nada seja feito por ambição egoísta ou vaidade. Em vez disso, orienta a considerar os outros superiores a si mesmo, com humildade.",
+    "source": {
+      "sourceId": "nt",
+      "page": 201,
+      "bookId": "filipenses",
+      "bookName": "Filipenses",
+      "chapter": 2,
+      "verseStart": 3,
+      "verseEnd": 3
+    },
+    "evidence": "Nada façam por ambição egoísta ou por vaidade, mas humildemente considerem os outros superiores a si mesmos."
+  },
+  {
+    "id": "biblia-nt-032",
+    "prompt": "Que perspectiva deve orientar aquilo que fazemos, segundo Colossenses?",
+    "choices": [
+      "Trabalhar somente para impressionar pessoas",
+      "Evitar esforço sempre que não houver recompensa",
+      "Fazer de todo o coração, como para o Senhor",
+      "Fazer apenas o que possa ser visto e elogiado"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium",
+    "explanation": "A orientação é fazer tudo de todo o coração. O versículo coloca o Senhor como referência dessa dedicação, em vez de tomar as pessoas como a razão principal do esforço.",
+    "source": {
+      "sourceId": "nt",
+      "page": 206,
+      "bookId": "colossenses",
+      "bookName": "Colossenses",
+      "chapter": 3,
+      "verseStart": 23,
+      "verseEnd": 23
+    },
+    "evidence": "Tudo o que fizerem, façam de todo o coração, como para o Senhor, e não para os homens,"
+  },
+  {
+    "id": "biblia-nt-033",
+    "prompt": "Que modo de vida é recomendado aos leitores de Tessalônica?",
+    "choices": [
+      "Busca de fama para impressionar quem está de fora",
+      "Agitação constante e intromissão nos assuntos alheios",
+      "Abandono do trabalho para depender sempre dos vizinhos",
+      "Vida tranquila, cuidado dos próprios assuntos e trabalho com as mãos"
+    ],
+    "answerIndex": 3,
+    "difficulty": "medium",
+    "explanation": "O trecho pede uma vida tranquila, atenção aos próprios negócios e trabalho com as próprias mãos. A finalidade indicada é agir decentemente diante dos de fora e não depender de ninguém.",
+    "source": {
+      "sourceId": "nt",
+      "page": 209,
+      "bookId": "1-tessalonicenses",
+      "bookName": "1 Tessalonicenses",
+      "chapter": 4,
+      "verseStart": 11,
+      "verseEnd": 12
+    },
+    "evidence": "Esforcem-se para ter uma vida tranqüila, cuidar dos seus próprios negócios e trabalhar com as próprias mãos, como nós os instruímos; a fim de que andem decentemente aos olhos dos que são de fora e não dependam de ninguém."
+  },
+  {
+    "id": "biblia-nt-034",
+    "prompt": "Que orientação foi dada às pessoas ociosas que se intrometiam na vida alheia?",
+    "choices": [
+      "Assumir o controle do trabalho dos vizinhos",
+      "Trocar o trabalho por novas discussões públicas",
+      "Continuar dependendo do esforço dos outros",
+      "Trabalhar tranquilamente e comer o próprio pão"
+    ],
+    "answerIndex": 3,
+    "difficulty": "medium",
+    "explanation": "O problema descrito era a ociosidade acompanhada de intromissão na vida dos outros. A essas pessoas, o texto ordena e exorta que trabalhem tranquilamente e comam o próprio pão.",
+    "source": {
+      "sourceId": "nt",
+      "page": 212,
+      "bookId": "2-tessalonicenses",
+      "bookName": "2 Tessalonicenses",
+      "chapter": 3,
+      "verseStart": 11,
+      "verseEnd": 12
+    },
+    "evidence": "Pois ouvimos que alguns de vocês estão ociosos; não trabalham, mas andam se intrometendo na vida alheia. A tais pessoas ordenamos e exortamos no Senhor Jesus Cristo que trabalhem tranqüilamente e comam o seu próprio pão."
+  },
+  {
+    "id": "biblia-nt-035",
+    "prompt": "Em que o texto baseia o convite a estar satisfeito com alimento e roupa?",
+    "choices": [
+      "A riqueza é a única forma de demonstrar gratidão",
+      "Nada trouxemos ao mundo e nada podemos levar dele",
+      "Todos receberão a mesma quantidade de bens",
+      "Alimento e roupa garantem ausência de dificuldades"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium",
+    "explanation": "O trecho lembra que nada trouxemos para este mundo e nada podemos levar dele. Por isso, convida a estar satisfeito tendo o que comer e com que se vestir.",
+    "source": {
+      "sourceId": "nt",
+      "page": 216,
+      "bookId": "1-timoteo",
+      "bookName": "1 Timóteo",
+      "chapter": 6,
+      "verseStart": 7,
+      "verseEnd": 8
+    },
+    "evidence": "pois nada trouxemos para este mundo e dele nada podemos levar; por isso, tendo o que comer e com que vestir-nos, estejamos com isso satisfeitos."
+  },
+  {
+    "id": "biblia-nt-036",
+    "prompt": "Que contraste aparece na orientação sobre o espírito que Deus nos deu?",
+    "choices": [
+      "Consolo, prudência e perseverança",
+      "Esperança, paciência e alegria",
+      "Memória, sabedoria e serenidade",
+      "Não covardia, mas poder, amor e equilíbrio"
+    ],
+    "answerIndex": 3,
+    "difficulty": "medium",
+    "explanation": "O versículo afirma que Deus não deu espírito de covardia. Em contraste, apresenta poder, amor e equilíbrio.",
+    "source": {
+      "sourceId": "nt",
+      "page": 217,
+      "bookId": "2-timoteo",
+      "bookName": "2 Timóteo",
+      "chapter": 1,
+      "verseStart": 7,
+      "verseEnd": 7
+    },
+    "evidence": "Pois Deus não nos deu espírito de covardia, mas de poder, de amor e de equilíbrio."
+  },
+  {
+    "id": "biblia-nt-037",
+    "prompt": "Além de ensinar, de que maneira Tito deveria dar exemplo?",
+    "choices": [
+      "Fazendo boas obras e usando ensino íntegro e linguagem sadia",
+      "Valorizando os estudos acima da própria conduta",
+      "Apresentando argumentos sem mostrar o próprio exemplo",
+      "Cuidando somente da forma de falar em público"
+    ],
+    "answerIndex": 0,
+    "difficulty": "medium",
+    "explanation": "Tito é orientado a ser exemplo por meio de boas obras. Seu ensino deveria mostrar integridade e seriedade, acompanhado de uma linguagem sadia contra a qual nada se pudesse dizer.",
+    "source": {
+      "sourceId": "nt",
+      "page": 220,
+      "bookId": "tito",
+      "bookName": "Tito",
+      "chapter": 2,
+      "verseStart": 7,
+      "verseEnd": 8
+    },
+    "evidence": "Em tudo seja você mesmo um exemplo para eles, fazendo boas obras. Em seu ensino, mostre integridade e seriedade; use linguagem sadia, contra a qual nada se possa dizer, para que aqueles que se opõem a você fiquem envergonhados por não poderem falar mal de nós."
+  },
+  {
+    "id": "biblia-nt-038",
+    "prompt": "No pedido feito a Filemom, como aquele que voltava deveria ser recebido?",
+    "choices": [
+      "Como um rival a ser mantido longe",
+      "Como um visitante que não poderia permanecer",
+      "Como irmão amado, acima da condição de escravo",
+      "Apenas como alguém sem qualquer vínculo com a comunidade"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium",
+    "explanation": "O texto apresenta a possibilidade de um afastamento temporário resultar em um reencontro duradouro. A ênfase é recebê-lo não mais apenas como escravo, mas como irmão amado.",
+    "source": {
+      "sourceId": "nt",
+      "page": 222,
+      "bookId": "filemom",
+      "bookName": "Filemom",
+      "chapter": 1,
+      "verseStart": 15,
+      "verseEnd": 16
+    },
+    "evidence": "Talvez ele tenha sido separado de você por algum tempo, para que você o tivesse de volta para sempre, não mais como escravo, mas, acima de escravo, como irmão amado. Para mim ele é um irmão muito amado, e ainda mais para você, tanto como pessoa quanto como cristão."
+  },
+  {
+    "id": "biblia-nt-039",
+    "prompt": "Ao explicar a razão de sua esperança, como o cristão deve responder?",
+    "choices": [
+      "Com desprezo por quem faz perguntas",
+      "Com agressividade para encerrar a conversa",
+      "Com mansidão, respeito e boa consciência",
+      "Com palavras duras para evitar novas dúvidas"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium",
+    "explanation": "O trecho orienta a estar preparado para explicar a razão da esperança. Essa resposta deve ser dada com mansidão e respeito, conservando boa consciência.",
+    "source": {
+      "sourceId": "nt",
+      "page": 242,
+      "bookId": "1-pedro",
+      "bookName": "1 Pedro",
+      "chapter": 3,
+      "verseStart": 15,
+      "verseEnd": 16
+    },
+    "evidence": "Antes, santifiquem Cristo como Senhor em seu coração. Estejam sempre preparados para responder a qualquer pessoa que lhes pedir a razão da esperança que há em vocês. Contudo, façam isso com mansidão e respeito, conservando boa consciência, de forma que os que falam maldosamente contra o bom procedimento de vocês, porque estão em Cristo, fiquem envergonhados de suas calúnias."
+  },
+  {
+    "id": "biblia-nt-040",
+    "prompt": "Na imagem de quem está à porta e bate, o que é prometido a quem ouve e abre?",
+    "choices": [
+      "Ter o nome anunciado diante das igrejas",
+      "Assumir o primeiro lugar na assembleia",
+      "Entrar e cear com essa pessoa",
+      "Receber uma oferta diante do altar"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium",
+    "explanation": "A promessa é entrar e cear com quem ouvir a voz e abrir a porta. O texto apresenta uma refeição compartilhada entre aquele que entra e quem o recebe.",
+    "source": {
+      "sourceId": "nt",
+      "page": 257,
+      "bookId": "apocalipse",
+      "bookName": "Apocalipse",
+      "chapter": 3,
+      "verseStart": 20,
+      "verseEnd": 20
+    },
+    "evidence": "Eis que estou à porta e bato. Se alguém ouvir a minha voz e abrir a porta, entrarei e cearei com ele, e ele comigo."
+  },
+  {
+    "id": "biblia-nt-041",
+    "prompt": "No episódio do imposto do templo, para quem serviria a moeda encontrada no peixe?",
+    "choices": [
+      "Para pagar o imposto de todos os doze discípulos",
+      "Para pagar apenas o imposto de Pedro",
+      "Para pagar o imposto de Jesus e de Pedro",
+      "Para pagar o imposto de Jesus e de João"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard",
+    "explanation": "Jesus mandou Pedro encontrar uma moeda de quatro dracmas na boca do primeiro peixe que pegasse. A instrução final foi usá-la para pagar tanto o imposto de Jesus quanto o de Pedro.",
+    "source": {
+      "sourceId": "nt",
+      "page": 21,
+      "bookId": "mateus",
+      "bookName": "Mateus",
+      "chapter": 17,
+      "verseStart": 24,
+      "verseEnd": 27
+    },
+    "evidence": "Quando Jesus e seus discípulos chegaram a Cafarnaum, os coletores do imposto de duas dracmas vieram a Pedro e perguntaram: “O mestre de vocês não paga o imposto do templo?” “Sim, paga”, respondeu ele. Quando Pedro entrou na casa, Jesus foi o primeiro a falar, perguntando-lhe: “O que você acha, Simão? De quem os reis da terra cobram tributos e impostos: de seus próprios filhos ou dos outros?” “Dos outros”, respondeu Pedro. Disse-lhe Jesus: “Então os filhos estão isentos. Mas, para não escandalizá-los, vá ao mar e jogue o anzol. Tire o primeiro peixe que você pegar, abra-lhe a boca, e você encontrará uma moeda de quatro dracmas. Pegue-a e entregue-a a eles, para pagar o meu imposto e o seu”."
+  },
+  {
+    "id": "biblia-nt-042",
+    "prompt": "Marcos identifica Simão de Cirene como pai de quais dois homens?",
+    "choices": [
+      "José e Matias",
+      "Filipe e Bartolomeu",
+      "Tiago e João",
+      "Alexandre e Rufo"
+    ],
+    "answerIndex": 3,
+    "difficulty": "hard",
+    "explanation": "Simão é apresentado como um homem de Cirene e pai de Alexandre e Rufo. O versículo relata que ele chegava do campo quando foi forçado a carregar a cruz.",
+    "source": {
+      "sourceId": "nt",
+      "page": 57,
+      "bookId": "marcos",
+      "bookName": "Marcos",
+      "chapter": 15,
+      "verseStart": 21,
+      "verseEnd": 21
+    },
+    "evidence": "Certo homem de Cirene, chamado Simão, pai de Alexandre e de Rufo, passava por ali, chegando do campo. Eles o forçaram a carregar a cruz."
+  },
+  {
+    "id": "biblia-nt-043",
+    "prompt": "Segundo a distância registrada em Lucas, Emaús ficava a quantos quilômetros de Jerusalém?",
+    "choices": [
+      "Cinco quilômetros",
+      "Vinte quilômetros",
+      "Quarenta quilômetros",
+      "Onze quilômetros"
+    ],
+    "answerIndex": 3,
+    "difficulty": "hard",
+    "explanation": "O versículo situa o povoado de Emaús a onze quilômetros de Jerusalém. Também informa que dois deles seguiam para lá naquele mesmo dia.",
+    "source": {
+      "sourceId": "nt",
+      "page": 94,
+      "bookId": "lucas",
+      "bookName": "Lucas",
+      "chapter": 24,
+      "verseStart": 13,
+      "verseEnd": 13
+    },
+    "evidence": "Naquele mesmo dia, dois deles estavam indo para um povoado chamado Emaús, a onze quilômetros de Jerusalém."
+  },
+  {
+    "id": "biblia-nt-044",
+    "prompt": "Que detalhe João registra sobre a rede que Pedro arrastou até a praia?",
+    "choices": [
+      "Tinha 150 peixes e foi deixada no barco",
+      "Tinha 200 peixes e precisou ser abandonada",
+      "Tinha 120 peixes e se rompeu perto da praia",
+      "Tinha 153 grandes peixes e não se rompeu"
+    ],
+    "answerIndex": 3,
+    "difficulty": "hard",
+    "explanation": "João registra cento e cinquenta e três grandes peixes na rede que Simão Pedro arrastou. O texto ressalta que, mesmo com tantos peixes, a rede não se rompeu.",
+    "source": {
+      "sourceId": "nt",
+      "page": 120,
+      "bookId": "joao",
+      "bookName": "João",
+      "chapter": 21,
+      "verseStart": 11,
+      "verseEnd": 11
+    },
+    "evidence": "Simão Pedro entrou no barco e arrastou a rede para a praia. Ela estava cheia: tinha cento e cinqüenta e três grandes peixes. Embora houvesse tantos peixes, a rede não se rompeu."
+  },
+  {
+    "id": "biblia-nt-045",
+    "prompt": "Quem convidou Apolo para casa e lhe explicou com mais exatidão o caminho de Deus?",
+    "choices": [
+      "Paulo e Silas",
+      "Pedro e João",
+      "Priscila e Áquila",
+      "Barnabé e Marcos"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard",
+    "explanation": "Apolo era de Alexandria, conhecia as Escrituras e falava com fervor sobre Jesus, mas conhecia apenas o batismo de João. Priscila e Áquila o ouviram e lhe explicaram com mais exatidão o caminho de Deus.",
+    "source": {
+      "sourceId": "nt",
+      "page": 142,
+      "bookId": "atos-dos-apostolos",
+      "bookName": "Atos dos Apóstolos",
+      "chapter": 18,
+      "verseStart": 24,
+      "verseEnd": 26
+    },
+    "evidence": "Enquanto isso, um judeu chamado Apolo, natural de Alexandria, chegou a Éfeso. Ele era homem culto e tinha grande conhecimento das Escrituras. Fora instruído no caminho do Senhor e com grande fervor falava e ensinava com exatidão acerca de Jesus, embora conhecesse apenas o batismo de João. Logo começou a falar corajosamente na sinagoga. Quando Priscila e Áqüila o ouviram, convidaram-no para ir à sua casa e lhe explicaram com mais exatidão o caminho de Deus."
+  },
+  {
+    "id": "biblia-nt-046",
+    "prompt": "Ao recomendar Febe aos romanos, a que igreja Paulo a associa?",
+    "choices": [
+      "À igreja em Laodiceia",
+      "À igreja em Cencreia",
+      "À igreja em Filipos",
+      "À igreja em Colossos"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard",
+    "explanation": "Paulo apresenta Febe como serva da igreja em Cencreia. Pede que os leitores a recebam de maneira digna dos santos e a ajudem no que ela precisar, pois ela auxiliou muita gente, inclusive ele.",
+    "source": {
+      "sourceId": "nt",
+      "page": 168,
+      "bookId": "romanos",
+      "bookName": "Romanos",
+      "chapter": 16,
+      "verseStart": 1,
+      "verseEnd": 2
+    },
+    "evidence": "Recomendo-lhes nossa irmã Febe, serva da igreja em Cencréia. Peço que a recebam no Senhor, de maneira digna dos santos, e lhe prestem a ajuda de que venha a necessitar; pois tem sido de grande auxílio para muita gente, inclusive para mim."
+  },
+  {
+    "id": "biblia-nt-047",
+    "prompt": "Por que Paulo diz que permanecerá em Éfeso até o Pentecoste?",
+    "choices": [
+      "Abriu-se uma oportunidade ampla de trabalho, embora houvesse adversários",
+      "Ele precisava esperar a conclusão de uma colheita",
+      "A igreja havia decidido encerrar todo trabalho ali",
+      "Todos os adversários haviam saído da cidade"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard",
+    "explanation": "Paulo planeja permanecer em Éfeso até o Pentecoste porque uma porta ampla e promissora se abriu para ele. A oportunidade não significava ausência de oposição: o texto menciona muitos adversários.",
+    "source": {
+      "sourceId": "nt",
+      "page": 180,
+      "bookId": "1-corintios",
+      "bookName": "1 Coríntios",
+      "chapter": 16,
+      "verseStart": 8,
+      "verseEnd": 9
+    },
+    "evidence": "Mas permanecerei em Éfeso até o Pentecoste, porque se abriu para mim uma porta ampla e promissora; e há muitos adversários."
+  },
+  {
+    "id": "biblia-nt-048",
+    "prompt": "Como Paulo relata ter escapado de uma tentativa de prisão em Damasco?",
+    "choices": [
+      "Saiu pela porta principal acompanhado do governador",
+      "Foi baixado numa cesta por uma janela da muralha",
+      "Atravessou o rio escondido dentro de um barco",
+      "Foi levado para fora da cidade numa carruagem"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard",
+    "explanation": "O governador ligado ao rei Aretas mandou vigiar Damasco para prender Paulo. Ele escapou sendo baixado numa cesta por uma janela na muralha.",
+    "source": {
+      "sourceId": "nt",
+      "page": 187,
+      "bookId": "2-corintios",
+      "bookName": "2 Coríntios",
+      "chapter": 11,
+      "verseStart": 32,
+      "verseEnd": 33
+    },
+    "evidence": "Em Damasco, o governador nomeado pelo rei Aretas mandou que se vigiasse a cidade para me prender. Mas de uma janela na muralha fui baixado numa cesta e escapei das mãos dele."
+  },
+  {
+    "id": "biblia-nt-049",
+    "prompt": "Em Antioquia, por que Pedro se afastou das refeições com os gentios, segundo o relato?",
+    "choices": [
+      "Por temer os que eram da circuncisão",
+      "Porque Paulo proibira qualquer refeição em grupo",
+      "Porque uma viagem o obrigava a partir imediatamente",
+      "Porque os gentios haviam deixado a cidade"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard",
+    "explanation": "Pedro antes comia com os gentios, mas se afastou quando chegaram alguns da parte de Tiago. O motivo apresentado é o temor dos que eram da circuncisão, e Paulo diz que o confrontou por essa atitude.",
+    "source": {
+      "sourceId": "nt",
+      "page": 191,
+      "bookId": "galatas",
+      "bookName": "Gálatas",
+      "chapter": 2,
+      "verseStart": 11,
+      "verseEnd": 12
+    },
+    "evidence": "Quando, porém, Pedro veio a Antioquia, enfrentei-o face a face, por sua atitude condenável. Pois, antes de chegarem alguns da parte de Tiago, ele comia com os gentios. Quando, porém, eles chegaram, afastou-se e separou-se dos gentios, temendo os que eram da circuncisão."
+  },
+  {
+    "id": "biblia-nt-050",
+    "prompt": "Mesmo preso em correntes, o que Paulo pede que a comunidade ore por ele?",
+    "choices": [
+      "Que seja reconhecido como superior aos demais irmãos",
+      "Que receba um cargo político de maior importância",
+      "Que anuncie com coragem o mistério do evangelho",
+      "Que pare de falar publicamente sobre o evangelho"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard",
+    "explanation": "Paulo se apresenta como embaixador preso em correntes por causa do evangelho. Pede oração para receber a mensagem e torná-la conhecida com coragem, como lhe cabia fazer.",
+    "source": {
+      "sourceId": "nt",
+      "page": 199,
+      "bookId": "efesios",
+      "bookName": "Efésios",
+      "chapter": 6,
+      "verseStart": 19,
+      "verseEnd": 20
+    },
+    "evidence": "Orem também por mim, para que, quando eu falar, seja-me dada a mensagem a fim de que, destemidamente, torne conhecido o mistério do evangelho, pelo qual sou embaixador preso em correntes. Orem para que, permanecendo nele, eu fale com coragem, como me cumpre fazer."
+  },
+  {
+    "id": "biblia-nt-051",
+    "prompt": "Que conjunto de vínculos Paulo usa ao apresentar Epafrodito?",
+    "choices": [
+      "Governador, cobrador de impostos e juiz",
+      "Irmão, cooperador e companheiro de lutas",
+      "Escriba, sacerdote e chefe da sinagoga",
+      "Pescador, soldado romano e centurião"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard",
+    "explanation": "Paulo chama Epafrodito de irmão, cooperador e companheiro de lutas. Também o identifica como o mensageiro enviado pelos filipenses para atender às suas necessidades.",
+    "source": {
+      "sourceId": "nt",
+      "page": 201,
+      "bookId": "filipenses",
+      "bookName": "Filipenses",
+      "chapter": 2,
+      "verseStart": 25,
+      "verseEnd": 25
+    },
+    "evidence": "Contudo, penso que será necessário enviar-lhes de volta Epafrodito, meu irmão, cooperador e companheiro de lutas, mensageiro que vocês enviaram para atender às minhas necessidades."
+  },
+  {
+    "id": "biblia-nt-052",
+    "prompt": "Na saudação de Colossenses 4:14, quem envia cumprimentos junto com Lucas?",
+    "choices": [
+      "Demas",
+      "Tíquico",
+      "Epafras",
+      "Onésimo"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard",
+    "explanation": "Lucas é identificado no versículo como o médico amado. Ele e Demas enviam saudações aos destinatários da carta.",
+    "source": {
+      "sourceId": "nt",
+      "page": 207,
+      "bookId": "colossenses",
+      "bookName": "Colossenses",
+      "chapter": 4,
+      "verseStart": 14,
+      "verseEnd": 14
+    },
+    "evidence": "Lucas, o médico amado, e Demas enviam saudações."
+  },
+  {
+    "id": "biblia-nt-053",
+    "prompt": "Como o texto combina respeito pelas profecias com cuidado no discernimento?",
+    "choices": [
+      "Rejeitar toda profecia antes de ouvi-la",
+      "Não desprezar as profecias, examinar tudo e conservar o que é bom",
+      "Dar atenção somente às mensagens mais populares",
+      "Aceitar toda mensagem sem examiná-la"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard",
+    "explanation": "A orientação é não tratar as profecias com desprezo. Ao mesmo tempo, o trecho manda pôr todas as coisas à prova e ficar com o que é bom.",
+    "source": {
+      "sourceId": "nt",
+      "page": 210,
+      "bookId": "1-tessalonicenses",
+      "bookName": "1 Tessalonicenses",
+      "chapter": 5,
+      "verseStart": 20,
+      "verseEnd": 21
+    },
+    "evidence": "Não tratem com desprezo as profecias, mas ponham à prova todas as coisas e fiquem com o que é bom."
+  },
+  {
+    "id": "biblia-nt-054",
+    "prompt": "Por quais dois meios os ensinamentos mencionados haviam chegado aos leitores?",
+    "choices": [
+      "Por inscrições e por sinais no céu",
+      "Por decretos e por moedas",
+      "Por sonhos e por sorteios",
+      "De viva voz e por carta"
+    ],
+    "answerIndex": 3,
+    "difficulty": "hard",
+    "explanation": "O texto orienta os irmãos a permanecer firmes nas tradições que receberam. Especifica que esses ensinamentos foram transmitidos tanto de viva voz quanto por carta.",
+    "source": {
+      "sourceId": "nt",
+      "page": 211,
+      "bookId": "2-tessalonicenses",
+      "bookName": "2 Tessalonicenses",
+      "chapter": 2,
+      "verseStart": 15,
+      "verseEnd": 15
+    },
+    "evidence": "Portanto, irmãos, permaneçam firmes e apeguem-se às tradições que lhes foram ensinadas, quer de viva voz, quer por carta nossa."
+  },
+  {
+    "id": "biblia-nt-055",
+    "prompt": "Que duas imagens aparecem juntas na citação sobre o direito ao sustento?",
+    "choices": [
+      "O boi que debulha e o trabalhador que merece salário",
+      "A árvore com frutos e a lâmpada acesa",
+      "O pescador que lança redes e o rei que cobra imposto",
+      "A ovelha perdida e o filho que volta para casa"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard",
+    "explanation": "O versículo reúne a orientação de não amordaçar o boi enquanto debulha o cereal e a afirmação de que o trabalhador merece seu salário. As duas citações aparecem juntas no texto.",
+    "source": {
+      "sourceId": "nt",
+      "page": 215,
+      "bookId": "1-timoteo",
+      "bookName": "1 Timóteo",
+      "chapter": 5,
+      "verseStart": 18,
+      "verseEnd": 18
+    },
+    "evidence": "pois a Escritura diz: “Não amordace o boi enquanto está debulhando o cereal”, e “o trabalhador merece o seu salário”."
+  },
+  {
+    "id": "biblia-nt-056",
+    "prompt": "Além dos livros e dos pergaminhos, o que Paulo pediu que Timóteo trouxesse?",
+    "choices": [
+      "Uma rede deixada com Pedro, em Cafarnaum",
+      "A capa deixada na casa de Carpo, em Trôade",
+      "Uma bolsa deixada com Silas, em Filipos",
+      "Uma túnica guardada por Tito, em Creta"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard",
+    "explanation": "Paulo pediu a capa que havia deixado na casa de Carpo, em Trôade. Também solicitou seus livros e deu destaque especial aos pergaminhos.",
+    "source": {
+      "sourceId": "nt",
+      "page": 219,
+      "bookId": "2-timoteo",
+      "bookName": "2 Timóteo",
+      "chapter": 4,
+      "verseStart": 13,
+      "verseEnd": 13
+    },
+    "evidence": "Quando você vier, traga a capa que deixei na casa de Carpo, em Trôade, e os meus livros, especialmente os pergaminhos."
+  },
+  {
+    "id": "biblia-nt-057",
+    "prompt": "Por quanto tempo os pais de Moisés o esconderam, segundo Hebreus?",
+    "choices": [
+      "Três meses",
+      "Quarenta dias",
+      "Um ano",
+      "Sete dias"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard",
+    "explanation": "Hebreus diz que os pais esconderam Moisés durante três meses após seu nascimento. Eles perceberam que a criança não era comum e não temeram o decreto do rei.",
+    "source": {
+      "sourceId": "nt",
+      "page": 233,
+      "bookId": "hebreus",
+      "bookName": "Hebreus",
+      "chapter": 11,
+      "verseStart": 23,
+      "verseEnd": 23
+    },
+    "evidence": "Pela fé Moisés, recém-nascido, foi escondido durante três meses por seus pais, pois estes viram que ele não era uma criança comum, e não temeram o decreto do rei."
+  },
+  {
+    "id": "biblia-nt-058",
+    "prompt": "Na sequência de qualidades apresentada em 2 Pedro, o que vem depois do conhecimento?",
+    "choices": [
+      "A fraternidade",
+      "A virtude",
+      "O domínio próprio",
+      "O amor"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard",
+    "explanation": "O trecho pede que se acrescente à fé a virtude e à virtude o conhecimento. Depois do conhecimento vem o domínio próprio, seguido de perseverança, piedade, fraternidade e amor.",
+    "source": {
+      "sourceId": "nt",
+      "page": 245,
+      "bookId": "2-pedro",
+      "bookName": "2 Pedro",
+      "chapter": 1,
+      "verseStart": 5,
+      "verseEnd": 7
+    },
+    "evidence": "Por isso mesmo, empenhem-se para acrescentar à sua fé a virtude; à virtude o conhecimento; ao conhecimento o domínio próprio; ao domínio próprio a perseverança; à perseverança a piedade; à piedade a fraternidade; e à fraternidade o amor."
+  },
+  {
+    "id": "biblia-nt-059",
+    "prompt": "Ao pedir que os leitores amem uns aos outros, como 2 João apresenta esse mandamento?",
+    "choices": [
+      "Como uma instrução criada por quem levava a carta",
+      "Como uma decisão recente daquela comunidade",
+      "Como algo recebido desde o princípio, e não uma novidade",
+      "Como uma regra anunciada somente naquela ocasião"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard",
+    "explanation": "O pedido é que as pessoas amem umas às outras, conforme o mandamento recebido desde o princípio. O texto explica esse amor como andar em obediência aos mandamentos.",
+    "source": {
+      "sourceId": "nt",
+      "page": 252,
+      "bookId": "2-joao",
+      "bookName": "2 João",
+      "chapter": 1,
+      "verseStart": 5,
+      "verseEnd": 6
+    },
+    "evidence": "E agora eu lhe peço, senhora — não como se estivesse escrevendo um mandamento novo, mas o que já tínhamos desde o princípio — que amemos uns aos outros. E este é o amor: que andemos em obediência aos seus mandamentos. Como vocês já têm ouvido desde o princípio, o mandamento é este: Que vocês andem em amor."
+  },
+  {
+    "id": "biblia-nt-060",
+    "prompt": "Além de se recusar a receber os irmãos, o que Diótrefes fazia com quem desejava acolhê-los?",
+    "choices": [
+      "Pedia que aguardassem uma autorização por carta",
+      "Exigia que lhe entregassem uma contribuição em dinheiro",
+      "Encaminhava essas pessoas a uma comunidade vizinha",
+      "Impedia a acolhida e expulsava essas pessoas da igreja"
+    ],
+    "answerIndex": 3,
+    "difficulty": "hard",
+    "explanation": "Diótrefes é descrito como alguém que gosta de ser o mais importante. O texto também critica suas palavras maldosas e afirma que ele impede quem deseja receber os irmãos, expulsando essas pessoas da igreja.",
+    "source": {
+      "sourceId": "nt",
+      "page": 253,
+      "bookId": "3-joao",
+      "bookName": "3 João",
+      "chapter": 1,
+      "verseStart": 9,
+      "verseEnd": 10
+    },
+    "evidence": "Escrevi à igreja, mas Diótrefes, que gosta muito de ser o mais importante entre eles, não nos recebe. Portanto, se eu for, chamarei a atenção dele para o que está fazendo com suas palavras maldosas contra nós. Não satisfeito com isso, ele se recusa a receber os irmãos, impede os que desejam recebê-los e os expulsa da igreja."
+  }
+]

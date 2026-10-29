@@ -20,7 +20,7 @@ Não existe imagem de página inteira como alternativa automática. Uma figura q
 
 O OCR da prosa mascara somente as figuras e usa regiões de leitura conferidas para não misturar colunas. A introdução e a prosa de Gênesis na Parte 2 possuem transcrição manual conferida. Os onze cabeçalhos dessa parte têm descrições de dados e cronologia conferidas no original. Outras conversões automáticas preservam seus avisos e podem exigir revisão editorial.
 
-`readingText` reúne a prosa e as descrições acessíveis disponíveis, respeitando os avisos de revisão. Os campos originais `body` e as fontes ficam preservados para auditoria. Imagens têm descrições, ampliação, teclado e acesso ao PDF. As seções ainda em conferência não são narradas como conteúdo confirmado. As explicações dos quizzes são resumos conferidos nas páginas indicadas; perguntas, alternativas e gabaritos permanecem iguais.
+`readingText` reúne a prosa e as descrições acessíveis disponíveis, respeitando os avisos de revisão. Os campos originais `body` e as fontes ficam preservados para auditoria. Imagens têm descrições, ampliação, teclado e acesso ao PDF. As seções ainda em conferência não são narradas como conteúdo confirmado. A ampliação e a revisão dos quizzes estão documentadas em [quizzes.md](quizzes.md); o histórico conserva as perguntas e os gabaritos da versão respondida.
 
 ## Reprodução e verificação
 

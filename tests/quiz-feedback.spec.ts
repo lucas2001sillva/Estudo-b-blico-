@@ -30,7 +30,7 @@ test('quiz explica acerto e erro com resumo, áudio e fonte correta na resposta,
   await captureSpeech(page);
   await page.goto('/#quiz');
   const { studies }: Catalog = await (await page.request.get('/api/catalog')).json();
-  const quiz = studies.quizzes.find(item => item.questions.length === 2 && item.questions[0].source.page !== item.questions[1].source.page);
+  const quiz = studies.quizzes.find(item => item.questions.length >= 2 && item.questions[0].source.page !== item.questions[1].source.page);
   expect(quiz).toBeTruthy();
   if (!quiz) return;
   await page.locator('.quiz-catalog-card').filter({ has: page.getByRole('heading', { name: quiz.title, exact: true }) }).click();
@@ -60,7 +60,7 @@ test('quiz explica acerto e erro com resumo, áudio e fonte correta na resposta,
     await page.getByRole('button', { name: index === quiz.questions.length - 1 ? 'Ver resultado' : 'Próxima pergunta', exact: true }).click();
   }
 
-  await expect(page.locator('.quiz-score')).toHaveText(/1\s*\/\s*2/);
+  await expect(page.locator('.quiz-score')).toHaveText(new RegExp(`${quiz.questions.length - 1}\\s*/\\s*${quiz.questions.length}`));
   const review = page.locator('.quiz-result-review .quiz-review-item');
   await expect(review).toHaveCount(quiz.questions.length);
   for (const [index, question] of quiz.questions.entries()) await expectExplanation(review.nth(index), question, studies);

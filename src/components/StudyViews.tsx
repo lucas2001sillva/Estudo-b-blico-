@@ -4,9 +4,10 @@ import {
   CircleHelp, FileText, Headphones, RotateCcw, Route, Search, Sparkles,
   Trophy, Volume2,
 } from 'lucide-react';
-import type { Lesson, ProgressState, Question, Quiz, QuizAttempt, StatePatch, Studies, StudySection } from '../types';
+import type { Difficulty, Lesson, ProgressState, Question, Quiz, QuizAttempt, StatePatch, Studies, StudySection } from '../types';
 import { StudyVisual } from './StudyVisual';
 import '../styles/studies.css';
+import '../styles/quiz-catalog.css';
 
 interface SharedProps {
   studies: Studies;
@@ -20,6 +21,7 @@ interface StudiesProps extends SharedProps {
 }
 
 interface QuizProps extends SharedProps {
+  bibleQuizzes?: Quiz[];
   selectedQuizId: string | null;
   onSelectQuiz: (id: string) => void;
 }
@@ -27,6 +29,47 @@ interface QuizProps extends SharedProps {
 const normalize = (value: string) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('pt-BR');
 const sourceUrl = (id: string, page: number) => `/api/sources/${encodeURIComponent(id)}#page=${page}`;
 const createAttemptId = () => globalThis.crypto?.randomUUID?.() ?? `quiz-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+const difficultyLabels: Record<Difficulty, string> = { easy: 'Fácil', medium: 'Médio', hard: 'Difícil' };
+
+function revealContent(focusTarget: () => HTMLElement | null, scrollTarget = focusTarget) {
+  // Wait for the selected collection to render before moving focus. Typing in
+  // search never calls this helper; navigation happens only on an explicit choice.
+  window.requestAnimationFrame(() => {
+    const target = focusTarget();
+    const scroll = scrollTarget();
+    if (!target || !scroll) return;
+    target.focus({ preventScroll: true });
+    scroll.scrollIntoView({ block: 'start', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+  });
+}
+
+function quizForAttempt(quiz: Quiz, attempt: QuizAttempt): Quiz | null {
+  const candidates = [quiz, ...(quiz.previousVersions ?? []).map(version => ({ ...quiz, questions: version.questions, revision: version.revision, previousVersions: undefined }))]
+    .filter(version => version.questions.length === attempt.total && (attempt.quizRevision === undefined || (version.revision ?? 1) === attempt.quizRevision));
+  return candidates.length === 1 ? candidates[0] : null;
+}
+
+function currentQuizAttempt(quiz: Quiz, attempt: QuizAttempt) {
+  const version = quizForAttempt(quiz, attempt);
+  return version !== null && (version.revision ?? 1) === (quiz.revision ?? 1);
+}
+
+function bibleQuestionReference(question: Question) {
+  const { bookId, bookName, chapter, verseStart, verseEnd } = question.source;
+  return bookId && bookName && chapter && verseStart ? `${bookName} ${chapter}:${verseStart}${verseEnd && verseEnd !== verseStart ? `–${verseEnd}` : ''}` : '';
+}
+
+function questionSourceTitle(question: Question, studies: Studies) {
+  if (question.source.sourceId === 'at') return 'Bíblia NVI — Antigo Testamento';
+  if (question.source.sourceId === 'nt') return 'Bíblia NVI — Novo Testamento';
+  return studies.sources.find(source => source.id === question.source.sourceId)?.title ?? 'PDF de estudo';
+}
+
+function questionExplanationSpeech(question: Question, studies: Studies) {
+  const reference = bibleQuestionReference(question);
+  const pages = question.source.pages ?? [question.source.page];
+  return `Resposta correta: ${question.choices[question.answerIndex]}. ${question.explanation} ${reference ? `Passagem: ${reference}. ` : ''}Fonte: ${questionSourceTitle(question, studies)}, ${pages.length > 1 ? `páginas ${pages.join(' e ')}` : `página ${pages[0]}`}.`;
+}
 
 function ProgressBar({ value, total, label }: { value: number; total: number; label: string }) {
   const percentage = total ? Math.round(value / total * 100) : 0;
@@ -40,14 +83,15 @@ function ProgressBar({ value, total, label }: { value: number; total: number; la
   );
 }
 
-function SourceLink({ id, page, title, compact = false }: { id: string; page: number; title?: string; compact?: boolean }) {
-  return (
+function SourceLink({ id, page, pages = [page], title, compact = false }: { id: string; page: number; pages?: number[]; title?: string; compact?: boolean }) {
+  return (<>
     <a className="study-source-link" href={sourceUrl(id, page)} target="_blank" rel="noopener noreferrer">
       <FileText size={15} aria-hidden="true" />
-      {!compact && (title ? `${title} · ` : 'PDF de consulta · ')}p. {page}
+      {!compact && (title ? `${title} · ` : 'PDF de consulta · ')}{pages.length > 1 ? 'pp.' : 'p.'} {pages.join(', ')}
       <span className="study-sr-only"> — abre o PDF em outra aba</span>
     </a>
-  );
+    {pages.length > 1 && <span className="quiz-source-pages">{pages.slice(1).map(number => <a className="quiz-source-page-link" key={number} href={sourceUrl(id, number)} target="_blank" rel="noopener noreferrer">Ir à página {number}<span className="study-sr-only"> do PDF — abre em outra aba</span></a>)}</span>}
+  </>);
 }
 
 function sectionReadingText(section: StudySection) {
@@ -73,9 +117,11 @@ function lessonSpeech(lesson: Lesson) {
 }
 
 function QuizExplanation({ question, studies }: { question: Question; studies: Studies }) {
+  const reference = bibleQuestionReference(question);
   return <>
-    <p className="quiz-explanation"><strong>Resumo do material:</strong> {question.explanation}</p>
-    <SourceLink id={question.source.sourceId} page={question.source.page} title={studies.sources.find(source => source.id === question.source.sourceId)?.title} />
+    <p className="quiz-explanation"><strong>{reference ? 'Resumo da passagem:' : 'Resumo do material:'}</strong> {question.explanation}</p>
+    {reference && <a className="quiz-bible-reference" href={`#biblia?livro=${encodeURIComponent(question.source.bookId!)}&capitulo=${question.source.chapter}&versiculo=${question.source.verseStart}`} target="_blank" rel="noopener noreferrer"><BookOpen size={16} aria-hidden="true" />Ler {reference} na Bíblia<span className="study-sr-only"> — abre a Bíblia em outra aba</span></a>}
+    <SourceLink id={question.source.sourceId} page={question.source.page} pages={question.source.pages} title={questionSourceTitle(question, studies)} />
   </>;
 }
 
@@ -100,10 +146,14 @@ function QuizHistory({ quiz, attempts, studies }: { quiz: Quiz; attempts: QuizAt
     <summary><span>Suas tentativas <span className="quiz-history-count">{attempts.length}</span></span><ChevronRight size={17} aria-hidden="true" /></summary>
     {isOpen && <div className="quiz-history-list">
       <p className="quiz-history-intro muted">Abra uma tentativa para rever suas respostas e as referências do material.</p>
-      {sorted.slice(0, limit).map(attempt => <details className="quiz-history-attempt" key={attempt.id}>
+      {sorted.slice(0, limit).map(attempt => {
+        const version = quizForAttempt(quiz, attempt);
+        const previous = version && (version.revision ?? 1) !== (quiz.revision ?? 1);
+        return <details className="quiz-history-attempt" key={attempt.id}>
         <summary><strong>{attempt.score} de {attempt.total}</strong><time dateTime={attempt.createdAt}>{displayDate(attempt.createdAt)}</time><ChevronRight size={15} aria-hidden="true" /></summary>
-        <div className="quiz-history-answers">{attempt.answers?.length === quiz.questions.length ? <AnswerReview quiz={quiz} answers={attempt.answers} studies={studies} /> : <p className="muted">Esta tentativa registra apenas a pontuação.</p>}</div>
-      </details>)}
+        <div className="quiz-history-answers">{previous && <p className="quiz-version-note">Versão anterior: esta tentativa conserva as perguntas respondidas na época.</p>}{version && attempt.answers?.length === version.questions.length ? <AnswerReview quiz={version} answers={attempt.answers} studies={studies} /> : <p className="muted">Esta tentativa registra apenas a pontuação.</p>}</div>
+      </details>;
+      })}
       {sorted.length > limit && <button className="button button-ghost quiz-show-history" onClick={() => setLimit(value => value + 5)}>Mostrar mais tentativas <span>({sorted.length - limit})</span></button>}
     </div>}
   </details>;
@@ -114,8 +164,12 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
   const [selectedLessonId, setSelectedLessonId] = useState<string | null>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
   const libraryHeadingRef = useRef<HTMLHeadingElement>(null);
+  const resultsHeadingRef = useRef<HTMLHeadingElement>(null);
+  const trailsHeadingRef = useRef<HTMLHeadingElement>(null);
+  const readerStartRef = useRef<HTMLDivElement>(null);
   const previousLessonIdRef = useRef<string | null>(null);
   const searchId = useId();
+  const resultCountId = useId();
   const selectedLesson = studies.lessons.find(lesson => lesson.id === selectedLessonId);
   const selectedTrail = studies.trails.find(trail => trail.id === progress.selectedTrailId);
   const completedCount = studies.lessons.filter(lesson => progress.completedLessons[lesson.id]).length;
@@ -128,10 +182,15 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
   }, [studies.lessons, selectedTrail, query]);
 
   useEffect(() => {
-    if (selectedLessonId) headingRef.current?.focus();
-    else if (previousLessonIdRef.current) libraryHeadingRef.current?.focus();
+    if (selectedLessonId) revealContent(() => headingRef.current, () => readerStartRef.current);
+    else if (previousLessonIdRef.current || selectedTrail) revealContent(() => resultsHeadingRef.current);
     previousLessonIdRef.current = selectedLessonId;
   }, [selectedLessonId]);
+
+  const selectTrail = (id: string | null) => {
+    onPatch({ selectedTrailId: id });
+    revealContent(() => resultsHeadingRef.current);
+  };
 
   const openLesson = (id: string) => {
     setSelectedLessonId(id);
@@ -147,7 +206,7 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
     const hasReviewNotice = selectedLesson.sections.some(section => section.reviewStatus === 'needs-review');
 
     return (
-      <div className="study-reader-page">
+      <div className="study-reader-page" ref={readerStartRef}>
         <button className="button button-ghost study-back" onClick={() => setSelectedLessonId(null)}>
           <ArrowLeft size={17} aria-hidden="true" /> Voltar aos estudos
         </button>
@@ -274,12 +333,12 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
       </header>
 
       <section aria-labelledby="study-trails-heading" className="study-trails-section">
-        <div className="study-section-heading"><div><h2 id="study-trails-heading">Escolha sua trilha</h2><p className="muted">Uma sugestão para começar. Liberdade para seguir por onde quiser.</p></div><button className="button button-ghost" onClick={() => onPatch({ selectedTrailId: null })} aria-pressed={!selectedTrail}>Ver todas <ArrowRight size={16} aria-hidden="true" /></button></div>
+        <div className="study-section-heading"><div><h2 id="study-trails-heading" ref={trailsHeadingRef} tabIndex={-1}>Escolha sua trilha</h2><p className="muted">Uma sugestão para começar. Liberdade para seguir por onde quiser.</p></div><button className="button button-ghost" onClick={() => selectTrail(null)} aria-pressed={!selectedTrail}>Ver todas <ArrowRight size={16} aria-hidden="true" /></button></div>
         <div className="study-trail-grid">
           {studies.trails.map((trail, index) => {
             const count = trail.lessonIds.filter(id => progress.completedLessons[id]).length;
             const active = selectedTrail?.id === trail.id;
-            return <button key={trail.id} className={`card study-trail-card ${trail.recommended ? 'is-recommended' : ''} ${active ? 'is-selected' : ''}`} onClick={() => onPatch({ selectedTrailId: active ? null : trail.id })} aria-pressed={active}>
+            return <button key={trail.id} className={`card study-trail-card ${trail.recommended ? 'is-recommended' : ''} ${active ? 'is-selected' : ''}`} onClick={() => selectTrail(active ? null : trail.id)} aria-pressed={active}>
               <div className="study-trail-card-top"><span className="study-icon">{trail.recommended ? <Sparkles size={23} aria-hidden="true" /> : index % 2 ? <BookOpen size={23} aria-hidden="true" /> : <Route size={23} aria-hidden="true" />}</span>{trail.recommended && <span className="badge">Comece por aqui</span>}{active && <Check size={19} aria-label="Trilha selecionada" />}</div>
               <h3>{trail.title}</h3><p className="muted">{trail.description}</p>
               <div className="study-trail-count">{trail.lessonIds.length} {trail.lessonIds.length === 1 ? 'estudo' : 'estudos'}<span>{count} {count === 1 ? 'concluído' : 'concluídos'}</span></div>
@@ -291,10 +350,11 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
 
       <section className="study-library" aria-labelledby="study-library-heading">
         <div className="study-library-toolbar">
-          <div><span className="eyebrow">Biblioteca de estudos</span><h2 id="study-library-heading">{selectedTrail ? selectedTrail.title : 'Encontre seu próximo assunto'}</h2></div>
-          <div className="study-search"><Search size={18} aria-hidden="true" /><label htmlFor={searchId} className="study-sr-only">Buscar assunto nos estudos</label><input id={searchId} type="search" placeholder="Buscar um assunto…" value={query} onChange={event => setQuery(event.target.value)} /></div>
+          <div><span className="eyebrow">Biblioteca de estudos</span><h2 id="study-library-heading" ref={resultsHeadingRef} tabIndex={-1} aria-describedby={resultCountId}>{selectedTrail ? selectedTrail.title : 'Encontre seu próximo assunto'}</h2></div>
+          <button className="button button-secondary study-change-trail" onClick={() => revealContent(() => trailsHeadingRef.current)}><Route size={16} aria-hidden="true" /> Trocar trilha</button>
+          <div className="study-search"><Search size={18} aria-hidden="true" /><label htmlFor={searchId} className="study-sr-only">Buscar assunto nos estudos</label><input id={searchId} type="search" placeholder="Buscar um assunto…" value={query} onChange={event => setQuery(event.target.value)} onKeyDown={event => { if (event.key === 'Enter') { event.preventDefault(); revealContent(() => resultsHeadingRef.current); } }} /></div>
         </div>
-        <p className="study-result-count muted" role="status">{visibleLessons.length} {visibleLessons.length === 1 ? 'estudo disponível' : 'estudos disponíveis'}{query.trim() ? ` para “${query.trim()}”` : ''}</p>
+        <p className="study-result-count muted" role="status" id={resultCountId}>{visibleLessons.length} {visibleLessons.length === 1 ? 'estudo disponível' : 'estudos disponíveis'}{query.trim() ? ` para “${query.trim()}”` : ''}</p>
         <div className="study-lesson-grid">
           {visibleLessons.map(lesson => {
             const complete = !!progress.completedLessons[lesson.id];
@@ -308,51 +368,96 @@ export function StudiesPage({ studies, progress, onPatch, onStartQuiz, onSpeak }
             </button>;
           })}
         </div>
-        {visibleLessons.length === 0 && <div className="empty-state"><Search size={30} aria-hidden="true" /><h3>Nenhum estudo encontrado</h3><p className="muted">Tente outro assunto ou veja todas as trilhas.</p><button className="button button-secondary" onClick={() => { setQuery(''); onPatch({ selectedTrailId: null }); }}>Limpar filtros</button></div>}
+        {visibleLessons.length === 0 && <div className="empty-state"><Search size={30} aria-hidden="true" /><h3>Nenhum estudo encontrado</h3><p className="muted">Tente outro assunto ou veja todas as trilhas.</p><button className="button button-secondary" onClick={() => { setQuery(''); selectTrail(null); }}>Limpar filtros</button></div>}
       </section>
       <div className="study-library-note"><FileText size={19} aria-hidden="true" /><p>Todos os estudos partem dos PDFs enviados. Cada assunto traz a referência das páginas para você consultar a fonte.</p></div>
     </div>
   );
 }
 
-export function QuizPage({ studies, progress, selectedQuizId, onSelectQuiz, onPatch, onSpeak }: QuizProps) {
+export function QuizPage({ studies, bibleQuizzes = [], progress, selectedQuizId, onSelectQuiz, onPatch, onSpeak }: QuizProps) {
   const [query, setQuery] = useState('');
   const [trailFilter, setTrailFilter] = useState('');
+  const [category, setCategory] = useState<'bible' | 'study'>('study');
+  const [difficultyFilter, setDifficultyFilter] = useState<Difficulty | ''>('');
   const catalogHeadingRef = useRef<HTMLHeadingElement>(null);
+  const resultsHeadingRef = useRef<HTMLHeadingElement>(null);
+  const filtersRef = useRef<HTMLDivElement>(null);
+  const filterStartRef = useRef<HTMLDivElement>(null);
   const previousQuizIdRef = useRef<string | null>(null);
+  const previousCategoryRef = useRef<'bible' | 'study'>('study');
   const searchId = useId();
-  const selectedQuiz = studies.quizzes.find(quiz => quiz.id === selectedQuizId);
+  const resultsHeadingId = useId();
+  const resultCountId = useId();
+  const allQuizzes = useMemo(() => [...studies.quizzes, ...bibleQuizzes], [studies.quizzes, bibleQuizzes]);
+  const selectedQuiz = allQuizzes.find(quiz => quiz.id === selectedQuizId);
   useEffect(() => {
-    if (previousQuizIdRef.current && !selectedQuiz) catalogHeadingRef.current?.focus();
+    if (selectedQuiz) previousCategoryRef.current = selectedQuiz.category === 'bible' || bibleQuizzes.some(quiz => quiz.id === selectedQuiz.id) ? 'bible' : 'study';
+    if (previousQuizIdRef.current && !selectedQuiz) {
+      setCategory(previousCategoryRef.current);
+      revealContent(() => resultsHeadingRef.current);
+    }
     previousQuizIdRef.current = selectedQuiz?.id ?? null;
-  }, [selectedQuiz?.id]);
+  }, [selectedQuiz?.id, bibleQuizzes]);
 
   const filteredQuizzes = useMemo(() => {
     const search = normalize(query.trim());
-    return studies.quizzes.filter(quiz => {
+    const items = category === 'bible' ? bibleQuizzes : studies.quizzes;
+    return items.filter(quiz => {
       const lesson = studies.lessons.find(item => item.id === quiz.lessonId);
-      return quiz.questions.length > 0 && (!trailFilter || lesson?.trailId === trailFilter) && (!search || normalize(`${quiz.title} ${lesson?.title ?? ''}`).includes(search));
+      return quiz.questions.length > 0
+        && (category !== 'study' || !trailFilter || lesson?.trailId === trailFilter)
+        && (category !== 'bible' || !difficultyFilter || quiz.difficulty === difficultyFilter)
+        && (!search || normalize(`${quiz.title} ${quiz.description ?? ''} ${lesson?.title ?? ''} ${quiz.questions.map(question => question.source.bookName ?? '').join(' ')}`).includes(search));
     });
-  }, [studies, query, trailFilter]);
+  }, [studies, bibleQuizzes, query, trailFilter, category, difficultyFilter]);
+
+  const selectCategory = (next: 'bible' | 'study') => {
+    setCategory(next); setQuery(''); setTrailFilter(''); setDifficultyFilter('');
+    revealContent(() => resultsHeadingRef.current);
+  };
+  const resultsTitle = category === 'bible'
+    ? `Bíblia · ${difficultyFilter ? difficultyLabels[difficultyFilter] : 'Todos os níveis'}`
+    : trailFilter ? studies.trails.find(trail => trail.id === trailFilter)?.title ?? 'Estudos dos PDFs' : 'Estudos dos PDFs · Todas as trilhas';
 
   if (!selectedQuiz || selectedQuiz.questions.length === 0) {
-    const attemptedQuizIds = new Set(progress.quizAttempts.filter(attempt => studies.quizzes.some(quiz => quiz.id === attempt.quizId && quiz.questions.length > 0)).map(attempt => attempt.quizId));
+    const attemptedQuizIds = new Set(progress.quizAttempts.filter(attempt => allQuizzes.some(quiz => quiz.id === attempt.quizId)).map(attempt => attempt.quizId));
+    const bibleCount = bibleQuizzes.reduce((total, quiz) => total + quiz.questions.length, 0);
+    const studyCount = studies.quizzes.reduce((total, quiz) => total + quiz.questions.length, 0);
     return (
       <div className="quizzes-page">
-        <header className="page-header study-page-header"><div><span className="eyebrow">Praticar para aprender</span><h1 ref={catalogHeadingRef} tabIndex={-1}>O que você descobriu?</h1><p className="muted">Perguntas por assunto, respostas explicadas e quantas tentativas você quiser.</p></div><div className="study-total-counter"><Trophy size={24} aria-hidden="true" /><div><strong>{attemptedQuizIds.size}<span> / {studies.quizzes.filter(quiz => quiz.questions.length > 0).length}</span></strong><small>quizzes experimentados</small></div></div></header>
-        <div className="quiz-welcome card"><span className="study-icon"><CircleHelp size={26} aria-hidden="true" /></span><div><h2>Aqui, errar também faz parte.</h2><p className="muted">Sem cronômetro. Cada resposta é uma oportunidade de voltar ao material e entender um pouco mais.</p></div><span className="badge">No seu ritmo</span></div>
-        <div className="quiz-library-controls"><div className="study-search"><Search size={18} aria-hidden="true" /><label className="study-sr-only" htmlFor={searchId}>Buscar quiz por assunto</label><input id={searchId} type="search" placeholder="Buscar um quiz…" value={query} onChange={event => setQuery(event.target.value)} /></div><label className="quiz-trail-filter">Trilha<select value={trailFilter} onChange={event => setTrailFilter(event.target.value)}><option value="">Todas as trilhas</option>{studies.trails.map(trail => <option key={trail.id} value={trail.id}>{trail.title}</option>)}</select></label></div>
-        <p className="study-result-count muted" role="status">{filteredQuizzes.length} {filteredQuizzes.length === 1 ? 'quiz disponível' : 'quizzes disponíveis'}</p>
+        <header className="page-header study-page-header"><div><span className="eyebrow">Praticar para aprender</span><h1 ref={catalogHeadingRef} tabIndex={-1}>O que você descobriu?</h1><p className="muted">Escolha perguntas da Bíblia ou dos estudos, com respostas explicadas e fontes para conferir.</p></div><div className="study-total-counter"><Trophy size={24} aria-hidden="true" /><div><strong>{attemptedQuizIds.size}<span> / {allQuizzes.filter(quiz => quiz.questions.length > 0).length}</span></strong><small>quizzes experimentados</small></div></div></header>
+        <div className="quiz-category-choices" ref={filterStartRef} role="group" aria-label="Escolher conteúdo do quiz">
+          <button type="button" className={`quiz-category-choice ${category === 'bible' ? 'is-active' : ''}`} aria-pressed={category === 'bible'} onClick={() => selectCategory('bible')}><BookOpen size={25} aria-hidden="true" /><span><strong>Bíblia</strong><small>{bibleCount} perguntas · fácil, médio e difícil</small></span><ChevronRight size={19} aria-hidden="true" /></button>
+          <button type="button" className={`quiz-category-choice ${category === 'study' ? 'is-active' : ''}`} aria-pressed={category === 'study'} onClick={() => selectCategory('study')}><FileText size={25} aria-hidden="true" /><span><strong>Estudos dos PDFs</strong><small>{studyCount} perguntas · por assunto</small></span><ChevronRight size={19} aria-hidden="true" /></button>
+        </div>
+        <div className="quiz-welcome card"><span className="study-icon"><CircleHelp size={26} aria-hidden="true" /></span><div><h2>{category === 'bible' ? 'O que você lembra da Bíblia?' : 'Aqui, errar também faz parte.'}</h2><p className="muted">{category === 'bible' ? 'Comece no nível que preferir. Cada resposta mostra o trecho bíblico e a página do PDF para você conferir.' : 'Sem cronômetro. Cada resposta é uma oportunidade de voltar ao material e entender um pouco mais.'}</p></div><span className="badge">No seu ritmo</span></div>
+        <div className="quiz-library-controls" ref={filtersRef} role="group" aria-label="Filtros do quiz" tabIndex={-1}><div className="study-search"><Search size={18} aria-hidden="true" /><label className="study-sr-only" htmlFor={searchId}>Buscar quiz por assunto</label><input id={searchId} type="search" placeholder={category === 'bible' ? 'Buscar um tema ou livro…' : 'Buscar um quiz…'} value={query} onChange={event => setQuery(event.target.value)} onKeyDown={event => { if (event.key === 'Enter') { event.preventDefault(); revealContent(() => resultsHeadingRef.current); } }} /></div>{category === 'bible' ? <label className="quiz-trail-filter">Nível de dificuldade<select value={difficultyFilter} onChange={event => { setDifficultyFilter(event.target.value as Difficulty | ''); revealContent(() => resultsHeadingRef.current); }}><option value="">Todos os níveis</option><option value="easy">Fácil</option><option value="medium">Médio</option><option value="hard">Difícil</option></select></label> : <label className="quiz-trail-filter">Trilha<select value={trailFilter} onChange={event => { setTrailFilter(event.target.value); revealContent(() => resultsHeadingRef.current); }}><option value="">Todas as trilhas</option>{studies.trails.map(trail => <option key={trail.id} value={trail.id}>{trail.title}</option>)}</select></label>}</div>
+        <section className="quiz-results" aria-labelledby={resultsHeadingId}>
+        <div className="quiz-results-header"><div><span className="eyebrow">Escolha uma rodada</span><h2 id={resultsHeadingId} className="quiz-results-heading" ref={resultsHeadingRef} tabIndex={-1} aria-describedby={resultCountId}>{resultsTitle}</h2></div><button type="button" className="button button-secondary quiz-show-filters" onClick={() => revealContent(() => filtersRef.current?.querySelector<HTMLSelectElement>('select') ?? filtersRef.current, () => filterStartRef.current ?? filtersRef.current)}><Search size={16} aria-hidden="true" /> Ver filtros</button></div>
+        <p className="study-result-count muted" role="status" id={resultCountId}>{filteredQuizzes.length} {filteredQuizzes.length === 1 ? 'quiz disponível' : 'quizzes disponíveis'} · {filteredQuizzes.reduce((total, quiz) => total + quiz.questions.length, 0)} perguntas</p>
         <div className="study-lesson-grid quiz-catalog-grid">
           {filteredQuizzes.map(quiz => {
             const lesson = studies.lessons.find(item => item.id === quiz.lessonId);
             const trail = studies.trails.find(item => item.id === lesson?.trailId);
             const attempts = progress.quizAttempts.filter(attempt => attempt.quizId === quiz.id);
-            const best = attempts.length ? attempts.reduce((previous, current) => current.score / current.total > previous.score / previous.total ? current : previous) : null;
-            return <article className={`quiz-catalog-item ${attempts.length ? 'has-history' : ''}`} key={quiz.id}><button className="card study-lesson-card quiz-catalog-card" onClick={() => onSelectQuiz(quiz.id)}><div className="study-lesson-card-top"><span className="study-card-trail">{trail?.title ?? 'Quiz por assunto'}</span><CircleHelp size={21} aria-hidden="true" /></div><h2>{quiz.title}</h2><p className="muted">{quiz.questions.length} {quiz.questions.length === 1 ? 'pergunta' : 'perguntas'} · sem cronômetro</p><div className="quiz-best-score">{best ? <><Trophy size={16} aria-hidden="true" /><span>Melhor resultado: {best.score} de {best.total}</span></> : <><BookOpen size={16} aria-hidden="true" /><span>Baseado no material de estudo</span></>}</div><div className="study-lesson-card-footer"><span>{attempts.length ? 'Tentar novamente' : 'Começar quiz'}</span><ArrowRight size={18} aria-hidden="true" /></div></button>{attempts.length > 0 && <QuizHistory quiz={quiz} attempts={attempts} studies={studies} />}</article>;
+            const currentAttempts = attempts.filter(attempt => currentQuizAttempt(quiz, attempt));
+            const best = currentAttempts.length ? currentAttempts.reduce((previous, current) => current.score / current.total > previous.score / previous.total ? current : previous) : null;
+            return <article className={`quiz-catalog-item ${attempts.length ? 'has-history' : ''}`} key={quiz.id}>
+              <button className="card study-lesson-card quiz-catalog-card" onClick={() => onSelectQuiz(quiz.id)}>
+                <div className="study-lesson-card-top"><span className="study-card-trail">{category === 'bible' ? 'Bíblia NVI' : trail?.title ?? 'Quiz por assunto'}</span><CircleHelp size={21} aria-hidden="true" /></div>
+                <h2>{quiz.title}</h2>
+                <div className="quiz-card-difficulty">{quiz.difficulty && <span className={`quiz-difficulty quiz-difficulty-${quiz.difficulty}`}>{difficultyLabels[quiz.difficulty]}</span>}<span className="muted">{quiz.questions.length} perguntas · sem cronômetro</span></div>
+                {quiz.description && <p className="muted quiz-card-description">{quiz.description}</p>}
+                <div className="quiz-best-score">{best ? <><Trophy size={16} aria-hidden="true" /><span>Melhor resultado: {best.score} de {best.total}</span></> : <><BookOpen size={16} aria-hidden="true" /><span>{category === 'bible' ? 'Resposta com referência bíblica' : 'Baseado no material de estudo'}</span></>}</div>
+                <div className="study-lesson-card-footer"><span>{currentAttempts.length ? 'Tentar novamente' : 'Começar quiz'}</span><ArrowRight size={18} aria-hidden="true" /></div>
+              </button>
+              {attempts.length > 0 && <QuizHistory quiz={quiz} attempts={attempts} studies={studies} />}
+            </article>;
           })}
         </div>
-        {filteredQuizzes.length === 0 && <div className="empty-state"><CircleHelp size={30} aria-hidden="true" /><h2>Nenhum quiz encontrado</h2><p className="muted">Tente outro assunto ou selecione todas as trilhas.</p><button className="button button-secondary" onClick={() => { setQuery(''); setTrailFilter(''); }}>Limpar filtros</button></div>}
+        {filteredQuizzes.length === 0 && <div className="empty-state"><CircleHelp size={30} aria-hidden="true" /><h2>Nenhum quiz encontrado</h2><p className="muted">Tente outro assunto ou veja todos os níveis.</p><button className="button button-secondary" onClick={() => { setQuery(''); setTrailFilter(''); setDifficultyFilter(''); revealContent(() => resultsHeadingRef.current); }}>Limpar filtros</button></div>}
+        </section>
       </div>
     );
   }
@@ -369,6 +474,7 @@ function QuizSession({ selectedQuiz, studies, onSelectQuiz, onPatch, onSpeak }: 
   const submittedRef = useRef(false);
   const attemptIdRef = useRef(createAttemptId());
   const questionHeading = useRef<HTMLHeadingElement>(null);
+  const sessionStartRef = useRef<HTMLDivElement>(null);
   const questionId = useId();
 
   function resetQuiz() {
@@ -376,7 +482,7 @@ function QuizSession({ selectedQuiz, studies, onSelectQuiz, onPatch, onSpeak }: 
     submittedRef.current = false; attemptIdRef.current = createAttemptId();
   }
 
-  useEffect(() => { questionHeading.current?.focus(); }, [questionIndex, showResult]);
+  useEffect(() => { revealContent(() => questionHeading.current, () => sessionStartRef.current); }, [questionIndex, showResult]);
 
   const lesson = studies.lessons.find(item => item.id === selectedQuiz.lessonId);
   const question = selectedQuiz.questions[questionIndex];
@@ -396,17 +502,17 @@ function QuizSession({ selectedQuiz, studies, onSelectQuiz, onPatch, onSpeak }: 
     }
     if (!submittedRef.current) {
       submittedRef.current = true;
-      onPatch({ quizAttempts: [{ id: attemptIdRef.current, quizId: selectedQuiz.id, score, total, answers: [...answers], createdAt: new Date().toISOString() }] });
+      onPatch({ quizAttempts: [{ id: attemptIdRef.current, quizId: selectedQuiz.id, quizRevision: selectedQuiz.revision ?? 1, score, total, answers: [...answers], createdAt: new Date().toISOString() }] });
     }
     setShowResult(true);
   };
 
   return (
-    <div className="quiz-play-page">
+    <div className="quiz-play-page" ref={sessionStartRef}>
       <button className="button button-ghost study-back" onClick={() => onSelectQuiz('')}><ArrowLeft size={17} aria-hidden="true" /> Todos os quizzes</button>
       <div className="quiz-play-layout">
         <article className="card quiz-play-card">
-          <div className="quiz-play-header"><div><span className="eyebrow">Quiz · {lesson?.title ?? 'Estudo bíblico'}</span><p>{selectedQuiz.title}</p></div><span className="badge"><Headphones size={13} aria-hidden="true" /> Sem pressa</span></div>
+          <div className="quiz-play-header"><div><span className="eyebrow">Quiz · {selectedQuiz.category === 'bible' ? 'Bíblia NVI' : lesson?.title ?? 'Estudo bíblico'}</span><p>{selectedQuiz.title}</p></div><span className="badge"><Headphones size={13} aria-hidden="true" /> Sem pressa</span></div>
           {showResult ? (
             <div className="quiz-result">
               <span className="quiz-result-icon"><Trophy size={38} aria-hidden="true" /></span>
@@ -419,15 +525,16 @@ function QuizSession({ selectedQuiz, studies, onSelectQuiz, onPatch, onSpeak }: 
             </div>
           ) : (
             <>
+              {question.difficulty && <span className={`quiz-difficulty quiz-difficulty-${question.difficulty}`}>{difficultyLabels[question.difficulty]}</span>}
               <div className="quiz-question-progress"><span>Pergunta {questionIndex + 1} de {total}</span><ProgressBar value={questionIndex + (confirmed ? 1 : 0)} total={total} label="Progresso deste quiz" /></div>
-              <div className="quiz-question-title"><h1 id={questionId} ref={questionHeading} tabIndex={-1}>{question.prompt}</h1><button className="button button-ghost quiz-listen" aria-label="Ouvir pergunta e alternativas" onClick={() => onSpeak([question.prompt, ...question.choices.map((choice, index) => `${String.fromCharCode(65 + index)}. ${choice}`), ...(confirmed ? [`Resposta correta: ${question.choices[question.answerIndex]}. ${question.explanation} Fonte: ${studies.sources.find(source => source.id === question.source.sourceId)?.title ?? 'PDF de estudo'}, página ${question.source.page}.`] : [])].join('\n'))}><Volume2 size={21} aria-hidden="true" /></button></div>
+              <div className="quiz-question-title"><h1 id={questionId} ref={questionHeading} tabIndex={-1}>{question.prompt}</h1><button className="button button-ghost quiz-listen" aria-label="Ouvir pergunta e alternativas" onClick={() => onSpeak([question.prompt, ...question.choices.map((choice, index) => `${String.fromCharCode(65 + index)}. ${choice}`), ...(confirmed ? [questionExplanationSpeech(question, studies)] : [])].join('\n'))}><Volume2 size={21} aria-hidden="true" /></button></div>
               <fieldset className="quiz-options" aria-labelledby={questionId}><legend className="study-sr-only">Escolha uma resposta</legend>{question.choices.map((choice, index) => {
                 const isSelected = selectedChoice === index;
                 const isCorrect = confirmed && index === question.answerIndex;
                 const isIncorrect = confirmed && isSelected && index !== question.answerIndex;
                 return <label className={`quiz-choice ${isSelected ? 'is-selected' : ''} ${isCorrect ? 'is-correct' : ''} ${isIncorrect ? 'is-incorrect' : ''} ${confirmed ? 'is-locked' : ''}`} key={index}><input type="radio" name={`${questionId}-choice`} value={index} checked={isSelected} disabled={confirmed} onChange={() => setSelectedChoice(index)} /><span className="quiz-choice-letter" aria-hidden="true">{String.fromCharCode(65 + index)}</span><span className="quiz-choice-text">{choice}</span>{isCorrect && <CheckCircle2 size={19} aria-label="Resposta correta" />}{isIncorrect && <span className="quiz-answer-label">Sua resposta</span>}</label>;
               })}</fieldset>
-              <div className="quiz-feedback-slot" aria-live="polite" aria-atomic="true">{confirmed && <section className={`quiz-feedback ${selectedChoice === question.answerIndex ? 'is-correct' : 'is-incorrect'}`}><h2>{selectedChoice === question.answerIndex ? <><CheckCircle2 size={19} aria-hidden="true" /> Isso mesmo!</> : <><CircleHelp size={19} aria-hidden="true" /> Vamos entender juntos</>}</h2><p><strong>Resposta correta:</strong> {question.choices[question.answerIndex]}</p><QuizExplanation question={question} studies={studies} /><button className="button button-ghost" onClick={() => onSpeak(`Resposta correta: ${question.choices[question.answerIndex]}. ${question.explanation} Fonte: ${studies.sources.find(source => source.id === question.source.sourceId)?.title ?? 'PDF de estudo'}, página ${question.source.page}.`)}><Volume2 size={17} aria-hidden="true" /> Ouvir explicação da resposta</button></section>}</div>
+              <div className="quiz-feedback-slot" aria-live="polite" aria-atomic="true">{confirmed && <section className={`quiz-feedback ${selectedChoice === question.answerIndex ? 'is-correct' : 'is-incorrect'}`}><h2>{selectedChoice === question.answerIndex ? <><CheckCircle2 size={19} aria-hidden="true" /> Isso mesmo!</> : <><CircleHelp size={19} aria-hidden="true" /> Vamos entender juntos</>}</h2><p><strong>Resposta correta:</strong> {question.choices[question.answerIndex]}</p><QuizExplanation question={question} studies={studies} /><button className="button button-ghost" onClick={() => onSpeak(questionExplanationSpeech(question, studies))}><Volume2 size={17} aria-hidden="true" /> Ouvir explicação da resposta</button></section>}</div>
               <div className="quiz-action-row"><span className="muted">{confirmed ? 'Leia a explicação antes de continuar.' : 'Escolha uma alternativa para continuar.'}</span>{confirmed ? <button className="button button-primary" onClick={advance}>{questionIndex === total - 1 ? 'Ver resultado' : 'Próxima pergunta'} <ArrowRight size={17} aria-hidden="true" /></button> : <button className="button button-primary" onClick={confirmAnswer} disabled={selectedChoice === null}>Confirmar resposta <Check size={17} aria-hidden="true" /></button>}</div>
             </>
           )}

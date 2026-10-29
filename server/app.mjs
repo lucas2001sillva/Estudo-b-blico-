@@ -1,6 +1,7 @@
 import express from 'express';
 import { rateLimit } from 'express-rate-limit';
 import { createDatabase } from './database.mjs';
+import { resolveQuizVersion } from './quiz-versions.mjs';
 import { randomBytes, randomUUID, scrypt as scryptCallback, timingSafeEqual, createHash } from 'node:crypto';
 import { promisify } from 'node:util';
 import { readFileSync, existsSync } from 'node:fs';
@@ -96,12 +97,14 @@ export async function createApp({
   const bible = JSON.parse(readFileSync(path.join(dataDir, 'bible.json'), 'utf8'));
   const studies = JSON.parse(readFileSync(path.join(dataDir, 'studies.json'), 'utf8'));
   const passages = JSON.parse(readFileSync(path.join(dataDir, 'passages.json'), 'utf8'));
+  const bibleQuizFile = path.join(dataDir, 'bible-quizzes.json');
+  const bibleQuizzes = existsSync(bibleQuizFile) ? JSON.parse(readFileSync(bibleQuizFile, 'utf8')) : [];
   const booksById = new Map(bible.books.map(book => [book.id, book]));
   const bookAliases = new Map();
   const chapterIds = new Set();
   const lessonIds = new Set(studies.lessons.map(lesson => lesson.id));
   const trailIds = new Set(studies.trails.map(trail => trail.id));
-  const quizzesById = new Map(studies.quizzes.map(quiz => [quiz.id, quiz]));
+  const quizzesById = new Map([...studies.quizzes, ...bibleQuizzes].map(quiz => [quiz.id, quiz]));
   const searchableVerses = [];
   for (const book of bible.books) {
     for (const alias of [book.id, book.name, book.abbreviation]) bookAliases.set(bookKey(alias), book);
@@ -290,15 +293,16 @@ export async function createApp({
       if (!Array.isArray(body.quizAttempts) || body.quizAttempts.length > 500) fail(400, 'Resultados do quiz inválidos.');
       patch.quizAttempts = body.quizAttempts.map(attempt => {
         const quiz = isObject(attempt) && quizzesById.get(attempt.quizId);
-        if (!quiz || typeof attempt.id !== 'string' || !/^[a-zA-Z0-9_-]{8,100}$/.test(attempt.id) || !Number.isInteger(attempt.total) || attempt.total !== quiz.questions.length || !Number.isInteger(attempt.score) || attempt.score < 0 || attempt.score > attempt.total || typeof attempt.createdAt !== 'string' || !Number.isFinite(Date.parse(attempt.createdAt))) fail(400, 'Resultado de quiz inválido.');
+        const version = resolveQuizVersion(quiz, attempt);
+        if (!version || typeof attempt.id !== 'string' || !/^[a-zA-Z0-9_-]{8,100}$/.test(attempt.id) || !Number.isInteger(attempt.score) || attempt.score < 0 || attempt.score > attempt.total || typeof attempt.createdAt !== 'string' || !Number.isFinite(Date.parse(attempt.createdAt))) fail(400, 'Resultado de quiz inválido.');
         let answers;
         if (Object.hasOwn(attempt, 'answers')) {
-          if (!Array.isArray(attempt.answers) || attempt.answers.length !== quiz.questions.length || attempt.answers.some((answer, index) => !Number.isInteger(answer) || answer < 0 || answer >= quiz.questions[index].choices.length)) fail(400, 'Respostas do quiz inválidas.');
-          const score = attempt.answers.reduce((total, answer, index) => total + Number(answer === quiz.questions[index].answerIndex), 0);
+          if (!Array.isArray(attempt.answers) || attempt.answers.length !== version.questions.length || attempt.answers.some((answer, index) => !Number.isInteger(answer) || answer < 0 || answer >= version.questions[index].choices.length)) fail(400, 'Respostas do quiz inválidas.');
+          const score = attempt.answers.reduce((total, answer, index) => total + Number(answer === version.questions[index].answerIndex), 0);
           if (score !== attempt.score) fail(400, 'A pontuação não corresponde às respostas do quiz.');
           answers = [...attempt.answers];
         }
-        return { id: attempt.id, quizId: quiz.id, score: attempt.score, total: attempt.total, createdAt: new Date(attempt.createdAt).toISOString(), ...(answers ? { answers } : {}) };
+        return { id: attempt.id, quizId: quiz.id, quizRevision: version.revision, score: attempt.score, total: attempt.total, createdAt: new Date(attempt.createdAt).toISOString(), ...(answers ? { answers } : {}) };
       });
     }
     return patch;
@@ -329,6 +333,7 @@ export async function createApp({
       books: bible.books.map(book => ({ id: book.id, name: book.name, abbreviation: book.abbreviation, testament: book.testament, chapterCount: book.chapters.length })),
       studies,
       passages,
+      bibleQuizzes,
     });
   });
 

@@ -72,6 +72,8 @@ Não salve o banco de produção, senhas ou outros valores secretos no repositó
 
 Os conteúdos vêm exclusivamente dos sete PDFs enviados. O texto bíblico não foi simplificado. Resumos dos estudos e perguntas são vinculados às páginas que os fundamentam.
 
+O quiz separa Bíblia e estudos dos PDFs. São 120 perguntas bíblicas (40 fáceis, 40 médias e 40 difíceis) e 112 perguntas nos 14 quizzes de estudo. As referências e explicações passaram por auditoria direta nos PDFs e revisão independente. O histórico conserva as versões anteriores dos quizzes. Veja [quizzes.md](docs/quizzes.md) para fontes, critérios e reprodução das verificações.
+
 As auditorias estão em `content/bible-audit.json` e `content/study-audit.json`. Elas registram verificações, hashes dos arquivos e limitações. A importação e a amostragem não substituem uma revisão editorial integral.
 
 Parte dos estudos contém tabelas e páginas em imagem. O site distingue texto extraído, texto convertido por OCR e trechos que ainda exigem revisão. Os trechos reconhecidamente ilegíveis ou inconsistentes não são usados para formular gabaritos. Há acesso às páginas dos PDFs de consulta; essas cópias ocultam campos pessoais sobrepostos e metadados identificadores, preservando o conteúdo educacional e os avisos editoriais. Os uploads originais permanecem intactos no diretório de anexos.
