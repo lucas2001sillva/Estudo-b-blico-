@@ -12,6 +12,14 @@
 - `node scripts/check-remote-database.mjs`: integração HTTP libSQL passou com duas APIs, concorrência, quiz, indisponibilidade e reinicialização sem fallback local. Contêiner e volume temporários foram removidos. Este teste não utiliza credenciais do Turso hospedado.
 - O servidor exclusivo dos testes de navegador utiliza SQLite temporário e desativa limites de frequência apenas nesse processo de testes. Os limites de produção permanecem ativos e possuem testes próprios em `security.test.mjs`.
 
+### Conferência autenticada da hospedagem
+
+Em 29/10/2026, a versão `8a7ab81` foi conferida em <https://estudo-b-blico.onrender.com/>, servindo `/assets/index-D3HVkCk0.js`. Foi utilizada uma única conta técnica sem dados pessoais; nenhuma conta existente foi acessada.
+
+Cadastro e login retornaram conta, progresso e revisão confirmados. Um capítulo, a posição em João 3:17, uma trilha, um estudo e oito respostas de quiz foram salvos pelo serviço hospedado. Tema escuro e fonte de 22 pixels persistiram após recarregar e sair/entrar novamente. Um segundo contexto independente de navegador, com largura de 390 pixels, restaurou os mesmos dados; a reversão do capítulo no celular chegou ao primeiro dispositivo e a reversão do estudo também persistiu. Não houve duplicação da tentativa nem erros de JavaScript. O cookie foi confirmado como `HttpOnly`, `Secure` e `SameSite=Lax`; o logout pela página “Meu progresso” encerrou as duas sessões e o estado privado voltou a responder 401.
+
+O transporte usou Node com CA confiável e TLS verificado para intermediar o proxy do ambiente, preservando métodos, corpo, cookies, origem e CSP no Chromium. Essa verificação comprova os fluxos autenticados examinados na hospedagem; não cobre restauração de backup nem reinicialização forçada do serviço de produção. A conta técnica e uma tentativa de quiz permanecem no banco, pois não existe endpoint de exclusão; todas as sessões de teste foram encerradas. Credenciais foram mantidas apenas em memória, fora dos relatórios e do repositório. Relatório e capturas sanitizadas: `/workspace/artifacts/auth-progress-production/`.
+
 Os registros abaixo preservam as verificações anteriores, com suas datas e limites de escopo.
 
 ## Primeira versão
@@ -84,4 +92,4 @@ A saída de áudio não foi validada auditivamente. As vozes disponíveis depend
 - O histórico autenticado não é mantido em `localStorage`. Alterações privadas ainda não sincronizadas ficam na aba em `sessionStorage`; fechar essa aba antes da sincronização pode perdê-las. O site avisa quando a sincronização está indisponível.
 - A fila local de progresso não oferece leitura completa sem internet.
 
-A restauração em uma tarefa nova do ambiente de desenvolvimento e os fluxos autenticados no serviço hospedado permanecem sem validação. Os resultados locais de integração e de navegador não substituem essas verificações em produção.
+A restauração em uma tarefa nova do ambiente de desenvolvimento permanece sem validação. Os fluxos autenticados no serviço hospedado foram conferidos em 29/10/2026, com o escopo descrito acima; os testes locais e essa conferência não substituem uma restauração real de backup.
